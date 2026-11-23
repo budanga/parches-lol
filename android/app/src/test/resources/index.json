@@ -1,0 +1,570 @@
+{
+ "schemaVersion": 1,
+ "updatedAt": "2026-11-23T17:13:02.317Z",
+ "patches": [
+  {
+   "patch": "26.23",
+   "title": "Notas de la versión 26.23 de League of Legends",
+   "url": "https://www.leagueoflegends.com/es-mx/news/game-updates/league-of-legends-patch-26-23-notes/",
+   "publishedAt": "2026-11-17T19:00:00.000Z",
+   "counts": {
+    "total": 158,
+    "verified": 17,
+    "unchecked": 141,
+    "mismatch": 0
+   }
+  },
+  {
+   "patch": "26.22",
+   "title": "Notas de la versión 26.22 de League of Legends",
+   "url": "https://www.leagueoflegends.com/es-mx/news/game-updates/league-of-legends-patch-26-22-notes/",
+   "publishedAt": "2026-11-03T19:00:00.000Z",
+   "counts": {
+    "total": 169,
+    "verified": 18,
+    "unchecked": 151,
+    "mismatch": 0
+   }
+  },
+  {
+   "patch": "26.21",
+   "title": "Notas de la versión 26.21",
+   "url": "https://www.leagueoflegends.com/es-mx/news/game-updates/league-of-legends-patch-26-21-notes/",
+   "publishedAt": "2026-10-20T18:00:00.000Z",
+   "counts": {
+    "total": 300,
+    "verified": 21,
+    "unchecked": 279,
+    "mismatch": 0
+   }
+  },
+  {
+   "patch": "26.20",
+   "title": "Notas de la versión 26.20 de League of Legends",
+   "url": "https://www.leagueoflegends.com/es-mx/news/game-updates/league-of-legends-patch-26-20-notes/",
+   "publishedAt": "2026-10-06T18:00:00.000Z",
+   "counts": {
+    "total": 194,
+    "verified": 12,
+    "unchecked": 182,
+    "mismatch": 0
+   }
+  },
+  {
+   "patch": "26.19",
+   "title": "Patch 26.19 Notes",
+   "url": "https://www.leagueoflegends.com/es-mx/news/game-updates/league-of-legends-patch-26-19-notes/",
+   "publishedAt": "2026-09-22T18:00:00.000Z",
+   "counts": {
+    "total": 329,
+    "verified": 13,
+    "unchecked": 316,
+    "mismatch": 0
+   }
+  },
+  {
+   "patch": "26.18",
+   "title": "Notas de la versión 26.18 de League of Legends",
+   "url": "https://www.leagueoflegends.com/es-mx/news/game-updates/league-of-legends-patch-26-18-notes/",
+   "publishedAt": "2026-09-09T18:00:00.000Z",
+   "counts": {
+    "total": 212,
+    "verified": 13,
+    "unchecked": 199,
+    "mismatch": 0
+   }
+  },
+  {
+   "patch": "26.17",
+   "title": "Notas de la versión 26.17",
+   "url": "https://www.leagueoflegends.com/es-mx/news/game-updates/league-of-legends-patch-26-17-notes/",
+   "publishedAt": "2026-08-25T18:00:00.000Z",
+   "counts": {
+    "total": 286,
+    "verified": 14,
+    "unchecked": 272,
+    "mismatch": 0
+   }
+  },
+  {
+   "patch": "26.16",
+   "title": "Notas de la versión 26.16 de League of Legends",
+   "url": "https://www.leagueoflegends.com/es-mx/news/game-updates/league-of-legends-patch-26-16-notes/",
+   "publishedAt": "2026-08-11T18:00:00.000Z",
+   "counts": {
+    "total": 385,
+    "verified": 14,
+    "unchecked": 371,
+    "mismatch": 0
+   }
+  },
+  {
+   "patch": "26.15",
+   "title": "Patch 26.15 Notes",
+   "url": "https://www.leagueoflegends.com/es-mx/news/game-updates/league-of-legends-patch-26-15-notes/",
+   "publishedAt": "2026-07-28T18:00:00.000Z",
+   "counts": {
+    "total": 264,
+    "verified": 36,
+    "unchecked": 228,
+    "mismatch": 0
+   }
+  },
+  {
+   "patch": "26.14",
+   "title": "Patch 26.14 Notes",
+   "url": "https://www.leagueoflegends.com/es-mx/news/game-updates/league-of-legends-patch-26-14-notes/",
+   "publishedAt": "2026-07-14T18:00:00.000Z",
+   "counts": {
+    "total": 140,
+    "verified": 13,
+    "unchecked": 127,
+    "mismatch": 0
+   }
+  },
+  {
+   "patch": "26.13",
+   "title": "Notas de la versión 26.13 de League of Legends",
+   "url": "https://www.leagueoflegends.com/es-mx/news/game-updates/league-of-legends-patch-26-13-notes/",
+   "publishedAt": "2026-06-23T18:00:00.000Z",
+   "counts": {
+    "total": 170,
+    "verified": 14,
+    "unchecked": 156,
+    "mismatch": 0
+   }
+  },
+  {
+   "patch": "26.12",
+   "title": "Patch 26.12 Notes",
+   "url": "https://www.leagueoflegends.com/es-mx/news/game-updates/league-of-legends-patch-26-12-notes/",
+   "publishedAt": "2026-06-09T18:00:00.000Z",
+   "counts": {
+    "total": 289,
+    "verified": 8,
+    "unchecked": 281,
+    "mismatch": 0
+   }
+  },
+  {
+   "patch": "26.11",
+   "title": "Notas de la versión 26.11 de League of Legends",
+   "url": "https://www.leagueoflegends.com/es-mx/news/game-updates/league-of-legends-patch-26-11-notes/",
+   "publishedAt": "2026-05-27T18:00:00.000Z",
+   "counts": {
+    "total": 259,
+    "verified": 5,
+    "unchecked": 254,
+    "mismatch": 0
+   }
+  },
+  {
+   "patch": "26.10",
+   "title": "Notas de la versión 26.10",
+   "url": "https://www.leagueoflegends.com/es-mx/news/game-updates/league-of-legends-patch-26-10-notes/",
+   "publishedAt": "2026-05-12T18:00:00.000Z",
+   "counts": {
+    "total": 225,
+    "verified": 23,
+    "unchecked": 202,
+    "mismatch": 0
+   }
+  },
+  {
+   "patch": "26.9",
+   "title": "Notas de la versión 26.9 de League of Legends",
+   "url": "https://www.leagueoflegends.com/es-mx/news/game-updates/league-of-legends-patch-26-9-notes/",
+   "publishedAt": "2026-04-28T18:00:00.000Z",
+   "counts": {
+    "total": 367,
+    "verified": 24,
+    "unchecked": 343,
+    "mismatch": 0
+   }
+  },
+  {
+   "patch": "26.8",
+   "title": "League of Legends Patch 26.8 Notes",
+   "url": "https://www.leagueoflegends.com/es-mx/news/game-updates/league-of-legends-patch-26-8-notes/",
+   "publishedAt": "2026-04-14T18:00:00.000Z",
+   "counts": {
+    "total": 117,
+    "verified": 8,
+    "unchecked": 109,
+    "mismatch": 0
+   }
+  },
+  {
+   "patch": "26.7",
+   "title": "League of Legends Patch 26.7 Notes",
+   "url": "https://www.leagueoflegends.com/es-mx/news/game-updates/league-of-legends-patch-26-7-notes/",
+   "publishedAt": "2026-03-31T18:00:00.000Z",
+   "counts": {
+    "total": 113,
+    "verified": 5,
+    "unchecked": 108,
+    "mismatch": 0
+   }
+  },
+  {
+   "patch": "26.6",
+   "title": "Notas de la versión 26.6 de League of Legends",
+   "url": "https://www.leagueoflegends.com/es-mx/news/game-updates/league-of-legends-patch-26-6-notes/",
+   "publishedAt": "2026-03-17T18:00:00.000Z",
+   "counts": {
+    "total": 186,
+    "verified": 4,
+    "unchecked": 182,
+    "mismatch": 0
+   }
+  },
+  {
+   "patch": "26.5",
+   "title": "Notas de la versión 26.5",
+   "url": "https://www.leagueoflegends.com/es-mx/news/game-updates/league-of-legends-patch-26-5-notes/",
+   "publishedAt": "2026-03-03T19:00:00.000Z",
+   "counts": {
+    "total": 122,
+    "verified": 6,
+    "unchecked": 116,
+    "mismatch": 0
+   }
+  },
+  {
+   "patch": "26.4",
+   "title": "League of Legends Patch 26.4 Notes",
+   "url": "https://www.leagueoflegends.com/es-mx/news/game-updates/league-of-legends-patch-26-4-notes/",
+   "publishedAt": "2026-02-18T19:00:00.000Z",
+   "counts": {
+    "total": 164,
+    "verified": 14,
+    "unchecked": 149,
+    "mismatch": 1
+   }
+  },
+  {
+   "patch": "26.3",
+   "title": "Notas de la versión 26.3",
+   "url": "https://www.leagueoflegends.com/es-mx/news/game-updates/patch-26-3-notes/",
+   "publishedAt": "2026-02-03T19:00:00.000Z",
+   "counts": {
+    "total": 290,
+    "verified": 22,
+    "unchecked": 267,
+    "mismatch": 1
+   }
+  },
+  {
+   "patch": "26.2",
+   "title": "Patch 26.2 Notes",
+   "url": "https://www.leagueoflegends.com/es-mx/news/game-updates/patch-26-2-notes/",
+   "publishedAt": "2026-01-21T19:00:00.000Z",
+   "counts": {
+    "total": 111,
+    "verified": 12,
+    "unchecked": 99,
+    "mismatch": 0
+   }
+  },
+  {
+   "patch": "26.1",
+   "title": "Patch 26.1 Notes",
+   "url": "https://www.leagueoflegends.com/es-mx/news/game-updates/patch-26-1-notes/",
+   "publishedAt": "2026-01-07T19:00:00.000Z",
+   "counts": {
+    "total": 708,
+    "verified": 11,
+    "unchecked": 697,
+    "mismatch": 0
+   }
+  },
+  {
+   "patch": "25.24",
+   "title": "Notas de la versión 25.24",
+   "url": "https://www.leagueoflegends.com/es-mx/news/game-updates/patch-25-24-notes/",
+   "publishedAt": "2025-12-02T19:00:00.000Z",
+   "counts": {
+    "total": 158,
+    "verified": 8,
+    "unchecked": 150,
+    "mismatch": 0
+   }
+  },
+  {
+   "patch": "25.23",
+   "title": "Patch 25.23 Notes",
+   "url": "https://www.leagueoflegends.com/es-mx/news/game-updates/patch-25-23-notes/",
+   "publishedAt": "2025-11-18T19:00:00.000Z",
+   "counts": {
+    "total": 136,
+    "verified": 6,
+    "unchecked": 130,
+    "mismatch": 0
+   }
+  },
+  {
+   "patch": "25.22",
+   "title": "Notas de la versión 25.22",
+   "url": "https://www.leagueoflegends.com/es-mx/news/game-updates/patch-25-22-notes/",
+   "publishedAt": "2025-11-04T19:00:00.000Z",
+   "counts": {
+    "total": 152,
+    "verified": 7,
+    "unchecked": 145,
+    "mismatch": 0
+   }
+  },
+  {
+   "patch": "25.21",
+   "title": "Notas de la versión 25.21",
+   "url": "https://www.leagueoflegends.com/es-mx/news/game-updates/patch-25-21-notes/",
+   "publishedAt": "2025-10-21T18:00:00.000Z",
+   "counts": {
+    "total": 119,
+    "verified": 13,
+    "unchecked": 104,
+    "mismatch": 2
+   }
+  },
+  {
+   "patch": "25.20",
+   "title": "Patch 25.20 Notes",
+   "url": "https://www.leagueoflegends.com/es-mx/news/game-updates/patch-25-20-notes/",
+   "publishedAt": "2025-10-07T18:00:00.000Z",
+   "counts": {
+    "total": 196,
+    "verified": 7,
+    "unchecked": 189,
+    "mismatch": 0
+   }
+  },
+  {
+   "patch": "25.19",
+   "title": "Notas de la versión 25.19",
+   "url": "https://www.leagueoflegends.com/es-mx/news/game-updates/patch-25-19-notes/",
+   "publishedAt": "2025-09-23T18:00:00.000Z",
+   "counts": {
+    "total": 111,
+    "verified": 7,
+    "unchecked": 104,
+    "mismatch": 0
+   }
+  },
+  {
+   "patch": "25.18",
+   "title": "Notas de la versión 25.18",
+   "url": "https://www.leagueoflegends.com/es-mx/news/game-updates/patch-25-18-notes/",
+   "publishedAt": "2025-09-09T18:00:00.000Z",
+   "counts": {
+    "total": 243,
+    "verified": 12,
+    "unchecked": 231,
+    "mismatch": 0
+   }
+  },
+  {
+   "patch": "25.17",
+   "title": "Patch 25.17 Notes",
+   "url": "https://www.leagueoflegends.com/es-mx/news/game-updates/patch-25-17-notes/",
+   "publishedAt": "2025-08-26T18:00:00.000Z",
+   "counts": {
+    "total": 204,
+    "verified": 8,
+    "unchecked": 195,
+    "mismatch": 1
+   }
+  },
+  {
+   "patch": "25.16",
+   "title": "Patch 25.16 Notes",
+   "url": "https://www.leagueoflegends.com/es-mx/news/game-updates/patch-25-16-notes/",
+   "publishedAt": "2025-08-12T18:00:00.000Z",
+   "counts": {
+    "total": 171,
+    "verified": 30,
+    "unchecked": 141,
+    "mismatch": 0
+   }
+  },
+  {
+   "patch": "25.15",
+   "title": "Notas de la versión 25.15",
+   "url": "https://www.leagueoflegends.com/es-mx/news/game-updates/patch-25-15-notes/",
+   "publishedAt": "2025-07-29T18:00:00.000Z",
+   "counts": {
+    "total": 119,
+    "verified": 12,
+    "unchecked": 107,
+    "mismatch": 0
+   }
+  },
+  {
+   "patch": "25.14",
+   "title": "Notas de la versión 25.14",
+   "url": "https://www.leagueoflegends.com/es-mx/news/game-updates/patch-25-14-notes/",
+   "publishedAt": "2025-07-15T18:00:00.000Z",
+   "counts": {
+    "total": 179,
+    "verified": 12,
+    "unchecked": 167,
+    "mismatch": 0
+   }
+  },
+  {
+   "patch": "25.13",
+   "title": "Patch 25.13 Notes",
+   "url": "https://www.leagueoflegends.com/es-mx/news/game-updates/patch-25-13-notes/",
+   "publishedAt": "2025-06-24T18:00:00.000Z",
+   "counts": {
+    "total": 77,
+    "verified": 10,
+    "unchecked": 67,
+    "mismatch": 0
+   }
+  },
+  {
+   "patch": "25.12",
+   "title": "Notas de la versión 25.12",
+   "url": "https://www.leagueoflegends.com/es-mx/news/game-updates/patch-25-12-notes/",
+   "publishedAt": "2025-06-10T18:05:00.000Z",
+   "counts": {
+    "total": 160,
+    "verified": 30,
+    "unchecked": 130,
+    "mismatch": 0
+   }
+  },
+  {
+   "patch": "25.11",
+   "title": "Patch 25.11 Notes",
+   "url": "https://www.leagueoflegends.com/es-mx/news/game-updates/patch-25-11-notes/",
+   "publishedAt": "2025-05-27T18:00:00.000Z",
+   "counts": {
+    "total": 267,
+    "verified": 18,
+    "unchecked": 249,
+    "mismatch": 0
+   }
+  },
+  {
+   "patch": "25.10",
+   "title": "Notas de la versión 25.10",
+   "url": "https://www.leagueoflegends.com/es-mx/news/game-updates/patch-25-10-notes/",
+   "publishedAt": "2025-05-13T18:00:00.000Z",
+   "counts": {
+    "total": 103,
+    "verified": 21,
+    "unchecked": 82,
+    "mismatch": 0
+   }
+  },
+  {
+   "patch": "25.9",
+   "title": "Patch 25.09 Notes",
+   "url": "https://www.leagueoflegends.com/es-mx/news/game-updates/patch-25-09-notes/",
+   "publishedAt": "2025-04-29T18:00:00.000Z",
+   "counts": {
+    "total": 247,
+    "verified": 21,
+    "unchecked": 226,
+    "mismatch": 0
+   }
+  },
+  {
+   "patch": "25.8",
+   "title": "Patch 25.08 Notes",
+   "url": "https://www.leagueoflegends.com/es-mx/news/game-updates/patch-25-08-notes/",
+   "publishedAt": "2025-04-15T18:00:00.000Z",
+   "counts": {
+    "total": 159,
+    "verified": 20,
+    "unchecked": 139,
+    "mismatch": 0
+   }
+  },
+  {
+   "patch": "25.7",
+   "title": "Notas de la versión 25.07",
+   "url": "https://www.leagueoflegends.com/es-mx/news/game-updates/patch-25-07-notes/",
+   "publishedAt": "2025-04-01T18:00:00.000Z",
+   "counts": {
+    "total": 312,
+    "verified": 23,
+    "unchecked": 289,
+    "mismatch": 0
+   }
+  },
+  {
+   "patch": "25.6",
+   "title": "Notas de la versión 25.06",
+   "url": "https://www.leagueoflegends.com/es-mx/news/game-updates/patch-25-06-notes/",
+   "publishedAt": "2025-03-18T18:00:00.000Z",
+   "counts": {
+    "total": 225,
+    "verified": 29,
+    "unchecked": 196,
+    "mismatch": 0
+   }
+  },
+  {
+   "patch": "25.5",
+   "title": "Patch 25.05 Notes",
+   "url": "https://www.leagueoflegends.com/es-mx/news/game-updates/patch-25-05-notes/",
+   "publishedAt": "2025-03-04T19:00:00.000Z",
+   "counts": {
+    "total": 191,
+    "verified": 11,
+    "unchecked": 180,
+    "mismatch": 0
+   }
+  },
+  {
+   "patch": "25.4",
+   "title": "Notas de la versión 25.04",
+   "url": "https://www.leagueoflegends.com/es-mx/news/game-updates/patch-25-04-notes/",
+   "publishedAt": "2025-02-19T19:00:00.000Z",
+   "counts": {
+    "total": 213,
+    "verified": 23,
+    "unchecked": 190,
+    "mismatch": 0
+   }
+  },
+  {
+   "patch": "25.S1.3",
+   "title": "Notas de la versión 2025.T1.3",
+   "url": "https://www.leagueoflegends.com/es-mx/news/game-updates/patch-2025-s1-3-notes/",
+   "publishedAt": "2025-02-04T19:00:00.000Z",
+   "counts": {
+    "total": 227,
+    "verified": 18,
+    "unchecked": 209,
+    "mismatch": 0
+   }
+  },
+  {
+   "patch": "25.S1.2",
+   "title": "Patch 25.S1.2 Notes",
+   "url": "https://www.leagueoflegends.com/es-mx/news/game-updates/patch-25-s1-2-notes/",
+   "publishedAt": "2025-01-22T19:00:00.000Z",
+   "counts": {
+    "total": 209,
+    "verified": 13,
+    "unchecked": 196,
+    "mismatch": 0
+   }
+  },
+  {
+   "patch": "25.S1.1",
+   "title": "Notas de la versión 25.T1.1.",
+   "url": "https://www.leagueoflegends.com/es-mx/news/game-updates/patch-25-s1-1-notes/",
+   "publishedAt": "2025-01-07T19:00:00.000Z",
+   "counts": {
+    "total": 188,
+    "verified": 9,
+    "unchecked": 179,
+    "mismatch": 0
+   }
+  }
+ ]
+}

@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Parches LoL</string>
+    <string name="archive_title">Archivo de parches</string>
+    <string name="latest_patch">Último parche</string>
+    <string name="news">Noticias</string>
+    <string name="for_adc">Para ADC</string>
+    <string name="all">Todo</string>
+    <string name="global">Global</string>
+    <string name="no_adc_changes">Sin cambios para tus ADC en este parche.</string>
+    <string name="offline">Sin conexión. Probá de nuevo cuando haya internet.</string>
+    <string name="retry">Reintentar</string>
+    <string name="back">Volver</string>
+    <string name="settings">Ajustes</string>
+    <string name="tab_patches">Parches</string>
+    <string name="tab_champions">Campeones</string>
+    <string name="tab_news">Noticias</string>
+    <string name="search_champion">Buscar campeón</string>
+    <string name="no_history">Sin cambios registrados desde 2025.</string>
+    <string name="my_adcs">Mis ADC</string>
+    <string name="my_items">Mis ítems</string>
+    <string name="news_alerts">Avisos de noticias</string>
+    <string name="reset">Restablecer</string>
+    <string name="verified">Comprobado con los datos del juego</string>
+    <string name="mismatch">No coincide con los datos del juego</string>
+    <string name="base_stats">Estadísticas base</string>
+    <string name="channel_patches">Parches</string>
+    <string name="channel_news">Noticias</string>
+</resources>

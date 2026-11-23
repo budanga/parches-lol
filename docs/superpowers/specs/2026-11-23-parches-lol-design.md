@@ -99,7 +99,7 @@ Del sitio de Riot en español latino, solo las categorías **actualizaciones del
 
 ### 6.3 App de Android
 
-**Kotlin + Jetpack Compose**, nativa. Se compila en Android Studio y se instala en el celular por cable (o pasando el APK).
+**Kotlin + Jetpack Compose**, nativa. Se compila desde la terminal con Gradle usando el SDK que ya está en `C:\AndroidSDK` (sin Android Studio) y se instala en el celular por depuración inalámbrica (`adb pair` lo corre el usuario; después `adb connect` / `adb install`).
 
 Pantallas:
 ```
@@ -107,7 +107,7 @@ Inicio        → último parche (tarjeta) + noticias recientes
 Parche        → [Para ADC | Todo]
                  Para ADC: Mis ADCs · Ítems de ADC · Cambios globales · Cliente
                  Todo: además los otros campeones, runas, otros modos y cosméticos (plegados)
-                 Línea: "Miss Fortune — Q: daño 20/45/70 ⇒ 30/55/80  ✅"
+                 Línea: atributo, línea oficial de antes y de después (ver 6.4)
 Campeones     → buscador, mis ADCs arriba → historial por parche, más nuevo primero
 Noticias      → lista, abre en el navegador
 Ajustes       → mis ADCs, mis ítems de ADC, avisos de noticias on/off
@@ -118,6 +118,44 @@ Ajustes       → mis ADCs, mis ítems de ADC, avisos de noticias on/off
 - **Sin conexión:** guarda los últimos datos descargados y funciona sin internet.
 - **Avisos:** un trabajo en segundo plano (WorkManager) revisa `index.json` cada ~3 h. Cuando hay parche nuevo avisa "Salió el parche 26.24 — 4 cambios a tus ADCs". Las noticias avisan solo si está activado.
 
+### 6.4 Diseño visual (aprobado el 2026-11-23)
+
+Marca del usuario **"The Quiet Archive"**: archivo de papel tranquilo con un toque de terminal retro. Cálido, sereno, editorial. Sin neón, glassmorphism, degradados ni sombras grandes. Voz calma y breve, sin signos de exclamación.
+
+**Variante elegida: B · Registro.** Sin tarjetas: un registro con líneas finas, como un libro contable.
+
+**Color** (solo tonos cálidos; ~85 % papel, 10 % tinta, 5 % terracota):
+- Fondo `#F5F2EB`; superficie secundaria `#FAF8F3`; tarjetas `#FFFFFF`; inputs y hover `#EFECE4`.
+- Acento único terracota `#BA5A3A` (suave `#D47758`, tinte de selección `#F3E5E0`). Un solo botón primario por vista.
+- Texto `#22201D`, secundario `#767169`, tenue `#A5A097`. Bordes de 1 px `#DDD9D0`.
+- Éxito `#3A604A`, aviso `#D97706`, error `#C0392B`.
+
+**Tipografía** (las tres se incluyen en la app; licencia OFL):
+- **Newsreader** (500–600): títulos y **todos los números de parche** (inicio, lista, encabezado del parche, separadores del historial).
+- **Plus Jakarta Sans**: toda la UI (cuerpo de 14 a 16; botones 15/600).
+- **IBM Plex Mono**: líneas de datos de los cambios, fechas y efectos ASCII.
+- Etiquetas chicas: 11 px, espaciado 0.5, color tenue.
+
+**Forma:** radio 10 en botones, inputs e ítems; 12 en tarjetas; 20 en bottom sheets. Profundidad con bordes de 1 px y capas de color, sin sombras (salvo elementos flotantes). Barra superior del color del fondo, título serif a la izquierda. Íconos outlined de 18 a 22 px en gris cálido, terracota si están activos. Espaciado base de 4 px.
+
+**Pantallas:**
+- **Inicio:** "Archivo de parches" y engranaje (Ajustes). Último parche con el número grande en Newsreader, su fecha, los retratos de **tus** ADC que cambiaron (sin texto) y el texto "Actualizado hace X" (sin barra). Debajo, la lista de parches (número y fecha) y las noticias.
+- **Parche:** volver, número y fecha; selector "Para ADC" / "Todo" (activo con el tinte de selección). Por campeón u objeto: retrato y nombre en serif con una línea de tinta debajo. Por cambio: la letra de la habilidad en mono terracota en una columna (ícono de barras para las estadísticas base), el atributo y debajo las dos líneas oficiales en mono: **`−` antes** en tinta tenue y **`+` después** en tinta normal. Los números que difieren entre antes y después van en terracota; el resaltado se calcula comparando las dos líneas y no cambia ninguna palabra.
+- **Campeón:** historial agrupado por parche (número en serif y fecha en mono, con la línea de tinta), del más nuevo al más viejo, con el mismo formato de línea.
+- **Navegación inferior:** Parches, Campeones, Noticias.
+
+**Verificación en pantalla, sin etiquetas:**
+- `verified` → ícono ✓ en verde de éxito.
+- `mismatch` → ícono ⚠ en color de aviso y debajo "En el juego figura X".
+- `unchecked` → sin ícono.
+
+**Animaciones** (12 fps; micro-interacciones de 150–220 ms con easeOutCubic al entrar y easeInCubic al salir; con "reducir movimiento" activado no se anima nada y el contenido aparece directo):
+1. Al abrir la app, "Archivo de parches" se arma desde glifos ASCII, una vez por apertura, en menos de 1 s.
+2. La primera vez que se abre un parche, los números en terracota se descifran pasando por glifos ASCII antes de mostrar el carácter real. Las veces siguientes aparecen fijos.
+3. En la primera carga sin datos guardados, en lugar de bloques grises, un brillo con dither Bayer tenue sobre el papel.
+4. Al entrar a un parche desde el inicio, transición de píxeles terracota con dither que cubren y descubren la pantalla. El resto de la navegación usa la transición normal.
+5. La fila de un parche que todavía no se vio se revela con dither la primera vez que aparece en el inicio.
+
 ## 7. Qué decidió el usuario
 
 - App solo para él, en Android.
@@ -125,6 +163,8 @@ Ajustes       → mis ADCs, mis ítems de ADC, avisos de noticias on/off
 - Foco en ADCs, ítems de ADC, cambios globales y cliente.
 - Historial por campeón, más reciente primero.
 - Enfoque B.
+- Diseño visual: marca "The Quiet Archive", variante B · Registro, Newsreader para los números de parche, sin barra de actualización, animaciones 1, 3, 5, 6 y 7 de las propuestas (sección 6.4).
+- Sin Android Studio: compilar con el SDK existente e instalar por depuración inalámbrica.
 
 ## 8. Decisiones mías (corregibles)
 
@@ -135,7 +175,8 @@ Ajustes       → mis ADCs, mis ítems de ADC, avisos de noticias on/off
 - Revisión cada 3 h; volver a descargar los 2 últimos parches por hotfixes.
 - Node/TypeScript para el programa de datos; Kotlin + Compose para la app.
 - Otros modos (ARAM, Arena) y cosméticos visibles solo en "Todo", plegados.
-- Repositorio público (GitHub Pages es gratis así; no hay datos privados ni claves).
+- Las líneas `unchecked` no llevan ícono, para no llenar la pantalla de etiquetas.
+- Repositorio público (`budanga/parches-lol`); la app lee los datos desde `https://raw.githubusercontent.com/budanga/parches-lol/main/data/` sin claves. No hay datos privados.
 
 ## 9. Idea futura: IA
 
@@ -146,4 +187,3 @@ Pregunta opcional del tipo "¿cómo me afecta este parche como ADC?". La IA resp
 - El formato exacto de los JSON y la lógica para leer el HTML.
 - Cómo relacionar los valores de habilidades con los datos de Community Dragon.
 - La lista inicial exacta de ADCs e ítems de ADC.
-- El estilo visual de la app (oscuro, simple).
