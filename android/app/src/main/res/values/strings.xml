@@ -25,6 +25,10 @@
     <string name="my_items">Objetos favoritos</string>
     <string name="news_alerts">Avisos de noticias</string>
     <string name="reset">Restablecer</string>
+    <string name="animations">Animaciones</string>
+    <string name="anim_title">Título al abrir la app</string>
+    <string name="anim_transition">Transición al entrar a un parche</string>
+    <string name="anim_numbers">Descifrado de los valores que cambian</string>
     <string name="reset_confirm">Volver a los favoritos por defecto y apagar los avisos de noticias.</string>
     <string name="cancel">Cancelar</string>
     <string name="patch_missing">Este parche ya no está disponible.</string>

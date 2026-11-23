@@ -72,6 +72,7 @@ import com.budanga.parcheslol.ui.NewsScreen
 import com.budanga.parcheslol.ui.PatchScreen
 import com.budanga.parcheslol.ui.RowDivider
 import com.budanga.parcheslol.ui.SettingsScreen
+import com.budanga.parcheslol.ui.AnimationsScreen
 import java.io.File
 
 class MainActivity : ComponentActivity() {
@@ -119,6 +120,7 @@ fun AppRoot(repo: Repository, prefs: Prefs, pendingRoute: androidx.compose.runti
     val reduce = rememberReduceMotion()
     val cover = remember { Animatable(0f) }
     var transitioning by remember { mutableStateOf(false) }
+    val transitionOn by prefs.animTransition.collectAsState(initial = true)
     LaunchedEffect(pendingRoute.value) {
         pendingRoute.value?.let { nav.navigate(it); pendingRoute.value = null }
     }
@@ -126,7 +128,7 @@ fun AppRoot(repo: Repository, prefs: Prefs, pendingRoute: androidx.compose.runti
     /** Animation 4: terracotta pixels cover, navigate, then uncover (250 ms each way, 12 fps steps). */
     fun openPatchWithCover(id: String) {
         if (transitioning) return // a second tap during the transition does nothing
-        if (reduce) { nav.navigate("patch/$id"); return }
+        if (reduce || !transitionOn) { nav.navigate("patch/$id"); return }
         transitioning = true
         scope.launch {
             for (f in 1..3) { delay(FRAME_MS); cover.snapTo(f / 3f) }
@@ -149,13 +151,14 @@ fun AppRoot(repo: Repository, prefs: Prefs, pendingRoute: androidx.compose.runti
                     val playTitle = remember { !Session.titlePlayed.also { Session.titlePlayed = true } }
                     // Animation 5: decided before any row is drawn, so a new row never flashes visible first.
                     var seenAtStart by remember { mutableStateOf<Set<String>?>(null) }
-                    LaunchedEffect(Unit) { seenAtStart = prefs.revealedPatches.first() }
+                    var titleOn by remember { mutableStateOf(true) }
+                    LaunchedEffect(Unit) { titleOn = prefs.animTitle.first(); seenAtStart = prefs.revealedPatches.first() }
                     val seen = seenAtStart ?: return@composable
                     HomeScreen(
                         repo, prefs,
                         onOpenPatch = ::openPatchWithCover,
                         onSettings = { nav.navigate("settings") },
-                        title = { DecipherText(stringResource(R.string.archive_title), Type.serif(20), play = playTitle) },
+                        title = { DecipherText(stringResource(R.string.archive_title), Type.serif(20), play = playTitle && titleOn) },
                         loading = { DitherShimmer() },
                         // First install (nothing seen yet): everything counts as seen, nothing animates.
                         wrapRow = { p, content -> DitherReveal(play = seen.isNotEmpty() && p !in seen) { content() } },
@@ -172,7 +175,8 @@ fun AppRoot(repo: Repository, prefs: Prefs, pendingRoute: androidx.compose.runti
                     // Animation 2: numbers decipher only the first time this patch is opened.
                     var firstOpen by remember { mutableStateOf<Boolean?>(null) }
                     LaunchedEffect(id) {
-                        firstOpen = id !in prefs.openedPatches.first()
+                        // Animation 2 only plays the first time, and only if its switch is on.
+                        firstOpen = id !in prefs.openedPatches.first() && prefs.animNumbers.first()
                     }
                     // Marked as opened only once it actually loads, so an offline attempt keeps the animation.
                     firstOpen?.let {
@@ -191,7 +195,8 @@ fun AppRoot(repo: Repository, prefs: Prefs, pendingRoute: androidx.compose.runti
                     ChampionScreen(back.arguments?.getString("id")!!, repo, onBack = { nav.popBackStack() })
                 }
                 composable("news") { NewsScreen(repo) }
-                composable("settings") { SettingsScreen(repo, prefs, onBack = { nav.popBackStack() }) }
+                composable("settings") { SettingsScreen(repo, prefs, onBack = { nav.popBackStack() }, onAnimations = { nav.navigate("animations") }) }
+                composable("animations") { AnimationsScreen(prefs, onBack = { nav.popBackStack() }) }
             }
         }
         if (route in TABS) BottomBar(nav, route)

@@ -11,6 +11,9 @@ import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.items
+import androidx.compose.material.icons.Icons
+import androidx.compose.material.icons.automirrored.outlined.KeyboardArrowRight
+import androidx.compose.material3.Icon
 import androidx.compose.material3.AlertDialog
 import androidx.compose.material3.Checkbox
 import androidx.compose.material3.TextButton
@@ -42,7 +45,7 @@ import com.budanga.parcheslol.domain.isDefaultAdcItem
 import kotlinx.coroutines.launch
 
 @Composable
-fun SettingsScreen(repo: Repository, prefs: Prefs, onBack: () -> Unit) {
+fun SettingsScreen(repo: Repository, prefs: Prefs, onBack: () -> Unit, onAnimations: () -> Unit = {}) {
     val scope = rememberCoroutineScope()
     var catalog by remember { mutableStateOf<Catalog?>(null) }
     LaunchedEffect(Unit) { catalog = repo.catalog().valueOrNull }
@@ -80,6 +83,14 @@ fun SettingsScreen(repo: Repository, prefs: Prefs, onBack: () -> Unit) {
                         colors = SwitchDefaults.colors(checkedTrackColor = Ink.Accent, uncheckedTrackColor = Ink.Input, uncheckedBorderColor = Ink.Line),
                     )
                 }
+                Row(
+                    Modifier.fillMaxWidth().clickable(onClick = onAnimations).padding(vertical = 12.dp),
+                    verticalAlignment = Alignment.CenterVertically,
+                ) {
+                    Text(stringResource(R.string.animations), style = Type.Body, modifier = Modifier.weight(1f))
+                    Icon(Icons.AutoMirrored.Outlined.KeyboardArrowRight, null, tint = Ink.Faint)
+                }
+                RowDivider()
                 Text(
                     stringResource(R.string.reset),
                     style = Type.Body.copy(color = Ink.Accent),
@@ -113,5 +124,32 @@ private fun CheckRow(entry: CatalogEntry, checked: Boolean, onChange: (Boolean) 
             colors = CheckboxDefaults.colors(checkedColor = Ink.Accent, uncheckedColor = Ink.Faint, checkmarkColor = Color.White),
         )
         Text(entry.name, style = Type.Body)
+    }
+}
+
+/** Ajustes → Animaciones: one switch per animation. */
+@Composable
+fun AnimationsScreen(prefs: Prefs, onBack: () -> Unit) {
+    val scope = rememberCoroutineScope()
+    val title by prefs.animTitle.collectAsState(initial = true)
+    val transition by prefs.animTransition.collectAsState(initial = true)
+    val numbers by prefs.animNumbers.collectAsState(initial = true)
+    Column(Modifier.fillMaxSize().padding(horizontal = 12.dp)) {
+        DetailBar(stringResource(R.string.animations), null, onBack, titleContent = { Text(stringResource(R.string.animations), style = Type.serif(24)) })
+        SwitchRow(stringResource(R.string.anim_title), title) { scope.launch { prefs.setAnimTitle(it) } }
+        SwitchRow(stringResource(R.string.anim_transition), transition) { scope.launch { prefs.setAnimTransition(it) } }
+        SwitchRow(stringResource(R.string.anim_numbers), numbers) { scope.launch { prefs.setAnimNumbers(it) } }
+    }
+}
+
+@Composable
+private fun SwitchRow(label: String, checked: Boolean, onChange: (Boolean) -> Unit) {
+    Row(Modifier.fillMaxWidth().clickable { onChange(!checked) }.padding(vertical = 4.dp), verticalAlignment = Alignment.CenterVertically) {
+        Text(label, style = Type.Body, modifier = Modifier.weight(1f).padding(end = 12.dp))
+        Switch(
+            checked = checked,
+            onCheckedChange = onChange,
+            colors = SwitchDefaults.colors(checkedTrackColor = Ink.Accent, uncheckedTrackColor = Ink.Input, uncheckedBorderColor = Ink.Line),
+        )
     }
 }

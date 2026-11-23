@@ -25,6 +25,9 @@ class Prefs(private val ds: DataStore<Preferences>) {
         val revealed = stringSetPreferencesKey("revealed_patches")
         val notified = stringSetPreferencesKey("notified_patches")
         val lastNews = stringPreferencesKey("last_news_url")
+        val animTitle = booleanPreferencesKey("anim_title")
+        val animTransition = booleanPreferencesKey("anim_transition")
+        val animNumbers = booleanPreferencesKey("anim_numbers")
     }
 
     val myAdcs: Flow<Set<String>> = ds.data.map { it[K.adcs] ?: DEFAULT_ADCS }
@@ -35,6 +38,14 @@ class Prefs(private val ds: DataStore<Preferences>) {
     val revealedPatches: Flow<Set<String>> = ds.data.map { it[K.revealed] ?: emptySet() }
     val notifiedPatches: Flow<Set<String>> = ds.data.map { it[K.notified] ?: emptySet() }
     val lastNewsUrl: Flow<String?> = ds.data.map { it[K.lastNews] }
+
+    /** Animation switches (Ajustes → Animaciones), all on by default. */
+    val animTitle: Flow<Boolean> = ds.data.map { it[K.animTitle] ?: true }
+    val animTransition: Flow<Boolean> = ds.data.map { it[K.animTransition] ?: true }
+    val animNumbers: Flow<Boolean> = ds.data.map { it[K.animNumbers] ?: true }
+    suspend fun setAnimTitle(on: Boolean) { ds.edit { it[K.animTitle] = on } }
+    suspend fun setAnimTransition(on: Boolean) { ds.edit { it[K.animTransition] = on } }
+    suspend fun setAnimNumbers(on: Boolean) { ds.edit { it[K.animNumbers] = on } }
 
     /** Read-modify-write inside one edit, so quick consecutive taps never lose a change. */
     suspend fun toggleAdc(id: String, on: Boolean) {
