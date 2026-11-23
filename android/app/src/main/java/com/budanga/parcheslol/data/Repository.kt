@@ -42,6 +42,15 @@ class Repository(
     suspend fun news(): Loaded<List<NewsItem>> = load("news.json", ListSerializer(NewsItem.serializer()))
     suspend fun catalog(): Loaded<Catalog> = load("catalog.json", Catalog.serializer())
 
+    /** The saved copies, without touching the network (shown first, then refreshed). */
+    suspend fun cachedIndex(): IndexFile? = cached("index.json", IndexFile.serializer())
+    suspend fun cachedPatch(id: String): PatchFile? = cached("patches/$id.json", PatchFile.serializer())
+    suspend fun cachedNews(): List<NewsItem>? = cached("news.json", ListSerializer(NewsItem.serializer()))
+
+    private suspend fun <T> cached(path: String, serializer: KSerializer<T>): T? = withContext(Dispatchers.IO) {
+        runCatching { AppJson.decodeFromString(serializer, File(cacheDir, path).readText()) }.getOrNull()
+    }
+
     private suspend fun <T> load(path: String, serializer: KSerializer<T>): Loaded<T> = withContext(Dispatchers.IO) {
         val file = File(cacheDir, path)
         var notFound = false

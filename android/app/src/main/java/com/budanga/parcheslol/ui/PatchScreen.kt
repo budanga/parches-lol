@@ -33,6 +33,7 @@ import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
 import com.budanga.parcheslol.R
 import com.budanga.parcheslol.anim.DecipherChangeLine
+import com.budanga.parcheslol.anim.PlayOnce
 import com.budanga.parcheslol.data.Loaded
 import com.budanga.parcheslol.data.PatchFile
 import com.budanga.parcheslol.data.Prefs
@@ -40,6 +41,8 @@ import com.budanga.parcheslol.data.Repository
 import com.budanga.parcheslol.data.valueOrNull
 import com.budanga.parcheslol.domain.DEFAULT_ADCS
 import com.budanga.parcheslol.domain.Group
+import com.budanga.parcheslol.domain.RowItem
+import com.budanga.parcheslol.domain.rowsFor
 import com.budanga.parcheslol.domain.adcGroups
 import com.budanga.parcheslol.domain.allGroups
 import com.budanga.parcheslol.domain.shortDate
@@ -69,11 +72,17 @@ fun PatchScreen(
     val scope = rememberCoroutineScope()
     var state by remember { mutableStateOf<Loaded<PatchFile>?>(null) }
     var reload by remember { mutableIntStateOf(0) }
-    LaunchedEffect(patchId, reload) { state = repo.patch(patchId) }
+    LaunchedEffect(patchId, reload) {
+        // Saved copy first, then the network: a weak signal never hides data already on the phone.
+        if (state == null) repo.cachedPatch(patchId)?.let { state = Loaded.Cached(it) }
+        val fresh = repo.patch(patchId)
+        if (fresh != Loaded.Offline || state == null) state = fresh
+    }
     val myAdcs by prefs.myAdcs.collectAsState(initial = DEFAULT_ADCS)
     val myItems by prefs.myItems.collectAsState(initial = null)
     var showAll by rememberSaveable { mutableStateOf(false) }
     val expanded = remember { mutableStateMapOf<String, Boolean>() }
+    val once = remember(patchId) { PlayOnce() }
     val patch = state?.valueOrNull
 
     Column(Modifier.fillMaxSize().padding(horizontal = 12.dp)) {
@@ -97,6 +106,7 @@ fun PatchScreen(
                             open = !group.collapsed || expanded[group.key] == true,
                             onToggle = { expanded[group.key] = expanded[group.key] != true },
                             animateNumbers = animateNumbers,
+                            once = once,
                         )
                     }
                     item { Spacer(Modifier.height(24.dp)) }
@@ -107,7 +117,7 @@ fun PatchScreen(
 }
 
 @Composable
-fun GroupBlock(group: Group, ddragonVersion: String, open: Boolean, onToggle: () -> Unit, animateNumbers: Boolean) {
+fun GroupBlock(group: Group, ddragonVersion: String, open: Boolean, onToggle: () -> Unit, animateNumbers: Boolean, once: PlayOnce) {
     Column {
         val title = if (group.key == "global") stringResource(R.string.global) else group.title
         if (group.collapsed) {
@@ -120,11 +130,36 @@ fun GroupBlock(group: Group, ddragonVersion: String, open: Boolean, onToggle: ()
             EntityHeader(group.entity, title, ddragonVersion)
         }
         if (open) {
-            group.changes.forEachIndexed { i, change ->
-                if (i > 0) RowDivider()
-                if (animateNumbers && change.kind == "stat") DecipherChangeLine(change) else ChangeLine(change)
+            var previousWasLine = false
+            rowsFor(group).forEach { row ->
+                when (row) {
+                    is RowItem.Header -> { SubHeader(row, ddragonVersion); previousWasLine = false }
+                    is RowItem.Line -> {
+                        if (previousWasLine) RowDivider()
+                        val change = row.change
+                        if (animateNumbers && change.kind == "stat") DecipherChangeLine(change, once) else ChangeLine(change)
+                        previousWasLine = true
+                    }
+                }
             }
         }
     }
 }
 
+
+/** Section, block and sub-part labels inside mixed groups (Global, Otros modos, Cosméticos). */
+@Composable
+fun SubHeader(row: RowItem.Header, ddragonVersion: String) {
+    when (row.level) {
+        1 -> Text(row.text, style = Type.serif(15), modifier = Modifier.padding(top = 12.dp, bottom = 2.dp))
+        2 -> Row(
+            Modifier.padding(top = 8.dp),
+            verticalAlignment = Alignment.CenterVertically,
+            horizontalArrangement = androidx.compose.foundation.layout.Arrangement.spacedBy(8.dp),
+        ) {
+            if (row.entity != null) Avatar(row.entity, row.text, ddragonVersion, 20.dp)
+            Text(row.text, style = Type.Attribute)
+        }
+        else -> Text(row.text, style = Type.Label, modifier = Modifier.padding(top = 6.dp))
+    }
+}

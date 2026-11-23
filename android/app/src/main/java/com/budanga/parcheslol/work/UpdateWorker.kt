@@ -31,6 +31,7 @@ import com.budanga.parcheslol.domain.adcGroups
 import com.budanga.parcheslol.domain.alertText
 import com.budanga.parcheslol.domain.newsToNotify
 import com.budanga.parcheslol.domain.patchesToNotify
+import com.budanga.parcheslol.domain.toMarkNotified
 import java.io.File
 import java.util.concurrent.TimeUnit
 import kotlinx.coroutines.flow.first
@@ -48,20 +49,25 @@ class UpdateWorker(context: Context, params: WorkerParameters) : CoroutineWorker
         val notified = prefs.notifiedPatches.first()
         val myAdcs = prefs.myAdcs.first()
         val myItems = prefs.myItems.first()
-        for (patch in patchesToNotify(index, notified, firstRun = notified.isEmpty())) {
-            val file = repo.patch(patch).valueOrNull ?: continue
+        val firstRun = notified.isEmpty()
+        val delivered = mutableListOf<String>()
+        var failed = false
+        for (patch in patchesToNotify(index, notified, firstRun)) {
+            // A patch whose file can't be downloaded stays unannounced and is retried later.
+            val file = repo.patch(patch).valueOrNull ?: run { failed = true; null } ?: continue
             val count = adcGroups(file, myAdcs, myItems).filter { it.entity != null }.sumOf { it.changes.size }
             val (title, body) = alertText(PatchAlert(patch, count))
             notify(patch.hashCode(), CHANNEL_PATCHES, title, body, null)
+            delivered += patch
         }
-        prefs.addNotified(index.patches.map { it.patch })
+        prefs.addNotified(toMarkNotified(index, firstRun, delivered))
 
         val news = repo.news().valueOrNull.orEmpty()
         if (prefs.newsAlerts.first()) newsToNotify(news, prefs.lastNewsUrl.first())?.let {
             notify(it.url.hashCode(), CHANNEL_NEWS, it.title, it.description, it.url)
         }
         news.maxByOrNull { it.publishedAt }?.let { prefs.setLastNewsUrl(it.url) }
-        return Result.success()
+        return if (failed) Result.retry() else Result.success()
     }
 
     private fun notify(id: Int, channel: String, title: String, body: String?, url: String?) {

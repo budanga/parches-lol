@@ -63,9 +63,11 @@ fun DecipherText(text: String, style: TextStyle, play: Boolean, frames: Int = 10
 
 /** A change line whose changed numbers decipher the first time the patch is opened. */
 @Composable
-fun DecipherChangeLine(change: Change, frames: Int = 10) {
+fun DecipherChangeLine(change: Change, once: PlayOnce, frames: Int = 10) {
     val reduce = rememberReduceMotion()
-    var frame by remember(change.id) { mutableIntStateOf(if (reduce) frames else 0) }
+    // Claimed on first composition: scrolling away and back never replays it.
+    val play = remember(change.id) { !reduce && once.claim(change.id) }
+    var frame by remember(change.id) { mutableIntStateOf(if (play) 0 else frames) }
     LaunchedEffect(change.id) {
         while (frame < frames) { delay(FRAME_MS); frame++ }
     }

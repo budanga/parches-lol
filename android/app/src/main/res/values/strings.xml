@@ -6,6 +6,7 @@
     <string name="for_adc">Para ADC</string>
     <string name="all">Todo</string>
     <string name="global">Global</string>
+    <string name="other_modes">Otros modos</string>
     <string name="no_adc_changes">Sin cambios para tus ADC en este parche.</string>
     <string name="offline">Sin conexión. Probá de nuevo cuando haya internet.</string>
     <string name="retry">Reintentar</string>

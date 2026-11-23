@@ -23,3 +23,7 @@ fun newsToNotify(news: List<NewsItem>, lastUrl: String?): NewsItem? {
     val newest = news.maxByOrNull { it.publishedAt } ?: return null
     return if (lastUrl != null && newest.url != lastUrl) newest else null
 }
+
+/** What to record as announced: everything on the first run, otherwise only what was actually delivered. */
+fun toMarkNotified(index: IndexFile, firstRun: Boolean, delivered: Collection<String>): List<String> =
+    if (firstRun) index.patches.map { it.patch } else delivered.toList()

@@ -1,6 +1,8 @@
 package com.budanga.parcheslol.data
 
 import android.content.Context
+import androidx.datastore.core.DataStore
+import androidx.datastore.preferences.core.Preferences
 import androidx.datastore.preferences.core.booleanPreferencesKey
 import androidx.datastore.preferences.core.edit
 import androidx.datastore.preferences.core.stringPreferencesKey
@@ -12,8 +14,8 @@ import kotlinx.coroutines.flow.map
 
 private val Context.dataStore by preferencesDataStore(name = "prefs")
 
-class Prefs(context: Context) {
-    private val ds = context.applicationContext.dataStore
+class Prefs(private val ds: DataStore<Preferences>) {
+    constructor(context: Context) : this(context.applicationContext.dataStore)
 
     private object K {
         val adcs = stringSetPreferencesKey("my_adcs")
@@ -34,8 +36,13 @@ class Prefs(context: Context) {
     val notifiedPatches: Flow<Set<String>> = ds.data.map { it[K.notified] ?: emptySet() }
     val lastNewsUrl: Flow<String?> = ds.data.map { it[K.lastNews] }
 
-    suspend fun setMyAdcs(ids: Set<String>) { ds.edit { it[K.adcs] = ids } }
-    suspend fun setMyItems(ids: Set<String>?) { ds.edit { if (ids == null) it.remove(K.items) else it[K.items] = ids } }
+    /** Read-modify-write inside one edit, so quick consecutive taps never lose a change. */
+    suspend fun toggleAdc(id: String, on: Boolean) {
+        ds.edit { val cur = it[K.adcs] ?: DEFAULT_ADCS; it[K.adcs] = if (on) cur + id else cur - id }
+    }
+    suspend fun toggleItem(id: String, on: Boolean, defaults: Set<String>) {
+        ds.edit { val cur = it[K.items] ?: defaults; it[K.items] = if (on) cur + id else cur - id }
+    }
     suspend fun setNewsAlerts(on: Boolean) { ds.edit { it[K.newsAlerts] = on } }
     suspend fun addOpened(id: String) { ds.edit { it[K.opened] = (it[K.opened] ?: emptySet()) + id } }
     suspend fun addRevealed(ids: Collection<String>) { ds.edit { it[K.revealed] = (it[K.revealed] ?: emptySet()) + ids } }

@@ -67,8 +67,15 @@ fun HomeScreen(
     val uri = LocalUriHandler.current
 
     LaunchedEffect(reload) {
+        // Saved copy first (instant, also offline), then refresh from the network.
+        if (index == null) repo.cachedIndex()?.let { cached ->
+            index = Loaded.Cached(cached)
+            cached.patches.firstOrNull()?.let { latest = repo.cachedPatch(it.patch) }
+            news = repo.cachedNews().orEmpty()
+            onIndex(cached.patches.map { p -> p.patch })
+        }
         val loaded = repo.index()
-        index = loaded
+        if (loaded != Loaded.Offline || index == null) index = loaded
         loaded.valueOrNull?.let { onIndex(it.patches.map { p -> p.patch }) }
         loaded.valueOrNull?.patches?.firstOrNull()?.let { latest = repo.patch(it.patch).valueOrNull }
         news = repo.news().valueOrNull.orEmpty()

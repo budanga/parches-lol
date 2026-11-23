@@ -25,3 +25,9 @@ val BAYER4: Array<IntArray> = arrayOf(
 
 /** Ordered (Bayer 4×4) dithering: whether cell (x, y) is "on" at [progress] in 0..1. */
 fun ditherOn(x: Int, y: Int, progress: Float): Boolean = progress > (BAYER4[y % 4][x % 4] + 0.5f) / 16f
+
+/** Remembers which lines already played their animation; [claim] is true only the first time per id. */
+class PlayOnce {
+    private val played = mutableSetOf<String>()
+    fun claim(id: String): Boolean = played.add(id)
+}

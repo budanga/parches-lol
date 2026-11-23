@@ -51,7 +51,8 @@ fun SettingsScreen(repo: Repository, prefs: Prefs, onBack: () -> Unit) {
     Column(Modifier.fillMaxSize().padding(horizontal = 12.dp)) {
         DetailBar(stringResource(R.string.settings), null, onBack) { Text(stringResource(R.string.settings), style = Type.serif(24)) }
         val data = catalog ?: return@Column
-        val itemsChecked = myItems ?: data.items.filter { isDefaultAdcItem(it.tags) }.map { it.id }.toSet()
+        val defaultItems = data.items.filter { isDefaultAdcItem(it.tags) }.map { it.id }.toSet()
+        val itemsChecked = myItems ?: defaultItems
         LazyColumn(Modifier.fillMaxSize()) {
             item {
                 Row(Modifier.fillMaxWidth().padding(vertical = 12.dp), verticalAlignment = Alignment.CenterVertically) {
@@ -70,11 +71,11 @@ fun SettingsScreen(repo: Repository, prefs: Prefs, onBack: () -> Unit) {
             }
             item { EntityHeader(null, stringResource(R.string.my_adcs), "") }
             items(data.champions, key = { "c" + it.id }) { c ->
-                CheckRow(c, c.id in myAdcs) { on -> scope.launch { prefs.setMyAdcs(if (on) myAdcs + c.id else myAdcs - c.id) } }
+                CheckRow(c, c.id in myAdcs) { on -> scope.launch { prefs.toggleAdc(c.id, on) } }
             }
             item { EntityHeader(null, stringResource(R.string.my_items), "") }
             items(data.items, key = { "i" + it.id }) { i ->
-                CheckRow(i, i.id in itemsChecked) { on -> scope.launch { prefs.setMyItems(if (on) itemsChecked + i.id else itemsChecked - i.id) } }
+                CheckRow(i, i.id in itemsChecked) { on -> scope.launch { prefs.toggleItem(i.id, on, defaultItems) } }
             }
             item { Spacer(Modifier.height(24.dp)) }
         }

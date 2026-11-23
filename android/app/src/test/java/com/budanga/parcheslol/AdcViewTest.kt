@@ -50,3 +50,18 @@ class AdcViewTest {
         assertFalse(isDefaultAdcItem(listOf("SpellDamage")))
     }
 }
+
+class HistoryViewTest {
+    private val history = com.budanga.parcheslol.data.AppJson
+        .decodeFromString<com.budanga.parcheslol.data.ChampionHistory>(resource("Ezreal.json"))
+
+    @Test fun modosSeparadosDeLaGrieta() {
+        val e2621 = com.budanga.parcheslol.domain.splitModes(history.entries.first { it.patch == "26.21" })
+        assertTrue(e2621.rift.isEmpty())
+        assertEquals(2, e2621.modes.size)
+        assertTrue(e2621.modes.all { it.sectionTitle == "Arena" })
+        val e2623 = com.budanga.parcheslol.domain.splitModes(history.entries.first { it.patch == "26.23" })
+        assertEquals(2, e2623.rift.size)
+        assertTrue(e2623.modes.isEmpty())
+    }
+}

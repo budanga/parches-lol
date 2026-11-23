@@ -4,7 +4,7 @@ import com.budanga.parcheslol.data.Change
 
 data class Segment(val text: String, val changed: Boolean)
 
-private val NUMBER = Regex("""-?\d+(?:[.,]\d+)?%?""")
+private val NUMBER = Regex("""(?<!\d)-?\d+(?:[.,]\d+)?%?""")
 
 /**
  * Splits the official "after" line into segments, marking the numbers that differ from "before".

@@ -58,3 +58,52 @@ fun allGroups(patch: PatchFile): List<Group> {
     }
     return main + folded
 }
+
+data class HistoryView(val rift: List<Change>, val modes: List<Change>)
+
+/** History entries keep game-mode changes (ARAM, Arena, Classic…) apart so they never read as Rift changes. */
+fun splitModes(entry: com.budanga.parcheslol.data.HistoryEntry): HistoryView =
+    entry.changes.partition { it.section != "modes" }.let { (rift, modes) -> HistoryView(rift, modes) }
+
+/** A row of a group: a sub-header (1 = section, 2 = champion/item/named block, 3 = sub-part) or a change. */
+sealed interface RowItem {
+    data class Header(val text: String, val level: Int, val entity: Entity? = null) : RowItem
+    data class Line(val change: Change) : RowItem
+}
+
+private val ABILITY_PARTS = setOf("base", "P", "Q", "W", "E", "R")
+
+/**
+ * Lays out a group with the context each line needs: groups that mix sections (Global, Otros modos,
+ * Cosméticos) get section and entity sub-headers; generic sub-parts ("Firmamento único") get a label.
+ */
+fun rowsFor(group: Group): List<RowItem> {
+    val mixed = group.entity == null
+    val out = mutableListOf<RowItem>()
+    var section: String? = null
+    var entityKey: String? = null
+    var part: String? = null
+    for (c in group.changes) {
+        if (mixed && c.sectionTitle != section) {
+            if (c.sectionTitle != group.title) out += RowItem.Header(c.sectionTitle, 1)
+            section = c.sectionTitle; entityKey = null; part = null
+        }
+        val key = c.entity.id ?: c.entity.name
+        val p = c.part
+        val genericPart = p != null && p !in ABILITY_PARTS && p != c.entity.name
+        val entityChanged = mixed && key != entityKey
+        // A sub-part heading that changes together with the entity came first on the page ("Campeones" → Talon).
+        if (entityChanged && genericPart && p != part) { out += RowItem.Header(p!!, 3); part = p }
+        if (entityChanged) {
+            if (c.entity.name.isNotBlank() && c.entity.name != c.sectionTitle)
+                out += RowItem.Header(c.entity.name, 2, c.entity.takeIf { it.id != null })
+            entityKey = key
+        }
+        if (genericPart && p != part) out += RowItem.Header(p!!, 3)
+        part = p
+        // The heading line itself ("Trituradoras de Malla") is already shown as the header.
+        if (c.kind == "text" && c.text == c.entity.name) continue
+        out += RowItem.Line(c)
+    }
+    return out
+}

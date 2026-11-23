@@ -46,6 +46,12 @@ import com.budanga.parcheslol.data.valueOrNull
 import com.budanga.parcheslol.domain.DEFAULT_ADCS
 import com.budanga.parcheslol.domain.normalizeForSearch
 import com.budanga.parcheslol.domain.shortDate
+import com.budanga.parcheslol.domain.splitModes
+import androidx.compose.material.icons.Icons
+import androidx.compose.material.icons.outlined.ExpandLess
+import androidx.compose.material.icons.outlined.ExpandMore
+import androidx.compose.material3.Icon
+import androidx.compose.runtime.mutableStateMapOf
 
 /** Search field: input fill, 1 dp border that turns terracotta on focus. */
 @Composable
@@ -116,6 +122,7 @@ fun ChampionScreen(id: String, repo: Repository, onBack: () -> Unit) {
     }
     val data = history?.valueOrNull
     val name = data?.name ?: id
+    val expanded = remember { mutableStateMapOf<String, Boolean>() }
 
     Column(Modifier.fillMaxSize().padding(horizontal = 12.dp)) {
         DetailBar(name, null, onBack) {
@@ -132,9 +139,24 @@ fun ChampionScreen(id: String, repo: Repository, onBack: () -> Unit) {
                 items(data.entries, key = { it.patch }) { entry ->
                     Column {
                         EntityHeader(null, entry.patch, version ?: "") { Text(shortDate(entry.publishedAt), style = Type.Date) }
-                        entry.changes.forEachIndexed { i, change ->
+                        val view = splitModes(entry)
+                        view.rift.forEachIndexed { i, change ->
                             if (i > 0) RowDivider()
                             ChangeLine(change)
+                        }
+                        if (view.modes.isNotEmpty()) {
+                            val open = expanded[entry.patch] == true
+                            Row(
+                                Modifier.fillMaxWidth().clickable { expanded[entry.patch] = !open }.padding(vertical = 10.dp),
+                                verticalAlignment = Alignment.CenterVertically,
+                            ) {
+                                Text(stringResource(R.string.other_modes), style = Type.Label, modifier = Modifier.weight(1f))
+                                Icon(if (open) Icons.Outlined.ExpandLess else Icons.Outlined.ExpandMore, null, tint = Ink.Faint)
+                            }
+                            if (open) view.modes.groupBy { it.sectionTitle }.forEach { (mode, changes) ->
+                                Text(mode, style = Type.serif(15), modifier = Modifier.padding(top = 6.dp))
+                                changes.forEach { ChangeLine(it) }
+                            }
                         }
                     }
                 }
