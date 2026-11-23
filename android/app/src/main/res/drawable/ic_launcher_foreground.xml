@@ -1,7 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Hextech gem with an upward arrow. Scaled to 0.85 so it stays inside the 66 dp adaptive-icon safe zone. -->
 <vector xmlns:android="http://schemas.android.com/apk/res/android"
     android:width="108dp" android:height="108dp" android:viewportWidth="108" android:viewportHeight="108">
-    <group android:translateX="36" android:translateY="36" android:scaleX="1.5" android:scaleY="1.5">
+    <group android:pivotX="54" android:pivotY="54" android:scaleX="0.85" android:scaleY="0.85">
+        <!-- inner facet, faint terracotta -->
+        <path android:fillColor="#BA5A3A" android:fillAlpha="0.14"
+            android:pathData="M54,30L74,42V66L54,78L34,66V42Z" />
+        <!-- facet lines -->
+        <path android:strokeColor="#A5A097" android:strokeWidth="2"
+            android:pathData="M54,20V30M83,37L74,42M83,71L74,66M54,88V78M25,71L34,66M25,37L34,42" />
+        <!-- outer hexagon -->
+        <path android:strokeColor="#22201D" android:strokeWidth="3" android:strokeLineJoin="round"
+            android:pathData="M54,20L83,37V71L54,88L25,71V37Z" />
+        <!-- arrow -->
         <path android:fillColor="#BA5A3A"
-            android:pathData="M6,2h9l5,5v13a2,2 0,0 1,-2 2H6a2,2 0,0 1,-2 -2V4a2,2 0,0 1,2 -2zM14,3.5V8h4.5L14,3.5zM8,12v1.5h8V12H8zM8,15.5V17h8v-1.5H8z" />
+            android:pathData="M54,34L67,54H58V72H50V54H41Z" />
     </group>
 </vector>
