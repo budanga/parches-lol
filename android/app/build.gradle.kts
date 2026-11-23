@@ -17,6 +17,14 @@ android {
         versionName = "1.0"
     }
 
+    buildTypes {
+        // Personal app: release is signed with the local debug key so it installs over the debug build.
+        release {
+            signingConfig = signingConfigs.getByName("debug")
+            isMinifyEnabled = false
+        }
+    }
+
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_17
         targetCompatibility = JavaVersion.VERSION_17
