@@ -1,0 +1,212 @@
+{
+ "schemaVersion": 1,
+ "id": "6699",
+ "name": "Cicloespada Voltaica",
+ "tags": [
+  "Damage",
+  "Active",
+  "CooldownReduction",
+  "ArmorPenetration",
+  "AbilityHaste"
+ ],
+ "entries": [
+  {
+   "patch": "26.23",
+   "publishedAt": "2026-11-17T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Objetos",
+     "sectionId": "patch-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "6699",
+      "name": "Cicloespada Voltaica"
+     },
+     "part": "Firmamento único",
+     "partTitle": "Firmamento único",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño adicional",
+     "before": "[9% || 7%] Vida actual del objetivo",
+     "after": "[8% || 6%] Vida actual del objetivo",
+     "text": "Daño adicional: [9% || 7%] Vida actual del objetivo ⇒ [8% || 6%] Vida actual del objetivo",
+     "id": "71835242703b",
+     "section": "items",
+     "tags": [
+      "Damage",
+      "Active",
+      "CooldownReduction",
+      "ArmorPenetration",
+      "AbilityHaste"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "26.10",
+   "publishedAt": "2026-05-12T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Objetos",
+     "sectionId": "patch-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "6699",
+      "name": "Cicloespada Voltaica"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Costo total",
+     "before": "2900 de oro",
+     "after": "3000 de oro",
+     "text": "Costo total: 2900 de oro ⇒ 3000 de oro",
+     "id": "50bdd5acb291",
+     "section": "items",
+     "tags": [
+      "Damage",
+      "Active",
+      "CooldownReduction",
+      "ArmorPenetration",
+      "AbilityHaste"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "26.9",
+   "publishedAt": "2026-04-28T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Objetos",
+     "sectionId": "patch-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "6699",
+      "name": "Cicloespada Voltaica"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Pasiva Única: Galvanizar: Dañar a campeones enemigos con habilidades activará un ataque energizado si está listo",
+     "id": "cd8b7f0a394f",
+     "section": "items",
+     "tags": [
+      "Damage",
+      "Active",
+      "CooldownReduction",
+      "ArmorPenetration",
+      "AbilityHaste"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Objetos",
+     "sectionId": "patch-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "6699",
+      "name": "Cicloespada Voltaica"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Pasiva Única: Firmamento: Tu disparador energizado te otorga [15 (cuerpo a cuerpo) | 12 (a distancia)] de Letalidad durante 4s e inflige daño físico adicional equivalente a [9% cuerpo a cuerpo | 7% a distancia] de la Vida actual del objetivo. Este daño adicional tiene un límite de 200 contra unidades que no son campeones.",
+     "id": "14202d2d9956",
+     "section": "items",
+     "tags": [
+      "Damage",
+      "Active",
+      "CooldownReduction",
+      "ArmorPenetration",
+      "AbilityHaste"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Objetos",
+     "sectionId": "patch-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "6699",
+      "name": "Cicloespada Voltaica"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Costo",
+     "before": "3000 de oro",
+     "after": "2900 de oro",
+     "text": "Costo: 3000 de oro ⇒ 2900 de oro",
+     "id": "3fb8e7c815aa",
+     "section": "items",
+     "tags": [
+      "Damage",
+      "Active",
+      "CooldownReduction",
+      "ArmorPenetration",
+      "AbilityHaste"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Objetos",
+     "sectionId": "patch-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "6699",
+      "name": "Cicloespada Voltaica"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Letalidad",
+     "before": "18",
+     "after": "10",
+     "text": "Letalidad: 18 ⇒ 10",
+     "id": "3604689fdeb0",
+     "section": "items",
+     "tags": [
+      "Damage",
+      "Active",
+      "CooldownReduction",
+      "ArmorPenetration",
+      "AbilityHaste"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  }
+ ]
+}

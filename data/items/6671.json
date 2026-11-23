@@ -1,0 +1,50 @@
+{
+ "schemaVersion": 1,
+ "id": "6671",
+ "name": "Fuerza del Viento",
+ "tags": [
+  "Damage",
+  "CriticalStrike",
+  "AttackSpeed",
+  "Active",
+  "NonbootsMovement"
+ ],
+ "entries": [
+  {
+   "patch": "26.21",
+   "publishedAt": "2026-10-20T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "6671",
+      "name": "Fuerza del Viento"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Alcance máximo de desplazamiento",
+     "before": "600",
+     "after": "900",
+     "text": "Alcance máximo de desplazamiento: 600 ⇒ 900",
+     "id": "5e7b36649850",
+     "section": "modes",
+     "tags": [
+      "Damage",
+      "CriticalStrike",
+      "AttackSpeed",
+      "Active",
+      "NonbootsMovement"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  }
+ ]
+}

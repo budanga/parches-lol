@@ -1,0 +1,362 @@
+{
+ "schemaVersion": 1,
+ "id": "2517",
+ "name": "Hambre Infinita",
+ "tags": [
+  "Damage",
+  "LifeSteal",
+  "SpellVamp",
+  "Tenacity",
+  "AbilityHaste"
+ ],
+ "entries": [
+  {
+   "patch": "26.9",
+   "publishedAt": "2026-04-28T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Objetos",
+     "sectionId": "patch-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "2517",
+      "name": "Hambre Infinita"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Pasiva Única: Sed",
+     "before": "Otorga 5 (+10% de Daño de Ataque adicional) de Aceleración de Habilidad",
+     "after": "Otorga 5 (+[13% (cuerpo a cuerpo) | 10% (a distancia)] de Daño de Ataque adicional) de Aceleración de Habilidad",
+     "text": "Pasiva Única: Sed: Otorga 5 (+10% de Daño de Ataque adicional) de Aceleración de Habilidad ⇒ Otorga 5 (+[13% (cuerpo a cuerpo) | 10% (a distancia)] de Daño de Ataque adicional) de Aceleración de Habilidad",
+     "id": "5399146183fd",
+     "section": "items",
+     "tags": [
+      "Damage",
+      "LifeSteal",
+      "SpellVamp",
+      "Tenacity",
+      "AbilityHaste"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "26.3",
+   "publishedAt": "2026-02-03T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Objetos",
+     "sectionId": "patch-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "2517",
+      "name": "Hambre Infinita"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Ruta de armado",
+     "before": "Martillo de Guerra de Caulfield + Picacha + 1075 de oro",
+     "after": "Martillo de Guerra de Caulfield + Picacha + Espada Larga + 825 de oro",
+     "text": "Ruta de armado: Martillo de Guerra de Caulfield + Picacha + 1075 de oro ⇒ Martillo de Guerra de Caulfield + Picacha + Espada Larga + 825 de oro",
+     "id": "d721fea2722d",
+     "section": "items",
+     "tags": [
+      "Damage",
+      "LifeSteal",
+      "SpellVamp",
+      "Tenacity",
+      "AbilityHaste"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Objetos",
+     "sectionId": "patch-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "2517",
+      "name": "Hambre Infinita"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Costo total",
+     "before": "3000 de oro",
+     "after": "3100 de oro",
+     "text": "Costo total: 3000 de oro ⇒ 3100 de oro",
+     "id": "927c260aec7c",
+     "section": "items",
+     "tags": [
+      "Damage",
+      "LifeSteal",
+      "SpellVamp",
+      "Tenacity",
+      "AbilityHaste"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Objetos",
+     "sectionId": "patch-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "2517",
+      "name": "Hambre Infinita"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño de Ataque",
+     "before": "60",
+     "after": "65",
+     "text": "Daño de Ataque: 60 ⇒ 65",
+     "id": "9c82773f502c",
+     "section": "items",
+     "tags": [
+      "Damage",
+      "LifeSteal",
+      "SpellVamp",
+      "Tenacity",
+      "AbilityHaste"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "26.1",
+   "publishedAt": "2026-01-07T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Objetos nuevos",
+     "sectionId": "patch-new-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "2517",
+      "name": "Hambre Infinita"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Ruta de armado: Martillo de Guerra de Caulfield + Picacha + 1075 de oro",
+     "id": "dba7becf7838",
+     "section": "items",
+     "tags": [
+      "Damage",
+      "LifeSteal",
+      "SpellVamp",
+      "Tenacity",
+      "AbilityHaste"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Objetos nuevos",
+     "sectionId": "patch-new-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "2517",
+      "name": "Hambre Infinita"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Costo total: 3000 de oro",
+     "id": "8839b7e63ec0",
+     "section": "items",
+     "tags": [
+      "Damage",
+      "LifeSteal",
+      "SpellVamp",
+      "Tenacity",
+      "AbilityHaste"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Objetos nuevos",
+     "sectionId": "patch-new-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "2517",
+      "name": "Hambre Infinita"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Daño de Ataque: 60",
+     "id": "feadc1d1db3e",
+     "section": "items",
+     "tags": [
+      "Damage",
+      "LifeSteal",
+      "SpellVamp",
+      "Tenacity",
+      "AbilityHaste"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Objetos nuevos",
+     "sectionId": "patch-new-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "2517",
+      "name": "Hambre Infinita"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Tenacidad: 20%",
+     "id": "33e10981b72b",
+     "section": "items",
+     "tags": [
+      "Damage",
+      "LifeSteal",
+      "SpellVamp",
+      "Tenacity",
+      "AbilityHaste"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Objetos nuevos",
+     "sectionId": "patch-new-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "2517",
+      "name": "Hambre Infinita"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Omnivampirismo: 5%",
+     "id": "9fb7cf921f5d",
+     "section": "items",
+     "tags": [
+      "Damage",
+      "LifeSteal",
+      "SpellVamp",
+      "Tenacity",
+      "AbilityHaste"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Objetos nuevos",
+     "sectionId": "patch-new-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "2517",
+      "name": "Hambre Infinita"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Sed: Obtienes (5 + 10% de Daño de Ataque adicional) de Aceleración de Habilidad",
+     "id": "e10583f1a3af",
+     "section": "items",
+     "tags": [
+      "Damage",
+      "LifeSteal",
+      "SpellVamp",
+      "Tenacity",
+      "AbilityHaste"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Objetos nuevos",
+     "sectionId": "patch-new-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "2517",
+      "name": "Hambre Infinita"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Festín: Cuando un campeón al que le infligiste daño muere en un lapso de 3 seg, obtienes un 15% de Omnivampirismo durante 8 seg",
+     "id": "cbc49b79b843",
+     "section": "items",
+     "tags": [
+      "Damage",
+      "LifeSteal",
+      "SpellVamp",
+      "Tenacity",
+      "AbilityHaste"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  }
+ ]
+}

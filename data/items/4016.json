@@ -1,0 +1,74 @@
+{
+ "schemaVersion": 1,
+ "id": "4016",
+ "name": "Promesa sin Palabras",
+ "tags": [
+  "SpellDamage",
+  "CooldownReduction",
+  "AbilityHaste"
+ ],
+ "entries": [
+  {
+   "patch": "26.13",
+   "publishedAt": "2026-06-23T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "4016",
+      "name": "Promesa sin Palabras"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Ahora cuenta como una quemadura para la Capa del Piromante y los Aumentos de quemadura",
+     "id": "267949f2d990",
+     "section": "modes",
+     "tags": [
+      "SpellDamage",
+      "CooldownReduction",
+      "AbilityHaste"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "4016",
+      "name": "Promesa sin Palabras"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": null,
+     "before": "Enfriamiento: 60 seg",
+     "after": "15 seg",
+     "text": "Enfriamiento: 60 seg ⇒ 15 seg",
+     "id": "1860b77d1f4b",
+     "section": "modes",
+     "tags": [
+      "SpellDamage",
+      "CooldownReduction",
+      "AbilityHaste"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  }
+ ]
+}

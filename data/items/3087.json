@@ -1,0 +1,486 @@
+{
+ "schemaVersion": 1,
+ "id": "3087",
+ "name": "Navaja de Statikk",
+ "tags": [
+  "Damage",
+  "AttackSpeed",
+  "SpellDamage",
+  "OnHit",
+  "NonbootsMovement"
+ ],
+ "entries": [
+  {
+   "patch": "26.9",
+   "publishedAt": "2026-04-28T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Objetos",
+     "sectionId": "patch-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "3087",
+      "name": "Daga de Statikk"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Ruta de armado: Honda del Explorador (600 de oro) + Picacha (875 de oro) + Brisa de Éter (800 de oro) + 625 de oro",
+     "id": "f880ee2732e0",
+     "section": "items",
+     "tags": [
+      "Damage",
+      "AttackSpeed",
+      "SpellDamage",
+      "OnHit",
+      "NonbootsMovement"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Objetos",
+     "sectionId": "patch-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "3087",
+      "name": "Daga de Statikk"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Daño de Ataque: 40",
+     "id": "3262a7ea6200",
+     "section": "items",
+     "tags": [
+      "Damage",
+      "AttackSpeed",
+      "SpellDamage",
+      "OnHit",
+      "NonbootsMovement"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Objetos",
+     "sectionId": "patch-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "3087",
+      "name": "Daga de Statikk"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Poder de Habilidad: 45",
+     "id": "ef5075162c87",
+     "section": "items",
+     "tags": [
+      "Damage",
+      "AttackSpeed",
+      "SpellDamage",
+      "OnHit",
+      "NonbootsMovement"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Objetos",
+     "sectionId": "patch-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "3087",
+      "name": "Daga de Statikk"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Velocidad de Ataque: 30%",
+     "id": "3045fe1a4e51",
+     "section": "items",
+     "tags": [
+      "Damage",
+      "AttackSpeed",
+      "SpellDamage",
+      "OnHit",
+      "NonbootsMovement"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Objetos",
+     "sectionId": "patch-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "3087",
+      "name": "Daga de Statikk"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Velocidad de Movimiento: 4%",
+     "id": "20971fc810f3",
+     "section": "items",
+     "tags": [
+      "Damage",
+      "AttackSpeed",
+      "SpellDamage",
+      "OnHit",
+      "NonbootsMovement"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Objetos",
+     "sectionId": "patch-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "3087",
+      "name": "Daga de Statikk"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Pasiva Única: Electrochispa: Tu disparador energizado lanza una cadena de rayos que inflige 60 de daño mágico adicional (aumenta a 90 para súbditos y monstruos) a un máximo de 4 a 8 objetivos, según el nivel. Aplica efectos al impacto a los objetivos secundarios del rebote.",
+     "id": "d5ec2a0e8f49",
+     "section": "items",
+     "tags": [
+      "Damage",
+      "AttackSpeed",
+      "SpellDamage",
+      "OnHit",
+      "NonbootsMovement"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Objetos",
+     "sectionId": "patch-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "3087",
+      "name": "Daga de Statikk"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Pasiva Única: Electrochoque: Los ataques básicos otorgan +9 acumulaciones de ataques energizados adicionales.",
+     "id": "3cb5f86ddecc",
+     "section": "items",
+     "tags": [
+      "Damage",
+      "AttackSpeed",
+      "SpellDamage",
+      "OnHit",
+      "NonbootsMovement"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "26.2",
+   "publishedAt": "2026-01-21T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "3087",
+      "name": "Daga de Statikk"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": null,
+     "before": "Alcance del rebote: 1500 unidades de distancia",
+     "after": "750 unidades de distancia",
+     "text": "Alcance del rebote: 1500 unidades de distancia ⇒ 750 unidades de distancia",
+     "id": "497a89aa8e1d",
+     "section": "modes",
+     "tags": [
+      "Damage",
+      "AttackSpeed",
+      "OnHit",
+      "NonbootsMovement"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "3087",
+      "name": "Daga de Statikk"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": null,
+     "before": "Tasa de Daño de Ataque adicional: 0.65",
+     "after": "0.50",
+     "text": "Tasa de Daño de Ataque adicional: 0.65 ⇒ 0.50",
+     "id": "60a803396462",
+     "section": "modes",
+     "tags": [
+      "Damage",
+      "AttackSpeed",
+      "OnHit",
+      "NonbootsMovement"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.24",
+   "publishedAt": "2025-12-02T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "3087",
+      "name": "Daga de Statikk"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": null,
+     "before": "Tasa de Poder de Habilidad de los rebotes: 45%",
+     "after": "25%",
+     "text": "Tasa de Poder de Habilidad de los rebotes: 45% ⇒ 25%",
+     "id": "c5542f7b0ff1",
+     "section": "modes",
+     "tags": [
+      "Damage",
+      "AttackSpeed",
+      "OnHit",
+      "NonbootsMovement"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.18",
+   "publishedAt": "2025-09-09T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones (Arena)",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "3087",
+      "name": "Daga de Statikk"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": null,
+     "before": "Ataques: 3",
+     "after": "5",
+     "text": "Ataques: 3 ⇒ 5",
+     "id": "0da9bb337c2f",
+     "section": "modes",
+     "tags": [
+      "Damage",
+      "AttackSpeed",
+      "OnHit",
+      "NonbootsMovement"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones (Arena)",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "3087",
+      "name": "Daga de Statikk"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": null,
+     "before": "Daño: 60 (+ 0.15 de Poder de Habilidad) (+ 0.33 de Daño de Ataque básico)",
+     "after": "80 (+ 0.45 de Poder de Habilidad) (+ 0.66 de Daño de Ataque básico)",
+     "text": "Daño: 60 (+ 0.15 de Poder de Habilidad) (+ 0.33 de Daño de Ataque básico) ⇒ 80 (+ 0.45 de Poder de Habilidad) (+ 0.66 de Daño de Ataque básico)",
+     "id": "e01d00399e31",
+     "section": "modes",
+     "tags": [
+      "Damage",
+      "AttackSpeed",
+      "OnHit",
+      "NonbootsMovement"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones (Arena)",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "3087",
+      "name": "Daga de Statikk"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": null,
+     "before": "Duración: 8 seg",
+     "after": "10 seg",
+     "text": "Duración: 8 seg ⇒ 10 seg",
+     "id": "35027c42dbd2",
+     "section": "modes",
+     "tags": [
+      "Damage",
+      "AttackSpeed",
+      "OnHit",
+      "NonbootsMovement"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones (Arena)",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "3087",
+      "name": "Daga de Statikk"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": null,
+     "before": "Alcance: 500",
+     "after": "1500",
+     "text": "Alcance: 500 ⇒ 1500",
+     "id": "8759f481e7a5",
+     "section": "modes",
+     "tags": [
+      "Damage",
+      "AttackSpeed",
+      "OnHit",
+      "NonbootsMovement"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.S1.3",
+   "publishedAt": "2025-02-04T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "ARAM",
+     "sectionId": "patch-aram",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "3087",
+      "name": "Daga de Statikk"
+     },
+     "part": "Mejoras a objetos",
+     "partTitle": "Mejoras a objetos",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño infligido de Electrochispa contra campeones",
+     "before": "60",
+     "after": "70",
+     "text": "Daga de Statikk: Daño infligido de Electrochispa contra campeones: 60 ⇒ 70",
+     "id": "69c2e1d1b6ed",
+     "section": "modes",
+     "tags": [
+      "Damage",
+      "AttackSpeed",
+      "OnHit",
+      "NonbootsMovement"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  }
+ ]
+}

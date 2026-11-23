@@ -1,0 +1,48 @@
+{
+ "schemaVersion": 1,
+ "id": "226701",
+ "name": "Oportunidad",
+ "tags": [
+  "Damage",
+  "Active",
+  "NonbootsMovement",
+  "ArmorPenetration"
+ ],
+ "entries": [
+  {
+   "patch": "26.13",
+   "publishedAt": "2026-06-23T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "226701",
+      "name": "Oportunidad"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": null,
+     "before": "Letalidad fuera de combate: 15",
+     "after": "20",
+     "text": "Letalidad fuera de combate: 15 ⇒ 20",
+     "id": "d1d5121f8fd2",
+     "section": "modes",
+     "tags": [
+      "Damage",
+      "Active",
+      "NonbootsMovement",
+      "ArmorPenetration"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  }
+ ]
+}

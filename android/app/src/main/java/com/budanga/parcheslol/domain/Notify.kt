@@ -27,3 +27,8 @@ fun newsToNotify(news: List<NewsItem>, lastUrl: String?): NewsItem? {
 /** What to record as announced: everything on the first run, otherwise only what was actually delivered. */
 fun toMarkNotified(index: IndexFile, firstRun: Boolean, delivered: Collection<String>): List<String> =
     if (firstRun) index.patches.map { it.patch } else delivered.toList()
+
+private val PATCH_ID = Regex("""^\d{2}\.(?:S\d+\.)?\d+$""")
+
+/** Where tapping a patch notification leads; anything that isn't a patch number opens the home screen. */
+fun routeForNotification(patch: String?): String? = patch?.takeIf { PATCH_ID.matches(it) }?.let { "patch/$it" }

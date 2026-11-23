@@ -1,0 +1,50 @@
+{
+ "schemaVersion": 1,
+ "id": "447100",
+ "name": "Espada Espejismo",
+ "tags": [
+  "Damage",
+  "AttackSpeed",
+  "SpellDamage",
+  "NonbootsMovement",
+  "AbilityHaste"
+ ],
+ "entries": [
+  {
+   "patch": "26.21",
+   "publishedAt": "2026-10-20T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "447100",
+      "name": "Espada Espejismo"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Reembolso del enfriamiento",
+     "before": "20%",
+     "after": "15%",
+     "text": "Reembolso del enfriamiento: 20% ⇒ 15%",
+     "id": "ad803f13a649",
+     "section": "modes",
+     "tags": [
+      "Damage",
+      "AttackSpeed",
+      "SpellDamage",
+      "NonbootsMovement",
+      "AbilityHaste"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  }
+ ]
+}

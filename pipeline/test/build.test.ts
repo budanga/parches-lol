@@ -62,3 +62,19 @@ test("I8: assignIds da ids únicos a líneas iguales y es estable", async () => 
   assert.equal(new Set(ids).size, 3);
   assert.deepEqual(assignIds([a, arena, again]).map(c => c.id), ids);
 });
+
+test("buildItemHistories: agrupa por el id actual del catálogo aunque el id viejo sea otro", async () => {
+  const { buildItemHistories } = await import("../src/build.ts");
+  const storm = (id: string, text: string) => ({ ...toChange({ ...azirBase, sectionId: "patch-items",
+    entity: { kind: "item" as const, id, name: "Filo de la Tormenta" }, text }, "items", ["Damage"], "unchecked", null) });
+  const catalog = { schemaVersion: 1 as const, ddragonVersion: "16.23.1", champions: [],
+    items: [{ id: "3095", name: "Filo de la Tormenta", tags: ["Damage"] }] };
+  const hs = buildItemHistories([
+    patch("26.1", "2026-01-08T00:00:00Z", [storm("3097", "viejo")]),
+    patch("26.20", "2026-10-06T00:00:00Z", [storm("3095", "nuevo")]),
+  ], catalog);
+  assert.equal(hs.length, 1);
+  assert.equal(hs[0].id, "3095");
+  assert.deepEqual(hs[0].entries.map(e => e.patch), ["26.20", "26.1"]);
+  assert.equal(hs[0].name, "Filo de la Tormenta");
+});

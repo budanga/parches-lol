@@ -1,0 +1,422 @@
+{
+ "schemaVersion": 1,
+ "id": "2510",
+ "name": "Ocaso y Alba",
+ "tags": [
+  "Health",
+  "AttackSpeed",
+  "SpellDamage",
+  "OnHit",
+  "AbilityHaste"
+ ],
+ "entries": [
+  {
+   "patch": "26.9",
+   "publishedAt": "2026-04-28T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Objetos",
+     "sectionId": "patch-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "2510",
+      "name": "Ocaso y Alba"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "[NUEVO] Espada Encantada: Ahora también cura al usuario (10% de Poder de Habilidad) (+3% de Vida adicional)",
+     "id": "079837ee3d63",
+     "section": "items",
+     "tags": [
+      "Health",
+      "AttackSpeed",
+      "SpellDamage",
+      "OnHit",
+      "AbilityHaste"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Objetos",
+     "sectionId": "patch-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "2510",
+      "name": "Ocaso y Alba"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Vida",
+     "before": "350",
+     "after": "300",
+     "text": "Vida: 350 ⇒ 300",
+     "id": "1275bb7a2b9e",
+     "section": "items",
+     "tags": [
+      "Health",
+      "AttackSpeed",
+      "SpellDamage",
+      "OnHit",
+      "AbilityHaste"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Objetos",
+     "sectionId": "patch-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "2510",
+      "name": "Ocaso y Alba"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Poder de Habilidad",
+     "before": "70",
+     "after": "60",
+     "text": "Poder de Habilidad: 70 ⇒ 60",
+     "id": "927225707940",
+     "section": "items",
+     "tags": [
+      "Health",
+      "AttackSpeed",
+      "SpellDamage",
+      "OnHit",
+      "AbilityHaste"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Objetos",
+     "sectionId": "patch-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "2510",
+      "name": "Ocaso y Alba"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Velocidad de Ataque",
+     "before": "25%",
+     "after": "20%",
+     "text": "Velocidad de Ataque: 25% ⇒ 20%",
+     "id": "d5e25ed7ce5d",
+     "section": "items",
+     "tags": [
+      "Health",
+      "AttackSpeed",
+      "SpellDamage",
+      "OnHit",
+      "AbilityHaste"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "26.3",
+   "publishedAt": "2026-02-03T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Objetos",
+     "sectionId": "patch-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "2510",
+      "name": "Ocaso y Alba"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño de Espada Encantada",
+     "before": "100% de Daño de Ataque básico + 10% de Poder de Habilidad",
+     "after": "75% de Daño de Ataque básico + 10% de Poder de Habilidad",
+     "text": "Daño de Espada Encantada: 100% de Daño de Ataque básico + 10% de Poder de Habilidad ⇒ 75% de Daño de Ataque básico + 10% de Poder de Habilidad",
+     "id": "1f452db6e4f5",
+     "section": "items",
+     "tags": [
+      "Health",
+      "AttackSpeed",
+      "SpellDamage",
+      "OnHit",
+      "AbilityHaste"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Objetos",
+     "sectionId": "patch-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "2510",
+      "name": "Ocaso y Alba"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Vida",
+     "before": "300",
+     "after": "350",
+     "text": "Vida: 300 ⇒ 350",
+     "id": "85e246c530ac",
+     "section": "items",
+     "tags": [
+      "Health",
+      "AttackSpeed",
+      "SpellDamage",
+      "OnHit",
+      "AbilityHaste"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "26.1",
+   "publishedAt": "2026-01-07T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Objetos nuevos",
+     "sectionId": "patch-new-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "2510",
+      "name": "Ocaso y Alba"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Ruta de armado: Brillo + Varita Explosiva + Gemaluz + Daga + 300 de oro",
+     "id": "e0546c91d8b6",
+     "section": "items",
+     "tags": [
+      "Health",
+      "AttackSpeed",
+      "SpellDamage",
+      "OnHit",
+      "AbilityHaste"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Objetos nuevos",
+     "sectionId": "patch-new-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "2510",
+      "name": "Ocaso y Alba"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Costo total: 3100 de oro",
+     "id": "ebfd79f59746",
+     "section": "items",
+     "tags": [
+      "Health",
+      "AttackSpeed",
+      "SpellDamage",
+      "OnHit",
+      "AbilityHaste"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Objetos nuevos",
+     "sectionId": "patch-new-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "2510",
+      "name": "Ocaso y Alba"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Poder de Habilidad: 70",
+     "id": "7f27cf0303f3",
+     "section": "items",
+     "tags": [
+      "Health",
+      "AttackSpeed",
+      "SpellDamage",
+      "OnHit",
+      "AbilityHaste"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Objetos nuevos",
+     "sectionId": "patch-new-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "2510",
+      "name": "Ocaso y Alba"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Vida: 300",
+     "id": "a1f9a659c1ad",
+     "section": "items",
+     "tags": [
+      "Health",
+      "AttackSpeed",
+      "SpellDamage",
+      "OnHit",
+      "AbilityHaste"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Objetos nuevos",
+     "sectionId": "patch-new-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "2510",
+      "name": "Ocaso y Alba"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Aceleración de Habilidad: 20",
+     "id": "817c88fcfd3f",
+     "section": "items",
+     "tags": [
+      "Health",
+      "AttackSpeed",
+      "SpellDamage",
+      "OnHit",
+      "AbilityHaste"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Objetos nuevos",
+     "sectionId": "patch-new-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "2510",
+      "name": "Ocaso y Alba"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Velocidad de Ataque: 25%",
+     "id": "15412682fcd1",
+     "section": "items",
+     "tags": [
+      "Health",
+      "AttackSpeed",
+      "SpellDamage",
+      "OnHit",
+      "AbilityHaste"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Objetos nuevos",
+     "sectionId": "patch-new-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "2510",
+      "name": "Ocaso y Alba"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Espada Encantada (1.5 seg de enfriamiento): Tras usar una habilidad, tu siguiente ataque inflige (100% de Daño de Ataque básico + 10% de Poder de Habilidad) de daño mágico adicional al impacto y aplica efectos al impacto durante más tiempo",
+     "id": "3defa6f7d0b1",
+     "section": "items",
+     "tags": [
+      "Health",
+      "AttackSpeed",
+      "SpellDamage",
+      "OnHit",
+      "AbilityHaste"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,185 @@
+{
+ "schemaVersion": 1,
+ "id": "3171",
+ "name": "Botas de Lucidez Carmesí ",
+ "tags": [
+  "CooldownReduction",
+  "Boots"
+ ],
+ "entries": [
+  {
+   "patch": "26.1",
+   "publishedAt": "2026-01-07T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Misiones de rol",
+     "sectionId": "patch-role-quests",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "3171",
+      "name": "Botas de Lucidez Carmesí "
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Se obtiene al mejorar Botas Jonias de la Lucidez",
+     "id": "c05cf24d3c41",
+     "section": "items",
+     "tags": [
+      "CooldownReduction",
+      "Boots"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Misiones de rol",
+     "sectionId": "patch-role-quests",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "3171",
+      "name": "Botas de Lucidez Carmesí "
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Aceleración de Habilidad: 20",
+     "id": "34e8762230c0",
+     "section": "items",
+     "tags": [
+      "CooldownReduction",
+      "Boots"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Misiones de rol",
+     "sectionId": "patch-role-quests",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "3171",
+      "name": "Botas de Lucidez Carmesí "
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Velocidad de Movimiento: 45",
+     "id": "18b73dfdfc88",
+     "section": "items",
+     "tags": [
+      "CooldownReduction",
+      "Boots"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Misiones de rol",
+     "sectionId": "patch-role-quests",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "3171",
+      "name": "Botas de Lucidez Carmesí "
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Botas Jonias de la Lucidez: Obtienes 20 de aceleración para los hechizos de invocador",
+     "id": "3013628304a0",
+     "section": "items",
+     "tags": [
+      "CooldownReduction",
+      "Boots"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Misiones de rol",
+     "sectionId": "patch-role-quests",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "3171",
+      "name": "Botas de Lucidez Carmesí "
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Aceleración Noxiana: Obtienes un 10% de Velocidad de Movimiento durante 4 seg al potenciar o proteger aliados con habilidades, infligir daño a campeones enemigos con habilidades o lanzar un hechizo de invocador",
+     "id": "26511ce41ecb",
+     "section": "items",
+     "tags": [
+      "CooldownReduction",
+      "Boots"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.9",
+   "publishedAt": "2025-04-29T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Mejoras a las botas de nivel 3",
+     "sectionId": "patch-tier-3-boot-upgrades",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "3171",
+      "name": "Botas de Lucidez Carmesí "
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Costo",
+     "before": "750 de oro",
+     "after": "500 de oro",
+     "text": "Costo: 750 de oro ⇒ 500 de oro",
+     "id": "08087af3e6e4",
+     "section": "items",
+     "tags": [
+      "CooldownReduction",
+      "Boots"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  }
+ ]
+}

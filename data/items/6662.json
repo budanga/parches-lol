@@ -1,0 +1,52 @@
+{
+ "schemaVersion": 1,
+ "id": "6662",
+ "name": "Guantelete del Hijo del Hielo",
+ "tags": [
+  "Health",
+  "Armor",
+  "CooldownReduction",
+  "Slow",
+  "OnHit",
+  "AbilityHaste"
+ ],
+ "entries": [
+  {
+   "patch": "26.23",
+   "publishedAt": "2026-11-17T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "6662",
+      "name": "Guantelete del Hijo del Hielo"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Tasa de Armadura adicional del Espada Encantada",
+     "before": "0%",
+     "after": "25%",
+     "text": "Tasa de Armadura adicional del Espada Encantada: 0% ⇒ 25%",
+     "id": "15cf6b3feb85",
+     "section": "modes",
+     "tags": [
+      "Health",
+      "Armor",
+      "CooldownReduction",
+      "Slow",
+      "OnHit",
+      "AbilityHaste"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  }
+ ]
+}

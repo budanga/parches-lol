@@ -1,0 +1,379 @@
+{
+ "schemaVersion": 1,
+ "id": "4005",
+ "name": "Mandato Imperial",
+ "tags": [
+  "SpellDamage",
+  "ManaRegen",
+  "CooldownReduction",
+  "AbilityHaste"
+ ],
+ "entries": [
+  {
+   "patch": "26.13",
+   "publishedAt": "2026-06-23T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Objetos",
+     "sectionId": "patch-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "4005",
+      "name": "Mandato Imperial"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Ruta de armado",
+     "before": "Varita Explosiva (850 de oro) + Espejo de Vitrobandle (900 de oro) + 650 de oro",
+     "after": "Libro Amplificador (400 de oro) + Espejo de Vitrobandle (900 de oro) + Libro Amplificador (400 de oro) + 700 de oro",
+     "text": "Ruta de armado: Varita Explosiva (850 de oro) + Espejo de Vitrobandle (900 de oro) + 650 de oro ⇒ Libro Amplificador (400 de oro) + Espejo de Vitrobandle (900 de oro) + Libro Amplificador (400 de oro) + 700 de oro",
+     "id": "668b6a3e8025",
+     "section": "items",
+     "tags": [
+      "SpellDamage",
+      "ManaRegen",
+      "CooldownReduction",
+      "AbilityHaste"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Objetos",
+     "sectionId": "patch-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "4005",
+      "name": "Mandato Imperial"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Poder de Habilidad",
+     "before": "65",
+     "after": "60",
+     "text": "Poder de Habilidad: 65 ⇒ 60",
+     "id": "c1a83f62e25d",
+     "section": "items",
+     "tags": [
+      "SpellDamage",
+      "ManaRegen",
+      "CooldownReduction",
+      "AbilityHaste"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Objetos",
+     "sectionId": "patch-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "4005",
+      "name": "Mandato Imperial"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Único: Control",
+     "before": "15 de Aceleración de Habilidad para habilidades de inmovilización",
+     "after": "20 de Aceleración de Habilidad para habilidades de inmovilización",
+     "text": "Único: Control: 15 de Aceleración de Habilidad para habilidades de inmovilización ⇒ 20 de Aceleración de Habilidad para habilidades de inmovilización",
+     "id": "e1065038661a",
+     "section": "items",
+     "tags": [
+      "SpellDamage",
+      "ManaRegen",
+      "CooldownReduction",
+      "AbilityHaste"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Objetos",
+     "sectionId": "patch-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "4005",
+      "name": "Mandato Imperial"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Único: Comando",
+     "before": "6% de Vulnerabilidad",
+     "after": "7% de Vulnerabilidad",
+     "text": "Único: Comando: 6% de Vulnerabilidad ⇒ 7% de Vulnerabilidad",
+     "id": "753936560d15",
+     "section": "items",
+     "tags": [
+      "SpellDamage",
+      "ManaRegen",
+      "CooldownReduction",
+      "AbilityHaste"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "26.11",
+   "publishedAt": "2026-05-27T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Ajustes a soportes",
+     "sectionId": "patch-support-adjustments",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "4005",
+      "name": "Mandato Imperial"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Ruta de armado",
+     "before": "Códice Diabólico (850 de oro) + Espejo de Vitrobandle (900 de oro) + 500 de oro = 2200 de oro",
+     "after": "Varita Explosiva (850 de oro) + Espejo de Vitrobandle (900 de oro) + 650 de oro = 2400 de oro",
+     "text": "Ruta de armado: Códice Diabólico (850 de oro) + Espejo de Vitrobandle (900 de oro) + 500 de oro = 2200 de oro ⇒ Varita Explosiva (850 de oro) + Espejo de Vitrobandle (900 de oro) + 650 de oro = 2400 de oro",
+     "id": "fb9edc104f38",
+     "section": "items",
+     "tags": [
+      "SpellDamage",
+      "ManaRegen",
+      "CooldownReduction",
+      "AbilityHaste"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Ajustes a soportes",
+     "sectionId": "patch-support-adjustments",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "4005",
+      "name": "Mandato Imperial"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Poder de Habilidad",
+     "before": "60",
+     "after": "65",
+     "text": "Poder de Habilidad: 60 ⇒ 65",
+     "id": "f2d868e166f5",
+     "section": "items",
+     "tags": [
+      "SpellDamage",
+      "ManaRegen",
+      "CooldownReduction",
+      "AbilityHaste"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Ajustes a soportes",
+     "sectionId": "patch-support-adjustments",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "4005",
+      "name": "Mandato Imperial"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Aceleración de Habilidad",
+     "before": "20",
+     "after": "15",
+     "text": "Aceleración de Habilidad: 20 ⇒ 15",
+     "id": "1f8156a53e22",
+     "section": "items",
+     "tags": [
+      "SpellDamage",
+      "ManaRegen",
+      "CooldownReduction",
+      "AbilityHaste"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Ajustes a soportes",
+     "sectionId": "patch-support-adjustments",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "4005",
+      "name": "Mandato Imperial"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Regen. de Maná",
+     "before": "125%",
+     "after": "150%",
+     "text": "Regen. de Maná: 125% ⇒ 150%",
+     "id": "7281d8309ba0",
+     "section": "items",
+     "tags": [
+      "SpellDamage",
+      "ManaRegen",
+      "CooldownReduction",
+      "AbilityHaste"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Ajustes a soportes",
+     "sectionId": "patch-support-adjustments",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "4005",
+      "name": "Mandato Imperial"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "removed",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "ELIMINADO Único - Fuego Coordinado",
+     "id": "3e9f9a92b131",
+     "section": "items",
+     "tags": [
+      "SpellDamage",
+      "ManaRegen",
+      "CooldownReduction",
+      "AbilityHaste"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Ajustes a soportes",
+     "sectionId": "patch-support-adjustments",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "4005",
+      "name": "Mandato Imperial"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "new",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "NUEVO Único - Control: Obtienes 15 de Aceleración de Habilidad para tus habilidades con efectos inmovilizadores",
+     "id": "853bd3f14e88",
+     "section": "items",
+     "tags": [
+      "SpellDamage",
+      "ManaRegen",
+      "CooldownReduction",
+      "AbilityHaste"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Ajustes a soportes",
+     "sectionId": "patch-support-adjustments",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "4005",
+      "name": "Mandato Imperial"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "new",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "NUEVO Único - Comando: Al inmovilizar a un campeón enemigo, le pones una marca que lo vuelve 6% Vulnerable durante 4 seg (los enemigos vulnerables reciben un porcentaje de daño adicional)",
+     "id": "2de7de38a356",
+     "section": "items",
+     "tags": [
+      "SpellDamage",
+      "ManaRegen",
+      "CooldownReduction",
+      "AbilityHaste"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.18",
+   "publishedAt": "2025-09-09T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones (Arena)",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "4005",
+      "name": "Mandato Imperial"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": null,
+     "before": "Vida actual como daño: 10%",
+     "after": "20%",
+     "text": "Vida actual como daño: 10% ⇒ 20%",
+     "id": "12575a21e2d3",
+     "section": "modes",
+     "tags": [
+      "SpellDamage",
+      "ManaRegen",
+      "CooldownReduction",
+      "AbilityHaste"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  }
+ ]
+}

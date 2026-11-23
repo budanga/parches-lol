@@ -1,0 +1,114 @@
+{
+ "schemaVersion": 1,
+ "id": "443079",
+ "name": "Quimotanque Turbo",
+ "tags": [
+  "Health",
+  "Active",
+  "NonbootsMovement"
+ ],
+ "entries": [
+  {
+   "patch": "26.23",
+   "publishedAt": "2026-11-17T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "443079",
+      "name": "Quimotanque Turbo"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Curación",
+     "before": "20% de la Vida Máxima",
+     "after": "16%",
+     "text": "Curación: 20% de la Vida Máxima ⇒ 16%",
+     "id": "0a543d090f8f",
+     "section": "modes",
+     "tags": [
+      "Health",
+      "Active",
+      "NonbootsMovement"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "26.21",
+   "publishedAt": "2026-10-20T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "443079",
+      "name": "Quimotanque Turbo"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Restaurar",
+     "before": "4%",
+     "after": "20% de Vida Máxima",
+     "text": "Restaurar: 4% ⇒ 20% de Vida Máxima",
+     "id": "f4db50070471",
+     "section": "modes",
+     "tags": [
+      "Health",
+      "Active",
+      "NonbootsMovement"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "26.9",
+   "publishedAt": "2026-04-28T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "443079",
+      "name": "Quimotanque Turbo"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Supercargado: Se eliminó la activa. La nueva pasiva ignora el primer efecto inmovilizador que te impacta (30s de enfriamiento) y suelta un contenedor de gas cercano. Recoge el contenedor para restaurar tu Vida al máx. y reducir el enfriamiento en 15s.",
+     "id": "8692e7275df4",
+     "section": "modes",
+     "tags": [
+      "Health",
+      "Active",
+      "NonbootsMovement"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  }
+ ]
+}

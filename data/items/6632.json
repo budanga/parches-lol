@@ -1,0 +1,118 @@
+{
+ "schemaVersion": 1,
+ "id": "6632",
+ "name": "Cercenador Divino",
+ "tags": [
+  "Health",
+  "Damage",
+  "CooldownReduction",
+  "OnHit",
+  "MagicPenetration",
+  "ArmorPenetration",
+  "AbilityHaste"
+ ],
+ "entries": [
+  {
+   "patch": "26.6",
+   "publishedAt": "2026-03-17T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "6632",
+      "name": "Cercenador Divino"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": null,
+     "before": "Daño según la Vida Máxima del objetivo para campeones cuerpo a cuerpo: 4%",
+     "after": "6%",
+     "text": "Daño según la Vida Máxima del objetivo para campeones cuerpo a cuerpo: 4% ⇒ 6%",
+     "id": "4a40665e4b47",
+     "section": "modes",
+     "tags": [
+      "Health",
+      "Damage",
+      "CooldownReduction",
+      "OnHit",
+      "MagicPenetration",
+      "ArmorPenetration",
+      "AbilityHaste"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "6632",
+      "name": "Cercenador Divino"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": null,
+     "before": "Daño según la Vida Máxima del objetivo para campeones a distancia: 3%",
+     "after": "4%",
+     "text": "Daño según la Vida Máxima del objetivo para campeones a distancia: 3% ⇒ 4%",
+     "id": "e85ceeaea16c",
+     "section": "modes",
+     "tags": [
+      "Health",
+      "Damage",
+      "CooldownReduction",
+      "OnHit",
+      "MagicPenetration",
+      "ArmorPenetration",
+      "AbilityHaste"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "6632",
+      "name": "Cercenador Divino"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": null,
+     "before": "Curación antes de la mitigación: 55%",
+     "after": "70%",
+     "text": "Curación antes de la mitigación: 55% ⇒ 70%",
+     "id": "660f5841b033",
+     "section": "modes",
+     "tags": [
+      "Health",
+      "Damage",
+      "CooldownReduction",
+      "OnHit",
+      "MagicPenetration",
+      "ArmorPenetration",
+      "AbilityHaste"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  }
+ ]
+}

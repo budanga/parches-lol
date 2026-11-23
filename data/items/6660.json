@@ -1,0 +1,44 @@
+{
+ "schemaVersion": 1,
+ "id": "6660",
+ "name": "Ceniza de Bami",
+ "tags": [
+  "Health",
+  "AbilityHaste"
+ ],
+ "entries": [
+  {
+   "patch": "25.18",
+   "publishedAt": "2025-09-09T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Objetos",
+     "sectionId": "patch-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "6660",
+      "name": "Ceniza de Bami"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Porcentaje de amplificación de daño contra monstruos",
+     "before": "50%",
+     "after": "100%",
+     "text": "Porcentaje de amplificación de daño contra monstruos: 50% ⇒ 100%",
+     "id": "b6f83058248c",
+     "section": "items",
+     "tags": [
+      "Health",
+      "AbilityHaste"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  }
+ ]
+}

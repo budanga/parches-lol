@@ -1,0 +1,46 @@
+{
+ "schemaVersion": 1,
+ "id": "4401",
+ "name": "Fuerza de la Naturaleza",
+ "tags": [
+  "Health",
+  "SpellBlock",
+  "NonbootsMovement"
+ ],
+ "entries": [
+  {
+   "patch": "26.20",
+   "publishedAt": "2026-10-06T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "LoL Classic",
+     "sectionId": "patch-classic",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "4401",
+      "name": "Fuerza de la Naturaleza"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Vida cada 5",
+     "before": "20",
+     "after": "40",
+     "text": "Vida cada 5: 20 ⇒ 40",
+     "id": "ebad69b8073a",
+     "section": "modes",
+     "tags": [
+      "Health",
+      "SpellBlock",
+      "NonbootsMovement"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  }
+ ]
+}

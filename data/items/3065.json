@@ -1,0 +1,50 @@
+{
+ "schemaVersion": 1,
+ "id": "3065",
+ "name": "Apariencia Espiritual",
+ "tags": [
+  "Health",
+  "SpellBlock",
+  "HealthRegen",
+  "CooldownReduction",
+  "AbilityHaste"
+ ],
+ "entries": [
+  {
+   "patch": "26.20",
+   "publishedAt": "2026-10-06T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "LoL Classic",
+     "sectionId": "patch-classic",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "3065",
+      "name": "Apariencia Espiritual"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Vida cada 5",
+     "before": "4",
+     "after": "20",
+     "text": "Vida cada 5: 4 ⇒ 20",
+     "id": "2667f45ab2f8",
+     "section": "modes",
+     "tags": [
+      "Health",
+      "SpellBlock",
+      "HealthRegen",
+      "CooldownReduction",
+      "AbilityHaste"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  }
+ ]
+}

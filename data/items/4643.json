@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "id": "4643",
+ "name": "Piedravigía Alerta",
+ "tags": [
+  "Health",
+  "SpellBlock",
+  "Armor",
+  "Vision",
+  "Active",
+  "CooldownReduction",
+  "AbilityHaste"
+ ],
+ "entries": [
+  {
+   "patch": "26.1",
+   "publishedAt": "2026-01-07T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Objetos actualizados",
+     "sectionId": "patch-updated-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "4643",
+      "name": "Piedravigía Alerta"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Eliminamos Piedravigía Alerta",
+     "id": "2b8b19c98a5f",
+     "section": "items",
+     "tags": [
+      "Health",
+      "SpellBlock",
+      "Armor",
+      "Vision",
+      "Active",
+      "CooldownReduction",
+      "AbilityHaste"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  }
+ ]
+}

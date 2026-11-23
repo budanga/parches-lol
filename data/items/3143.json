@@ -1,0 +1,77 @@
+{
+ "schemaVersion": 1,
+ "id": "3143",
+ "name": "Presagio de Randuin",
+ "tags": [
+  "Health",
+  "Armor",
+  "Active",
+  "Slow"
+ ],
+ "entries": [
+  {
+   "patch": "26.8",
+   "publishedAt": "2026-04-14T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "ARAM: Caos",
+     "sectionId": "patch-aram:-mayhem",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "3143",
+      "name": "Presagio de Randuin"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": null,
+     "before": "Enfriamiento: 90 seg",
+     "after": "60 seg",
+     "text": "Enfriamiento: 90 seg ⇒ 60 seg",
+     "id": "5d136a12edcd",
+     "section": "modes",
+     "tags": [
+      "Health",
+      "Armor",
+      "Active",
+      "Slow"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "ARAM",
+     "sectionId": "patch-aram",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "3143",
+      "name": "Presagio de Randuin"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": null,
+     "before": "Enfriamiento: 90 seg",
+     "after": "60 seg",
+     "text": "Enfriamiento: 90 seg ⇒ 60 seg",
+     "id": "c5e2b1b5f6f5",
+     "section": "modes",
+     "tags": [
+      "Health",
+      "Armor",
+      "Active",
+      "Slow"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  }
+ ]
+}

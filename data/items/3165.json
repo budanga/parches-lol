@@ -1,0 +1,48 @@
+{
+ "schemaVersion": 1,
+ "id": "3165",
+ "name": "Morellonomicón",
+ "tags": [
+  "Health",
+  "SpellDamage",
+  "CooldownReduction",
+  "AbilityHaste"
+ ],
+ "entries": [
+  {
+   "patch": "25.10",
+   "publishedAt": "2025-05-13T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Objetos",
+     "sectionId": "patch-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "3165",
+      "name": "Morellonomicón"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Costo total de oro",
+     "before": "2950",
+     "after": "2850",
+     "text": "Costo total de oro: 2950 ⇒ 2850",
+     "id": "5392685d15f6",
+     "section": "items",
+     "tags": [
+      "Health",
+      "SpellDamage",
+      "CooldownReduction",
+      "AbilityHaste"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  }
+ ]
+}

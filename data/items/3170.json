@@ -1,0 +1,262 @@
+{
+ "schemaVersion": 1,
+ "id": "3170",
+ "name": "Botas de Marcha Rápida",
+ "tags": [
+  "Boots"
+ ],
+ "entries": [
+  {
+   "patch": "26.1",
+   "publishedAt": "2026-01-07T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Misiones de rol",
+     "sectionId": "patch-role-quests",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "3170",
+      "name": "Botas de Marcha Rápida"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Se obtiene al mejorar Botas de Rapidez",
+     "id": "c714a0e98cbd",
+     "section": "items",
+     "tags": [
+      "Boots"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Misiones de rol",
+     "sectionId": "patch-role-quests",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "3170",
+      "name": "Botas de Marcha Rápida"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Velocidad de Movimiento: 65",
+     "id": "9f4002936c66",
+     "section": "items",
+     "tags": [
+      "Boots"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Misiones de rol",
+     "sectionId": "patch-role-quests",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "3170",
+      "name": "Botas de Marcha Rápida"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Pies Ligeros: La eficacia de los efectos de ralentización se reduce en un 40%",
+     "id": "50853448285f",
+     "section": "items",
+     "tags": [
+      "Boots"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Misiones de rol",
+     "sectionId": "patch-role-quests",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "3170",
+      "name": "Botas de Marcha Rápida"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Fervor Noxiano: Obtienes un 5% de tu Velocidad de Movimiento como fuerza adaptable",
+     "id": "7ddd155eda0d",
+     "section": "items",
+     "tags": [
+      "Boots"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.9",
+   "publishedAt": "2025-04-29T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Mejoras a las botas de nivel 3",
+     "sectionId": "patch-tier-3-boot-upgrades",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "3170",
+      "name": "Botas de Marcha Rápida"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Costo",
+     "before": "750 de oro",
+     "after": "500 de oro",
+     "text": "Costo: 750 de oro ⇒ 500 de oro",
+     "id": "42958c83b7b4",
+     "section": "items",
+     "tags": [
+      "Boots"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Mejoras a las botas de nivel 3",
+     "sectionId": "patch-tier-3-boot-upgrades",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "3170",
+      "name": "Botas de Marcha Rápida"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Velocidad de Movimiento",
+     "before": "70",
+     "after": "65",
+     "text": "Velocidad de Movimiento: 70 ⇒ 65",
+     "id": "1e4c8746e7a7",
+     "section": "items",
+     "tags": [
+      "Boots"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Mejoras a las botas de nivel 3",
+     "sectionId": "patch-tier-3-boot-upgrades",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "3170",
+      "name": "Botas de Marcha Rápida"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "removed",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "ELIMINADO: Ya no otorga un aumento del 4% de Velocidad de Movimiento total",
+     "id": "800cc7f95753",
+     "section": "items",
+     "tags": [
+      "Boots"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Mejoras a las botas de nivel 3",
+     "sectionId": "patch-tier-3-boot-upgrades",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "3170",
+      "name": "Botas de Marcha Rápida"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "new",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "NUEVO: Ahora otorga Fuerza Adaptable igual al 5% de la Velocidad de Movimiento total",
+     "id": "2c2ca2c9c132",
+     "section": "items",
+     "tags": [
+      "Boots"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.S1.1",
+   "publishedAt": "2025-01-07T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Actualizaciones dentro de la versión",
+     "sectionId": "patch-fearless-draft",
+     "midPatch": true,
+     "entity": {
+      "kind": "item",
+      "id": "3170",
+      "name": "Botas de Marcha Rápida"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Velocidad de Movimiento",
+     "before": "75",
+     "after": "70",
+     "text": "Velocidad de Movimiento: 75 ⇒ 70",
+     "id": "fa7b020a47bd",
+     "section": "items",
+     "tags": [
+      "Boots"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  }
+ ]
+}

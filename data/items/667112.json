@@ -1,0 +1,48 @@
+{
+ "schemaVersion": 1,
+ "id": "667112",
+ "name": "Caníbal",
+ "tags": [
+  "Damage",
+  "SpellDamage",
+  "MagicPenetration",
+  "ArmorPenetration"
+ ],
+ "entries": [
+  {
+   "patch": "26.9",
+   "publishedAt": "2026-04-28T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "667112",
+      "name": "Caníbal"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Canibalizar: Cuando derribas a un campeón enemigo, robas el 10% de sus estadísticas y tamaño por el resto de la ronda",
+     "id": "b9d156fa0e90",
+     "section": "modes",
+     "tags": [
+      "Damage",
+      "SpellDamage",
+      "MagicPenetration",
+      "ArmorPenetration"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  }
+ ]
+}

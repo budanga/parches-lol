@@ -1,0 +1,48 @@
+{
+ "schemaVersion": 1,
+ "id": "3124",
+ "name": "Espadafuria de Guinsoo",
+ "tags": [
+  "Damage",
+  "AttackSpeed",
+  "SpellDamage",
+  "OnHit"
+ ],
+ "entries": [
+  {
+   "patch": "26.18",
+   "publishedAt": "2026-09-09T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Objetos",
+     "sectionId": "patch-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "3124",
+      "name": "Espadafuria de Guinsoo"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Duración de acumulaciones de Ataque Furioso",
+     "before": "3 seg",
+     "after": "4 seg",
+     "text": "Duración de acumulaciones de Ataque Furioso: 3 seg ⇒ 4 seg",
+     "id": "ffb5ed05fbb3",
+     "section": "items",
+     "tags": [
+      "Damage",
+      "AttackSpeed",
+      "SpellDamage",
+      "OnHit"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  }
+ ]
+}

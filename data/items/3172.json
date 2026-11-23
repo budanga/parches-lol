@@ -1,0 +1,163 @@
+{
+ "schemaVersion": 1,
+ "id": "3172",
+ "name": "Grebas de Armacero",
+ "tags": [
+  "AttackSpeed",
+  "LifeSteal",
+  "NonbootsMovement"
+ ],
+ "entries": [
+  {
+   "patch": "26.1",
+   "publishedAt": "2026-01-07T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Misiones de rol",
+     "sectionId": "patch-role-quests",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "3172",
+      "name": "Grebas de Armacero"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Se obtiene al mejorar Grebas del Berserker",
+     "id": "eb411a7d7e4f",
+     "section": "items",
+     "tags": [
+      "AttackSpeed",
+      "LifeSteal",
+      "NonbootsMovement"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Misiones de rol",
+     "sectionId": "patch-role-quests",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "3172",
+      "name": "Grebas de Armacero"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Velocidad de Ataque: 40%",
+     "id": "544278c4e356",
+     "section": "items",
+     "tags": [
+      "AttackSpeed",
+      "LifeSteal",
+      "NonbootsMovement"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Misiones de rol",
+     "sectionId": "patch-role-quests",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "3172",
+      "name": "Grebas de Armacero"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Velocidad de Movimiento: 45",
+     "id": "35d3c5ccdf0c",
+     "section": "items",
+     "tags": [
+      "AttackSpeed",
+      "LifeSteal",
+      "NonbootsMovement"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Misiones de rol",
+     "sectionId": "patch-role-quests",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "3172",
+      "name": "Grebas de Armacero"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Robo de Vida: 5%",
+     "id": "42c5cc786edf",
+     "section": "items",
+     "tags": [
+      "AttackSpeed",
+      "LifeSteal",
+      "NonbootsMovement"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.9",
+   "publishedAt": "2025-04-29T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Mejoras a las botas de nivel 3",
+     "sectionId": "patch-tier-3-boot-upgrades",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "3172",
+      "name": "Grebas de Armacero"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Costo",
+     "before": "750 de oro",
+     "after": "500 de oro",
+     "text": "Costo: 750 de oro ⇒ 500 de oro",
+     "id": "8b504b3b7ca1",
+     "section": "items",
+     "tags": [
+      "AttackSpeed",
+      "NonbootsMovement"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,386 @@
+{
+ "schemaVersion": 1,
+ "id": "3146",
+ "name": "Sablepistola Hextech",
+ "tags": [
+  "Damage",
+  "LifeSteal",
+  "SpellDamage",
+  "Active",
+  "SpellVamp"
+ ],
+ "entries": [
+  {
+   "patch": "26.1",
+   "publishedAt": "2026-01-07T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Objetos que regresan",
+     "sectionId": "patch-returning-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "3146",
+      "name": "Sablepistola Hextech"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Ruta de armado: Cetro Vampírico + Alternador Hextech + Libro Amplificador + 600 de oro",
+     "id": "72773a643d4c",
+     "section": "items",
+     "tags": [
+      "Damage",
+      "LifeSteal",
+      "SpellDamage",
+      "Active",
+      "SpellVamp"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Objetos que regresan",
+     "sectionId": "patch-returning-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "3146",
+      "name": "Sablepistola Hextech"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Costo total: 3000 de oro",
+     "id": "b5adf8d458c5",
+     "section": "items",
+     "tags": [
+      "Damage",
+      "LifeSteal",
+      "SpellDamage",
+      "Active",
+      "SpellVamp"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Objetos que regresan",
+     "sectionId": "patch-returning-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "3146",
+      "name": "Sablepistola Hextech"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Poder de Habilidad: 80",
+     "id": "b22119373c3d",
+     "section": "items",
+     "tags": [
+      "Damage",
+      "LifeSteal",
+      "SpellDamage",
+      "Active",
+      "SpellVamp"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Objetos que regresan",
+     "sectionId": "patch-returning-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "3146",
+      "name": "Sablepistola Hextech"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Daño de Ataque: 40",
+     "id": "b864930d0771",
+     "section": "items",
+     "tags": [
+      "Damage",
+      "LifeSteal",
+      "SpellDamage",
+      "Active",
+      "SpellVamp"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Objetos que regresan",
+     "sectionId": "patch-returning-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "3146",
+      "name": "Sablepistola Hextech"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Omnivampirismo: 10%",
+     "id": "03cb992db5e6",
+     "section": "items",
+     "tags": [
+      "Damage",
+      "LifeSteal",
+      "SpellDamage",
+      "Active",
+      "SpellVamp"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Objetos que regresan",
+     "sectionId": "patch-returning-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "3146",
+      "name": "Sablepistola Hextech"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "[ACTIVA] Relámpago (60 seg de enfriamiento): Lanzas una descarga al campeón enemigo objetivo, lo que le inflige (de 175 a 253 [aumenta con el nivel] + 30% de Poder de Habilidad) de daño mágico y lo ralentiza un 25% durante 1.5 seg",
+     "id": "cfd3db3e6fa8",
+     "section": "items",
+     "tags": [
+      "Damage",
+      "LifeSteal",
+      "SpellDamage",
+      "Active",
+      "SpellVamp"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.24",
+   "publishedAt": "2025-12-02T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "ARAM: Caos",
+     "sectionId": "patch-aram-mayhem",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "663146",
+      "name": "Sablepistola Hextech"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Costo total: 3000 de oro",
+     "id": "ad37bb310f0c",
+     "section": "modes",
+     "tags": [
+      "Damage",
+      "LifeSteal",
+      "SpellDamage",
+      "Active",
+      "SpellVamp"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "ARAM: Caos",
+     "sectionId": "patch-aram-mayhem",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "663146",
+      "name": "Sablepistola Hextech"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "80 de Poder de Habilidad",
+     "id": "6e82937c05ad",
+     "section": "modes",
+     "tags": [
+      "Damage",
+      "LifeSteal",
+      "SpellDamage",
+      "Active",
+      "SpellVamp"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "ARAM: Caos",
+     "sectionId": "patch-aram-mayhem",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "663146",
+      "name": "Sablepistola Hextech"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "40 de Daño de Ataque",
+     "id": "6b137356d4de",
+     "section": "modes",
+     "tags": [
+      "Damage",
+      "LifeSteal",
+      "SpellDamage",
+      "Active",
+      "SpellVamp"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "ARAM: Caos",
+     "sectionId": "patch-aram-mayhem",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "663146",
+      "name": "Sablepistola Hextech"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "10% de Robo de Vida",
+     "id": "a2e0031e4335",
+     "section": "modes",
+     "tags": [
+      "Damage",
+      "LifeSteal",
+      "SpellDamage",
+      "Active",
+      "SpellVamp"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "ARAM: Caos",
+     "sectionId": "patch-aram-mayhem",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "663146",
+      "name": "Sablepistola Hextech"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Vampirismo de Hechizo (pasiva): Obtienes un 10% de Vampirismo de Hechizo",
+     "id": "2895c994a2d8",
+     "section": "modes",
+     "tags": [
+      "Damage",
+      "LifeSteal",
+      "SpellDamage",
+      "Active",
+      "SpellVamp"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "ARAM: Caos",
+     "sectionId": "patch-aram-mayhem",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "663146",
+      "name": "Sablepistola Hextech"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Relámpago (activa) (60 seg de enfriamiento): Lanzas una descarga al campeón enemigo objetivo, lo que le inflige de 175 a 253 (+ 30% de Poder de Habilidad) de daño mágico y lo ralentiza en un 25% durante 1.5 seg",
+     "id": "1b8a2ae5a036",
+     "section": "modes",
+     "tags": [
+      "Damage",
+      "LifeSteal",
+      "SpellDamage",
+      "Active",
+      "SpellVamp"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  }
+ ]
+}

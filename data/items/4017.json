@@ -1,0 +1,278 @@
+{
+ "schemaVersion": 1,
+ "id": "4017",
+ "name": "Hacha de Fuego Infernal",
+ "tags": [
+  "Damage",
+  "ArmorPenetration"
+ ],
+ "entries": [
+  {
+   "patch": "26.13",
+   "publishedAt": "2026-06-23T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "4017",
+      "name": "Hacha de Fuego Infernal"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": null,
+     "before": "Daño de Ataque: 35",
+     "after": "40",
+     "text": "Daño de Ataque: 35 ⇒ 40",
+     "id": "962b8767a7bb",
+     "section": "modes",
+     "tags": [
+      "Damage",
+      "ArmorPenetration"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "4017",
+      "name": "Hacha de Fuego Infernal"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": null,
+     "before": "Por Enfriamiento por objetivo: 10 seg",
+     "after": "8 seg",
+     "text": "Por Enfriamiento por objetivo: 10 seg ⇒ 8 seg",
+     "id": "bb2693b2c896",
+     "section": "modes",
+     "tags": [
+      "Damage",
+      "ArmorPenetration"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "26.4",
+   "publishedAt": "2026-02-18T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "4017",
+      "name": "Hacha de Fuego Infernal"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": null,
+     "before": "Daño de vida actual básica: 15%",
+     "after": "7%",
+     "text": "Daño de vida actual básica: 15% ⇒ 7%",
+     "id": "4f46dd7e5a90",
+     "section": "modes",
+     "tags": [
+      "Damage",
+      "ArmorPenetration"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "4017",
+      "name": "Hacha de Fuego Infernal"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": null,
+     "before": "Multiplicador de Vida Máxima: 250%",
+     "after": "300%",
+     "text": "Multiplicador de Vida Máxima: 250% ⇒ 300%",
+     "id": "7ea1e1a0140f",
+     "section": "modes",
+     "tags": [
+      "Damage",
+      "ArmorPenetration"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "26.3",
+   "publishedAt": "2026-02-03T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "4017",
+      "name": "Hacha de Fuego Infernal"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño de Tizne",
+     "before": "(De un 5% a un 10% (+ de un 0.2% a un 0.4% cada 1 de Letalidad) según la diferencia de vida máxima) de la Vida actual de los objetivos",
+     "after": "(De un 15% a un 37% (+ de un 0.05% a un 0.125% cada 1 de Letalidad) según la diferencia de vida máxima) de la Vida actual de los objetivos",
+     "text": "Daño de Tizne: (De un 5% a un 10% (+ de un 0.2% a un 0.4% cada 1 de Letalidad) según la diferencia de vida máxima) de la Vida actual de los objetivos ⇒ (De un 15% a un 37% (+ de un 0.05% a un 0.125% cada 1 de Letalidad) según la diferencia de vida máxima) de la Vida actual de los objetivos",
+     "id": "c84c0d8cc865",
+     "section": "modes",
+     "tags": [
+      "Damage",
+      "ArmorPenetration"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "4017",
+      "name": "Hacha de Fuego Infernal"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "El límite de la diferencia de vida máxima aún se alcanza al tener 2500 de Vida",
+     "id": "42b3874d6091",
+     "section": "modes",
+     "tags": [
+      "Damage",
+      "ArmorPenetration"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "4017",
+      "name": "Hacha de Fuego Infernal"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Enfriamiento: Ahora, cuenta con un enfriamiento por objetivo en vez de un enfriamiento interno",
+     "id": "e47dae708960",
+     "section": "modes",
+     "tags": [
+      "Damage",
+      "ArmorPenetration"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "4017",
+      "name": "Hacha de Fuego Infernal"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Enfriamiento",
+     "before": "15 seg",
+     "after": "10 seg",
+     "text": "Enfriamiento: 15 seg ⇒ 10 seg",
+     "id": "0de909b71d9d",
+     "section": "modes",
+     "tags": [
+      "Damage",
+      "ArmorPenetration"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.9",
+   "publishedAt": "2025-04-29T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Modos de juego rotativos y cambios en Arena",
+     "sectionId": "patch-rotating-game-modes-and-arena-changes",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "4017",
+      "name": "Hacha de Fuego Infernal"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Enfriamiento",
+     "before": "20",
+     "after": "15",
+     "text": "Enfriamiento: 20 ⇒ 15",
+     "id": "d87cd2116452",
+     "section": "modes",
+     "tags": [
+      "Damage",
+      "ArmorPenetration"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  }
+ ]
+}

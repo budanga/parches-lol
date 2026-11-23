@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "id": "447121",
+ "name": "Filo del Crepúsculo",
+ "tags": [
+  "Health",
+  "Armor",
+  "Damage",
+  "AttackSpeed",
+  "SpellDamage",
+  "MagicResist",
+  "AbilityHaste"
+ ],
+ "entries": [
+  {
+   "patch": "25.24",
+   "publishedAt": "2025-12-02T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "447121",
+      "name": "Filo del Crepúsculo"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": null,
+     "before": "Daño de Ataque y Poder de Habilidad adicionales: 20%",
+     "after": "25%",
+     "text": "Daño de Ataque y Poder de Habilidad adicionales: 20% ⇒ 25%",
+     "id": "31cefa04862f",
+     "section": "modes",
+     "tags": [
+      "Health",
+      "Armor",
+      "Damage",
+      "AttackSpeed",
+      "SpellDamage",
+      "MagicResist",
+      "AbilityHaste"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  }
+ ]
+}

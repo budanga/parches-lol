@@ -1,0 +1,315 @@
+{
+ "schemaVersion": 1,
+ "id": "8010",
+ "name": "Maldición de la Vampiresa",
+ "tags": [
+  "Health",
+  "SpellDamage",
+  "CooldownReduction",
+  "MagicPenetration"
+ ],
+ "entries": [
+  {
+   "patch": "25.10",
+   "publishedAt": "2025-05-13T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Objetos",
+     "sectionId": "patch-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "8010",
+      "name": "Maldición de la Vampiresa"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Poder de Habilidad",
+     "before": "60",
+     "after": "65",
+     "text": "Poder de Habilidad: 60 ⇒ 65",
+     "id": "3d5967b19acc",
+     "section": "items",
+     "tags": [
+      "Health",
+      "SpellDamage",
+      "CooldownReduction",
+      "MagicPenetration"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Objetos",
+     "sectionId": "patch-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "8010",
+      "name": "Maldición de la Vampiresa"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Vida",
+     "before": "350",
+     "after": "400",
+     "text": "Vida: 350 ⇒ 400",
+     "id": "51616a361b7c",
+     "section": "items",
+     "tags": [
+      "Health",
+      "SpellDamage",
+      "CooldownReduction",
+      "MagicPenetration"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Objetos",
+     "sectionId": "patch-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "8010",
+      "name": "Maldición de la Vampiresa"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Reducción de Resistencia Mágica por acumulación",
+     "before": "5%",
+     "after": "7.5%",
+     "text": "Reducción de Resistencia Mágica por acumulación: 5% ⇒ 7.5%",
+     "id": "503c8c5c65a9",
+     "section": "items",
+     "tags": [
+      "Health",
+      "SpellDamage",
+      "CooldownReduction",
+      "MagicPenetration"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Objetos",
+     "sectionId": "patch-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "8010",
+      "name": "Maldición de la Vampiresa"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Reducción máxima: 30% (sin cambios)",
+     "id": "29ad1223ba44",
+     "section": "items",
+     "tags": [
+      "Health",
+      "SpellDamage",
+      "CooldownReduction",
+      "MagicPenetration"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.S1.1",
+   "publishedAt": "2025-01-07T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Objetos",
+     "sectionId": "patch-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "8010",
+      "name": "Maldición de la Vampiresa"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Costo: 2900 de oro",
+     "id": "bc9f99eb84b3",
+     "section": "items",
+     "tags": [
+      "Health",
+      "SpellDamage",
+      "CooldownReduction",
+      "MagicPenetration"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Objetos",
+     "sectionId": "patch-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "8010",
+      "name": "Maldición de la Vampiresa"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Receta del objeto: Antifaz Embrujado + Códice Diabólico + 750 de oro",
+     "id": "cc42ea1c51d6",
+     "section": "items",
+     "tags": [
+      "Health",
+      "SpellDamage",
+      "CooldownReduction",
+      "MagicPenetration"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Objetos",
+     "sectionId": "patch-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "8010",
+      "name": "Maldición de la Vampiresa"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Poder de Habilidad: 60",
+     "id": "9fd7248ed039",
+     "section": "items",
+     "tags": [
+      "Health",
+      "SpellDamage",
+      "CooldownReduction",
+      "MagicPenetration"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Objetos",
+     "sectionId": "patch-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "8010",
+      "name": "Maldición de la Vampiresa"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Vida: 350",
+     "id": "ba2c78fc0709",
+     "section": "items",
+     "tags": [
+      "Health",
+      "SpellDamage",
+      "CooldownReduction",
+      "MagicPenetration"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Objetos",
+     "sectionId": "patch-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "8010",
+      "name": "Maldición de la Vampiresa"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Aceleración de Habilidad: 15",
+     "id": "5a40e80c1c3a",
+     "section": "items",
+     "tags": [
+      "Health",
+      "SpellDamage",
+      "CooldownReduction",
+      "MagicPenetration"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Objetos",
+     "sectionId": "patch-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "8010",
+      "name": "Maldición de la Vampiresa"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Deterioro Vil: Infligir daño mágico a un campeón con habilidades o pasivas reduce su Resistencia Mágica en un 5% durante 6 seg, hasta un máximo de un 30%",
+     "id": "3ed162ad6630",
+     "section": "items",
+     "tags": [
+      "Health",
+      "SpellDamage",
+      "CooldownReduction",
+      "MagicPenetration"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  }
+ ]
+}

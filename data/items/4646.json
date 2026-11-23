@@ -1,0 +1,228 @@
+{
+ "schemaVersion": 1,
+ "id": "4646",
+ "name": "Descarga Tormentosa",
+ "tags": [
+  "SpellDamage",
+  "GoldPer",
+  "NonbootsMovement",
+  "MagicPenetration"
+ ],
+ "entries": [
+  {
+   "patch": "25.18",
+   "publishedAt": "2025-09-09T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones (Arena)",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "4646",
+      "name": "Descarga Tormentosa"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": null,
+     "before": "Poder de Habilidad: 80",
+     "after": "90",
+     "text": "Poder de Habilidad: 80 ⇒ 90",
+     "id": "c6fe29e5ce46",
+     "section": "modes",
+     "tags": [
+      "SpellDamage",
+      "GoldPer",
+      "NonbootsMovement",
+      "MagicPenetration"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones (Arena)",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "4646",
+      "name": "Descarga Tormentosa"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": null,
+     "before": "Recompensa de oro: 125 de oro",
+     "after": "Eliminado",
+     "text": "Recompensa de oro: 125 de oro ⇒ Eliminado",
+     "id": "ba3514e64040",
+     "section": "modes",
+     "tags": [
+      "SpellDamage",
+      "GoldPer",
+      "NonbootsMovement",
+      "MagicPenetration"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones (Arena)",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "4646",
+      "name": "Descarga Tormentosa"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": null,
+     "before": "Daño de Aguacero: 180 (+ 0.1 de Poder de Habilidad)",
+     "after": "180 (+ 0.3 Poder de Habilidad)",
+     "text": "Daño de Aguacero: 180 (+ 0.1 de Poder de Habilidad) ⇒ 180 (+ 0.3 Poder de Habilidad)",
+     "id": "a95702c51b0b",
+     "section": "modes",
+     "tags": [
+      "SpellDamage",
+      "GoldPer",
+      "NonbootsMovement",
+      "MagicPenetration"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.10",
+   "publishedAt": "2025-05-13T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Objetos",
+     "sectionId": "patch-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "4646",
+      "name": "Descarga Tormentosa"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Costo total de oro",
+     "before": "2900",
+     "after": "2800",
+     "text": "Costo total de oro: 2900 ⇒ 2800",
+     "id": "d2d9ef713076",
+     "section": "items",
+     "tags": [
+      "SpellDamage",
+      "GoldPer",
+      "NonbootsMovement",
+      "MagicPenetration"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Objetos",
+     "sectionId": "patch-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "4646",
+      "name": "Descarga Tormentosa"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Velocidad de Movimiento",
+     "before": "4%",
+     "after": "6%",
+     "text": "Velocidad de Movimiento: 4% ⇒ 6%",
+     "id": "a2b7a6c3a5c4",
+     "section": "items",
+     "tags": [
+      "SpellDamage",
+      "GoldPer",
+      "NonbootsMovement",
+      "MagicPenetration"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Objetos",
+     "sectionId": "patch-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "4646",
+      "name": "Descarga Tormentosa"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Oro obtenido al derribar preventivamente: Eliminado",
+     "id": "d8d1f6d13854",
+     "section": "items",
+     "tags": [
+      "SpellDamage",
+      "GoldPer",
+      "NonbootsMovement",
+      "MagicPenetration"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Objetos",
+     "sectionId": "patch-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "4646",
+      "name": "Descarga Tormentosa"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Velocidad de Movimiento con Aguacero: Eliminado",
+     "id": "ba3525fdecbb",
+     "section": "items",
+     "tags": [
+      "SpellDamage",
+      "GoldPer",
+      "NonbootsMovement",
+      "MagicPenetration"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  }
+ ]
+}

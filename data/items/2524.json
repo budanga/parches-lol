@@ -1,0 +1,368 @@
+{
+ "schemaVersion": 1,
+ "id": "2524",
+ "name": "Flautas de Bandle",
+ "tags": [
+  "Health",
+  "SpellBlock",
+  "Armor",
+  "AttackSpeed",
+  "NonbootsMovement",
+  "AbilityHaste"
+ ],
+ "entries": [
+  {
+   "patch": "26.2",
+   "publishedAt": "2026-01-21T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Objetos",
+     "sectionId": "patch-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "2524",
+      "name": "Flautas de Bandle"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Costo",
+     "before": "2000 de oro",
+     "after": "2300 de oro",
+     "text": "Costo: 2000 de oro ⇒ 2300 de oro",
+     "id": "397b5cc897fb",
+     "section": "items",
+     "tags": [
+      "Health",
+      "SpellBlock",
+      "Armor",
+      "AttackSpeed",
+      "NonbootsMovement",
+      "AbilityHaste"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Objetos",
+     "sectionId": "patch-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "2524",
+      "name": "Flautas de Bandle"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Costo de combinación",
+     "before": "500 de oro",
+     "after": "800 de oro",
+     "text": "Costo de combinación: 500 de oro ⇒ 800 de oro",
+     "id": "51536961f0ff",
+     "section": "items",
+     "tags": [
+      "Health",
+      "SpellBlock",
+      "Armor",
+      "AttackSpeed",
+      "NonbootsMovement",
+      "AbilityHaste"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "2524",
+      "name": "Flautas de Bandle"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": null,
+     "before": "Velocidad de Ataque del aura: 30%",
+     "after": "45%",
+     "text": "Velocidad de Ataque del aura: 30% ⇒ 45%",
+     "id": "7df6f6e96449",
+     "section": "modes",
+     "tags": [
+      "Health",
+      "SpellBlock",
+      "Armor",
+      "AttackSpeed",
+      "NonbootsMovement",
+      "AbilityHaste"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "2524",
+      "name": "Flautas de Bandle"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": null,
+     "before": "Velocidad de Movimiento: 20",
+     "after": "35",
+     "text": "Velocidad de Movimiento: 20 ⇒ 35",
+     "id": "110092d16046",
+     "section": "modes",
+     "tags": [
+      "Health",
+      "SpellBlock",
+      "Armor",
+      "AttackSpeed",
+      "NonbootsMovement",
+      "AbilityHaste"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "26.1",
+   "publishedAt": "2026-01-07T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Objetos nuevos",
+     "sectionId": "patch-new-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "2524",
+      "name": "Flautas de Bandle"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Ruta de armado: Gemaluz + Armadura de Tela + Manto Anulamagia + 500 de oro",
+     "id": "878a4b3852e7",
+     "section": "items",
+     "tags": [
+      "Health",
+      "SpellBlock",
+      "Armor",
+      "AttackSpeed",
+      "NonbootsMovement",
+      "AbilityHaste"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Objetos nuevos",
+     "sectionId": "patch-new-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "2524",
+      "name": "Flautas de Bandle"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Costo total: 2000 de oro",
+     "id": "5e5eada33702",
+     "section": "items",
+     "tags": [
+      "Health",
+      "SpellBlock",
+      "Armor",
+      "AttackSpeed",
+      "NonbootsMovement",
+      "AbilityHaste"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Objetos nuevos",
+     "sectionId": "patch-new-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "2524",
+      "name": "Flautas de Bandle"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Vida: 200",
+     "id": "2202b24da292",
+     "section": "items",
+     "tags": [
+      "Health",
+      "SpellBlock",
+      "Armor",
+      "AttackSpeed",
+      "NonbootsMovement",
+      "AbilityHaste"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Objetos nuevos",
+     "sectionId": "patch-new-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "2524",
+      "name": "Flautas de Bandle"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Armadura: 20",
+     "id": "5e5bbdc912c8",
+     "section": "items",
+     "tags": [
+      "Health",
+      "SpellBlock",
+      "Armor",
+      "AttackSpeed",
+      "NonbootsMovement",
+      "AbilityHaste"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Objetos nuevos",
+     "sectionId": "patch-new-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "2524",
+      "name": "Flautas de Bandle"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Resistencia Mágica: 20",
+     "id": "1717626e2fe3",
+     "section": "items",
+     "tags": [
+      "Health",
+      "SpellBlock",
+      "Armor",
+      "AttackSpeed",
+      "NonbootsMovement",
+      "AbilityHaste"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Objetos nuevos",
+     "sectionId": "patch-new-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "2524",
+      "name": "Flautas de Bandle"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Aceleración de Habilidad: 15",
+     "id": "14435ac94627",
+     "section": "items",
+     "tags": [
+      "Health",
+      "SpellBlock",
+      "Armor",
+      "AttackSpeed",
+      "NonbootsMovement",
+      "AbilityHaste"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Objetos nuevos",
+     "sectionId": "patch-new-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "2524",
+      "name": "Flautas de Bandle"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Fanfarria: Al ralentizar o inmovilizar a un campeón enemigo, obtienes la mejora Fanfarria durante 8 (para campeones cuerpo a cuerpo) / 4 (para campeones a distancia) seg. Fanfarria te otorga 20 de Velocidad de Movimiento. Además, mientras esté activa, tanto tú como tus aliados cercanos obtienen un 30% (para campeones cuerpo a cuerpo) / 20% (para campeones a distancia) de Velocidad de Ataque",
+     "id": "ffc37132ed79",
+     "section": "items",
+     "tags": [
+      "Health",
+      "SpellBlock",
+      "Armor",
+      "AttackSpeed",
+      "NonbootsMovement",
+      "AbilityHaste"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  }
+ ]
+}

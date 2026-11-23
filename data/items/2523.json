@@ -1,0 +1,299 @@
+{
+ "schemaVersion": 1,
+ "id": "2523",
+ "name": "Hexóptica C44",
+ "tags": [
+  "Damage",
+  "CriticalStrike"
+ ],
+ "entries": [
+  {
+   "patch": "26.4",
+   "publishedAt": "2026-02-18T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Objetos",
+     "sectionId": "patch-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "2523",
+      "name": "Hexóptica C44"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Alcance del daño adicional máximo",
+     "before": "600",
+     "after": "500",
+     "text": "Alcance del daño adicional máximo: 600 ⇒ 500",
+     "id": "f275e38c1e83",
+     "section": "items",
+     "tags": [
+      "Damage",
+      "CriticalStrike"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Objetos",
+     "sectionId": "patch-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "2523",
+      "name": "Hexóptica C44"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Duración del alcance adicional por derribo",
+     "before": "6",
+     "after": "8 seg",
+     "text": "Duración del alcance adicional por derribo: 6 ⇒ 8 seg",
+     "id": "304bea0b26f2",
+     "section": "items",
+     "tags": [
+      "Damage",
+      "CriticalStrike"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "26.2",
+   "publishedAt": "2026-01-21T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Objetos",
+     "sectionId": "patch-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "2523",
+      "name": "Hexóptica C44"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño de Ataque",
+     "before": "50",
+     "after": "55",
+     "text": "Daño de Ataque: 50 ⇒ 55",
+     "id": "1174c655f2f7",
+     "section": "items",
+     "tags": [
+      "Damage",
+      "CriticalStrike"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Objetos",
+     "sectionId": "patch-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "2523",
+      "name": "Hexóptica C44"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Distancia necesaria para activar la amplificación de daño máxima",
+     "before": "700",
+     "after": "600",
+     "text": "Distancia necesaria para activar la amplificación de daño máxima: 700 ⇒ 600",
+     "id": "a114725914bb",
+     "section": "items",
+     "tags": [
+      "Damage",
+      "CriticalStrike"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "26.1",
+   "publishedAt": "2026-01-07T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Objetos nuevos",
+     "sectionId": "patch-new-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "2523",
+      "name": "Hexóptica C44"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Ruta de armado: Picacha + Carcaj de Mediodía + Espada Larga + 275 de oro",
+     "id": "cd285b08c489",
+     "section": "items",
+     "tags": [
+      "Damage",
+      "CriticalStrike"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Objetos nuevos",
+     "sectionId": "patch-new-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "2523",
+      "name": "Hexóptica C44"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Costo total: 2800 de oro",
+     "id": "a658c84ad5f3",
+     "section": "items",
+     "tags": [
+      "Damage",
+      "CriticalStrike"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Objetos nuevos",
+     "sectionId": "patch-new-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "2523",
+      "name": "Hexóptica C44"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Daño de Ataque: 50",
+     "id": "f95cc918f2bb",
+     "section": "items",
+     "tags": [
+      "Damage",
+      "CriticalStrike"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Objetos nuevos",
+     "sectionId": "patch-new-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "2523",
+      "name": "Hexóptica C44"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Probabilidad de Golpe Crítico: 25%",
+     "id": "a992c4795fab",
+     "section": "items",
+     "tags": [
+      "Damage",
+      "CriticalStrike"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Objetos nuevos",
+     "sectionId": "patch-new-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "2523",
+      "name": "Hexóptica C44"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Magnificación: Tus ataques infligen hasta un 10% de daño aumentado según la distancia que haya entre el objetivo y tú (el máximo de daño se inflige a 750 unidades de distancia)",
+     "id": "bdb98074c26a",
+     "section": "items",
+     "tags": [
+      "Damage",
+      "CriticalStrike"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Objetos nuevos",
+     "sectionId": "patch-new-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "2523",
+      "name": "Hexóptica C44"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Precisión Arcana: Cuando un campeón al que le infligiste daño muere en un lapso de 3 seg, obtienes 100 de alcance de ataque adicional durante 6 seg",
+     "id": "12f4a46868be",
+     "section": "items",
+     "tags": [
+      "Damage",
+      "CriticalStrike"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  }
+ ]
+}

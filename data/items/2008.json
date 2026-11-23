@@ -1,0 +1,92 @@
+{
+ "schemaVersion": 1,
+ "id": "2008",
+ "name": "",
+ "tags": [],
+ "entries": [
+  {
+   "patch": "26.11",
+   "publishedAt": "2026-05-27T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Ajustes a soportes",
+     "sectionId": "patch-support-adjustments",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "2008",
+      "name": ""
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño por activación, por Vacuolarva",
+     "before": "3 / 9 / 12 || 1.5 / 4.5 / 6",
+     "after": "4 / 12 / 16 || 2 / 6 / 8",
+     "text": "Daño por activación, por Vacuolarva: 3 / 9 / 12 || 1.5 / 4.5 / 6 ⇒ 4 / 12 / 16 || 2 / 6 / 8",
+     "id": "1932636f2a62",
+     "section": "items",
+     "tags": [],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Ajustes a soportes",
+     "sectionId": "patch-support-adjustments",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "2008",
+      "name": ""
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Vida de las Vacuomitas invocadas",
+     "before": "60% de un súbdito cuerpo a cuerpo",
+     "after": "100% de un súbdito cuerpo a cuerpo",
+     "text": "Vida de las Vacuomitas invocadas: 60% de un súbdito cuerpo a cuerpo ⇒ 100% de un súbdito cuerpo a cuerpo",
+     "id": "42b039b235c8",
+     "section": "items",
+     "tags": [],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "26.9",
+   "publishedAt": "2026-04-28T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "2008",
+      "name": ""
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "removed",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Eliminado",
+     "id": "56338c9b6433",
+     "section": "modes",
+     "tags": [],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  }
+ ]
+}

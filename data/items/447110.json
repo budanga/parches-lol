@@ -1,0 +1,108 @@
+{
+ "schemaVersion": 1,
+ "id": "447110",
+ "name": "Espada Encantada por la Luna",
+ "tags": [
+  "Health",
+  "SpellDamage",
+  "Tenacity"
+ ],
+ "entries": [
+  {
+   "patch": "26.21",
+   "publishedAt": "2026-10-20T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "447110",
+      "name": "Espada Encantada por la Luna"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Reembolso de Enfriamiento por ataque",
+     "before": "0.5",
+     "after": "0.3",
+     "text": "Reembolso de Enfriamiento por ataque: 0.5 ⇒ 0.3",
+     "id": "6b4b68e9175d",
+     "section": "modes",
+     "tags": [
+      "Health",
+      "SpellDamage",
+      "Tenacity"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "447110",
+      "name": "Espada Encantada por la Luna"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Número de ataques mejorados",
+     "before": "2",
+     "after": "3",
+     "text": "Número de ataques mejorados: 2 ⇒ 3",
+     "id": "fb5e95c7f545",
+     "section": "modes",
+     "tags": [
+      "Health",
+      "SpellDamage",
+      "Tenacity"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "26.19",
+   "publishedAt": "2026-09-22T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "LoL Classic",
+     "sectionId": "patch-classic",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "447110",
+      "name": "Espada Encantada por la Luna"
+     },
+     "part": "Objetos",
+     "partTitle": "Objetos",
+     "spellKey": null,
+     "kind": "new",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "NUEVO Espada Encantada por la Luna",
+     "id": "2c61d0f8611e",
+     "section": "modes",
+     "tags": [
+      "Health",
+      "SpellDamage",
+      "Tenacity"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  }
+ ]
+}

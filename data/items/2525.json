@@ -1,0 +1,350 @@
+{
+ "schemaVersion": 1,
+ "id": "2525",
+ "name": "Arnés de Protoplasma",
+ "tags": [
+  "Health",
+  "NonbootsMovement",
+  "Tenacity",
+  "AbilityHaste"
+ ],
+ "entries": [
+  {
+   "patch": "26.14",
+   "publishedAt": "2026-07-14T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Objetos",
+     "sectionId": "patch-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "2525",
+      "name": "Arnés de Protoplasma"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Costo",
+     "before": "2500",
+     "after": "2600",
+     "text": "Costo: 2500 ⇒ 2600",
+     "id": "2fe51b437648",
+     "section": "items",
+     "tags": [
+      "Health",
+      "NonbootsMovement",
+      "Tenacity",
+      "AbilityHaste"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Objetos",
+     "sectionId": "patch-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "2525",
+      "name": "Arnés de Protoplasma"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Vida adicional",
+     "before": "De 200 a 300",
+     "after": "De 100 a 300",
+     "text": "Vida adicional: De 200 a 300 ⇒ De 100 a 300",
+     "id": "a96b06b74bf2",
+     "section": "items",
+     "tags": [
+      "Health",
+      "NonbootsMovement",
+      "Tenacity",
+      "AbilityHaste"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Objetos",
+     "sectionId": "patch-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "2525",
+      "name": "Arnés de Protoplasma"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Curación",
+     "before": "De 200 a 400",
+     "after": "De 100 a 400",
+     "text": "Curación: De 200 a 400 ⇒ De 100 a 400",
+     "id": "b900d3c4fc15",
+     "section": "items",
+     "tags": [
+      "Health",
+      "NonbootsMovement",
+      "Tenacity",
+      "AbilityHaste"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "26.3",
+   "publishedAt": "2026-02-03T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Objetos",
+     "sectionId": "patch-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "2525",
+      "name": "Arnés de Protoplasma"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Vida Máxima que otorga Salvavidas",
+     "before": "",
+     "after": "200 ⇒ De 200 a 300 (según el nivel)",
+     "text": "Vida Máxima que otorga Salvavidas: ⇒200 ⇒ De 200 a 300 (según el nivel)",
+     "id": "7f3df4d51ea9",
+     "section": "items",
+     "tags": [
+      "Health",
+      "NonbootsMovement",
+      "Tenacity",
+      "AbilityHaste"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Objetos",
+     "sectionId": "patch-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "2525",
+      "name": "Arnés de Protoplasma"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Valor de la curación de Salvavidas",
+     "before": "De 200 a 400 (según el nivel) (+ 250% de Armadura) (+ 250% de Resistencia Mágica)",
+     "after": "De 200 a 400 (según el nivel)(+ 175% de Armadura) (+ 175% de Resistencia Mágica)",
+     "text": "Valor de la curación de Salvavidas: De 200 a 400 (según el nivel) (+ 250% de Armadura) (+ 250% de Resistencia Mágica) ⇒ De 200 a 400 (según el nivel)(+ 175% de Armadura) (+ 175% de Resistencia Mágica)",
+     "id": "46e537cb09bd",
+     "section": "items",
+     "tags": [
+      "Health",
+      "NonbootsMovement",
+      "Tenacity",
+      "AbilityHaste"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Objetos",
+     "sectionId": "patch-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "2525",
+      "name": "Arnés de Protoplasma"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Aceleración de Habilidad",
+     "before": "15",
+     "after": "20",
+     "text": "Aceleración de Habilidad: 15 ⇒ 20",
+     "id": "b157c776bcb3",
+     "section": "items",
+     "tags": [
+      "Health",
+      "NonbootsMovement",
+      "Tenacity",
+      "AbilityHaste"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "26.1",
+   "publishedAt": "2026-01-07T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Objetos nuevos",
+     "sectionId": "patch-new-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "2525",
+      "name": "Arnés de Protoplasma"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Ruta de armado: Gemaluz + Cinturón de Gigante + 800 de oro",
+     "id": "771542749ad7",
+     "section": "items",
+     "tags": [
+      "Health",
+      "NonbootsMovement",
+      "Tenacity",
+      "AbilityHaste"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Objetos nuevos",
+     "sectionId": "patch-new-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "2525",
+      "name": "Arnés de Protoplasma"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Costo total: 2500 de oro",
+     "id": "2272154041f9",
+     "section": "items",
+     "tags": [
+      "Health",
+      "NonbootsMovement",
+      "Tenacity",
+      "AbilityHaste"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Objetos nuevos",
+     "sectionId": "patch-new-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "2525",
+      "name": "Arnés de Protoplasma"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Vida: 600",
+     "id": "35ff531fe7fb",
+     "section": "items",
+     "tags": [
+      "Health",
+      "NonbootsMovement",
+      "Tenacity",
+      "AbilityHaste"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Objetos nuevos",
+     "sectionId": "patch-new-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "2525",
+      "name": "Arnés de Protoplasma"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Aceleración de Habilidad: 15",
+     "id": "0ffffb4fcfc0",
+     "section": "items",
+     "tags": [
+      "Health",
+      "NonbootsMovement",
+      "Tenacity",
+      "AbilityHaste"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Objetos nuevos",
+     "sectionId": "patch-new-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "2525",
+      "name": "Arnés de Protoplasma"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Salvavidas: Al recibir daño que reduciría tu Vida por debajo de un 30%, obtienes 200 de Vida Máxima durante 5 seg y recuperas (de 200 a 400 [aumenta con el nivel] + 250% de Armadura + 250% de Resistencia Mágica) de Vida a lo largo del efecto. Mientras recuperas vida, aumentas de tamaño en un 15% y obtienes un 10% de Velocidad de Movimiento y un 25% de Tenacidad",
+     "id": "c347c2d94609",
+     "section": "items",
+     "tags": [
+      "Health",
+      "NonbootsMovement",
+      "Tenacity",
+      "AbilityHaste"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  }
+ ]
+}

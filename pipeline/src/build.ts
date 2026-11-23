@@ -1,5 +1,5 @@
 import { createHash } from "node:crypto";
-import type { Change, ChampionHistory, IndexFile, PatchFile, RawChange, Section, Verification } from "./types.ts";
+import type { Catalog, Change, ChampionHistory, IndexFile, PatchFile, RawChange, Section, Verification } from "./types.ts";
 
 export function changeId(raw: RawChange): string {
   const key = [raw.sectionId, raw.entity.id ?? raw.entity.name, raw.part ?? "", raw.attribute ?? "", raw.text].join("|");
@@ -72,4 +72,30 @@ export function buildChampionHistories(patches: PatchFile[], championJson: any):
     }
   }
   return [...byChamp.values()];
+}
+
+/**
+ * Item histories, newest first. Riot sometimes gives an item a new id between versions, so changes are
+ * filed under the current catalog id of the same name (falling back to their own id).
+ */
+export function buildItemHistories(patches: PatchFile[], catalog: Catalog): ChampionHistory[] {
+  const currentId = new Map(catalog.items.map(i => [i.name, i.id]));
+  const info = new Map(catalog.items.map(i => [i.id, i]));
+  const byItem = new Map<string, ChampionHistory>();
+  for (const p of [...patches].sort(newestFirst)) {
+    const perItem = new Map<string, Change[]>();
+    for (const c of p.changes) {
+      if (c.entity.kind !== "item" || !c.entity.id) continue;
+      const id = currentId.get(c.entity.name) ?? c.entity.id;
+      perItem.set(id, [...(perItem.get(id) ?? []), c]);
+    }
+    for (const [id, changes] of perItem) {
+      if (!byItem.has(id)) {
+        const it = info.get(id);
+        byItem.set(id, { schemaVersion: 1, id, name: it?.name ?? changes[0].entity.name, tags: [...(it?.tags ?? changes[0].tags)], entries: [] });
+      }
+      byItem.get(id)!.entries.push({ patch: p.patch, publishedAt: p.publishedAt, changes });
+    }
+  }
+  return [...byItem.values()];
 }

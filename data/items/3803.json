@@ -1,0 +1,170 @@
+{
+ "schemaVersion": 1,
+ "id": "3803",
+ "name": "Catalizador de Eones",
+ "tags": [
+  "Health",
+  "HealthRegen",
+  "Mana",
+  "ManaRegen"
+ ],
+ "entries": [
+  {
+   "patch": "25.21",
+   "publishedAt": "2025-10-21T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Objetos",
+     "sectionId": "patch-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "3803",
+      "name": "Catalizador de Eones"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Vida",
+     "before": "350",
+     "after": "300",
+     "text": "Vida: 350 ⇒ 300",
+     "id": "c0bdc33014df",
+     "section": "items",
+     "tags": [
+      "Health",
+      "HealthRegen",
+      "Mana",
+      "ManaRegen"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.7",
+   "publishedAt": "2025-04-01T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Objetos",
+     "sectionId": "patch-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "3803",
+      "name": "Catalizador de Eones"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Ruta de armado",
+     "before": "Cristal de Rubí + Cristal de Zafiro + 600 de oro",
+     "after": "Cristal de Rubí + Cristal de Rubí + Cristal de Zafiro + 200 de oro",
+     "text": "Ruta de armado: Cristal de Rubí + Cristal de Zafiro + 600 de oro ⇒ Cristal de Rubí + Cristal de Rubí + Cristal de Zafiro + 200 de oro",
+     "id": "97516c7427af",
+     "section": "items",
+     "tags": [
+      "Health",
+      "HealthRegen",
+      "Mana",
+      "ManaRegen"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Objetos",
+     "sectionId": "patch-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "3803",
+      "name": "Catalizador de Eones"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Costo total de oro: Sin cambios",
+     "id": "f1092e044fbb",
+     "section": "items",
+     "tags": [
+      "Health",
+      "HealthRegen",
+      "Mana",
+      "ManaRegen"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Objetos",
+     "sectionId": "patch-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "3803",
+      "name": "Catalizador de Eones"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Maná",
+     "before": "300",
+     "after": "375",
+     "text": "Maná: 300 ⇒ 375",
+     "id": "d3db4f6fbd74",
+     "section": "items",
+     "tags": [
+      "Health",
+      "HealthRegen",
+      "Mana",
+      "ManaRegen"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Objetos",
+     "sectionId": "patch-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "3803",
+      "name": "Catalizador de Eones"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Maná restaurado de Eternidad de daño recibido",
+     "before": "7%",
+     "after": "10% (Vara de las Edades recibirá el mismo cambio)",
+     "text": "Maná restaurado de Eternidad de daño recibido: 7% ⇒ 10% (Vara de las Edades recibirá el mismo cambio)",
+     "id": "7dd8fcf3a20b",
+     "section": "items",
+     "tags": [
+      "Health",
+      "HealthRegen",
+      "Mana",
+      "ManaRegen"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  }
+ ]
+}

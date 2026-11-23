@@ -1,0 +1,77 @@
+{
+ "schemaVersion": 1,
+ "id": "6609",
+ "name": "Sierraespada Quimpunk",
+ "tags": [
+  "Health",
+  "Damage",
+  "CooldownReduction",
+  "AbilityHaste"
+ ],
+ "entries": [
+  {
+   "patch": "26.6",
+   "publishedAt": "2026-03-17T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Objetos",
+     "sectionId": "patch-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "6609",
+      "name": "Sierraespada Quimpunk"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Costo de combinación",
+     "before": "350 de oro",
+     "after": "250 de oro",
+     "text": "Costo de combinación: 350 de oro ⇒ 250 de oro",
+     "id": "900355ac634e",
+     "section": "items",
+     "tags": [
+      "Health",
+      "Damage",
+      "CooldownReduction",
+      "AbilityHaste"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Objetos",
+     "sectionId": "patch-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "6609",
+      "name": "Sierraespada Quimpunk"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Costo total",
+     "before": "3100 de oro",
+     "after": "3000 de oro",
+     "text": "Costo total: 3100 de oro ⇒ 3000 de oro",
+     "id": "6e8ab91a3ad3",
+     "section": "items",
+     "tags": [
+      "Health",
+      "Damage",
+      "CooldownReduction",
+      "AbilityHaste"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  }
+ ]
+}

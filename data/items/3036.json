@@ -1,0 +1,226 @@
+{
+ "schemaVersion": 1,
+ "id": "3036",
+ "name": "Recuerdos de Lord Dominik",
+ "tags": [
+  "Damage",
+  "CriticalStrike",
+  "ArmorPenetration"
+ ],
+ "entries": [
+  {
+   "patch": "26.17",
+   "publishedAt": "2026-08-25T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "3036",
+      "name": "Recuerdos de Lord Dominik"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño de Ataque",
+     "before": "30",
+     "after": "45",
+     "text": "Daño de Ataque: 30 ⇒ 45",
+     "id": "0144fa87ef64",
+     "section": "modes",
+     "tags": [
+      "Damage",
+      "CriticalStrike",
+      "ArmorPenetration"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "26.1",
+   "publishedAt": "2026-01-07T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Objetos actualizados",
+     "sectionId": "patch-updated-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "3036",
+      "name": "Recuerdos de Lord Dominik"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": null,
+     "before": "Ruta de armado: Último Suspiro + Carcaj de Mediodía + 350 de oro",
+     "after": "Último Suspiro + Carcaj de Mediodía + 550 de oro",
+     "text": "Ruta de armado: Último Suspiro + Carcaj de Mediodía + 350 de oro ⇒ Último Suspiro + Carcaj de Mediodía + 550 de oro",
+     "id": "72dd431c2394",
+     "section": "items",
+     "tags": [
+      "Damage",
+      "CriticalStrike",
+      "ArmorPenetration"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Objetos actualizados",
+     "sectionId": "patch-updated-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "3036",
+      "name": "Recuerdos de Lord Dominik"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": null,
+     "before": "Costo total: 3100 de oro",
+     "after": "3300 de oro",
+     "text": "Costo total: 3100 de oro ⇒ 3300 de oro",
+     "id": "2d19f525d488",
+     "section": "items",
+     "tags": [
+      "Damage",
+      "CriticalStrike",
+      "ArmorPenetration"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Objetos actualizados",
+     "sectionId": "patch-updated-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "3036",
+      "name": "Recuerdos de Lord Dominik"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": null,
+     "before": "Penetración de Armadura: 40%",
+     "after": "35%",
+     "text": "Penetración de Armadura: 40% ⇒ 35%",
+     "id": "54811a73fbdb",
+     "section": "items",
+     "tags": [
+      "Damage",
+      "CriticalStrike",
+      "ArmorPenetration"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Objetos actualizados",
+     "sectionId": "patch-updated-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "3036",
+      "name": "Recuerdos de Lord Dominik"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "(NUEVO) Verdugo de Gigantes: Infliges hasta un 15% de daño adicional contra campeones según su vida adicional. Infliges el máximo de daño adicional cuando el enemigo tiene 1500 de Vida adicional",
+     "id": "0740cee1e562",
+     "section": "items",
+     "tags": [
+      "Damage",
+      "CriticalStrike",
+      "ArmorPenetration"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.S1.2",
+   "publishedAt": "2025-01-22T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Objetos",
+     "sectionId": "patch-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "3036",
+      "name": "Recuerdos de Lord Dominik"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Costo total de oro",
+     "before": "3000 de oro",
+     "after": "3100 de oro",
+     "text": "Costo total de oro: 3000 de oro ⇒ 3100 de oro",
+     "id": "e04e4d58ae90",
+     "section": "items",
+     "tags": [
+      "Damage",
+      "CriticalStrike",
+      "ArmorPenetration"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Objetos",
+     "sectionId": "patch-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "3036",
+      "name": "Recuerdos de Lord Dominik"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Penetración de Armadura",
+     "before": "35%",
+     "after": "40%",
+     "text": "Penetración de Armadura: 35% ⇒ 40%",
+     "id": "cdbd5e04d2da",
+     "section": "items",
+     "tags": [
+      "Damage",
+      "CriticalStrike",
+      "ArmorPenetration"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  }
+ ]
+}

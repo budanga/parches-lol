@@ -1,0 +1,248 @@
+{
+ "schemaVersion": 1,
+ "id": "2522",
+ "name": "Actualizador",
+ "tags": [
+  "SpellDamage",
+  "Mana",
+  "AbilityHaste"
+ ],
+ "entries": [
+  {
+   "patch": "26.3",
+   "publishedAt": "2026-02-03T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Objetos",
+     "sectionId": "patch-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "2522",
+      "name": "Actualizador"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Costo total",
+     "before": "3100 de oro",
+     "after": "2800 de oro",
+     "text": "Costo total: 3100 de oro ⇒ 2800 de oro",
+     "id": "7eadf6f8334c",
+     "section": "items",
+     "tags": [
+      "SpellDamage",
+      "Mana",
+      "AbilityHaste"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Objetos",
+     "sectionId": "patch-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "2522",
+      "name": "Actualizador"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Costo de combinación",
+     "before": "1050 de oro",
+     "after": "750 de oro",
+     "text": "Costo de combinación: 1050 de oro ⇒ 750 de oro",
+     "id": "cb85db25cc1a",
+     "section": "items",
+     "tags": [
+      "SpellDamage",
+      "Mana",
+      "AbilityHaste"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "26.1",
+   "publishedAt": "2026-01-07T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Objetos nuevos",
+     "sectionId": "patch-new-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "2522",
+      "name": "Actualizador"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Ruta de armado: Capítulo Perdido + Varita Explosiva + 1050 de oro",
+     "id": "f4a4c3801eee",
+     "section": "items",
+     "tags": [
+      "SpellDamage",
+      "Mana",
+      "AbilityHaste"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Objetos nuevos",
+     "sectionId": "patch-new-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "2522",
+      "name": "Actualizador"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Costo total: 3100 de oro",
+     "id": "5445334884ba",
+     "section": "items",
+     "tags": [
+      "SpellDamage",
+      "Mana",
+      "AbilityHaste"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Objetos nuevos",
+     "sectionId": "patch-new-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "2522",
+      "name": "Actualizador"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Poder de Habilidad: 90",
+     "id": "0f94b9a5ae66",
+     "section": "items",
+     "tags": [
+      "SpellDamage",
+      "Mana",
+      "AbilityHaste"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Objetos nuevos",
+     "sectionId": "patch-new-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "2522",
+      "name": "Actualizador"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Maná: 300",
+     "id": "ece22dfed75b",
+     "section": "items",
+     "tags": [
+      "SpellDamage",
+      "Mana",
+      "AbilityHaste"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Objetos nuevos",
+     "sectionId": "patch-new-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "2522",
+      "name": "Actualizador"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Aceleración de Habilidad: 10",
+     "id": "70efb4dab0d9",
+     "section": "items",
+     "tags": [
+      "SpellDamage",
+      "Mana",
+      "AbilityHaste"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Objetos nuevos",
+     "sectionId": "patch-new-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "2522",
+      "name": "Actualizador"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "[ACTIVA] Maná de Verdad (60 seg de enfriamiento): Durante 8 seg, tu maná se potencia. Mientras el efecto esté activo, tus hechizos cuestan un 100% más de Maná, obtienes un aumento de (15 + 0.005% de Maná adicional)% de daño para tus habilidades y poder de curaciones y escudos, y el enfriamiento de tus habilidades básicas se reduce un 30% más rápido",
+     "id": "61ee51421e1f",
+     "section": "items",
+     "tags": [
+      "SpellDamage",
+      "Mana",
+      "AbilityHaste"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  }
+ ]
+}

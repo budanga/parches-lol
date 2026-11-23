@@ -1,0 +1,94 @@
+{
+ "schemaVersion": 1,
+ "id": "1203",
+ "name": "Misión de soporte",
+ "tags": [
+  "Lane"
+ ],
+ "entries": [
+  {
+   "patch": "26.16",
+   "publishedAt": "2026-08-11T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Sistemas",
+     "sectionId": "patch-systems",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "1203",
+      "name": "Misión de soporte"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Consumo de acumulaciones por daño a campeones / torretas",
+     "before": "22 cuerpo a cuerpo || 20 a distancia y 24 cuerpo a cuerpo || 22 a distancia",
+     "after": "18 y 21",
+     "text": "Consumo de acumulaciones por daño a campeones / torretas: 22 cuerpo a cuerpo || 20 a distancia y 24 cuerpo a cuerpo || 22 a distancia ⇒ 18 y 21",
+     "id": "f128332d2e99",
+     "section": "items",
+     "tags": [
+      "Lane"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Sistemas",
+     "sectionId": "patch-systems",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "1203",
+      "name": "Misión de soporte"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Consumo de acumulaciones por puntuación de súbditos",
+     "before": "15 y 20",
+     "after": "18 y 21",
+     "text": "Consumo de acumulaciones por puntuación de súbditos: 15 y 20 ⇒ 18 y 21",
+     "id": "87713855dd9b",
+     "section": "items",
+     "tags": [
+      "Lane"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Sistemas",
+     "sectionId": "patch-systems",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "1203",
+      "name": "Misión de soporte"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Puntuación de súbditos por penalización de oro",
+     "before": "-25% por estar fuera del carril inferior hasta el nivel 3",
+     "after": "-33% por estar fuera del carril inferior hasta el nivel 5",
+     "text": "Puntuación de súbditos por penalización de oro: -25% por estar fuera del carril inferior hasta el nivel 3 ⇒ -33% por estar fuera del carril inferior hasta el nivel 5",
+     "id": "d65d4fe00a18",
+     "section": "items",
+     "tags": [
+      "Lane"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  }
+ ]
+}

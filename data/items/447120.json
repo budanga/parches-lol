@@ -1,0 +1,536 @@
+{
+ "schemaVersion": 1,
+ "id": "447120",
+ "name": "Lanza con Punta de Diamante",
+ "tags": [
+  "Damage",
+  "AttackSpeed"
+ ],
+ "entries": [
+  {
+   "patch": "26.11",
+   "publishedAt": "2026-05-27T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "447120",
+      "name": "Lanza con Punta de Diamante"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Velocidad de Ataque",
+     "before": "30%",
+     "after": "40%",
+     "text": "Velocidad de Ataque: 30% ⇒ 40%",
+     "id": "33a2389494fe",
+     "section": "modes",
+     "tags": [
+      "Damage",
+      "AttackSpeed"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "447120",
+      "name": "Lanza con Punta de Diamante"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Compañero de Proyectil Hextech",
+     "id": "151b5a2bc3e4",
+     "section": "modes",
+     "tags": [
+      "Damage",
+      "AttackSpeed"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "447120",
+      "name": "Lanza con Punta de Diamante"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Velocidad de Ataque",
+     "before": "75%",
+     "after": "50%",
+     "text": "Velocidad de Ataque: 75% ⇒ 50%",
+     "id": "da5cd8abfdae",
+     "section": "modes",
+     "tags": [
+      "Damage",
+      "AttackSpeed"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "447120",
+      "name": "Lanza con Punta de Diamante"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Velocidad de Movimiento",
+     "before": "4%",
+     "after": "6%",
+     "text": "Velocidad de Movimiento: 4% ⇒ 6%",
+     "id": "9bbe943ad0e2",
+     "section": "modes",
+     "tags": [
+      "Damage",
+      "AttackSpeed"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "447120",
+      "name": "Lanza con Punta de Diamante"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "removed",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "ELIMINADO Vida: Eliminado",
+     "id": "b3c26057a500",
+     "section": "modes",
+     "tags": [
+      "Damage",
+      "AttackSpeed"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "447120",
+      "name": "Lanza con Punta de Diamante"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Daño de Ataque: 70",
+     "id": "7a70d4f2cd4a",
+     "section": "modes",
+     "tags": [
+      "Damage",
+      "AttackSpeed"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "447120",
+      "name": "Lanza con Punta de Diamante"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Hexóptica C44",
+     "id": "ab6bdefedb91",
+     "section": "modes",
+     "tags": [
+      "Damage",
+      "AttackSpeed"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "447120",
+      "name": "Lanza con Punta de Diamante"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño de Ataque",
+     "before": "50",
+     "after": "55",
+     "text": "Daño de Ataque: 50 ⇒ 55",
+     "id": "d4ed31256db2",
+     "section": "modes",
+     "tags": [
+      "Damage",
+      "AttackSpeed"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "447120",
+      "name": "Lanza con Punta de Diamante"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Duración de la mejora",
+     "before": "10 seg",
+     "after": "15 seg",
+     "text": "Duración de la mejora: 10 seg ⇒ 15 seg",
+     "id": "a910540f99d5",
+     "section": "modes",
+     "tags": [
+      "Damage",
+      "AttackSpeed"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "447120",
+      "name": "Lanza con Punta de Diamante"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Arcoescudo Inmortal",
+     "id": "1be55de2d317",
+     "section": "modes",
+     "tags": [
+      "Damage",
+      "AttackSpeed"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "447120",
+      "name": "Lanza con Punta de Diamante"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Escudo",
+     "before": "De 400 a 700",
+     "after": "De 400 a 1000",
+     "text": "Escudo: De 400 a 700 ⇒ De 400 a 1000",
+     "id": "d9ac5f8b016b",
+     "section": "modes",
+     "tags": [
+      "Damage",
+      "AttackSpeed"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "447120",
+      "name": "Lanza con Punta de Diamante"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Filo del Infinito",
+     "id": "d747599ee51b",
+     "section": "modes",
+     "tags": [
+      "Damage",
+      "AttackSpeed"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "447120",
+      "name": "Lanza con Punta de Diamante"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Multiplicador de daño de Golpe Crítico",
+     "before": "40%",
+     "after": "30%",
+     "text": "Multiplicador de daño de Golpe Crítico: 40% ⇒ 30%",
+     "id": "d13e407c53c6",
+     "section": "modes",
+     "tags": [
+      "Damage",
+      "AttackSpeed"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "447120",
+      "name": "Lanza con Punta de Diamante"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño de Ataque",
+     "before": "55",
+     "after": "75",
+     "text": "Daño de Ataque: 55 ⇒ 75",
+     "id": "f2da5edfc4b2",
+     "section": "modes",
+     "tags": [
+      "Damage",
+      "AttackSpeed"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "447120",
+      "name": "Lanza con Punta de Diamante"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Daga de Statikk",
+     "id": "7b5402b56171",
+     "section": "modes",
+     "tags": [
+      "Damage",
+      "AttackSpeed"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "447120",
+      "name": "Lanza con Punta de Diamante"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño",
+     "before": "60",
+     "after": "De 80 a 160",
+     "text": "Daño: 60 ⇒ De 80 a 160",
+     "id": "3efaa4a55e8e",
+     "section": "modes",
+     "tags": [
+      "Damage",
+      "AttackSpeed"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "447120",
+      "name": "Lanza con Punta de Diamante"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Jitte Kinkou",
+     "id": "d7de904d9345",
+     "section": "modes",
+     "tags": [
+      "Damage",
+      "AttackSpeed"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "26.6",
+   "publishedAt": "2026-03-17T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "447120",
+      "name": "Lanza con Punta de Diamante"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": null,
+     "before": "Distancia recorrida para infligir el daño máximo: 1000",
+     "after": "800",
+     "text": "Distancia recorrida para infligir el daño máximo: 1000 ⇒ 800",
+     "id": "57c6774658a7",
+     "section": "modes",
+     "tags": [
+      "Damage",
+      "AttackSpeed"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "447120",
+      "name": "Lanza con Punta de Diamante"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": null,
+     "before": "Multiplicador máximo del daño de las habilidades: 40%",
+     "after": "50%",
+     "text": "Multiplicador máximo del daño de las habilidades: 40% ⇒ 50%",
+     "id": "f4d638519d7f",
+     "section": "modes",
+     "tags": [
+      "Damage",
+      "AttackSpeed"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,302 @@
+{
+ "schemaVersion": 1,
+ "id": "6697",
+ "name": "Arrogancia",
+ "tags": [
+  "Damage",
+  "Active",
+  "CooldownReduction",
+  "ArmorPenetration",
+  "AbilityHaste"
+ ],
+ "entries": [
+  {
+   "patch": "26.21",
+   "publishedAt": "2026-10-20T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Objetos",
+     "sectionId": "patch-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "6697",
+      "name": "Arrogancia"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño de Ataque básico adicional",
+     "before": "12",
+     "after": "15 cuerpo a cuerpo / 10 a distancia",
+     "text": "Daño de Ataque básico adicional: 12 ⇒ 15 cuerpo a cuerpo / 10 a distancia",
+     "id": "f9c74e19ee92",
+     "section": "items",
+     "tags": [
+      "Damage",
+      "Active",
+      "CooldownReduction",
+      "ArmorPenetration",
+      "AbilityHaste"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Objetos",
+     "sectionId": "patch-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "6697",
+      "name": "Arrogancia"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño de Ataque adicional por acumulación",
+     "before": "3",
+     "after": "3 cuerpo a cuerpo / 2 a distancia",
+     "text": "Daño de Ataque adicional por acumulación: 3 ⇒ 3 cuerpo a cuerpo / 2 a distancia",
+     "id": "083714d7754a",
+     "section": "items",
+     "tags": [
+      "Damage",
+      "Active",
+      "CooldownReduction",
+      "ArmorPenetration",
+      "AbilityHaste"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "26.9",
+   "publishedAt": "2026-04-28T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Objetos",
+     "sectionId": "patch-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "6697",
+      "name": "Arrogancia"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño de Ataque básico",
+     "before": "60",
+     "after": "55",
+     "text": "Daño de Ataque básico: 60 ⇒ 55",
+     "id": "4754d0cf69af",
+     "section": "items",
+     "tags": [
+      "Damage",
+      "Active",
+      "CooldownReduction",
+      "ArmorPenetration",
+      "AbilityHaste"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Objetos",
+     "sectionId": "patch-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "6697",
+      "name": "Arrogancia"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño de Ataque pasivo por acumulación",
+     "before": "+2",
+     "after": "+3",
+     "text": "Daño de Ataque pasivo por acumulación: +2 ⇒ +3",
+     "id": "4aaad7fa78f2",
+     "section": "items",
+     "tags": [
+      "Damage",
+      "Active",
+      "CooldownReduction",
+      "ArmorPenetration",
+      "AbilityHaste"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Objetos",
+     "sectionId": "patch-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "6697",
+      "name": "Arrogancia"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño de Ataque adicional",
+     "before": "+15",
+     "after": "+12",
+     "text": "Daño de Ataque adicional: +15 ⇒ +12",
+     "id": "9c621282ce9d",
+     "section": "items",
+     "tags": [
+      "Damage",
+      "Active",
+      "CooldownReduction",
+      "ArmorPenetration",
+      "AbilityHaste"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "ARAM",
+     "sectionId": "patch-aram",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "6697",
+      "name": "Arrogancia"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": null,
+     "before": "Daño de Ataque: 60",
+     "after": "55",
+     "text": "Daño de Ataque: 60 ⇒ 55",
+     "id": "ba0ed6896fea",
+     "section": "modes",
+     "tags": [
+      "Damage",
+      "Active",
+      "CooldownReduction",
+      "ArmorPenetration",
+      "AbilityHaste"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "ARAM",
+     "sectionId": "patch-aram",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "6697",
+      "name": "Arrogancia"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": null,
+     "before": "Aceleración de Habilidad: 15",
+     "after": "10",
+     "text": "Aceleración de Habilidad: 15 ⇒ 10",
+     "id": "198636abdf0d",
+     "section": "modes",
+     "tags": [
+      "Damage",
+      "Active",
+      "CooldownReduction",
+      "ArmorPenetration",
+      "AbilityHaste"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "26.5",
+   "publishedAt": "2026-03-03T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Objetos",
+     "sectionId": "patch-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "6697",
+      "name": "Arrogancia"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Costo de combinación",
+     "before": "950 de oro",
+     "after": "750 de oro",
+     "text": "Costo de combinación: 950 de oro ⇒ 750 de oro",
+     "id": "7b54cf629a55",
+     "section": "items",
+     "tags": [
+      "Damage",
+      "Active",
+      "CooldownReduction",
+      "ArmorPenetration",
+      "AbilityHaste"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Objetos",
+     "sectionId": "patch-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "6697",
+      "name": "Arrogancia"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Precio total",
+     "before": "3000 de oro",
+     "after": "2800 de oro",
+     "text": "Precio total: 3000 de oro ⇒ 2800 de oro",
+     "id": "791d53161b26",
+     "section": "items",
+     "tags": [
+      "Damage",
+      "Active",
+      "CooldownReduction",
+      "ArmorPenetration",
+      "AbilityHaste"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,86 @@
+{
+ "schemaVersion": 1,
+ "id": "3074",
+ "name": "Hidra Voraz",
+ "tags": [
+  "Damage",
+  "LifeSteal",
+  "CooldownReduction",
+  "OnHit",
+  "AbilityHaste"
+ ],
+ "entries": [
+  {
+   "patch": "25.18",
+   "publishedAt": "2025-09-09T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones (Arena)",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "3074",
+      "name": "Hidra Voraz"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": null,
+     "before": "Daño de Ataque: 55",
+     "after": "70",
+     "text": "Daño de Ataque: 55 ⇒ 70",
+     "id": "42ecb2953765",
+     "section": "modes",
+     "tags": [
+      "Damage",
+      "LifeSteal",
+      "CooldownReduction",
+      "OnHit",
+      "AbilityHaste"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.17",
+   "publishedAt": "2025-08-26T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Cambios de balance de ARAM",
+     "sectionId": "patch-aram-balance-changes",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "3074",
+      "name": "Hidra Voraz"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Tasa de Daño de Ataque de la activa",
+     "before": "80%",
+     "after": "100%",
+     "text": "Tasa de Daño de Ataque de la activa: 80% ⇒ 100%",
+     "id": "0d94bad9d517",
+     "section": "modes",
+     "tags": [
+      "Damage",
+      "LifeSteal",
+      "CooldownReduction",
+      "OnHit",
+      "AbilityHaste"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  }
+ ]
+}

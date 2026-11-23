@@ -1,0 +1,48 @@
+{
+ "schemaVersion": 1,
+ "id": "447107",
+ "name": "Decapitador",
+ "tags": [
+  "Damage",
+  "AttackSpeed",
+  "SpellDamage",
+  "NonbootsMovement"
+ ],
+ "entries": [
+  {
+   "patch": "25.24",
+   "publishedAt": "2025-12-02T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "447107",
+      "name": "Decapitador"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": null,
+     "before": "Velocidad de Movimiento: 6%",
+     "after": "8%",
+     "text": "Velocidad de Movimiento: 6% ⇒ 8%",
+     "id": "6f81f500e779",
+     "section": "modes",
+     "tags": [
+      "Damage",
+      "AttackSpeed",
+      "SpellDamage",
+      "NonbootsMovement"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  }
+ ]
+}

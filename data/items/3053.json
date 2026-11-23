@@ -1,0 +1,238 @@
+{
+ "schemaVersion": 1,
+ "id": "3053",
+ "name": "Guantelete de Sterak",
+ "tags": [
+  "Health",
+  "Damage",
+  "Tenacity"
+ ],
+ "entries": [
+  {
+   "patch": "26.16",
+   "publishedAt": "2026-08-11T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Objetos",
+     "sectionId": "patch-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "3053",
+      "name": "Guantelete de Sterak"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño de Ataque adicional",
+     "before": "45% del Daño de Ataque básico",
+     "after": "50% del Daño de Ataque básico",
+     "text": "Daño de Ataque adicional: 45% del Daño de Ataque básico ⇒ 50% del Daño de Ataque básico",
+     "id": "991b44febeb6",
+     "section": "items",
+     "tags": [
+      "Health",
+      "Damage",
+      "Tenacity"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "3053",
+      "name": "Guantelete de Sterak"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño de Ataque adicional",
+     "before": "45% del Daño de Ataque básico",
+     "after": "50% del Daño de Ataque básico",
+     "text": "Daño de Ataque adicional: 45% del Daño de Ataque básico ⇒ 50% del Daño de Ataque básico",
+     "id": "e46ca863860b",
+     "section": "modes",
+     "tags": [
+      "Health",
+      "Damage",
+      "Tenacity"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "26.8",
+   "publishedAt": "2026-04-14T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "ARAM: Caos",
+     "sectionId": "patch-aram:-mayhem",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "3053",
+      "name": "Guantelete de Sterak"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": null,
+     "before": "Enfriamiento: 75 seg",
+     "after": "60 seg",
+     "text": "Enfriamiento: 75 seg ⇒ 60 seg",
+     "id": "c6a22e7034d1",
+     "section": "modes",
+     "tags": [
+      "Health",
+      "Damage",
+      "Tenacity"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.19",
+   "publishedAt": "2025-09-23T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Cambios de balance de ARAM",
+     "sectionId": "patch-aram-balance-changes",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "3053",
+      "name": "Guantelete de Sterak"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Enfriamiento de Salvavidas",
+     "before": "90 seg",
+     "after": "75 seg",
+     "text": "Enfriamiento de Salvavidas: 90 seg ⇒ 75 seg",
+     "id": "7bb00baca5d4",
+     "section": "modes",
+     "tags": [
+      "Health",
+      "Damage",
+      "Tenacity"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.17",
+   "publishedAt": "2025-08-26T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Cambios de balance de ARAM",
+     "sectionId": "patch-aram-balance-changes",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "3053",
+      "name": "Guantelete de Sterak"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño de Ataque básico como daño de ataque adicional",
+     "before": "45%",
+     "after": "50%",
+     "text": "Daño de Ataque básico como daño de ataque adicional: 45% ⇒ 50%",
+     "id": "fc0e8cd190a4",
+     "section": "modes",
+     "tags": [
+      "Health",
+      "Damage",
+      "Tenacity"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Cambios de balance de ARAM",
+     "sectionId": "patch-aram-balance-changes",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "3053",
+      "name": "Guantelete de Sterak"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Tasa de Vida adicional como escudo",
+     "before": "60%",
+     "after": "70%",
+     "text": "Tasa de Vida adicional como escudo: 60% ⇒ 70%",
+     "id": "3c2c9f6f175e",
+     "section": "modes",
+     "tags": [
+      "Health",
+      "Damage",
+      "Tenacity"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.9",
+   "publishedAt": "2025-04-29T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Modos de juego rotativos y cambios en Arena",
+     "sectionId": "patch-rotating-game-modes-and-arena-changes",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "3053",
+      "name": "Guantelete de Sterak"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Enfriamiento de Salvavidas",
+     "before": "45",
+     "after": "30",
+     "text": "Enfriamiento de Salvavidas: 45 ⇒ 30",
+     "id": "249777911d38",
+     "section": "modes",
+     "tags": [
+      "Health",
+      "Damage",
+      "Tenacity"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  }
+ ]
+}

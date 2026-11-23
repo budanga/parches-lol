@@ -1,0 +1,350 @@
+{
+ "schemaVersion": 1,
+ "id": "2512",
+ "name": "Proyectiles Cazademonios",
+ "tags": [
+  "CriticalStrike",
+  "AttackSpeed",
+  "NonbootsMovement",
+  "AbilityHaste"
+ ],
+ "entries": [
+  {
+   "patch": "26.6",
+   "publishedAt": "2026-03-17T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "2512",
+      "name": "Proyectiles Cazademonios"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": null,
+     "before": "Enfriamiento: 60 seg",
+     "after": "20 seg",
+     "text": "Enfriamiento: 60 seg ⇒ 20 seg",
+     "id": "a2147abf4f02",
+     "section": "modes",
+     "tags": [
+      "CriticalStrike",
+      "AttackSpeed",
+      "NonbootsMovement",
+      "AbilityHaste"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "26.2",
+   "publishedAt": "2026-01-21T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Objetos",
+     "sectionId": "patch-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "2512",
+      "name": "Proyectiles Cazademonios"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Velocidad de Ataque",
+     "before": "40%",
+     "after": "45%",
+     "text": "Velocidad de Ataque: 40% ⇒ 45%",
+     "id": "337906759383",
+     "section": "items",
+     "tags": [
+      "CriticalStrike",
+      "AttackSpeed",
+      "NonbootsMovement",
+      "AbilityHaste"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Objetos",
+     "sectionId": "patch-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "2512",
+      "name": "Proyectiles Cazademonios"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Multiplicador de daño para los golpes críticos garantizados",
+     "before": "75%",
+     "after": "80%",
+     "text": "Multiplicador de daño para los golpes críticos garantizados: 75% ⇒ 80%",
+     "id": "fa181ba5ff5d",
+     "section": "items",
+     "tags": [
+      "CriticalStrike",
+      "AttackSpeed",
+      "NonbootsMovement",
+      "AbilityHaste"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Objetos",
+     "sectionId": "patch-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "2512",
+      "name": "Proyectiles Cazademonios"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño verdadero adicional para los golpes críticos",
+     "before": "10%",
+     "after": "15%",
+     "text": "Daño verdadero adicional para los golpes críticos: 10% ⇒ 15%",
+     "id": "a0d8c1f08560",
+     "section": "items",
+     "tags": [
+      "CriticalStrike",
+      "AttackSpeed",
+      "NonbootsMovement",
+      "AbilityHaste"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "26.1",
+   "publishedAt": "2026-01-07T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Objetos nuevos",
+     "sectionId": "patch-new-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "2512",
+      "name": "Proyectiles Cazademonios"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Ruta de armado: Fervor + Honda del Explorador + 850 de oro",
+     "id": "9dbd2c16f06f",
+     "section": "items",
+     "tags": [
+      "CriticalStrike",
+      "AttackSpeed",
+      "NonbootsMovement",
+      "AbilityHaste"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Objetos nuevos",
+     "sectionId": "patch-new-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "2512",
+      "name": "Proyectiles Cazademonios"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Costo total: 2650 de oro",
+     "id": "6a1a07edbf9b",
+     "section": "items",
+     "tags": [
+      "CriticalStrike",
+      "AttackSpeed",
+      "NonbootsMovement",
+      "AbilityHaste"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Objetos nuevos",
+     "sectionId": "patch-new-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "2512",
+      "name": "Proyectiles Cazademonios"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Velocidad de Ataque: 40%",
+     "id": "62838b591027",
+     "section": "items",
+     "tags": [
+      "CriticalStrike",
+      "AttackSpeed",
+      "NonbootsMovement",
+      "AbilityHaste"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Objetos nuevos",
+     "sectionId": "patch-new-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "2512",
+      "name": "Proyectiles Cazademonios"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Probabilidad de Golpe Crítico: 25%",
+     "id": "c8667f710e3f",
+     "section": "items",
+     "tags": [
+      "CriticalStrike",
+      "AttackSpeed",
+      "NonbootsMovement",
+      "AbilityHaste"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Objetos nuevos",
+     "sectionId": "patch-new-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "2512",
+      "name": "Proyectiles Cazademonios"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Velocidad de Movimiento: 4%",
+     "id": "9534075b5a52",
+     "section": "items",
+     "tags": [
+      "CriticalStrike",
+      "AttackSpeed",
+      "NonbootsMovement",
+      "AbilityHaste"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Objetos nuevos",
+     "sectionId": "patch-new-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "2512",
+      "name": "Proyectiles Cazademonios"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Vigilancia Nocturna: Obtienes 30 de Aceleración de Habilidad para la definitiva",
+     "id": "d6a6eced8fa3",
+     "section": "items",
+     "tags": [
+      "CriticalStrike",
+      "AttackSpeed",
+      "NonbootsMovement",
+      "AbilityHaste"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Objetos nuevos",
+     "sectionId": "patch-new-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "2512",
+      "name": "Proyectiles Cazademonios"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Ráfaga Inicial (45 seg de enfriamiento): Tras lanzar la definitiva, tus siguientes tres ataques básicos en un lapso de 8 seg obtienen un 50% de Velocidad de Ataque y asestan golpes críticos que infligen una cantidad de daño equivalente a un 75% de tu daño de golpe crítico. Si el ataque ya iba a asestar un golpe crítico, inflige la cantidad de daño de golpe crítico normal y un 10% de daño verdadero adicional",
+     "id": "e1b82d8fe430",
+     "section": "items",
+     "tags": [
+      "CriticalStrike",
+      "AttackSpeed",
+      "NonbootsMovement",
+      "AbilityHaste"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  }
+ ]
+}

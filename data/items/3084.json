@@ -1,0 +1,110 @@
+{
+ "schemaVersion": 1,
+ "id": "3084",
+ "name": "Corazón de Acero",
+ "tags": [
+  "Health",
+  "HealthRegen"
+ ],
+ "entries": [
+  {
+   "patch": "25.24",
+   "publishedAt": "2025-12-02T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Actualizaciones dentro de la versión, 16 de diciembre de 2025",
+     "sectionId": "patch-season-3-ranked-ending-soon",
+     "midPatch": true,
+     "entity": {
+      "kind": "item",
+      "id": "3084",
+      "name": "Corazón de Acero"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": null,
+     "before": "Tasa de daño como Vida Máxima: 0.08",
+     "after": "1",
+     "text": "Tasa de daño como Vida Máxima: 0.08 ⇒ 1",
+     "id": "4d82ae15aabf",
+     "section": "items",
+     "tags": [
+      "Health",
+      "HealthRegen"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.4",
+   "publishedAt": "2025-02-19T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Objetos",
+     "sectionId": "patch-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "3084",
+      "name": "Corazón de Acero"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Vida Máxima de consumo de Colosal",
+     "before": "10% del daño",
+     "after": "8% del daño",
+     "text": "Vida Máxima de consumo de Colosal: 10% del daño ⇒ 8% del daño",
+     "id": "c54cb1ac7de3",
+     "section": "items",
+     "tags": [
+      "Health",
+      "HealthRegen"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.S1.3",
+   "publishedAt": "2025-02-04T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Sistemas",
+     "sectionId": "patch-systems",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "3084",
+      "name": "Corazón de Acero"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Enfriamiento",
+     "before": "40",
+     "after": "30",
+     "text": "Enfriamiento: 40 ⇒ 30",
+     "id": "ba3918cae6a7",
+     "section": "items",
+     "tags": [
+      "Health",
+      "HealthRegen"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  }
+ ]
+}

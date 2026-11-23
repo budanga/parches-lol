@@ -117,3 +117,23 @@ fun rowsFor(group: Group): List<RowItem> {
     }
     return out
 }
+
+/**
+ * Search inside a patch: a group whose name matches is kept whole; otherwise only its matching lines.
+ * Folded groups with matches open up. Accents, case and apostrophes are ignored.
+ */
+fun filterGroups(groups: List<Group>, query: String): List<Group> {
+    val q = normalizeForSearch(query.trim())
+    if (q.isEmpty()) return groups
+    return groups.mapNotNull { g ->
+        if (normalizeForSearch(g.title).contains(q)) return@mapNotNull g.copy(collapsed = false)
+        val lines = g.changes.filter { c ->
+            listOfNotNull(c.text, c.attribute, c.sectionTitle, c.entity.name, c.partTitle).any { normalizeForSearch(it).contains(q) }
+        }
+        if (lines.isEmpty()) null else g.copy(changes = lines, collapsed = false)
+    }
+}
+
+/** Portraits for the home-screen widget: your ADCs and ADC items changed in this patch, in page order. */
+fun widgetEntities(patch: PatchFile, myAdcs: Set<String>, myItems: Set<String>?, myItemNames: Set<String> = emptySet()): List<Entity> =
+    adcGroups(patch, myAdcs, myItems, myItemNames).mapNotNull { it.entity }

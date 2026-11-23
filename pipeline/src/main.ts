@@ -1,7 +1,7 @@
 import { existsSync, mkdirSync, readFileSync, readdirSync, renameSync, rmSync, writeFileSync } from "node:fs";
 import { dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
-import { assignIds, buildChampionHistories, buildIndex, markAddedLater, qualityCheck, toChange } from "./build.ts";
+import { assignIds, buildChampionHistories, buildItemHistories, buildIndex, markAddedLater, qualityCheck, toChange } from "./build.ts";
 import { sectionFor, tagsFor } from "./classify.ts";
 import { buildCatalog } from "./catalog.ts";
 import { buildNameIndex } from "./names.ts";
@@ -157,9 +157,11 @@ export async function run(opts: { fetchText: FetchText; dataDir: string; now: st
   rmSync(tmp, { recursive: true, force: true });
   mkdirSync(join(tmp, "patches"), { recursive: true });
   mkdirSync(join(tmp, "champions"), { recursive: true });
+  mkdirSync(join(tmp, "items"), { recursive: true });
   const write = (f: string, v: unknown) => writeFileSync(join(tmp, f), JSON.stringify(v, null, 1) + "\n");
   for (const p of all) write(`patches/${p.patch}.json`, p);
   for (const h of histories) write(`champions/${h.id}.json`, h);
+  for (const h of buildItemHistories(all, catalog)) write(`items/${h.id}.json`, h);
   write("index.json", index);
   write("catalog.json", catalog);
   write("news.json", news);

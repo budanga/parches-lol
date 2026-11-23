@@ -1,0 +1,144 @@
+{
+ "schemaVersion": 1,
+ "id": "1055",
+ "name": "Espada de Doran",
+ "tags": [
+  "Health",
+  "Damage",
+  "LifeSteal",
+  "SpellVamp",
+  "Lane"
+ ],
+ "entries": [
+  {
+   "patch": "26.1",
+   "publishedAt": "2026-01-07T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Omnivampirismo",
+     "sectionId": "patch-omnivamp",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "1055",
+      "name": "Espada de Doran"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Eliminamos la pasiva Drenar Vida",
+     "id": "b3bededac297",
+     "section": "items",
+     "tags": [
+      "Health",
+      "Damage",
+      "LifeSteal",
+      "SpellVamp",
+      "Lane"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Omnivampirismo",
+     "sectionId": "patch-omnivamp",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "1055",
+      "name": "Espada de Doran"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Le añadimos un 2.5% de Omnivampirismo",
+     "id": "56f1542adeff",
+     "section": "items",
+     "tags": [
+      "Health",
+      "Damage",
+      "LifeSteal",
+      "SpellVamp",
+      "Lane"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.21",
+   "publishedAt": "2025-10-21T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Objetos",
+     "sectionId": "patch-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "1055",
+      "name": "Espada de Doran"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Eliminamos el 3% de Robo de Vida que otorgaba",
+     "id": "72d28ae57a66",
+     "section": "items",
+     "tags": [
+      "Health",
+      "Damage",
+      "SpellVamp",
+      "Lane"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Objetos",
+     "sectionId": "patch-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "1055",
+      "name": "Espada de Doran"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "new",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "NUEVO Cura un 2.5% del daño infligido (el efecto se reduce a un 33% de ese valor con los hechizos de área de efecto y los hechizos de mascotas)",
+     "id": "1618825ecbe8",
+     "section": "items",
+     "tags": [
+      "Health",
+      "Damage",
+      "SpellVamp",
+      "Lane"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  }
+ ]
+}

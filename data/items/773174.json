@@ -1,0 +1,48 @@
+{
+ "schemaVersion": 1,
+ "id": "773174",
+ "name": "Jarra de Maná de Shushei",
+ "tags": [
+  "SpellBlock",
+  "SpellDamage",
+  "ManaRegen",
+  "CooldownReduction"
+ ],
+ "entries": [
+  {
+   "patch": "26.22",
+   "publishedAt": "2026-11-03T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Classic",
+     "sectionId": "patch-classic",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "773174",
+      "name": "Jarra de Maná de Shushei"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Corrección de error: Corregimos un error que provocaba que la Jarra de Maná de Shushei se activara al derribar a un clon",
+     "id": "53d267de6c19",
+     "section": "modes",
+     "tags": [
+      "SpellBlock",
+      "SpellDamage",
+      "ManaRegen",
+      "CooldownReduction"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  }
+ ]
+}

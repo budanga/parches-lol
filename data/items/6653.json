@@ -1,0 +1,77 @@
+{
+ "schemaVersion": 1,
+ "id": "6653",
+ "name": "El Tormento de Liandry",
+ "tags": [
+  "Health",
+  "SpellDamage"
+ ],
+ "entries": [
+  {
+   "patch": "25.17",
+   "publishedAt": "2025-08-26T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Cambios de balance de ARAM",
+     "sectionId": "patch-aram-balance-changes",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "6653",
+      "name": "El Tormento de Liandry"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Porcentaje de Vida de la quemadura",
+     "before": "2%",
+     "after": "1.75%",
+     "text": "Porcentaje de Vida de la quemadura: 2% ⇒ 1.75%",
+     "id": "e0ee60f63909",
+     "section": "modes",
+     "tags": [
+      "Health",
+      "SpellDamage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.10",
+   "publishedAt": "2025-05-13T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Objetos",
+     "sectionId": "patch-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "6653",
+      "name": "El Tormento de Liandry"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Poder de Habilidad",
+     "before": "70",
+     "after": "60",
+     "text": "Poder de Habilidad: 70 ⇒ 60",
+     "id": "dfb74b8a1036",
+     "section": "items",
+     "tags": [
+      "Health",
+      "SpellDamage"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  }
+ ]
+}

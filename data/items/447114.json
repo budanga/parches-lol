@@ -1,0 +1,50 @@
+{
+ "schemaVersion": 1,
+ "id": "447114",
+ "name": "Reverberación",
+ "tags": [
+  "Health",
+  "Armor",
+  "AttackSpeed",
+  "OnHit",
+  "MagicResist"
+ ],
+ "entries": [
+  {
+   "patch": "26.9",
+   "publishedAt": "2026-04-28T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "447114",
+      "name": "Reverberación"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Ya no necesita acumularse para aplicar efectos al impacto cuando inmovilizas a un objetivo",
+     "id": "92209fded271",
+     "section": "modes",
+     "tags": [
+      "Health",
+      "Armor",
+      "AttackSpeed",
+      "OnHit",
+      "MagicResist"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  }
+ ]
+}

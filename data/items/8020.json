@@ -1,0 +1,51 @@
+{
+ "schemaVersion": 1,
+ "id": "8020",
+ "name": "Máscara Abisal",
+ "tags": [
+  "Health",
+  "SpellBlock",
+  "CooldownReduction",
+  "MagicResist",
+  "AbilityHaste"
+ ],
+ "entries": [
+  {
+   "patch": "25.4",
+   "publishedAt": "2025-02-19T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Objetos",
+     "sectionId": "patch-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "8020",
+      "name": "Máscara Abisal"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Resistencia mágica",
+     "before": "50",
+     "after": "45",
+     "text": "Resistencia mágica: 50 ⇒ 45",
+     "id": "d53cc14a476b",
+     "section": "items",
+     "tags": [
+      "Health",
+      "SpellBlock",
+      "SpellDamage",
+      "CooldownReduction",
+      "MagicResist",
+      "AbilityHaste"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  }
+ ]
+}

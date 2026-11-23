@@ -1,0 +1,74 @@
+{
+ "schemaVersion": 1,
+ "id": "3046",
+ "name": "Bailarín Espectral",
+ "tags": [
+  "CriticalStrike",
+  "AttackSpeed",
+  "NonbootsMovement"
+ ],
+ "entries": [
+  {
+   "patch": "25.14",
+   "publishedAt": "2025-07-15T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Objetos",
+     "sectionId": "patch-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "3046",
+      "name": "Bailarín Espectral"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Velocidad de Ataque",
+     "before": "60%",
+     "after": "65%",
+     "text": "Velocidad de Ataque: 60% ⇒ 65%",
+     "id": "a1ff09a4aeb9",
+     "section": "items",
+     "tags": [
+      "CriticalStrike",
+      "AttackSpeed",
+      "NonbootsMovement"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Objetos",
+     "sectionId": "patch-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "3046",
+      "name": "Bailarín Espectral"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Velocidad de Movimiento",
+     "before": "8%",
+     "after": "10%",
+     "text": "Velocidad de Movimiento: 8% ⇒ 10%",
+     "id": "d3be94e16d84",
+     "section": "items",
+     "tags": [
+      "CriticalStrike",
+      "AttackSpeed",
+      "NonbootsMovement"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  }
+ ]
+}

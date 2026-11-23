@@ -1,0 +1,308 @@
+{
+ "schemaVersion": 1,
+ "id": "6657",
+ "name": "Vara de las Edades",
+ "tags": [
+  "Health",
+  "HealthRegen",
+  "SpellDamage",
+  "Mana",
+  "ManaRegen"
+ ],
+ "entries": [
+  {
+   "patch": "25.14",
+   "publishedAt": "2025-07-15T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Objetos",
+     "sectionId": "patch-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "6657",
+      "name": "Vara de las Edades"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Maná",
+     "before": "400",
+     "after": "500",
+     "text": "Maná: 400 ⇒ 500",
+     "id": "f29f95403b33",
+     "section": "items",
+     "tags": [
+      "Health",
+      "HealthRegen",
+      "SpellDamage",
+      "Mana",
+      "ManaRegen"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Objetos",
+     "sectionId": "patch-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "6657",
+      "name": "Vara de las Edades"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Maná por acumulación",
+     "before": "20",
+     "after": "30",
+     "text": "Maná por acumulación: 20 ⇒ 30",
+     "id": "c0b14e1ade04",
+     "section": "items",
+     "tags": [
+      "Health",
+      "HealthRegen",
+      "SpellDamage",
+      "Mana",
+      "ManaRegen"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Objetos",
+     "sectionId": "patch-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "6657",
+      "name": "Vara de las Edades"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Maná Máximo",
+     "before": "600",
+     "after": "800",
+     "text": "Maná Máximo: 600 ⇒ 800",
+     "id": "13765f3da231",
+     "section": "items",
+     "tags": [
+      "Health",
+      "HealthRegen",
+      "SpellDamage",
+      "Mana",
+      "ManaRegen"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.9",
+   "publishedAt": "2025-04-29T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Objetos",
+     "sectionId": "patch-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "6657",
+      "name": "Vara de las Edades"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Vida inicial",
+     "before": "400",
+     "after": "350",
+     "text": "Vida inicial: 400 ⇒ 350",
+     "id": "95a982b846a9",
+     "section": "items",
+     "tags": [
+      "Health",
+      "HealthRegen",
+      "SpellDamage",
+      "Mana",
+      "ManaRegen"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Objetos",
+     "sectionId": "patch-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "6657",
+      "name": "Vara de las Edades"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Vida Máxima",
+     "before": "500",
+     "after": "450",
+     "text": "Vida Máxima: 500 ⇒ 450",
+     "id": "fb9c0d34f262",
+     "section": "items",
+     "tags": [
+      "Health",
+      "HealthRegen",
+      "SpellDamage",
+      "Mana",
+      "ManaRegen"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Objetos",
+     "sectionId": "patch-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "6657",
+      "name": "Vara de las Edades"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Poder de Habilidad inicial",
+     "before": "50",
+     "after": "45",
+     "text": "Poder de Habilidad inicial: 50 ⇒ 45",
+     "id": "b462e4580ba7",
+     "section": "items",
+     "tags": [
+      "Health",
+      "HealthRegen",
+      "SpellDamage",
+      "Mana",
+      "ManaRegen"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Objetos",
+     "sectionId": "patch-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "6657",
+      "name": "Vara de las Edades"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Poder de Habilidad máximo",
+     "before": "80",
+     "after": "75",
+     "text": "Poder de Habilidad máximo: 80 ⇒ 75",
+     "id": "b65385ab46cc",
+     "section": "items",
+     "tags": [
+      "Health",
+      "HealthRegen",
+      "SpellDamage",
+      "Mana",
+      "ManaRegen"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.7",
+   "publishedAt": "2025-04-01T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Objetos",
+     "sectionId": "patch-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "6657",
+      "name": "Vara de las Edades"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Maná restaurado de Eternidad de daño recibido",
+     "before": "7%",
+     "after": "10% (Vara de las Edades recibirá el mismo cambio)",
+     "text": "Maná restaurado de Eternidad de daño recibido: 7% ⇒ 10% (Vara de las Edades recibirá el mismo cambio)",
+     "id": "bee53c10b821",
+     "section": "items",
+     "tags": [
+      "Health",
+      "HealthRegen",
+      "SpellDamage",
+      "Mana",
+      "ManaRegen"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.5",
+   "publishedAt": "2025-03-04T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Partida Casual",
+     "sectionId": "patch-swiftplay",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "6657",
+      "name": "Vara de las Edades"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Temporizador Atemporal",
+     "before": "45 seg",
+     "after": "40 seg",
+     "text": "Temporizador Atemporal: 45 seg ⇒ 40 seg",
+     "id": "0a817a4e92c4",
+     "section": "items",
+     "tags": [
+      "Health",
+      "HealthRegen",
+      "SpellDamage",
+      "Mana",
+      "ManaRegen"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  }
+ ]
+}

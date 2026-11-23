@@ -1,0 +1,141 @@
+{
+ "schemaVersion": 1,
+ "id": "6655",
+ "name": "Eco de Luden",
+ "tags": [
+  "SpellDamage",
+  "Mana",
+  "CooldownReduction",
+  "AbilityHaste"
+ ],
+ "entries": [
+  {
+   "patch": "26.1",
+   "publishedAt": "2026-01-07T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Objetos actualizados",
+     "sectionId": "patch-updated-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "6655",
+      "name": "Eco de Luden"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": null,
+     "before": "Nombre: Acompañante de Luden",
+     "after": "Eco de Luden",
+     "text": "Nombre: Acompañante de Luden ⇒ Eco de Luden",
+     "id": "8d5a08e0f45b",
+     "section": "items",
+     "tags": [
+      "SpellDamage",
+      "Mana",
+      "CooldownReduction",
+      "AbilityHaste"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Objetos actualizados",
+     "sectionId": "patch-updated-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "6655",
+      "name": "Eco de Luden"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Ícono: Vuelve a ser un báculo",
+     "id": "1adeb2853f60",
+     "section": "items",
+     "tags": [
+      "SpellDamage",
+      "Mana",
+      "CooldownReduction",
+      "AbilityHaste"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.10",
+   "publishedAt": "2025-05-13T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Objetos",
+     "sectionId": "patch-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "6655",
+      "name": "Acompañante de Luden"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Costo total de oro",
+     "before": "2850",
+     "after": "2750",
+     "text": "Costo total de oro: 2850 ⇒ 2750",
+     "id": "1f184d5f93dc",
+     "section": "items",
+     "tags": [
+      "SpellDamage",
+      "Mana",
+      "CooldownReduction",
+      "AbilityHaste"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Objetos",
+     "sectionId": "patch-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "6655",
+      "name": "Acompañante de Luden"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Ahora, la descripción muestra el daño máximo a un solo objetivo",
+     "id": "1a0b6e11ce1b",
+     "section": "items",
+     "tags": [
+      "SpellDamage",
+      "Mana",
+      "CooldownReduction",
+      "AbilityHaste"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  }
+ ]
+}

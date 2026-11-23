@@ -1,0 +1,176 @@
+{
+ "schemaVersion": 1,
+ "id": "6694",
+ "name": "Rencor de Serylda",
+ "tags": [
+  "Damage",
+  "CooldownReduction",
+  "ArmorPenetration",
+  "AbilityHaste"
+ ],
+ "entries": [
+  {
+   "patch": "26.17",
+   "publishedAt": "2026-08-25T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "6694",
+      "name": "Rencor de Serylda"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Umbral de ralentización",
+     "before": "50%",
+     "after": "60%",
+     "text": "Umbral de ralentización: 50% ⇒ 60%",
+     "id": "6e7c2890706e",
+     "section": "modes",
+     "tags": [
+      "Damage",
+      "CooldownReduction",
+      "ArmorPenetration",
+      "AbilityHaste"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "6694",
+      "name": "Rencor de Serylda"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Penetración de Armadura",
+     "before": "40%",
+     "after": "45%",
+     "text": "Penetración de Armadura: 40% ⇒ 45%",
+     "id": "eb430397ebb2",
+     "section": "modes",
+     "tags": [
+      "Damage",
+      "CooldownReduction",
+      "ArmorPenetration",
+      "AbilityHaste"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.14",
+   "publishedAt": "2025-07-15T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Objetos (Arena)",
+     "sectionId": "patch-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "6694",
+      "name": "Rencor de Serylda"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": null,
+     "before": "Porcentaje de Penetración de Armadura: 30%",
+     "after": "40%",
+     "text": "Porcentaje de Penetración de Armadura: 30% ⇒ 40%",
+     "id": "cff647a00ee6",
+     "section": "modes",
+     "tags": [
+      "Damage",
+      "CooldownReduction",
+      "ArmorPenetration",
+      "AbilityHaste"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.6",
+   "publishedAt": "2025-03-18T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Objetos",
+     "sectionId": "patch-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "6694",
+      "name": "Rencor de Serylda"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Penetración de Armadura",
+     "before": "30",
+     "after": "35%",
+     "text": "Penetración de Armadura: 30 ⇒ 35%",
+     "id": "07e6ac09fa5f",
+     "section": "items",
+     "tags": [
+      "Damage",
+      "CooldownReduction",
+      "ArmorPenetration",
+      "AbilityHaste"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Objetos",
+     "sectionId": "patch-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "6694",
+      "name": "Rencor de Serylda"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Aceleración de Habilidad",
+     "before": "20",
+     "after": "15",
+     "text": "Aceleración de Habilidad: 20 ⇒ 15",
+     "id": "f2863a1fb284",
+     "section": "items",
+     "tags": [
+      "Damage",
+      "CooldownReduction",
+      "ArmorPenetration",
+      "AbilityHaste"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  }
+ ]
+}

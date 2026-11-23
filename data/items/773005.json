@@ -1,0 +1,74 @@
+{
+ "schemaVersion": 1,
+ "id": "773005",
+ "name": "Empalador de Atma",
+ "tags": [
+  "Armor",
+  "Damage",
+  "CriticalStrike"
+ ],
+ "entries": [
+  {
+   "patch": "26.21",
+   "publishedAt": "2026-10-20T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Classic",
+     "sectionId": "patch-classic",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "773005",
+      "name": "Empalador de Atma"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Probabilidad de Golpe Crítico",
+     "before": "15%",
+     "after": "18%",
+     "text": "Probabilidad de Golpe Crítico: 15% ⇒ 18%",
+     "id": "ab6af8fb70ef",
+     "section": "modes",
+     "tags": [
+      "Armor",
+      "Damage",
+      "CriticalStrike"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Classic",
+     "sectionId": "patch-classic",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "773005",
+      "name": "Empalador de Atma"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Conversión de Vida Máxima a Daño de Ataque adicional",
+     "before": "1.5%",
+     "after": "2%",
+     "text": "Conversión de Vida Máxima a Daño de Ataque adicional: 1.5% ⇒ 2%",
+     "id": "81c4ba95251d",
+     "section": "modes",
+     "tags": [
+      "Armor",
+      "Damage",
+      "CriticalStrike"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  }
+ ]
+}

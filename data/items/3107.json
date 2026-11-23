@@ -1,0 +1,205 @@
+{
+ "schemaVersion": 1,
+ "id": "3107",
+ "name": "Redención",
+ "tags": [
+  "SpellDamage",
+  "ManaRegen",
+  "CooldownReduction",
+  "AbilityHaste"
+ ],
+ "entries": [
+  {
+   "patch": "26.17",
+   "publishedAt": "2026-08-25T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "3107",
+      "name": "Redención"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Poder de curaciones y escudos",
+     "before": "12%",
+     "after": "10% (modificador de Arena eliminado)",
+     "text": "Poder de curaciones y escudos: 12% ⇒ 10% (modificador de Arena eliminado)",
+     "id": "12cc9e40a9db",
+     "section": "modes",
+     "tags": [
+      "SpellDamage",
+      "ManaRegen",
+      "CooldownReduction",
+      "AbilityHaste"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "26.1",
+   "publishedAt": "2026-01-07T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Objetos actualizados",
+     "sectionId": "patch-updated-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "3107",
+      "name": "Redención"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": null,
+     "before": "Ruta de armado: Gemaluz + Ídolo Prohibido + 900 de oro",
+     "after": "Códice Diabólico + Ídolo Prohibido + 850 de oro",
+     "text": "Ruta de armado: Gemaluz + Ídolo Prohibido + 900 de oro ⇒ Códice Diabólico + Ídolo Prohibido + 850 de oro",
+     "id": "69d80a31dcb6",
+     "section": "items",
+     "tags": [
+      "SpellDamage",
+      "ManaRegen",
+      "CooldownReduction",
+      "AbilityHaste"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Objetos actualizados",
+     "sectionId": "patch-updated-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "3107",
+      "name": "Redención"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": null,
+     "before": "Costo total: 2300 de oro",
+     "after": "2250 de oro",
+     "text": "Costo total: 2300 de oro ⇒ 2250 de oro",
+     "id": "f4af65fa26a5",
+     "section": "items",
+     "tags": [
+      "SpellDamage",
+      "ManaRegen",
+      "CooldownReduction",
+      "AbilityHaste"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Objetos actualizados",
+     "sectionId": "patch-updated-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "3107",
+      "name": "Redención"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": null,
+     "before": "Vida: 200",
+     "after": "0",
+     "text": "Vida: 200 ⇒ 0",
+     "id": "d1c5316c1efa",
+     "section": "items",
+     "tags": [
+      "SpellDamage",
+      "ManaRegen",
+      "CooldownReduction",
+      "AbilityHaste"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Objetos actualizados",
+     "sectionId": "patch-updated-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "3107",
+      "name": "Redención"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "(NUEVO) Poder de Habilidad: 30",
+     "id": "67dd981b876c",
+     "section": "items",
+     "tags": [
+      "SpellDamage",
+      "ManaRegen",
+      "CooldownReduction",
+      "AbilityHaste"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.19",
+   "publishedAt": "2025-09-23T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Objetos",
+     "sectionId": "patch-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "3107",
+      "name": "Redención"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Curación",
+     "before": "De 200 a 400 (según el nivel del objetivo)",
+     "after": "De 150 a 350 (según el nivel del objetivo)",
+     "text": "Curación: De 200 a 400 (según el nivel del objetivo) ⇒ De 150 a 350 (según el nivel del objetivo)",
+     "id": "7abf4a75c921",
+     "section": "items",
+     "tags": [
+      "Health",
+      "ManaRegen",
+      "CooldownReduction",
+      "AbilityHaste"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  }
+ ]
+}

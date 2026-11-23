@@ -1,0 +1,42 @@
+{
+ "schemaVersion": 1,
+ "id": "3010",
+ "name": "Botas Simbióticas",
+ "tags": [
+  "Boots"
+ ],
+ "entries": [
+  {
+   "patch": "26.1",
+   "publishedAt": "2026-01-07T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Objetos actualizados",
+     "sectionId": "patch-updated-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "3010",
+      "name": "Botas Simbióticas"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Eliminamos Suelas Simbióticas",
+     "id": "ee52e8aed1dd",
+     "section": "items",
+     "tags": [
+      "Boots"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  }
+ ]
+}

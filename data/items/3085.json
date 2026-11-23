@@ -1,0 +1,77 @@
+{
+ "schemaVersion": 1,
+ "id": "3085",
+ "name": "Huracán de Runaan",
+ "tags": [
+  "CriticalStrike",
+  "AttackSpeed",
+  "OnHit",
+  "NonbootsMovement"
+ ],
+ "entries": [
+  {
+   "patch": "26.16",
+   "publishedAt": "2026-08-11T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Objetos",
+     "sectionId": "patch-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "3085",
+      "name": "Huracán de Runaan"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Velocidad de Movimiento",
+     "before": "4%",
+     "after": "5%",
+     "text": "Velocidad de Movimiento: 4% ⇒ 5%",
+     "id": "2739dc289bf9",
+     "section": "items",
+     "tags": [
+      "CriticalStrike",
+      "AttackSpeed",
+      "OnHit",
+      "NonbootsMovement"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Objetos",
+     "sectionId": "patch-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "3085",
+      "name": "Huracán de Runaan"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño del proyectil de Furia del Viento",
+     "before": "55% de Daño de Ataque",
+     "after": "65% de Daño de Ataque",
+     "text": "Daño del proyectil de Furia del Viento: 55% de Daño de Ataque ⇒ 65% de Daño de Ataque",
+     "id": "e15b5043422f",
+     "section": "items",
+     "tags": [
+      "CriticalStrike",
+      "AttackSpeed",
+      "OnHit",
+      "NonbootsMovement"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  }
+ ]
+}

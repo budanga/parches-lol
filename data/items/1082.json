@@ -1,0 +1,102 @@
+{
+ "schemaVersion": 1,
+ "id": "1082",
+ "name": "El Sello de la Oscuridad",
+ "tags": [
+  "Health",
+  "SpellDamage",
+  "Lane"
+ ],
+ "entries": [
+  {
+   "patch": "25.S1.3",
+   "publishedAt": "2025-02-04T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Sistemas",
+     "sectionId": "patch-systems",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "1082",
+      "name": "El Sello de la Oscuridad"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "¡Reactivado!",
+     "id": "2135c8f3f5d2",
+     "section": "items",
+     "tags": [
+      "Health",
+      "SpellDamage",
+      "Lane"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Sistemas",
+     "sectionId": "patch-systems",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "1082",
+      "name": "El Sello de la Oscuridad"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Gloria por asesinato",
+     "before": "2",
+     "after": "1",
+     "text": "Gloria por asesinato: 2 ⇒ 1",
+     "id": "e1381e18333e",
+     "section": "items",
+     "tags": [
+      "Health",
+      "SpellDamage",
+      "Lane"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Sistemas",
+     "sectionId": "patch-systems",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "1082",
+      "name": "El Sello de la Oscuridad"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Pérdida de Gloria al morir",
+     "before": "5",
+     "after": "3",
+     "text": "Pérdida de Gloria al morir: 5 ⇒ 3",
+     "id": "32c6d97c54a3",
+     "section": "items",
+     "tags": [
+      "Health",
+      "SpellDamage",
+      "Lane"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  }
+ ]
+}

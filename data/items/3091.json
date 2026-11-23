@@ -1,0 +1,48 @@
+{
+ "schemaVersion": 1,
+ "id": "3091",
+ "name": "Al Filo de la Cordura",
+ "tags": [
+  "SpellBlock",
+  "AttackSpeed",
+  "OnHit",
+  "Tenacity"
+ ],
+ "entries": [
+  {
+   "patch": "26.22",
+   "publishedAt": "2026-11-03T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Classic",
+     "sectionId": "patch-classic",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "3091",
+      "name": "Al Filo de la Cordura"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Corrección de error: Corregimos un error que impedía que Al Filo de la Cordura mantuviera 4 acumulaciones",
+     "id": "a93c5117b209",
+     "section": "modes",
+     "tags": [
+      "SpellBlock",
+      "AttackSpeed",
+      "OnHit",
+      "Tenacity"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,86 @@
+{
+ "schemaVersion": 1,
+ "id": "443080",
+ "name": "Máscara Gemela",
+ "tags": [
+  "Health",
+  "Armor",
+  "Damage",
+  "AttackSpeed",
+  "SpellDamage",
+  "MagicResist",
+  "AbilityHaste"
+ ],
+ "entries": [
+  {
+   "patch": "25.24",
+   "publishedAt": "2025-12-02T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "443080",
+      "name": "Máscara Gemela"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": null,
+     "before": "Estadísticas individuales: 15%",
+     "after": "20%",
+     "text": "Estadísticas individuales: 15% ⇒ 20%",
+     "id": "72d81eddc902",
+     "section": "modes",
+     "tags": [
+      "Health",
+      "Armor",
+      "Damage",
+      "AttackSpeed",
+      "SpellDamage",
+      "MagicResist",
+      "AbilityHaste"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "443080",
+      "name": "Máscara Gemela"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": null,
+     "before": "Estadísticas dobles: 30%",
+     "after": "35%",
+     "text": "Estadísticas dobles: 30% ⇒ 35%",
+     "id": "44fef8d50878",
+     "section": "modes",
+     "tags": [
+      "Health",
+      "Armor",
+      "Damage",
+      "AttackSpeed",
+      "SpellDamage",
+      "MagicResist",
+      "AbilityHaste"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  }
+ ]
+}

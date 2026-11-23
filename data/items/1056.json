@@ -1,0 +1,77 @@
+{
+ "schemaVersion": 1,
+ "id": "1056",
+ "name": "Sortija de Doran",
+ "tags": [
+  "Health",
+  "Lane",
+  "ManaRegen",
+  "SpellDamage"
+ ],
+ "entries": [
+  {
+   "patch": "25.21",
+   "publishedAt": "2025-10-21T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Objetos",
+     "sectionId": "patch-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "1056",
+      "name": "Sortija de Doran"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Regeneración de Maná",
+     "before": "1.25 por segundo",
+     "after": "1 por segundo; aumenta a 2 por segundo durante 5 seg tras infligir daño a un campeón enemigo",
+     "text": "Regeneración de Maná: 1.25 por segundo ⇒ 1 por segundo; aumenta a 2 por segundo durante 5 seg tras infligir daño a un campeón enemigo",
+     "id": "9d8117676502",
+     "section": "items",
+     "tags": [
+      "Health",
+      "Lane",
+      "ManaRegen",
+      "SpellDamage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Objetos",
+     "sectionId": "patch-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "1056",
+      "name": "Sortija de Doran"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Regeneración de Vida",
+     "before": "0.55 por segundo",
+     "after": "45% de la cantidad de maná regenerado",
+     "text": "Regeneración de Vida: 0.55 por segundo ⇒ 45% de la cantidad de maná regenerado",
+     "id": "f8cd85ef7b8b",
+     "section": "items",
+     "tags": [
+      "Health",
+      "Lane",
+      "ManaRegen",
+      "SpellDamage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  }
+ ]
+}

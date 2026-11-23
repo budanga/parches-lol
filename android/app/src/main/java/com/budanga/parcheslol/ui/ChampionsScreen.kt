@@ -36,6 +36,8 @@ import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
 import com.budanga.parcheslol.R
 import com.budanga.parcheslol.data.Catalog
+import com.budanga.parcheslol.data.CatalogEntry
+import com.budanga.parcheslol.domain.isDefaultAdcItem
 import com.budanga.parcheslol.data.ChampionHistory
 import com.budanga.parcheslol.data.Entity
 import com.budanga.parcheslol.data.Loaded
@@ -75,32 +77,41 @@ fun SearchField(value: String, onChange: (String) -> Unit, placeholder: String) 
 }
 
 @Composable
-fun ChampionsScreen(repo: Repository, prefs: Prefs, onOpen: (String) -> Unit) {
+/** Champions and items, each opening its change history. */
+fun ChampionsScreen(repo: Repository, prefs: Prefs, onOpen: (String) -> Unit, onOpenItem: (String) -> Unit = {}) {
     var catalog by remember { mutableStateOf<Loaded<Catalog>?>(null) }
     var reload by remember { mutableIntStateOf(0) }
     LaunchedEffect(reload) { catalog = repo.catalog() }
     val myAdcs by prefs.myAdcs.collectAsState(initial = DEFAULT_ADCS)
     var query by rememberSaveable { mutableStateOf("") }
+    var showItems by rememberSaveable { mutableStateOf(false) }
+    val myItems by prefs.myItems.collectAsState(initial = null)
 
     Column(Modifier.fillMaxSize().padding(horizontal = 16.dp)) {
         Text(stringResource(R.string.tab_champions), style = Type.serif(20), modifier = Modifier.padding(top = 14.dp, bottom = 12.dp))
-        SearchField(query, { query = it }, stringResource(R.string.search_champion))
+        Segmented(listOf(stringResource(R.string.tab_champions), stringResource(R.string.items)), if (showItems) 1 else 0) { showItems = it == 1 }
+        Spacer(Modifier.height(10.dp))
+        SearchField(query, { query = it }, stringResource(if (showItems) R.string.search_item else R.string.search_champion))
         val data = catalog?.valueOrNull
         when {
             catalog == null -> Unit
             data == null -> OfflineMessage { reload++ }
             else -> {
                 val q = normalizeForSearch(query)
-                val shown = data.champions.filter { normalizeForSearch(it.name).contains(q) }
-                    .sortedBy { if (it.id in myAdcs) 0 else 1 }
+                // Your ADCs (or your ADC items) first, then the rest by name.
+                val mine: (CatalogEntry) -> Boolean = if (showItems) { e -> myItems?.contains(e.id) ?: isDefaultAdcItem(e.tags) } else { e -> e.id in myAdcs }
+                val shown = (if (showItems) data.items else data.champions)
+                    .filter { normalizeForSearch(it.name).contains(q) }
+                    .sortedBy { if (mine(it)) 0 else 1 }
+                val kind = if (showItems) "item" else "champion"
                 LazyColumn(Modifier.fillMaxSize().padding(top = 8.dp)) {
-                    items(shown, key = { it.id }) { c ->
+                    items(shown, key = { kind + it.id }) { c ->
                         Row(
-                            Modifier.fillMaxWidth().clickable { onOpen(c.id) }.padding(vertical = 9.dp),
+                            Modifier.fillMaxWidth().clickable { if (showItems) onOpenItem(c.id) else onOpen(c.id) }.padding(vertical = 9.dp),
                             verticalAlignment = Alignment.CenterVertically,
                             horizontalArrangement = Arrangement.spacedBy(10.dp),
                         ) {
-                            Avatar(Entity("champion", c.id, c.name), c.name, data.ddragonVersion, 28.dp)
+                            Avatar(Entity(kind, c.id, c.name), c.name, data.ddragonVersion, 28.dp)
                             Text(c.name, style = Type.Body)
                         }
                         RowDivider()
@@ -112,25 +123,29 @@ fun ChampionsScreen(repo: Repository, prefs: Prefs, onOpen: (String) -> Unit) {
 }
 
 @Composable
-fun ChampionScreen(id: String, repo: Repository, onBack: () -> Unit) {
+fun ChampionScreen(id: String, repo: Repository, onBack: () -> Unit, kind: String = "champion") {
     var history by remember { mutableStateOf<Loaded<ChampionHistory>?>(null) }
     var version by remember { mutableStateOf<String?>(null) }
+    var catalogName by remember { mutableStateOf<String?>(null) }
     var reload by remember { mutableIntStateOf(0) }
     LaunchedEffect(id, reload) {
-        version = repo.catalog().valueOrNull?.ddragonVersion
-        history = repo.champion(id)
+        val catalog = repo.catalog().valueOrNull
+        version = catalog?.ddragonVersion
+        catalogName = (if (kind == "item") catalog?.items else catalog?.champions)?.firstOrNull { it.id == id }?.name
+        history = if (kind == "item") repo.item(id) else repo.champion(id)
     }
     val data = history?.valueOrNull
-    val name = data?.name ?: id
+    // The name comes from the history, or from the catalog when there is no history.
+    val name = data?.name ?: catalogName ?: id
     val expanded = remember { mutableStateMapOf<String, Boolean>() }
 
     Column(Modifier.fillMaxSize().padding(horizontal = 12.dp)) {
-        DetailBar(name, null, onBack) {
+        DetailBar(name, null, onBack, titleContent = {
             Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(9.dp)) {
-                Avatar(Entity("champion", id, name), name, version ?: "", 34.dp)
+                Avatar(Entity(kind, id, name), name, version ?: "", 34.dp)
                 Text(name, style = Type.serif(24))
             }
-        }
+        })
         when {
             history == null -> Unit
             history == Loaded.Missing -> Text(stringResource(R.string.no_history), style = Type.BodyMuted, modifier = Modifier.padding(16.dp))

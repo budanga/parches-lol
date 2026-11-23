@@ -1,0 +1,46 @@
+{
+ "schemaVersion": 1,
+ "id": "447102",
+ "name": "Fractura de la Realidad",
+ "tags": [
+  "Health",
+  "AttackSpeed",
+  "SpellDamage"
+ ],
+ "entries": [
+  {
+   "patch": "25.24",
+   "publishedAt": "2025-12-02T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "447102",
+      "name": "Fractura de la Realidad"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": null,
+     "before": "Enfriamiento: 15 seg",
+     "after": "12 seg",
+     "text": "Enfriamiento: 15 seg ⇒ 12 seg",
+     "id": "b1ccda145ca0",
+     "section": "modes",
+     "tags": [
+      "Health",
+      "AttackSpeed",
+      "SpellDamage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  }
+ ]
+}

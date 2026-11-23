@@ -1,0 +1,356 @@
+{
+ "schemaVersion": 1,
+ "id": "3179",
+ "name": "Espada de la Penumbra",
+ "tags": [
+  "Damage",
+  "Vision",
+  "CooldownReduction",
+  "ArmorPenetration",
+  "AbilityHaste"
+ ],
+ "entries": [
+  {
+   "patch": "26.1",
+   "publishedAt": "2026-01-07T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Objetos actualizados",
+     "sectionId": "patch-updated-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "3179",
+      "name": "Espada de la Penumbra"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": null,
+     "before": "Ruta de armado: Puñal Serrado + Martillo de Guerra de Caulfield + 450 de oro",
+     "after": "Puñal Serrado + Martillo de Guerra de Caulfield + 750 de oro",
+     "text": "Ruta de armado: Puñal Serrado + Martillo de Guerra de Caulfield + 450 de oro ⇒ Puñal Serrado + Martillo de Guerra de Caulfield + 750 de oro",
+     "id": "73b7297a24b8",
+     "section": "items",
+     "tags": [
+      "Damage",
+      "Vision",
+      "CooldownReduction",
+      "ArmorPenetration",
+      "AbilityHaste"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Objetos actualizados",
+     "sectionId": "patch-updated-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "3179",
+      "name": "Espada de la Penumbra"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": null,
+     "before": "Costo total: 2500 de oro",
+     "after": "2800 de oro",
+     "text": "Costo total: 2500 de oro ⇒ 2800 de oro",
+     "id": "a4c90580a1c4",
+     "section": "items",
+     "tags": [
+      "Damage",
+      "Vision",
+      "CooldownReduction",
+      "ArmorPenetration",
+      "AbilityHaste"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Objetos actualizados",
+     "sectionId": "patch-updated-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "3179",
+      "name": "Espada de la Penumbra"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": null,
+     "before": "Daño de Ataque: 55",
+     "after": "60",
+     "text": "Daño de Ataque: 55 ⇒ 60",
+     "id": "0851083e5165",
+     "section": "items",
+     "tags": [
+      "Damage",
+      "Vision",
+      "CooldownReduction",
+      "ArmorPenetration",
+      "AbilityHaste"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Objetos actualizados",
+     "sectionId": "patch-updated-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "3179",
+      "name": "Espada de la Penumbra"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": null,
+     "before": "Aceleración de Habilidad: 10",
+     "after": "15",
+     "text": "Aceleración de Habilidad: 10 ⇒ 15",
+     "id": "177ea834042e",
+     "section": "items",
+     "tags": [
+      "Damage",
+      "Vision",
+      "CooldownReduction",
+      "ArmorPenetration",
+      "AbilityHaste"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Objetos actualizados",
+     "sectionId": "patch-updated-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "3179",
+      "name": "Espada de la Penumbra"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": null,
+     "before": "Letalidad: 15",
+     "after": "18",
+     "text": "Letalidad: 15 ⇒ 18",
+     "id": "771a51b63350",
+     "section": "items",
+     "tags": [
+      "Damage",
+      "Vision",
+      "CooldownReduction",
+      "ArmorPenetration",
+      "AbilityHaste"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Objetos actualizados",
+     "sectionId": "patch-updated-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "3179",
+      "name": "Espada de la Penumbra"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Acechador Nocturno: Si los enemigos no te ven durante 1 seg, tu siguiente ataque contra un campeón inflige (50 + 150% de Letalidad) de daño verdadero adicional",
+     "id": "6aafe71165f3",
+     "section": "items",
+     "tags": [
+      "Damage",
+      "Vision",
+      "CooldownReduction",
+      "ArmorPenetration",
+      "AbilityHaste"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Objetos actualizados",
+     "sectionId": "patch-updated-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "3179",
+      "name": "Espada de la Penumbra"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Apagón (90 seg de enfriamiento): Cuando estás cerca de trampas y centinelas invisibles enemigos, los revelas durante 8 seg. Al revelar centinelas, tus ataques les infligen 3 (para campeones cuerpo a cuerpo) / 2 (para campeones a distancia) de daño",
+     "id": "236c9f17f5e4",
+     "section": "items",
+     "tags": [
+      "Damage",
+      "Vision",
+      "CooldownReduction",
+      "ArmorPenetration",
+      "AbilityHaste"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Objetos actualizados",
+     "sectionId": "patch-updated-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "3179",
+      "name": "Espada de la Penumbra"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Eliminamos la pasiva Extinguir (se convirtió en Apagón)",
+     "id": "9a22d595dd6a",
+     "section": "items",
+     "tags": [
+      "Damage",
+      "Vision",
+      "CooldownReduction",
+      "ArmorPenetration",
+      "AbilityHaste"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.7",
+   "publishedAt": "2025-04-01T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Objetos",
+     "sectionId": "patch-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "3179",
+      "name": "Espada de la Penumbra"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Costo total de oro",
+     "before": "2600",
+     "after": "2500",
+     "text": "Costo total de oro: 2600 ⇒ 2500",
+     "id": "04b7084e025c",
+     "section": "items",
+     "tags": [
+      "Damage",
+      "Vision",
+      "CooldownReduction",
+      "ArmorPenetration",
+      "AbilityHaste"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Objetos",
+     "sectionId": "patch-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "3179",
+      "name": "Espada de la Penumbra"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño de Ataque",
+     "before": "50",
+     "after": "55",
+     "text": "Daño de Ataque: 50 ⇒ 55",
+     "id": "3b83dccee3b0",
+     "section": "items",
+     "tags": [
+      "Damage",
+      "Vision",
+      "CooldownReduction",
+      "ArmorPenetration",
+      "AbilityHaste"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Objetos",
+     "sectionId": "patch-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "3179",
+      "name": "Espada de la Penumbra"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Enfriamiento de Apagón",
+     "before": "50",
+     "after": "90",
+     "text": "Enfriamiento de Apagón: 50 ⇒ 90",
+     "id": "4fb33e3baff8",
+     "section": "items",
+     "tags": [
+      "Damage",
+      "Vision",
+      "CooldownReduction",
+      "ArmorPenetration",
+      "AbilityHaste"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  }
+ ]
+}

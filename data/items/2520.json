@@ -1,0 +1,394 @@
+{
+ "schemaVersion": 1,
+ "id": "2520",
+ "name": "Rompebastiones",
+ "tags": [
+  "Damage",
+  "ArmorPenetration",
+  "AbilityHaste"
+ ],
+ "entries": [
+  {
+   "patch": "26.21",
+   "publishedAt": "2026-10-20T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Objetos",
+     "sectionId": "patch-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "2520",
+      "name": "Rompebastiones"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Letalidad",
+     "before": "22",
+     "after": "18",
+     "text": "Letalidad: 22 ⇒ 18",
+     "id": "24219a07b710",
+     "section": "items",
+     "tags": [
+      "Damage",
+      "ArmorPenetration",
+      "AbilityHaste"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Objetos",
+     "sectionId": "patch-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "2520",
+      "name": "Rompebastiones"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño de Carga Hueca",
+     "before": "50 cuerpo a cuerpo + 1.5 de letalidad / 25 a distancia + 0.75 de letalidad",
+     "after": "40 cuerpo a cuerpo + 1.5 de letalidad / 20 a distancia + 0.75 de letalidad",
+     "text": "Daño de Carga Hueca: 50 cuerpo a cuerpo + 1.5 de letalidad / 25 a distancia + 0.75 de letalidad ⇒ 40 cuerpo a cuerpo + 1.5 de letalidad / 20 a distancia + 0.75 de letalidad",
+     "id": "b07433f1e71b",
+     "section": "items",
+     "tags": [
+      "Damage",
+      "ArmorPenetration",
+      "AbilityHaste"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Objetos",
+     "sectionId": "patch-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "2520",
+      "name": "Rompebastiones"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Duración del sabotaje",
+     "before": "90 seg",
+     "after": "Infinito",
+     "text": "Duración del sabotaje: 90 seg ⇒ Infinito",
+     "id": "643acdeebd62",
+     "section": "items",
+     "tags": [
+      "Damage",
+      "ArmorPenetration",
+      "AbilityHaste"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Objetos",
+     "sectionId": "patch-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "2520",
+      "name": "Rompebastiones"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Contexto de duración de sabotaje: Este es el tiempo que tienen para usar el daño adicional contra los objetivos",
+     "id": "b971b72d4a8e",
+     "section": "items",
+     "tags": [
+      "Damage",
+      "ArmorPenetration",
+      "AbilityHaste"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "26.15",
+   "publishedAt": "2026-07-28T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Objetos",
+     "sectionId": "patch-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "2520",
+      "name": "Rompebastiones"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Costo",
+     "before": "3200 de oro",
+     "after": "3000 de oro",
+     "text": "Costo: 3200 de oro ⇒ 3000 de oro",
+     "id": "dcec8653edba",
+     "section": "items",
+     "tags": [
+      "Damage",
+      "ArmorPenetration",
+      "AbilityHaste"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Objetos",
+     "sectionId": "patch-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "2520",
+      "name": "Rompebastiones"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño de Carga Hueca",
+     "before": "(30 + 150% de letalidad) de daño verdadero",
+     "after": "(50 + 150% de letalidad) de daño verdadero",
+     "text": "Daño de Carga Hueca: (30 + 150% de letalidad) de daño verdadero ⇒ (50 + 150% de letalidad) de daño verdadero",
+     "id": "0c69434008f9",
+     "section": "items",
+     "tags": [
+      "Damage",
+      "ArmorPenetration",
+      "AbilityHaste"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "26.1",
+   "publishedAt": "2026-01-07T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Objetos nuevos",
+     "sectionId": "patch-new-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "2520",
+      "name": "Rompebastiones"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Ruta de armado: El Brutalizador + Puñal Serrado + 863 de oro",
+     "id": "ce413b861ab0",
+     "section": "items",
+     "tags": [
+      "Damage",
+      "ArmorPenetration",
+      "AbilityHaste"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Objetos nuevos",
+     "sectionId": "patch-new-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "2520",
+      "name": "Rompebastiones"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Costo total: 3200 de oro",
+     "id": "e7db14872ccc",
+     "section": "items",
+     "tags": [
+      "Damage",
+      "ArmorPenetration",
+      "AbilityHaste"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Objetos nuevos",
+     "sectionId": "patch-new-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "2520",
+      "name": "Rompebastiones"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Daño de Ataque: 55",
+     "id": "6805fc996edb",
+     "section": "items",
+     "tags": [
+      "Damage",
+      "ArmorPenetration",
+      "AbilityHaste"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Objetos nuevos",
+     "sectionId": "patch-new-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "2520",
+      "name": "Rompebastiones"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Letalidad: 22",
+     "id": "85e4ce867ed2",
+     "section": "items",
+     "tags": [
+      "Damage",
+      "ArmorPenetration",
+      "AbilityHaste"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Objetos nuevos",
+     "sectionId": "patch-new-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "2520",
+      "name": "Rompebastiones"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Aceleración de Habilidad: 15",
+     "id": "1eb19966bfb4",
+     "section": "items",
+     "tags": [
+      "Damage",
+      "ArmorPenetration",
+      "AbilityHaste"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Objetos nuevos",
+     "sectionId": "patch-new-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "2520",
+      "name": "Rompebastiones"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Carga Hueca: Al infligirle daño a un campeón o un monstruo épico con una habilidad, le infliges (30 + 150% de Letalidad) de daño verdadero adicional",
+     "id": "c5a0a0698796",
+     "section": "items",
+     "tags": [
+      "Damage",
+      "ArmorPenetration",
+      "AbilityHaste"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Objetos nuevos",
+     "sectionId": "patch-new-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "2520",
+      "name": "Rompebastiones"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Sabotaje: Cuando un campeón al que le infligiste daño muere en un lapso de 3 seg, obtienes Sabotaje durante 90 seg. Mientras estés bajo el efecto de Sabotaje, tu próximo ataque contra un monstruo épico o una torreta infligirá (300 + 2500% de Letalidad) de daño verdadero adicional a lo largo de 3 seg",
+     "id": "da06bd684a48",
+     "section": "items",
+     "tags": [
+      "Damage",
+      "ArmorPenetration",
+      "AbilityHaste"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  }
+ ]
+}

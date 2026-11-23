@@ -1,0 +1,74 @@
+{
+ "schemaVersion": 1,
+ "id": "3168",
+ "name": "Camino Inmortal",
+ "tags": [
+  "LifeSteal",
+  "SpellVamp",
+  "Boots"
+ ],
+ "entries": [
+  {
+   "patch": "26.14",
+   "publishedAt": "2026-07-14T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Objetos",
+     "sectionId": "patch-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "3168",
+      "name": "Camino Inmortal"
+     },
+     "part": "",
+     "partTitle": "",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Aumento de daño al tener más del 50% de Vida Máxima",
+     "before": "5%",
+     "after": "4%",
+     "text": "Aumento de daño al tener más del 50% de Vida Máxima: 5% ⇒ 4%",
+     "id": "eb835eb422f8",
+     "section": "items",
+     "tags": [
+      "LifeSteal",
+      "SpellVamp",
+      "Boots"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Objetos",
+     "sectionId": "patch-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "3168",
+      "name": "Camino Inmortal"
+     },
+     "part": "",
+     "partTitle": "",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Aumento de curación, escudos y regeneración al estar por debajo del 50% de Vida Máxima",
+     "before": "15%",
+     "after": "12%",
+     "text": "Aumento de curación, escudos y regeneración al estar por debajo del 50% de Vida Máxima: 15% ⇒ 12%",
+     "id": "14fd047f5bf9",
+     "section": "items",
+     "tags": [
+      "LifeSteal",
+      "SpellVamp",
+      "Boots"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  }
+ ]
+}

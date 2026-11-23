@@ -1,0 +1,242 @@
+{
+ "schemaVersion": 1,
+ "id": "2526",
+ "name": "Tiara Susurrante",
+ "tags": [
+  "Health",
+  "Mana",
+  "ManaRegen"
+ ],
+ "entries": [
+  {
+   "patch": "26.1",
+   "publishedAt": "2026-01-07T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Objetos nuevos",
+     "sectionId": "patch-new-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "2526",
+      "name": "Tiara Murmullante"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Ruta de armado: Ídolo Prohibido + Cristal de Rubí + Lágrima de la Diosa + 850 de oro",
+     "id": "fe2bf4a46811",
+     "section": "items",
+     "tags": [
+      "Health",
+      "Mana",
+      "ManaRegen"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Objetos nuevos",
+     "sectionId": "patch-new-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "2526",
+      "name": "Tiara Murmullante"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Costo total: 2250 de oro",
+     "id": "056a0c270787",
+     "section": "items",
+     "tags": [
+      "Health",
+      "Mana",
+      "ManaRegen"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Objetos nuevos",
+     "sectionId": "patch-new-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "2526",
+      "name": "Tiara Murmullante"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Vida: 200",
+     "id": "0ba6bfef27d5",
+     "section": "items",
+     "tags": [
+      "Health",
+      "Mana",
+      "ManaRegen"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Objetos nuevos",
+     "sectionId": "patch-new-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "2526",
+      "name": "Tiara Murmullante"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Maná: 300",
+     "id": "d003d4b6f22a",
+     "section": "items",
+     "tags": [
+      "Health",
+      "Mana",
+      "ManaRegen"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Objetos nuevos",
+     "sectionId": "patch-new-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "2526",
+      "name": "Tiara Murmullante"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Regeneración de Maná Básica: 75%",
+     "id": "8ed8c637a2ae",
+     "section": "items",
+     "tags": [
+      "Health",
+      "Mana",
+      "ManaRegen"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Objetos nuevos",
+     "sectionId": "patch-new-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "2526",
+      "name": "Tiara Murmullante"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Poder de curaciones y escudos: 8%",
+     "id": "3242dc0d6cd1",
+     "section": "items",
+     "tags": [
+      "Health",
+      "Mana",
+      "ManaRegen"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Objetos nuevos",
+     "sectionId": "patch-new-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "2526",
+      "name": "Tiara Murmullante"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Armonía: Obtienes un (0.005% de Maná adicional)% de poder de curaciones y escudos",
+     "id": "175a046abf0a",
+     "section": "items",
+     "tags": [
+      "Health",
+      "Mana",
+      "ManaRegen"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Objetos nuevos",
+     "sectionId": "patch-new-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "2526",
+      "name": "Tiara Murmullante"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Flujo de Maná: Al impactar a un enemigo con una habilidad, obtienes 4 de Maná máximo (se duplica contra campeones). Se transforma en Diadema de la Canción al tener 360 de Maná Máximo",
+     "id": "7b79f0d8469d",
+     "section": "items",
+     "tags": [
+      "Health",
+      "Mana",
+      "ManaRegen"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  }
+ ]
+}

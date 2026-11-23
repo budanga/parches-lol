@@ -1,0 +1,44 @@
+{
+ "schemaVersion": 1,
+ "id": "6621",
+ "name": "Esfera del Amanecer",
+ "tags": [
+  "SpellDamage",
+  "ManaRegen"
+ ],
+ "entries": [
+  {
+   "patch": "26.21",
+   "publishedAt": "2026-10-20T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Objetos",
+     "sectionId": "patch-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "6621",
+      "name": "Esfera del Amanecer"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Poder de Habilidad por cada 100% de Regeneración de Maná básica",
+     "before": "10",
+     "after": "15",
+     "text": "Poder de Habilidad por cada 100% de Regeneración de Maná básica: 10 ⇒ 15",
+     "id": "4d330af3b397",
+     "section": "items",
+     "tags": [
+      "SpellDamage",
+      "ManaRegen"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  }
+ ]
+}

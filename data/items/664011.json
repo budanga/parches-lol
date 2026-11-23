@@ -1,0 +1,266 @@
+{
+ "schemaVersion": 1,
+ "id": "664011",
+ "name": "Espada del Amanecer Floreciente",
+ "tags": [
+  "Health",
+  "SpellDamage",
+  "CooldownReduction",
+  "OnHit",
+  "AbilityHaste"
+ ],
+ "entries": [
+  {
+   "patch": "26.17",
+   "publishedAt": "2026-08-25T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "664011",
+      "name": "Espada del Amanecer Floreciente"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Tasa de Poder de Habilidad",
+     "before": "7%",
+     "after": "10%",
+     "text": "Tasa de Poder de Habilidad: 7% ⇒ 10%",
+     "id": "94aaed53cf84",
+     "section": "modes",
+     "tags": [
+      "Health",
+      "SpellDamage",
+      "CooldownReduction",
+      "OnHit",
+      "AbilityHaste"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.24",
+   "publishedAt": "2025-12-02T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "ARAM: Caos",
+     "sectionId": "patch-aram-mayhem",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "664011",
+      "name": "Espada del Amanecer Floreciente"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Costo total: 2350 de oro",
+     "id": "9002225448b6",
+     "section": "modes",
+     "tags": [
+      "Health",
+      "SpellDamage",
+      "CooldownReduction",
+      "OnHit",
+      "AbilityHaste"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "ARAM: Caos",
+     "sectionId": "patch-aram-mayhem",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "664011",
+      "name": "Espada del Amanecer Floreciente"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "45 de Poder de Habilidad",
+     "id": "b6f9f35936b7",
+     "section": "modes",
+     "tags": [
+      "Health",
+      "SpellDamage",
+      "CooldownReduction",
+      "OnHit",
+      "AbilityHaste"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "ARAM: Caos",
+     "sectionId": "patch-aram-mayhem",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "664011",
+      "name": "Espada del Amanecer Floreciente"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "200 de Vida",
+     "id": "acf2cf24c5a6",
+     "section": "modes",
+     "tags": [
+      "Health",
+      "SpellDamage",
+      "CooldownReduction",
+      "OnHit",
+      "AbilityHaste"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "ARAM: Caos",
+     "sectionId": "patch-aram-mayhem",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "664011",
+      "name": "Espada del Amanecer Floreciente"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "12% de poder de curaciones y escudos",
+     "id": "465219dffcff",
+     "section": "modes",
+     "tags": [
+      "Health",
+      "SpellDamage",
+      "CooldownReduction",
+      "OnHit",
+      "AbilityHaste"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "ARAM: Caos",
+     "sectionId": "patch-aram-mayhem",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "664011",
+      "name": "Espada del Amanecer Floreciente"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "15 de Aceleración de Habilidad",
+     "id": "4e5c846b6d49",
+     "section": "modes",
+     "tags": [
+      "Health",
+      "SpellDamage",
+      "CooldownReduction",
+      "OnHit",
+      "AbilityHaste"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "ARAM: Caos",
+     "sectionId": "patch-aram-mayhem",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "664011",
+      "name": "Espada del Amanecer Floreciente"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Efervescencia (pasiva): Obtienes un 1.2% de Velocidad de Ataque por cada un 1% de poder de curaciones y escudos que tengas",
+     "id": "ce42b1b867ad",
+     "section": "modes",
+     "tags": [
+      "Health",
+      "SpellDamage",
+      "CooldownReduction",
+      "OnHit",
+      "AbilityHaste"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "ARAM: Caos",
+     "sectionId": "patch-aram-mayhem",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "664011",
+      "name": "Espada del Amanecer Floreciente"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Hierbabuena (pasiva): Al impacto, curas de 15 a 40 (+ 10% de Daño de Ataque) (+ 7% de Poder de Habilidad) de Vida al campeón aliado cercano con menos vida. (Prioriza a los aliados con menos vida actual)",
+     "id": "60250038b43a",
+     "section": "modes",
+     "tags": [
+      "Health",
+      "SpellDamage",
+      "CooldownReduction",
+      "OnHit",
+      "AbilityHaste"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  }
+ ]
+}

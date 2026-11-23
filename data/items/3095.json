@@ -1,0 +1,257 @@
+{
+ "schemaVersion": 1,
+ "id": "3095",
+ "name": "Filo de la Tormenta",
+ "tags": [
+  "Damage",
+  "CriticalStrike",
+  "AttackSpeed",
+  "NonbootsMovement"
+ ],
+ "entries": [
+  {
+   "patch": "26.17",
+   "publishedAt": "2026-08-25T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Objetos",
+     "sectionId": "patch-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "3095",
+      "name": "Filo de la Tormenta"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Velocidad de Ataque",
+     "before": "20%",
+     "after": "25%",
+     "text": "Velocidad de Ataque: 20% ⇒ 25%",
+     "id": "9e1993ccf5c9",
+     "section": "items",
+     "tags": [
+      "Damage",
+      "CriticalStrike",
+      "AttackSpeed",
+      "NonbootsMovement"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "26.1",
+   "publishedAt": "2026-01-07T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Objetos que regresan",
+     "sectionId": "patch-returning-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "3097",
+      "name": "Filo de la Tormenta"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Ruta de armado: Espadón + Capa de Agilidad + Honda del Explorador + 700 de oro",
+     "id": "b08119bd08ff",
+     "section": "items",
+     "tags": [
+      "Damage",
+      "CriticalStrike",
+      "AttackSpeed",
+      "NonbootsMovement"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Objetos que regresan",
+     "sectionId": "patch-returning-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "3097",
+      "name": "Filo de la Tormenta"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Costo total: 3200 de oro",
+     "id": "a0541c3ef4bc",
+     "section": "items",
+     "tags": [
+      "Damage",
+      "CriticalStrike",
+      "AttackSpeed",
+      "NonbootsMovement"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Objetos que regresan",
+     "sectionId": "patch-returning-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "3097",
+      "name": "Filo de la Tormenta"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Daño de Ataque: 50",
+     "id": "ceab0130bc73",
+     "section": "items",
+     "tags": [
+      "Damage",
+      "CriticalStrike",
+      "AttackSpeed",
+      "NonbootsMovement"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Objetos que regresan",
+     "sectionId": "patch-returning-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "3097",
+      "name": "Filo de la Tormenta"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Velocidad de Ataque: 20%",
+     "id": "d363e5fb2658",
+     "section": "items",
+     "tags": [
+      "Damage",
+      "CriticalStrike",
+      "AttackSpeed",
+      "NonbootsMovement"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Objetos que regresan",
+     "sectionId": "patch-returning-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "3097",
+      "name": "Filo de la Tormenta"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Probabilidad de Golpe Crítico: 25%",
+     "id": "2dc832729808",
+     "section": "items",
+     "tags": [
+      "Damage",
+      "CriticalStrike",
+      "AttackSpeed",
+      "NonbootsMovement"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Objetos que regresan",
+     "sectionId": "patch-returning-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "3097",
+      "name": "Filo de la Tormenta"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Energizado: Generas un ataque energizado al moverte y atacar",
+     "id": "38ca8aeed2d0",
+     "section": "items",
+     "tags": [
+      "Damage",
+      "CriticalStrike",
+      "AttackSpeed",
+      "NonbootsMovement"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Objetos que regresan",
+     "sectionId": "patch-returning-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "3097",
+      "name": "Filo de la Tormenta"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Proyectil: Tus ataques energizados infligen 100 de daño mágico adicional y otorgan un 45% de Velocidad de Movimiento durante 1.5 seg",
+     "id": "2cf27a6d42c0",
+     "section": "items",
+     "tags": [
+      "Damage",
+      "CriticalStrike",
+      "AttackSpeed",
+      "NonbootsMovement"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  }
+ ]
+}

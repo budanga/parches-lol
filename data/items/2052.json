@@ -1,0 +1,38 @@
+{
+ "schemaVersion": 1,
+ "id": "2052",
+ "name": "Porogalletas",
+ "tags": [],
+ "entries": [
+  {
+   "patch": "26.7",
+   "publishedAt": "2026-03-31T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "ARAM: Caos",
+     "sectionId": "patch-aram:-mayhem",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "2052",
+      "name": "Porogalletas"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Ahora las Porogalletas se ven como hamburguesas con queso",
+     "id": "ceae714375b7",
+     "section": "modes",
+     "tags": [],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  }
+ ]
+}

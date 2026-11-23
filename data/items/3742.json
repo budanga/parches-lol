@@ -1,0 +1,48 @@
+{
+ "schemaVersion": 1,
+ "id": "3742",
+ "name": "Placa del Hombre Muerto",
+ "tags": [
+  "Health",
+  "Armor",
+  "Slow",
+  "NonbootsMovement"
+ ],
+ "entries": [
+  {
+   "patch": "25.8",
+   "publishedAt": "2025-04-15T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Objetos",
+     "sectionId": "patch-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "3742",
+      "name": "Placa del Hombre Muerto"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Resistencia a ralentizaciones",
+     "before": "25%",
+     "after": "15%",
+     "text": "Resistencia a ralentizaciones: 25% ⇒ 15%",
+     "id": "4be6b0632b4e",
+     "section": "items",
+     "tags": [
+      "Health",
+      "Armor",
+      "Slow",
+      "NonbootsMovement"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,368 @@
+{
+ "schemaVersion": 1,
+ "id": "3152",
+ "name": "Cinturón Cohete Hextech",
+ "tags": [
+  "Health",
+  "SpellDamage",
+  "Active",
+  "CooldownReduction",
+  "NonbootsMovement",
+  "AbilityHaste"
+ ],
+ "entries": [
+  {
+   "patch": "26.14",
+   "publishedAt": "2026-07-14T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Objetos",
+     "sectionId": "patch-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "3152",
+      "name": "Cinturón Cohete Hextech"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Ruta de armado",
+     "before": "Alternador Hextech + Códice Diabólico + Libro Amplificador + 300",
+     "after": "Alternador Hextech + Gemaluz + Cristal de Rubí + 350",
+     "text": "Ruta de armado: Alternador Hextech + Códice Diabólico + Libro Amplificador + 300 ⇒ Alternador Hextech + Gemaluz + Cristal de Rubí + 350",
+     "id": "6f8cee71e5c0",
+     "section": "items",
+     "tags": [
+      "Health",
+      "SpellDamage",
+      "Active",
+      "CooldownReduction",
+      "NonbootsMovement",
+      "AbilityHaste"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Objetos",
+     "sectionId": "patch-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "3152",
+      "name": "Cinturón Cohete Hextech"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Enfriamiento de la Activa",
+     "before": "40 seg",
+     "after": "50 seg",
+     "text": "Enfriamiento de la Activa: 40 seg ⇒ 50 seg",
+     "id": "b9dbb92de3dd",
+     "section": "items",
+     "tags": [
+      "Health",
+      "SpellDamage",
+      "Active",
+      "CooldownReduction",
+      "NonbootsMovement",
+      "AbilityHaste"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Objetos",
+     "sectionId": "patch-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "3152",
+      "name": "Cinturón Cohete Hextech"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Poder de Habilidad",
+     "before": "70",
+     "after": "60",
+     "text": "Poder de Habilidad: 70 ⇒ 60",
+     "id": "3a3902eac3ab",
+     "section": "items",
+     "tags": [
+      "Health",
+      "SpellDamage",
+      "Active",
+      "CooldownReduction",
+      "NonbootsMovement",
+      "AbilityHaste"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Objetos",
+     "sectionId": "patch-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "3152",
+      "name": "Cinturón Cohete Hextech"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Vida",
+     "before": "300",
+     "after": "350",
+     "text": "Vida: 300 ⇒ 350",
+     "id": "46f01df072b4",
+     "section": "items",
+     "tags": [
+      "Health",
+      "SpellDamage",
+      "Active",
+      "CooldownReduction",
+      "NonbootsMovement",
+      "AbilityHaste"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.10",
+   "publishedAt": "2025-05-13T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Objetos",
+     "sectionId": "patch-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "3152",
+      "name": "Cinturón Cohete Hextech"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Poder de Habilidad",
+     "before": "60",
+     "after": "70",
+     "text": "Poder de Habilidad: 60 ⇒ 70",
+     "id": "c7eca89b496a",
+     "section": "items",
+     "tags": [
+      "Health",
+      "SpellDamage",
+      "Active",
+      "CooldownReduction",
+      "NonbootsMovement",
+      "AbilityHaste"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Objetos",
+     "sectionId": "patch-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "3152",
+      "name": "Cinturón Cohete Hextech"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Vida",
+     "before": "350",
+     "after": "300",
+     "text": "Vida: 350 ⇒ 300",
+     "id": "c99609f37245",
+     "section": "items",
+     "tags": [
+      "Health",
+      "SpellDamage",
+      "Active",
+      "CooldownReduction",
+      "NonbootsMovement",
+      "AbilityHaste"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Objetos",
+     "sectionId": "patch-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "3152",
+      "name": "Cinturón Cohete Hextech"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Aceleración de Habilidad",
+     "before": "15",
+     "after": "20",
+     "text": "Aceleración de Habilidad: 15 ⇒ 20",
+     "id": "dae86761bde9",
+     "section": "items",
+     "tags": [
+      "Health",
+      "SpellDamage",
+      "Active",
+      "CooldownReduction",
+      "NonbootsMovement",
+      "AbilityHaste"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Objetos",
+     "sectionId": "patch-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "3152",
+      "name": "Cinturón Cohete Hextech"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Ruta de armado",
+     "before": "Alternador + Gemaluz + 700 de oro",
+     "after": "Alternador + Códice Diabólico + Cristal de Rubí + 300 de oro",
+     "text": "Ruta de armado: Alternador + Gemaluz + 700 de oro ⇒ Alternador + Códice Diabólico + Cristal de Rubí + 300 de oro",
+     "id": "edd7e194ad2d",
+     "section": "items",
+     "tags": [
+      "Health",
+      "SpellDamage",
+      "Active",
+      "CooldownReduction",
+      "NonbootsMovement",
+      "AbilityHaste"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Objetos",
+     "sectionId": "patch-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "3152",
+      "name": "Cinturón Cohete Hextech"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Costo total de oro",
+     "before": "2600",
+     "after": "2650",
+     "text": "Costo total de oro: 2600 ⇒ 2650",
+     "id": "779286bb872a",
+     "section": "items",
+     "tags": [
+      "Health",
+      "SpellDamage",
+      "Active",
+      "CooldownReduction",
+      "NonbootsMovement",
+      "AbilityHaste"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Objetos",
+     "sectionId": "patch-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "3152",
+      "name": "Cinturón Cohete Hextech"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Actualizamos el indicador de lanzamiento para señalar con más precisión los ángulos y alcances de los proyectiles",
+     "id": "a4b158b4f685",
+     "section": "items",
+     "tags": [
+      "Health",
+      "SpellDamage",
+      "Active",
+      "CooldownReduction",
+      "NonbootsMovement",
+      "AbilityHaste"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Objetos",
+     "sectionId": "patch-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "3152",
+      "name": "Cinturón Cohete Hextech"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Ahora, el objeto puede usarse manualmente haciendo clic para confirmar su lanzamiento",
+     "id": "06d76903b1e5",
+     "section": "items",
+     "tags": [
+      "Health",
+      "SpellDamage",
+      "Active",
+      "CooldownReduction",
+      "NonbootsMovement",
+      "AbilityHaste"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  }
+ ]
+}

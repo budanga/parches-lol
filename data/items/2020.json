@@ -1,0 +1,80 @@
+{
+ "schemaVersion": 1,
+ "id": "2020",
+ "name": "El Brutalizador",
+ "tags": [
+  "Damage",
+  "CooldownReduction",
+  "ArmorPenetration"
+ ],
+ "entries": [
+  {
+   "patch": "26.10",
+   "publishedAt": "2026-05-12T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "2020",
+      "name": "El Brutalizador"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": null,
+     "before": "El nivel máximo se reduce de 3",
+     "after": "2",
+     "text": "El nivel máximo se reduce de 3 ⇒ 2",
+     "id": "ac7895bb5059",
+     "section": "modes",
+     "tags": [
+      "Damage",
+      "CooldownReduction",
+      "ArmorPenetration"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "26.2",
+   "publishedAt": "2026-01-21T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "2020",
+      "name": "El Brutalizador"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": null,
+     "before": "Nivel del Aumento: Oro",
+     "after": "Plata",
+     "text": "Nivel del Aumento: Oro ⇒ Plata",
+     "id": "52dbaebb4233",
+     "section": "modes",
+     "tags": [
+      "Damage",
+      "CooldownReduction",
+      "ArmorPenetration"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  }
+ ]
+}

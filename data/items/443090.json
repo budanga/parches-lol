@@ -1,0 +1,80 @@
+{
+ "schemaVersion": 1,
+ "id": "443090",
+ "name": "Cuota del Segador",
+ "tags": [
+  "Damage",
+  "AttackSpeed",
+  "SpellDamage",
+  "OnHit",
+  "NonbootsMovement"
+ ],
+ "entries": [
+  {
+   "patch": "25.16",
+   "publishedAt": "2025-08-12T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Objetos",
+     "sectionId": "patch-Items-",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "443090",
+      "name": "Cuota del Segador"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": null,
+     "before": "Velocidad de Ataque adicional: 25%",
+     "after": "15%",
+     "text": "Velocidad de Ataque adicional: 25% ⇒ 15%",
+     "id": "7653b4cdb4a7",
+     "section": "items",
+     "tags": [
+      "Damage",
+      "AttackSpeed",
+      "SpellDamage",
+      "OnHit",
+      "NonbootsMovement"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Objetos",
+     "sectionId": "patch-Items-",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "443090",
+      "name": "Cuota del Segador"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": null,
+     "before": "Velocidad de Movimiento: 10%",
+     "after": "5%",
+     "text": "Velocidad de Movimiento: 10% ⇒ 5%",
+     "id": "30854b34c53e",
+     "section": "items",
+     "tags": [
+      "Damage",
+      "AttackSpeed",
+      "SpellDamage",
+      "OnHit",
+      "NonbootsMovement"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  }
+ ]
+}

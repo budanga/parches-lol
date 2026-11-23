@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "id": "6656",
+ "name": "Hielo Eterno",
+ "tags": [
+  "Health",
+  "SpellDamage",
+  "Mana",
+  "Active",
+  "CooldownReduction",
+  "Slow",
+  "AbilityHaste"
+ ],
+ "entries": [
+  {
+   "patch": "25.24",
+   "publishedAt": "2025-12-02T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "6656",
+      "name": "Hielo Eterno"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": null,
+     "before": "Daño básico: 250",
+     "after": "300",
+     "text": "Daño básico: 250 ⇒ 300",
+     "id": "a37a84315171",
+     "section": "modes",
+     "tags": [
+      "Health",
+      "SpellDamage",
+      "Mana",
+      "Active",
+      "CooldownReduction",
+      "Slow",
+      "AbilityHaste"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  }
+ ]
+}

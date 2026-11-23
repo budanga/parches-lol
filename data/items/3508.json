@@ -1,0 +1,331 @@
+{
+ "schemaVersion": 1,
+ "id": "3508",
+ "name": "Saqueador de Esencias",
+ "tags": [
+  "Damage",
+  "CriticalStrike",
+  "ManaRegen",
+  "CooldownReduction",
+  "OnHit",
+  "AbilityHaste"
+ ],
+ "entries": [
+  {
+   "patch": "26.1",
+   "publishedAt": "2026-01-07T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Actualizaciones dentro de la versión",
+     "sectionId": "patch-large-changes",
+     "midPatch": true,
+     "entity": {
+      "kind": "item",
+      "id": "3508",
+      "name": "Saqueador de Esencias"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Costo total",
+     "before": "2900 de oro",
+     "after": "3050 de oro",
+     "text": "Costo total: 2900 de oro ⇒ 3050 de oro",
+     "id": "6b1ecf4b5e17",
+     "section": "items",
+     "tags": [
+      "Damage",
+      "CriticalStrike",
+      "ManaRegen",
+      "CooldownReduction",
+      "OnHit",
+      "AbilityHaste"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Actualizaciones dentro de la versión",
+     "sectionId": "patch-large-changes",
+     "midPatch": true,
+     "entity": {
+      "kind": "item",
+      "id": "3508",
+      "name": "Saqueador de Esencias"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Ruta de armado",
+     "before": "Brillo + Martillo de Guerra de Caulfield + Capa de Agilidad + 350 de oro",
+     "after": "Brillo + Martillo de Guerra de Caulfield + Capa de Agilidad + 500 de oro",
+     "text": "Ruta de armado: Brillo + Martillo de Guerra de Caulfield + Capa de Agilidad + 350 de oro ⇒ Brillo + Martillo de Guerra de Caulfield + Capa de Agilidad + 500 de oro",
+     "id": "0f317cf98666",
+     "section": "items",
+     "tags": [
+      "Damage",
+      "CriticalStrike",
+      "ManaRegen",
+      "CooldownReduction",
+      "OnHit",
+      "AbilityHaste"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Actualizaciones dentro de la versión",
+     "sectionId": "patch-large-changes",
+     "midPatch": true,
+     "entity": {
+      "kind": "item",
+      "id": "3508",
+      "name": "Saqueador de Esencias"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño de Ataque",
+     "before": "55 de oro",
+     "after": "50 de oro",
+     "text": "Daño de Ataque: 55 de oro ⇒ 50 de oro",
+     "id": "378d7d056387",
+     "section": "items",
+     "tags": [
+      "Damage",
+      "CriticalStrike",
+      "ManaRegen",
+      "CooldownReduction",
+      "OnHit",
+      "AbilityHaste"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Objetos actualizados",
+     "sectionId": "patch-updated-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "3508",
+      "name": "Saqueador de Esencias"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": null,
+     "before": "Ruta de armado: Picacha + Martillo de Guerra de Caulfield + Capa de Agilidad + 375 de oro",
+     "after": "Brillo + Martillo de Guerra de Caulfield + Capa de Agilidad + 350 de oro",
+     "text": "Ruta de armado: Picacha + Martillo de Guerra de Caulfield + Capa de Agilidad + 375 de oro ⇒ Brillo + Martillo de Guerra de Caulfield + Capa de Agilidad + 350 de oro",
+     "id": "666a854e062c",
+     "section": "items",
+     "tags": [
+      "Damage",
+      "CriticalStrike",
+      "ManaRegen",
+      "CooldownReduction",
+      "OnHit",
+      "AbilityHaste"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Objetos actualizados",
+     "sectionId": "patch-updated-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "3508",
+      "name": "Saqueador de Esencias"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Costo total: 2900 de oro (sin cambios)",
+     "id": "8e49fb20345b",
+     "section": "items",
+     "tags": [
+      "Damage",
+      "CriticalStrike",
+      "ManaRegen",
+      "CooldownReduction",
+      "OnHit",
+      "AbilityHaste"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Objetos actualizados",
+     "sectionId": "patch-updated-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "3508",
+      "name": "Saqueador de Esencias"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": null,
+     "before": "Daño de Ataque: 60",
+     "after": "55",
+     "text": "Daño de Ataque: 60 ⇒ 55",
+     "id": "2385f076eedf",
+     "section": "items",
+     "tags": [
+      "Damage",
+      "CriticalStrike",
+      "ManaRegen",
+      "CooldownReduction",
+      "OnHit",
+      "AbilityHaste"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Objetos actualizados",
+     "sectionId": "patch-updated-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "3508",
+      "name": "Saqueador de Esencias"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Probabilidad de Golpe Crítico: 25%",
+     "id": "211f7ee2e0de",
+     "section": "items",
+     "tags": [
+      "Damage",
+      "CriticalStrike",
+      "ManaRegen",
+      "CooldownReduction",
+      "OnHit",
+      "AbilityHaste"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Objetos actualizados",
+     "sectionId": "patch-updated-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "3508",
+      "name": "Saqueador de Esencias"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": null,
+     "before": "Aceleración de Habilidad: 15",
+     "after": "20",
+     "text": "Aceleración de Habilidad: 15 ⇒ 20",
+     "id": "3be4867fd540",
+     "section": "items",
+     "tags": [
+      "Damage",
+      "CriticalStrike",
+      "ManaRegen",
+      "CooldownReduction",
+      "OnHit",
+      "AbilityHaste"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Objetos actualizados",
+     "sectionId": "patch-updated-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "3508",
+      "name": "Saqueador de Esencias"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Espada Encantada (1.5 seg de enfriamiento): Después de usar una habilidad, tu siguiente ataque inflige (125% de Daño de Ataque básico + [50 × probabilidad de golpe crítico]) de daño físico adicional y otorga un 50% del daño como Maná al impacto",
+     "id": "3310258ca231",
+     "section": "items",
+     "tags": [
+      "Damage",
+      "CriticalStrike",
+      "ManaRegen",
+      "CooldownReduction",
+      "OnHit",
+      "AbilityHaste"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Objetos actualizados",
+     "sectionId": "patch-updated-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "3508",
+      "name": "Saqueador de Esencias"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Eliminamos la pasiva Absorción de Esencia",
+     "id": "dd6904ee0ee4",
+     "section": "items",
+     "tags": [
+      "Damage",
+      "CriticalStrike",
+      "ManaRegen",
+      "CooldownReduction",
+      "OnHit",
+      "AbilityHaste"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  }
+ ]
+}

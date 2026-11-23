@@ -1,0 +1,236 @@
+{
+ "schemaVersion": 1,
+ "id": "6620",
+ "name": "Ecos de Helia",
+ "tags": [
+  "Health",
+  "SpellDamage",
+  "ManaRegen",
+  "CooldownReduction",
+  "AbilityHaste"
+ ],
+ "entries": [
+  {
+   "patch": "26.11",
+   "publishedAt": "2026-05-27T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Ajustes a soportes",
+     "sectionId": "patch-support-adjustments",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "6620",
+      "name": "Ecos de Helia"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño almacenado",
+     "before": "35%",
+     "after": "30%",
+     "text": "Daño almacenado: 35% ⇒ 30%",
+     "id": "d313a89b7178",
+     "section": "items",
+     "tags": [
+      "Health",
+      "SpellDamage",
+      "ManaRegen",
+      "CooldownReduction",
+      "AbilityHaste"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "26.1",
+   "publishedAt": "2026-01-07T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Objetos actualizados",
+     "sectionId": "patch-updated-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "6620",
+      "name": "Ecos de Helia"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Ruta de armado: Gemaluz + Espejo de Vitrobandle + 500 de oro (2200 de oro en total)",
+     "id": "3afc69bb3632",
+     "section": "items",
+     "tags": [
+      "Health",
+      "SpellDamage",
+      "ManaRegen",
+      "CooldownReduction",
+      "AbilityHaste"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Objetos actualizados",
+     "sectionId": "patch-updated-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "6620",
+      "name": "Ecos de Helia"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Poder de Habilidad: 35",
+     "id": "57492c2a6579",
+     "section": "items",
+     "tags": [
+      "Health",
+      "SpellDamage",
+      "ManaRegen",
+      "CooldownReduction",
+      "AbilityHaste"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Objetos actualizados",
+     "sectionId": "patch-updated-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "6620",
+      "name": "Ecos de Helia"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Vida: 200",
+     "id": "cf38a91b50d8",
+     "section": "items",
+     "tags": [
+      "Health",
+      "SpellDamage",
+      "ManaRegen",
+      "CooldownReduction",
+      "AbilityHaste"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Objetos actualizados",
+     "sectionId": "patch-updated-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "6620",
+      "name": "Ecos de Helia"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Regeneración de Maná Básica: 125%",
+     "id": "a7a93750a0cf",
+     "section": "items",
+     "tags": [
+      "Health",
+      "SpellDamage",
+      "ManaRegen",
+      "CooldownReduction",
+      "AbilityHaste"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Objetos actualizados",
+     "sectionId": "patch-updated-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "6620",
+      "name": "Ecos de Helia"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Aceleración de Habilidad: 20",
+     "id": "f1373fdb09cc",
+     "section": "items",
+     "tags": [
+      "Health",
+      "SpellDamage",
+      "ManaRegen",
+      "CooldownReduction",
+      "AbilityHaste"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Objetos actualizados",
+     "sectionId": "patch-updated-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "6620",
+      "name": "Ecos de Helia"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Sifón del Alma: Obtienes un 35% del daño infligido a campeones antes de la mitigación como Cargas Álmicas. El efecto se acumula hasta un máximo de (entre 80 y 250 [según el nivel]) cargas. Al curar u otorgar escudo a un aliado, consumes todas las Cargas Álmicas para restaurarle un 100% del valor como vida",
+     "id": "424220f96d48",
+     "section": "items",
+     "tags": [
+      "Health",
+      "SpellDamage",
+      "ManaRegen",
+      "CooldownReduction",
+      "AbilityHaste"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,83 @@
+{
+ "schemaVersion": 1,
+ "id": "3115",
+ "name": "Diente de Nashor",
+ "tags": [
+  "AttackSpeed",
+  "SpellDamage",
+  "OnHit",
+  "AbilityHaste"
+ ],
+ "entries": [
+  {
+   "patch": "26.23",
+   "publishedAt": "2026-11-17T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "3115",
+      "name": "Diente de Nashor"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Tasa de Poder de curaciones y escudos de Mordida de Icathia",
+     "before": "0%",
+     "after": "150%",
+     "text": "Tasa de Poder de curaciones y escudos de Mordida de Icathia: 0% ⇒ 150%",
+     "id": "66773f35e0cd",
+     "section": "modes",
+     "tags": [
+      "AttackSpeed",
+      "SpellDamage",
+      "OnHit",
+      "AbilityHaste"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.10",
+   "publishedAt": "2025-05-13T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Objetos",
+     "sectionId": "patch-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "3115",
+      "name": "Diente de Nashor"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Costo total de oro",
+     "before": "3000",
+     "after": "2900",
+     "text": "Costo total de oro: 3000 ⇒ 2900",
+     "id": "d5a8b9ce4f6a",
+     "section": "items",
+     "tags": [
+      "AttackSpeed",
+      "SpellDamage",
+      "OnHit",
+      "AbilityHaste"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  }
+ ]
+}

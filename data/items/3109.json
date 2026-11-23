@@ -1,0 +1,86 @@
+{
+ "schemaVersion": 1,
+ "id": "3109",
+ "name": "Promesa del Caballero",
+ "tags": [
+  "Health",
+  "HealthRegen",
+  "Armor",
+  "Aura",
+  "Active",
+  "CooldownReduction",
+  "AbilityHaste"
+ ],
+ "entries": [
+  {
+   "patch": "26.11",
+   "publishedAt": "2026-05-27T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Ajustes a soportes",
+     "sectionId": "patch-support-adjustments",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "3109",
+      "name": "Promesa del Caballero"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Redirección de daño",
+     "before": "12%",
+     "after": "14%",
+     "text": "Redirección de daño: 12% ⇒ 14%",
+     "id": "e6f4aedf6d57",
+     "section": "items",
+     "tags": [
+      "Health",
+      "HealthRegen",
+      "Armor",
+      "Aura",
+      "Active",
+      "CooldownReduction",
+      "AbilityHaste"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Ajustes a soportes",
+     "sectionId": "patch-support-adjustments",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "3109",
+      "name": "Promesa del Caballero"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Curación",
+     "before": "10%",
+     "after": "12%",
+     "text": "Curación: 10% ⇒ 12%",
+     "id": "f8a519e70661",
+     "section": "items",
+     "tags": [
+      "Health",
+      "HealthRegen",
+      "Armor",
+      "Aura",
+      "Active",
+      "CooldownReduction",
+      "AbilityHaste"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  }
+ ]
+}

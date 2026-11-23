@@ -1,0 +1,48 @@
+{
+ "schemaVersion": 1,
+ "id": "3105",
+ "name": "Égida de la Legión",
+ "tags": [
+  "SpellBlock",
+  "Armor",
+  "CooldownReduction",
+  "AbilityHaste"
+ ],
+ "entries": [
+  {
+   "patch": "26.1",
+   "publishedAt": "2026-01-07T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Objetos actualizados",
+     "sectionId": "patch-updated-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "3105",
+      "name": "Égida de la Legión"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Eliminamos Égida de la Legión",
+     "id": "2718908778cd",
+     "section": "items",
+     "tags": [
+      "SpellBlock",
+      "Armor",
+      "CooldownReduction",
+      "AbilityHaste"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  }
+ ]
+}

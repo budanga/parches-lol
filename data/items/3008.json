@@ -1,0 +1,192 @@
+{
+ "schemaVersion": 1,
+ "id": "3008",
+ "name": "Grebas Glotonas",
+ "tags": [
+  "LifeSteal",
+  "SpellVamp",
+  "Boots"
+ ],
+ "entries": [
+  {
+   "patch": "26.21",
+   "publishedAt": "2026-10-20T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Objetos",
+     "sectionId": "patch-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "3008",
+      "name": "Grebas Glotonas"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Costo total",
+     "before": "1000 de oro",
+     "after": "1100 de oro",
+     "text": "Costo total: 1000 de oro ⇒ 1100 de oro",
+     "id": "898c720f585e",
+     "section": "items",
+     "tags": [
+      "LifeSteal",
+      "SpellVamp",
+      "Boots"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "26.9",
+   "publishedAt": "2026-04-28T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Objetos",
+     "sectionId": "patch-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "3008",
+      "name": "Grebas Glotonas"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Ruta de armado: Botas (300 de oro) + 650 de oro",
+     "id": "ba445dd93927",
+     "section": "items",
+     "tags": [
+      "LifeSteal",
+      "SpellVamp",
+      "Boots"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Objetos",
+     "sectionId": "patch-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "3008",
+      "name": "Grebas Glotonas"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Velocidad de Movimiento: 45",
+     "id": "713745bcb44a",
+     "section": "items",
+     "tags": [
+      "LifeSteal",
+      "SpellVamp",
+      "Boots"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Objetos",
+     "sectionId": "patch-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "3008",
+      "name": "Grebas Glotonas"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Omnivampirismo: 4%",
+     "id": "b2bc710ca2d3",
+     "section": "items",
+     "tags": [
+      "LifeSteal",
+      "SpellVamp",
+      "Boots"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Objetos",
+     "sectionId": "patch-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "3008",
+      "name": "Grebas Glotonas"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Pasiva Única: Exterminar: Al derribar a un campeón, obtienes un 1% de Omnivampirismo permanente. Se acumula hasta 6 veces.",
+     "id": "602869dee3b5",
+     "section": "items",
+     "tags": [
+      "LifeSteal",
+      "SpellVamp",
+      "Boots"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Objetos",
+     "sectionId": "patch-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "3008",
+      "name": "Grebas Glotonas"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Nivel 3 de Camino Inmortal: Pasiva Única adicional: Ahora y por Siempre: Mientras tengas más de la mitad de tu vida, infliges un 5% de daño adicional. Mientras tengas menos de la mitad de tu vida, recibes +15% de curación, escudos y regeneración.",
+     "id": "b6bf70eaa8ce",
+     "section": "items",
+     "tags": [
+      "LifeSteal",
+      "SpellVamp",
+      "Boots"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  }
+ ]
+}

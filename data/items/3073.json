@@ -1,0 +1,876 @@
+{
+ "schemaVersion": 1,
+ "id": "3073",
+ "name": "Placa Hexperimental",
+ "tags": [
+  "Health",
+  "Damage",
+  "AttackSpeed",
+  "CooldownReduction",
+  "NonbootsMovement",
+  "AbilityHaste"
+ ],
+ "entries": [
+  {
+   "patch": "26.20",
+   "publishedAt": "2026-10-06T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Objetos",
+     "sectionId": "patch-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "3073",
+      "name": "Placa Hexperimental"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Modificador a distancia",
+     "before": "70% del valor (35% de Velocidad de Ataque, 14% de Velocidad de Movimiento)",
+     "after": "50% del valor (25% de Velocidad de Ataque, 10% de Velocidad de Movimiento)",
+     "text": "Modificador a distancia: 70% del valor (35% de Velocidad de Ataque, 14% de Velocidad de Movimiento) ⇒ 50% del valor (25% de Velocidad de Ataque, 10% de Velocidad de Movimiento)",
+     "id": "e0a22757f7f0",
+     "section": "items",
+     "tags": [
+      "Health",
+      "Damage",
+      "AttackSpeed",
+      "CooldownReduction",
+      "NonbootsMovement",
+      "AbilityHaste"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Objetos",
+     "sectionId": "patch-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "3073",
+      "name": "Placa Hexperimental"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Aceleración de habilidad",
+     "before": "20",
+     "after": "10",
+     "text": "Aceleración de habilidad: 20 ⇒ 10",
+     "id": "8dd75c404040",
+     "section": "items",
+     "tags": [
+      "Health",
+      "Damage",
+      "AttackSpeed",
+      "CooldownReduction",
+      "NonbootsMovement",
+      "AbilityHaste"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Objetos",
+     "sectionId": "patch-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "3073",
+      "name": "Placa Hexperimental"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño de activa",
+     "before": "100 (+10% de Poder de Habilidad)",
+     "after": "135 (+15% de Poder de Habilidad)",
+     "text": "Daño de activa: 100 (+10% de Poder de Habilidad) ⇒ 135 (+15% de Poder de Habilidad)",
+     "id": "ab6f8da6ae49",
+     "section": "items",
+     "tags": [
+      "Health",
+      "Damage",
+      "AttackSpeed",
+      "CooldownReduction",
+      "NonbootsMovement",
+      "AbilityHaste"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Objetos",
+     "sectionId": "patch-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "3073",
+      "name": "Placa Hexperimental"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño de Ataque por proyectil",
+     "before": "65%",
+     "after": "60%",
+     "text": "Daño de Ataque por proyectil: 65% ⇒ 60%",
+     "id": "49dfbd9a9668",
+     "section": "items",
+     "tags": [
+      "Health",
+      "Damage",
+      "AttackSpeed",
+      "CooldownReduction",
+      "NonbootsMovement",
+      "AbilityHaste"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Objetos",
+     "sectionId": "patch-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "3073",
+      "name": "Placa Hexperimental"
+     },
+     "part": "Limpieza del tablero de puntuaciones",
+     "partTitle": "Limpieza del tablero de puntuaciones",
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Los contadores de íconos de los siguientes objetos ahora están ocultos en el tablero de puntuaciones:",
+     "id": "b109d6f5c6ea",
+     "section": "items",
+     "tags": [
+      "Health",
+      "Damage",
+      "AttackSpeed",
+      "CooldownReduction",
+      "NonbootsMovement",
+      "AbilityHaste"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Objetos",
+     "sectionId": "patch-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "3073",
+      "name": "Placa Hexperimental"
+     },
+     "part": "Limpieza del tablero de puntuaciones",
+     "partTitle": "Limpieza del tablero de puntuaciones",
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Danza de la Muerte",
+     "id": "859439acd645",
+     "section": "items",
+     "tags": [
+      "Health",
+      "Damage",
+      "AttackSpeed",
+      "CooldownReduction",
+      "NonbootsMovement",
+      "AbilityHaste"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Objetos",
+     "sectionId": "patch-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "3073",
+      "name": "Placa Hexperimental"
+     },
+     "part": "Limpieza del tablero de puntuaciones",
+     "partTitle": "Limpieza del tablero de puntuaciones",
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Antifaz Embrujado",
+     "id": "7f827615d4ff",
+     "section": "items",
+     "tags": [
+      "Health",
+      "Damage",
+      "AttackSpeed",
+      "CooldownReduction",
+      "NonbootsMovement",
+      "AbilityHaste"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Objetos",
+     "sectionId": "patch-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "3073",
+      "name": "Placa Hexperimental"
+     },
+     "part": "Limpieza del tablero de puntuaciones",
+     "partTitle": "Limpieza del tablero de puntuaciones",
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "El Tormento de Liandry",
+     "id": "2dc2b33cc2b2",
+     "section": "items",
+     "tags": [
+      "Health",
+      "Damage",
+      "AttackSpeed",
+      "CooldownReduction",
+      "NonbootsMovement",
+      "AbilityHaste"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Objetos",
+     "sectionId": "patch-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "3073",
+      "name": "Placa Hexperimental"
+     },
+     "part": "Limpieza del tablero de puntuaciones",
+     "partTitle": "Limpieza del tablero de puntuaciones",
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Agrietador",
+     "id": "286171996cf1",
+     "section": "items",
+     "tags": [
+      "Health",
+      "Damage",
+      "AttackSpeed",
+      "CooldownReduction",
+      "NonbootsMovement",
+      "AbilityHaste"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Objetos",
+     "sectionId": "patch-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "3073",
+      "name": "Placa Hexperimental"
+     },
+     "part": "Limpieza del tablero de puntuaciones",
+     "partTitle": "Limpieza del tablero de puntuaciones",
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Matakrakens",
+     "id": "f729a09d1675",
+     "section": "items",
+     "tags": [
+      "Health",
+      "Damage",
+      "AttackSpeed",
+      "CooldownReduction",
+      "NonbootsMovement",
+      "AbilityHaste"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Objetos",
+     "sectionId": "patch-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "3073",
+      "name": "Placa Hexperimental"
+     },
+     "part": "Limpieza del tablero de puntuaciones",
+     "partTitle": "Limpieza del tablero de puntuaciones",
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Terminus",
+     "id": "99770e8efbcb",
+     "section": "items",
+     "tags": [
+      "Health",
+      "Damage",
+      "AttackSpeed",
+      "CooldownReduction",
+      "NonbootsMovement",
+      "AbilityHaste"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Objetos",
+     "sectionId": "patch-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "3073",
+      "name": "Placa Hexperimental"
+     },
+     "part": "Limpieza del tablero de puntuaciones",
+     "partTitle": "Limpieza del tablero de puntuaciones",
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Espadafuria de Guinsoo",
+     "id": "b34d5655ba71",
+     "section": "items",
+     "tags": [
+      "Health",
+      "Damage",
+      "AttackSpeed",
+      "CooldownReduction",
+      "NonbootsMovement",
+      "AbilityHaste"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Objetos",
+     "sectionId": "patch-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "3073",
+      "name": "Placa Hexperimental"
+     },
+     "part": "Limpieza del tablero de puntuaciones",
+     "partTitle": "Limpieza del tablero de puntuaciones",
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Proyectiles Cazademonios",
+     "id": "5759ee893def",
+     "section": "items",
+     "tags": [
+      "Health",
+      "Damage",
+      "AttackSpeed",
+      "CooldownReduction",
+      "NonbootsMovement",
+      "AbilityHaste"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Objetos",
+     "sectionId": "patch-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "3073",
+      "name": "Placa Hexperimental"
+     },
+     "part": "Limpieza del tablero de puntuaciones",
+     "partTitle": "Limpieza del tablero de puntuaciones",
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Ecos de Helia",
+     "id": "4d9e83f7d70f",
+     "section": "items",
+     "tags": [
+      "Health",
+      "Damage",
+      "AttackSpeed",
+      "CooldownReduction",
+      "NonbootsMovement",
+      "AbilityHaste"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Objetos",
+     "sectionId": "patch-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "3073",
+      "name": "Placa Hexperimental"
+     },
+     "part": "Limpieza del tablero de puntuaciones",
+     "partTitle": "Limpieza del tablero de puntuaciones",
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Placa del Hombre Muerto",
+     "id": "27e0182ab063",
+     "section": "items",
+     "tags": [
+      "Health",
+      "Damage",
+      "AttackSpeed",
+      "CooldownReduction",
+      "NonbootsMovement",
+      "AbilityHaste"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Objetos",
+     "sectionId": "patch-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "3073",
+      "name": "Placa Hexperimental"
+     },
+     "part": "Limpieza del tablero de puntuaciones",
+     "partTitle": "Limpieza del tablero de puntuaciones",
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Lanza de Shojin",
+     "id": "50d74c63b032",
+     "section": "items",
+     "tags": [
+      "Health",
+      "Damage",
+      "AttackSpeed",
+      "CooldownReduction",
+      "NonbootsMovement",
+      "AbilityHaste"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Objetos",
+     "sectionId": "patch-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "3073",
+      "name": "Placa Hexperimental"
+     },
+     "part": "Limpieza del tablero de puntuaciones",
+     "partTitle": "Limpieza del tablero de puntuaciones",
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Cota Sangrienta del Soberano",
+     "id": "22f7746b876c",
+     "section": "items",
+     "tags": [
+      "Health",
+      "Damage",
+      "AttackSpeed",
+      "CooldownReduction",
+      "NonbootsMovement",
+      "AbilityHaste"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Objetos",
+     "sectionId": "patch-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "3073",
+      "name": "Placa Hexperimental"
+     },
+     "part": "Limpieza del tablero de puntuaciones",
+     "partTitle": "Limpieza del tablero de puntuaciones",
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Rompecascos",
+     "id": "ea0317233246",
+     "section": "items",
+     "tags": [
+      "Health",
+      "Damage",
+      "AttackSpeed",
+      "CooldownReduction",
+      "NonbootsMovement",
+      "AbilityHaste"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Objetos",
+     "sectionId": "patch-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "3073",
+      "name": "Placa Hexperimental"
+     },
+     "part": "Limpieza del tablero de puntuaciones",
+     "partTitle": "Limpieza del tablero de puntuaciones",
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Jak'Sho, el Proteico",
+     "id": "11cec2800dec",
+     "section": "items",
+     "tags": [
+      "Health",
+      "Damage",
+      "AttackSpeed",
+      "CooldownReduction",
+      "NonbootsMovement",
+      "AbilityHaste"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Objetos",
+     "sectionId": "patch-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "3073",
+      "name": "Placa Hexperimental"
+     },
+     "part": "Limpieza del tablero de puntuaciones",
+     "partTitle": "Limpieza del tablero de puntuaciones",
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Fuerza de la Naturaleza",
+     "id": "dad82d17eeeb",
+     "section": "items",
+     "tags": [
+      "Health",
+      "Damage",
+      "AttackSpeed",
+      "CooldownReduction",
+      "NonbootsMovement",
+      "AbilityHaste"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "26.11",
+   "publishedAt": "2026-05-27T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Objetos",
+     "sectionId": "patch-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "3073",
+      "name": "Placa Hexperimental"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Sobremarcha",
+     "before": "Al usar la definitiva, obtienes 50% de Velocidad de Ataque adicional y 20% de Velocidad de Movimiento adicional durante 8 seg",
+     "after": "A distancia: 35% de Velocidad de Ataque adicional y 14% de Velocidad de Movimiento adicional durante 8 seg (sin cambios para campeones cuerpo a cuerpo)",
+     "text": "Sobremarcha: Al usar la definitiva, obtienes 50% de Velocidad de Ataque adicional y 20% de Velocidad de Movimiento adicional durante 8 seg ⇒ A distancia: 35% de Velocidad de Ataque adicional y 14% de Velocidad de Movimiento adicional durante 8 seg (sin cambios para campeones cuerpo a cuerpo)",
+     "id": "2f8464c3d41c",
+     "section": "items",
+     "tags": [
+      "Health",
+      "Damage",
+      "AttackSpeed",
+      "CooldownReduction",
+      "NonbootsMovement",
+      "AbilityHaste"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Objetos",
+     "sectionId": "patch-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "3073",
+      "name": "Placa Hexperimental"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Tasa de conversión de daño a Vida permanente",
+     "before": "8%",
+     "after": "10%",
+     "text": "Tasa de conversión de daño a Vida permanente: 8% ⇒ 10%",
+     "id": "afea06a9911a",
+     "section": "items",
+     "tags": [
+      "Health",
+      "Damage",
+      "AttackSpeed",
+      "CooldownReduction",
+      "NonbootsMovement",
+      "AbilityHaste"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Objetos",
+     "sectionId": "patch-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "3073",
+      "name": "Placa Hexperimental"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño de Ataque",
+     "before": "40",
+     "after": "45",
+     "text": "Daño de Ataque: 40 ⇒ 45",
+     "id": "34404e1903f5",
+     "section": "items",
+     "tags": [
+      "Health",
+      "Damage",
+      "AttackSpeed",
+      "CooldownReduction",
+      "NonbootsMovement",
+      "AbilityHaste"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.18",
+   "publishedAt": "2025-09-09T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones (Arena)",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "3073",
+      "name": "Placa Hexperimental"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": null,
+     "before": "Velocidad de Movimiento: 15%",
+     "after": "20%",
+     "text": "Velocidad de Movimiento: 15% ⇒ 20%",
+     "id": "aeb66e21a7af",
+     "section": "modes",
+     "tags": [
+      "Health",
+      "Damage",
+      "AttackSpeed",
+      "CooldownReduction",
+      "NonbootsMovement",
+      "AbilityHaste"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones (Arena)",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "3073",
+      "name": "Placa Hexperimental"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": null,
+     "before": "Velocidad de Ataque: 30%",
+     "after": "50%",
+     "text": "Velocidad de Ataque: 30% ⇒ 50%",
+     "id": "8ecdc6f35bf3",
+     "section": "modes",
+     "tags": [
+      "Health",
+      "Damage",
+      "AttackSpeed",
+      "CooldownReduction",
+      "NonbootsMovement",
+      "AbilityHaste"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.16",
+   "publishedAt": "2025-08-12T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Objetos",
+     "sectionId": "patch-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "3073",
+      "name": "Placa Hexperimental"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Velocidad de Ataque de Sobremarcha",
+     "before": "30%",
+     "after": "50%",
+     "text": "Velocidad de Ataque de Sobremarcha: 30% ⇒ 50%",
+     "id": "576465e2f72a",
+     "section": "items",
+     "tags": [
+      "Health",
+      "Damage",
+      "AttackSpeed",
+      "CooldownReduction",
+      "NonbootsMovement",
+      "AbilityHaste"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Objetos",
+     "sectionId": "patch-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "3073",
+      "name": "Placa Hexperimental"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Velocidad de Movimiento de Sobremarcha",
+     "before": "15%",
+     "after": "20%",
+     "text": "Velocidad de Movimiento de Sobremarcha: 15% ⇒ 20%",
+     "id": "cbb166b2af15",
+     "section": "items",
+     "tags": [
+      "Health",
+      "Damage",
+      "AttackSpeed",
+      "CooldownReduction",
+      "NonbootsMovement",
+      "AbilityHaste"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  }
+ ]
+}

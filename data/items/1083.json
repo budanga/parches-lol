@@ -1,0 +1,74 @@
+{
+ "schemaVersion": 1,
+ "id": "1083",
+ "name": "Sacrificar",
+ "tags": [
+  "Damage",
+  "OnHit",
+  "Lane"
+ ],
+ "entries": [
+  {
+   "patch": "25.S1.3",
+   "publishedAt": "2025-02-04T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Sistemas",
+     "sectionId": "patch-systems",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "1083",
+      "name": "Sacrificar"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "¡Reactivado!",
+     "id": "8e79b3bf4270",
+     "section": "items",
+     "tags": [
+      "Damage",
+      "OnHit",
+      "Lane"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Sistemas",
+     "sectionId": "patch-systems",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "1083",
+      "name": "Sacrificar"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Límite de Asesinato de súbditos",
+     "before": "100",
+     "after": "50",
+     "text": "Límite de Asesinato de súbditos: 100 ⇒ 50",
+     "id": "226fff175658",
+     "section": "items",
+     "tags": [
+      "Damage",
+      "OnHit",
+      "Lane"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  }
+ ]
+}

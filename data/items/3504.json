@@ -1,0 +1,48 @@
+{
+ "schemaVersion": 1,
+ "id": "3504",
+ "name": "Pebetero Ardiente",
+ "tags": [
+  "AttackSpeed",
+  "SpellDamage",
+  "ManaRegen",
+  "NonbootsMovement"
+ ],
+ "entries": [
+  {
+   "patch": "26.17",
+   "publishedAt": "2026-08-25T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "3504",
+      "name": "Pebetero Ardiente"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Poder de curaciones y escudos",
+     "before": "12%",
+     "after": "10% (modificador de Arena eliminado)",
+     "text": "Poder de curaciones y escudos: 12% ⇒ 10% (modificador de Arena eliminado)",
+     "id": "763e010e48d0",
+     "section": "modes",
+     "tags": [
+      "AttackSpeed",
+      "SpellDamage",
+      "ManaRegen",
+      "NonbootsMovement"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  }
+ ]
+}

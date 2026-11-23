@@ -1,0 +1,146 @@
+{
+ "schemaVersion": 1,
+ "id": "4636",
+ "name": "Cosechador Nocturno",
+ "tags": [
+  "Health",
+  "SpellDamage",
+  "CooldownReduction",
+  "NonbootsMovement",
+  "AbilityHaste"
+ ],
+ "entries": [
+  {
+   "patch": "26.21",
+   "publishedAt": "2026-10-20T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "4636",
+      "name": "Cosechador Nocturno"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Enfriamiento",
+     "before": "10 seg",
+     "after": "8 seg",
+     "text": "Enfriamiento: 10 seg ⇒ 8 seg",
+     "id": "5a324d363483",
+     "section": "modes",
+     "tags": [
+      "Health",
+      "SpellDamage",
+      "CooldownReduction",
+      "NonbootsMovement",
+      "AbilityHaste"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "4636",
+      "name": "Cosechador Nocturno"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Duración de Velocidad de Movimiento",
+     "before": "1.5 seg",
+     "after": "1 seg",
+     "text": "Duración de Velocidad de Movimiento: 1.5 seg ⇒ 1 seg",
+     "id": "e6c1c834cc8e",
+     "section": "modes",
+     "tags": [
+      "Health",
+      "SpellDamage",
+      "CooldownReduction",
+      "NonbootsMovement",
+      "AbilityHaste"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "4636",
+      "name": "Cosechador Nocturno"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Velocidad de Movimiento",
+     "before": "40%",
+     "after": "60%",
+     "text": "Velocidad de Movimiento: 40% ⇒ 60%",
+     "id": "a1f42d99d66c",
+     "section": "modes",
+     "tags": [
+      "Health",
+      "SpellDamage",
+      "CooldownReduction",
+      "NonbootsMovement",
+      "AbilityHaste"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "26.6",
+   "publishedAt": "2026-03-17T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "4636",
+      "name": "Cosechador Nocturno"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": null,
+     "before": "Daño: 125 (+ 15% de Poder de Habilidad)",
+     "after": "160 (+ 40% de Poder de Habilidad)",
+     "text": "Daño: 125 (+ 15% de Poder de Habilidad) ⇒ 160 (+ 40% de Poder de Habilidad)",
+     "id": "24e3d28be019",
+     "section": "modes",
+     "tags": [
+      "Health",
+      "SpellDamage",
+      "CooldownReduction",
+      "NonbootsMovement",
+      "AbilityHaste"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  }
+ ]
+}

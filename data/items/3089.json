@@ -1,0 +1,42 @@
+{
+ "schemaVersion": 1,
+ "id": "3089",
+ "name": "Sombrero Mortífero de Rabadon",
+ "tags": [
+  "SpellDamage"
+ ],
+ "entries": [
+  {
+   "patch": "25.10",
+   "publishedAt": "2025-05-13T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Objetos",
+     "sectionId": "patch-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "3089",
+      "name": "Sombrero Mortífero de Rabadon"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Costo total de oro",
+     "before": "3600",
+     "after": "3500",
+     "text": "Costo total de oro: 3600 ⇒ 3500",
+     "id": "e5d72a277f3f",
+     "section": "items",
+     "tags": [
+      "SpellDamage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  }
+ ]
+}

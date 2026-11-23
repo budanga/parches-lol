@@ -1,0 +1,83 @@
+{
+ "schemaVersion": 1,
+ "id": "3068",
+ "name": "Égida de Fuego Solar",
+ "tags": [
+  "Health",
+  "Armor",
+  "Aura",
+  "AbilityHaste"
+ ],
+ "entries": [
+  {
+   "patch": "26.6",
+   "publishedAt": "2026-03-17T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Objetos",
+     "sectionId": "patch-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "3068",
+      "name": "Égida de Fuego Solar"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Ruta de armado",
+     "before": "Ceniza de Bami + Cota de Malla + 1000 de oro",
+     "after": "Ceniza de Bami + Cota de Malla + Cristal de Rubí + 600 de oro",
+     "text": "Ruta de armado: Ceniza de Bami + Cota de Malla + 1000 de oro ⇒ Ceniza de Bami + Cota de Malla + Cristal de Rubí + 600 de oro",
+     "id": "359a11c3f1ac",
+     "section": "items",
+     "tags": [
+      "Health",
+      "Armor",
+      "Aura",
+      "AbilityHaste"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.23",
+   "publishedAt": "2025-11-18T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Objetos",
+     "sectionId": "patch-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "3068",
+      "name": "Égida de Fuego Solar"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Modificador de daño contra monstruos",
+     "before": "×1.6",
+     "after": "×2",
+     "text": "Modificador de daño contra monstruos: ×1.6 ⇒ ×2",
+     "id": "33260da79052",
+     "section": "items",
+     "tags": [
+      "Health",
+      "Armor",
+      "Aura",
+      "AbilityHaste"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,131 @@
+{
+ "schemaVersion": 1,
+ "id": "2501",
+ "name": "Cota Sangrienta del Soberano",
+ "tags": [
+  "Health",
+  "Damage"
+ ],
+ "entries": [
+  {
+   "patch": "26.22",
+   "publishedAt": "2026-11-03T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Objetos",
+     "sectionId": "patch-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "2501",
+      "name": "Cota Sangrienta del Soberano"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño de Ataque",
+     "before": "30",
+     "after": "40",
+     "text": "Daño de Ataque: 30 ⇒ 40",
+     "id": "9b16be5a1cfc",
+     "section": "items",
+     "tags": [
+      "Health",
+      "Damage"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Objetos",
+     "sectionId": "patch-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "2501",
+      "name": "Cota Sangrienta del Soberano"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Reprensión",
+     "before": "de +0 a 12% del Daño de Ataque total, según el % de Vida faltante",
+     "after": "De +0 a 10% del Daño de Ataque total, según el % de Vida faltante",
+     "text": "Reprensión: de +0 a 12% del Daño de Ataque total, según el % de Vida faltante ⇒ De +0 a 10% del Daño de Ataque total, según el % de Vida faltante",
+     "id": "ea06604e7e56",
+     "section": "items",
+     "tags": [
+      "Health",
+      "Damage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.8",
+   "publishedAt": "2025-04-15T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Objetos",
+     "sectionId": "patch-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "2501",
+      "name": "Cota Sangrienta del Soberano"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Tiranía",
+     "before": "Daño de Ataque adicional equivalente al 2% de la Vida adicional",
+     "after": "Daño de Ataque adicional equivalente al 2.5% de la Vida adicional",
+     "text": "Tiranía: Daño de Ataque adicional equivalente al 2% de la Vida adicional ⇒ Daño de Ataque adicional equivalente al 2.5% de la Vida adicional",
+     "id": "2e4cd63e7eb6",
+     "section": "items",
+     "tags": [
+      "Health",
+      "Damage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Objetos",
+     "sectionId": "patch-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "2501",
+      "name": "Cota Sangrienta del Soberano"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Reprensión",
+     "before": "de 0 a 10% (según la vida faltante) de Daño de Ataque adicional",
+     "after": "de 0 a 12% (según la vida faltante) de Daño de Ataque adicional",
+     "text": "Reprensión: de 0 a 10% (según la vida faltante) de Daño de Ataque adicional ⇒ de 0 a 12% (según la vida faltante) de Daño de Ataque adicional",
+     "id": "4e0fd6b2ee95",
+     "section": "items",
+     "tags": [
+      "Health",
+      "Damage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  }
+ ]
+}

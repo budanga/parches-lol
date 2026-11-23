@@ -1,0 +1,80 @@
+{
+ "schemaVersion": 1,
+ "id": "3814",
+ "name": "Filo de la Noche",
+ "tags": [
+  "Health",
+  "Damage",
+  "ArmorPenetration"
+ ],
+ "entries": [
+  {
+   "patch": "25.17",
+   "publishedAt": "2025-08-26T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Cambios de balance de ARAM",
+     "sectionId": "patch-aram-balance-changes",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "3814",
+      "name": "Filo de la Noche"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Enfriamiento",
+     "before": "40",
+     "after": "30",
+     "text": "Enfriamiento: 40 ⇒ 30",
+     "id": "b3a47f147c13",
+     "section": "modes",
+     "tags": [
+      "Health",
+      "Damage",
+      "ArmorPenetration"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.9",
+   "publishedAt": "2025-04-29T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Modos de juego rotativos y cambios en Arena",
+     "sectionId": "patch-rotating-game-modes-and-arena-changes",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "3814",
+      "name": "Filo de la Noche"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Enfriamiento",
+     "before": "40",
+     "after": "20",
+     "text": "Enfriamiento: 40 ⇒ 20",
+     "id": "968d4412f715",
+     "section": "modes",
+     "tags": [
+      "Health",
+      "Damage",
+      "ArmorPenetration"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  }
+ ]
+}

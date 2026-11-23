@@ -1,0 +1,112 @@
+{
+ "schemaVersion": 1,
+ "id": "447118",
+ "name": "Capa del Piromante",
+ "tags": [
+  "Health",
+  "Damage",
+  "SpellDamage",
+  "SpellVamp"
+ ],
+ "entries": [
+  {
+   "patch": "26.10",
+   "publishedAt": "2026-05-12T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "447118",
+      "name": "Capa del Piromante"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": null,
+     "before": "El área de efecto de Llamarada por quemadura adicional se reduce de 40",
+     "after": "30",
+     "text": "El área de efecto de Llamarada por quemadura adicional se reduce de 40 ⇒ 30",
+     "id": "26ba064d3a08",
+     "section": "modes",
+     "tags": [
+      "Health",
+      "Damage",
+      "SpellDamage",
+      "SpellVamp"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "447118",
+      "name": "Capa del Piromante"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": null,
+     "before": "Enfriamiento por campeón: 3",
+     "after": "5 seg",
+     "text": "Enfriamiento por campeón: 3 ⇒ 5 seg",
+     "id": "3d8f14b6c28d",
+     "section": "modes",
+     "tags": [
+      "Health",
+      "Damage",
+      "SpellDamage",
+      "SpellVamp"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.16",
+   "publishedAt": "2025-08-12T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Objetos",
+     "sectionId": "patch-Items-",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "447118",
+      "name": "Capa del Piromante"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": null,
+     "before": "Daño de Pirómano por nivel: De 200 a 450",
+     "after": "De 100 a 350",
+     "text": "Daño de Pirómano por nivel: De 200 a 450 ⇒ De 100 a 350",
+     "id": "1931382ad6c7",
+     "section": "items",
+     "tags": [
+      "Health",
+      "Damage",
+      "SpellDamage",
+      "SpellVamp"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  }
+ ]
+}

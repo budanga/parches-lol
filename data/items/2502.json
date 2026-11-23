@@ -1,0 +1,230 @@
+{
+ "schemaVersion": 1,
+ "id": "2502",
+ "name": "Desesperación Eterna",
+ "tags": [
+  "Health",
+  "Armor",
+  "CooldownReduction",
+  "AbilityHaste"
+ ],
+ "entries": [
+  {
+   "patch": "26.1",
+   "publishedAt": "2026-01-07T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Objetos actualizados",
+     "sectionId": "patch-updated-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "2502",
+      "name": "Desesperación Eterna"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": null,
+     "before": "Ruta de armado: Égida de la Legión + Cinturón de Gigante + 800 de oro",
+     "after": "Cota de Malla + Gemaluz + Cristal de Rubí + 800 de oro",
+     "text": "Ruta de armado: Égida de la Legión + Cinturón de Gigante + 800 de oro ⇒ Cota de Malla + Gemaluz + Cristal de Rubí + 800 de oro",
+     "id": "378acba598a7",
+     "section": "items",
+     "tags": [
+      "Health",
+      "Armor",
+      "CooldownReduction",
+      "AbilityHaste"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Objetos actualizados",
+     "sectionId": "patch-updated-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "2502",
+      "name": "Desesperación Eterna"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Costo total: 2800 de oro (sin cambios)",
+     "id": "9549e4acd868",
+     "section": "items",
+     "tags": [
+      "Health",
+      "Armor",
+      "CooldownReduction",
+      "AbilityHaste"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Objetos actualizados",
+     "sectionId": "patch-updated-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "2502",
+      "name": "Desesperación Eterna"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": null,
+     "before": "Armadura: 25",
+     "after": "50",
+     "text": "Armadura: 25 ⇒ 50",
+     "id": "dd26bd7e40d7",
+     "section": "items",
+     "tags": [
+      "Health",
+      "Armor",
+      "CooldownReduction",
+      "AbilityHaste"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Objetos actualizados",
+     "sectionId": "patch-updated-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "2502",
+      "name": "Desesperación Eterna"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": null,
+     "before": "Resistencia Mágica: 25",
+     "after": "0 (eliminado)",
+     "text": "Resistencia Mágica: 25 ⇒ 0 (eliminado)",
+     "id": "85de542bc9fc",
+     "section": "items",
+     "tags": [
+      "Health",
+      "Armor",
+      "CooldownReduction",
+      "AbilityHaste"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Objetos actualizados",
+     "sectionId": "patch-updated-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "2502",
+      "name": "Desesperación Eterna"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": null,
+     "before": "Aceleración de Habilidad: 10",
+     "after": "15",
+     "text": "Aceleración de Habilidad: 10 ⇒ 15",
+     "id": "1e0b0e5f7839",
+     "section": "items",
+     "tags": [
+      "Health",
+      "Armor",
+      "CooldownReduction",
+      "AbilityHaste"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.4",
+   "publishedAt": "2025-02-19T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Objetos",
+     "sectionId": "patch-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "2502",
+      "name": "Desesperación Eterna"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Angustia",
+     "before": "8-15 (según el nivel) (+3% de vida adicional)",
+     "after": "3% de vida adicional (Nota: esto es un 10-15% de debilitación al daño del objeto)",
+     "text": "Angustia: 8-15 (según el nivel) (+3% de vida adicional) ⇒ 3% de vida adicional (Nota: esto es un 10-15% de debilitación al daño del objeto)",
+     "id": "06eec32519e0",
+     "section": "items",
+     "tags": [
+      "Health",
+      "SpellBlock",
+      "Armor",
+      "CooldownReduction",
+      "AbilityHaste"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "ARAM",
+     "sectionId": "patch-aram",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "2502",
+      "name": "Desesperación Eterna"
+     },
+     "part": "Objetos",
+     "partTitle": "Objetos",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": null,
+     "before": "Multiplicador de curación 175%",
+     "after": "250%",
+     "text": "Desesperación Eterna: Multiplicador de curación 175% ⇒ 250%",
+     "id": "e0779f600774",
+     "section": "modes",
+     "tags": [
+      "Health",
+      "SpellBlock",
+      "Armor",
+      "CooldownReduction",
+      "AbilityHaste"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,86 @@
+{
+ "schemaVersion": 1,
+ "id": "6630",
+ "name": "Bebedor de Sangre",
+ "tags": [
+  "Health",
+  "Damage",
+  "LifeSteal",
+  "Active",
+  "CooldownReduction",
+  "SpellVamp",
+  "AbilityHaste"
+ ],
+ "entries": [
+  {
+   "patch": "26.6",
+   "publishedAt": "2026-03-17T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "6630",
+      "name": "Bebedor de Sangre"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": null,
+     "before": "Tasa de Daño de Ataque básico de la curación: 20%",
+     "after": "35%",
+     "text": "Tasa de Daño de Ataque básico de la curación: 20% ⇒ 35%",
+     "id": "41c052f52718",
+     "section": "modes",
+     "tags": [
+      "Health",
+      "Damage",
+      "LifeSteal",
+      "Active",
+      "CooldownReduction",
+      "SpellVamp",
+      "AbilityHaste"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "6630",
+      "name": "Bebedor de Sangre"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": null,
+     "before": "Curación de Vida faltante: 15%",
+     "after": "18%",
+     "text": "Curación de Vida faltante: 15% ⇒ 18%",
+     "id": "026bea5ad3ec",
+     "section": "modes",
+     "tags": [
+      "Health",
+      "Damage",
+      "LifeSteal",
+      "Active",
+      "CooldownReduction",
+      "SpellVamp",
+      "AbilityHaste"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  }
+ ]
+}

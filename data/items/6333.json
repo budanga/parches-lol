@@ -1,0 +1,46 @@
+{
+ "schemaVersion": 1,
+ "id": "6333",
+ "name": "Danza de la Muerte",
+ "tags": [
+  "Armor",
+  "Damage",
+  "AbilityHaste"
+ ],
+ "entries": [
+  {
+   "patch": "25.17",
+   "publishedAt": "2025-08-26T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Cambios de balance de ARAM",
+     "sectionId": "patch-aram-balance-changes",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "6333",
+      "name": "Danza de la Muerte"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Curación adicional del Daño de Ataque",
+     "before": "75%",
+     "after": "100%",
+     "text": "Curación adicional del Daño de Ataque: 75% ⇒ 100%",
+     "id": "0b01e9f32427",
+     "section": "modes",
+     "tags": [
+      "Armor",
+      "Damage",
+      "AbilityHaste"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  }
+ ]
+}

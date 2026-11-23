@@ -1,0 +1,176 @@
+{
+ "schemaVersion": 1,
+ "id": "3040",
+ "name": "Abrazo del Serafín",
+ "tags": [
+  "SpellDamage",
+  "Mana",
+  "AbilityHaste"
+ ],
+ "entries": [
+  {
+   "patch": "25.20",
+   "publishedAt": "2025-10-07T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena-",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "3040",
+      "name": "Abrazo del Serafín"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Corregimos errores en las descripciones para que se muestre el maná máximo",
+     "id": "4adb5cd69cff",
+     "section": "modes",
+     "tags": [
+      "SpellDamage",
+      "Mana",
+      "AbilityHaste"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.19",
+   "publishedAt": "2025-09-23T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Cambios de balance de ARAM",
+     "sectionId": "patch-aram-balance-changes",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "3040",
+      "name": "Abrazo del Serafín"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Enfriamiento de Salvavidas",
+     "before": "90 seg",
+     "after": "75 seg",
+     "text": "Enfriamiento de Salvavidas: 90 seg ⇒ 75 seg",
+     "id": "a44b93e3b3d1",
+     "section": "modes",
+     "tags": [
+      "SpellDamage",
+      "Mana",
+      "AbilityHaste"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.18",
+   "publishedAt": "2025-09-09T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones (Arena)",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "3040",
+      "name": "Abrazo del Serafín"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": null,
+     "before": "Tipo de Vida como escudo: Actual",
+     "after": "Máxima",
+     "text": "Tipo de Vida como escudo: Actual ⇒ Máxima",
+     "id": "b8f72523f80b",
+     "section": "modes",
+     "tags": [
+      "SpellDamage",
+      "Mana",
+      "AbilityHaste"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones (Arena)",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "3040",
+      "name": "Abrazo del Serafín"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": null,
+     "before": "Valor del escudo: 25%",
+     "after": "20%",
+     "text": "Valor del escudo: 25% ⇒ 20%",
+     "id": "9e231e95ecf4",
+     "section": "modes",
+     "tags": [
+      "SpellDamage",
+      "Mana",
+      "AbilityHaste"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.10",
+   "publishedAt": "2025-05-13T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Objetos",
+     "sectionId": "patch-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "3040",
+      "name": "Abrazo del Serafín"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Escudo de Salvavidas",
+     "before": "200 (+ 20% del Maná actual)",
+     "after": "18% del Maná Máximo",
+     "text": "Escudo de Salvavidas: 200 (+ 20% del Maná actual) ⇒ 18% del Maná Máximo",
+     "id": "2470913251b2",
+     "section": "items",
+     "tags": [
+      "SpellDamage",
+      "Mana",
+      "AbilityHaste"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  }
+ ]
+}

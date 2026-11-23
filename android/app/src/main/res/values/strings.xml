@@ -16,6 +16,10 @@
     <string name="tab_champions">Campeones</string>
     <string name="tab_news">Noticias</string>
     <string name="search_champion">Buscar campeón</string>
+    <string name="search_item">Buscar objeto</string>
+    <string name="items">Objetos</string>
+    <string name="search_patch">Buscar en este parche</string>
+    <string name="no_results">Sin resultados.</string>
     <string name="no_history">Sin cambios registrados desde 2025.</string>
     <string name="my_adcs">Mis ADC</string>
     <string name="my_items">Mis ítems</string>
@@ -29,4 +33,6 @@
     <string name="base_stats">Estadísticas base</string>
     <string name="channel_patches">Parches</string>
     <string name="channel_news">Noticias</string>
+    <string name="widget_name">Último parche</string>
+    <string name="widget_description">Número y fecha del último parche, y tus ADC y objetos que cambiaron.</string>
 </resources>

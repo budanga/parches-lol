@@ -1,0 +1,500 @@
+{
+ "schemaVersion": 1,
+ "id": "4628",
+ "name": "Enfoque al Horizonte",
+ "tags": [
+  "SpellDamage",
+  "AbilityHaste"
+ ],
+ "entries": [
+  {
+   "patch": "26.1",
+   "publishedAt": "2026-01-07T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Objetos actualizados",
+     "sectionId": "patch-updated-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "4628",
+      "name": "Enfoque al Horizonte"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": null,
+     "before": "Ruta de armado: Códice Diabólico + Códice Diabólico + Varita Explosiva + 200 de oro",
+     "after": "Códice Diabólico + Códice Diabólico + Libro Amplificador + 600 de oro",
+     "text": "Ruta de armado: Códice Diabólico + Códice Diabólico + Varita Explosiva + 200 de oro ⇒ Códice Diabólico + Códice Diabólico + Libro Amplificador + 600 de oro",
+     "id": "03bf48edd7f3",
+     "section": "items",
+     "tags": [
+      "SpellDamage",
+      "AbilityHaste"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Objetos actualizados",
+     "sectionId": "patch-updated-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "4628",
+      "name": "Enfoque al Horizonte"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": null,
+     "before": "Costo total: 2750 de oro",
+     "after": "2700 de oro",
+     "text": "Costo total: 2750 de oro ⇒ 2700 de oro",
+     "id": "4aceded43560",
+     "section": "items",
+     "tags": [
+      "SpellDamage",
+      "AbilityHaste"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Objetos actualizados",
+     "sectionId": "patch-updated-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "4628",
+      "name": "Enfoque al Horizonte"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": null,
+     "before": "Poder de Habilidad: 125",
+     "after": "75",
+     "text": "Poder de Habilidad: 125 ⇒ 75",
+     "id": "b9d19c9fe12b",
+     "section": "items",
+     "tags": [
+      "SpellDamage",
+      "AbilityHaste"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Objetos actualizados",
+     "sectionId": "patch-updated-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "4628",
+      "name": "Enfoque al Horizonte"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Aceleración de Habilidad: 25 (sin cambios)",
+     "id": "a1b686a5f198",
+     "section": "items",
+     "tags": [
+      "SpellDamage",
+      "AbilityHaste"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Objetos actualizados",
+     "sectionId": "patch-updated-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "4628",
+      "name": "Enfoque al Horizonte"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": null,
+     "before": "Hiperdisparo: Al infligir daño con habilidades a campeones que se encuentren a 600 unidades de distancia o más del lugar de lanzamiento, los revelas durante 6 seg",
+     "after": "Al infligir daño con habilidades a campeones que se encuentren a 600 unidades de distancia o más, los revelas durante 6 seg. Además, infliges un 10% de daño adicional a los enemigos revelados con Hiperdisparo",
+     "text": "Hiperdisparo: Al infligir daño con habilidades a campeones que se encuentren a 600 unidades de distancia o más del lugar de lanzamiento, los revelas durante 6 seg ⇒ Al infligir daño con habilidades a campeones que se encuentren a 600 unidades de distancia o más, los revelas durante 6 seg. Además, infliges un 10% de daño adicional a los enemigos revelados con Hiperdisparo",
+     "id": "fce3319c26a6",
+     "section": "items",
+     "tags": [
+      "SpellDamage",
+      "AbilityHaste"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Objetos actualizados",
+     "sectionId": "patch-updated-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "4628",
+      "name": "Enfoque al Horizonte"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Enfoque (30 seg de enfriamiento): Cuando se activa Hiperdisparo, todos los campeones enemigos en un radio de 1400 de unidades quedan revelados durante 3 seg",
+     "id": "793d7e47a1c8",
+     "section": "items",
+     "tags": [
+      "SpellDamage",
+      "AbilityHaste"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.18",
+   "publishedAt": "2025-09-09T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones (Arena)",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "4628",
+      "name": "Enfoque al Horizonte"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": null,
+     "before": "Poder de Habilidad: 80",
+     "after": "90",
+     "text": "Poder de Habilidad: 80 ⇒ 90",
+     "id": "84a5b4ecb32b",
+     "section": "modes",
+     "tags": [
+      "SpellDamage",
+      "AbilityHaste"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones (Arena)",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "4628",
+      "name": "Enfoque al Horizonte"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Amplificación de daño: Eliminado",
+     "id": "9fc6433a0167",
+     "section": "modes",
+     "tags": [
+      "SpellDamage",
+      "AbilityHaste"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.17",
+   "publishedAt": "2025-08-26T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Objetos",
+     "sectionId": "patch-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "4628",
+      "name": "Enfoque al Horizonte"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Poder de Habilidad",
+     "before": "115",
+     "after": "125",
+     "text": "Poder de Habilidad: 115 ⇒ 125",
+     "id": "a00e27bbbd0d",
+     "section": "items",
+     "tags": [
+      "SpellDamage",
+      "AbilityHaste"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Objetos",
+     "sectionId": "patch-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "4628",
+      "name": "Enfoque al Horizonte"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Costo total de oro",
+     "before": "2800",
+     "after": "2750",
+     "text": "Costo total de oro: 2800 ⇒ 2750",
+     "id": "6666b359207b",
+     "section": "items",
+     "tags": [
+      "SpellDamage",
+      "AbilityHaste"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Objetos",
+     "sectionId": "patch-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "4628",
+      "name": "Enfoque al Horizonte"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Ruta de armado",
+     "before": "Códice Diabólico + Códice Diabólico + Varita Explosiva + 250 de oro",
+     "after": "Códice Diabólico + Códice Diabólico + Varita Explosiva + 200 de oro",
+     "text": "Ruta de armado: Códice Diabólico + Códice Diabólico + Varita Explosiva + 250 de oro ⇒ Códice Diabólico + Códice Diabólico + Varita Explosiva + 200 de oro",
+     "id": "da866dc070a9",
+     "section": "items",
+     "tags": [
+      "SpellDamage",
+      "AbilityHaste"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.11",
+   "publishedAt": "2025-05-27T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Objetos",
+     "sectionId": "patch-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "4628",
+      "name": "Enfoque al Horizonte"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Costo total de oro",
+     "before": "2900",
+     "after": "2800",
+     "text": "Costo total de oro: 2900 ⇒ 2800",
+     "id": "e97b6d7aedc1",
+     "section": "items",
+     "tags": [
+      "SpellDamage",
+      "AbilityHaste"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Objetos",
+     "sectionId": "patch-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "4628",
+      "name": "Enfoque al Horizonte"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Poder de Habilidad",
+     "before": "110",
+     "after": "115",
+     "text": "Poder de Habilidad: 110 ⇒ 115",
+     "id": "1d5f15cb8ef0",
+     "section": "items",
+     "tags": [
+      "SpellDamage",
+      "AbilityHaste"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.10",
+   "publishedAt": "2025-05-13T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Objetos",
+     "sectionId": "patch-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "4628",
+      "name": "Enfoque al Horizonte"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Poder de Habilidad",
+     "before": "75",
+     "after": "110",
+     "text": "Poder de Habilidad: 75 ⇒ 110",
+     "id": "7275432811b3",
+     "section": "items",
+     "tags": [
+      "SpellDamage",
+      "AbilityHaste"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Objetos",
+     "sectionId": "patch-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "4628",
+      "name": "Enfoque al Horizonte"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Amplificación de daño de Hiperdisparo: Eliminado",
+     "id": "b35cd9bc9228",
+     "section": "items",
+     "tags": [
+      "SpellDamage",
+      "AbilityHaste"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Objetos",
+     "sectionId": "patch-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "4628",
+      "name": "Enfoque al Horizonte"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Ruta de armado",
+     "before": "Códice Diabólico + Códice Diabólico + Libro Amplificador + 600 de oro",
+     "after": "Códice Diabólico + Códice Diabólico + Varita Explosiva + 350 de oro",
+     "text": "Ruta de armado: Códice Diabólico + Códice Diabólico + Libro Amplificador + 600 de oro ⇒ Códice Diabólico + Códice Diabólico + Varita Explosiva + 350 de oro",
+     "id": "ec5c65e53766",
+     "section": "items",
+     "tags": [
+      "SpellDamage",
+      "AbilityHaste"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Objetos",
+     "sectionId": "patch-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "4628",
+      "name": "Enfoque al Horizonte"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Costo total de oro",
+     "before": "2700",
+     "after": "2900",
+     "text": "Costo total de oro: 2700 ⇒ 2900",
+     "id": "76267cbd28ea",
+     "section": "items",
+     "tags": [
+      "SpellDamage",
+      "AbilityHaste"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,1408 @@
+{
+ "schemaVersion": 1,
+ "id": "6692",
+ "name": "Eclipse",
+ "tags": [
+  "Damage",
+  "CooldownReduction",
+  "AbilityHaste"
+ ],
+ "entries": [
+  {
+   "patch": "26.16",
+   "publishedAt": "2026-08-11T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Objetos",
+     "sectionId": "patch-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "6692",
+      "name": "Eclipse"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño",
+     "before": "[6% cuerpo a cuerpo || 4% a distancia] de la Vida Máxima del objetivo",
+     "after": "[8% cuerpo a cuerpo || 5% a distancia] de la Vida Máxima del objetivo",
+     "text": "Daño: [6% cuerpo a cuerpo || 4% a distancia] de la Vida Máxima del objetivo ⇒ [8% cuerpo a cuerpo || 5% a distancia] de la Vida Máxima del objetivo",
+     "id": "76b20585c9b4",
+     "section": "items",
+     "tags": [
+      "Damage",
+      "CooldownReduction",
+      "AbilityHaste"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Objetos",
+     "sectionId": "patch-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "6692",
+      "name": "Eclipse"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Escudo",
+     "before": "[160 + 40% de Daño de Ataque adicional cuerpo a cuerpo || 80 + 20% de Daño de Ataque adicional a distancia]",
+     "after": "[150 + 40% de Daño de Ataque adicional cuerpo a cuerpo || 75 + 20% de Daño de Ataque adicional a distancia]",
+     "text": "Escudo: [160 + 40% de Daño de Ataque adicional cuerpo a cuerpo || 80 + 20% de Daño de Ataque adicional a distancia] ⇒ [150 + 40% de Daño de Ataque adicional cuerpo a cuerpo || 75 + 20% de Daño de Ataque adicional a distancia]",
+     "id": "c37ab6e02332",
+     "section": "items",
+     "tags": [
+      "Damage",
+      "CooldownReduction",
+      "AbilityHaste"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "6692",
+      "name": "Eclipse"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño",
+     "before": "[6% cuerpo a cuerpo || 4% a distancia] de la Vida Máxima del objetivo",
+     "after": "[8% cuerpo a cuerpo || 5% a distancia] de la Vida Máxima del objetivo",
+     "text": "Daño: [6% cuerpo a cuerpo || 4% a distancia] de la Vida Máxima del objetivo ⇒ [8% cuerpo a cuerpo || 5% a distancia] de la Vida Máxima del objetivo",
+     "id": "8133a7878375",
+     "section": "modes",
+     "tags": [
+      "Damage",
+      "CooldownReduction",
+      "AbilityHaste"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "26.13",
+   "publishedAt": "2026-06-23T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "6692",
+      "name": "Eclipse"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": null,
+     "before": "Daño de Ataque: 50",
+     "after": "60",
+     "text": "Daño de Ataque: 50 ⇒ 60",
+     "id": "1deb91ab9063",
+     "section": "modes",
+     "tags": [
+      "Damage",
+      "CooldownReduction",
+      "AbilityHaste"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "6692",
+      "name": "Eclipse"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": null,
+     "before": "Aceleración de Habilidad: 10",
+     "after": "15",
+     "text": "Aceleración de Habilidad: 10 ⇒ 15",
+     "id": "f51ca5e25d64",
+     "section": "modes",
+     "tags": [
+      "Damage",
+      "CooldownReduction",
+      "AbilityHaste"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "6692",
+      "name": "Eclipse"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": null,
+     "before": "Vida Máxima como daño: 8% / 5.3%",
+     "after": "10% / 6.6%",
+     "text": "Vida Máxima como daño: 8% / 5.3% ⇒ 10% / 6.6%",
+     "id": "25a41a4f0544",
+     "section": "modes",
+     "tags": [
+      "Damage",
+      "CooldownReduction",
+      "AbilityHaste"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "26.12",
+   "publishedAt": "2026-06-09T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "6692",
+      "name": "Eclipse"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Valor base del escudo cuerpo a cuerpo",
+     "before": "250",
+     "after": "300",
+     "text": "Valor base del escudo cuerpo a cuerpo: 250 ⇒ 300",
+     "id": "3dbdaa6e9318",
+     "section": "modes",
+     "tags": [
+      "Damage",
+      "CooldownReduction",
+      "AbilityHaste"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "6692",
+      "name": "Eclipse"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Valor base del escudo a distancia",
+     "before": "125",
+     "after": "150",
+     "text": "Valor base del escudo a distancia: 125 ⇒ 150",
+     "id": "69ca890d0636",
+     "section": "modes",
+     "tags": [
+      "Damage",
+      "CooldownReduction",
+      "AbilityHaste"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "6692",
+      "name": "Eclipse"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Filo de la Noche",
+     "id": "7d296dcfc5ee",
+     "section": "modes",
+     "tags": [
+      "Damage",
+      "CooldownReduction",
+      "AbilityHaste"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "6692",
+      "name": "Eclipse"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Enfriamiento",
+     "before": "20 seg",
+     "after": "10 seg",
+     "text": "Enfriamiento: 20 seg ⇒ 10 seg",
+     "id": "70017b7525b8",
+     "section": "modes",
+     "tags": [
+      "Damage",
+      "CooldownReduction",
+      "AbilityHaste"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "6692",
+      "name": "Eclipse"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Guantelete del Hijo del Hielo",
+     "id": "b0e89d7b86bb",
+     "section": "modes",
+     "tags": [
+      "Damage",
+      "CooldownReduction",
+      "AbilityHaste"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "6692",
+      "name": "Eclipse"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Valor de la ralentización",
+     "before": "25%",
+     "after": "30%",
+     "text": "Valor de la ralentización: 25% ⇒ 30%",
+     "id": "05e8f1823e5c",
+     "section": "modes",
+     "tags": [
+      "Damage",
+      "CooldownReduction",
+      "AbilityHaste"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "6692",
+      "name": "Eclipse"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Radio del área de efecto",
+     "before": "Aumentado: 300",
+     "after": "400",
+     "text": "Radio del área de efecto: Aumentado: 300 ⇒ 400",
+     "id": "1e98206938da",
+     "section": "modes",
+     "tags": [
+      "Damage",
+      "CooldownReduction",
+      "AbilityHaste"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "6692",
+      "name": "Eclipse"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Aceleración de Habilidad",
+     "before": "10",
+     "after": "15",
+     "text": "Aceleración de Habilidad: 10 ⇒ 15",
+     "id": "d8f857cca988",
+     "section": "modes",
+     "tags": [
+      "Damage",
+      "CooldownReduction",
+      "AbilityHaste"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "6692",
+      "name": "Eclipse"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Mandato Imperial",
+     "id": "0c10a6dbcdf6",
+     "section": "modes",
+     "tags": [
+      "Damage",
+      "CooldownReduction",
+      "AbilityHaste"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "6692",
+      "name": "Eclipse"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Coincide con la versión de la Grieta del Invocador",
+     "id": "f4f745b5b3ed",
+     "section": "modes",
+     "tags": [
+      "Damage",
+      "CooldownReduction",
+      "AbilityHaste"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "6692",
+      "name": "Eclipse"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Rukerno Kaénico",
+     "id": "cfa93d966419",
+     "section": "modes",
+     "tags": [
+      "Damage",
+      "CooldownReduction",
+      "AbilityHaste"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "6692",
+      "name": "Eclipse"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Temporizador fuera de combate",
+     "before": "15 seg",
+     "after": "10 seg",
+     "text": "Temporizador fuera de combate: 15 seg ⇒ 10 seg",
+     "id": "2095e10c7638",
+     "section": "modes",
+     "tags": [
+      "Damage",
+      "CooldownReduction",
+      "AbilityHaste"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "6692",
+      "name": "Eclipse"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Fauces de Malmortius",
+     "id": "509ffc26a26e",
+     "section": "modes",
+     "tags": [
+      "Damage",
+      "CooldownReduction",
+      "AbilityHaste"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "6692",
+      "name": "Eclipse"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Enfriamiento",
+     "before": "30 seg",
+     "after": "20 seg",
+     "text": "Enfriamiento: 30 seg ⇒ 20 seg",
+     "id": "0ad6ebc23518",
+     "section": "modes",
+     "tags": [
+      "Damage",
+      "CooldownReduction",
+      "AbilityHaste"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "6692",
+      "name": "Eclipse"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Abrazo del Serafín",
+     "id": "b33704a74168",
+     "section": "modes",
+     "tags": [
+      "Damage",
+      "CooldownReduction",
+      "AbilityHaste"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "6692",
+      "name": "Eclipse"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Enfriamiento",
+     "before": "45 seg",
+     "after": "30 seg",
+     "text": "Enfriamiento: 45 seg ⇒ 30 seg",
+     "id": "53d7a9f95a82",
+     "section": "modes",
+     "tags": [
+      "Damage",
+      "CooldownReduction",
+      "AbilityHaste"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "6692",
+      "name": "Eclipse"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Oportunidad",
+     "id": "9e557d43b255",
+     "section": "modes",
+     "tags": [
+      "Damage",
+      "CooldownReduction",
+      "AbilityHaste"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "6692",
+      "name": "Eclipse"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Temporizador fuera de combate",
+     "before": "4 seg",
+     "after": "3 seg",
+     "text": "Temporizador fuera de combate: 4 seg ⇒ 3 seg",
+     "id": "da571f4067af",
+     "section": "modes",
+     "tags": [
+      "Damage",
+      "CooldownReduction",
+      "AbilityHaste"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "6692",
+      "name": "Eclipse"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Hidra Profana",
+     "id": "3f5d6841f6c1",
+     "section": "modes",
+     "tags": [
+      "Damage",
+      "CooldownReduction",
+      "AbilityHaste"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "6692",
+      "name": "Eclipse"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Tasa de Hender cuerpo a cuerpo",
+     "before": "40%",
+     "after": "60%",
+     "text": "Tasa de Hender cuerpo a cuerpo: 40% ⇒ 60%",
+     "id": "95bf50c368f1",
+     "section": "modes",
+     "tags": [
+      "Damage",
+      "CooldownReduction",
+      "AbilityHaste"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "6692",
+      "name": "Eclipse"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Tasa de Hender a distancia",
+     "before": "20%",
+     "after": "30%",
+     "text": "Tasa de Hender a distancia: 20% ⇒ 30%",
+     "id": "73b8d5c671b4",
+     "section": "modes",
+     "tags": [
+      "Damage",
+      "CooldownReduction",
+      "AbilityHaste"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "6692",
+      "name": "Eclipse"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Espada Fantasma de Youmuu",
+     "id": "6988e7df473f",
+     "section": "modes",
+     "tags": [
+      "Damage",
+      "CooldownReduction",
+      "AbilityHaste"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "6692",
+      "name": "Eclipse"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Enfriamiento",
+     "before": "20 seg",
+     "after": "10 seg",
+     "text": "Enfriamiento: 20 seg ⇒ 10 seg",
+     "id": "b9e371eeee55",
+     "section": "modes",
+     "tags": [
+      "Damage",
+      "CooldownReduction",
+      "AbilityHaste"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "6692",
+      "name": "Eclipse"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Garra del Merodeador",
+     "id": "8e985269751f",
+     "section": "modes",
+     "tags": [
+      "Damage",
+      "CooldownReduction",
+      "AbilityHaste"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "6692",
+      "name": "Eclipse"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Enfriamiento",
+     "before": "25 seg",
+     "after": "15 seg",
+     "text": "Enfriamiento: 25 seg ⇒ 15 seg",
+     "id": "f0531afd3563",
+     "section": "modes",
+     "tags": [
+      "Damage",
+      "CooldownReduction",
+      "AbilityHaste"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "6692",
+      "name": "Eclipse"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Rencor de Serylda",
+     "id": "6e27ec5df9bf",
+     "section": "modes",
+     "tags": [
+      "Damage",
+      "CooldownReduction",
+      "AbilityHaste"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "6692",
+      "name": "Eclipse"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño de Ataque",
+     "before": "40",
+     "after": "50",
+     "text": "Daño de Ataque: 40 ⇒ 50",
+     "id": "1efd0acedca8",
+     "section": "modes",
+     "tags": [
+      "Damage",
+      "CooldownReduction",
+      "AbilityHaste"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "6692",
+      "name": "Eclipse"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Aceleración de Habilidad",
+     "before": "10",
+     "after": "15",
+     "text": "Aceleración de Habilidad: 10 ⇒ 15",
+     "id": "6aea82dad3cf",
+     "section": "modes",
+     "tags": [
+      "Damage",
+      "CooldownReduction",
+      "AbilityHaste"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "6692",
+      "name": "Eclipse"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Valor de la ralentización",
+     "before": "30%",
+     "after": "50%",
+     "text": "Valor de la ralentización: 30% ⇒ 50%",
+     "id": "f66fd1b7e147",
+     "section": "modes",
+     "tags": [
+      "Damage",
+      "CooldownReduction",
+      "AbilityHaste"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "6692",
+      "name": "Eclipse"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Sable Espectral",
+     "id": "42ee21aa44bd",
+     "section": "modes",
+     "tags": [
+      "Damage",
+      "CooldownReduction",
+      "AbilityHaste"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "6692",
+      "name": "Eclipse"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño de Ataque",
+     "before": "55",
+     "after": "60",
+     "text": "Daño de Ataque: 55 ⇒ 60",
+     "id": "b144bd4b40a0",
+     "section": "modes",
+     "tags": [
+      "Damage",
+      "CooldownReduction",
+      "AbilityHaste"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "6692",
+      "name": "Eclipse"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Enfriamiento",
+     "before": "15 seg",
+     "after": "5 seg",
+     "text": "Enfriamiento: 15 seg ⇒ 5 seg",
+     "id": "45e27d30c689",
+     "section": "modes",
+     "tags": [
+      "Damage",
+      "CooldownReduction",
+      "AbilityHaste"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "6692",
+      "name": "Eclipse"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Guantelete de Sterak",
+     "id": "e536f25bfb05",
+     "section": "modes",
+     "tags": [
+      "Damage",
+      "CooldownReduction",
+      "AbilityHaste"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "6692",
+      "name": "Eclipse"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Enfriamiento",
+     "before": "30 seg",
+     "after": "20 seg",
+     "text": "Enfriamiento: 30 seg ⇒ 20 seg",
+     "id": "76a5eb10d59d",
+     "section": "modes",
+     "tags": [
+      "Damage",
+      "CooldownReduction",
+      "AbilityHaste"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "6692",
+      "name": "Eclipse"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Fuerza de la Trinidad",
+     "id": "afc0b03bb6b9",
+     "section": "modes",
+     "tags": [
+      "Damage",
+      "CooldownReduction",
+      "AbilityHaste"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "6692",
+      "name": "Eclipse"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Vida",
+     "before": "333",
+     "after": "375",
+     "text": "Vida: 333 ⇒ 375",
+     "id": "38129c196382",
+     "section": "modes",
+     "tags": [
+      "Damage",
+      "CooldownReduction",
+      "AbilityHaste"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "6692",
+      "name": "Eclipse"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño de Ataque",
+     "before": "35",
+     "after": "40",
+     "text": "Daño de Ataque: 35 ⇒ 40",
+     "id": "0f8a842c12d2",
+     "section": "modes",
+     "tags": [
+      "Damage",
+      "CooldownReduction",
+      "AbilityHaste"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "6692",
+      "name": "Eclipse"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Cicloespada Voltaica",
+     "id": "8b6e993be17b",
+     "section": "modes",
+     "tags": [
+      "Damage",
+      "CooldownReduction",
+      "AbilityHaste"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "6692",
+      "name": "Eclipse"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño de Ataque",
+     "before": "55",
+     "after": "60",
+     "text": "Daño de Ataque: 55 ⇒ 60",
+     "id": "9c44c3a331ee",
+     "section": "modes",
+     "tags": [
+      "Damage",
+      "CooldownReduction",
+      "AbilityHaste"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "6692",
+      "name": "Eclipse"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Letalidad",
+     "before": "18",
+     "after": "20",
+     "text": "Letalidad: 18 ⇒ 20",
+     "id": "2ef44a7befcf",
+     "section": "modes",
+     "tags": [
+      "Damage",
+      "CooldownReduction",
+      "AbilityHaste"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "6692",
+      "name": "Eclipse"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Convergencia de Zeke",
+     "id": "fd589147d797",
+     "section": "modes",
+     "tags": [
+      "Damage",
+      "CooldownReduction",
+      "AbilityHaste"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "6692",
+      "name": "Eclipse"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Enfriamiento",
+     "before": "20 seg",
+     "after": "15 seg",
+     "text": "Enfriamiento: 20 seg ⇒ 15 seg",
+     "id": "bf96640de4fb",
+     "section": "modes",
+     "tags": [
+      "Damage",
+      "CooldownReduction",
+      "AbilityHaste"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.17",
+   "publishedAt": "2025-08-26T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Cambios de balance de ARAM",
+     "sectionId": "patch-aram-balance-changes",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "6692",
+      "name": "Eclipse"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Tasa de Daño de Ataque adicional como escudo",
+     "before": "40% / 20%",
+     "after": "50% / 25%",
+     "text": "Tasa de Daño de Ataque adicional como escudo: 40% / 20% ⇒ 50% / 25%",
+     "id": "f56dd29c94a0",
+     "section": "modes",
+     "tags": [
+      "Damage",
+      "CooldownReduction",
+      "AbilityHaste"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  }
+ ]
+}

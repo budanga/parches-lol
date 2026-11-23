@@ -1,0 +1,52 @@
+{
+ "schemaVersion": 1,
+ "id": "3871",
+ "name": "Espina Dimensional de Zaz'Zak",
+ "tags": [
+  "Health",
+  "HealthRegen",
+  "ManaRegen",
+  "Vision",
+  "GoldPer",
+  "Lane"
+ ],
+ "entries": [
+  {
+   "patch": "25.S1.3",
+   "publishedAt": "2025-02-04T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Objetos",
+     "sectionId": "patch-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "3871",
+      "name": "Espina Dimensional de Zaz'Zak"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Tasa de Poder de Habilidad",
+     "before": "20%",
+     "after": "15%",
+     "text": "Tasa de Poder de Habilidad: 20% ⇒ 15%",
+     "id": "e78f1a32b3b9",
+     "section": "items",
+     "tags": [
+      "Health",
+      "HealthRegen",
+      "ManaRegen",
+      "Vision",
+      "GoldPer",
+      "Lane"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  }
+ ]
+}

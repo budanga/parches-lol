@@ -1,0 +1,50 @@
+{
+ "schemaVersion": 1,
+ "id": "3042",
+ "name": "Muramaná",
+ "tags": [
+  "Damage",
+  "Mana",
+  "CooldownReduction",
+  "OnHit",
+  "ArmorPenetration"
+ ],
+ "entries": [
+  {
+   "patch": "26.1",
+   "publishedAt": "2026-01-07T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Objetos actualizados",
+     "sectionId": "patch-updated-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "3042",
+      "name": "Muramaná"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": null,
+     "before": "Maná: 860",
+     "after": "1000",
+     "text": "Maná: 860 ⇒ 1000",
+     "id": "e07804274e98",
+     "section": "items",
+     "tags": [
+      "Damage",
+      "Mana",
+      "CooldownReduction",
+      "OnHit",
+      "ArmorPenetration"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  }
+ ]
+}

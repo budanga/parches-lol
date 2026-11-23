@@ -1,0 +1,130 @@
+{
+ "schemaVersion": 1,
+ "id": "3041",
+ "name": "Robaalmas de Mejai",
+ "tags": [
+  "Health",
+  "SpellDamage",
+  "NonbootsMovement"
+ ],
+ "entries": [
+  {
+   "patch": "25.S1.3",
+   "publishedAt": "2025-02-04T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Sistemas",
+     "sectionId": "patch-systems",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "3041",
+      "name": "Robaalmas de Mejai"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "¡Reactivado!",
+     "id": "b611618c0147",
+     "section": "items",
+     "tags": [
+      "Health",
+      "SpellDamage",
+      "NonbootsMovement"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Sistemas",
+     "sectionId": "patch-systems",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "3041",
+      "name": "Robaalmas de Mejai"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Gloria por asesinato",
+     "before": "4",
+     "after": "2",
+     "text": "Gloria por asesinato: 4 ⇒ 2",
+     "id": "007dd64a20ba",
+     "section": "items",
+     "tags": [
+      "Health",
+      "SpellDamage",
+      "NonbootsMovement"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Sistemas",
+     "sectionId": "patch-systems",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "3041",
+      "name": "Robaalmas de Mejai"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Gloria por asistencia",
+     "before": "2",
+     "after": "1",
+     "text": "Gloria por asistencia: 2 ⇒ 1",
+     "id": "626b47e7535a",
+     "section": "items",
+     "tags": [
+      "Health",
+      "SpellDamage",
+      "NonbootsMovement"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Sistemas",
+     "sectionId": "patch-systems",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "3041",
+      "name": "Robaalmas de Mejai"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Gloria perdida al morir",
+     "before": "10",
+     "after": "5",
+     "text": "Gloria perdida al morir: 10 ⇒ 5",
+     "id": "b9142595594a",
+     "section": "items",
+     "tags": [
+      "Health",
+      "SpellDamage",
+      "NonbootsMovement"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  }
+ ]
+}

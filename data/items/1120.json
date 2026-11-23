@@ -1,0 +1,234 @@
+{
+ "schemaVersion": 1,
+ "id": "1120",
+ "name": "Casco de Doran",
+ "tags": [
+  "Health",
+  "SpellBlock",
+  "Armor",
+  "Lane"
+ ],
+ "entries": [
+  {
+   "patch": "26.13",
+   "publishedAt": "2026-06-23T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Objetos",
+     "sectionId": "patch-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "1120",
+      "name": "Casco de Doran"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Armadura y Resistencia Mágica",
+     "before": "10",
+     "after": "8",
+     "text": "Armadura y Resistencia Mágica: 10 ⇒ 8",
+     "id": "05b9047863ac",
+     "section": "items",
+     "tags": [
+      "Health",
+      "SpellBlock",
+      "Armor",
+      "Lane"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Objetos",
+     "sectionId": "patch-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "1120",
+      "name": "Casco de Doran"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Vida",
+     "before": "140",
+     "after": "150",
+     "text": "Vida: 140 ⇒ 150",
+     "id": "3be0f760ff38",
+     "section": "items",
+     "tags": [
+      "Health",
+      "SpellBlock",
+      "Armor",
+      "Lane"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "26.10",
+   "publishedAt": "2026-05-12T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Objetos",
+     "sectionId": "patch-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "1120",
+      "name": "Casco de Doran"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Vida",
+     "before": "110",
+     "after": "140",
+     "text": "Vida: 110 ⇒ 140",
+     "id": "5bd0eea78cab",
+     "section": "items",
+     "tags": [
+      "Health",
+      "SpellBlock",
+      "Armor",
+      "Lane"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "26.9",
+   "publishedAt": "2026-04-28T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Objetos",
+     "sectionId": "patch-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "1120",
+      "name": "Casco de Doran"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Vida: 100",
+     "id": "a6563b598e62",
+     "section": "items",
+     "tags": [
+      "Health",
+      "SpellBlock",
+      "Armor",
+      "Lane"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Objetos",
+     "sectionId": "patch-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "1120",
+      "name": "Casco de Doran"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Armadura: 10",
+     "id": "8de3efad0a83",
+     "section": "items",
+     "tags": [
+      "Health",
+      "SpellBlock",
+      "Armor",
+      "Lane"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Objetos",
+     "sectionId": "patch-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "1120",
+      "name": "Casco de Doran"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Resistencia Mágica: 10",
+     "id": "d953880377e4",
+     "section": "items",
+     "tags": [
+      "Health",
+      "SpellBlock",
+      "Armor",
+      "Lane"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Objetos",
+     "sectionId": "patch-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "1120",
+      "name": "Casco de Doran"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Una Ayudita: 5 de daño al impacto contra súbditos",
+     "id": "0d850baf9432",
+     "section": "items",
+     "tags": [
+      "Health",
+      "SpellBlock",
+      "Armor",
+      "Lane"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  }
+ ]
+}

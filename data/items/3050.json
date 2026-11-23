@@ -1,0 +1,153 @@
+{
+ "schemaVersion": 1,
+ "id": "3050",
+ "name": "Convergencia de Zeke",
+ "tags": [
+  "Health",
+  "SpellBlock",
+  "Armor",
+  "AbilityHaste"
+ ],
+ "entries": [
+  {
+   "patch": "26.11",
+   "publishedAt": "2026-05-27T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Ajustes a soportes",
+     "sectionId": "patch-support-adjustments",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "3050",
+      "name": "Convergencia de Zeke"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Tempestad de Fuego Escarchado",
+     "before": "Se activa al lanzar la definitiva",
+     "after": "Se prepara al lanzar la definitiva durante los siguientes 5 seg y se activa en cuanto un campeón enemigo entra en el alcance o luego de 5 seg",
+     "text": "Tempestad de Fuego Escarchado Se activa al lanzar la definitiva ⇒ Se prepara al lanzar la definitiva durante los siguientes 5 seg y se activa en cuanto un campeón enemigo entra en el alcance o luego de 5 seg",
+     "id": "f556056b6438",
+     "section": "items",
+     "tags": [
+      "Health",
+      "SpellBlock",
+      "Armor",
+      "AbilityHaste"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "26.6",
+   "publishedAt": "2026-03-17T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "3050",
+      "name": "Convergencia de Zeke"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": null,
+     "before": "Enfriamiento: 30 seg",
+     "after": "20 seg",
+     "text": "Enfriamiento: 30 seg ⇒ 20 seg",
+     "id": "61d93d07c588",
+     "section": "modes",
+     "tags": [
+      "Health",
+      "SpellBlock",
+      "Armor",
+      "AbilityHaste"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "26.1",
+   "publishedAt": "2026-01-07T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Objetos actualizados",
+     "sectionId": "patch-updated-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "3050",
+      "name": "Convergencia de Zeke"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "(NUEVO) Criocombustión: Obtienes 15 de Aceleración de Habilidad para la definitiva",
+     "id": "86e9f24f189a",
+     "section": "items",
+     "tags": [
+      "Health",
+      "SpellBlock",
+      "Armor",
+      "AbilityHaste"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.20",
+   "publishedAt": "2025-10-07T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena-",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "3050",
+      "name": "Convergencia de Zeke"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": null,
+     "before": "Duración: 5 seg",
+     "after": "12 seg",
+     "text": "Duración: 5 seg ⇒ 12 seg",
+     "id": "c9650cca4cc0",
+     "section": "modes",
+     "tags": [
+      "Health",
+      "SpellBlock",
+      "Armor",
+      "AbilityHaste"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  }
+ ]
+}

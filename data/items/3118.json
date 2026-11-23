@@ -1,0 +1,46 @@
+{
+ "schemaVersion": 1,
+ "id": "3118",
+ "name": "Maldad",
+ "tags": [
+  "SpellDamage",
+  "Mana",
+  "AbilityHaste"
+ ],
+ "entries": [
+  {
+   "patch": "25.10",
+   "publishedAt": "2025-05-13T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Objetos",
+     "sectionId": "patch-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "3118",
+      "name": "Maldad"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Poder de Habilidad",
+     "before": "85",
+     "after": "90",
+     "text": "Poder de Habilidad: 85 ⇒ 90",
+     "id": "0b0302b650d2",
+     "section": "items",
+     "tags": [
+      "SpellDamage",
+      "Mana",
+      "AbilityHaste"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  }
+ ]
+}

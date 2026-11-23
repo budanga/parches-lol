@@ -1,0 +1,44 @@
+{
+ "schemaVersion": 1,
+ "id": "447108",
+ "name": "Escultor de Runas",
+ "tags": [
+  "SpellDamage",
+  "NonbootsMovement"
+ ],
+ "entries": [
+  {
+   "patch": "26.23",
+   "publishedAt": "2026-11-17T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "447108",
+      "name": "Escultor de Runas"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Tasa de Poder de Habilidad por misil",
+     "before": "8%",
+     "after": "7%",
+     "text": "Tasa de Poder de Habilidad por misil: 8% ⇒ 7%",
+     "id": "9c10981c8ac9",
+     "section": "modes",
+     "tags": [
+      "SpellDamage",
+      "NonbootsMovement"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  }
+ ]
+}

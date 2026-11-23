@@ -1,0 +1,124 @@
+{
+ "schemaVersion": 1,
+ "id": "3190",
+ "name": "Relicario de los Solari de Hierro",
+ "tags": [
+  "Health",
+  "SpellBlock",
+  "Armor",
+  "Aura",
+  "Active",
+  "MagicResist",
+  "AbilityHaste"
+ ],
+ "entries": [
+  {
+   "patch": "26.11",
+   "publishedAt": "2026-05-27T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Ajustes a soportes",
+     "sectionId": "patch-support-adjustments",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "3190",
+      "name": "Relicario de los Solari de Hierro"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Armadura y Resistencia Mágica",
+     "before": "25",
+     "after": "30",
+     "text": "Armadura y Resistencia Mágica: 25 ⇒ 30",
+     "id": "dea72fc5c628",
+     "section": "items",
+     "tags": [
+      "Health",
+      "SpellBlock",
+      "Armor",
+      "Aura",
+      "Active",
+      "MagicResist",
+      "AbilityHaste"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "26.5",
+   "publishedAt": "2026-03-03T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Objetos",
+     "sectionId": "patch-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "3190",
+      "name": "Relicario de los Solari de Hierro"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "ESCUDO",
+     "before": "200 - 360, progresa después del nivel 1",
+     "after": "290 - 360, progresa después del nivel 8",
+     "text": "ESCUDO: 200 - 360, progresa después del nivel 1 ⇒ 290 - 360, progresa después del nivel 8",
+     "id": "bd81632440fd",
+     "section": "items",
+     "tags": [
+      "Health",
+      "SpellBlock",
+      "Armor",
+      "Aura",
+      "Active",
+      "MagicResist",
+      "AbilityHaste"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Objetos",
+     "sectionId": "patch-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "3190",
+      "name": "Relicario de los Solari de Hierro"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Escudo funcional de nivel 8 a 18",
+     "before": "265-360",
+     "after": "290-360",
+     "text": "Escudo funcional de nivel 8 a 18: 265-360 ⇒ 290-360",
+     "id": "3e08b2e6735c",
+     "section": "items",
+     "tags": [
+      "Health",
+      "SpellBlock",
+      "Armor",
+      "Aura",
+      "Active",
+      "MagicResist",
+      "AbilityHaste"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  }
+ ]
+}

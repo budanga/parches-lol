@@ -1,0 +1,50 @@
+{
+ "schemaVersion": 1,
+ "id": "773512",
+ "name": "Portal Zz'Rot",
+ "tags": [
+  "SpellBlock",
+  "HealthRegen",
+  "Armor",
+  "Active",
+  "NonbootsMovement"
+ ],
+ "entries": [
+  {
+   "patch": "26.19",
+   "publishedAt": "2026-09-22T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "LoL Classic",
+     "sectionId": "patch-classic",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "773512",
+      "name": "Portal Zz'Rot"
+     },
+     "part": "Objetos",
+     "partTitle": "Objetos",
+     "spellKey": null,
+     "kind": "new",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "NUEVO Portal Zz'Rot",
+     "id": "fbef12490167",
+     "section": "modes",
+     "tags": [
+      "SpellBlock",
+      "HealthRegen",
+      "Armor",
+      "Active",
+      "NonbootsMovement"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  }
+ ]
+}

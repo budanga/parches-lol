@@ -35,6 +35,7 @@ import com.budanga.parcheslol.domain.toMarkNotified
 import java.io.File
 import java.util.concurrent.TimeUnit
 import kotlinx.coroutines.flow.first
+import androidx.glance.appwidget.updateAll
 
 private const val CHANNEL_PATCHES = "patches"
 private const val CHANNEL_NEWS = "news"
@@ -57,7 +58,7 @@ class UpdateWorker(context: Context, params: WorkerParameters) : CoroutineWorker
             val file = repo.patch(patch).valueOrNull ?: run { failed = true; null } ?: continue
             val count = adcGroups(file, myAdcs, myItems).filter { it.entity != null }.sumOf { it.changes.size }
             val (title, body) = alertText(PatchAlert(patch, count))
-            notify(patch.hashCode(), CHANNEL_PATCHES, title, body, null)
+            notify(patch.hashCode(), CHANNEL_PATCHES, title, body, null, patch)
             delivered += patch
         }
         prefs.addNotified(toMarkNotified(index, firstRun, delivered))
@@ -67,15 +68,20 @@ class UpdateWorker(context: Context, params: WorkerParameters) : CoroutineWorker
             notify(it.url.hashCode(), CHANNEL_NEWS, it.title, it.description, it.url)
         }
         news.maxByOrNull { it.publishedAt }?.let { prefs.setLastNewsUrl(it.url) }
+        // The widget shows saved data, so refresh it after every run.
+        runCatching { com.budanga.parcheslol.widget.PatchWidget().updateAll(applicationContext) }
         return if (failed) Result.retry() else Result.success()
     }
 
-    private fun notify(id: Int, channel: String, title: String, body: String?, url: String?) {
+    private fun notify(id: Int, channel: String, title: String, body: String?, url: String?, patch: String? = null) {
         val ctx = applicationContext
         if (Build.VERSION.SDK_INT >= 33 &&
             ContextCompat.checkSelfPermission(ctx, Manifest.permission.POST_NOTIFICATIONS) != PackageManager.PERMISSION_GRANTED
         ) return
-        val intent = if (url != null) Intent(Intent.ACTION_VIEW, Uri.parse(url)) else Intent(ctx, MainActivity::class.java)
+        // A patch notification opens that patch directly.
+        val intent = if (url != null) Intent(Intent.ACTION_VIEW, Uri.parse(url))
+        else Intent(ctx, MainActivity::class.java).putExtra(MainActivity.EXTRA_PATCH, patch)
+            .addFlags(Intent.FLAG_ACTIVITY_SINGLE_TOP or Intent.FLAG_ACTIVITY_CLEAR_TOP)
         val pending = PendingIntent.getActivity(ctx, id, intent, PendingIntent.FLAG_IMMUTABLE or PendingIntent.FLAG_UPDATE_CURRENT)
         val n = NotificationCompat.Builder(ctx, channel)
             .setSmallIcon(R.drawable.ic_notification)

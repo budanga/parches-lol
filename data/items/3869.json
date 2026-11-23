@@ -1,0 +1,52 @@
+{
+ "schemaVersion": 1,
+ "id": "3869",
+ "name": "Oposición Celestial",
+ "tags": [
+  "Health",
+  "HealthRegen",
+  "ManaRegen",
+  "Vision",
+  "GoldPer",
+  "Lane"
+ ],
+ "entries": [
+  {
+   "patch": "25.19",
+   "publishedAt": "2025-09-23T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Objetos",
+     "sectionId": "patch-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "3869",
+      "name": "Oposición Celestial"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Oposición Celestial ya no aplicará la ralentización en un área de efecto si el portador está muerto",
+     "id": "0a8864a66506",
+     "section": "items",
+     "tags": [
+      "Health",
+      "HealthRegen",
+      "ManaRegen",
+      "Vision",
+      "GoldPer",
+      "Lane"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  }
+ ]
+}

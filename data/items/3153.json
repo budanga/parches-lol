@@ -1,0 +1,158 @@
+{
+ "schemaVersion": 1,
+ "id": "3153",
+ "name": "Espada del Rey Arruinado",
+ "tags": [
+  "Damage",
+  "AttackSpeed",
+  "LifeSteal",
+  "Slow",
+  "OnHit"
+ ],
+ "entries": [
+  {
+   "patch": "25.24",
+   "publishedAt": "2025-12-02T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Actualizaciones dentro de la versión, 16 de diciembre de 2025",
+     "sectionId": "patch-season-3-ranked-ending-soon",
+     "midPatch": true,
+     "entity": {
+      "kind": "item",
+      "id": "3153",
+      "name": "Espada del Rey Arruinado"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": null,
+     "before": "Vida actual como daño: 12% / 10%",
+     "after": "9% / 6%",
+     "text": "Vida actual como daño: 12% / 10% ⇒ 9% / 6%",
+     "id": "e4c03e42f544",
+     "section": "items",
+     "tags": [
+      "Damage",
+      "AttackSpeed",
+      "LifeSteal",
+      "Slow",
+      "OnHit"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.20",
+   "publishedAt": "2025-10-07T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena-",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "3153",
+      "name": "Espada del Rey Arruinado"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": null,
+     "before": "Cantidad de impactos necesarios para que se active: 1",
+     "after": "3",
+     "text": "Cantidad de impactos necesarios para que se active: 1 ⇒ 3",
+     "id": "cd032de9e555",
+     "section": "modes",
+     "tags": [
+      "Damage",
+      "AttackSpeed",
+      "LifeSteal",
+      "Slow",
+      "OnHit"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.14",
+   "publishedAt": "2025-07-15T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Objetos",
+     "sectionId": "patch-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "3153",
+      "name": "Espada del Rey Arruinado"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Vida actual como daño al impacto",
+     "before": "8% para campeones cuerpo a cuerpo, 5% para campeones a distancia",
+     "after": "9% para campeones cuerpo a cuerpo, 6% para campeones a distancia",
+     "text": "Vida actual como daño al impacto: 8% para campeones cuerpo a cuerpo, 5% para campeones a distancia ⇒ 9% para campeones cuerpo a cuerpo, 6% para campeones a distancia",
+     "id": "844bfb358065",
+     "section": "items",
+     "tags": [
+      "Damage",
+      "AttackSpeed",
+      "LifeSteal",
+      "Slow",
+      "OnHit"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.12",
+   "publishedAt": "2025-06-10T18:05:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "ARAM",
+     "sectionId": "patch-aram",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "3153",
+      "name": "Espada del Rey Arruinado"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño de la pasiva",
+     "before": "10 / 8%",
+     "after": "12 / 10% de la Vida actual del objetivo",
+     "text": "Daño de la pasiva: 10 / 8% ⇒ 12 / 10% de la Vida actual del objetivo",
+     "id": "d17d6bceb1c8",
+     "section": "modes",
+     "tags": [
+      "Damage",
+      "AttackSpeed",
+      "LifeSteal",
+      "Slow",
+      "OnHit"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  }
+ ]
+}

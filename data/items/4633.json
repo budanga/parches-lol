@@ -1,0 +1,48 @@
+{
+ "schemaVersion": 1,
+ "id": "4633",
+ "name": "Agrietador",
+ "tags": [
+  "Health",
+  "SpellDamage",
+  "CooldownReduction",
+  "SpellVamp"
+ ],
+ "entries": [
+  {
+   "patch": "25.18",
+   "publishedAt": "2025-09-09T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones (Arena)",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "4633",
+      "name": "Agrietador"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": null,
+     "before": "Omnivampirismo: 10% / 6%",
+     "after": "15% / 8%",
+     "text": "Omnivampirismo: 10% / 6% ⇒ 15% / 8%",
+     "id": "1fb490364cc1",
+     "section": "modes",
+     "tags": [
+      "Health",
+      "SpellDamage",
+      "CooldownReduction",
+      "SpellVamp"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  }
+ ]
+}

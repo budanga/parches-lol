@@ -1,0 +1,145 @@
+{
+ "schemaVersion": 1,
+ "id": "3870",
+ "name": "Tejesueños",
+ "tags": [
+  "Health",
+  "HealthRegen",
+  "ManaRegen",
+  "Vision",
+  "GoldPer",
+  "Lane"
+ ],
+ "entries": [
+  {
+   "patch": "26.11",
+   "publishedAt": "2026-05-27T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Ajustes a soportes",
+     "sectionId": "patch-support-adjustments",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "3870",
+      "name": "Tejesueños"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Reducción de daño de la Burbuja Azul",
+     "before": "De 75 a 255 (niveles 1 a 18)",
+     "after": "De 50 a 194 (niveles 1 a 18)",
+     "text": "Reducción de daño de la Burbuja Azul: De 75 a 255 (niveles 1 a 18) ⇒ De 50 a 194 (niveles 1 a 18)",
+     "id": "e93c2c627eae",
+     "section": "items",
+     "tags": [
+      "Health",
+      "HealthRegen",
+      "ManaRegen",
+      "Vision",
+      "GoldPer",
+      "Lane"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Ajustes a soportes",
+     "sectionId": "patch-support-adjustments",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "3870",
+      "name": "Tejesueños"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Reducción de daño de la Burbuja Azul",
+     "before": "La reducción de daño afecta a la siguiente instancia de daño mayor a 0, sin importar su magnitud",
+     "after": "La reducción de daño afecta a la siguiente fuente de lanzamiento de daño mayor a 0 (transferencia temporal)",
+     "text": "Reducción de daño de la Burbuja Azul: La reducción de daño afecta a la siguiente instancia de daño mayor a 0, sin importar su magnitud ⇒ La reducción de daño afecta a la siguiente fuente de lanzamiento de daño mayor a 0 (transferencia temporal)",
+     "id": "a8ff55f561e7",
+     "section": "items",
+     "tags": [
+      "Health",
+      "HealthRegen",
+      "ManaRegen",
+      "Vision",
+      "GoldPer",
+      "Lane"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Ajustes a soportes",
+     "sectionId": "patch-support-adjustments",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "3870",
+      "name": "Tejesueños"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño de Burbuja Púrpura",
+     "before": "De 50 a 170 (niveles 1 a 18)",
+     "after": "De 40 a 160 (niveles 1 a 18)",
+     "text": "Daño de Burbuja Púrpura: De 50 a 170 (niveles 1 a 18) ⇒ De 40 a 160 (niveles 1 a 18)",
+     "id": "00b81ec70043",
+     "section": "items",
+     "tags": [
+      "Health",
+      "HealthRegen",
+      "ManaRegen",
+      "Vision",
+      "GoldPer",
+      "Lane"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Ajustes a soportes",
+     "sectionId": "patch-support-adjustments",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "3870",
+      "name": "Tejesueños"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño de Burbuja Púrpura",
+     "before": "El daño se activa al impacto o con ciertas habilidades y objetos",
+     "after": "El daño se activa con el siguiente ataque o habilidad que inflija daño, y se reduce en el caso de área de efecto (p. ej., la E de Nami)",
+     "text": "Daño de Burbuja Púrpura: El daño se activa al impacto o con ciertas habilidades y objetos ⇒ El daño se activa con el siguiente ataque o habilidad que inflija daño, y se reduce en el caso de área de efecto (p. ej., la E de Nami)",
+     "id": "a9679b3511ca",
+     "section": "items",
+     "tags": [
+      "Health",
+      "HealthRegen",
+      "ManaRegen",
+      "Vision",
+      "GoldPer",
+      "Lane"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  }
+ ]
+}

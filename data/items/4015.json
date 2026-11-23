@@ -1,0 +1,89 @@
+{
+ "schemaVersion": 1,
+ "id": "4015",
+ "name": "Perplejidad",
+ "tags": [
+  "SpellDamage",
+  "CooldownReduction",
+  "NonbootsMovement",
+  "MagicPenetration",
+  "ArmorPenetration",
+  "AbilityHaste"
+ ],
+ "entries": [
+  {
+   "patch": "26.23",
+   "publishedAt": "2026-11-17T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "4015",
+      "name": "Perplejidad"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Regeneración de Maná básica",
+     "before": "0",
+     "after": "500%",
+     "text": "Regeneración de Maná básica: 0 ⇒ 500%",
+     "id": "5f4b17d7c1b9",
+     "section": "modes",
+     "tags": [
+      "SpellDamage",
+      "CooldownReduction",
+      "NonbootsMovement",
+      "MagicPenetration",
+      "ArmorPenetration",
+      "AbilityHaste"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "26.13",
+   "publishedAt": "2026-06-23T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "4015",
+      "name": "Perplejidad"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": null,
+     "before": "Umbral de amplificación de daño máximo: 2500",
+     "after": "3000",
+     "text": "Umbral de amplificación de daño máximo: 2500 ⇒ 3000",
+     "id": "6898aaca7494",
+     "section": "modes",
+     "tags": [
+      "SpellDamage",
+      "CooldownReduction",
+      "NonbootsMovement",
+      "MagicPenetration",
+      "ArmorPenetration",
+      "AbilityHaste"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  }
+ ]
+}

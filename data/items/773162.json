@@ -1,0 +1,44 @@
+{
+ "schemaVersion": 1,
+ "id": "773162",
+ "name": "Daga y Capa",
+ "tags": [
+  "CriticalStrike",
+  "AttackSpeed"
+ ],
+ "entries": [
+  {
+   "patch": "26.19",
+   "publishedAt": "2026-09-22T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "LoL Classic",
+     "sectionId": "patch-classic",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "773162",
+      "name": "Daga y Capa"
+     },
+     "part": "Objetos",
+     "partTitle": "Objetos",
+     "spellKey": null,
+     "kind": "new",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "NUEVO Daga y Capa",
+     "id": "8c5daf064fc3",
+     "section": "modes",
+     "tags": [
+      "CriticalStrike",
+      "AttackSpeed"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  }
+ ]
+}

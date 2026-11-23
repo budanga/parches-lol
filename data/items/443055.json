@@ -1,0 +1,46 @@
+{
+ "schemaVersion": 1,
+ "id": "443055",
+ "name": "Fulminación",
+ "tags": [
+  "Damage",
+  "AttackSpeed",
+  "NonbootsMovement"
+ ],
+ "entries": [
+  {
+   "patch": "25.24",
+   "publishedAt": "2025-12-02T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "443055",
+      "name": "Fulminación"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": null,
+     "before": "Vida actual como daño: 10%",
+     "after": "13%",
+     "text": "Vida actual como daño: 10% ⇒ 13%",
+     "id": "9d6adf4518ef",
+     "section": "modes",
+     "tags": [
+      "Damage",
+      "AttackSpeed",
+      "NonbootsMovement"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  }
+ ]
+}

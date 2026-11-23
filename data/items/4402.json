@@ -1,0 +1,140 @@
+{
+ "schemaVersion": 1,
+ "id": "4402",
+ "name": "Relicario Enervante",
+ "tags": [
+  "Health",
+  "Damage",
+  "Mana",
+  "CooldownReduction",
+  "AbilityHaste"
+ ],
+ "entries": [
+  {
+   "patch": "26.17",
+   "publishedAt": "2026-08-25T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Classic",
+     "sectionId": "patch-classic",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "4402",
+      "name": "Relicario Enervante"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Costo de combinación",
+     "before": "750 de oro (costo total de 2650 de oro)",
+     "after": "350 de oro (costo total de 2250 de oro)",
+     "text": "Costo de combinación: 750 de oro (costo total de 2650 de oro) ⇒ 350 de oro (costo total de 2250 de oro)",
+     "id": "e7c5972d732a",
+     "section": "modes",
+     "tags": [
+      "Health",
+      "Damage",
+      "Mana",
+      "CooldownReduction",
+      "AbilityHaste"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Classic",
+     "sectionId": "patch-classic",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "4402",
+      "name": "Relicario Enervante"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Vida",
+     "before": "430",
+     "after": "500",
+     "text": "Vida: 430 ⇒ 500",
+     "id": "7e00365ce79d",
+     "section": "modes",
+     "tags": [
+      "Health",
+      "Damage",
+      "Mana",
+      "CooldownReduction",
+      "AbilityHaste"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Classic",
+     "sectionId": "patch-classic",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "4402",
+      "name": "Relicario Enervante"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Reducción de Enfriamiento",
+     "before": "0%",
+     "after": "10%",
+     "text": "Reducción de Enfriamiento: 0% ⇒ 10%",
+     "id": "389fbff68958",
+     "section": "modes",
+     "tags": [
+      "Health",
+      "Damage",
+      "Mana",
+      "CooldownReduction",
+      "AbilityHaste"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Classic",
+     "sectionId": "patch-classic",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "4402",
+      "name": "Relicario Enervante"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Vida y Maná restaurados por Inervación",
+     "before": "50 / 20",
+     "after": "60 / 25",
+     "text": "Vida y Maná restaurados por Inervación: 50 / 20 ⇒ 60 / 25",
+     "id": "fb54b50bd564",
+     "section": "modes",
+     "tags": [
+      "Health",
+      "Damage",
+      "Mana",
+      "CooldownReduction",
+      "AbilityHaste"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  }
+ ]
+}

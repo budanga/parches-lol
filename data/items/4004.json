@@ -1,0 +1,142 @@
+{
+ "schemaVersion": 1,
+ "id": "4004",
+ "name": "Sable Espectral",
+ "tags": [
+  "Damage",
+  "NonbootsMovement",
+  "ArmorPenetration"
+ ],
+ "entries": [
+  {
+   "patch": "26.17",
+   "publishedAt": "2026-08-25T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "4004",
+      "name": "Sable Espectral"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Corrección de error: Corregimos un error que causaba que esto otorgara el doble de Letalidad.",
+     "id": "d829e6c7e7dd",
+     "section": "modes",
+     "tags": [
+      "Damage",
+      "NonbootsMovement",
+      "ArmorPenetration"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.17",
+   "publishedAt": "2025-08-26T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Cambios de balance de ARAM",
+     "sectionId": "patch-aram-balance-changes",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "4004",
+      "name": "Sable Espectral"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Corregimos la función que terminaba antes el efecto y permitía que algunos campeones teletransportaran a los enemigos a la ubicación inicial cuando regresaban",
+     "id": "a23c6b3640d6",
+     "section": "modes",
+     "tags": [
+      "Damage",
+      "NonbootsMovement",
+      "ArmorPenetration"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.15",
+   "publishedAt": "2025-07-29T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Cambios de balance de ARAM",
+     "sectionId": "patch-aram-balance-changes",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "4004",
+      "name": "Sable Espectral"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Costo de oro",
+     "before": "3000",
+     "after": "2800",
+     "text": "Costo de oro: 3000 ⇒ 2800",
+     "id": "683044db5517",
+     "section": "modes",
+     "tags": [
+      "Damage",
+      "NonbootsMovement",
+      "ArmorPenetration"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Cambios de balance de ARAM",
+     "sectionId": "patch-aram-balance-changes",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "4004",
+      "name": "Sable Espectral"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Ya no se puede usar para teletransportar a los enemigos a su ubicación inicial",
+     "id": "d10e371b9d18",
+     "section": "modes",
+     "tags": [
+      "Damage",
+      "NonbootsMovement",
+      "ArmorPenetration"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  }
+ ]
+}

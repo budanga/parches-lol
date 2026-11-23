@@ -1,0 +1,77 @@
+{
+ "schemaVersion": 1,
+ "id": "447122",
+ "name": "Guantelete del Agujero Negro",
+ "tags": [
+  "SpellBlock",
+  "AttackSpeed",
+  "OnHit",
+  "AbilityHaste"
+ ],
+ "entries": [
+  {
+   "patch": "25.16",
+   "publishedAt": "2025-08-12T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Objetos",
+     "sectionId": "patch-Items-",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "447122",
+      "name": "Guantelete del Agujero Negro"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": null,
+     "before": "Valor de la ralentización: 35%",
+     "after": "30%",
+     "text": "Valor de la ralentización: 35% ⇒ 30%",
+     "id": "0f7ce18e1978",
+     "section": "items",
+     "tags": [
+      "SpellBlock",
+      "AttackSpeed",
+      "OnHit",
+      "AbilityHaste"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Objetos",
+     "sectionId": "patch-Items-",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "447122",
+      "name": "Guantelete del Agujero Negro"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": null,
+     "before": "Tasa de Vida como daño por segundo: 6.5%",
+     "after": "5%",
+     "text": "Tasa de Vida como daño por segundo: 6.5% ⇒ 5%",
+     "id": "9fc251548fbe",
+     "section": "items",
+     "tags": [
+      "SpellBlock",
+      "AttackSpeed",
+      "OnHit",
+      "AbilityHaste"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  }
+ ]
+}

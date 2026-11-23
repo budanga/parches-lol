@@ -1,0 +1,141 @@
+{
+ "schemaVersion": 1,
+ "id": "664644",
+ "name": "Corona de la Reina Fragmentada",
+ "tags": [
+  "Health",
+  "SpellDamage",
+  "Mana",
+  "AbilityHaste"
+ ],
+ "entries": [
+  {
+   "patch": "26.6",
+   "publishedAt": "2026-03-17T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "664644",
+      "name": "Corona de la Reina Fragmentada"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": null,
+     "before": "Reducción de daño: 50%",
+     "after": "90%",
+     "text": "Reducción de daño: 50% ⇒ 90%",
+     "id": "d6bf83c3b976",
+     "section": "modes",
+     "tags": [
+      "Health",
+      "SpellDamage",
+      "Mana",
+      "AbilityHaste"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "664644",
+      "name": "Corona de la Reina Fragmentada"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": null,
+     "before": "Duración del efecto: 3 seg",
+     "after": "1.25 seg",
+     "text": "Duración del efecto: 3 seg ⇒ 1.25 seg",
+     "id": "d7db54f0c4f1",
+     "section": "modes",
+     "tags": [
+      "Health",
+      "SpellDamage",
+      "Mana",
+      "AbilityHaste"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.24",
+   "publishedAt": "2025-12-02T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "664644",
+      "name": "Corona de la Reina Fragmentada"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": null,
+     "before": "Vida: 300",
+     "after": "350",
+     "text": "Vida: 300 ⇒ 350",
+     "id": "cb2309d32eb8",
+     "section": "modes",
+     "tags": [
+      "Health",
+      "SpellDamage",
+      "Mana",
+      "AbilityHaste"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "664644",
+      "name": "Corona de la Reina Fragmentada"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": null,
+     "before": "Escudo: 40%",
+     "after": "50%",
+     "text": "Escudo: 40% ⇒ 50%",
+     "id": "0d626295261d",
+     "section": "modes",
+     "tags": [
+      "Health",
+      "SpellDamage",
+      "Mana",
+      "AbilityHaste"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  }
+ ]
+}

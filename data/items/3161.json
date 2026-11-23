@@ -1,0 +1,46 @@
+{
+ "schemaVersion": 1,
+ "id": "3161",
+ "name": "Lanza de Shojin",
+ "tags": [
+  "Health",
+  "Damage",
+  "AbilityHaste"
+ ],
+ "entries": [
+  {
+   "patch": "25.18",
+   "publishedAt": "2025-09-09T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones (Arena)",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "3161",
+      "name": "Lanza de Shojin"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": null,
+     "before": "Vida: 200",
+     "after": "350",
+     "text": "Vida: 200 ⇒ 350",
+     "id": "c11557f5164c",
+     "section": "modes",
+     "tags": [
+      "Health",
+      "Damage",
+      "AbilityHaste"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  }
+ ]
+}

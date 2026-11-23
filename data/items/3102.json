@@ -1,0 +1,212 @@
+{
+ "schemaVersion": 1,
+ "id": "3102",
+ "name": "Velo de la Banshee",
+ "tags": [
+  "SpellBlock",
+  "SpellDamage"
+ ],
+ "entries": [
+  {
+   "patch": "26.20",
+   "publishedAt": "2026-10-06T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "LoL Classic",
+     "sectionId": "patch-classic",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "3102",
+      "name": "Velo de la Banshee"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Filtros del filtro de estadísticas",
+     "before": "Poder de Habilidad",
+     "after": "Vida",
+     "text": "Filtros del filtro de estadísticas: Poder de Habilidad ⇒ Vida",
+     "id": "82e0cd44da4b",
+     "section": "modes",
+     "tags": [
+      "SpellBlock",
+      "SpellDamage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "26.12",
+   "publishedAt": "2026-06-09T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "3102",
+      "name": "Velo de la Banshee"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Enfriamiento",
+     "before": "40 seg",
+     "after": "20 seg",
+     "text": "Enfriamiento: 40 seg ⇒ 20 seg",
+     "id": "025b57e23a16",
+     "section": "modes",
+     "tags": [
+      "SpellBlock",
+      "SpellDamage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "3102",
+      "name": "Velo de la Banshee"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Decapitador",
+     "id": "ff79a61f57ec",
+     "section": "modes",
+     "tags": [
+      "SpellBlock",
+      "SpellDamage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "3102",
+      "name": "Velo de la Banshee"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "La generación de acumulaciones ahora se divide en cuerpo a cuerpo y a distancia.",
+     "id": "666be448044e",
+     "section": "modes",
+     "tags": [
+      "SpellBlock",
+      "SpellDamage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "3102",
+      "name": "Velo de la Banshee"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Ataque básico: Cuerpo a cuerpo: 2; a distancia: 1",
+     "id": "64f6ff4269bf",
+     "section": "modes",
+     "tags": [
+      "SpellBlock",
+      "SpellDamage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "3102",
+      "name": "Velo de la Banshee"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Lanzamiento de hechizos: Cuerpo a cuerpo: 4; a distancia: 3",
+     "id": "f6a637316981",
+     "section": "modes",
+     "tags": [
+      "SpellBlock",
+      "SpellDamage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "3102",
+      "name": "Velo de la Banshee"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Ángel Guardián, Reloj de Arena de Zhonya, Sombrero de Wooglet",
+     "id": "a806456dea9a",
+     "section": "modes",
+     "tags": [
+      "SpellBlock",
+      "SpellDamage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  }
+ ]
+}

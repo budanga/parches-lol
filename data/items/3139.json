@@ -1,0 +1,114 @@
+{
+ "schemaVersion": 1,
+ "id": "3139",
+ "name": "Cimitarra Mercurial",
+ "tags": [
+  "SpellBlock",
+  "Damage",
+  "LifeSteal",
+  "Active",
+  "NonbootsMovement",
+  "Tenacity"
+ ],
+ "entries": [
+  {
+   "patch": "25.18",
+   "publishedAt": "2025-09-09T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Objetos",
+     "sectionId": "patch-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "3139",
+      "name": "Cimitarra Mercurial"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño de Ataque",
+     "before": "40",
+     "after": "50",
+     "text": "Daño de Ataque: 40 ⇒ 50",
+     "id": "247b41f1e3d5",
+     "section": "items",
+     "tags": [
+      "SpellBlock",
+      "Damage",
+      "LifeSteal",
+      "Active",
+      "NonbootsMovement",
+      "Tenacity"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Objetos",
+     "sectionId": "patch-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "3139",
+      "name": "Cimitarra Mercurial"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Resistencia Mágica",
+     "before": "40",
+     "after": "35",
+     "text": "Resistencia Mágica: 40 ⇒ 35",
+     "id": "7d7daf1331ca",
+     "section": "items",
+     "tags": [
+      "SpellBlock",
+      "Damage",
+      "LifeSteal",
+      "Active",
+      "NonbootsMovement",
+      "Tenacity"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Objetos",
+     "sectionId": "patch-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "3139",
+      "name": "Cimitarra Mercurial"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Duración de la Velocidad de Movimiento de la activa",
+     "before": "1.5 seg",
+     "after": "2 seg",
+     "text": "Duración de la Velocidad de Movimiento de la activa: 1.5 seg ⇒ 2 seg",
+     "id": "ca4f87c823b9",
+     "section": "items",
+     "tags": [
+      "SpellBlock",
+      "Damage",
+      "LifeSteal",
+      "Active",
+      "NonbootsMovement",
+      "Tenacity"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  }
+ ]
+}

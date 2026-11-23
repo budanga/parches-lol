@@ -1,0 +1,112 @@
+{
+ "schemaVersion": 1,
+ "id": "447116",
+ "name": "Jitte Kinkou",
+ "tags": [
+  "Health",
+  "Damage",
+  "SpellDamage",
+  "AbilityHaste"
+ ],
+ "entries": [
+  {
+   "patch": "25.24",
+   "publishedAt": "2025-12-02T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "447116",
+      "name": "Jitte Kinkou"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": null,
+     "before": "Fuerza adaptable: 70",
+     "after": "85",
+     "text": "Fuerza adaptable: 70 ⇒ 85",
+     "id": "dc7c4a961a81",
+     "section": "modes",
+     "tags": [
+      "Health",
+      "Damage",
+      "SpellDamage",
+      "AbilityHaste"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "447116",
+      "name": "Jitte Kinkou"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": null,
+     "before": "Velocidad de Movimiento mínima otorgada: 30%",
+     "after": "50%",
+     "text": "Velocidad de Movimiento mínima otorgada: 30% ⇒ 50%",
+     "id": "3a5d290410f5",
+     "section": "modes",
+     "tags": [
+      "Health",
+      "Damage",
+      "SpellDamage",
+      "AbilityHaste"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.9",
+   "publishedAt": "2025-04-29T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Modos de juego rotativos y cambios en Arena",
+     "sectionId": "patch-rotating-game-modes-and-arena-changes",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "447116",
+      "name": "Jitte Kinkou"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Velocidad de Movimiento adicional",
+     "before": "De 15 a 60%",
+     "after": "De 30 a 75%",
+     "text": "Velocidad de Movimiento adicional: De 15 a 60% ⇒ De 30 a 75%",
+     "id": "fdf15aeda994",
+     "section": "modes",
+     "tags": [
+      "Health",
+      "Damage",
+      "SpellDamage",
+      "AbilityHaste"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,46 @@
+{
+ "schemaVersion": 1,
+ "id": "3111",
+ "name": "Botas de Mercurio",
+ "tags": [
+  "Boots",
+  "SpellBlock",
+  "Tenacity"
+ ],
+ "entries": [
+  {
+   "patch": "25.4",
+   "publishedAt": "2025-02-19T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Objetos",
+     "sectionId": "patch-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "3111",
+      "name": "Botas de Mercurio"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Precio",
+     "before": "1300",
+     "after": "1250 de oro",
+     "text": "Precio: 1300 ⇒ 1250 de oro",
+     "id": "47ec4e9fc0bb",
+     "section": "items",
+     "tags": [
+      "Boots",
+      "SpellBlock",
+      "Tenacity"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  }
+ ]
+}

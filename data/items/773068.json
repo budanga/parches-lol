@@ -1,0 +1,98 @@
+{
+ "schemaVersion": 1,
+ "id": "773068",
+ "name": "Capa de Fuego Solar",
+ "tags": [
+  "Health",
+  "Armor"
+ ],
+ "entries": [
+  {
+   "patch": "26.16",
+   "publishedAt": "2026-08-11T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Objetos",
+     "sectionId": "patch-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "773068",
+      "name": "Capa de Fuego Solar"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño",
+     "before": "20 (+ 1% de Vida adicional)",
+     "after": "20 (+ 1.5% de Vida adicional)",
+     "text": "Daño: 20 (+ 1% de Vida adicional) ⇒ 20 (+ 1.5% de Vida adicional)",
+     "id": "75988458376f",
+     "section": "items",
+     "tags": [
+      "Health",
+      "Armor"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Objetos",
+     "sectionId": "patch-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "773068",
+      "name": "Capa de Fuego Solar"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Modificador de súbditos / monstruos",
+     "before": "160% a súbditos, 200% a monstruos",
+     "after": "150% a súbditos, 180% a monstruos",
+     "text": "Modificador de súbditos / monstruos: 160% a súbditos, 200% a monstruos ⇒ 150% a súbditos, 180% a monstruos",
+     "id": "922f60fb6870",
+     "section": "items",
+     "tags": [
+      "Health",
+      "Armor"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Objetos",
+     "sectionId": "patch-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "773068",
+      "name": "Capa de Fuego Solar"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Ruta de armado",
+     "before": "600 de oro",
+     "after": "700 de oro",
+     "text": "Ruta de armado: 600 de oro ⇒ 700 de oro",
+     "id": "5a83063b2a38",
+     "section": "items",
+     "tags": [
+      "Health",
+      "Armor"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  }
+ ]
+}

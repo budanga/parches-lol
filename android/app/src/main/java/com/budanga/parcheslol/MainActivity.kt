@@ -7,6 +7,9 @@ import android.os.Bundle
 import androidx.activity.result.contract.ActivityResultContracts
 import androidx.core.content.ContextCompat
 import com.budanga.parcheslol.work.UpdateWorker
+import com.budanga.parcheslol.widget.PatchWidget
+import androidx.glance.appwidget.updateAll
+import com.budanga.parcheslol.domain.routeForNotification
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.activity.SystemBarStyle
@@ -72,8 +75,19 @@ import com.budanga.parcheslol.ui.SettingsScreen
 import java.io.File
 
 class MainActivity : ComponentActivity() {
+    /** Route requested by a notification tap, consumed by the navigation once. */
+    private val pendingRoute = mutableStateOf<String?>(null)
+
+    override fun onNewIntent(intent: android.content.Intent) {
+        super.onNewIntent(intent)
+        pendingRoute.value = routeForNotification(intent.getStringExtra(EXTRA_PATCH))
+    }
+
+    companion object { const val EXTRA_PATCH = "patch" }
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        if (savedInstanceState == null) pendingRoute.value = routeForNotification(intent.getStringExtra(EXTRA_PATCH))
         // Paper background in every system theme: always dark status/navigation icons.
         enableEdgeToEdge(
             statusBarStyle = SystemBarStyle.light(android.graphics.Color.TRANSPARENT, android.graphics.Color.TRANSPARENT),
@@ -86,7 +100,7 @@ class MainActivity : ComponentActivity() {
         if (Build.VERSION.SDK_INT >= 33 &&
             ContextCompat.checkSelfPermission(this, Manifest.permission.POST_NOTIFICATIONS) != PackageManager.PERMISSION_GRANTED
         ) registerForActivityResult(ActivityResultContracts.RequestPermission()) {}.launch(Manifest.permission.POST_NOTIFICATIONS)
-        setContent { ArchiveTheme { AppRoot(repo, prefs) } }
+        setContent { ArchiveTheme { AppRoot(repo, prefs, pendingRoute) } }
     }
 }
 
@@ -96,14 +110,18 @@ private val TABS = listOf("home", "champions", "news")
 private object Session { var titlePlayed = false }
 
 @Composable
-fun AppRoot(repo: Repository, prefs: Prefs) {
+fun AppRoot(repo: Repository, prefs: Prefs, pendingRoute: androidx.compose.runtime.MutableState<String?> = mutableStateOf(null)) {
     val nav = rememberNavController()
     val entry by nav.currentBackStackEntryAsState()
     val route = entry?.destination?.route
     val scope = rememberCoroutineScope()
+    val context = androidx.compose.ui.platform.LocalContext.current
     val reduce = rememberReduceMotion()
     val cover = remember { Animatable(0f) }
     var transitioning by remember { mutableStateOf(false) }
+    LaunchedEffect(pendingRoute.value) {
+        pendingRoute.value?.let { nav.navigate(it); pendingRoute.value = null }
+    }
 
     /** Animation 4: terracotta pixels cover, navigate, then uncover (250 ms each way, 12 fps steps). */
     fun openPatchWithCover(id: String) {
@@ -141,7 +159,12 @@ fun AppRoot(repo: Repository, prefs: Prefs) {
                         loading = { DitherShimmer() },
                         // First install (nothing seen yet): everything counts as seen, nothing animates.
                         wrapRow = { p, content -> DitherReveal(play = seen.isNotEmpty() && p !in seen) { content() } },
-                        onIndex = { patches -> scope.launch { prefs.addRevealed(patches) } },
+                        onIndex = { patches ->
+                            scope.launch {
+                                prefs.addRevealed(patches)
+                                runCatching { PatchWidget().updateAll(context) }
+                            }
+                        },
                     )
                 }
                 composable("patch/{id}") { back ->
@@ -154,10 +177,16 @@ fun AppRoot(repo: Repository, prefs: Prefs) {
                     // Marked as opened only once it actually loads, so an offline attempt keeps the animation.
                     firstOpen?.let {
                         PatchScreen(id, repo, prefs, onBack = { nav.popBackStack() }, animateNumbers = it,
-                            onLoaded = { if (it) scope.launch { prefs.addOpened(id) } })
+                            onLoaded = { if (it) scope.launch { prefs.addOpened(id) } },
+                            onOpenEntity = { e -> nav.navigate(if (e.kind == "item") "item/${e.id}" else "champion/${e.id}") })
                     }
                 }
-                composable("champions") { ChampionsScreen(repo, prefs, onOpen = { nav.navigate("champion/$it") }) }
+                composable("champions") {
+                    ChampionsScreen(repo, prefs, onOpen = { nav.navigate("champion/$it") }, onOpenItem = { nav.navigate("item/$it") })
+                }
+                composable("item/{id}") { back ->
+                    ChampionScreen(back.arguments?.getString("id")!!, repo, onBack = { nav.popBackStack() }, kind = "item")
+                }
                 composable("champion/{id}") { back ->
                     ChampionScreen(back.arguments?.getString("id")!!, repo, onBack = { nav.popBackStack() })
                 }

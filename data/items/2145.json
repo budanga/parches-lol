@@ -1,0 +1,42 @@
+{
+ "schemaVersion": 1,
+ "id": "2145",
+ "name": "Dados de la Suerte",
+ "tags": [
+  "Consumable"
+ ],
+ "entries": [
+  {
+   "patch": "25.9",
+   "publishedAt": "2025-04-29T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Modos de juego rotativos y cambios en Arena",
+     "sectionId": "patch-rotating-game-modes-and-arena-changes",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "2145",
+      "name": "Dados de la Suerte"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Tirada Alta: Ya no puedes vender Dados de la Suerte, debes consumirlo",
+     "id": "5d9613533bff",
+     "section": "modes",
+     "tags": [
+      "Consumable"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  }
+ ]
+}

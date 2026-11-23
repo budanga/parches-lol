@@ -1,0 +1,136 @@
+{
+ "schemaVersion": 1,
+ "id": "226668",
+ "name": "Ultrahidra",
+ "tags": [
+  "Damage",
+  "LifeSteal",
+  "AbilityHaste"
+ ],
+ "entries": [
+  {
+   "patch": "26.18",
+   "publishedAt": "2026-09-09T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "ARAM: Caos",
+     "sectionId": "patch-aram:-mayhem",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "226668",
+      "name": "Ultrahidra"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "new",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "NUEVO Restricción de venta: No puedes vender objetos de Hidra mientras tengas este aumento",
+     "id": "f01559794eb8",
+     "section": "modes",
+     "tags": [
+      "Damage",
+      "LifeSteal",
+      "AbilityHaste"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "26.17",
+   "publishedAt": "2026-08-25T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "ARAM: Caos",
+     "sectionId": "patch-aram:-mayhem",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "226668",
+      "name": "Ultrahidra"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "new",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "NUEVO Efecto: Obtienes un Tiamat al completar un objeto de Hidra",
+     "id": "e03f95ea3012",
+     "section": "modes",
+     "tags": [
+      "Damage",
+      "LifeSteal",
+      "AbilityHaste"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "ARAM: Caos",
+     "sectionId": "patch-aram:-mayhem",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "226668",
+      "name": "Ultrahidra"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "new",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "NUEVO Misión: Consigue Hidra Voraz, Hidra Profana e Hidra Titánica",
+     "id": "aad2a13b8e5a",
+     "section": "modes",
+     "tags": [
+      "Damage",
+      "LifeSteal",
+      "AbilityHaste"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "ARAM: Caos",
+     "sectionId": "patch-aram:-mayhem",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "226668",
+      "name": "Ultrahidra"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "new",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "NUEVO Recompensa: Obtienes Ultrahidra",
+     "id": "df5c6394a293",
+     "section": "modes",
+     "tags": [
+      "Damage",
+      "LifeSteal",
+      "AbilityHaste"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  }
+ ]
+}

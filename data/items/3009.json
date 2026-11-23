@@ -1,0 +1,42 @@
+{
+ "schemaVersion": 1,
+ "id": "3009",
+ "name": "Botas de Rapidez",
+ "tags": [
+  "Boots"
+ ],
+ "entries": [
+  {
+   "patch": "25.9",
+   "publishedAt": "2025-04-29T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Objetos",
+     "sectionId": "patch-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "3009",
+      "name": "Botas de Rapidez"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Velocidad de Movimiento",
+     "before": "60",
+     "after": "55",
+     "text": "Velocidad de Movimiento: 60 ⇒ 55",
+     "id": "8e1d064ce8ac",
+     "section": "items",
+     "tags": [
+      "Boots"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,80 @@
+{
+ "schemaVersion": 1,
+ "id": "6696",
+ "name": "Arco Axiomático",
+ "tags": [
+  "Damage",
+  "ArmorPenetration",
+  "AbilityHaste"
+ ],
+ "entries": [
+  {
+   "patch": "26.9",
+   "publishedAt": "2026-04-28T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Objetos",
+     "sectionId": "patch-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "6696",
+      "name": "Arco Axiomático"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Flujo",
+     "before": "Al lograr un derribo, recuperas un 15% (+0.15% por letalidad) del enfriamiento total de tu definitiva",
+     "after": "10% (+0.25% por letalidad)",
+     "text": "Flujo: Al lograr un derribo, recuperas un 15% (+0.15% por letalidad) del enfriamiento total de tu definitiva ⇒ 10% (+0.25% por letalidad)",
+     "id": "52404d95ceea",
+     "section": "items",
+     "tags": [
+      "Damage",
+      "ArmorPenetration",
+      "AbilityHaste"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.17",
+   "publishedAt": "2025-08-26T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Objetos",
+     "sectionId": "patch-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "6696",
+      "name": "Arco Axiomático"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Costo total de oro",
+     "before": "3000",
+     "after": "2750",
+     "text": "Costo total de oro: 3000 ⇒ 2750",
+     "id": "f9b900c0e58c",
+     "section": "items",
+     "tags": [
+      "Damage",
+      "ArmorPenetration",
+      "AbilityHaste"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  }
+ ]
+}

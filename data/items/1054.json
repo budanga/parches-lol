@@ -1,0 +1,46 @@
+{
+ "schemaVersion": 1,
+ "id": "1054",
+ "name": "Escudo de Doran",
+ "tags": [
+  "Health",
+  "HealthRegen",
+  "Lane"
+ ],
+ "entries": [
+  {
+   "patch": "25.21",
+   "publishedAt": "2025-10-21T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Objetos",
+     "sectionId": "patch-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "1054",
+      "name": "Escudo de Doran"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Curación máxima tras recibir daño",
+     "before": "45 (cuerpo a cuerpo) / 30 (a distancia)",
+     "after": "40 (cuerpo a cuerpo) / 30 (a distancia)",
+     "text": "Curación máxima tras recibir daño: 45 (cuerpo a cuerpo) / 30 (a distancia) ⇒ 40 (cuerpo a cuerpo) / 30 (a distancia)",
+     "id": "77838498e0e4",
+     "section": "items",
+     "tags": [
+      "Health",
+      "HealthRegen",
+      "Lane"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  }
+ ]
+}

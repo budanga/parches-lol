@@ -1,0 +1,98 @@
+{
+ "schemaVersion": 1,
+ "id": "4637",
+ "name": "Abrazo Demoniaco",
+ "tags": [
+  "Health",
+  "SpellDamage"
+ ],
+ "entries": [
+  {
+   "patch": "26.15",
+   "publishedAt": "2026-07-28T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "4637",
+      "name": "Abrazo Demoniaco"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Nivel máximo",
+     "before": "3",
+     "after": "2",
+     "text": "Nivel máximo: 3 ⇒ 2",
+     "id": "f5a199773021",
+     "section": "modes",
+     "tags": [
+      "Health",
+      "SpellDamage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "4637",
+      "name": "Abrazo Demoniaco"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño básico",
+     "before": "100 mínimo / 200 máximo",
+     "after": "100 mínimo / 300 máximo",
+     "text": "Daño básico: 100 mínimo / 200 máximo ⇒ 100 mínimo / 300 máximo",
+     "id": "a42421679887",
+     "section": "modes",
+     "tags": [
+      "Health",
+      "SpellDamage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "4637",
+      "name": "Abrazo Demoniaco"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Enfriamiento",
+     "before": "18",
+     "after": "12",
+     "text": "Enfriamiento: 18 ⇒ 12",
+     "id": "a86e67a1250e",
+     "section": "modes",
+     "tags": [
+      "Health",
+      "SpellDamage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,316 @@
+{
+ "schemaVersion": 1,
+ "id": "3032",
+ "name": "Flechas Salvajes de Yun Tal",
+ "tags": [
+  "Damage",
+  "CriticalStrike",
+  "AttackSpeed"
+ ],
+ "entries": [
+  {
+   "patch": "26.15",
+   "publishedAt": "2026-07-28T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Objetos",
+     "sectionId": "patch-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "3032",
+      "name": "Flechas Salvajes de Yun Tal"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Costo",
+     "before": "850 de oro",
+     "after": "750 de oro",
+     "text": "Costo: 850 de oro ⇒ 750 de oro",
+     "id": "2d266bb5daf6",
+     "section": "items",
+     "tags": [
+      "Damage",
+      "CriticalStrike",
+      "AttackSpeed"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Objetos",
+     "sectionId": "patch-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "3032",
+      "name": "Flechas Salvajes de Yun Tal"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Velocidad de Ataque",
+     "before": "40%",
+     "after": "45%",
+     "text": "Velocidad de Ataque: 40% ⇒ 45%",
+     "id": "1814f9268e69",
+     "section": "items",
+     "tags": [
+      "Damage",
+      "CriticalStrike",
+      "AttackSpeed"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "26.1",
+   "publishedAt": "2026-01-07T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Objetos actualizados",
+     "sectionId": "patch-updated-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "3032",
+      "name": "Flechas Salvajes de Yun Tal"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": null,
+     "before": "Ruta de armado: Espadón + Honda del Explorador + Espada Larga + 750 de oro",
+     "after": "Espadón + Honda del Explorador + Espada Larga + 850 de oro",
+     "text": "Ruta de armado: Espadón + Honda del Explorador + Espada Larga + 750 de oro ⇒ Espadón + Honda del Explorador + Espada Larga + 850 de oro",
+     "id": "48088b8c1c0b",
+     "section": "items",
+     "tags": [
+      "Damage",
+      "CriticalStrike",
+      "AttackSpeed"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Objetos actualizados",
+     "sectionId": "patch-updated-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "3032",
+      "name": "Flechas Salvajes de Yun Tal"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": null,
+     "before": "Costo total: 3000 de oro",
+     "after": "3100 de oro",
+     "text": "Costo total: 3000 de oro ⇒ 3100 de oro",
+     "id": "3edbc08f3900",
+     "section": "items",
+     "tags": [
+      "Damage",
+      "CriticalStrike",
+      "AttackSpeed"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Objetos actualizados",
+     "sectionId": "patch-updated-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "3032",
+      "name": "Flechas Salvajes de Yun Tal"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": null,
+     "before": "Daño de Ataque: 55",
+     "after": "50",
+     "text": "Daño de Ataque: 55 ⇒ 50",
+     "id": "7a98519c8203",
+     "section": "items",
+     "tags": [
+      "Damage",
+      "CriticalStrike",
+      "AttackSpeed"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Objetos actualizados",
+     "sectionId": "patch-updated-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "3032",
+      "name": "Flechas Salvajes de Yun Tal"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": null,
+     "before": "Velocidad de Ataque: 35%",
+     "after": "40%",
+     "text": "Velocidad de Ataque: 35% ⇒ 40%",
+     "id": "461b74addc9d",
+     "section": "items",
+     "tags": [
+      "Damage",
+      "CriticalStrike",
+      "AttackSpeed"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.5",
+   "publishedAt": "2025-03-04T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Objetos",
+     "sectionId": "patch-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "3032",
+      "name": "Flechas Salvajes de Yun Tal"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Probabilidad de Golpe Crítico por acumulación de A Más Práctica, Más Letalidad",
+     "before": "0.2% por cada acumulación",
+     "after": "0.4% / 0.2% (cuerpo a cuerpo/a distancia)",
+     "text": "Probabilidad de Golpe Crítico por acumulación de A Más Práctica, Más Letalidad: 0.2% por cada acumulación ⇒ 0.4% / 0.2% (cuerpo a cuerpo/a distancia)",
+     "id": "856a3ce9ddd7",
+     "section": "items",
+     "tags": [
+      "Damage",
+      "CriticalStrike",
+      "AttackSpeed"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.S1.2",
+   "publishedAt": "2025-01-22T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Objetos",
+     "sectionId": "patch-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "3032",
+      "name": "Flechas Salvajes de Yun Tal"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño de Ataque",
+     "before": "50",
+     "after": "55",
+     "text": "Daño de Ataque: 50 ⇒ 55",
+     "id": "5251cc887778",
+     "section": "items",
+     "tags": [
+      "Damage",
+      "CriticalStrike",
+      "AttackSpeed"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Objetos",
+     "sectionId": "patch-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "3032",
+      "name": "Flechas Salvajes de Yun Tal"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Velocidad de Ataque",
+     "before": "25%",
+     "after": "35%",
+     "text": "Velocidad de Ataque: 25% ⇒ 35%",
+     "id": "87311cbd2b1f",
+     "section": "items",
+     "tags": [
+      "Damage",
+      "CriticalStrike",
+      "AttackSpeed"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Objetos",
+     "sectionId": "patch-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "3032",
+      "name": "Flechas Salvajes de Yun Tal"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Costo total de oro",
+     "before": "2900 de oro",
+     "after": "3000 de oro",
+     "text": "Costo total de oro: 2900 de oro ⇒ 3000 de oro",
+     "id": "ba694685be48",
+     "section": "items",
+     "tags": [
+      "Damage",
+      "CriticalStrike",
+      "AttackSpeed"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  }
+ ]
+}

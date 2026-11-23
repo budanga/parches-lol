@@ -39,12 +39,14 @@ class Repository(
     suspend fun index(): Loaded<IndexFile> = load("index.json", IndexFile.serializer())
     suspend fun patch(id: String): Loaded<PatchFile> = load("patches/$id.json", PatchFile.serializer())
     suspend fun champion(id: String): Loaded<ChampionHistory> = load("champions/$id.json", ChampionHistory.serializer())
+    suspend fun item(id: String): Loaded<ChampionHistory> = load("items/$id.json", ChampionHistory.serializer())
     suspend fun news(): Loaded<List<NewsItem>> = load("news.json", ListSerializer(NewsItem.serializer()))
     suspend fun catalog(): Loaded<Catalog> = load("catalog.json", Catalog.serializer())
 
     /** The saved copies, without touching the network (shown first, then refreshed). */
     suspend fun cachedIndex(): IndexFile? = cached("index.json", IndexFile.serializer())
     suspend fun cachedPatch(id: String): PatchFile? = cached("patches/$id.json", PatchFile.serializer())
+    suspend fun cachedCatalog(): Catalog? = cached("catalog.json", Catalog.serializer())
     suspend fun cachedNews(): List<NewsItem>? = cached("news.json", ListSerializer(NewsItem.serializer()))
 
     private suspend fun <T> cached(path: String, serializer: KSerializer<T>): T? = withContext(Dispatchers.IO) {

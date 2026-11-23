@@ -1,0 +1,83 @@
+{
+ "schemaVersion": 1,
+ "id": "3877",
+ "name": "Canción de Sangre",
+ "tags": [
+  "Health",
+  "HealthRegen",
+  "ManaRegen",
+  "Vision",
+  "GoldPer",
+  "Lane"
+ ],
+ "entries": [
+  {
+   "patch": "25.S1.3",
+   "publishedAt": "2025-02-04T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Objetos",
+     "sectionId": "patch-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "3877",
+      "name": "Canción de Sangre"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño recibido aumentado de Expón su Debilidad",
+     "before": "10% cuerpo a cuerpo | 5% a distancia",
+     "after": "8% cuerpo a cuerpo | 5% a distancia",
+     "text": "Daño recibido aumentado de Expón su Debilidad: 10% cuerpo a cuerpo | 5% a distancia ⇒ 8% cuerpo a cuerpo | 5% a distancia",
+     "id": "164e643f9f2c",
+     "section": "items",
+     "tags": [
+      "Health",
+      "HealthRegen",
+      "ManaRegen",
+      "Vision",
+      "GoldPer",
+      "Lane"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Objetos",
+     "sectionId": "patch-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "3877",
+      "name": "Canción de Sangre"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Duración",
+     "before": "6 seg",
+     "after": "4 seg",
+     "text": "Duración: 6 seg ⇒ 4 seg",
+     "id": "a7fea3622078",
+     "section": "items",
+     "tags": [
+      "Health",
+      "HealthRegen",
+      "ManaRegen",
+      "Vision",
+      "GoldPer",
+      "Lane"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,110 @@
+{
+ "schemaVersion": 1,
+ "id": "6698",
+ "name": "Hidra Profana",
+ "tags": [
+  "Damage",
+  "Active",
+  "CooldownReduction",
+  "ArmorPenetration",
+  "AbilityHaste"
+ ],
+ "entries": [
+  {
+   "patch": "25.17",
+   "publishedAt": "2025-08-26T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Objetos",
+     "sectionId": "patch-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "6698",
+      "name": "Hidra Profana"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño de Ataque",
+     "before": "60",
+     "after": "55",
+     "text": "Daño de Ataque: 60 ⇒ 55",
+     "id": "6b29b4bd1ed9",
+     "section": "items",
+     "tags": [
+      "Damage",
+      "Active",
+      "CooldownReduction",
+      "ArmorPenetration",
+      "AbilityHaste"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Objetos",
+     "sectionId": "patch-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "6698",
+      "name": "Hidra Profana"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Costo total de oro",
+     "before": "3200",
+     "after": "2850",
+     "text": "Costo total de oro: 3200 ⇒ 2850",
+     "id": "71aefae67cfb",
+     "section": "items",
+     "tags": [
+      "Damage",
+      "Active",
+      "CooldownReduction",
+      "ArmorPenetration",
+      "AbilityHaste"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Objetos",
+     "sectionId": "patch-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "6698",
+      "name": "Hidra Profana"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Ruta de armado",
+     "before": "Tiamat + El Brutalizador + 663 de oro",
+     "after": "Tiamat + El Brutalizador + 313 de oro",
+     "text": "Ruta de armado: Tiamat + El Brutalizador + 663 de oro ⇒ Tiamat + El Brutalizador + 313 de oro",
+     "id": "61c7dc896807",
+     "section": "items",
+     "tags": [
+      "Damage",
+      "Active",
+      "CooldownReduction",
+      "ArmorPenetration",
+      "AbilityHaste"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  }
+ ]
+}

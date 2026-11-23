@@ -1,0 +1,176 @@
+{
+ "schemaVersion": 1,
+ "id": "1086",
+ "name": "Arco de Doran",
+ "tags": [
+  "Damage",
+  "AttackSpeed",
+  "SpellVamp",
+  "Lane"
+ ],
+ "entries": [
+  {
+   "patch": "26.22",
+   "publishedAt": "2026-11-03T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Objetos",
+     "sectionId": "patch-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "1086",
+      "name": "Arco de Doran"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño de Ataque",
+     "before": "8",
+     "after": "7",
+     "text": "Daño de Ataque: 8 ⇒ 7",
+     "id": "cfa85ab94d33",
+     "section": "items",
+     "tags": [
+      "Damage",
+      "AttackSpeed",
+      "SpellVamp",
+      "Lane"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "26.10",
+   "publishedAt": "2026-05-12T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Objetos",
+     "sectionId": "patch-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "1086",
+      "name": "Arco de Doran"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño de Ataque",
+     "before": "6",
+     "after": "8",
+     "text": "Daño de Ataque: 6 ⇒ 8",
+     "id": "0fdb0c021ed5",
+     "section": "items",
+     "tags": [
+      "Damage",
+      "AttackSpeed",
+      "SpellVamp",
+      "Lane"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "26.9",
+   "publishedAt": "2026-04-28T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Objetos",
+     "sectionId": "patch-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "1086",
+      "name": "Arco de Doran"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Daño de Ataque: 6",
+     "id": "d37f40b93864",
+     "section": "items",
+     "tags": [
+      "Damage",
+      "AttackSpeed",
+      "SpellVamp",
+      "Lane"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Objetos",
+     "sectionId": "patch-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "1086",
+      "name": "Arco de Doran"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Velocidad de Ataque: 12%",
+     "id": "2322c81803ad",
+     "section": "items",
+     "tags": [
+      "Damage",
+      "AttackSpeed",
+      "SpellVamp",
+      "Lane"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Objetos",
+     "sectionId": "patch-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "1086",
+      "name": "Arco de Doran"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Omnivampirismo: 1.5%",
+     "id": "b2546860ba5c",
+     "section": "items",
+     "tags": [
+      "Damage",
+      "AttackSpeed",
+      "SpellVamp",
+      "Lane"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  }
+ ]
+}

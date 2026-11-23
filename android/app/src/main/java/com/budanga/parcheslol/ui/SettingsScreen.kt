@@ -51,7 +51,7 @@ fun SettingsScreen(repo: Repository, prefs: Prefs, onBack: () -> Unit) {
     val newsAlerts by prefs.newsAlerts.collectAsState(initial = false)
 
     Column(Modifier.fillMaxSize().padding(horizontal = 12.dp)) {
-        DetailBar(stringResource(R.string.settings), null, onBack) { Text(stringResource(R.string.settings), style = Type.serif(24)) }
+        DetailBar(stringResource(R.string.settings), null, onBack, titleContent = { Text(stringResource(R.string.settings), style = Type.serif(24)) })
         // Without the catalog (offline on first run) the news switch and reset still show.
         val data = catalog
         val defaultItems = data?.items.orEmpty().filter { isDefaultAdcItem(it.tags) }.map { it.id }.toSet()

@@ -1,0 +1,263 @@
+{
+ "schemaVersion": 1,
+ "id": "2530",
+ "name": "Diadema Musical",
+ "tags": [
+  "Health",
+  "Mana",
+  "ManaRegen",
+  "AbilityHaste"
+ ],
+ "entries": [
+  {
+   "patch": "26.23",
+   "publishedAt": "2026-11-17T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "2530",
+      "name": "Diadema Musical"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Tasa curación según el Maná de Consonancia",
+     "before": "0.8%",
+     "after": "1.6%",
+     "text": "Tasa curación según el Maná de Consonancia: 0.8% ⇒ 1.6%",
+     "id": "185e288d6ca7",
+     "section": "modes",
+     "tags": [
+      "Health",
+      "Mana",
+      "ManaRegen",
+      "AbilityHaste"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "26.5",
+   "publishedAt": "2026-03-03T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "ARAM: Caos",
+     "sectionId": "patch-aram:-mayhem",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "2530",
+      "name": "Diadema Musical"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Plata: El misil de curación de la Diadema no seleccionará objetivos con Vampirismo",
+     "id": "c5e5dfde39e9",
+     "section": "modes",
+     "tags": [
+      "Health",
+      "Mana",
+      "ManaRegen",
+      "AbilityHaste"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "26.1",
+   "publishedAt": "2026-01-07T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Objetos nuevos",
+     "sectionId": "patch-new-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "2530",
+      "name": "Diadema de la Canción"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Vida: 200",
+     "id": "0edc94d29d6a",
+     "section": "items",
+     "tags": [
+      "Health",
+      "Mana",
+      "ManaRegen",
+      "AbilityHaste"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Objetos nuevos",
+     "sectionId": "patch-new-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "2530",
+      "name": "Diadema de la Canción"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Maná: 1000",
+     "id": "f1bc0055cd4a",
+     "section": "items",
+     "tags": [
+      "Health",
+      "Mana",
+      "ManaRegen",
+      "AbilityHaste"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Objetos nuevos",
+     "sectionId": "patch-new-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "2530",
+      "name": "Diadema de la Canción"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Regeneración de Maná Básica: 100%",
+     "id": "388758204c6b",
+     "section": "items",
+     "tags": [
+      "Health",
+      "Mana",
+      "ManaRegen",
+      "AbilityHaste"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Objetos nuevos",
+     "sectionId": "patch-new-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "2530",
+      "name": "Diadema de la Canción"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Poder de curaciones y escudos: 8%",
+     "id": "d8e3e2159fbd",
+     "section": "items",
+     "tags": [
+      "Health",
+      "Mana",
+      "ManaRegen",
+      "AbilityHaste"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Objetos nuevos",
+     "sectionId": "patch-new-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "2530",
+      "name": "Diadema de la Canción"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Armonía: Obtienes un (0.005% de Maná adicional)% de poder de curaciones y escudos",
+     "id": "ab7e164b4661",
+     "section": "items",
+     "tags": [
+      "Health",
+      "Mana",
+      "ManaRegen",
+      "AbilityHaste"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Objetos nuevos",
+     "sectionId": "patch-new-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "2530",
+      "name": "Diadema de la Canción"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Consonancia: Mientras tú o cualquier aliado al que le hayas otorgado una curación o un escudo en los últimos 3 seg están en combate contra campeones, le restauras (0.008% de Maná adicional) de Vida al campeón aliado cercano con menor cantidad de vida",
+     "id": "3a204a92a489",
+     "section": "items",
+     "tags": [
+      "Health",
+      "Mana",
+      "ManaRegen",
+      "AbilityHaste"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  }
+ ]
+}

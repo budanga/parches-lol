@@ -1,0 +1,198 @@
+{
+ "schemaVersion": 1,
+ "id": "3033",
+ "name": "Recordatorio Mortal",
+ "tags": [
+  "Damage",
+  "CriticalStrike",
+  "ArmorPenetration"
+ ],
+ "entries": [
+  {
+   "patch": "26.17",
+   "publishedAt": "2026-08-25T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "3033",
+      "name": "Recordatorio Mortal"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño de Ataque",
+     "before": "30",
+     "after": "40",
+     "text": "Daño de Ataque: 30 ⇒ 40",
+     "id": "eda12cd36c83",
+     "section": "modes",
+     "tags": [
+      "Damage",
+      "CriticalStrike",
+      "ArmorPenetration"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "26.1",
+   "publishedAt": "2026-01-07T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Objetos actualizados",
+     "sectionId": "patch-updated-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "3033",
+      "name": "Recordatorio Mortal"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": null,
+     "before": "Ruta de armado: El Llamado del Verdugo + Último Suspiro + Capa de Agilidad + 450 de oro",
+     "after": "El Llamado del Verdugo + Último Suspiro + Capa de Agilidad + 150 de oro",
+     "text": "Ruta de armado: El Llamado del Verdugo + Último Suspiro + Capa de Agilidad + 450 de oro ⇒ El Llamado del Verdugo + Último Suspiro + Capa de Agilidad + 150 de oro",
+     "id": "3b023b64886c",
+     "section": "items",
+     "tags": [
+      "Damage",
+      "CriticalStrike",
+      "ArmorPenetration"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Objetos actualizados",
+     "sectionId": "patch-updated-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "3033",
+      "name": "Recordatorio Mortal"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": null,
+     "before": "Costo total: 3300 de oro",
+     "after": "3000 de oro",
+     "text": "Costo total: 3300 de oro ⇒ 3000 de oro",
+     "id": "5cc7c6ee723d",
+     "section": "items",
+     "tags": [
+      "Damage",
+      "CriticalStrike",
+      "ArmorPenetration"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Objetos actualizados",
+     "sectionId": "patch-updated-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "3033",
+      "name": "Recordatorio Mortal"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": null,
+     "before": "Penetración de Armadura: 35%",
+     "after": "30%",
+     "text": "Penetración de Armadura: 35% ⇒ 30%",
+     "id": "d974bd899c21",
+     "section": "items",
+     "tags": [
+      "Damage",
+      "CriticalStrike",
+      "ArmorPenetration"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.S1.2",
+   "publishedAt": "2025-01-22T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Objetos",
+     "sectionId": "patch-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "3033",
+      "name": "Recordatorio Mortal"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Costo total de oro",
+     "before": "3200 de oro",
+     "after": "3300 de oro",
+     "text": "Costo total de oro: 3200 de oro ⇒ 3300 de oro",
+     "id": "be81642d7a62",
+     "section": "items",
+     "tags": [
+      "Damage",
+      "CriticalStrike",
+      "ArmorPenetration"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Objetos",
+     "sectionId": "patch-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "3033",
+      "name": "Recordatorio Mortal"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Penetración de Armadura",
+     "before": "30%",
+     "after": "35%",
+     "text": "Penetración de Armadura: 30% ⇒ 35%",
+     "id": "c7da7454cdd9",
+     "section": "items",
+     "tags": [
+      "Damage",
+      "CriticalStrike",
+      "ArmorPenetration"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  }
+ ]
+}

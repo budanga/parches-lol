@@ -8,6 +8,7 @@ import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.lazy.LazyColumn
+import androidx.compose.foundation.lazy.LazyListState
 import androidx.compose.foundation.lazy.items
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.automirrored.outlined.ArrowBack
@@ -45,12 +46,20 @@ import com.budanga.parcheslol.domain.RowItem
 import com.budanga.parcheslol.domain.rowsFor
 import com.budanga.parcheslol.domain.adcGroups
 import com.budanga.parcheslol.domain.allGroups
+import com.budanga.parcheslol.domain.filterGroups
+import androidx.compose.material.icons.outlined.Search
 import com.budanga.parcheslol.domain.shortDate
 import kotlinx.coroutines.launch
 
 /** Top bar shared by the detail screens: back arrow, serif title, optional mono date. */
 @Composable
-fun DetailBar(title: String, date: String?, onBack: () -> Unit, titleContent: (@Composable () -> Unit)? = null) {
+fun DetailBar(
+    title: String,
+    date: String?,
+    onBack: () -> Unit,
+    titleContent: (@Composable () -> Unit)? = null,
+    action: (@Composable () -> Unit)? = null,
+) {
     Row(verticalAlignment = Alignment.CenterVertically) {
         IconButton(onClick = onBack) {
             Icon(Icons.AutoMirrored.Outlined.ArrowBack, stringResource(R.string.back), tint = Ink.Text2)
@@ -58,6 +67,7 @@ fun DetailBar(title: String, date: String?, onBack: () -> Unit, titleContent: (@
         if (titleContent != null) titleContent() else Text(title, style = Type.serif(28))
         Spacer(Modifier.weight(1f))
         date?.let { Text(it, style = Type.Date, modifier = Modifier.padding(end = 4.dp)) }
+        action?.invoke()
     }
 }
 
@@ -69,6 +79,7 @@ fun PatchScreen(
     onBack: () -> Unit,
     animateNumbers: Boolean = false,
     onLoaded: () -> Unit = {},
+    onOpenEntity: (com.budanga.parcheslol.data.Entity) -> Unit = {},
 ) {
     val scope = rememberCoroutineScope()
     var state by remember { mutableStateOf<Loaded<PatchFile>?>(null) }
@@ -90,12 +101,24 @@ fun PatchScreen(
         else repo.catalog().valueOrNull?.items.orEmpty().filter { it.id in ids }.map { it.name }.toSet()
     }
     var showAll by rememberSaveable { mutableStateOf(false) }
+    var searching by rememberSaveable { mutableStateOf(false) }
+    var query by rememberSaveable { mutableStateOf("") }
     val expanded = remember { mutableStateMapOf<String, Boolean>() }
     val once = remember(patchId) { PlayOnce() }
+    // Each patch starts at the top: the scroll position belongs to this patch only.
+    val listState = remember(patchId) { LazyListState() }
     val patch = state?.valueOrNull
 
     Column(Modifier.fillMaxSize().padding(horizontal = 12.dp)) {
-        DetailBar(patchId, patch?.let { shortDate(it.publishedAt) }, onBack)
+        DetailBar(patchId, patch?.let { shortDate(it.publishedAt) }, onBack, action = {
+            IconButton(onClick = { searching = !searching; if (!searching) query = "" }) {
+                Icon(Icons.Outlined.Search, stringResource(R.string.search_patch), tint = if (searching) Ink.Accent else Ink.Faint)
+            }
+        })
+        if (searching) {
+            SearchField(query, { query = it }, stringResource(R.string.search_patch))
+            Spacer(Modifier.height(8.dp))
+        }
         Segmented(
             listOf(stringResource(R.string.for_adc), stringResource(R.string.all)),
             if (showAll) 1 else 0,
@@ -104,9 +127,12 @@ fun PatchScreen(
             state == Loaded.Offline -> OfflineMessage { scope.launch { reload++ } }
             state == Loaded.Missing -> Text(stringResource(R.string.patch_missing), style = Type.BodyMuted, modifier = Modifier.padding(vertical = 16.dp))
             patch != null -> {
-                val groups = if (showAll) allGroups(patch) else adcGroups(patch, myAdcs, myItems, itemNames)
-                LazyColumn(Modifier.fillMaxSize()) {
-                    if (!showAll && groups.none { it.entity != null }) {
+                val base = if (showAll) allGroups(patch) else adcGroups(patch, myAdcs, myItems, itemNames)
+                val groups = filterGroups(base, query)
+                LazyColumn(Modifier.fillMaxSize(), state = listState) {
+                    if (query.isNotBlank() && groups.isEmpty()) {
+                        item { Text(stringResource(R.string.no_results), style = Type.BodyMuted, modifier = Modifier.padding(vertical = 16.dp)) }
+                    } else if (query.isBlank() && !showAll && groups.none { it.entity != null }) {
                         item { Text(stringResource(R.string.no_adc_changes), style = Type.BodyMuted, modifier = Modifier.padding(vertical = 16.dp)) }
                     }
                     items(groups, key = { it.key }) { group ->
@@ -117,6 +143,7 @@ fun PatchScreen(
                             onToggle = { expanded[group.key] = expanded[group.key] != true },
                             animateNumbers = animateNumbers,
                             once = once,
+                            onOpenEntity = onOpenEntity,
                         )
                     }
                     item { Spacer(Modifier.height(24.dp)) }
@@ -127,7 +154,15 @@ fun PatchScreen(
 }
 
 @Composable
-fun GroupBlock(group: Group, ddragonVersion: String, open: Boolean, onToggle: () -> Unit, animateNumbers: Boolean, once: PlayOnce) {
+fun GroupBlock(
+    group: Group,
+    ddragonVersion: String,
+    open: Boolean,
+    onToggle: () -> Unit,
+    animateNumbers: Boolean,
+    once: PlayOnce,
+    onOpenEntity: (com.budanga.parcheslol.data.Entity) -> Unit = {},
+) {
     Column {
         val title = if (group.key == "global") stringResource(R.string.global) else group.title
         if (group.collapsed) {
@@ -137,7 +172,12 @@ fun GroupBlock(group: Group, ddragonVersion: String, open: Boolean, onToggle: ()
                 }
             }
         } else {
-            EntityHeader(group.entity, title, ddragonVersion)
+            val entity = group.entity
+            // Champion and item names open their history.
+            val tappable = entity?.id != null && (entity.kind == "champion" || entity.kind == "item")
+            Column(if (tappable) Modifier.clickable { onOpenEntity(entity!!) } else Modifier) {
+                EntityHeader(entity, title, ddragonVersion)
+            }
         }
         if (open) {
             var previousWasLine = false

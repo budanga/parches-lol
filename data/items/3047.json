@@ -1,0 +1,44 @@
+{
+ "schemaVersion": 1,
+ "id": "3047",
+ "name": "Punteras de Acero Revestidas",
+ "tags": [
+  "Armor",
+  "Boots"
+ ],
+ "entries": [
+  {
+   "patch": "25.4",
+   "publishedAt": "2025-02-19T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Objetos",
+     "sectionId": "patch-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "3047",
+      "name": "Punteras de Acero Revestidas"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Reducción de daño de autoataques",
+     "before": "12%",
+     "after": "10%",
+     "text": "Reducción de daño de autoataques: 12% ⇒ 10%",
+     "id": "ddaeacd4dd3d",
+     "section": "items",
+     "tags": [
+      "Armor",
+      "Boots"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  }
+ ]
+}

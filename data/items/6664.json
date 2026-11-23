@@ -1,0 +1,89 @@
+{
+ "schemaVersion": 1,
+ "id": "6664",
+ "name": "Resplandor Vacío",
+ "tags": [
+  "Health",
+  "SpellBlock",
+  "HealthRegen",
+  "Aura",
+  "MagicResist",
+  "AbilityHaste"
+ ],
+ "entries": [
+  {
+   "patch": "25.18",
+   "publishedAt": "2025-09-09T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones (Arena)",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "6664",
+      "name": "Resplandor Vacío"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": null,
+     "before": "Aumento de Vida adicional: 4% adicional",
+     "after": "5% adicional",
+     "text": "Aumento de Vida adicional: 4% adicional ⇒ 5% adicional",
+     "id": "327e5a89b1d3",
+     "section": "modes",
+     "tags": [
+      "Health",
+      "SpellBlock",
+      "HealthRegen",
+      "Aura",
+      "MagicResist",
+      "AbilityHaste"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.16",
+   "publishedAt": "2025-08-12T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Objetos",
+     "sectionId": "patch-Items-",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "6664",
+      "name": "Resplandor Vacío"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": null,
+     "before": "Daño de área de efecto: 3% del total de Vida",
+     "after": "4% de la Vida adicional (coincide con las estadísticas de Capa de Fuego Solar)",
+     "text": "Daño de área de efecto: 3% del total de Vida ⇒ 4% de la Vida adicional (coincide con las estadísticas de Capa de Fuego Solar)",
+     "id": "742a7d265612",
+     "section": "items",
+     "tags": [
+      "Health",
+      "SpellBlock",
+      "HealthRegen",
+      "Aura",
+      "MagicResist",
+      "AbilityHaste"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  }
+ ]
+}

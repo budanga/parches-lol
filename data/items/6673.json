@@ -1,0 +1,131 @@
+{
+ "schemaVersion": 1,
+ "id": "6673",
+ "name": "Arcoescudo Inmortal",
+ "tags": [
+  "Damage",
+  "CriticalStrike"
+ ],
+ "entries": [
+  {
+   "patch": "26.8",
+   "publishedAt": "2026-04-14T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "ARAM: Caos",
+     "sectionId": "patch-aram:-mayhem",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "6673",
+      "name": "Arcoescudo Inmortal"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": null,
+     "before": "Enfriamiento: 75 seg",
+     "after": "60 seg",
+     "text": "Enfriamiento: 75 seg ⇒ 60 seg",
+     "id": "e3bb2084a5bd",
+     "section": "modes",
+     "tags": [
+      "Damage",
+      "CriticalStrike"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "ARAM: Caos",
+     "sectionId": "patch-aram:-mayhem",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "6673",
+      "name": "Arcoescudo Inmortal"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Relicario de los Solari de Hierro",
+     "id": "c192edc412d0",
+     "section": "modes",
+     "tags": [
+      "Damage",
+      "CriticalStrike"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "ARAM: Caos",
+     "sectionId": "patch-aram:-mayhem",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "6673",
+      "name": "Arcoescudo Inmortal"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": null,
+     "before": "Enfriamiento: 90 seg",
+     "after": "75 seg",
+     "text": "Enfriamiento: 90 seg ⇒ 75 seg",
+     "id": "4fe7837cfa04",
+     "section": "modes",
+     "tags": [
+      "Damage",
+      "CriticalStrike"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.19",
+   "publishedAt": "2025-09-23T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Cambios de balance de ARAM",
+     "sectionId": "patch-aram-balance-changes",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "6673",
+      "name": "Arcoescudo Inmortal"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Enfriamiento de Salvavidas",
+     "before": "90 seg",
+     "after": "75 seg",
+     "text": "Enfriamiento de Salvavidas: 90 seg ⇒ 75 seg",
+     "id": "a4fbbfe1113a",
+     "section": "modes",
+     "tags": [
+      "Damage",
+      "CriticalStrike"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  }
+ ]
+}

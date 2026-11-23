@@ -1,0 +1,164 @@
+{
+ "schemaVersion": 1,
+ "id": "3137",
+ "name": "Criptorretoño",
+ "tags": [
+  "SpellDamage",
+  "MagicPenetration",
+  "AbilityHaste"
+ ],
+ "entries": [
+  {
+   "patch": "25.10",
+   "publishedAt": "2025-05-13T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Objetos",
+     "sectionId": "patch-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "3137",
+      "name": "Criptorretoño"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Poder de Habilidad",
+     "before": "60",
+     "after": "75",
+     "text": "Poder de Habilidad: 60 ⇒ 75",
+     "id": "17a6da88329b",
+     "section": "items",
+     "tags": [
+      "SpellDamage",
+      "MagicPenetration",
+      "AbilityHaste"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Objetos",
+     "sectionId": "patch-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "3137",
+      "name": "Criptorretoño"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Curación de Vida en la Muerte",
+     "before": "100 (+ 25% de Poder de Habilidad)",
+     "after": "100 (+ 20% de Poder de Habilidad)",
+     "text": "Curación de Vida en la Muerte: 100 (+ 25% de Poder de Habilidad) ⇒ 100 (+ 20% de Poder de Habilidad)",
+     "id": "5d937f4fee36",
+     "section": "items",
+     "tags": [
+      "SpellDamage",
+      "MagicPenetration",
+      "AbilityHaste"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Objetos",
+     "sectionId": "patch-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "3137",
+      "name": "Criptorretoño"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Ruta de armado",
+     "before": "Joya Maldita + Códice Diabólico + 900 de oro",
+     "after": "Joya Maldita + Códice Diabólico + Códice Diabólico + 200 de oro",
+     "text": "Ruta de armado: Joya Maldita + Códice Diabólico + 900 de oro ⇒ Joya Maldita + Códice Diabólico + Códice Diabólico + 200 de oro",
+     "id": "96676f427d9d",
+     "section": "items",
+     "tags": [
+      "SpellDamage",
+      "MagicPenetration",
+      "AbilityHaste"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Objetos",
+     "sectionId": "patch-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "3137",
+      "name": "Criptorretoño"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Costo total de oro",
+     "before": "2850",
+     "after": "3000",
+     "text": "Costo total de oro: 2850 ⇒ 3000",
+     "id": "24c386bdeccf",
+     "section": "items",
+     "tags": [
+      "SpellDamage",
+      "MagicPenetration",
+      "AbilityHaste"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.8",
+   "publishedAt": "2025-04-15T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Objetos",
+     "sectionId": "patch-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "3137",
+      "name": "Criptorretoño"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Aceleración de Habilidad",
+     "before": "15",
+     "after": "20",
+     "text": "Aceleración de Habilidad: 15 ⇒ 20",
+     "id": "71be644fcd60",
+     "section": "items",
+     "tags": [
+      "SpellDamage",
+      "MagicPenetration",
+      "AbilityHaste"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  }
+ ]
+}

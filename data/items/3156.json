@@ -1,0 +1,182 @@
+{
+ "schemaVersion": 1,
+ "id": "3156",
+ "name": "Fauces de Malmortius",
+ "tags": [
+  "SpellBlock",
+  "Damage",
+  "LifeSteal",
+  "SpellVamp",
+  "AbilityHaste"
+ ],
+ "entries": [
+  {
+   "patch": "26.8",
+   "publishedAt": "2026-04-14T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "ARAM: Caos",
+     "sectionId": "patch-aram:-mayhem",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "3156",
+      "name": "Fauces de Malmortius"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": null,
+     "before": "Enfriamiento: 75 seg",
+     "after": "60 seg",
+     "text": "Enfriamiento: 75 seg ⇒ 60 seg",
+     "id": "b23ddca58e19",
+     "section": "modes",
+     "tags": [
+      "SpellBlock",
+      "Damage",
+      "LifeSteal",
+      "SpellVamp",
+      "AbilityHaste"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "ARAM: Caos",
+     "sectionId": "patch-aram:-mayhem",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "3156",
+      "name": "Fauces de Malmortius"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Arnés de Protoplasma",
+     "id": "01db45cd97c7",
+     "section": "modes",
+     "tags": [
+      "SpellBlock",
+      "Damage",
+      "LifeSteal",
+      "SpellVamp",
+      "AbilityHaste"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "ARAM: Caos",
+     "sectionId": "patch-aram:-mayhem",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "3156",
+      "name": "Fauces de Malmortius"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": null,
+     "before": "Enfriamiento: 90 seg",
+     "after": "60 seg",
+     "text": "Enfriamiento: 90 seg ⇒ 60 seg",
+     "id": "c3a036fc89c4",
+     "section": "modes",
+     "tags": [
+      "SpellBlock",
+      "Damage",
+      "LifeSteal",
+      "SpellVamp",
+      "AbilityHaste"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.19",
+   "publishedAt": "2025-09-23T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Cambios de balance de ARAM",
+     "sectionId": "patch-aram-balance-changes",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "3156",
+      "name": "Fauces de Malmortius"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Enfriamiento de Salvavidas",
+     "before": "90 seg",
+     "after": "75 seg",
+     "text": "Enfriamiento de Salvavidas: 90 seg ⇒ 75 seg",
+     "id": "b3a712e2e080",
+     "section": "modes",
+     "tags": [
+      "SpellBlock",
+      "Damage",
+      "LifeSteal",
+      "SpellVamp",
+      "AbilityHaste"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.9",
+   "publishedAt": "2025-04-29T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Modos de juego rotativos y cambios en Arena",
+     "sectionId": "patch-rotating-game-modes-and-arena-changes",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "3156",
+      "name": "Fauces de Malmortius"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Enfriamiento",
+     "before": "45",
+     "after": "30",
+     "text": "Enfriamiento: 45 ⇒ 30",
+     "id": "e56158f8636d",
+     "section": "modes",
+     "tags": [
+      "SpellBlock",
+      "Damage",
+      "LifeSteal",
+      "SpellVamp",
+      "AbilityHaste"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  }
+ ]
+}

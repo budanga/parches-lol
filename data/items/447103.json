@@ -1,0 +1,46 @@
+{
+ "schemaVersion": 1,
+ "id": "447103",
+ "name": "Casco del Hemomante",
+ "tags": [
+  "Damage",
+  "SpellVamp",
+  "AbilityHaste"
+ ],
+ "entries": [
+  {
+   "patch": "25.24",
+   "publishedAt": "2025-12-02T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "447103",
+      "name": "Casco del Hemomante"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": null,
+     "before": "Daño de Ataque: 60",
+     "after": "70",
+     "text": "Daño de Ataque: 60 ⇒ 70",
+     "id": "e7fc0c8d5473",
+     "section": "modes",
+     "tags": [
+      "Damage",
+      "SpellVamp",
+      "AbilityHaste"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  }
+ ]
+}

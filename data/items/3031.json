@@ -1,0 +1,185 @@
+{
+ "schemaVersion": 1,
+ "id": "3031",
+ "name": "Filo del Infinito",
+ "tags": [
+  "CriticalStrike",
+  "Damage"
+ ],
+ "entries": [
+  {
+   "patch": "26.1",
+   "publishedAt": "2026-01-07T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Objetos actualizados",
+     "sectionId": "patch-updated-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "3031",
+      "name": "Filo del Infinito"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": null,
+     "before": "Ruta de armado: Espadón + Picacha + Capa de Agilidad + 675 de oro",
+     "after": "Espadón + Picacha + Capa de Agilidad + 725 de oro",
+     "text": "Ruta de armado: Espadón + Picacha + Capa de Agilidad + 675 de oro ⇒ Espadón + Picacha + Capa de Agilidad + 725 de oro",
+     "id": "34434afe5fb7",
+     "section": "items",
+     "tags": [
+      "CriticalStrike",
+      "Damage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Objetos actualizados",
+     "sectionId": "patch-updated-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "3031",
+      "name": "Filo del Infinito"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": null,
+     "before": "Costo total: 3450 de oro",
+     "after": "3500 de oro",
+     "text": "Costo total: 3450 de oro ⇒ 3500 de oro",
+     "id": "46d6d8b10a67",
+     "section": "items",
+     "tags": [
+      "CriticalStrike",
+      "Damage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Objetos actualizados",
+     "sectionId": "patch-updated-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "3031",
+      "name": "Filo del Infinito"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": null,
+     "before": "Daño de Ataque: 65",
+     "after": "75",
+     "text": "Daño de Ataque: 65 ⇒ 75",
+     "id": "0716c72e0a77",
+     "section": "items",
+     "tags": [
+      "CriticalStrike",
+      "Damage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Objetos actualizados",
+     "sectionId": "patch-updated-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "3031",
+      "name": "Filo del Infinito"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": null,
+     "before": "Daño de golpe crítico: 40%",
+     "after": "30%",
+     "text": "Daño de golpe crítico: 40% ⇒ 30%",
+     "id": "fe93ee9b407e",
+     "section": "items",
+     "tags": [
+      "CriticalStrike",
+      "Damage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.4",
+   "publishedAt": "2025-02-19T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Objetos",
+     "sectionId": "patch-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "3031",
+      "name": "Filo del Infinito"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Precio",
+     "before": "3600",
+     "after": "3450 de oro",
+     "text": "Precio: 3600 ⇒ 3450 de oro",
+     "id": "e3ffb091a9a3",
+     "section": "items",
+     "tags": [
+      "CriticalStrike",
+      "Damage"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Objetos",
+     "sectionId": "patch-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "3031",
+      "name": "Filo del Infinito"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño de Ataque",
+     "before": "70",
+     "after": "65",
+     "text": "Daño de Ataque: 70 ⇒ 65",
+     "id": "45cf965bdd13",
+     "section": "items",
+     "tags": [
+      "CriticalStrike",
+      "Damage"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  }
+ ]
+}

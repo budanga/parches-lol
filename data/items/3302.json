@@ -1,0 +1,50 @@
+{
+ "schemaVersion": 1,
+ "id": "3302",
+ "name": "Terminus",
+ "tags": [
+  "Damage",
+  "AttackSpeed",
+  "OnHit",
+  "MagicPenetration",
+  "ArmorPenetration"
+ ],
+ "entries": [
+  {
+   "patch": "26.15",
+   "publishedAt": "2026-07-28T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Objetos",
+     "sectionId": "patch-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "3302",
+      "name": "Terminus"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Único - Sombra",
+     "before": "30 de daño mágico al impacto",
+     "after": "30 (+10% de Daño de Ataque adicional) (+10% de Poder de Habilidad)",
+     "text": "Único - Sombra: 30 de daño mágico al impacto ⇒ 30 (+10% de Daño de Ataque adicional) (+10% de Poder de Habilidad)",
+     "id": "840b9a6cb784",
+     "section": "items",
+     "tags": [
+      "Damage",
+      "AttackSpeed",
+      "OnHit",
+      "MagicPenetration",
+      "ArmorPenetration"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  }
+ ]
+}

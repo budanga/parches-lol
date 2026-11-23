@@ -1,0 +1,44 @@
+{
+ "schemaVersion": 1,
+ "id": "3147",
+ "name": "Antifaz Embrujado",
+ "tags": [
+  "Health",
+  "SpellDamage"
+ ],
+ "entries": [
+  {
+   "patch": "25.14",
+   "publishedAt": "2025-07-15T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Objetos",
+     "sectionId": "patch-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "3147",
+      "name": "Antifaz Embrujado"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Cantidad máxima de Antifaces Embrujados en el inventario",
+     "before": "6",
+     "after": "1",
+     "text": "Cantidad máxima de Antifaces Embrujados en el inventario: 6 ⇒ 1",
+     "id": "96569bef3753",
+     "section": "items",
+     "tags": [
+      "Health",
+      "SpellDamage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  }
+ ]
+}
