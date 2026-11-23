@@ -28,8 +28,8 @@ class NotifyTest {
         assertEquals(listOf("26.22", "26.23"), patchesToNotify(index, all - "26.23" - "26.22", firstRun = false))
 
     @Test fun textos() {
-        assertEquals("Salió el parche 26.24" to "4 cambios a tus ADC", alertText(PatchAlert("26.24", 4)))
-        assertEquals("1 cambio a tus ADC", alertText(PatchAlert("26.24", 1)).second)
+        assertEquals("Salió el parche 26.24" to "4 cambios en tus favoritos", alertText(PatchAlert("26.24", 4)))
+        assertEquals("1 cambio en tus favoritos", alertText(PatchAlert("26.24", 1)).second)
         assertNull(alertText(PatchAlert("26.24", 0)).second)
     }
 

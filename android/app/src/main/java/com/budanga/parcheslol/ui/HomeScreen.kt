@@ -40,6 +40,7 @@ import com.budanga.parcheslol.data.Repository
 import com.budanga.parcheslol.data.valueOrNull
 import com.budanga.parcheslol.domain.DEFAULT_ADCS
 import com.budanga.parcheslol.domain.adcGroups
+import com.budanga.parcheslol.domain.favoritesIn
 import com.budanga.parcheslol.domain.shortDate
 import com.budanga.parcheslol.domain.updatedText
 import java.time.Instant
@@ -64,6 +65,8 @@ fun HomeScreen(
     var reload by remember { mutableIntStateOf(0) }
     val myAdcs by prefs.myAdcs.collectAsState(initial = DEFAULT_ADCS)
     val myItems by prefs.myItems.collectAsState(initial = null)
+    var catalog by remember { mutableStateOf<com.budanga.parcheslol.data.Catalog?>(null) }
+    LaunchedEffect(Unit) { catalog = repo.cachedCatalog() ?: repo.catalog().valueOrNull }
     val uri = LocalUriHandler.current
 
     LaunchedEffect(reload) {
@@ -94,7 +97,10 @@ fun HomeScreen(
                 val first = data.patches.firstOrNull() ?: return@LazyColumn
                 item { LatestPatch(first, data, latest, myAdcs, myItems, onOpenPatch, wrapRow) }
                 items(data.patches.drop(1), key = { it.patch }) { p ->
-                    wrapRow(p.patch) { PatchRow(p) { onOpenPatch(p.patch) } }
+                    val ids = myItems
+                    val names = ids?.let { set -> catalog?.items?.filter { it.id in set }?.map { it.name }?.toSet() }.orEmpty()
+                    val favs = favoritesIn(p, myAdcs, ids, names)
+                    wrapRow(p.patch) { PatchRow(p, favs, catalog?.ddragonVersion) { onOpenPatch(p.patch) } }
                 }
                 if (news.isNotEmpty()) {
                     item { Text(stringResource(R.string.news), style = Type.serif(16), modifier = Modifier.padding(top = 18.dp, bottom = 4.dp)) }
@@ -140,14 +146,22 @@ private fun LatestPatch(
 }
 
 @Composable
-fun PatchRow(summary: PatchSummary, onClick: () -> Unit) {
+/** One patch in the list: number, portraits of the favourites it changed, and its date, on one line. */
+fun PatchRow(summary: PatchSummary, favorites: List<com.budanga.parcheslol.data.Entity> = emptyList(), ddragonVersion: String? = null, onClick: () -> Unit) {
     Column {
         RowDivider()
         Row(
             Modifier.fillMaxWidth().clickable(onClick = onClick).padding(vertical = 10.dp),
             verticalAlignment = Alignment.Bottom,
         ) {
-            Text(summary.patch, style = Type.serif(17), modifier = Modifier.weight(1f))
+            Text(summary.patch, style = Type.serif(17))
+            Row(
+                Modifier.weight(1f).padding(horizontal = 12.dp).align(Alignment.CenterVertically),
+                horizontalArrangement = Arrangement.spacedBy(4.dp),
+            ) {
+                favorites.take(7).forEach { Avatar(it, it.name, ddragonVersion.orEmpty(), 20.dp) }
+                if (favorites.size > 7) Text("+${favorites.size - 7}", style = Type.Date)
+            }
             Text(shortDate(summary.publishedAt), style = Type.Date)
         }
     }

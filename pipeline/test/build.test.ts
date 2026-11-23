@@ -78,3 +78,14 @@ test("buildItemHistories: agrupa por el id actual del catálogo aunque el id vie
   assert.deepEqual(hs[0].entries.map(e => e.patch), ["26.20", "26.1"]);
   assert.equal(hs[0].name, "Filo de la Tormenta");
 });
+
+test("buildIndex: lista los campeones y objetos que cambiaron en cada parche, sin repetir", () => {
+  const item = toChange({ ...azirBase, sectionId: "patch-items", entity: { kind: "item" as const, id: "6699", name: "Cicloespada Voltaica" }, text: "x" },
+    "items", ["Damage"], "unchecked", null);
+  const arena = { ...ch(ezrealW), section: "modes" as const };
+  const idx = buildIndex([patch("26.23", "2026-11-17T00:00:00Z", [ch(azirBase), ch(azirW), item, arena])], "2026-11-23T00:00:00Z");
+  assert.deepEqual(idx.patches[0].changed, [
+    { kind: "champion", id: "Azir", name: "Azir", tags: ["Mage"] },
+    { kind: "item", id: "6699", name: "Cicloespada Voltaica", tags: ["Damage"] },
+  ]);
+});

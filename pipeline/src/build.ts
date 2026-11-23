@@ -1,5 +1,5 @@
 import { createHash } from "node:crypto";
-import type { Catalog, Change, ChampionHistory, IndexFile, PatchFile, RawChange, Section, Verification } from "./types.ts";
+import type { Catalog, Change, ChampionHistory, PatchSummary, IndexFile, PatchFile, RawChange, Section, Verification } from "./types.ts";
 
 export function changeId(raw: RawChange): string {
   const key = [raw.sectionId, raw.entity.id ?? raw.entity.name, raw.part ?? "", raw.attribute ?? "", raw.text].join("|");
@@ -42,6 +42,18 @@ export function qualityCheck(changes: Change[]): { ok: true } | { ok: false; rea
 
 const newestFirst = (a: { publishedAt: string }, b: { publishedAt: string }) => b.publishedAt.localeCompare(a.publishedAt);
 
+/** Distinct champions and items changed in the champions/items sections, in page order. */
+function changedEntities(changes: Change[]): PatchSummary["changed"] {
+  const seen = new Map<string, PatchSummary["changed"][number]>();
+  for (const c of changes) {
+    const kind = c.entity.kind;
+    if (!c.entity.id || !((kind === "champion" && c.section === "champions") || (kind === "item" && c.section === "items"))) continue;
+    const key = kind + ":" + c.entity.id;
+    if (!seen.has(key)) seen.set(key, { kind, id: c.entity.id, name: c.entity.name, tags: [...c.tags] });
+  }
+  return [...seen.values()];
+}
+
 export function buildIndex(patches: PatchFile[], now: string): IndexFile {
   const count = (cs: Change[], v: Verification) => cs.filter(c => c.verification === v).length;
   return {
@@ -51,6 +63,7 @@ export function buildIndex(patches: PatchFile[], now: string): IndexFile {
       patch: p.patch, title: p.title, url: p.url, publishedAt: p.publishedAt,
       counts: { total: p.changes.length, verified: count(p.changes, "verified"),
         unchecked: count(p.changes, "unchecked"), mismatch: count(p.changes, "mismatch") },
+      changed: changedEntities(p.changes),
     })),
   };
 }

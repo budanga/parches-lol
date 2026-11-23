@@ -12,8 +12,8 @@ fun patchesToNotify(index: IndexFile, notified: Set<String>, firstRun: Boolean):
 fun alertText(alert: PatchAlert): Pair<String, String?> {
     val body = when (alert.adcChanges) {
         0 -> null
-        1 -> "1 cambio a tus ADC"
-        else -> "${alert.adcChanges} cambios a tus ADC"
+        1 -> "1 cambio en tus favoritos"
+        else -> "${alert.adcChanges} cambios en tus favoritos"
     }
     return "Salió el parche ${alert.patch}" to body
 }

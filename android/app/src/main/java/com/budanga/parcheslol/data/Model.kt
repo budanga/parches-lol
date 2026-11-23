@@ -49,7 +49,18 @@ data class PatchFile(
 data class Counts(val total: Int, val verified: Int, val unchecked: Int, val mismatch: Int)
 
 @Serializable
-data class PatchSummary(val patch: String, val title: String, val url: String, val publishedAt: String, val counts: Counts)
+data class ChangedEntity(val kind: String, val id: String, val name: String, val tags: List<String> = emptyList())
+
+@Serializable
+data class PatchSummary(
+    val patch: String,
+    val title: String,
+    val url: String,
+    val publishedAt: String,
+    val counts: Counts,
+    /** Champions and items changed on the Rift (older indexes don't have it). */
+    val changed: List<ChangedEntity> = emptyList(),
+)
 
 @Serializable
 data class IndexFile(val schemaVersion: Int, val updatedAt: String, val patches: List<PatchSummary>)

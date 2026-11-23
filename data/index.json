@@ -12,7 +12,137 @@
     "verified": 17,
     "unchecked": 141,
     "mismatch": 0
-   }
+   },
+   "changed": [
+    {
+     "kind": "champion",
+     "id": "Annie",
+     "name": "Annie",
+     "tags": [
+      "Mage",
+      "Support"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Azir",
+     "name": "Azir",
+     "tags": [
+      "Mage",
+      "Marksman"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Bard",
+     "name": "Bardo",
+     "tags": [
+      "Support",
+      "Mage"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Ezreal",
+     "name": "Ezreal",
+     "tags": [
+      "Marksman",
+      "Mage"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Galio",
+     "name": "Galio",
+     "tags": [
+      "Tank",
+      "Mage"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Gnar",
+     "name": "Gnar",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "KSante",
+     "name": "K'Sante",
+     "tags": [
+      "Tank",
+      "Fighter"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Leblanc",
+     "name": "LeBlanc",
+     "tags": [
+      "Assassin",
+      "Mage"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "MasterYi",
+     "name": "Maestro Yi",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Mel",
+     "name": "Mel",
+     "tags": [
+      "Mage",
+      "Support"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Syndra",
+     "name": "Syndra",
+     "tags": [
+      "Mage"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Velkoz",
+     "name": "Vel'Koz",
+     "tags": [
+      "Mage",
+      "Support"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Vi",
+     "name": "Vi",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ]
+    },
+    {
+     "kind": "item",
+     "id": "6699",
+     "name": "Cicloespada Voltaica",
+     "tags": [
+      "Damage",
+      "Active",
+      "CooldownReduction",
+      "ArmorPenetration",
+      "AbilityHaste"
+     ]
+    }
+   ]
   },
   {
    "patch": "26.22",
@@ -24,7 +154,151 @@
     "verified": 18,
     "unchecked": 151,
     "mismatch": 0
-   }
+   },
+   "changed": [
+    {
+     "kind": "champion",
+     "id": "AurelionSol",
+     "name": "Aurelion Sol",
+     "tags": [
+      "Mage"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Corki",
+     "name": "Corki",
+     "tags": [
+      "Marksman",
+      "Mage"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Kayle",
+     "name": "Kayle",
+     "tags": [
+      "Marksman",
+      "Mage"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Locke",
+     "name": "Locke",
+     "tags": [
+      "Assassin",
+      "Mage"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Maokai",
+     "name": "Maokai",
+     "tags": [
+      "Tank",
+      "Support"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Mel",
+     "name": "Mel",
+     "tags": [
+      "Mage",
+      "Support"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Naafiri",
+     "name": "Naafiri",
+     "tags": [
+      "Assassin",
+      "Fighter"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Rumble",
+     "name": "Rumble",
+     "tags": [
+      "Fighter",
+      "Mage"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Shen",
+     "name": "Shen",
+     "tags": [
+      "Tank"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Smolder",
+     "name": "Smolder",
+     "tags": [
+      "Marksman",
+      "Mage"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Thresh",
+     "name": "Thresh",
+     "tags": [
+      "Support",
+      "Tank"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Viktor",
+     "name": "Viktor",
+     "tags": [
+      "Mage"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Yasuo",
+     "name": "Yasuo",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Zaahen",
+     "name": "Zaahen",
+     "tags": [
+      "Fighter"
+     ]
+    },
+    {
+     "kind": "item",
+     "id": "1086",
+     "name": "Arco de Doran",
+     "tags": [
+      "Damage",
+      "AttackSpeed",
+      "SpellVamp",
+      "Lane"
+     ]
+    },
+    {
+     "kind": "item",
+     "id": "2501",
+     "name": "Cota Sangrienta del Soberano",
+     "tags": [
+      "Health",
+      "Damage"
+     ]
+    }
+   ]
   },
   {
    "patch": "26.21",
@@ -36,7 +310,269 @@
     "verified": 21,
     "unchecked": 279,
     "mismatch": 0
-   }
+   },
+   "changed": [
+    {
+     "kind": "champion",
+     "id": "Varus",
+     "name": "Varus",
+     "tags": [
+      "Marksman",
+      "Mage"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Azir",
+     "name": "Azir",
+     "tags": [
+      "Mage",
+      "Marksman"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Caitlyn",
+     "name": "Caitlyn",
+     "tags": [
+      "Marksman"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Darius",
+     "name": "Darius",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Jinx",
+     "name": "Jinx",
+     "tags": [
+      "Marksman"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "LeeSin",
+     "name": "Lee Sin",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Locke",
+     "name": "Locke",
+     "tags": [
+      "Assassin",
+      "Mage"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "MissFortune",
+     "name": "Miss Fortune",
+     "tags": [
+      "Marksman",
+      "Mage"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Nidalee",
+     "name": "Nidalee",
+     "tags": [
+      "Assassin",
+      "Mage"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Nunu",
+     "name": "Nunu y Willump",
+     "tags": [
+      "Tank",
+      "Mage"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Orianna",
+     "name": "Orianna",
+     "tags": [
+      "Mage",
+      "Support"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Qiyana",
+     "name": "Qiyana",
+     "tags": [
+      "Assassin"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Rammus",
+     "name": "Rammus",
+     "tags": [
+      "Tank"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Ryze",
+     "name": "Ryze",
+     "tags": [
+      "Mage"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Sion",
+     "name": "Sion",
+     "tags": [
+      "Tank",
+      "Fighter"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Taliyah",
+     "name": "Taliyah",
+     "tags": [
+      "Mage",
+      "Support"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Taric",
+     "name": "Taric",
+     "tags": [
+      "Support",
+      "Tank"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Tristana",
+     "name": "Tristana",
+     "tags": [
+      "Marksman",
+      "Assassin"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "TwistedFate",
+     "name": "Twisted Fate",
+     "tags": [
+      "Mage",
+      "Marksman"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Velkoz",
+     "name": "Vel'Koz",
+     "tags": [
+      "Mage",
+      "Support"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Viktor",
+     "name": "Viktor",
+     "tags": [
+      "Mage"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "MonkeyKing",
+     "name": "Wukong",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "XinZhao",
+     "name": "Xin Zhao",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Yone",
+     "name": "Yone",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Zyra",
+     "name": "Zyra",
+     "tags": [
+      "Mage",
+      "Support"
+     ]
+    },
+    {
+     "kind": "item",
+     "id": "2520",
+     "name": "Rompebastiones",
+     "tags": [
+      "Damage",
+      "ArmorPenetration",
+      "AbilityHaste"
+     ]
+    },
+    {
+     "kind": "item",
+     "id": "6621",
+     "name": "Esfera del Amanecer",
+     "tags": [
+      "SpellDamage",
+      "ManaRegen"
+     ]
+    },
+    {
+     "kind": "item",
+     "id": "3008",
+     "name": "Grebas Glotonas",
+     "tags": [
+      "LifeSteal",
+      "SpellVamp",
+      "Boots"
+     ]
+    },
+    {
+     "kind": "item",
+     "id": "6697",
+     "name": "Arrogancia",
+     "tags": [
+      "Damage",
+      "Active",
+      "CooldownReduction",
+      "ArmorPenetration",
+      "AbilityHaste"
+     ]
+    }
+   ]
   },
   {
    "patch": "26.20",
@@ -48,7 +584,162 @@
     "verified": 12,
     "unchecked": 182,
     "mismatch": 0
-   }
+   },
+   "changed": [
+    {
+     "kind": "champion",
+     "id": "Ambessa",
+     "name": "Ambessa",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Ashe",
+     "name": "Ashe",
+     "tags": [
+      "Marksman",
+      "Support"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Cassiopeia",
+     "name": "Cassiopeia",
+     "tags": [
+      "Mage"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Diana",
+     "name": "Diana",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Kennen",
+     "name": "Kennen",
+     "tags": [
+      "Mage"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Kindred",
+     "name": "Kindred",
+     "tags": [
+      "Marksman"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "KSante",
+     "name": "K'Sante",
+     "tags": [
+      "Tank",
+      "Fighter"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Lillia",
+     "name": "Lillia",
+     "tags": [
+      "Fighter",
+      "Mage"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Lucian",
+     "name": "Lucian",
+     "tags": [
+      "Marksman",
+      "Assassin"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Mordekaiser",
+     "name": "Mordekaiser",
+     "tags": [
+      "Fighter",
+      "Mage"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Neeko",
+     "name": "Neeko",
+     "tags": [
+      "Mage",
+      "Support"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Smolder",
+     "name": "Smolder",
+     "tags": [
+      "Marksman",
+      "Mage"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Swain",
+     "name": "Swain",
+     "tags": [
+      "Mage",
+      "Support"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "TahmKench",
+     "name": "Tahm Kench",
+     "tags": [
+      "Tank",
+      "Support"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Vayne",
+     "name": "Vayne",
+     "tags": [
+      "Marksman",
+      "Assassin"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Yunara",
+     "name": "Yunara",
+     "tags": [
+      "Marksman"
+     ]
+    },
+    {
+     "kind": "item",
+     "id": "3073",
+     "name": "Placa Hexperimental",
+     "tags": [
+      "Health",
+      "Damage",
+      "AttackSpeed",
+      "CooldownReduction",
+      "NonbootsMovement",
+      "AbilityHaste"
+     ]
+    }
+   ]
   },
   {
    "patch": "26.19",
@@ -60,7 +751,157 @@
     "verified": 13,
     "unchecked": 316,
     "mismatch": 0
-   }
+   },
+   "changed": [
+    {
+     "kind": "champion",
+     "id": "Aatrox",
+     "name": "Aatrox",
+     "tags": [
+      "Fighter"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Aphelios",
+     "name": "Aphelios",
+     "tags": [
+      "Marksman"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Aurora",
+     "name": "Aurora",
+     "tags": [
+      "Mage",
+      "Assassin"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Draven",
+     "name": "Draven",
+     "tags": [
+      "Marksman"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Elise",
+     "name": "Elise",
+     "tags": [
+      "Assassin",
+      "Mage"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Fiora",
+     "name": "Fiora",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Khazix",
+     "name": "Kha'Zix",
+     "tags": [
+      "Assassin"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Lillia",
+     "name": "Lillia",
+     "tags": [
+      "Fighter",
+      "Mage"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Lucian",
+     "name": "Lucian",
+     "tags": [
+      "Marksman",
+      "Assassin"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "MasterYi",
+     "name": "Maestro Yi",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Nasus",
+     "name": "Nasus",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Nocturne",
+     "name": "Nocturne",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Poppy",
+     "name": "Poppy",
+     "tags": [
+      "Tank",
+      "Fighter"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Rumble",
+     "name": "Rumble",
+     "tags": [
+      "Fighter",
+      "Mage"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Ryze",
+     "name": "Ryze",
+     "tags": [
+      "Mage"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Vi",
+     "name": "Vi",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Volibear",
+     "name": "Volibear",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ]
+    }
+   ]
   },
   {
    "patch": "26.18",
@@ -72,7 +913,115 @@
     "verified": 13,
     "unchecked": 199,
     "mismatch": 0
-   }
+   },
+   "changed": [
+    {
+     "kind": "champion",
+     "id": "Bard",
+     "name": "Bardo",
+     "tags": [
+      "Support",
+      "Mage"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Cassiopeia",
+     "name": "Cassiopeia",
+     "tags": [
+      "Mage"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Ekko",
+     "name": "Ekko",
+     "tags": [
+      "Assassin",
+      "Mage"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Kassadin",
+     "name": "Kassadin",
+     "tags": [
+      "Assassin",
+      "Mage"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "MasterYi",
+     "name": "Maestro Yi",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Nautilus",
+     "name": "Nautilus",
+     "tags": [
+      "Tank",
+      "Support"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Seraphine",
+     "name": "Seraphine",
+     "tags": [
+      "Support",
+      "Mage"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Syndra",
+     "name": "Syndra",
+     "tags": [
+      "Mage"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Viego",
+     "name": "Viego",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Zaahen",
+     "name": "Zaahen",
+     "tags": [
+      "Fighter"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Zeri",
+     "name": "Zeri",
+     "tags": [
+      "Marksman"
+     ]
+    },
+    {
+     "kind": "item",
+     "id": "3124",
+     "name": "Espadafuria de Guinsoo",
+     "tags": [
+      "Damage",
+      "AttackSpeed",
+      "SpellDamage",
+      "OnHit"
+     ]
+    }
+   ]
   },
   {
    "patch": "26.17",
@@ -84,7 +1033,154 @@
     "verified": 14,
     "unchecked": 272,
     "mismatch": 0
-   }
+   },
+   "changed": [
+    {
+     "kind": "champion",
+     "id": "AurelionSol",
+     "name": "Aurelion Sol",
+     "tags": [
+      "Mage"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Chogath",
+     "name": "Cho'Gath",
+     "tags": [
+      "Tank",
+      "Mage"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Graves",
+     "name": "Graves",
+     "tags": [
+      "Marksman"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Irelia",
+     "name": "Irelia",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Leblanc",
+     "name": "LeBlanc",
+     "tags": [
+      "Assassin",
+      "Mage"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Nasus",
+     "name": "Nasus",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Nocturne",
+     "name": "Nocturne",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Qiyana",
+     "name": "Qiyana",
+     "tags": [
+      "Assassin"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Thresh",
+     "name": "Thresh",
+     "tags": [
+      "Support",
+      "Tank"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Trundle",
+     "name": "Trundle",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Vayne",
+     "name": "Vayne",
+     "tags": [
+      "Marksman",
+      "Assassin"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Xerath",
+     "name": "Xerath",
+     "tags": [
+      "Mage",
+      "Support"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Yasuo",
+     "name": "Yasuo",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Yone",
+     "name": "Yone",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ]
+    },
+    {
+     "kind": "item",
+     "id": "3095",
+     "name": "Filo de la Tormenta",
+     "tags": [
+      "Damage",
+      "CriticalStrike",
+      "AttackSpeed",
+      "NonbootsMovement"
+     ]
+    },
+    {
+     "kind": "item",
+     "id": "6610",
+     "name": "Cielo Desgarrado",
+     "tags": [
+      "Health",
+      "Damage",
+      "CooldownReduction",
+      "AbilityHaste"
+     ]
+    }
+   ]
   },
   {
    "patch": "26.16",
@@ -96,7 +1192,169 @@
     "verified": 14,
     "unchecked": 371,
     "mismatch": 0
-   }
+   },
+   "changed": [
+    {
+     "kind": "champion",
+     "id": "Azir",
+     "name": "Azir",
+     "tags": [
+      "Mage",
+      "Marksman"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Belveth",
+     "name": "Bel'Veth",
+     "tags": [
+      "Fighter"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Camille",
+     "name": "Camille",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Gwen",
+     "name": "Gwen",
+     "tags": [
+      "Fighter"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Kennen",
+     "name": "Kennen",
+     "tags": [
+      "Mage"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Nasus",
+     "name": "Nasus",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Poppy",
+     "name": "Poppy",
+     "tags": [
+      "Tank",
+      "Fighter"
+     ]
+    },
+    {
+     "kind": "item",
+     "id": "3006",
+     "name": "Grebas del Berserker",
+     "tags": [
+      "AttackSpeed",
+      "Boots"
+     ]
+    },
+    {
+     "kind": "item",
+     "id": "3071",
+     "name": "Cuchilla Oscura",
+     "tags": [
+      "Health",
+      "Damage",
+      "CooldownReduction",
+      "OnHit",
+      "NonbootsMovement",
+      "ArmorPenetration",
+      "AbilityHaste"
+     ]
+    },
+    {
+     "kind": "item",
+     "id": "6692",
+     "name": "Eclipse",
+     "tags": [
+      "Damage",
+      "CooldownReduction",
+      "AbilityHaste"
+     ]
+    },
+    {
+     "kind": "item",
+     "id": "3085",
+     "name": "Huracán de Runaan",
+     "tags": [
+      "CriticalStrike",
+      "AttackSpeed",
+      "OnHit",
+      "NonbootsMovement"
+     ]
+    },
+    {
+     "kind": "item",
+     "id": "3053",
+     "name": "Guantelete de Sterak",
+     "tags": [
+      "Health",
+      "Damage",
+      "Tenacity"
+     ]
+    },
+    {
+     "kind": "item",
+     "id": "6610",
+     "name": "Cielo Desgarrado",
+     "tags": [
+      "Health",
+      "Damage",
+      "CooldownReduction",
+      "AbilityHaste"
+     ]
+    },
+    {
+     "kind": "item",
+     "id": "773068",
+     "name": "Capa de Fuego Solar",
+     "tags": [
+      "Health",
+      "Armor"
+     ]
+    },
+    {
+     "kind": "item",
+     "id": "3175",
+     "name": "Zapatos de Lanzahechizos",
+     "tags": [
+      "Boots",
+      "MagicPenetration"
+     ]
+    },
+    {
+     "kind": "item",
+     "id": "3077",
+     "name": "Tiamat",
+     "tags": [
+      "Damage",
+      "OnHit"
+     ]
+    },
+    {
+     "kind": "item",
+     "id": "1203",
+     "name": "Misión de soporte",
+     "tags": [
+      "Lane"
+     ]
+    }
+   ]
   },
   {
    "patch": "26.15",
@@ -108,7 +1366,139 @@
     "verified": 36,
     "unchecked": 228,
     "mismatch": 0
-   }
+   },
+   "changed": [
+    {
+     "kind": "champion",
+     "id": "Alistar",
+     "name": "Alistar",
+     "tags": [
+      "Tank",
+      "Support"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Belveth",
+     "name": "Bel'Veth",
+     "tags": [
+      "Fighter"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Kaisa",
+     "name": "Kai'Sa",
+     "tags": [
+      "Marksman",
+      "Mage"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Locke",
+     "name": "Locke",
+     "tags": [
+      "Assassin",
+      "Mage"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Maokai",
+     "name": "Maokai",
+     "tags": [
+      "Tank",
+      "Support"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Mordekaiser",
+     "name": "Mordekaiser",
+     "tags": [
+      "Fighter",
+      "Mage"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Naafiri",
+     "name": "Naafiri",
+     "tags": [
+      "Assassin",
+      "Fighter"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Riven",
+     "name": "Riven",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Sylas",
+     "name": "Sylas",
+     "tags": [
+      "Mage",
+      "Assassin"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Volibear",
+     "name": "Volibear",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Zac",
+     "name": "Zac",
+     "tags": [
+      "Tank",
+      "Fighter"
+     ]
+    },
+    {
+     "kind": "item",
+     "id": "2520",
+     "name": "Rompebastiones",
+     "tags": [
+      "Damage",
+      "ArmorPenetration",
+      "AbilityHaste"
+     ]
+    },
+    {
+     "kind": "item",
+     "id": "3302",
+     "name": "Terminus",
+     "tags": [
+      "Damage",
+      "AttackSpeed",
+      "OnHit",
+      "MagicPenetration",
+      "ArmorPenetration"
+     ]
+    },
+    {
+     "kind": "item",
+     "id": "3032",
+     "name": "Flechas Salvajes de Yun Tal",
+     "tags": [
+      "Damage",
+      "CriticalStrike",
+      "AttackSpeed"
+     ]
+    }
+   ]
   },
   {
    "patch": "26.14",
@@ -120,7 +1510,132 @@
     "verified": 13,
     "unchecked": 127,
     "mismatch": 0
-   }
+   },
+   "changed": [
+    {
+     "kind": "champion",
+     "id": "Azir",
+     "name": "Azir",
+     "tags": [
+      "Mage",
+      "Marksman"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Corki",
+     "name": "Corki",
+     "tags": [
+      "Marksman",
+      "Mage"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Garen",
+     "name": "Garen",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Jayce",
+     "name": "Jayce",
+     "tags": [
+      "Fighter",
+      "Marksman"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Locke",
+     "name": "Locke",
+     "tags": [
+      "Assassin",
+      "Mage"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Mordekaiser",
+     "name": "Mordekaiser",
+     "tags": [
+      "Fighter",
+      "Mage"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Nami",
+     "name": "Nami",
+     "tags": [
+      "Support",
+      "Mage"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Senna",
+     "name": "Senna",
+     "tags": [
+      "Support",
+      "Marksman"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Seraphine",
+     "name": "Seraphine",
+     "tags": [
+      "Support",
+      "Mage"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Yunara",
+     "name": "Yunara",
+     "tags": [
+      "Marksman"
+     ]
+    },
+    {
+     "kind": "item",
+     "id": "3168",
+     "name": "Camino Inmortal",
+     "tags": [
+      "LifeSteal",
+      "SpellVamp",
+      "Boots"
+     ]
+    },
+    {
+     "kind": "item",
+     "id": "2525",
+     "name": "Arnés de Protoplasma",
+     "tags": [
+      "Health",
+      "NonbootsMovement",
+      "Tenacity",
+      "AbilityHaste"
+     ]
+    },
+    {
+     "kind": "item",
+     "id": "3152",
+     "name": "Cinturón Cohete Hextech",
+     "tags": [
+      "Health",
+      "SpellDamage",
+      "Active",
+      "CooldownReduction",
+      "NonbootsMovement",
+      "AbilityHaste"
+     ]
+    }
+   ]
   },
   {
    "patch": "26.13",
@@ -132,7 +1647,179 @@
     "verified": 14,
     "unchecked": 156,
     "mismatch": 0
-   }
+   },
+   "changed": [
+    {
+     "kind": "champion",
+     "id": "Aphelios",
+     "name": "Aphelios",
+     "tags": [
+      "Marksman"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Bard",
+     "name": "Bardo",
+     "tags": [
+      "Support",
+      "Mage"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Brand",
+     "name": "Brand",
+     "tags": [
+      "Mage",
+      "Support"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Cassiopeia",
+     "name": "Cassiopeia",
+     "tags": [
+      "Mage"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Draven",
+     "name": "Draven",
+     "tags": [
+      "Marksman"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Kaisa",
+     "name": "Kai'Sa",
+     "tags": [
+      "Marksman",
+      "Mage"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "KSante",
+     "name": "K'Sante",
+     "tags": [
+      "Tank",
+      "Fighter"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Leblanc",
+     "name": "LeBlanc",
+     "tags": [
+      "Assassin",
+      "Mage"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Olaf",
+     "name": "Olaf",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Poppy",
+     "name": "Poppy",
+     "tags": [
+      "Tank",
+      "Fighter"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Qiyana",
+     "name": "Qiyana",
+     "tags": [
+      "Assassin"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "RekSai",
+     "name": "Rek'Sai",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Rumble",
+     "name": "Rumble",
+     "tags": [
+      "Fighter",
+      "Mage"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Senna",
+     "name": "Senna",
+     "tags": [
+      "Support",
+      "Marksman"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Sion",
+     "name": "Sion",
+     "tags": [
+      "Tank",
+      "Fighter"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Vex",
+     "name": "Vex",
+     "tags": [
+      "Mage"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Zaahen",
+     "name": "Zaahen",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ]
+    },
+    {
+     "kind": "item",
+     "id": "1120",
+     "name": "Casco de Doran",
+     "tags": [
+      "Health",
+      "SpellBlock",
+      "Armor",
+      "Lane"
+     ]
+    },
+    {
+     "kind": "item",
+     "id": "4005",
+     "name": "Mandato Imperial",
+     "tags": [
+      "SpellDamage",
+      "ManaRegen",
+      "CooldownReduction",
+      "AbilityHaste"
+     ]
+    }
+   ]
   },
   {
    "patch": "26.12",
@@ -144,7 +1831,130 @@
     "verified": 8,
     "unchecked": 281,
     "mismatch": 0
-   }
+   },
+   "changed": [
+    {
+     "kind": "champion",
+     "id": "Aatrox",
+     "name": "Aatrox",
+     "tags": [
+      "Fighter"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Gwen",
+     "name": "Gwen",
+     "tags": [
+      "Fighter"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Hwei",
+     "name": "Hwei",
+     "tags": [
+      "Mage",
+      "Support"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Jax",
+     "name": "Jax",
+     "tags": [
+      "Fighter"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "LeeSin",
+     "name": "Lee Sin",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Nocturne",
+     "name": "Nocturne",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Orianna",
+     "name": "Orianna",
+     "tags": [
+      "Mage",
+      "Support"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Ryze",
+     "name": "Ryze",
+     "tags": [
+      "Mage"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Sylas",
+     "name": "Sylas",
+     "tags": [
+      "Mage",
+      "Assassin"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Syndra",
+     "name": "Syndra",
+     "tags": [
+      "Mage"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Tristana",
+     "name": "Tristana",
+     "tags": [
+      "Marksman",
+      "Assassin"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Varus",
+     "name": "Varus",
+     "tags": [
+      "Marksman",
+      "Mage"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "XinZhao",
+     "name": "Xin Zhao",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Yuumi",
+     "name": "Yuumi",
+     "tags": [
+      "Support",
+      "Mage"
+     ]
+    }
+   ]
   },
   {
    "patch": "26.11",
@@ -156,7 +1966,196 @@
     "verified": 5,
     "unchecked": 254,
     "mismatch": 0
-   }
+   },
+   "changed": [
+    {
+     "kind": "item",
+     "id": "2008",
+     "name": "",
+     "tags": []
+    },
+    {
+     "kind": "item",
+     "id": "3870",
+     "name": "Tejesueños",
+     "tags": [
+      "Health",
+      "HealthRegen",
+      "ManaRegen",
+      "Vision",
+      "GoldPer",
+      "Lane"
+     ]
+    },
+    {
+     "kind": "item",
+     "id": "6617",
+     "name": "Renovador de Piedra Lunar",
+     "tags": [
+      "Health",
+      "SpellDamage",
+      "ManaRegen",
+      "CooldownReduction",
+      "AbilityHaste"
+     ]
+    },
+    {
+     "kind": "item",
+     "id": "4005",
+     "name": "Mandato Imperial",
+     "tags": [
+      "SpellDamage",
+      "ManaRegen",
+      "CooldownReduction",
+      "AbilityHaste"
+     ]
+    },
+    {
+     "kind": "item",
+     "id": "6620",
+     "name": "Ecos de Helia",
+     "tags": [
+      "Health",
+      "SpellDamage",
+      "ManaRegen",
+      "CooldownReduction",
+      "AbilityHaste"
+     ]
+    },
+    {
+     "kind": "item",
+     "id": "3190",
+     "name": "Relicario de los Solari de Hierro",
+     "tags": [
+      "Health",
+      "SpellBlock",
+      "Armor",
+      "Aura",
+      "Active",
+      "MagicResist",
+      "AbilityHaste"
+     ]
+    },
+    {
+     "kind": "item",
+     "id": "3109",
+     "name": "Promesa del Caballero",
+     "tags": [
+      "Health",
+      "HealthRegen",
+      "Armor",
+      "Aura",
+      "Active",
+      "CooldownReduction",
+      "AbilityHaste"
+     ]
+    },
+    {
+     "kind": "item",
+     "id": "3050",
+     "name": "Convergencia de Zeke",
+     "tags": [
+      "Health",
+      "SpellBlock",
+      "Armor",
+      "AbilityHaste"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Brand",
+     "name": "Brand",
+     "tags": [
+      "Mage",
+      "Support"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Diana",
+     "name": "Diana",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Ekko",
+     "name": "Ekko",
+     "tags": [
+      "Assassin",
+      "Mage"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Heimerdinger",
+     "name": "Heimerdinger",
+     "tags": [
+      "Mage",
+      "Support"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Kassadin",
+     "name": "Kassadin",
+     "tags": [
+      "Assassin",
+      "Mage"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Quinn",
+     "name": "Quinn",
+     "tags": [
+      "Marksman",
+      "Assassin"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Smolder",
+     "name": "Smolder",
+     "tags": [
+      "Marksman",
+      "Mage"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Teemo",
+     "name": "Teemo",
+     "tags": [
+      "Marksman",
+      "Mage"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "XinZhao",
+     "name": "Xin Zhao",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ]
+    },
+    {
+     "kind": "item",
+     "id": "3073",
+     "name": "Placa Hexperimental",
+     "tags": [
+      "Health",
+      "Damage",
+      "AttackSpeed",
+      "CooldownReduction",
+      "NonbootsMovement",
+      "AbilityHaste"
+     ]
+    }
+   ]
   },
   {
    "patch": "26.10",
@@ -168,7 +2167,159 @@
     "verified": 23,
     "unchecked": 202,
     "mismatch": 0
-   }
+   },
+   "changed": [
+    {
+     "kind": "champion",
+     "id": "Ambessa",
+     "name": "Ambessa",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Anivia",
+     "name": "Anivia",
+     "tags": [
+      "Mage"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Ashe",
+     "name": "Ashe",
+     "tags": [
+      "Marksman",
+      "Support"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Galio",
+     "name": "Galio",
+     "tags": [
+      "Tank",
+      "Mage"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "LeeSin",
+     "name": "Lee Sin",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Naafiri",
+     "name": "Naafiri",
+     "tags": [
+      "Assassin",
+      "Fighter"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Quinn",
+     "name": "Quinn",
+     "tags": [
+      "Marksman",
+      "Assassin"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Shyvana",
+     "name": "Shyvana",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Smolder",
+     "name": "Smolder",
+     "tags": [
+      "Marksman",
+      "Mage"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "MonkeyKing",
+     "name": "Wukong",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Zed",
+     "name": "Zed",
+     "tags": [
+      "Assassin"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Zeri",
+     "name": "Zeri",
+     "tags": [
+      "Marksman"
+     ]
+    },
+    {
+     "kind": "item",
+     "id": "1086",
+     "name": "Arco de Doran",
+     "tags": [
+      "Damage",
+      "AttackSpeed",
+      "SpellVamp",
+      "Lane"
+     ]
+    },
+    {
+     "kind": "item",
+     "id": "1120",
+     "name": "Casco de Doran",
+     "tags": [
+      "Health",
+      "SpellBlock",
+      "Armor",
+      "Lane"
+     ]
+    },
+    {
+     "kind": "item",
+     "id": "3100",
+     "name": "Maldición del Liche",
+     "tags": [
+      "SpellDamage",
+      "OnHit",
+      "NonbootsMovement",
+      "AbilityHaste"
+     ]
+    },
+    {
+     "kind": "item",
+     "id": "6699",
+     "name": "Cicloespada Voltaica",
+     "tags": [
+      "Damage",
+      "Active",
+      "CooldownReduction",
+      "ArmorPenetration",
+      "AbilityHaste"
+     ]
+    }
+   ]
   },
   {
    "patch": "26.9",
@@ -180,7 +2331,245 @@
     "verified": 24,
     "unchecked": 343,
     "mismatch": 0
-   }
+   },
+   "changed": [
+    {
+     "kind": "champion",
+     "id": "Ambessa",
+     "name": "Ambessa",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Briar",
+     "name": "Briar",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Ezreal",
+     "name": "Ezreal",
+     "tags": [
+      "Marksman",
+      "Mage"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Gragas",
+     "name": "Gragas",
+     "tags": [
+      "Fighter",
+      "Mage"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Kennen",
+     "name": "Kennen",
+     "tags": [
+      "Mage"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Shyvana",
+     "name": "Shyvana",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "TahmKench",
+     "name": "Tahm Kench",
+     "tags": [
+      "Tank",
+      "Support"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Taliyah",
+     "name": "Taliyah",
+     "tags": [
+      "Mage",
+      "Support"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Teemo",
+     "name": "Teemo",
+     "tags": [
+      "Marksman",
+      "Mage"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Udyr",
+     "name": "Udyr",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Warwick",
+     "name": "Warwick",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "XinZhao",
+     "name": "Xin Zhao",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Zeri",
+     "name": "Zeri",
+     "tags": [
+      "Marksman"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Zoe",
+     "name": "Zoe",
+     "tags": [
+      "Mage"
+     ]
+    },
+    {
+     "kind": "item",
+     "id": "6696",
+     "name": "Arco Axiomático",
+     "tags": [
+      "Damage",
+      "ArmorPenetration",
+      "AbilityHaste"
+     ]
+    },
+    {
+     "kind": "item",
+     "id": "1086",
+     "name": "Arco de Doran",
+     "tags": [
+      "Damage",
+      "AttackSpeed",
+      "SpellVamp",
+      "Lane"
+     ]
+    },
+    {
+     "kind": "item",
+     "id": "1120",
+     "name": "Casco de Doran",
+     "tags": [
+      "Health",
+      "SpellBlock",
+      "Armor",
+      "Lane"
+     ]
+    },
+    {
+     "kind": "item",
+     "id": "2510",
+     "name": "Ocaso y Alba",
+     "tags": [
+      "Health",
+      "AttackSpeed",
+      "SpellDamage",
+      "OnHit",
+      "AbilityHaste"
+     ]
+    },
+    {
+     "kind": "item",
+     "id": "2517",
+     "name": "Hambre Infinita",
+     "tags": [
+      "Damage",
+      "LifeSteal",
+      "SpellVamp",
+      "Tenacity",
+      "AbilityHaste"
+     ]
+    },
+    {
+     "kind": "item",
+     "id": "3008",
+     "name": "Grebas Glotonas",
+     "tags": [
+      "LifeSteal",
+      "SpellVamp",
+      "Boots"
+     ]
+    },
+    {
+     "kind": "item",
+     "id": "6697",
+     "name": "Arrogancia",
+     "tags": [
+      "Damage",
+      "Active",
+      "CooldownReduction",
+      "ArmorPenetration",
+      "AbilityHaste"
+     ]
+    },
+    {
+     "kind": "item",
+     "id": "6616",
+     "name": "Báculo de Agua Fluyente",
+     "tags": [
+      "SpellDamage",
+      "ManaRegen",
+      "CooldownReduction",
+      "AbilityHaste"
+     ]
+    },
+    {
+     "kind": "item",
+     "id": "3087",
+     "name": "Daga de Statikk",
+     "tags": [
+      "Damage",
+      "AttackSpeed",
+      "SpellDamage",
+      "OnHit",
+      "NonbootsMovement"
+     ]
+    },
+    {
+     "kind": "item",
+     "id": "6699",
+     "name": "Cicloespada Voltaica",
+     "tags": [
+      "Damage",
+      "Active",
+      "CooldownReduction",
+      "ArmorPenetration",
+      "AbilityHaste"
+     ]
+    }
+   ]
   },
   {
    "patch": "26.8",
@@ -192,7 +2581,99 @@
     "verified": 8,
     "unchecked": 109,
     "mismatch": 0
-   }
+   },
+   "changed": [
+    {
+     "kind": "champion",
+     "id": "DrMundo",
+     "name": "Dr. Mundo",
+     "tags": [
+      "Tank",
+      "Fighter"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Hwei",
+     "name": "Hwei",
+     "tags": [
+      "Mage",
+      "Support"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Karma",
+     "name": "Karma",
+     "tags": [
+      "Mage",
+      "Support"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Lillia",
+     "name": "Lillia",
+     "tags": [
+      "Fighter",
+      "Mage"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Lucian",
+     "name": "Lucian",
+     "tags": [
+      "Marksman",
+      "Assassin"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Mel",
+     "name": "Mel",
+     "tags": [
+      "Mage",
+      "Support"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "TahmKench",
+     "name": "Tahm Kench",
+     "tags": [
+      "Tank",
+      "Support"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Yuumi",
+     "name": "Yuumi",
+     "tags": [
+      "Support",
+      "Mage"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Zilean",
+     "name": "Zilean",
+     "tags": [
+      "Support",
+      "Mage"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Zyra",
+     "name": "Zyra",
+     "tags": [
+      "Mage",
+      "Support"
+     ]
+    }
+   ]
   },
   {
    "patch": "26.7",
@@ -204,7 +2685,85 @@
     "verified": 5,
     "unchecked": 108,
     "mismatch": 0
-   }
+   },
+   "changed": [
+    {
+     "kind": "champion",
+     "id": "Cassiopeia",
+     "name": "Cassiopeia",
+     "tags": [
+      "Mage"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Graves",
+     "name": "Graves",
+     "tags": [
+      "Marksman"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Kalista",
+     "name": "Kalista",
+     "tags": [
+      "Marksman"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Karma",
+     "name": "Karma",
+     "tags": [
+      "Mage",
+      "Support"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Nami",
+     "name": "Nami",
+     "tags": [
+      "Support",
+      "Mage"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Ornn",
+     "name": "Ornn",
+     "tags": [
+      "Tank"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Rell",
+     "name": "Rell",
+     "tags": [
+      "Tank",
+      "Support"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Singed",
+     "name": "Singed",
+     "tags": [
+      "Tank",
+      "Mage"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Veigar",
+     "name": "Veigar",
+     "tags": [
+      "Mage"
+     ]
+    }
+   ]
   },
   {
    "patch": "26.6",
@@ -216,7 +2775,127 @@
     "verified": 4,
     "unchecked": 182,
     "mismatch": 0
-   }
+   },
+   "changed": [
+    {
+     "kind": "champion",
+     "id": "Shyvana",
+     "name": "Shyvana",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Cassiopeia",
+     "name": "Cassiopeia",
+     "tags": [
+      "Mage"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Olaf",
+     "name": "Olaf",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Ahri",
+     "name": "Ahri",
+     "tags": [
+      "Mage",
+      "Assassin"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Azir",
+     "name": "Azir",
+     "tags": [
+      "Mage",
+      "Marksman"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Lissandra",
+     "name": "Lissandra",
+     "tags": [
+      "Mage"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Pyke",
+     "name": "Pyke",
+     "tags": [
+      "Support",
+      "Assassin"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Shen",
+     "name": "Shen",
+     "tags": [
+      "Tank"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Skarner",
+     "name": "Skarner",
+     "tags": [
+      "Tank",
+      "Fighter"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Tryndamere",
+     "name": "Tryndamere",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Zaahen",
+     "name": "Zaahen",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ]
+    },
+    {
+     "kind": "item",
+     "id": "6609",
+     "name": "Sierraespada Quimpunk",
+     "tags": [
+      "Health",
+      "Damage",
+      "CooldownReduction",
+      "AbilityHaste"
+     ]
+    },
+    {
+     "kind": "item",
+     "id": "3068",
+     "name": "Égida de Fuego Solar",
+     "tags": [
+      "Health",
+      "Armor",
+      "Aura",
+      "AbilityHaste"
+     ]
+    }
+   ]
   },
   {
    "patch": "26.5",
@@ -228,7 +2907,159 @@
     "verified": 6,
     "unchecked": 116,
     "mismatch": 0
-   }
+   },
+   "changed": [
+    {
+     "kind": "champion",
+     "id": "Akali",
+     "name": "Akali",
+     "tags": [
+      "Assassin"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Azir",
+     "name": "Azir",
+     "tags": [
+      "Mage",
+      "Marksman"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Garen",
+     "name": "Garen",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Khazix",
+     "name": "Kha'Zix",
+     "tags": [
+      "Assassin"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "LeeSin",
+     "name": "Lee Sin",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Lillia",
+     "name": "Lillia",
+     "tags": [
+      "Fighter",
+      "Mage"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Mel",
+     "name": "Mel",
+     "tags": [
+      "Mage",
+      "Support"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Neeko",
+     "name": "Neeko",
+     "tags": [
+      "Mage",
+      "Support"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Nocturne",
+     "name": "Nocturne",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Orianna",
+     "name": "Orianna",
+     "tags": [
+      "Mage",
+      "Support"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Samira",
+     "name": "Samira",
+     "tags": [
+      "Marksman",
+      "Assassin"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Taliyah",
+     "name": "Taliyah",
+     "tags": [
+      "Mage",
+      "Support"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Varus",
+     "name": "Varus",
+     "tags": [
+      "Marksman",
+      "Mage"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Volibear",
+     "name": "Volibear",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ]
+    },
+    {
+     "kind": "item",
+     "id": "6697",
+     "name": "Arrogancia",
+     "tags": [
+      "Damage",
+      "Active",
+      "CooldownReduction",
+      "ArmorPenetration",
+      "AbilityHaste"
+     ]
+    },
+    {
+     "kind": "item",
+     "id": "3190",
+     "name": "Relicario de los Solari de Hierro",
+     "tags": [
+      "Health",
+      "SpellBlock",
+      "Armor",
+      "Aura",
+      "Active",
+      "MagicResist",
+      "AbilityHaste"
+     ]
+    }
+   ]
   },
   {
    "patch": "26.4",
@@ -240,7 +3071,306 @@
     "verified": 14,
     "unchecked": 149,
     "mismatch": 1
-   }
+   },
+   "changed": [
+    {
+     "kind": "champion",
+     "id": "Ambessa",
+     "name": "Ambessa",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Annie",
+     "name": "Annie",
+     "tags": [
+      "Mage",
+      "Support"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Aphelios",
+     "name": "Aphelios",
+     "tags": [
+      "Marksman"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Brand",
+     "name": "Brand",
+     "tags": [
+      "Mage",
+      "Support"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Braum",
+     "name": "Braum",
+     "tags": [
+      "Tank",
+      "Support"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Camille",
+     "name": "Camille",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Darius",
+     "name": "Darius",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Fizz",
+     "name": "Fizz",
+     "tags": [
+      "Assassin",
+      "Fighter"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Graves",
+     "name": "Graves",
+     "tags": [
+      "Marksman"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Gwen",
+     "name": "Gwen",
+     "tags": [
+      "Fighter"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Hwei",
+     "name": "Hwei",
+     "tags": [
+      "Mage",
+      "Support"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Illaoi",
+     "name": "Illaoi",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Jinx",
+     "name": "Jinx",
+     "tags": [
+      "Marksman"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Kassadin",
+     "name": "Kassadin",
+     "tags": [
+      "Assassin",
+      "Mage"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Kayle",
+     "name": "Kayle",
+     "tags": [
+      "Mage",
+      "Marksman"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Kennen",
+     "name": "Kennen",
+     "tags": [
+      "Mage"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "LeeSin",
+     "name": "Lee Sin",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Lux",
+     "name": "Lux",
+     "tags": [
+      "Mage",
+      "Support"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Maokai",
+     "name": "Maokai",
+     "tags": [
+      "Tank",
+      "Support"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Naafiri",
+     "name": "Naafiri",
+     "tags": [
+      "Assassin",
+      "Fighter"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Qiyana",
+     "name": "Qiyana",
+     "tags": [
+      "Assassin"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Rengar",
+     "name": "Rengar",
+     "tags": [
+      "Assassin",
+      "Fighter"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Rumble",
+     "name": "Rumble",
+     "tags": [
+      "Fighter",
+      "Mage"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Ryze",
+     "name": "Ryze",
+     "tags": [
+      "Mage"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Samira",
+     "name": "Samira",
+     "tags": [
+      "Marksman",
+      "Assassin"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Senna",
+     "name": "Senna",
+     "tags": [
+      "Support",
+      "Marksman"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Swain",
+     "name": "Swain",
+     "tags": [
+      "Mage",
+      "Support"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Syndra",
+     "name": "Syndra",
+     "tags": [
+      "Mage"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Teemo",
+     "name": "Teemo",
+     "tags": [
+      "Marksman",
+      "Mage"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Twitch",
+     "name": "Twitch",
+     "tags": [
+      "Marksman",
+      "Assassin"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Udyr",
+     "name": "Udyr",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Xayah",
+     "name": "Xayah",
+     "tags": [
+      "Marksman"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Zac",
+     "name": "Zac",
+     "tags": [
+      "Tank",
+      "Fighter"
+     ]
+    },
+    {
+     "kind": "item",
+     "id": "2523",
+     "name": "Hexóptica C44",
+     "tags": [
+      "Damage",
+      "CriticalStrike"
+     ]
+    }
+   ]
   },
   {
    "patch": "26.3",
@@ -252,7 +3382,311 @@
     "verified": 22,
     "unchecked": 267,
     "mismatch": 1
-   }
+   },
+   "changed": [
+    {
+     "kind": "champion",
+     "id": "Mel",
+     "name": "Mel",
+     "tags": [
+      "Mage",
+      "Support"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Zed",
+     "name": "Zed",
+     "tags": [
+      "Assassin"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Ahri",
+     "name": "Ahri",
+     "tags": [
+      "Mage",
+      "Assassin"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Belveth",
+     "name": "Bel'Veth",
+     "tags": [
+      "Fighter"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Braum",
+     "name": "Braum",
+     "tags": [
+      "Tank",
+      "Support"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Briar",
+     "name": "Briar",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Diana",
+     "name": "Diana",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Draven",
+     "name": "Draven",
+     "tags": [
+      "Marksman"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Ekko",
+     "name": "Ekko",
+     "tags": [
+      "Assassin",
+      "Mage"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Ezreal",
+     "name": "Ezreal",
+     "tags": [
+      "Marksman",
+      "Mage"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Hecarim",
+     "name": "Hecarim",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Heimerdinger",
+     "name": "Heimerdinger",
+     "tags": [
+      "Mage",
+      "Support"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Jayce",
+     "name": "Jayce",
+     "tags": [
+      "Fighter",
+      "Marksman"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Kayn",
+     "name": "Kayn",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Maokai",
+     "name": "Maokai",
+     "tags": [
+      "Tank",
+      "Support"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Naafiri",
+     "name": "Naafiri",
+     "tags": [
+      "Assassin",
+      "Fighter"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Nilah",
+     "name": "Nilah",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Nunu",
+     "name": "Nunu y Willump",
+     "tags": [
+      "Tank",
+      "Mage"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Riven",
+     "name": "Riven",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Ryze",
+     "name": "Ryze",
+     "tags": [
+      "Mage"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Trundle",
+     "name": "Trundle",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Tryndamere",
+     "name": "Tryndamere",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Varus",
+     "name": "Varus",
+     "tags": [
+      "Marksman",
+      "Mage"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Vi",
+     "name": "Vi",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Volibear",
+     "name": "Volibear",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "XinZhao",
+     "name": "Xin Zhao",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Yone",
+     "name": "Yone",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Zaahen",
+     "name": "Zaahen",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ]
+    },
+    {
+     "kind": "item",
+     "id": "2522",
+     "name": "Actualizador",
+     "tags": [
+      "SpellDamage",
+      "Mana",
+      "AbilityHaste"
+     ]
+    },
+    {
+     "kind": "item",
+     "id": "2510",
+     "name": "Ocaso y Alba",
+     "tags": [
+      "Health",
+      "AttackSpeed",
+      "SpellDamage",
+      "OnHit",
+      "AbilityHaste"
+     ]
+    },
+    {
+     "kind": "item",
+     "id": "2517",
+     "name": "Hambre Infinita",
+     "tags": [
+      "Damage",
+      "LifeSteal",
+      "SpellVamp",
+      "Tenacity",
+      "AbilityHaste"
+     ]
+    },
+    {
+     "kind": "item",
+     "id": "2525",
+     "name": "Arnés de Protoplasma",
+     "tags": [
+      "Health",
+      "NonbootsMovement",
+      "Tenacity",
+      "AbilityHaste"
+     ]
+    },
+    {
+     "kind": "item",
+     "id": "3174",
+     "name": "Blindadas de Avance ",
+     "tags": [
+      "Armor",
+      "Boots"
+     ]
+    }
+   ]
   },
   {
    "patch": "26.2",
@@ -264,7 +3698,164 @@
     "verified": 12,
     "unchecked": 99,
     "mismatch": 0
-   }
+   },
+   "changed": [
+    {
+     "kind": "champion",
+     "id": "Aatrox",
+     "name": "Aatrox",
+     "tags": [
+      "Fighter"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Ashe",
+     "name": "Ashe",
+     "tags": [
+      "Marksman",
+      "Support"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Gwen",
+     "name": "Gwen",
+     "tags": [
+      "Fighter"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Jayce",
+     "name": "Jayce",
+     "tags": [
+      "Fighter",
+      "Marksman"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Lillia",
+     "name": "Lillia",
+     "tags": [
+      "Fighter",
+      "Mage"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Malphite",
+     "name": "Malphite",
+     "tags": [
+      "Tank",
+      "Mage"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "MasterYi",
+     "name": "Maestro Yi",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Nunu",
+     "name": "Nunu y Willump",
+     "tags": [
+      "Tank",
+      "Mage"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Sivir",
+     "name": "Sivir",
+     "tags": [
+      "Marksman"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Smolder",
+     "name": "Smolder",
+     "tags": [
+      "Marksman",
+      "Mage"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Taliyah",
+     "name": "Taliyah",
+     "tags": [
+      "Mage",
+      "Support"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Varus",
+     "name": "Varus",
+     "tags": [
+      "Marksman",
+      "Mage"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Viego",
+     "name": "Viego",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Zed",
+     "name": "Zed",
+     "tags": [
+      "Assassin"
+     ]
+    },
+    {
+     "kind": "item",
+     "id": "2524",
+     "name": "Flautas de Bandle",
+     "tags": [
+      "Health",
+      "SpellBlock",
+      "Armor",
+      "AttackSpeed",
+      "NonbootsMovement",
+      "AbilityHaste"
+     ]
+    },
+    {
+     "kind": "item",
+     "id": "2512",
+     "name": "Proyectiles Cazademonios",
+     "tags": [
+      "CriticalStrike",
+      "AttackSpeed",
+      "NonbootsMovement",
+      "AbilityHaste"
+     ]
+    },
+    {
+     "kind": "item",
+     "id": "2523",
+     "name": "Hexóptica C44",
+     "tags": [
+      "Damage",
+      "CriticalStrike"
+     ]
+    }
+   ]
   },
   {
    "patch": "26.1",
@@ -276,7 +3867,702 @@
     "verified": 11,
     "unchecked": 697,
     "mismatch": 0
-   }
+   },
+   "changed": [
+    {
+     "kind": "champion",
+     "id": "Aphelios",
+     "name": "Aphelios",
+     "tags": [
+      "Marksman"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Graves",
+     "name": "Graves",
+     "tags": [
+      "Marksman"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Kayle",
+     "name": "Kayle",
+     "tags": [
+      "Mage",
+      "Marksman"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Nilah",
+     "name": "Nilah",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Quinn",
+     "name": "Quinn",
+     "tags": [
+      "Marksman",
+      "Assassin"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Rammus",
+     "name": "Rammus",
+     "tags": [
+      "Tank"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Tryndamere",
+     "name": "Tryndamere",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ]
+    },
+    {
+     "kind": "item",
+     "id": "3508",
+     "name": "Saqueador de Esencias",
+     "tags": [
+      "Damage",
+      "CriticalStrike",
+      "ManaRegen",
+      "CooldownReduction",
+      "OnHit",
+      "AbilityHaste"
+     ]
+    },
+    {
+     "kind": "item",
+     "id": "3171",
+     "name": "Botas de Lucidez Carmesí ",
+     "tags": [
+      "CooldownReduction",
+      "Boots"
+     ]
+    },
+    {
+     "kind": "item",
+     "id": "3170",
+     "name": "Botas de Marcha Rápida",
+     "tags": [
+      "Boots"
+     ]
+    },
+    {
+     "kind": "item",
+     "id": "3175",
+     "name": "Zapatos de Lanzahechizos",
+     "tags": [
+      "Boots",
+      "MagicPenetration"
+     ]
+    },
+    {
+     "kind": "item",
+     "id": "3172",
+     "name": "Grebas de Armacero",
+     "tags": [
+      "AttackSpeed",
+      "LifeSteal",
+      "NonbootsMovement"
+     ]
+    },
+    {
+     "kind": "item",
+     "id": "3174",
+     "name": "Blindadas de Avance ",
+     "tags": [
+      "Armor",
+      "Boots"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Cassiopeia",
+     "name": "Cassiopeia",
+     "tags": [
+      "Mage"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Samira",
+     "name": "Samira",
+     "tags": [
+      "Marksman",
+      "Assassin"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Caitlyn",
+     "name": "Caitlyn",
+     "tags": [
+      "Marksman"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Tristana",
+     "name": "Tristana",
+     "tags": [
+      "Marksman",
+      "Assassin"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Jinx",
+     "name": "Jinx",
+     "tags": [
+      "Marksman"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Jhin",
+     "name": "Jhin",
+     "tags": [
+      "Marksman",
+      "Mage"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Sivir",
+     "name": "Sivir",
+     "tags": [
+      "Marksman"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Zeri",
+     "name": "Zeri",
+     "tags": [
+      "Marksman"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Lucian",
+     "name": "Lucian",
+     "tags": [
+      "Marksman",
+      "Assassin"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Xayah",
+     "name": "Xayah",
+     "tags": [
+      "Marksman"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Draven",
+     "name": "Draven",
+     "tags": [
+      "Marksman"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Yunara",
+     "name": "Yunara",
+     "tags": [
+      "Marksman"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Akshan",
+     "name": "Akshan",
+     "tags": [
+      "Marksman",
+      "Assassin"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Gangplank",
+     "name": "Gangplank",
+     "tags": [
+      "Fighter"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Yone",
+     "name": "Yone",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Yasuo",
+     "name": "Yasuo",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "MissFortune",
+     "name": "Miss Fortune",
+     "tags": [
+      "Marksman",
+      "Mage"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Twitch",
+     "name": "Twitch",
+     "tags": [
+      "Marksman",
+      "Assassin"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Ashe",
+     "name": "Ashe",
+     "tags": [
+      "Marksman",
+      "Support"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Smolder",
+     "name": "Smolder",
+     "tags": [
+      "Marksman",
+      "Mage"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Kindred",
+     "name": "Kindred",
+     "tags": [
+      "Marksman"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Corki",
+     "name": "Corki",
+     "tags": [
+      "Marksman",
+      "Mage"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Shaco",
+     "name": "Shaco",
+     "tags": [
+      "Assassin"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Senna",
+     "name": "Senna",
+     "tags": [
+      "Support",
+      "Marksman"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Garen",
+     "name": "Garen",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Rengar",
+     "name": "Rengar",
+     "tags": [
+      "Assassin",
+      "Fighter"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Viego",
+     "name": "Viego",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Elise",
+     "name": "Elise",
+     "tags": [
+      "Assassin",
+      "Mage"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Jax",
+     "name": "Jax",
+     "tags": [
+      "Fighter"
+     ]
+    },
+    {
+     "kind": "item",
+     "id": "1055",
+     "name": "Espada de Doran",
+     "tags": [
+      "Health",
+      "Damage",
+      "LifeSteal",
+      "SpellVamp",
+      "Lane"
+     ]
+    },
+    {
+     "kind": "item",
+     "id": "2510",
+     "name": "Ocaso y Alba",
+     "tags": [
+      "Health",
+      "AttackSpeed",
+      "SpellDamage",
+      "OnHit",
+      "AbilityHaste"
+     ]
+    },
+    {
+     "kind": "item",
+     "id": "2512",
+     "name": "Proyectiles Cazademonios",
+     "tags": [
+      "CriticalStrike",
+      "AttackSpeed",
+      "NonbootsMovement",
+      "AbilityHaste"
+     ]
+    },
+    {
+     "kind": "item",
+     "id": "2517",
+     "name": "Hambre Infinita",
+     "tags": [
+      "Damage",
+      "LifeSteal",
+      "SpellVamp",
+      "Tenacity",
+      "AbilityHaste"
+     ]
+    },
+    {
+     "kind": "item",
+     "id": "2520",
+     "name": "Rompebastiones",
+     "tags": [
+      "Damage",
+      "ArmorPenetration",
+      "AbilityHaste"
+     ]
+    },
+    {
+     "kind": "item",
+     "id": "2522",
+     "name": "Actualizador",
+     "tags": [
+      "SpellDamage",
+      "Mana",
+      "AbilityHaste"
+     ]
+    },
+    {
+     "kind": "item",
+     "id": "2523",
+     "name": "Hexóptica C44",
+     "tags": [
+      "Damage",
+      "CriticalStrike"
+     ]
+    },
+    {
+     "kind": "item",
+     "id": "2524",
+     "name": "Flautas de Bandle",
+     "tags": [
+      "Health",
+      "SpellBlock",
+      "Armor",
+      "AttackSpeed",
+      "NonbootsMovement",
+      "AbilityHaste"
+     ]
+    },
+    {
+     "kind": "item",
+     "id": "2525",
+     "name": "Arnés de Protoplasma",
+     "tags": [
+      "Health",
+      "NonbootsMovement",
+      "Tenacity",
+      "AbilityHaste"
+     ]
+    },
+    {
+     "kind": "item",
+     "id": "2526",
+     "name": "Tiara Murmullante",
+     "tags": [
+      "Health",
+      "Mana",
+      "ManaRegen"
+     ]
+    },
+    {
+     "kind": "item",
+     "id": "2530",
+     "name": "Diadema de la Canción",
+     "tags": [
+      "Health",
+      "Mana",
+      "ManaRegen",
+      "AbilityHaste"
+     ]
+    },
+    {
+     "kind": "item",
+     "id": "3146",
+     "name": "Sablepistola Hextech",
+     "tags": [
+      "Damage",
+      "LifeSteal",
+      "SpellDamage",
+      "Active",
+      "SpellVamp"
+     ]
+    },
+    {
+     "kind": "item",
+     "id": "3097",
+     "name": "Filo de la Tormenta",
+     "tags": [
+      "Damage",
+      "CriticalStrike",
+      "AttackSpeed",
+      "NonbootsMovement"
+     ]
+    },
+    {
+     "kind": "item",
+     "id": "2502",
+     "name": "Desesperación Eterna",
+     "tags": [
+      "Health",
+      "Armor",
+      "CooldownReduction",
+      "AbilityHaste"
+     ]
+    },
+    {
+     "kind": "item",
+     "id": "3105",
+     "name": "Égida de la Legión",
+     "tags": [
+      "SpellBlock",
+      "Armor",
+      "CooldownReduction",
+      "AbilityHaste"
+     ]
+    },
+    {
+     "kind": "item",
+     "id": "4628",
+     "name": "Enfoque al Horizonte",
+     "tags": [
+      "SpellDamage",
+      "AbilityHaste"
+     ]
+    },
+    {
+     "kind": "item",
+     "id": "6610",
+     "name": "Cielo Desgarrado",
+     "tags": [
+      "Health",
+      "Damage",
+      "CooldownReduction",
+      "AbilityHaste"
+     ]
+    },
+    {
+     "kind": "item",
+     "id": "6655",
+     "name": "Eco de Luden",
+     "tags": [
+      "SpellDamage",
+      "Mana",
+      "CooldownReduction",
+      "AbilityHaste"
+     ]
+    },
+    {
+     "kind": "item",
+     "id": "6620",
+     "name": "Ecos de Helia",
+     "tags": [
+      "Health",
+      "SpellDamage",
+      "ManaRegen",
+      "CooldownReduction",
+      "AbilityHaste"
+     ]
+    },
+    {
+     "kind": "item",
+     "id": "3179",
+     "name": "Espada de la Penumbra",
+     "tags": [
+      "Damage",
+      "Vision",
+      "CooldownReduction",
+      "ArmorPenetration",
+      "AbilityHaste"
+     ]
+    },
+    {
+     "kind": "item",
+     "id": "3107",
+     "name": "Redención",
+     "tags": [
+      "SpellDamage",
+      "ManaRegen",
+      "CooldownReduction",
+      "AbilityHaste"
+     ]
+    },
+    {
+     "kind": "item",
+     "id": "3050",
+     "name": "Convergencia de Zeke",
+     "tags": [
+      "Health",
+      "SpellBlock",
+      "Armor",
+      "AbilityHaste"
+     ]
+    },
+    {
+     "kind": "item",
+     "id": "3042",
+     "name": "Muramaná",
+     "tags": [
+      "Damage",
+      "Mana",
+      "CooldownReduction",
+      "OnHit",
+      "ArmorPenetration"
+     ]
+    },
+    {
+     "kind": "item",
+     "id": "3121",
+     "name": "Invierno Nórdico",
+     "tags": [
+      "Health",
+      "Mana",
+      "AbilityHaste"
+     ]
+    },
+    {
+     "kind": "item",
+     "id": "3033",
+     "name": "Recordatorio Mortal",
+     "tags": [
+      "Damage",
+      "CriticalStrike",
+      "ArmorPenetration"
+     ]
+    },
+    {
+     "kind": "item",
+     "id": "3036",
+     "name": "Recuerdos de Lord Dominik",
+     "tags": [
+      "Damage",
+      "CriticalStrike",
+      "ArmorPenetration"
+     ]
+    },
+    {
+     "kind": "item",
+     "id": "3032",
+     "name": "Flechas Salvajes de Yun Tal",
+     "tags": [
+      "Damage",
+      "CriticalStrike",
+      "AttackSpeed"
+     ]
+    },
+    {
+     "kind": "item",
+     "id": "3031",
+     "name": "Filo del Infinito",
+     "tags": [
+      "CriticalStrike",
+      "Damage"
+     ]
+    },
+    {
+     "kind": "item",
+     "id": "3010",
+     "name": "Botas Simbióticas",
+     "tags": [
+      "Boots"
+     ]
+    },
+    {
+     "kind": "item",
+     "id": "4643",
+     "name": "Piedravigía Alerta",
+     "tags": [
+      "Health",
+      "SpellBlock",
+      "Armor",
+      "Vision",
+      "Active",
+      "CooldownReduction",
+      "AbilityHaste"
+     ]
+    }
+   ]
   },
   {
    "patch": "25.24",
@@ -288,7 +4574,222 @@
     "verified": 8,
     "unchecked": 150,
     "mismatch": 0
-   }
+   },
+   "changed": [
+    {
+     "kind": "champion",
+     "id": "Aatrox",
+     "name": "Aatrox",
+     "tags": [
+      "Fighter"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Ambessa",
+     "name": "Ambessa",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Lux",
+     "name": "Lux",
+     "tags": [
+      "Mage",
+      "Support"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "MissFortune",
+     "name": "Miss Fortune",
+     "tags": [
+      "Marksman",
+      "Mage"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Qiyana",
+     "name": "Qiyana",
+     "tags": [
+      "Assassin"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Sylas",
+     "name": "Sylas",
+     "tags": [
+      "Mage",
+      "Assassin"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "TahmKench",
+     "name": "Tahm Kench",
+     "tags": [
+      "Tank",
+      "Support"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Volibear",
+     "name": "Volibear",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Zaahen",
+     "name": "Zaahen",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Brand",
+     "name": "Brand",
+     "tags": [
+      "Mage",
+      "Support"
+     ]
+    },
+    {
+     "kind": "item",
+     "id": "3084",
+     "name": "Corazón de Acero",
+     "tags": [
+      "Health",
+      "HealthRegen"
+     ]
+    },
+    {
+     "kind": "item",
+     "id": "3153",
+     "name": "Espada del Rey Arruinado",
+     "tags": [
+      "Damage",
+      "AttackSpeed",
+      "LifeSteal",
+      "Slow",
+      "OnHit"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Braum",
+     "name": "Braum",
+     "tags": [
+      "Tank",
+      "Support"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "DrMundo",
+     "name": "Dr. Mundo",
+     "tags": [
+      "Tank",
+      "Fighter"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Kayn",
+     "name": "Kayn",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Khazix",
+     "name": "Kha'Zix",
+     "tags": [
+      "Assassin"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "MasterYi",
+     "name": "Maestro Yi",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Mel",
+     "name": "Mel",
+     "tags": [
+      "Mage",
+      "Support"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Nasus",
+     "name": "Nasus",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Nidalee",
+     "name": "Nidalee",
+     "tags": [
+      "Assassin",
+      "Mage"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Sejuani",
+     "name": "Sejuani",
+     "tags": [
+      "Tank"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Swain",
+     "name": "Swain",
+     "tags": [
+      "Mage",
+      "Support"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Viktor",
+     "name": "Viktor",
+     "tags": [
+      "Mage"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Zed",
+     "name": "Zed",
+     "tags": [
+      "Assassin"
+     ]
+    }
+   ]
   },
   {
    "patch": "25.23",
@@ -300,7 +4801,257 @@
     "verified": 6,
     "unchecked": 130,
     "mismatch": 0
-   }
+   },
+   "changed": [
+    {
+     "kind": "champion",
+     "id": "Aatrox",
+     "name": "Aatrox",
+     "tags": [
+      "Fighter"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Ahri",
+     "name": "Ahri",
+     "tags": [
+      "Mage",
+      "Assassin"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Ambessa",
+     "name": "Ambessa",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Ashe",
+     "name": "Ashe",
+     "tags": [
+      "Marksman",
+      "Support"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Caitlyn",
+     "name": "Caitlyn",
+     "tags": [
+      "Marksman"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Chogath",
+     "name": "Cho'Gath",
+     "tags": [
+      "Tank",
+      "Mage"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "DrMundo",
+     "name": "Dr. Mundo",
+     "tags": [
+      "Tank",
+      "Fighter"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Fizz",
+     "name": "Fizz",
+     "tags": [
+      "Assassin",
+      "Fighter"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Jayce",
+     "name": "Jayce",
+     "tags": [
+      "Fighter",
+      "Marksman"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Jhin",
+     "name": "Jhin",
+     "tags": [
+      "Marksman",
+      "Mage"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Jinx",
+     "name": "Jinx",
+     "tags": [
+      "Marksman"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Kaisa",
+     "name": "Kai'Sa",
+     "tags": [
+      "Marksman",
+      "Mage"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Hwei",
+     "name": "Hwei",
+     "tags": [
+      "Mage",
+      "Support"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Malphite",
+     "name": "Malphite",
+     "tags": [
+      "Tank",
+      "Mage"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Mel",
+     "name": "Mel",
+     "tags": [
+      "Mage",
+      "Support"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "MissFortune",
+     "name": "Miss Fortune",
+     "tags": [
+      "Marksman",
+      "Mage"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Ornn",
+     "name": "Ornn",
+     "tags": [
+      "Tank"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "RekSai",
+     "name": "Rek'Sai",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Riven",
+     "name": "Riven",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Sion",
+     "name": "Sion",
+     "tags": [
+      "Tank",
+      "Fighter"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Skarner",
+     "name": "Skarner",
+     "tags": [
+      "Tank",
+      "Fighter"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Swain",
+     "name": "Swain",
+     "tags": [
+      "Mage",
+      "Support"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Tristana",
+     "name": "Tristana",
+     "tags": [
+      "Marksman",
+      "Assassin"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Vladimir",
+     "name": "Vladimir",
+     "tags": [
+      "Mage",
+      "Fighter"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Volibear",
+     "name": "Volibear",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Xayah",
+     "name": "Xayah",
+     "tags": [
+      "Marksman"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Zeri",
+     "name": "Zeri",
+     "tags": [
+      "Marksman"
+     ]
+    },
+    {
+     "kind": "item",
+     "id": "3068",
+     "name": "Égida de Fuego Solar",
+     "tags": [
+      "Health",
+      "Armor",
+      "Aura",
+      "AbilityHaste"
+     ]
+    }
+   ]
   },
   {
    "patch": "25.22",
@@ -312,7 +5063,79 @@
     "verified": 7,
     "unchecked": 145,
     "mismatch": 0
-   }
+   },
+   "changed": [
+    {
+     "kind": "champion",
+     "id": "Akshan",
+     "name": "Akshan",
+     "tags": [
+      "Marksman",
+      "Assassin"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "AurelionSol",
+     "name": "Aurelion Sol",
+     "tags": [
+      "Mage"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Blitzcrank",
+     "name": "Blitzcrank",
+     "tags": [
+      "Tank",
+      "Support"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Leblanc",
+     "name": "LeBlanc",
+     "tags": [
+      "Assassin",
+      "Mage"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Skarner",
+     "name": "Skarner",
+     "tags": [
+      "Tank",
+      "Fighter"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Talon",
+     "name": "Talon",
+     "tags": [
+      "Assassin"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Volibear",
+     "name": "Volibear",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Yone",
+     "name": "Yone",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ]
+    }
+   ]
   },
   {
    "patch": "25.21",
@@ -324,7 +5147,164 @@
     "verified": 13,
     "unchecked": 104,
     "mismatch": 2
-   }
+   },
+   "changed": [
+    {
+     "kind": "champion",
+     "id": "Bard",
+     "name": "Bardo",
+     "tags": [
+      "Support",
+      "Mage"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Diana",
+     "name": "Diana",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "DrMundo",
+     "name": "Dr. Mundo",
+     "tags": [
+      "Tank",
+      "Fighter"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Ezreal",
+     "name": "Ezreal",
+     "tags": [
+      "Marksman",
+      "Mage"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Graves",
+     "name": "Graves",
+     "tags": [
+      "Marksman"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Gwen",
+     "name": "Gwen",
+     "tags": [
+      "Fighter"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Kalista",
+     "name": "Kalista",
+     "tags": [
+      "Marksman"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "KogMaw",
+     "name": "Kog'Maw",
+     "tags": [
+      "Marksman",
+      "Mage"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Morgana",
+     "name": "Morgana",
+     "tags": [
+      "Support",
+      "Mage"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Qiyana",
+     "name": "Qiyana",
+     "tags": [
+      "Assassin"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Quinn",
+     "name": "Quinn",
+     "tags": [
+      "Marksman",
+      "Assassin"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Yone",
+     "name": "Yone",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Yunara",
+     "name": "Yunara",
+     "tags": [
+      "Marksman"
+     ]
+    },
+    {
+     "kind": "item",
+     "id": "3803",
+     "name": "Catalizador de Eones",
+     "tags": [
+      "Health",
+      "HealthRegen",
+      "Mana",
+      "ManaRegen"
+     ]
+    },
+    {
+     "kind": "item",
+     "id": "1055",
+     "name": "Espada de Doran",
+     "tags": [
+      "Health",
+      "Damage",
+      "SpellVamp",
+      "Lane"
+     ]
+    },
+    {
+     "kind": "item",
+     "id": "1056",
+     "name": "Sortija de Doran",
+     "tags": [
+      "Health",
+      "Lane",
+      "ManaRegen",
+      "SpellDamage"
+     ]
+    },
+    {
+     "kind": "item",
+     "id": "1054",
+     "name": "Escudo de Doran",
+     "tags": [
+      "Health",
+      "HealthRegen",
+      "Lane"
+     ]
+    }
+   ]
   },
   {
    "patch": "25.20",
@@ -336,7 +5316,132 @@
     "verified": 7,
     "unchecked": 189,
     "mismatch": 0
-   }
+   },
+   "changed": [
+    {
+     "kind": "champion",
+     "id": "Azir",
+     "name": "Azir",
+     "tags": [
+      "Mage",
+      "Marksman"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Anivia",
+     "name": "Anivia",
+     "tags": [
+      "Mage"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Briar",
+     "name": "Briar",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Camille",
+     "name": "Camille",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Fizz",
+     "name": "Fizz",
+     "tags": [
+      "Assassin",
+      "Fighter"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Graves",
+     "name": "Graves",
+     "tags": [
+      "Marksman"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Katarina",
+     "name": "Katarina",
+     "tags": [
+      "Assassin",
+      "Mage"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Malphite",
+     "name": "Malphite",
+     "tags": [
+      "Tank",
+      "Mage"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Orianna",
+     "name": "Orianna",
+     "tags": [
+      "Mage",
+      "Support"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Pantheon",
+     "name": "Pantheon",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Veigar",
+     "name": "Veigar",
+     "tags": [
+      "Mage"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Volibear",
+     "name": "Volibear",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Warwick",
+     "name": "Warwick",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "MonkeyKing",
+     "name": "Wukong",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ]
+    }
+   ]
   },
   {
    "patch": "25.19",
@@ -348,7 +5453,180 @@
     "verified": 7,
     "unchecked": 104,
     "mismatch": 0
-   }
+   },
+   "changed": [
+    {
+     "kind": "champion",
+     "id": "Ahri",
+     "name": "Ahri",
+     "tags": [
+      "Mage",
+      "Assassin"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Brand",
+     "name": "Brand",
+     "tags": [
+      "Mage",
+      "Support"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Caitlyn",
+     "name": "Caitlyn",
+     "tags": [
+      "Marksman"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Corki",
+     "name": "Corki",
+     "tags": [
+      "Marksman",
+      "Mage"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Diana",
+     "name": "Diana",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Draven",
+     "name": "Draven",
+     "tags": [
+      "Marksman"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Jax",
+     "name": "Jax",
+     "tags": [
+      "Fighter"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Jinx",
+     "name": "Jinx",
+     "tags": [
+      "Marksman"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Leblanc",
+     "name": "LeBlanc",
+     "tags": [
+      "Assassin",
+      "Mage"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "LeeSin",
+     "name": "Lee Sin",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Lillia",
+     "name": "Lillia",
+     "tags": [
+      "Fighter",
+      "Mage"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Mel",
+     "name": "Mel",
+     "tags": [
+      "Mage",
+      "Support"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Pantheon",
+     "name": "Pantheon",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Poppy",
+     "name": "Poppy",
+     "tags": [
+      "Tank",
+      "Fighter"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Seraphine",
+     "name": "Seraphine",
+     "tags": [
+      "Support",
+      "Mage"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Sivir",
+     "name": "Sivir",
+     "tags": [
+      "Marksman"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Syndra",
+     "name": "Syndra",
+     "tags": [
+      "Mage"
+     ]
+    },
+    {
+     "kind": "item",
+     "id": "3107",
+     "name": "Redención",
+     "tags": [
+      "Health",
+      "ManaRegen",
+      "CooldownReduction",
+      "AbilityHaste"
+     ]
+    },
+    {
+     "kind": "item",
+     "id": "3869",
+     "name": "Oposición Celestial",
+     "tags": [
+      "Health",
+      "HealthRegen",
+      "ManaRegen",
+      "Vision",
+      "GoldPer",
+      "Lane"
+     ]
+    }
+   ]
   },
   {
    "patch": "25.18",
@@ -360,7 +5638,199 @@
     "verified": 12,
     "unchecked": 231,
     "mismatch": 0
-   }
+   },
+   "changed": [
+    {
+     "kind": "champion",
+     "id": "Amumu",
+     "name": "Amumu",
+     "tags": [
+      "Tank",
+      "Support"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Annie",
+     "name": "Annie",
+     "tags": [
+      "Mage",
+      "Support"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Ashe",
+     "name": "Ashe",
+     "tags": [
+      "Marksman",
+      "Support"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Aurora",
+     "name": "Aurora",
+     "tags": [
+      "Mage",
+      "Assassin"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Azir",
+     "name": "Azir",
+     "tags": [
+      "Mage",
+      "Marksman"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Briar",
+     "name": "Briar",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Cassiopeia",
+     "name": "Cassiopeia",
+     "tags": [
+      "Mage"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Galio",
+     "name": "Galio",
+     "tags": [
+      "Tank",
+      "Mage"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Garen",
+     "name": "Garen",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Hwei",
+     "name": "Hwei",
+     "tags": [
+      "Mage",
+      "Support"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Jayce",
+     "name": "Jayce",
+     "tags": [
+      "Fighter",
+      "Marksman"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Illaoi",
+     "name": "Illaoi",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Qiyana",
+     "name": "Qiyana",
+     "tags": [
+      "Assassin"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Sylas",
+     "name": "Sylas",
+     "tags": [
+      "Mage",
+      "Assassin"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Taliyah",
+     "name": "Taliyah",
+     "tags": [
+      "Mage",
+      "Support"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Velkoz",
+     "name": "Vel'Koz",
+     "tags": [
+      "Mage",
+      "Support"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Volibear",
+     "name": "Volibear",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Yunara",
+     "name": "Yunara",
+     "tags": [
+      "Marksman"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Zac",
+     "name": "Zac",
+     "tags": [
+      "Tank",
+      "Fighter"
+     ]
+    },
+    {
+     "kind": "item",
+     "id": "6660",
+     "name": "Ceniza de Bami",
+     "tags": [
+      "Health",
+      "AbilityHaste"
+     ]
+    },
+    {
+     "kind": "item",
+     "id": "3139",
+     "name": "Cimitarra Mercurial",
+     "tags": [
+      "SpellBlock",
+      "Damage",
+      "LifeSteal",
+      "Active",
+      "NonbootsMovement",
+      "Tenacity"
+     ]
+    }
+   ]
   },
   {
    "patch": "25.17",
@@ -372,7 +5842,182 @@
     "verified": 8,
     "unchecked": 195,
     "mismatch": 1
-   }
+   },
+   "changed": [
+    {
+     "kind": "champion",
+     "id": "Gwen",
+     "name": "Gwen",
+     "tags": [
+      "Fighter"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Irelia",
+     "name": "Irelia",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Kassadin",
+     "name": "Kassadin",
+     "tags": [
+      "Assassin",
+      "Mage"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Kayn",
+     "name": "Kayn",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "KogMaw",
+     "name": "Kog'Maw",
+     "tags": [
+      "Marksman",
+      "Mage"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "MasterYi",
+     "name": "Maestro Yi",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "MissFortune",
+     "name": "Miss Fortune",
+     "tags": [
+      "Marksman",
+      "Mage"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Morgana",
+     "name": "Morgana",
+     "tags": [
+      "Support",
+      "Mage"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Nilah",
+     "name": "Nilah",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Rumble",
+     "name": "Rumble",
+     "tags": [
+      "Fighter",
+      "Mage"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Senna",
+     "name": "Senna",
+     "tags": [
+      "Support",
+      "Marksman"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Sett",
+     "name": "Sett",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Singed",
+     "name": "Singed",
+     "tags": [
+      "Tank",
+      "Mage"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Teemo",
+     "name": "Teemo",
+     "tags": [
+      "Marksman",
+      "Mage"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Vayne",
+     "name": "Vayne",
+     "tags": [
+      "Marksman",
+      "Assassin"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Yunara",
+     "name": "Yunara",
+     "tags": [
+      "Marksman"
+     ]
+    },
+    {
+     "kind": "item",
+     "id": "6696",
+     "name": "Arco Axiomático",
+     "tags": [
+      "Damage",
+      "ArmorPenetration",
+      "AbilityHaste"
+     ]
+    },
+    {
+     "kind": "item",
+     "id": "4628",
+     "name": "Enfoque al Horizonte",
+     "tags": [
+      "SpellDamage",
+      "AbilityHaste"
+     ]
+    },
+    {
+     "kind": "item",
+     "id": "6698",
+     "name": "Hidra Profana",
+     "tags": [
+      "Damage",
+      "Active",
+      "CooldownReduction",
+      "ArmorPenetration",
+      "AbilityHaste"
+     ]
+    }
+   ]
   },
   {
    "patch": "25.16",
@@ -384,7 +6029,300 @@
     "verified": 30,
     "unchecked": 141,
     "mismatch": 0
-   }
+   },
+   "changed": [
+    {
+     "kind": "champion",
+     "id": "Brand",
+     "name": "Brand",
+     "tags": [
+      "Mage",
+      "Support"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Gnar",
+     "name": "Gnar",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Illaoi",
+     "name": "Illaoi",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "JarvanIV",
+     "name": "Jarvan IV",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Kalista",
+     "name": "Kalista",
+     "tags": [
+      "Marksman"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Lulu",
+     "name": "Lulu",
+     "tags": [
+      "Support",
+      "Mage"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "MasterYi",
+     "name": "Maestro Yi",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Mordekaiser",
+     "name": "Mordekaiser",
+     "tags": [
+      "Fighter",
+      "Mage"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Morgana",
+     "name": "Morgana",
+     "tags": [
+      "Support",
+      "Mage"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Nautilus",
+     "name": "Nautilus",
+     "tags": [
+      "Tank",
+      "Support"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Nocturne",
+     "name": "Nocturne",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Qiyana",
+     "name": "Qiyana",
+     "tags": [
+      "Assassin"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "RekSai",
+     "name": "Rek'Sai",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Rell",
+     "name": "Rell",
+     "tags": [
+      "Tank",
+      "Support"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Rumble",
+     "name": "Rumble",
+     "tags": [
+      "Fighter",
+      "Mage"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Shaco",
+     "name": "Shaco",
+     "tags": [
+      "Assassin"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Singed",
+     "name": "Singed",
+     "tags": [
+      "Tank",
+      "Mage"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Sion",
+     "name": "Sion",
+     "tags": [
+      "Tank",
+      "Fighter"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Sylas",
+     "name": "Sylas",
+     "tags": [
+      "Mage",
+      "Assassin"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Trundle",
+     "name": "Trundle",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Varus",
+     "name": "Varus",
+     "tags": [
+      "Marksman",
+      "Mage"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Viego",
+     "name": "Viego",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Warwick",
+     "name": "Warwick",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "XinZhao",
+     "name": "Xin Zhao",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Yuumi",
+     "name": "Yuumi",
+     "tags": [
+      "Support",
+      "Mage"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Zyra",
+     "name": "Zyra",
+     "tags": [
+      "Mage",
+      "Support"
+     ]
+    },
+    {
+     "kind": "item",
+     "id": "3073",
+     "name": "Placa Hexperimental",
+     "tags": [
+      "Health",
+      "Damage",
+      "AttackSpeed",
+      "CooldownReduction",
+      "NonbootsMovement",
+      "AbilityHaste"
+     ]
+    },
+    {
+     "kind": "item",
+     "id": "447118",
+     "name": "Capa del Piromante",
+     "tags": [
+      "Health",
+      "Damage",
+      "SpellDamage",
+      "SpellVamp"
+     ]
+    },
+    {
+     "kind": "item",
+     "id": "447122",
+     "name": "Guantelete del Agujero Negro",
+     "tags": [
+      "SpellBlock",
+      "AttackSpeed",
+      "OnHit",
+      "AbilityHaste"
+     ]
+    },
+    {
+     "kind": "item",
+     "id": "6664",
+     "name": "Resplandor Vacío",
+     "tags": [
+      "Health",
+      "SpellBlock",
+      "HealthRegen",
+      "Aura",
+      "MagicResist",
+      "AbilityHaste"
+     ]
+    },
+    {
+     "kind": "item",
+     "id": "443090",
+     "name": "Cuota del Segador",
+     "tags": [
+      "Damage",
+      "AttackSpeed",
+      "SpellDamage",
+      "OnHit",
+      "NonbootsMovement"
+     ]
+    }
+   ]
   },
   {
    "patch": "25.15",
@@ -396,7 +6334,124 @@
     "verified": 12,
     "unchecked": 107,
     "mismatch": 0
-   }
+   },
+   "changed": [
+    {
+     "kind": "champion",
+     "id": "Alistar",
+     "name": "Alistar",
+     "tags": [
+      "Tank",
+      "Support"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Belveth",
+     "name": "Bel'Veth",
+     "tags": [
+      "Fighter"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Braum",
+     "name": "Braum",
+     "tags": [
+      "Tank",
+      "Support"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Corki",
+     "name": "Corki",
+     "tags": [
+      "Marksman",
+      "Mage"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Illaoi",
+     "name": "Illaoi",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Irelia",
+     "name": "Irelia",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Kled",
+     "name": "Kled",
+     "tags": [
+      "Fighter"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "MasterYi",
+     "name": "Maestro Yi",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Nilah",
+     "name": "Nilah",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Pantheon",
+     "name": "Pantheon",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Quinn",
+     "name": "Quinn",
+     "tags": [
+      "Marksman",
+      "Assassin"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "RekSai",
+     "name": "Rek'Sai",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Rell",
+     "name": "Rell",
+     "tags": [
+      "Tank",
+      "Support"
+     ]
+    }
+   ]
   },
   {
    "patch": "25.14",
@@ -408,7 +6463,195 @@
     "verified": 12,
     "unchecked": 167,
     "mismatch": 0
-   }
+   },
+   "changed": [
+    {
+     "kind": "champion",
+     "id": "Azir",
+     "name": "Azir",
+     "tags": [
+      "Mage",
+      "Marksman"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Braum",
+     "name": "Braum",
+     "tags": [
+      "Tank",
+      "Support"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Briar",
+     "name": "Briar",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Darius",
+     "name": "Darius",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Fiora",
+     "name": "Fiora",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Fizz",
+     "name": "Fizz",
+     "tags": [
+      "Assassin",
+      "Fighter"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Kled",
+     "name": "Kled",
+     "tags": [
+      "Fighter"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "LeeSin",
+     "name": "Lee Sin",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Riven",
+     "name": "Riven",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Sett",
+     "name": "Sett",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "TwistedFate",
+     "name": "Twisted Fate",
+     "tags": [
+      "Mage",
+      "Marksman"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Yasuo",
+     "name": "Yasuo",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Yuumi",
+     "name": "Yuumi",
+     "tags": [
+      "Support",
+      "Mage"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Ziggs",
+     "name": "Ziggs",
+     "tags": [
+      "Mage"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Zoe",
+     "name": "Zoe",
+     "tags": [
+      "Mage"
+     ]
+    },
+    {
+     "kind": "item",
+     "id": "3153",
+     "name": "Espada del Rey Arruinado",
+     "tags": [
+      "Damage",
+      "AttackSpeed",
+      "LifeSteal",
+      "Slow",
+      "OnHit"
+     ]
+    },
+    {
+     "kind": "item",
+     "id": "3147",
+     "name": "Antifaz Embrujado",
+     "tags": [
+      "Health",
+      "SpellDamage"
+     ]
+    },
+    {
+     "kind": "item",
+     "id": "6672",
+     "name": "Matakrakens",
+     "tags": [
+      "Damage",
+      "AttackSpeed",
+      "OnHit",
+      "NonbootsMovement"
+     ]
+    },
+    {
+     "kind": "item",
+     "id": "3046",
+     "name": "Bailarín Espectral",
+     "tags": [
+      "CriticalStrike",
+      "AttackSpeed",
+      "NonbootsMovement"
+     ]
+    },
+    {
+     "kind": "item",
+     "id": "6657",
+     "name": "Vara de las Edades",
+     "tags": [
+      "Health",
+      "HealthRegen",
+      "SpellDamage",
+      "Mana",
+      "ManaRegen"
+     ]
+    }
+   ]
   },
   {
    "patch": "25.13",
@@ -420,7 +6663,104 @@
     "verified": 10,
     "unchecked": 67,
     "mismatch": 0
-   }
+   },
+   "changed": [
+    {
+     "kind": "champion",
+     "id": "Briar",
+     "name": "Briar",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Fiddlesticks",
+     "name": "Fiddlesticks",
+     "tags": [
+      "Mage",
+      "Support"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Gangplank",
+     "name": "Gangplank",
+     "tags": [
+      "Fighter"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Irelia",
+     "name": "Irelia",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Kindred",
+     "name": "Kindred",
+     "tags": [
+      "Marksman"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Nidalee",
+     "name": "Nidalee",
+     "tags": [
+      "Assassin",
+      "Mage"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Rammus",
+     "name": "Rammus",
+     "tags": [
+      "Tank"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Ryze",
+     "name": "Ryze",
+     "tags": [
+      "Mage"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "TwistedFate",
+     "name": "Twisted Fate",
+     "tags": [
+      "Mage",
+      "Marksman"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Vi",
+     "name": "Vi",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Yorick",
+     "name": "Yorick",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ]
+    }
+   ]
   },
   {
    "patch": "25.12",
@@ -432,7 +6772,243 @@
     "verified": 30,
     "unchecked": 130,
     "mismatch": 0
-   }
+   },
+   "changed": [
+    {
+     "kind": "champion",
+     "id": "Aatrox",
+     "name": "Aatrox",
+     "tags": [
+      "Fighter"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Ahri",
+     "name": "Ahri",
+     "tags": [
+      "Mage",
+      "Assassin"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Aphelios",
+     "name": "Aphelios",
+     "tags": [
+      "Marksman"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Aurora",
+     "name": "Aurora",
+     "tags": [
+      "Mage",
+      "Assassin"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Azir",
+     "name": "Azir",
+     "tags": [
+      "Mage",
+      "Marksman"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Bard",
+     "name": "Bardo",
+     "tags": [
+      "Support",
+      "Mage"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Belveth",
+     "name": "Bel'Veth",
+     "tags": [
+      "Fighter"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Garen",
+     "name": "Garen",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Gwen",
+     "name": "Gwen",
+     "tags": [
+      "Fighter"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Jax",
+     "name": "Jax",
+     "tags": [
+      "Fighter"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Kalista",
+     "name": "Kalista",
+     "tags": [
+      "Marksman"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Leblanc",
+     "name": "LeBlanc",
+     "tags": [
+      "Assassin",
+      "Mage"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "LeeSin",
+     "name": "Lee Sin",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Mordekaiser",
+     "name": "Mordekaiser",
+     "tags": [
+      "Fighter",
+      "Mage"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Neeko",
+     "name": "Neeko",
+     "tags": [
+      "Mage",
+      "Support"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Nidalee",
+     "name": "Nidalee",
+     "tags": [
+      "Assassin",
+      "Mage"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Rammus",
+     "name": "Rammus",
+     "tags": [
+      "Tank"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Rumble",
+     "name": "Rumble",
+     "tags": [
+      "Fighter",
+      "Mage"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Samira",
+     "name": "Samira",
+     "tags": [
+      "Marksman",
+      "Assassin"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Senna",
+     "name": "Senna",
+     "tags": [
+      "Support",
+      "Marksman"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Shen",
+     "name": "Shen",
+     "tags": [
+      "Tank"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Taliyah",
+     "name": "Taliyah",
+     "tags": [
+      "Mage",
+      "Support"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "TwistedFate",
+     "name": "Twisted Fate",
+     "tags": [
+      "Mage",
+      "Marksman"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Varus",
+     "name": "Varus",
+     "tags": [
+      "Marksman",
+      "Mage"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Vi",
+     "name": "Vi",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Yorick",
+     "name": "Yorick",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Zeri",
+     "name": "Zeri",
+     "tags": [
+      "Marksman"
+     ]
+    }
+   ]
   },
   {
    "patch": "25.11",
@@ -444,7 +7020,168 @@
     "verified": 18,
     "unchecked": 249,
     "mismatch": 0
-   }
+   },
+   "changed": [
+    {
+     "kind": "champion",
+     "id": "Aatrox",
+     "name": "Aatrox",
+     "tags": [
+      "Fighter"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Annie",
+     "name": "Annie",
+     "tags": [
+      "Mage",
+      "Support"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Ashe",
+     "name": "Ashe",
+     "tags": [
+      "Marksman",
+      "Support"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Chogath",
+     "name": "Cho'Gath",
+     "tags": [
+      "Tank",
+      "Mage"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Diana",
+     "name": "Diana",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Elise",
+     "name": "Elise",
+     "tags": [
+      "Assassin",
+      "Mage"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Garen",
+     "name": "Garen",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Kassadin",
+     "name": "Kassadin",
+     "tags": [
+      "Assassin",
+      "Mage"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Lucian",
+     "name": "Lucian",
+     "tags": [
+      "Marksman",
+      "Assassin"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Rengar",
+     "name": "Rengar",
+     "tags": [
+      "Assassin",
+      "Fighter"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Ryze",
+     "name": "Ryze",
+     "tags": [
+      "Mage"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Sivir",
+     "name": "Sivir",
+     "tags": [
+      "Marksman"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Samira",
+     "name": "Samira",
+     "tags": [
+      "Marksman",
+      "Assassin"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Smolder",
+     "name": "Smolder",
+     "tags": [
+      "Marksman",
+      "Mage"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "TwistedFate",
+     "name": "Twisted Fate",
+     "tags": [
+      "Mage",
+      "Marksman"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Twitch",
+     "name": "Twitch",
+     "tags": [
+      "Marksman",
+      "Assassin"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Udyr",
+     "name": "Udyr",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ]
+    },
+    {
+     "kind": "item",
+     "id": "4628",
+     "name": "Enfoque al Horizonte",
+     "tags": [
+      "SpellDamage",
+      "AbilityHaste"
+     ]
+    }
+   ]
   },
   {
    "patch": "25.10",
@@ -456,7 +7193,234 @@
     "verified": 21,
     "unchecked": 82,
     "mismatch": 0
-   }
+   },
+   "changed": [
+    {
+     "kind": "champion",
+     "id": "Chogath",
+     "name": "Cho'Gath",
+     "tags": [
+      "Tank",
+      "Mage"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Kayn",
+     "name": "Kayn",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Lulu",
+     "name": "Lulu",
+     "tags": [
+      "Support",
+      "Mage"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Fiddlesticks",
+     "name": "Fiddlesticks",
+     "tags": [
+      "Mage",
+      "Support"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Naafiri",
+     "name": "Naafiri",
+     "tags": [
+      "Assassin",
+      "Fighter"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Senna",
+     "name": "Senna",
+     "tags": [
+      "Support",
+      "Marksman"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Smolder",
+     "name": "Smolder",
+     "tags": [
+      "Marksman",
+      "Mage"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Vi",
+     "name": "Vi",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "XinZhao",
+     "name": "Xin Zhao",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Yuumi",
+     "name": "Yuumi",
+     "tags": [
+      "Support",
+      "Mage"
+     ]
+    },
+    {
+     "kind": "item",
+     "id": "8010",
+     "name": "Maldición de la Vampiresa",
+     "tags": [
+      "Health",
+      "SpellDamage",
+      "CooldownReduction",
+      "MagicPenetration"
+     ]
+    },
+    {
+     "kind": "item",
+     "id": "3137",
+     "name": "Criptorretoño",
+     "tags": [
+      "SpellDamage",
+      "MagicPenetration",
+      "AbilityHaste"
+     ]
+    },
+    {
+     "kind": "item",
+     "id": "3152",
+     "name": "Cinturón Cohete Hextech",
+     "tags": [
+      "Health",
+      "SpellDamage",
+      "Active",
+      "CooldownReduction",
+      "NonbootsMovement",
+      "AbilityHaste"
+     ]
+    },
+    {
+     "kind": "item",
+     "id": "4628",
+     "name": "Enfoque al Horizonte",
+     "tags": [
+      "SpellDamage",
+      "AbilityHaste"
+     ]
+    },
+    {
+     "kind": "item",
+     "id": "6653",
+     "name": "El Tormento de Liandry",
+     "tags": [
+      "Health",
+      "SpellDamage"
+     ]
+    },
+    {
+     "kind": "item",
+     "id": "3100",
+     "name": "Maldición del Liche",
+     "tags": [
+      "SpellDamage",
+      "OnHit",
+      "NonbootsMovement",
+      "AbilityHaste"
+     ]
+    },
+    {
+     "kind": "item",
+     "id": "6655",
+     "name": "Acompañante de Luden",
+     "tags": [
+      "SpellDamage",
+      "Mana",
+      "CooldownReduction",
+      "AbilityHaste"
+     ]
+    },
+    {
+     "kind": "item",
+     "id": "3118",
+     "name": "Maldad",
+     "tags": [
+      "SpellDamage",
+      "Mana",
+      "AbilityHaste"
+     ]
+    },
+    {
+     "kind": "item",
+     "id": "3165",
+     "name": "Morellonomicón",
+     "tags": [
+      "Health",
+      "SpellDamage",
+      "CooldownReduction",
+      "AbilityHaste"
+     ]
+    },
+    {
+     "kind": "item",
+     "id": "3115",
+     "name": "Diente de Nashor",
+     "tags": [
+      "AttackSpeed",
+      "SpellDamage",
+      "OnHit",
+      "AbilityHaste"
+     ]
+    },
+    {
+     "kind": "item",
+     "id": "3089",
+     "name": "Sombrero Mortífero de Rabadon",
+     "tags": [
+      "SpellDamage"
+     ]
+    },
+    {
+     "kind": "item",
+     "id": "3040",
+     "name": "Abrazo del Serafín",
+     "tags": [
+      "SpellDamage",
+      "Mana",
+      "AbilityHaste"
+     ]
+    },
+    {
+     "kind": "item",
+     "id": "4646",
+     "name": "Descarga Tormentosa",
+     "tags": [
+      "SpellDamage",
+      "GoldPer",
+      "NonbootsMovement",
+      "MagicPenetration"
+     ]
+    }
+   ]
   },
   {
    "patch": "25.9",
@@ -468,7 +7432,178 @@
     "verified": 21,
     "unchecked": 226,
     "mismatch": 0
-   }
+   },
+   "changed": [
+    {
+     "kind": "champion",
+     "id": "Annie",
+     "name": "Annie",
+     "tags": [
+      "Mage",
+      "Support"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Ashe",
+     "name": "Ashe",
+     "tags": [
+      "Marksman",
+      "Support"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Gwen",
+     "name": "Gwen",
+     "tags": [
+      "Fighter"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "KSante",
+     "name": "K'Sante",
+     "tags": [
+      "Tank",
+      "Fighter"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Kalista",
+     "name": "Kalista",
+     "tags": [
+      "Marksman"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Leona",
+     "name": "Leona",
+     "tags": [
+      "Tank",
+      "Support"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Morgana",
+     "name": "Morgana",
+     "tags": [
+      "Mage",
+      "Support"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Naafiri",
+     "name": "Naafiri",
+     "tags": [
+      "Assassin",
+      "Fighter"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Orianna",
+     "name": "Orianna",
+     "tags": [
+      "Mage",
+      "Support"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Rengar",
+     "name": "Rengar",
+     "tags": [
+      "Assassin",
+      "Fighter"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Shen",
+     "name": "Shen",
+     "tags": [
+      "Tank"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Yorick",
+     "name": "Yorick",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ]
+    },
+    {
+     "kind": "item",
+     "id": "3009",
+     "name": "Botas de Rapidez",
+     "tags": [
+      "Boots"
+     ]
+    },
+    {
+     "kind": "item",
+     "id": "6657",
+     "name": "Vara de las Edades",
+     "tags": [
+      "Health",
+      "HealthRegen",
+      "SpellDamage",
+      "Mana",
+      "ManaRegen"
+     ]
+    },
+    {
+     "kind": "item",
+     "id": "3174",
+     "name": "Blindadas de Avance ",
+     "tags": [
+      "Armor",
+      "Boots"
+     ]
+    },
+    {
+     "kind": "item",
+     "id": "3171",
+     "name": "Botas de Lucidez Carmesí ",
+     "tags": [
+      "CooldownReduction",
+      "Boots"
+     ]
+    },
+    {
+     "kind": "item",
+     "id": "3172",
+     "name": "Grebas de Armacero",
+     "tags": [
+      "AttackSpeed",
+      "NonbootsMovement"
+     ]
+    },
+    {
+     "kind": "item",
+     "id": "3175",
+     "name": "Zapatos de Lanzahechizos",
+     "tags": [
+      "Boots",
+      "MagicPenetration"
+     ]
+    },
+    {
+     "kind": "item",
+     "id": "3170",
+     "name": "Botas de Marcha Rápida",
+     "tags": [
+      "Boots"
+     ]
+    }
+   ]
   },
   {
    "patch": "25.8",
@@ -480,7 +7615,225 @@
     "verified": 20,
     "unchecked": 139,
     "mismatch": 0
-   }
+   },
+   "changed": [
+    {
+     "kind": "champion",
+     "id": "Ahri",
+     "name": "Ahri",
+     "tags": [
+      "Mage",
+      "Assassin"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Annie",
+     "name": "Annie",
+     "tags": [
+      "Mage",
+      "Support"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Blitzcrank",
+     "name": "Blitzcrank",
+     "tags": [
+      "Tank",
+      "Support"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Brand",
+     "name": "Brand",
+     "tags": [
+      "Mage",
+      "Support"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Gwen",
+     "name": "Gwen",
+     "tags": [
+      "Fighter"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Hwei",
+     "name": "Hwei",
+     "tags": [
+      "Mage",
+      "Support"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Lulu",
+     "name": "Lulu",
+     "tags": [
+      "Support",
+      "Mage"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Mel",
+     "name": "Mel",
+     "tags": [
+      "Mage",
+      "Support"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Renekton",
+     "name": "Renekton",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Shen",
+     "name": "Shen",
+     "tags": [
+      "Tank"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Singed",
+     "name": "Singed",
+     "tags": [
+      "Tank",
+      "Mage"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Sona",
+     "name": "Sona",
+     "tags": [
+      "Support",
+      "Mage"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Syndra",
+     "name": "Syndra",
+     "tags": [
+      "Mage"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Tristana",
+     "name": "Tristana",
+     "tags": [
+      "Marksman",
+      "Assassin"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Xerath",
+     "name": "Xerath",
+     "tags": [
+      "Mage",
+      "Support"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Zeri",
+     "name": "Zeri",
+     "tags": [
+      "Marksman"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Yone",
+     "name": "Yone",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Yorick",
+     "name": "Yorick",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Zoe",
+     "name": "Zoe",
+     "tags": [
+      "Mage"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Yuumi",
+     "name": "Yuumi",
+     "tags": [
+      "Support",
+      "Mage"
+     ]
+    },
+    {
+     "kind": "item",
+     "id": "3137",
+     "name": "Criptorretoño",
+     "tags": [
+      "SpellDamage",
+      "MagicPenetration",
+      "AbilityHaste"
+     ]
+    },
+    {
+     "kind": "item",
+     "id": "3742",
+     "name": "Placa del Hombre Muerto",
+     "tags": [
+      "Health",
+      "Armor",
+      "Slow",
+      "NonbootsMovement"
+     ]
+    },
+    {
+     "kind": "item",
+     "id": "6701",
+     "name": "Oportunidades",
+     "tags": [
+      "Damage",
+      "Active",
+      "NonbootsMovement",
+      "ArmorPenetration"
+     ]
+    },
+    {
+     "kind": "item",
+     "id": "2501",
+     "name": "Cota Sangrienta del Soberano",
+     "tags": [
+      "Health",
+      "Damage"
+     ]
+    }
+   ]
   },
   {
    "patch": "25.7",
@@ -492,7 +7845,185 @@
     "verified": 23,
     "unchecked": 289,
     "mismatch": 0
-   }
+   },
+   "changed": [
+    {
+     "kind": "champion",
+     "id": "Yorick",
+     "name": "Yorick",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Naafiri",
+     "name": "Naafiri",
+     "tags": [
+      "Assassin",
+      "Fighter"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Brand",
+     "name": "Brand",
+     "tags": [
+      "Mage",
+      "Support"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Darius",
+     "name": "Darius",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Gwen",
+     "name": "Gwen",
+     "tags": [
+      "Fighter"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Ivern",
+     "name": "Ivern",
+     "tags": [
+      "Support",
+      "Mage"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Lillia",
+     "name": "Lillia",
+     "tags": [
+      "Fighter",
+      "Mage"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Lulu",
+     "name": "Lulu",
+     "tags": [
+      "Support",
+      "Mage"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Olaf",
+     "name": "Olaf",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Shaco",
+     "name": "Shaco",
+     "tags": [
+      "Assassin"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Shen",
+     "name": "Shen",
+     "tags": [
+      "Tank"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Singed",
+     "name": "Singed",
+     "tags": [
+      "Tank",
+      "Mage"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Trundle",
+     "name": "Trundle",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Volibear",
+     "name": "Volibear",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Xerath",
+     "name": "Xerath",
+     "tags": [
+      "Mage",
+      "Support"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Yone",
+     "name": "Yone",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ]
+    },
+    {
+     "kind": "item",
+     "id": "3803",
+     "name": "Catalizador de Eones",
+     "tags": [
+      "Health",
+      "HealthRegen",
+      "Mana",
+      "ManaRegen"
+     ]
+    },
+    {
+     "kind": "item",
+     "id": "6657",
+     "name": "Vara de las Edades",
+     "tags": [
+      "Health",
+      "HealthRegen",
+      "SpellDamage",
+      "Mana",
+      "ManaRegen"
+     ]
+    },
+    {
+     "kind": "item",
+     "id": "3179",
+     "name": "Espada de la Penumbra",
+     "tags": [
+      "Damage",
+      "Vision",
+      "CooldownReduction",
+      "ArmorPenetration",
+      "AbilityHaste"
+     ]
+    }
+   ]
   },
   {
    "patch": "25.6",
@@ -504,7 +8035,240 @@
     "verified": 29,
     "unchecked": 196,
     "mismatch": 0
-   }
+   },
+   "changed": [
+    {
+     "kind": "champion",
+     "id": "Caitlyn",
+     "name": "Caitlyn",
+     "tags": [
+      "Marksman"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Corki",
+     "name": "Corki",
+     "tags": [
+      "Marksman",
+      "Mage"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Darius",
+     "name": "Darius",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Draven",
+     "name": "Draven",
+     "tags": [
+      "Marksman"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Ezreal",
+     "name": "Ezreal",
+     "tags": [
+      "Marksman",
+      "Mage"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Fiora",
+     "name": "Fiora",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Garen",
+     "name": "Garen",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Gwen",
+     "name": "Gwen",
+     "tags": [
+      "Fighter"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "JarvanIV",
+     "name": "Jarvan IV",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Jhin",
+     "name": "Jhin",
+     "tags": [
+      "Marksman",
+      "Mage"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Jinx",
+     "name": "Jinx",
+     "tags": [
+      "Marksman"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Kaisa",
+     "name": "Kai'Sa",
+     "tags": [
+      "Marksman",
+      "Mage"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Karma",
+     "name": "Karma",
+     "tags": [
+      "Mage",
+      "Support"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Khazix",
+     "name": "Kha'Zix",
+     "tags": [
+      "Assassin"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Lillia",
+     "name": "Lillia",
+     "tags": [
+      "Fighter",
+      "Mage"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Lucian",
+     "name": "Lucian",
+     "tags": [
+      "Marksman",
+      "Assassin"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "MasterYi",
+     "name": "Maestro Yi",
+     "tags": [
+      "Assassin",
+      "Fighter"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Naafiri",
+     "name": "Naafiri",
+     "tags": [
+      "Assassin",
+      "Fighter"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Poppy",
+     "name": "Poppy",
+     "tags": [
+      "Tank",
+      "Fighter"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Singed",
+     "name": "Singed",
+     "tags": [
+      "Tank",
+      "Mage"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Smolder",
+     "name": "Smolder",
+     "tags": [
+      "Marksman",
+      "Mage"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "TwistedFate",
+     "name": "Twisted Fate",
+     "tags": [
+      "Mage",
+      "Marksman"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "XinZhao",
+     "name": "Xin Zhao",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Yorick",
+     "name": "Yorick",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ]
+    },
+    {
+     "kind": "item",
+     "id": "6694",
+     "name": "Rencor de Serylda",
+     "tags": [
+      "Damage",
+      "CooldownReduction",
+      "ArmorPenetration",
+      "AbilityHaste"
+     ]
+    },
+    {
+     "kind": "item",
+     "id": "3083",
+     "name": "Armadura de Warmog",
+     "tags": [
+      "Health",
+      "HealthRegen"
+     ]
+    }
+   ]
   },
   {
    "patch": "25.5",
@@ -516,7 +8280,157 @@
     "verified": 11,
     "unchecked": 180,
     "mismatch": 0
-   }
+   },
+   "changed": [
+    {
+     "kind": "champion",
+     "id": "Ambessa",
+     "name": "Ambessa",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Aphelios",
+     "name": "Aphelios",
+     "tags": [
+      "Marksman"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Ashe",
+     "name": "Ashe",
+     "tags": [
+      "Marksman",
+      "Support"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Aurora",
+     "name": "Aurora",
+     "tags": [
+      "Mage",
+      "Assassin"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Chogath",
+     "name": "Cho'Gath",
+     "tags": [
+      "Tank",
+      "Mage"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Elise",
+     "name": "Elise",
+     "tags": [
+      "Assassin",
+      "Mage"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "KSante",
+     "name": "K'Sante",
+     "tags": [
+      "Tank",
+      "Fighter"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "DrMundo",
+     "name": "Dr. Mundo",
+     "tags": [
+      "Tank",
+      "Fighter"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Poppy",
+     "name": "Poppy",
+     "tags": [
+      "Tank",
+      "Fighter"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Seraphine",
+     "name": "Seraphine",
+     "tags": [
+      "Support",
+      "Mage"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Skarner",
+     "name": "Skarner",
+     "tags": [
+      "Tank",
+      "Fighter"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Yorick",
+     "name": "Yorick",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Zed",
+     "name": "Zed",
+     "tags": [
+      "Assassin"
+     ]
+    },
+    {
+     "kind": "item",
+     "id": "6616",
+     "name": "Báculo de Agua Fluyente",
+     "tags": [
+      "SpellDamage",
+      "ManaRegen",
+      "CooldownReduction",
+      "AbilityHaste"
+     ]
+    },
+    {
+     "kind": "item",
+     "id": "3032",
+     "name": "Flechas Salvajes de Yun Tal",
+     "tags": [
+      "Damage",
+      "CriticalStrike",
+      "AttackSpeed"
+     ]
+    },
+    {
+     "kind": "item",
+     "id": "6657",
+     "name": "Vara de las Edades",
+     "tags": [
+      "Health",
+      "HealthRegen",
+      "SpellDamage",
+      "Mana",
+      "ManaRegen"
+     ]
+    }
+   ]
   },
   {
    "patch": "25.4",
@@ -528,7 +8442,223 @@
     "verified": 23,
     "unchecked": 190,
     "mismatch": 0
-   }
+   },
+   "changed": [
+    {
+     "kind": "champion",
+     "id": "Ashe",
+     "name": "Ashe",
+     "tags": [
+      "Marksman",
+      "Support"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Diana",
+     "name": "Diana",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Ekko",
+     "name": "Ekko",
+     "tags": [
+      "Assassin",
+      "Mage"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Elise",
+     "name": "Elise",
+     "tags": [
+      "Assassin",
+      "Mage"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Gangplank",
+     "name": "Gangplank",
+     "tags": [
+      "Fighter"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Hwei",
+     "name": "Hwei",
+     "tags": [
+      "Mage",
+      "Support"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Jayce",
+     "name": "Jayce",
+     "tags": [
+      "Marksman",
+      "Fighter"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Kalista",
+     "name": "Kalista",
+     "tags": [
+      "Marksman"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "KogMaw",
+     "name": "Kog'Maw",
+     "tags": [
+      "Marksman",
+      "Mage"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Lulu",
+     "name": "Lulu",
+     "tags": [
+      "Support",
+      "Mage"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Mel",
+     "name": "Mel",
+     "tags": [
+      "Mage",
+      "Support"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Nautilus",
+     "name": "Nautilus",
+     "tags": [
+      "Tank",
+      "Support"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Sion",
+     "name": "Sion",
+     "tags": [
+      "Tank",
+      "Fighter"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Teemo",
+     "name": "Teemo",
+     "tags": [
+      "Marksman",
+      "Mage"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Warwick",
+     "name": "Warwick",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Yasuo",
+     "name": "Yasuo",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ]
+    },
+    {
+     "kind": "item",
+     "id": "8020",
+     "name": "Máscara Abisal",
+     "tags": [
+      "Health",
+      "SpellBlock",
+      "SpellDamage",
+      "CooldownReduction",
+      "MagicResist",
+      "AbilityHaste"
+     ]
+    },
+    {
+     "kind": "item",
+     "id": "3121",
+     "name": "Invierno Nórdico",
+     "tags": [
+      "Health",
+      "Mana",
+      "AbilityHaste"
+     ]
+    },
+    {
+     "kind": "item",
+     "id": "3084",
+     "name": "Corazón de Acero",
+     "tags": [
+      "Health",
+      "HealthRegen"
+     ]
+    },
+    {
+     "kind": "item",
+     "id": "3031",
+     "name": "Filo del Infinito",
+     "tags": [
+      "CriticalStrike",
+      "Damage"
+     ]
+    },
+    {
+     "kind": "item",
+     "id": "3111",
+     "name": "Botas de Mercurio",
+     "tags": [
+      "Boots",
+      "SpellBlock",
+      "Tenacity"
+     ]
+    },
+    {
+     "kind": "item",
+     "id": "3047",
+     "name": "Punteras de Acero Revestidas",
+     "tags": [
+      "Armor",
+      "Boots"
+     ]
+    },
+    {
+     "kind": "item",
+     "id": "2502",
+     "name": "Desesperación Eterna",
+     "tags": [
+      "Health",
+      "SpellBlock",
+      "Armor",
+      "CooldownReduction",
+      "AbilityHaste"
+     ]
+    }
+   ]
   },
   {
    "patch": "25.S1.3",
@@ -540,7 +8670,364 @@
     "verified": 18,
     "unchecked": 209,
     "mismatch": 0
-   }
+   },
+   "changed": [
+    {
+     "kind": "champion",
+     "id": "Cassiopeia",
+     "name": "Cassiopeia",
+     "tags": [
+      "Mage"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Evelynn",
+     "name": "Evelynn",
+     "tags": [
+      "Assassin",
+      "Mage"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Galio",
+     "name": "Galio",
+     "tags": [
+      "Tank",
+      "Mage"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Kayn",
+     "name": "Kayn",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Jax",
+     "name": "Jax",
+     "tags": [
+      "Fighter"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Jayce",
+     "name": "Jayce",
+     "tags": [
+      "Marksman",
+      "Fighter"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "MissFortune",
+     "name": "Miss Fortune",
+     "tags": [
+      "Marksman",
+      "Mage"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Nasus",
+     "name": "Nasus",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Quinn",
+     "name": "Quinn",
+     "tags": [
+      "Marksman",
+      "Assassin"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Rakan",
+     "name": "Rakan",
+     "tags": [
+      "Support"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Rell",
+     "name": "Rell",
+     "tags": [
+      "Tank",
+      "Support"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Samira",
+     "name": "Samira",
+     "tags": [
+      "Marksman",
+      "Assassin"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Skarner",
+     "name": "Skarner",
+     "tags": [
+      "Tank",
+      "Fighter"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Swain",
+     "name": "Swain",
+     "tags": [
+      "Mage",
+      "Support"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Teemo",
+     "name": "Teemo",
+     "tags": [
+      "Marksman",
+      "Mage"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Thresh",
+     "name": "Thresh",
+     "tags": [
+      "Support",
+      "Tank"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Viego",
+     "name": "Viego",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "MonkeyKing",
+     "name": "Wukong",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ]
+    },
+    {
+     "kind": "item",
+     "id": "3877",
+     "name": "Canción de Sangre",
+     "tags": [
+      "Health",
+      "HealthRegen",
+      "ManaRegen",
+      "Vision",
+      "GoldPer",
+      "Lane"
+     ]
+    },
+    {
+     "kind": "item",
+     "id": "3871",
+     "name": "Espina Dimensional de Zaz'Zak",
+     "tags": [
+      "Health",
+      "HealthRegen",
+      "ManaRegen",
+      "Vision",
+      "GoldPer",
+      "Lane"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Fiddlesticks",
+     "name": "Fiddlesticks",
+     "tags": [
+      "Mage",
+      "Support"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Ivern",
+     "name": "Ivern",
+     "tags": [
+      "Support",
+      "Mage"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Nidalee",
+     "name": "Nidalee",
+     "tags": [
+      "Assassin",
+      "Mage"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Yorick",
+     "name": "Yorick",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Zoe",
+     "name": "Zoe",
+     "tags": [
+      "Mage"
+     ]
+    },
+    {
+     "kind": "item",
+     "id": "1082",
+     "name": "El Sello de la Oscuridad",
+     "tags": [
+      "Health",
+      "SpellDamage",
+      "Lane"
+     ]
+    },
+    {
+     "kind": "item",
+     "id": "3041",
+     "name": "Robaalmas de Mejai",
+     "tags": [
+      "Health",
+      "SpellDamage",
+      "NonbootsMovement"
+     ]
+    },
+    {
+     "kind": "item",
+     "id": "1083",
+     "name": "Sacrificar",
+     "tags": [
+      "Damage",
+      "OnHit",
+      "Lane"
+     ]
+    },
+    {
+     "kind": "item",
+     "id": "3084",
+     "name": "Corazón de Acero",
+     "tags": [
+      "Health",
+      "HealthRegen"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Garen",
+     "name": "Garen",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "KogMaw",
+     "name": "Kog'Maw",
+     "tags": [
+      "Marksman",
+      "Mage"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Kennen",
+     "name": "Kennen",
+     "tags": [
+      "Mage"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Renekton",
+     "name": "Renekton",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Sivir",
+     "name": "Sivir",
+     "tags": [
+      "Marksman"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Veigar",
+     "name": "Veigar",
+     "tags": [
+      "Mage"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Trundle",
+     "name": "Trundle",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Tristana",
+     "name": "Tristana",
+     "tags": [
+      "Marksman",
+      "Assassin"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Mel",
+     "name": "Mel",
+     "tags": [
+      "Mage",
+      "Support"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Yuumi",
+     "name": "Yuumi",
+     "tags": [
+      "Support",
+      "Mage"
+     ]
+    }
+   ]
   },
   {
    "patch": "25.S1.2",
@@ -552,7 +9039,223 @@
     "verified": 13,
     "unchecked": 196,
     "mismatch": 0
-   }
+   },
+   "changed": [
+    {
+     "kind": "champion",
+     "id": "Cassiopeia",
+     "name": "Cassiopeia",
+     "tags": [
+      "Mage"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Evelynn",
+     "name": "Evelynn",
+     "tags": [
+      "Assassin",
+      "Mage"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Irelia",
+     "name": "Irelia",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Kayn",
+     "name": "Kayn",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Malzahar",
+     "name": "Malzahar",
+     "tags": [
+      "Mage"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "MasterYi",
+     "name": "Maestro Yi",
+     "tags": [
+      "Assassin",
+      "Fighter"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Smolder",
+     "name": "Smolder",
+     "tags": [
+      "Marksman",
+      "Mage"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "TahmKench",
+     "name": "Tahm Kench",
+     "tags": [
+      "Tank",
+      "Support"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Viktor",
+     "name": "Viktor",
+     "tags": [
+      "Mage"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Yuumi",
+     "name": "Yuumi",
+     "tags": [
+      "Support",
+      "Mage"
+     ]
+    },
+    {
+     "kind": "item",
+     "id": "3036",
+     "name": "Recuerdos de Lord Dominik",
+     "tags": [
+      "Damage",
+      "CriticalStrike",
+      "ArmorPenetration"
+     ]
+    },
+    {
+     "kind": "item",
+     "id": "3033",
+     "name": "Recordatorio Mortal",
+     "tags": [
+      "Damage",
+      "CriticalStrike",
+      "ArmorPenetration"
+     ]
+    },
+    {
+     "kind": "item",
+     "id": "3032",
+     "name": "Flechas Salvajes de Yun Tal",
+     "tags": [
+      "Damage",
+      "CriticalStrike",
+      "AttackSpeed"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Kayle",
+     "name": "Kayle",
+     "tags": [
+      "Mage",
+      "Marksman"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Nilah",
+     "name": "Nilah",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Qiyana",
+     "name": "Qiyana",
+     "tags": [
+      "Assassin"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Rengar",
+     "name": "Rengar",
+     "tags": [
+      "Assassin",
+      "Fighter"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Singed",
+     "name": "Singed",
+     "tags": [
+      "Tank",
+      "Mage"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Sivir",
+     "name": "Sivir",
+     "tags": [
+      "Marksman"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Teemo",
+     "name": "Teemo",
+     "tags": [
+      "Marksman",
+      "Mage"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Trundle",
+     "name": "Trundle",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Urgot",
+     "name": "Urgot",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Yorick",
+     "name": "Yorick",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Zyra",
+     "name": "Zyra",
+     "tags": [
+      "Mage",
+      "Support"
+     ]
+    }
+   ]
   },
   {
    "patch": "25.S1.1",
@@ -564,7 +9267,132 @@
     "verified": 9,
     "unchecked": 179,
     "mismatch": 0
-   }
+   },
+   "changed": [
+    {
+     "kind": "item",
+     "id": "3174",
+     "name": "Blindadas de Avance ",
+     "tags": [
+      "Armor",
+      "Boots"
+     ]
+    },
+    {
+     "kind": "item",
+     "id": "3175",
+     "name": "Zapatos de Lanzahechizos",
+     "tags": [
+      "Boots",
+      "MagicPenetration"
+     ]
+    },
+    {
+     "kind": "item",
+     "id": "3170",
+     "name": "Botas de Marcha Rápida",
+     "tags": [
+      "Boots"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "JarvanIV",
+     "name": "Jarvan IV",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Kayle",
+     "name": "Kayle",
+     "tags": [
+      "Mage",
+      "Marksman"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Seraphine",
+     "name": "Seraphine",
+     "tags": [
+      "Support",
+      "Mage"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Vex",
+     "name": "Vex",
+     "tags": [
+      "Mage"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Viktor",
+     "name": "Viktor",
+     "tags": [
+      "Mage"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Ziggs",
+     "name": "Ziggs",
+     "tags": [
+      "Mage"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Ashe",
+     "name": "Ashe",
+     "tags": [
+      "Marksman",
+      "Support"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Kalista",
+     "name": "Kalista",
+     "tags": [
+      "Marksman"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Twitch",
+     "name": "Twitch",
+     "tags": [
+      "Marksman",
+      "Assassin"
+     ]
+    },
+    {
+     "kind": "champion",
+     "id": "Varus",
+     "name": "Varus",
+     "tags": [
+      "Marksman",
+      "Mage"
+     ]
+    },
+    {
+     "kind": "item",
+     "id": "8010",
+     "name": "Maldición de la Vampiresa",
+     "tags": [
+      "Health",
+      "SpellDamage",
+      "CooldownReduction",
+      "MagicPenetration"
+     ]
+    }
+   ]
   }
  ]
 }

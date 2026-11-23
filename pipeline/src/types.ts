@@ -33,6 +33,8 @@ export interface PatchFile {
 export interface PatchSummary {
   patch: string; title: string; url: string; publishedAt: string;
   counts: { total: number; verified: number; unchecked: number; mismatch: number };
+  /** Champions and items changed on the Rift in this patch (for the app's favourites row). */
+  changed: { kind: "champion" | "item"; id: string; name: string; tags: string[] }[];
 }
 export interface IndexFile { schemaVersion: 1; updatedAt: string; patches: PatchSummary[] }
 export interface ChampionHistory {

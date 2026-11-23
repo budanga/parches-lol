@@ -3,11 +3,11 @@
     <string name="archive_title">Archivo de parches</string>
     <string name="latest_patch">Último parche</string>
     <string name="news">Noticias</string>
-    <string name="for_adc">Para ADC</string>
+    <string name="for_adc">Favoritos</string>
     <string name="all">Todo</string>
     <string name="global">Global</string>
     <string name="other_modes">Otros modos</string>
-    <string name="no_adc_changes">Sin cambios para tus ADC en este parche.</string>
+    <string name="no_adc_changes">Sin cambios en tus favoritos en este parche.</string>
     <string name="offline">Sin conexión. Probá de nuevo cuando haya internet.</string>
     <string name="retry">Reintentar</string>
     <string name="back">Volver</string>
@@ -21,11 +21,11 @@
     <string name="search_patch">Buscar en este parche</string>
     <string name="no_results">Sin resultados.</string>
     <string name="no_history">Sin cambios registrados desde 2025.</string>
-    <string name="my_adcs">Mis ADC</string>
-    <string name="my_items">Mis ítems</string>
+    <string name="my_adcs">Favoritos</string>
+    <string name="my_items">Objetos favoritos</string>
     <string name="news_alerts">Avisos de noticias</string>
     <string name="reset">Restablecer</string>
-    <string name="reset_confirm">Volver a los ADC y objetos por defecto y apagar los avisos de noticias.</string>
+    <string name="reset_confirm">Volver a los favoritos por defecto y apagar los avisos de noticias.</string>
     <string name="cancel">Cancelar</string>
     <string name="patch_missing">Este parche ya no está disponible.</string>
     <string name="verified">Comprobado con los datos del juego</string>
@@ -34,5 +34,5 @@
     <string name="channel_patches">Parches</string>
     <string name="channel_news">Noticias</string>
     <string name="widget_name">Último parche</string>
-    <string name="widget_description">Número y fecha del último parche, y tus ADC y objetos que cambiaron.</string>
+    <string name="widget_description">Número y fecha del último parche, y tus favoritos que cambiaron.</string>
 </resources>

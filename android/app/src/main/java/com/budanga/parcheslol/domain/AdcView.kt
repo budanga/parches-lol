@@ -137,3 +137,17 @@ fun filterGroups(groups: List<Group>, query: String): List<Group> {
 /** Portraits for the home-screen widget: your ADCs and ADC items changed in this patch, in page order. */
 fun widgetEntities(patch: PatchFile, myAdcs: Set<String>, myItems: Set<String>?, myItemNames: Set<String> = emptySet()): List<Entity> =
     adcGroups(patch, myAdcs, myItems, myItemNames).mapNotNull { it.entity }
+
+/** Favourite champions and items changed in a patch, from the index (no need to download the patch). */
+fun favoritesIn(
+    summary: com.budanga.parcheslol.data.PatchSummary,
+    favChampions: Set<String>,
+    favItems: Set<String>?,
+    favItemNames: Set<String> = emptySet(),
+): List<Entity> = summary.changed.filter { e ->
+    when (e.kind) {
+        "champion" -> e.id in favChampions
+        "item" -> favItems?.let { e.id in it || e.name in favItemNames } ?: isDefaultAdcItem(e.tags)
+        else -> false
+    }
+}.map { Entity(it.kind, it.id, it.name) }

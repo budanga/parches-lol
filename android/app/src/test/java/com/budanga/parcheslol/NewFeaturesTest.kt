@@ -65,3 +65,29 @@ class WidgetDataTest {
         assertEquals(listOf("Ezreal", "6699"), e.map { it.id })
     }
 }
+
+class FavoritesRowTest {
+    private val summary = AppJson.decodeFromString<com.budanga.parcheslol.data.PatchSummary>("""
+        {"patch":"26.23","title":"t","url":"u","publishedAt":"2026-11-17T19:00:00Z",
+         "counts":{"total":1,"verified":0,"unchecked":1,"mismatch":0},
+         "changed":[{"kind":"champion","id":"Azir","name":"Azir","tags":["Mage"]},
+                    {"kind":"champion","id":"Ezreal","name":"Ezreal","tags":["Marksman"]},
+                    {"kind":"item","id":"6699","name":"Cicloespada Voltaica","tags":["Damage","ArmorPenetration"]},
+                    {"kind":"item","id":"3089","name":"Sombrero","tags":["SpellDamage"]}]}""")
+
+    @Test fun soloLosFavoritosCambiados() {
+        val e = com.budanga.parcheslol.domain.favoritesIn(summary, setOf("Ezreal"), null)
+        assertEquals(listOf("Ezreal", "6699"), e.map { it.id })
+    }
+
+    @Test fun objetosFavoritosExplicitosYPorNombre() {
+        val e = com.budanga.parcheslol.domain.favoritesIn(summary, emptySet(), setOf("9999"), setOf("Sombrero"))
+        assertEquals(listOf("3089"), e.map { it.id })
+    }
+
+    @Test fun indiceViejoSinListaNoRompe() {
+        val old = AppJson.decodeFromString<com.budanga.parcheslol.data.PatchSummary>(
+            """{"patch":"26.1","title":"t","url":"u","publishedAt":"2026-01-08T00:00:00Z","counts":{"total":0,"verified":0,"unchecked":0,"mismatch":0}}""")
+        assertTrue(com.budanga.parcheslol.domain.favoritesIn(old, setOf("Ezreal"), null).isEmpty())
+    }
+}
