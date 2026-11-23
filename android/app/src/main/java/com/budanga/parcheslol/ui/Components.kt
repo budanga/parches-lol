@@ -51,6 +51,7 @@ import com.budanga.parcheslol.data.Entity
 import com.budanga.parcheslol.domain.Segment
 import com.budanga.parcheslol.domain.highlightAfter
 import com.budanga.parcheslol.domain.mismatchText
+import com.budanga.parcheslol.domain.verificationAltText
 
 private const val CHECK_ID = "check"
 
@@ -61,7 +62,7 @@ fun afterLine(segments: List<Segment>, verification: String): AnnotatedString = 
         if (s.changed) withStyle(SpanStyle(color = Ink.Accent, fontWeight = FontWeight.Medium)) { append(s.text) }
         else append(s.text)
     }
-    if (verification == "verified" || verification == "mismatch") { append(" "); appendInlineContent(CHECK_ID, "✓") }
+    if (verification == "verified" || verification == "mismatch") { append(" "); appendInlineContent(CHECK_ID, verificationAltText(verification)) }
 }
 
 @Composable

@@ -9,6 +9,7 @@ import androidx.core.content.ContextCompat
 import com.budanga.parcheslol.work.UpdateWorker
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
+import androidx.activity.SystemBarStyle
 import androidx.activity.enableEdgeToEdge
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
@@ -73,7 +74,11 @@ import java.io.File
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        enableEdgeToEdge()
+        // Paper background in every system theme: always dark status/navigation icons.
+        enableEdgeToEdge(
+            statusBarStyle = SystemBarStyle.light(android.graphics.Color.TRANSPARENT, android.graphics.Color.TRANSPARENT),
+            navigationBarStyle = SystemBarStyle.light(android.graphics.Color.TRANSPARENT, android.graphics.Color.TRANSPARENT),
+        )
         val repo = Repository(DATA_BASE_URL, File(filesDir, "data"))
         val prefs = Prefs(this)
         UpdateWorker.createChannels(this)
@@ -98,15 +103,18 @@ fun AppRoot(repo: Repository, prefs: Prefs) {
     val scope = rememberCoroutineScope()
     val reduce = rememberReduceMotion()
     val cover = remember { Animatable(0f) }
-    var reveal by remember { mutableStateOf<Set<String>>(emptySet()) }
+    var transitioning by remember { mutableStateOf(false) }
 
     /** Animation 4: terracotta pixels cover, navigate, then uncover (250 ms each way, 12 fps steps). */
     fun openPatchWithCover(id: String) {
+        if (transitioning) return // a second tap during the transition does nothing
         if (reduce) { nav.navigate("patch/$id"); return }
+        transitioning = true
         scope.launch {
             for (f in 1..3) { delay(FRAME_MS); cover.snapTo(f / 3f) }
             nav.navigate("patch/$id")
             for (f in 2 downTo 0) { delay(FRAME_MS); cover.snapTo(f / 3f) }
+            transitioning = false
         }
     }
     Box(Modifier.fillMaxSize()) {
@@ -121,21 +129,19 @@ fun AppRoot(repo: Repository, prefs: Prefs) {
             ) {
                 composable("home") {
                     val playTitle = remember { !Session.titlePlayed.also { Session.titlePlayed = true } }
+                    // Animation 5: decided before any row is drawn, so a new row never flashes visible first.
+                    var seenAtStart by remember { mutableStateOf<Set<String>?>(null) }
+                    LaunchedEffect(Unit) { seenAtStart = prefs.revealedPatches.first() }
+                    val seen = seenAtStart ?: return@composable
                     HomeScreen(
                         repo, prefs,
                         onOpenPatch = ::openPatchWithCover,
                         onSettings = { nav.navigate("settings") },
                         title = { DecipherText(stringResource(R.string.archive_title), Type.serif(20), play = playTitle) },
                         loading = { DitherShimmer() },
-                        wrapRow = { p, content -> DitherReveal(play = p in reveal) { content() } },
-                        onIndex = { patches ->
-                            scope.launch {
-                                val seen = prefs.revealedPatches.first()
-                                // First install: everything counts as seen, nothing animates (animation 5).
-                                if (seen.isNotEmpty()) reveal = patches.toSet() - seen
-                                prefs.addRevealed(patches)
-                            }
-                        },
+                        // First install (nothing seen yet): everything counts as seen, nothing animates.
+                        wrapRow = { p, content -> DitherReveal(play = seen.isNotEmpty() && p !in seen) { content() } },
+                        onIndex = { patches -> scope.launch { prefs.addRevealed(patches) } },
                     )
                 }
                 composable("patch/{id}") { back ->
@@ -143,11 +149,13 @@ fun AppRoot(repo: Repository, prefs: Prefs) {
                     // Animation 2: numbers decipher only the first time this patch is opened.
                     var firstOpen by remember { mutableStateOf<Boolean?>(null) }
                     LaunchedEffect(id) {
-                        val opened = prefs.openedPatches.first()
-                        firstOpen = id !in opened
-                        if (id !in opened) prefs.addOpened(id)
+                        firstOpen = id !in prefs.openedPatches.first()
                     }
-                    firstOpen?.let { PatchScreen(id, repo, prefs, onBack = { nav.popBackStack() }, animateNumbers = it) }
+                    // Marked as opened only once it actually loads, so an offline attempt keeps the animation.
+                    firstOpen?.let {
+                        PatchScreen(id, repo, prefs, onBack = { nav.popBackStack() }, animateNumbers = it,
+                            onLoaded = { if (it) scope.launch { prefs.addOpened(id) } })
+                    }
                 }
                 composable("champions") { ChampionsScreen(repo, prefs, onOpen = { nav.navigate("champion/$it") }) }
                 composable("champion/{id}") { back ->

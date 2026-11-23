@@ -19,4 +19,4 @@ private val SHORT_DATE = java.time.format.DateTimeFormatter.ofPattern("d MMM", j
 
 /** "2026-11-17T19:00:00.000Z" → "17 nov" in the phone's time zone. */
 fun shortDate(iso: String, zone: java.time.ZoneId = java.time.ZoneId.systemDefault()): String =
-    Instant.parse(iso).atZone(zone).format(SHORT_DATE).replace(".", "")
+    runCatching { Instant.parse(iso).atZone(zone).format(SHORT_DATE).replace(".", "") }.getOrDefault("")

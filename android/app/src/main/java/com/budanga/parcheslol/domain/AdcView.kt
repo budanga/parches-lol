@@ -14,6 +14,8 @@ val DEFAULT_ADCS: Set<String> = setOf(
 fun isDefaultAdcItem(tags: List<String>): Boolean =
     "CriticalStrike" in tags || "AttackSpeed" in tags || ("ArmorPenetration" in tags && "Damage" in tags)
 
+private val RIFT_SECTIONS = listOf("champions", "items", "runes", "systems")
+
 data class Group(
     val key: String,
     val title: String,
@@ -26,7 +28,7 @@ data class Group(
 private fun groupByEntity(changes: List<Change>): List<Group> {
     val groups = LinkedHashMap<String, MutableList<Change>>()
     for (c in changes) {
-        val key = if (c.entity.id != null) "${c.entity.kind}:${c.entity.id}" else "${c.section}:${c.sectionTitle}"
+        val key = if (c.entity.id != null) "${c.section}:${c.entity.kind}:${c.entity.id}" else "${c.section}:${c.sectionTitle}"
         groups.getOrPut(key) { mutableListOf() } += c
     }
     return groups.map { (key, list) ->
@@ -36,13 +38,19 @@ private fun groupByEntity(changes: List<Change>): List<Group> {
     }
 }
 
-fun adcGroups(patch: PatchFile, myAdcs: Set<String>, myItems: Set<String>?): List<Group> {
+/** [myItemNames] also matches items whose id changed between game versions (same name, new id). */
+fun adcGroups(
+    patch: PatchFile,
+    myAdcs: Set<String>,
+    myItems: Set<String>?,
+    myItemNames: Set<String> = emptySet(),
+): List<Group> {
     val champions = patch.changes.filter {
         it.section == "champions" && it.entity.kind == "champion" && it.entity.id in myAdcs
     }
     val items = patch.changes.filter {
         it.section == "items" && it.entity.kind == "item" && it.entity.id != null &&
-            (myItems?.contains(it.entity.id) ?: isDefaultAdcItem(it.tags))
+            (myItems?.let { ids -> it.entity.id in ids || it.entity.name in myItemNames } ?: isDefaultAdcItem(it.tags))
     }
     val global = patch.changes.filter { it.section == "systems" }
     return groupByEntity(champions) + groupByEntity(items) +
@@ -50,20 +58,22 @@ fun adcGroups(patch: PatchFile, myAdcs: Set<String>, myItems: Set<String>?): Lis
 }
 
 fun allGroups(patch: PatchFile): List<Group> {
-    val main = listOf("champions", "items", "runes", "systems")
-        .flatMap { section -> groupByEntity(patch.changes.filter { it.section == section }) }
+    val main = RIFT_SECTIONS.flatMap { section -> groupByEntity(patch.changes.filter { it.section == section }) }
     val folded = listOf("modes" to "Otros modos", "cosmetics" to "Cosméticos").mapNotNull { (section, title) ->
         patch.changes.filter { it.section == section }.takeIf { it.isNotEmpty() }
             ?.let { Group(section, title, null, it, collapsed = true) }
     }
-    return main + folded
+    // A section this app doesn't know yet is still shown, never dropped.
+    val unknown = patch.changes.filter { it.section !in RIFT_SECTIONS && it.section != "modes" && it.section != "cosmetics" }
+        .takeIf { it.isNotEmpty() }?.let { Group("other", "Otros", null, it, collapsed = true) }
+    return main + folded + listOfNotNull(unknown)
 }
 
 data class HistoryView(val rift: List<Change>, val modes: List<Change>)
 
 /** History entries keep game-mode changes (ARAM, Arena, Classic…) apart so they never read as Rift changes. */
 fun splitModes(entry: com.budanga.parcheslol.data.HistoryEntry): HistoryView =
-    entry.changes.partition { it.section != "modes" }.let { (rift, modes) -> HistoryView(rift, modes) }
+    entry.changes.partition { it.section in RIFT_SECTIONS }.let { (rift, modes) -> HistoryView(rift, modes) }
 
 /** A row of a group: a sub-header (1 = section, 2 = champion/item/named block, 3 = sub-part) or a change. */
 sealed interface RowItem {

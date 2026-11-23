@@ -33,7 +33,7 @@ test("Ezreal R: informe del resultado real", () => {
   assert.ok(["verified", "unchecked"].includes(verifyAbility(r, ez2622, ez2623)!));
 });
 
-test("C1: un número fuera de los grupos (después de un paréntesis) → unchecked", () => {
+test("C1: un número después de un paréntesis forma su propio grupo y, si no coincide con el juego, la línea queda unchecked", () => {
   const raw = { ...ezrealW, before: ezrealW.before + ", dura 3 seg", after: ezrealW.after + ", dura 9 seg" };
   assert.equal(verifyAbility(raw, ez2622, ez2623), "unchecked");
 });

@@ -61,9 +61,14 @@ class Repository(
                 val body = res.body!!.string()
                 val value = AppJson.decodeFromString(serializer, body)
                 file.parentFile?.mkdirs()
-                val tmp = File(file.path + ".tmp")
+                // Unique temp name: the worker and the app may save the same file at once.
+                val tmp = File.createTempFile(file.name, ".tmp", file.parentFile)
                 tmp.writeText(body)
-                if (!tmp.renameTo(file)) { file.delete(); tmp.renameTo(file) }
+                if (!tmp.renameTo(file)) {
+                    // Windows-style rename over an existing file: copy, keeping the old cache if that fails too.
+                    runCatching { tmp.copyTo(file, overwrite = true) }
+                    tmp.delete()
+                }
                 value
             }
         }.getOrNull()

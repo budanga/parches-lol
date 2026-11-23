@@ -91,7 +91,7 @@ fun HomeScreen(
             index == null -> loading()
             data == null -> OfflineMessage { reload++ }
             else -> LazyColumn(Modifier.fillMaxSize()) {
-                val first = data.patches.first()
+                val first = data.patches.firstOrNull() ?: return@LazyColumn
                 item { LatestPatch(first, data, latest, myAdcs, myItems, onOpenPatch, wrapRow) }
                 items(data.patches.drop(1), key = { it.patch }) { p ->
                     wrapRow(p.patch) { PatchRow(p) { onOpenPatch(p.patch) } }
@@ -132,7 +132,9 @@ private fun LatestPatch(
                     champions.forEach { g -> Avatar(g.entity, g.title, latest!!.ddragonVersion) }
                 }
             }
-            Text(updatedText(Instant.parse(index.updatedAt), Instant.now()), style = Type.Label, modifier = Modifier.padding(top = 4.dp))
+            runCatching { updatedText(Instant.parse(index.updatedAt), Instant.now()) }.getOrNull()?.let {
+                Text(it, style = Type.Label, modifier = Modifier.padding(top = 4.dp))
+            }
         }
     }
 }

@@ -68,6 +68,7 @@ fun PatchScreen(
     prefs: Prefs,
     onBack: () -> Unit,
     animateNumbers: Boolean = false,
+    onLoaded: () -> Unit = {},
 ) {
     val scope = rememberCoroutineScope()
     var state by remember { mutableStateOf<Loaded<PatchFile>?>(null) }
@@ -77,9 +78,17 @@ fun PatchScreen(
         if (state == null) repo.cachedPatch(patchId)?.let { state = Loaded.Cached(it) }
         val fresh = repo.patch(patchId)
         if (fresh != Loaded.Offline || state == null) state = fresh
+        if (state?.valueOrNull != null) onLoaded()
     }
     val myAdcs by prefs.myAdcs.collectAsState(initial = DEFAULT_ADCS)
     val myItems by prefs.myItems.collectAsState(initial = null)
+    // Names of the checked items, so an item whose id changed between versions still matches.
+    var itemNames by remember { mutableStateOf<Set<String>>(emptySet()) }
+    LaunchedEffect(myItems) {
+        val ids = myItems
+        itemNames = if (ids == null) emptySet()
+        else repo.catalog().valueOrNull?.items.orEmpty().filter { it.id in ids }.map { it.name }.toSet()
+    }
     var showAll by rememberSaveable { mutableStateOf(false) }
     val expanded = remember { mutableStateMapOf<String, Boolean>() }
     val once = remember(patchId) { PlayOnce() }
@@ -93,8 +102,9 @@ fun PatchScreen(
         ) { showAll = it == 1 }
         when {
             state == Loaded.Offline -> OfflineMessage { scope.launch { reload++ } }
+            state == Loaded.Missing -> Text(stringResource(R.string.patch_missing), style = Type.BodyMuted, modifier = Modifier.padding(vertical = 16.dp))
             patch != null -> {
-                val groups = if (showAll) allGroups(patch) else adcGroups(patch, myAdcs, myItems)
+                val groups = if (showAll) allGroups(patch) else adcGroups(patch, myAdcs, myItems, itemNames)
                 LazyColumn(Modifier.fillMaxSize()) {
                     if (!showAll && groups.none { it.entity != null }) {
                         item { Text(stringResource(R.string.no_adc_changes), style = Type.BodyMuted, modifier = Modifier.padding(vertical = 16.dp)) }

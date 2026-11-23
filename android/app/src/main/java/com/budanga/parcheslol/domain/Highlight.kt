@@ -32,3 +32,6 @@ fun mismatchText(change: Change): String? {
     return if (game.before == change.before) "En el juego figura ${game.after}"
     else "En el juego figura ${game.before} ⇒ ${game.after}"
 }
+
+/** What screen readers announce for the inline verification icon. */
+fun verificationAltText(verification: String): String = if (verification == "mismatch") "⚠" else "✓"

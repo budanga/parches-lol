@@ -21,6 +21,9 @@
     <string name="my_items">Mis ítems</string>
     <string name="news_alerts">Avisos de noticias</string>
     <string name="reset">Restablecer</string>
+    <string name="reset_confirm">Volver a los ADC y objetos por defecto y apagar los avisos de noticias.</string>
+    <string name="cancel">Cancelar</string>
+    <string name="patch_missing">Este parche ya no está disponible.</string>
     <string name="verified">Comprobado con los datos del juego</string>
     <string name="mismatch">No coincide con los datos del juego</string>
     <string name="base_stats">Estadísticas base</string>

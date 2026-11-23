@@ -11,7 +11,9 @@ import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.items
+import androidx.compose.material3.AlertDialog
 import androidx.compose.material3.Checkbox
+import androidx.compose.material3.TextButton
 import androidx.compose.material3.CheckboxDefaults
 import androidx.compose.material3.Switch
 import androidx.compose.material3.SwitchDefaults
@@ -50,9 +52,24 @@ fun SettingsScreen(repo: Repository, prefs: Prefs, onBack: () -> Unit) {
 
     Column(Modifier.fillMaxSize().padding(horizontal = 12.dp)) {
         DetailBar(stringResource(R.string.settings), null, onBack) { Text(stringResource(R.string.settings), style = Type.serif(24)) }
-        val data = catalog ?: return@Column
-        val defaultItems = data.items.filter { isDefaultAdcItem(it.tags) }.map { it.id }.toSet()
+        // Without the catalog (offline on first run) the news switch and reset still show.
+        val data = catalog
+        val defaultItems = data?.items.orEmpty().filter { isDefaultAdcItem(it.tags) }.map { it.id }.toSet()
         val itemsChecked = myItems ?: defaultItems
+        var confirmReset by remember { mutableStateOf(false) }
+        if (confirmReset) AlertDialog(
+            onDismissRequest = { confirmReset = false },
+            containerColor = Ink.Card,
+            text = { Text(stringResource(R.string.reset_confirm), style = Type.Body) },
+            confirmButton = {
+                TextButton(onClick = { confirmReset = false; scope.launch { prefs.reset() } }) {
+                    Text(stringResource(R.string.reset), style = Type.Body.copy(color = Ink.Accent))
+                }
+            },
+            dismissButton = {
+                TextButton(onClick = { confirmReset = false }) { Text(stringResource(R.string.cancel), style = Type.BodyMuted) }
+            },
+        )
         LazyColumn(Modifier.fillMaxSize()) {
             item {
                 Row(Modifier.fillMaxWidth().padding(vertical = 12.dp), verticalAlignment = Alignment.CenterVertically) {
@@ -66,9 +83,10 @@ fun SettingsScreen(repo: Repository, prefs: Prefs, onBack: () -> Unit) {
                 Text(
                     stringResource(R.string.reset),
                     style = Type.Body.copy(color = Ink.Accent),
-                    modifier = Modifier.clickable { scope.launch { prefs.reset() } }.padding(vertical = 8.dp),
+                    modifier = Modifier.clickable { confirmReset = true }.padding(vertical = 12.dp),
                 )
             }
+            if (data == null) return@LazyColumn
             item { EntityHeader(null, stringResource(R.string.my_adcs), "") }
             items(data.champions, key = { "c" + it.id }) { c ->
                 CheckRow(c, c.id in myAdcs) { on -> scope.launch { prefs.toggleAdc(c.id, on) } }
