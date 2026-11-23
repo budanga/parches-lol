@@ -179,7 +179,7 @@
     "Mage",
     "Marksman"
    ],
-   "verification": "unchecked",
+   "verification": "verified",
    "gameData": null,
    "addedLater": false
   },
@@ -530,7 +530,7 @@
     "Assassin",
     "Fighter"
    ],
-   "verification": "unchecked",
+   "verification": "verified",
    "gameData": null,
    "addedLater": false
   },
@@ -2046,7 +2046,7 @@
     "Mage",
     "Marksman"
    ],
-   "verification": "unchecked",
+   "verification": "verified",
    "gameData": null,
    "addedLater": false
   },
@@ -2154,7 +2154,7 @@
     "Support",
     "Mage"
    ],
-   "verification": "unchecked",
+   "verification": "verified",
    "gameData": null,
    "addedLater": false
   },
@@ -2206,7 +2206,7 @@
    "tags": [
     "Mage"
    ],
-   "verification": "unchecked",
+   "verification": "verified",
    "gameData": null,
    "addedLater": false
   },
@@ -2258,7 +2258,7 @@
    "tags": [
     "Mage"
    ],
-   "verification": "unchecked",
+   "verification": "verified",
    "gameData": null,
    "addedLater": false
   },

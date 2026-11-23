@@ -9,7 +9,10 @@ export function cdragonChampionUrl(cdVersion: string, championId: string): strin
   return `https://raw.communitydragon.org/${cdVersion}/game/data/characters/${id}/${id}.bin.json`;
 }
 
-/** "80 / 135 (+100% de AD) (+90% de AP)" → [[80,135]], [[100%]], [[90%]]. */
+/**
+ * "80 / 135 (+100% de AD) (+90% de AP)" → [80,135], [100%], [90%].
+ * "20/85/150 + 105% de AD" → [20,85,150], [105%]: outside parentheses, "+" also separates groups.
+ */
 export function numericGroups(text: string): Group[] {
   const parse = (s: string): Group => {
     const nums: NoteNum[] = [];
@@ -20,8 +23,8 @@ export function numericGroups(text: string): Group[] {
     }
     return { nums, pct };
   };
-  const cut = text.indexOf("(");
-  const groups = [parse(cut >= 0 ? text.slice(0, cut) : text)];
+  const outside = text.replace(/\([^)]*\)/g, "\u0000").split(/[+\u0000]/);
+  const groups = outside.map(parse);
   for (const m of text.matchAll(/\(([^)]*)\)/g)) groups.push(parse(m[1]));
   return groups.filter(g => g.nums.length > 0);
 }
@@ -35,6 +38,8 @@ function findSpell(bin: any, spellKey: string): any | null {
 function candidates(spell: any): Map<string, number[]> {
   const out = new Map<string, number[]>();
   for (const dv of spell.DataValues ?? []) if (dv?.name && Array.isArray(dv.values)) out.set(`dv:${dv.name}`, dv.values);
+  // Older game files (2025) use mDataValues / mName / mValues.
+  for (const dv of spell.mDataValues ?? []) if (dv?.mName && Array.isArray(dv.mValues)) out.set(`dv:${dv.mName}`, dv.mValues);
   if (Array.isArray(spell.cooldownTime)) out.set("cooldown", spell.cooldownTime);
   if (Array.isArray(spell.mana)) out.set("mana", spell.mana);
   const walk = (o: any, path: string) => {

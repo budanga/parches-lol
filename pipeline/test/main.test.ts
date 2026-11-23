@@ -57,6 +57,7 @@ test("primera corrida publica parche, historial e índice", async () => {
   const idx: IndexFile = readJson(dataDir, "index.json");
   assert.equal(idx.patches[0].patch, "26.23");
   assert.ok(readJson(dataDir, "news.json").length > 0);
+  assert.ok(readJson(dataDir, "catalog.json").champions.some((c: { id: string }) => c.id === "MonkeyKing"));
 });
 
 test("segunda corrida con el mismo rev no reprocesa", async () => {

@@ -786,7 +786,7 @@
     "Marksman",
     "Support"
    ],
-   "verification": "unchecked",
+   "verification": "verified",
    "gameData": null,
    "addedLater": false
   },
@@ -840,7 +840,7 @@
     "Mage",
     "Assassin"
    ],
-   "verification": "unchecked",
+   "verification": "verified",
    "gameData": null,
    "addedLater": false
   },
@@ -921,7 +921,7 @@
     "Tank",
     "Mage"
    ],
-   "verification": "unchecked",
+   "verification": "verified",
    "gameData": null,
    "addedLater": false
   },
@@ -1353,7 +1353,7 @@
     "Support",
     "Mage"
    ],
-   "verification": "unchecked",
+   "verification": "verified",
    "gameData": null,
    "addedLater": false
   },
@@ -1407,7 +1407,7 @@
     "Tank",
     "Fighter"
    ],
-   "verification": "unchecked",
+   "verification": "verified",
    "gameData": null,
    "addedLater": false
   },
@@ -1434,7 +1434,7 @@
     "Tank",
     "Fighter"
    ],
-   "verification": "unchecked",
+   "verification": "verified",
    "gameData": null,
    "addedLater": false
   },
@@ -1515,7 +1515,7 @@
     "Fighter",
     "Tank"
    ],
-   "verification": "unchecked",
+   "verification": "verified",
    "gameData": null,
    "addedLater": false
   },
@@ -1567,7 +1567,7 @@
    "tags": [
     "Assassin"
    ],
-   "verification": "unchecked",
+   "verification": "verified",
    "gameData": null,
    "addedLater": false
   },

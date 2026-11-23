@@ -48,3 +48,8 @@ export interface State {
   patches: Record<string, { url: string; rev: string; incomplete?: boolean }>;
 }
 export type FetchText = (url: string) => Promise<string>;
+export interface Catalog {
+  schemaVersion: 1; ddragonVersion: string;
+  champions: { id: string; name: string; tags: string[] }[];
+  items: { id: string; name: string; tags: string[] }[];
+}

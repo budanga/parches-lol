@@ -8,15 +8,23 @@ export function createFetchText(opts: { minIntervalMs?: number; retries?: number
   const minIntervalMs = opts.minIntervalMs ?? 1000;
   const retries = opts.retries ?? 3;
   const lastByHost = new Map<string, number>();
+  const queueByHost = new Map<string, Promise<void>>();
+
+  /** One queue per host: each request starts at least minIntervalMs after the previous one actually started. */
+  const takeTurn = (host: string): Promise<void> => {
+    const turn = (queueByHost.get(host) ?? Promise.resolve()).then(async () => {
+      const wait = (lastByHost.get(host) ?? -Infinity) + minIntervalMs - Date.now();
+      if (wait > 0) await sleep(wait);
+      lastByHost.set(host, Date.now());
+    });
+    queueByHost.set(host, turn);
+    return turn;
+  };
 
   return async (url: string) => {
     const host = new URL(url).host;
     for (let attempt = 0; ; attempt++) {
-      // Reserve the slot synchronously so parallel calls queue up instead of firing together.
-      const at = Math.max(Date.now(), (lastByHost.get(host) ?? -Infinity) + minIntervalMs);
-      lastByHost.set(host, at);
-      const wait = at - Date.now();
-      if (wait > 0) await sleep(wait);
+      await takeTurn(host);
       try {
         const res = await fetch(url, { headers: { "User-Agent": USER_AGENT } });
         if (res.status !== 200) throw new Error(`HTTP ${res.status} ${url}`);

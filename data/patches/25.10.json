@@ -227,7 +227,7 @@
     "Tank",
     "Mage"
    ],
-   "verification": "unchecked",
+   "verification": "verified",
    "gameData": null,
    "addedLater": false
   },
@@ -443,7 +443,7 @@
     "Mage",
     "Support"
    ],
-   "verification": "unchecked",
+   "verification": "verified",
    "gameData": null,
    "addedLater": false
   },
@@ -524,7 +524,7 @@
     "Mage",
     "Support"
    ],
-   "verification": "unchecked",
+   "verification": "verified",
    "gameData": null,
    "addedLater": false
   },
@@ -686,7 +686,7 @@
     "Support",
     "Marksman"
    ],
-   "verification": "unchecked",
+   "verification": "verified",
    "gameData": null,
    "addedLater": false
   },
@@ -848,7 +848,7 @@
     "Fighter",
     "Assassin"
    ],
-   "verification": "unchecked",
+   "verification": "verified",
    "gameData": null,
    "addedLater": false
   },
@@ -983,7 +983,7 @@
     "Fighter",
     "Assassin"
    ],
-   "verification": "unchecked",
+   "verification": "verified",
    "gameData": null,
    "addedLater": false
   },
@@ -1091,7 +1091,7 @@
     "Support",
     "Mage"
    ],
-   "verification": "unchecked",
+   "verification": "verified",
    "gameData": null,
    "addedLater": false
   },

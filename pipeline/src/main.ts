@@ -3,6 +3,7 @@ import { dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
 import { assignIds, buildChampionHistories, buildIndex, markAddedLater, qualityCheck, toChange } from "./build.ts";
 import { sectionFor, tagsFor } from "./classify.ts";
+import { buildCatalog } from "./catalog.ts";
 import { buildNameIndex } from "./names.ts";
 import { createFetchText } from "./net.ts";
 import { mergeNews, readNews } from "./news.ts";
@@ -13,7 +14,7 @@ import type { Change, FetchText, IndexFile, NewsItem, PatchFile, State } from ".
 import { cdragonChampionUrl, verifyAbility } from "./verify-abilities.ts";
 import { verifyStat } from "./verify-stats.ts";
 
-export const PARSER_VERSION = 4;
+export const PARSER_VERSION = 5;
 const RIOT = "https://www.leagueoflegends.com/es-mx";
 const DD = "https://ddragon.leagueoflegends.com";
 const is404 = (err: unknown) => err instanceof Error && /HTTP 404/.test(err.message);
@@ -144,7 +145,9 @@ export async function run(opts: { fetchText: FetchText; dataDir: string; now: st
   }
 
   const all = [...patches.values()];
-  const histories = buildChampionHistories(all, await dd(versions[0], "champion"));
+  const latestChampions = await dd(versions[0], "champion");
+  const histories = buildChampionHistories(all, latestChampions);
+  const catalog = buildCatalog(versions[0], latestChampions, await dd(versions[0], "item"));
   const oldIndex = readJsonIfExists<IndexFile>(join(dataDir, "index.json"));
   const unchanged = processed.length === 0 && JSON.stringify(oldNews) === JSON.stringify(news);
   const index = buildIndex(all, unchanged && oldIndex ? oldIndex.updatedAt : now);
@@ -158,6 +161,7 @@ export async function run(opts: { fetchText: FetchText; dataDir: string; now: st
   for (const p of all) write(`patches/${p.patch}.json`, p);
   for (const h of histories) write(`champions/${h.id}.json`, h);
   write("index.json", index);
+  write("catalog.json", catalog);
   write("news.json", news);
   write("state.json", nextState);
   write("missing.json", missing.sort((a, b) => patchOrder(a) - patchOrder(b)));

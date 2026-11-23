@@ -1,6 +1,6 @@
 {
  "schemaVersion": 1,
- "updatedAt": "2026-11-23T16:36:50.035Z",
+ "updatedAt": "2026-11-23T17:51:55.199Z",
  "patches": [
   {
    "patch": "26.23",
@@ -105,8 +105,8 @@
    "publishedAt": "2026-07-28T18:00:00.000Z",
    "counts": {
     "total": 264,
-    "verified": 35,
-    "unchecked": 229,
+    "verified": 36,
+    "unchecked": 228,
     "mismatch": 0
    }
   },
@@ -381,8 +381,8 @@
    "publishedAt": "2025-08-12T18:00:00.000Z",
    "counts": {
     "total": 171,
-    "verified": 10,
-    "unchecked": 161,
+    "verified": 30,
+    "unchecked": 141,
     "mismatch": 0
    }
   },
@@ -393,8 +393,8 @@
    "publishedAt": "2025-07-29T18:00:00.000Z",
    "counts": {
     "total": 119,
-    "verified": 5,
-    "unchecked": 114,
+    "verified": 12,
+    "unchecked": 107,
     "mismatch": 0
    }
   },
@@ -405,8 +405,8 @@
    "publishedAt": "2025-07-15T18:00:00.000Z",
    "counts": {
     "total": 179,
-    "verified": 6,
-    "unchecked": 173,
+    "verified": 12,
+    "unchecked": 167,
     "mismatch": 0
    }
   },
@@ -417,8 +417,8 @@
    "publishedAt": "2025-06-24T18:00:00.000Z",
    "counts": {
     "total": 77,
-    "verified": 7,
-    "unchecked": 70,
+    "verified": 10,
+    "unchecked": 67,
     "mismatch": 0
    }
   },
@@ -429,8 +429,8 @@
    "publishedAt": "2025-06-10T18:05:00.000Z",
    "counts": {
     "total": 160,
-    "verified": 10,
-    "unchecked": 150,
+    "verified": 30,
+    "unchecked": 130,
     "mismatch": 0
    }
   },
@@ -441,8 +441,8 @@
    "publishedAt": "2025-05-27T18:00:00.000Z",
    "counts": {
     "total": 267,
-    "verified": 7,
-    "unchecked": 260,
+    "verified": 18,
+    "unchecked": 249,
     "mismatch": 0
    }
   },
@@ -453,8 +453,8 @@
    "publishedAt": "2025-05-13T18:00:00.000Z",
    "counts": {
     "total": 103,
-    "verified": 14,
-    "unchecked": 89,
+    "verified": 21,
+    "unchecked": 82,
     "mismatch": 0
    }
   },
@@ -465,8 +465,8 @@
    "publishedAt": "2025-04-29T18:00:00.000Z",
    "counts": {
     "total": 247,
-    "verified": 12,
-    "unchecked": 235,
+    "verified": 21,
+    "unchecked": 226,
     "mismatch": 0
    }
   },
@@ -477,8 +477,8 @@
    "publishedAt": "2025-04-15T18:00:00.000Z",
    "counts": {
     "total": 159,
-    "verified": 7,
-    "unchecked": 152,
+    "verified": 20,
+    "unchecked": 139,
     "mismatch": 0
    }
   },
@@ -489,8 +489,8 @@
    "publishedAt": "2025-04-01T18:00:00.000Z",
    "counts": {
     "total": 312,
-    "verified": 10,
-    "unchecked": 302,
+    "verified": 23,
+    "unchecked": 289,
     "mismatch": 0
    }
   },
@@ -501,8 +501,8 @@
    "publishedAt": "2025-03-18T18:00:00.000Z",
    "counts": {
     "total": 225,
-    "verified": 13,
-    "unchecked": 212,
+    "verified": 29,
+    "unchecked": 196,
     "mismatch": 0
    }
   },
@@ -513,8 +513,8 @@
    "publishedAt": "2025-03-04T19:00:00.000Z",
    "counts": {
     "total": 191,
-    "verified": 3,
-    "unchecked": 188,
+    "verified": 11,
+    "unchecked": 180,
     "mismatch": 0
    }
   },
@@ -525,8 +525,8 @@
    "publishedAt": "2025-02-19T19:00:00.000Z",
    "counts": {
     "total": 213,
-    "verified": 8,
-    "unchecked": 205,
+    "verified": 23,
+    "unchecked": 190,
     "mismatch": 0
    }
   },
@@ -537,8 +537,8 @@
    "publishedAt": "2025-02-04T19:00:00.000Z",
    "counts": {
     "total": 227,
-    "verified": 11,
-    "unchecked": 216,
+    "verified": 18,
+    "unchecked": 209,
     "mismatch": 0
    }
   },
@@ -549,8 +549,8 @@
    "publishedAt": "2025-01-22T19:00:00.000Z",
    "counts": {
     "total": 209,
-    "verified": 4,
-    "unchecked": 205,
+    "verified": 13,
+    "unchecked": 196,
     "mismatch": 0
    }
   },
@@ -561,8 +561,8 @@
    "publishedAt": "2025-01-07T19:00:00.000Z",
    "counts": {
     "total": 188,
-    "verified": 4,
-    "unchecked": 184,
+    "verified": 9,
+    "unchecked": 179,
     "mismatch": 0
    }
   }
