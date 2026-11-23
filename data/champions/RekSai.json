@@ -1,0 +1,635 @@
+{
+ "schemaVersion": 1,
+ "id": "RekSai",
+ "name": "Rek'Sai",
+ "tags": [
+  "Fighter",
+  "Tank"
+ ],
+ "entries": [
+  {
+   "patch": "26.13",
+   "publishedAt": "2026-06-23T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "RekSai",
+      "name": "Rek'Sai"
+     },
+     "part": "E",
+     "partTitle": "E: Mordedura Feroz / Túnel",
+     "spellKey": "RekSaiE",
+     "kind": "stat",
+     "attribute": "Daño físico",
+     "before": "80 / 108 / 136 / 164 / 192 (64% de Daño de Ataque adicional)",
+     "after": "70 / 95 / 120 / 145 / 170 (60% de Daño de Ataque adicional)",
+     "text": "Daño físico: 80 / 108 / 136 / 164 / 192 (64% de Daño de Ataque adicional) ⇒ 70 / 95 / 120 / 145 / 170 (60% de Daño de Ataque adicional)",
+     "id": "65860c84b814",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "RekSai",
+      "name": "Rek'Sai"
+     },
+     "part": "E",
+     "partTitle": "E: Mordedura Feroz / Túnel",
+     "spellKey": "RekSaiE",
+     "kind": "stat",
+     "attribute": "Daño verdadero adicional",
+     "before": "125%",
+     "after": "120%",
+     "text": "Daño verdadero adicional: 125% ⇒ 120%",
+     "id": "f4a2d61f424e",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.23",
+   "publishedAt": "2025-11-18T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "RekSai",
+      "name": "Rek'Sai"
+     },
+     "part": "P",
+     "partTitle": "Pasiva: Furia del Xer'Sai",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Furia obtenida al impactar súbditos",
+     "before": "20%",
+     "after": "16% (5 ⇒ 4)",
+     "text": "Furia obtenida al impactar súbditos: 20% ⇒ 16% (5 ⇒ 4)",
+     "id": "2065c6cbbe7f",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "RekSai",
+      "name": "Rek'Sai"
+     },
+     "part": "P",
+     "partTitle": "Pasiva: Furia del Xer'Sai",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Vida Máxima obtenida",
+     "before": "De un 10% a un 20% (según el nivel)",
+     "after": "De un 9% a un 20% (según el nivel)",
+     "text": "Vida Máxima obtenida: De un 10% a un 20% (según el nivel) ⇒ De un 9% a un 20% (según el nivel)",
+     "id": "8a506e10a931",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.16",
+   "publishedAt": "2025-08-12T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "RekSai",
+      "name": "Rek'Sai"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Aumentamos su daño de ataque básico. Corregimos errores.",
+     "id": "6fa47a5e9b20",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "RekSai",
+      "name": "Rek'Sai"
+     },
+     "part": "base",
+     "partTitle": "Estadísticas básicas",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño de Ataque básico",
+     "before": "58",
+     "after": "62",
+     "text": "Daño de Ataque básico: 58 ⇒ 62",
+     "id": "60a79b7cac63",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "RekSai",
+      "name": "Rek'Sai"
+     },
+     "part": "Corrección de errores",
+     "partTitle": "Corrección de errores",
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Q: Ira de la Reina: Ahora, Rek'Sai inflige daño correctamente al atacar a un enemigo durante el final de la mejora",
+     "id": "2ea25797ace3",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "RekSai",
+      "name": "Rek'Sai"
+     },
+     "part": "Corrección de errores",
+     "partTitle": "Corrección de errores",
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "E: Túnel: Ya no hace que Rek'Sai se desplace a una ubicación distinta a la que corresponde a la salida del túnel",
+     "id": "962b91b3ac8f",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.15",
+   "publishedAt": "2025-07-29T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "RekSai",
+      "name": "Rek'Sai"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Redujimos el crecimiento de su armadura y su armadura básica. Redujimos la restricción del lanzamiento por el aire de su W en los niveles superiores. Ajustamos la fórmula de daño verdadero de su E. Ajustamos su R.",
+     "id": "9d6e70820b61",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "RekSai",
+      "name": "Rek'Sai"
+     },
+     "part": "base",
+     "partTitle": "Estadísticas básicas",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Armadura básica",
+     "before": "36",
+     "after": "35",
+     "text": "Armadura básica: 36 ⇒ 35",
+     "id": "56a9b580ca94",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "RekSai",
+      "name": "Rek'Sai"
+     },
+     "part": "base",
+     "partTitle": "Estadísticas básicas",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Crecimiento de Armadura",
+     "before": "4.95",
+     "after": "4.5",
+     "text": "Crecimiento de Armadura: 4.95 ⇒ 4.5",
+     "id": "5fa5b35fe3ee",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "RekSai",
+      "name": "Rek'Sai"
+     },
+     "part": "W",
+     "partTitle": "W: Emerger",
+     "spellKey": "RekSaiW",
+     "kind": "stat",
+     "attribute": "Restricción del lanzamiento por el aire",
+     "before": "10",
+     "after": "10 / 9 / 8 / 7 / 6",
+     "text": "Restricción del lanzamiento por el aire: 10 ⇒ 10 / 9 / 8 / 7 / 6",
+     "id": "bdbfa546c2e1",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "RekSai",
+      "name": "Rek'Sai"
+     },
+     "part": "E",
+     "partTitle": "E: Mordedura Feroz",
+     "spellKey": "RekSaiE",
+     "kind": "stat",
+     "attribute": "Daño potenciado",
+     "before": "100% de Daño de Ataque total (+ 8% / 9.5% / 11% / 12.5% / 14% de la Vida Máxima del objetivo)",
+     "after": "100 / 135 / 170 / 205 / 240 (+ 80% de Daño de Ataque adicional)",
+     "text": "Daño potenciado: 100% de Daño de Ataque total (+ 8% / 9.5% / 11% / 12.5% / 14% de la Vida Máxima del objetivo) ⇒ 100 / 135 / 170 / 205 / 240 (+ 80% de Daño de Ataque adicional)",
+     "id": "46394e563e7d",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "RekSai",
+      "name": "Rek'Sai"
+     },
+     "part": "E",
+     "partTitle": "E: Mordedura Feroz",
+     "spellKey": "RekSaiE",
+     "kind": "stat",
+     "attribute": "Daño no potenciado",
+     "before": "100% de Daño de Ataque total",
+     "after": "80 / 108 / 136 / 164 / 192 (+ 64% de Daño de Ataque adicional) (80% del daño potenciado)",
+     "text": "Daño no potenciado: 100% de Daño de Ataque total ⇒ 80 / 108 / 136 / 164 / 192 (+ 64% de Daño de Ataque adicional) (80% del daño potenciado)",
+     "id": "35c4b455e3e7",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "RekSai",
+      "name": "Rek'Sai"
+     },
+     "part": "E",
+     "partTitle": "E: Mordedura Feroz",
+     "spellKey": "RekSaiE",
+     "kind": "stat",
+     "attribute": "Enfriamiento",
+     "before": "10",
+     "after": "6",
+     "text": "Enfriamiento: 10 ⇒ 6",
+     "id": "72fff6986626",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "RekSai",
+      "name": "Rek'Sai"
+     },
+     "part": "R",
+     "partTitle": "R: Impulso del Vacío",
+     "spellKey": "RekSaiR",
+     "kind": "stat",
+     "attribute": "Daño",
+     "before": "150 / 300 / 450 (+ 100% de Daño de Ataque adicional) (+ 25% / 30% / 35% de la Vida faltante)",
+     "after": "150 / 250 / 350 (+ 100% de Daño de Ataque adicional) (+ 15% / 20% / 25% de la Vida Máxima del objetivo)",
+     "text": "Daño: 150 / 300 / 450 (+ 100% de Daño de Ataque adicional) (+ 25% / 30% / 35% de la Vida faltante) ⇒ 150 / 250 / 350 (+ 100% de Daño de Ataque adicional) (+ 15% / 20% / 25% de la Vida Máxima del objetivo)",
+     "id": "bad0ac73172a",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "RekSai",
+      "name": "Rek'Sai"
+     },
+     "part": "R",
+     "partTitle": "R: Impulso del Vacío",
+     "spellKey": "RekSaiR",
+     "kind": "stat",
+     "attribute": "Enfriamiento",
+     "before": "100 / 90 / 80",
+     "after": "120 / 100 / 80",
+     "text": "Enfriamiento: 100 / 90 / 80 ⇒ 120 / 100 / 80",
+     "id": "c48bf2107432",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "RekSai",
+      "name": "Rek'Sai"
+     },
+     "part": "R",
+     "partTitle": "R: Impulso del Vacío",
+     "spellKey": "RekSaiR",
+     "kind": "stat",
+     "attribute": "Enfriamiento del lanzamiento tras ser interrumpido porque el objetivo muere",
+     "before": "10",
+     "after": "5",
+     "text": "Enfriamiento del lanzamiento tras ser interrumpido porque el objetivo muere: 10 ⇒ 5",
+     "id": "6137eba8a128",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "RekSai",
+      "name": "Rek'Sai"
+     },
+     "part": "R",
+     "partTitle": "R: Impulso del Vacío",
+     "spellKey": "RekSaiR",
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Ahora, el enfriamiento de la W se restablece al lanzar la R",
+     "id": "df2787a96165",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.11",
+   "publishedAt": "2025-05-27T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Pelea",
+     "sectionId": "patch-brawl",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "RekSai",
+      "name": "Rek'Sai"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño infligido",
+     "before": "100%",
+     "after": "105%",
+     "text": "Daño infligido: 100% ⇒ 105%",
+     "id": "9479faa3a55a",
+     "section": "modes",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Pelea",
+     "sectionId": "patch-brawl",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "RekSai",
+      "name": "Rek'Sai"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño recibido",
+     "before": "100%",
+     "after": "95%",
+     "text": "Daño recibido: 100% ⇒ 95%",
+     "id": "dd8bbbd963cf",
+     "section": "modes",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Pelea",
+     "sectionId": "patch-brawl",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "RekSai",
+      "name": "Rek'Sai"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Enfriamiento de la R",
+     "before": "100 / 90 / 80",
+     "after": "60 / 50 / 40",
+     "text": "Enfriamiento de la R: 100 / 90 / 80 ⇒ 60 / 50 / 40",
+     "id": "82290d3d93aa",
+     "section": "modes",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  }
+ ]
+}

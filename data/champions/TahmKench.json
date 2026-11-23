@@ -1,0 +1,323 @@
+{
+ "schemaVersion": 1,
+ "id": "TahmKench",
+ "name": "Tahm Kench",
+ "tags": [
+  "Tank",
+  "Support"
+ ],
+ "entries": [
+  {
+   "patch": "26.20",
+   "publishedAt": "2026-10-06T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "TahmKench",
+      "name": "Tahm Kench"
+     },
+     "part": "Q",
+     "partTitle": "Q: Lengüetazo",
+     "spellKey": "TahmKenchQ",
+     "kind": "stat",
+     "attribute": "Curación básica",
+     "before": "10 / 13.75 / 17.5 / 21.25 / 25",
+     "after": "10 / 20 / 30 / 40 / 50",
+     "text": "Curación básica: 10 / 13.75 / 17.5 / 21.25 / 25 ⇒ 10 / 20 / 30 / 40 / 50",
+     "id": "46b6a2e6db5b",
+     "section": "champions",
+     "tags": [
+      "Tank",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "26.15",
+   "publishedAt": "2026-07-28T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "TahmKench",
+      "name": "Tahm Kench"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "E: Piel Dura",
+     "id": "06b37822d4e6",
+     "section": "modes",
+     "tags": [
+      "Tank",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "TahmKench",
+      "name": "Tahm Kench"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño a la Vida Gris",
+     "before": "15% mínimo / 47% máximo",
+     "after": "23% mínimo / 47% máximo",
+     "text": "Daño a la Vida Gris: 15% mínimo / 47% máximo ⇒ 23% mínimo / 47% máximo",
+     "id": "f998965d825b",
+     "section": "modes",
+     "tags": [
+      "Tank",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "26.9",
+   "publishedAt": "2026-04-28T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "TahmKench",
+      "name": "Tahm Kench"
+     },
+     "part": "E",
+     "partTitle": "E: Piel Dura",
+     "spellKey": "TahmKenchE",
+     "kind": "stat",
+     "attribute": "Conversión de Vida gris a Vida",
+     "before": "De 45 a 100% (niveles 1 a 18)",
+     "after": "De 60 a 100% (niveles 1 a 18)",
+     "text": "Conversión de Vida gris a Vida: De 45 a 100% (niveles 1 a 18) ⇒ De 60 a 100% (niveles 1 a 18)",
+     "id": "30f52b1f52ae",
+     "section": "champions",
+     "tags": [
+      "Tank",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "TahmKench",
+      "name": "Tahm Kench"
+     },
+     "part": "R",
+     "partTitle": "R: Devorar",
+     "spellKey": "TahmKenchRWrapper",
+     "kind": "stat",
+     "attribute": "Velocidad de Movimiento al Devorar a un aliado",
+     "before": "40% durante 3 seg",
+     "after": "60% durante 3 seg",
+     "text": "Velocidad de Movimiento al Devorar a un aliado: 40% durante 3 seg ⇒ 60% durante 3 seg",
+     "id": "d9ce06a9be47",
+     "section": "champions",
+     "tags": [
+      "Tank",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "26.8",
+   "publishedAt": "2026-04-14T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "TahmKench",
+      "name": "Tahm Kench"
+     },
+     "part": "P",
+     "partTitle": "Pasiva: Un Gusto Adquirido",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño",
+     "before": "De 6 a 48 (niveles 1 a 11) (+1.5% de Poder de Habilidad por cada 100 de Vida adicional) (+4.5% de Vida adicional)",
+     "after": "De 5 a 60 (niveles 1 a 12) (+1.25% de Poder de Habilidad por cada 100 de Vida adicional) (+4% de Vida adicional)",
+     "text": "Daño: De 6 a 48 (niveles 1 a 11) (+1.5% de Poder de Habilidad por cada 100 de Vida adicional) (+4.5% de Vida adicional) ⇒ De 5 a 60 (niveles 1 a 12) (+1.25% de Poder de Habilidad por cada 100 de Vida adicional) (+4% de Vida adicional)",
+     "id": "ad606ee4c9af",
+     "section": "champions",
+     "tags": [
+      "Tank",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.24",
+   "publishedAt": "2025-12-02T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Actualizaciones dentro de la versión, 16 de diciembre de 2025",
+     "sectionId": "patch-season-3-ranked-ending-soon",
+     "midPatch": true,
+     "entity": {
+      "kind": "champion",
+      "id": "TahmKench",
+      "name": "Tahm Kench"
+     },
+     "part": "P",
+     "partTitle": "Pasiva: Un Gusto Adquirido",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño",
+     "before": "(+ 4% de Vida adicional)",
+     "after": "(+ 4.5% de Vida adicional)",
+     "text": "Daño: (+ 4% de Vida adicional) ⇒ (+ 4.5% de Vida adicional)",
+     "id": "8fd5c42a1a0f",
+     "section": "champions",
+     "tags": [
+      "Tank",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.23",
+   "publishedAt": "2025-11-18T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "ARAM: Caos",
+     "sectionId": "patch-aram-mayhem",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "TahmKench",
+      "name": "Tahm Kench"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": null,
+     "before": "Daño recibido: 105%",
+     "after": "100%",
+     "text": "Daño recibido: 105% ⇒ 100%",
+     "id": "8da21e2e826a",
+     "section": "modes",
+     "tags": [
+      "Tank",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.S1.2",
+   "publishedAt": "2025-01-22T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "TahmKench",
+      "name": "Tahm Kench"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Redujimos el daño de su Q.",
+     "id": "9dc21adc9715",
+     "section": "champions",
+     "tags": [
+      "Tank",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "TahmKench",
+      "name": "Tahm Kench"
+     },
+     "part": "Q",
+     "partTitle": "Q: Lengüetazo",
+     "spellKey": "TahmKenchQ",
+     "kind": "stat",
+     "attribute": "Daño",
+     "before": "80/130/180/230/280 (Pasiva)",
+     "after": "75/120/165/210/255 (Pasiva)",
+     "text": "Daño: 80/130/180/230/280 (Pasiva) ⇒ 75/120/165/210/255 (Pasiva)",
+     "id": "ba8e5af7592d",
+     "section": "champions",
+     "tags": [
+      "Tank",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  }
+ ]
+}

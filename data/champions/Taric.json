@@ -1,0 +1,284 @@
+{
+ "schemaVersion": 1,
+ "id": "Taric",
+ "name": "Taric",
+ "tags": [
+  "Support",
+  "Tank"
+ ],
+ "entries": [
+  {
+   "patch": "26.23",
+   "publishedAt": "2026-11-17T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Taric",
+      "name": "Taric"
+     },
+     "part": "E",
+     "partTitle": "E: Deslumbramiento",
+     "spellKey": "TaricE",
+     "kind": "stat",
+     "attribute": "Enfriamiento",
+     "before": "19 / 17.5 / 16 / 14.5 / 13 seg",
+     "after": "16 seg",
+     "text": "Enfriamiento: 19 / 17.5 / 16 / 14.5 / 13 seg ⇒ 16 seg",
+     "id": "3a0039746f65",
+     "section": "modes",
+     "tags": [
+      "Support",
+      "Tank"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "26.21",
+   "publishedAt": "2026-10-20T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Taric",
+      "name": "Taric"
+     },
+     "part": "Q",
+     "partTitle": "Q: Toque de Luz Estelar",
+     "spellKey": "TaricQ",
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Comportamiento del lanzamiento: Los lanzamientos de la Q cuando los aliados son inalcanzables ahora abrirán fuego correctamente",
+     "id": "d44476d6b146",
+     "section": "champions",
+     "tags": [
+      "Support",
+      "Tank"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Taric",
+      "name": "Taric"
+     },
+     "part": "E",
+     "partTitle": "E: Deslumbramiento",
+     "spellKey": "TaricE",
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Comportamiento del lanzamiento: Los lanzamientos de la E cuando los aliados son inalcanzables ahora abrirán fuego correctamente",
+     "id": "9b1f6c7e7492",
+     "section": "champions",
+     "tags": [
+      "Support",
+      "Tank"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Taric",
+      "name": "Taric"
+     },
+     "part": "E",
+     "partTitle": "E: Deslumbramiento",
+     "spellKey": "TaricE",
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Descripción: Lo actualizamos para incluir: ''Deslumbramiento no se lanzará sobre aliados desaparecidos''",
+     "id": "3595907e22dd",
+     "section": "champions",
+     "tags": [
+      "Support",
+      "Tank"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Taric",
+      "name": "Taric"
+     },
+     "part": "R",
+     "partTitle": "R: Resplandor Cósmico",
+     "spellKey": "TaricR",
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Comportamiento del lanzamiento: Los lanzamientos de la R cuando los aliados son inalcanzables ahora abrirán fuego correctamente",
+     "id": "94c918132825",
+     "section": "champions",
+     "tags": [
+      "Support",
+      "Tank"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "26.2",
+   "publishedAt": "2026-01-21T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Taric",
+      "name": "Taric"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": null,
+     "before": "Quitamos el modificador de daño de la pasiva || Daño de la pasiva: De 12.5 a 46.5 (según el nivel)",
+     "after": "De 25 a 93 (según el nivel)",
+     "text": "Quitamos el modificador de daño de la pasiva || Daño de la pasiva: De 12.5 a 46.5 (según el nivel) ⇒ De 25 a 93 (según el nivel)",
+     "id": "fbb7e083eb7a",
+     "section": "modes",
+     "tags": [
+      "Support",
+      "Tank"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.14",
+   "publishedAt": "2025-07-15T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones (Arena)",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Taric",
+      "name": "Taric"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": null,
+     "before": "Cambio a los valores básicos de la curación de la Q para Arena revertido: 20",
+     "after": "25",
+     "text": "Cambio a los valores básicos de la curación de la Q para Arena revertido: 20 ⇒ 25",
+     "id": "2d6ea704d1a9",
+     "section": "modes",
+     "tags": [
+      "Support",
+      "Tank"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones (Arena)",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Taric",
+      "name": "Taric"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": null,
+     "before": "Duración de la R: 1.75",
+     "after": "2 seg",
+     "text": "Duración de la R: 1.75 ⇒ 2 seg",
+     "id": "5f8365aadf38",
+     "section": "modes",
+     "tags": [
+      "Support",
+      "Tank"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.11",
+   "publishedAt": "2025-05-27T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Pelea",
+     "sectionId": "patch-brawl",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Taric",
+      "name": "Taric"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Enfriamiento de la R",
+     "before": "180 / 150 / 120",
+     "after": "140 / 120 / 100",
+     "text": "Enfriamiento de la R: 180 / 150 / 120 ⇒ 140 / 120 / 100",
+     "id": "d8155ae00016",
+     "section": "modes",
+     "tags": [
+      "Support",
+      "Tank"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  }
+ ]
+}

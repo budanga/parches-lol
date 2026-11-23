@@ -1,0 +1,41 @@
+{
+ "schemaVersion": 1,
+ "id": "Jade_Ahri",
+ "name": "Ahri",
+ "tags": [],
+ "entries": [
+  {
+   "patch": "26.15",
+   "publishedAt": "2026-07-28T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "ARAM: Caos",
+     "sectionId": "patch-aram:-mayhem",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Jade_Ahri",
+      "name": "Ahri"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Curación",
+     "before": "90%",
+     "after": "100%",
+     "text": "Curación: 90% ⇒ 100%",
+     "id": "9dc27851d605",
+     "section": "modes",
+     "tags": [
+      "Mage",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  }
+ ]
+}

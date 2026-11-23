@@ -1,0 +1,272 @@
+{
+ "schemaVersion": 1,
+ "id": "Malphite",
+ "name": "Malphite",
+ "tags": [
+  "Tank",
+  "Mage"
+ ],
+ "entries": [
+  {
+   "patch": "26.2",
+   "publishedAt": "2026-01-21T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Malphite",
+      "name": "Malphite"
+     },
+     "part": "W",
+     "partTitle": "W: Estruendo",
+     "spellKey": "Obduracy",
+     "kind": "stat",
+     "attribute": "Daño contra monstruos",
+     "before": "×2",
+     "after": "×1.8",
+     "text": "Daño contra monstruos: ×2 ⇒ ×1.8",
+     "id": "9911b0240703",
+     "section": "champions",
+     "tags": [
+      "Tank",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Malphite",
+      "name": "Malphite"
+     },
+     "part": "E",
+     "partTitle": "E: Golpe en el Suelo",
+     "spellKey": "Landslide",
+     "kind": "stat",
+     "attribute": "Daño",
+     "before": "80 / 120 / 160 / 200 / 240 (+ 60% de Poder de Habilidad)",
+     "after": "(+ 40% de Armadura) ⇒ 60 / 95 / 130 / 165 / 200 (+ 60% de Poder de Habilidad) (+ 40% de Armadura)",
+     "text": "Daño: 80 / 120 / 160 / 200 / 240 (+ 60% de Poder de Habilidad) ⇒ (+ 40% de Armadura) ⇒ 60 / 95 / 130 / 165 / 200 (+ 60% de Poder de Habilidad) (+ 40% de Armadura)",
+     "id": "971773131b37",
+     "section": "champions",
+     "tags": [
+      "Tank",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Malphite",
+      "name": "Malphite"
+     },
+     "part": "E",
+     "partTitle": "E: Golpe en el Suelo",
+     "spellKey": "Landslide",
+     "kind": "stat",
+     "attribute": "Costo de Maná",
+     "before": "50",
+     "after": "50 / 55 / 60 / 65 / 70",
+     "text": "Costo de Maná: 50 ⇒ 50 / 55 / 60 / 65 / 70",
+     "id": "b3233a7473c2",
+     "section": "champions",
+     "tags": [
+      "Tank",
+      "Mage"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Malphite",
+      "name": "Malphite"
+     },
+     "part": "R",
+     "partTitle": "R: Fuerza Imparable",
+     "spellKey": "UFSlash",
+     "kind": "stat",
+     "attribute": "Enfriamiento",
+     "before": "130 / 105 / 80 seg",
+     "after": "130 / 115 / 100 seg",
+     "text": "Enfriamiento: 130 / 105 / 80 seg ⇒ 130 / 115 / 100 seg",
+     "id": "00b9d5828a10",
+     "section": "champions",
+     "tags": [
+      "Tank",
+      "Mage"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.23",
+   "publishedAt": "2025-11-18T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Malphite",
+      "name": "Malphite"
+     },
+     "part": "W",
+     "partTitle": "W: Estruendo",
+     "spellKey": "Obduracy",
+     "kind": "stat",
+     "attribute": "Modificador contra monstruos",
+     "before": "×1",
+     "after": "×2",
+     "text": "Modificador contra monstruos: ×1 ⇒ ×2",
+     "id": "42b70d5d443c",
+     "section": "champions",
+     "tags": [
+      "Tank",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.20",
+   "publishedAt": "2025-10-07T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Malphite",
+      "name": "Malphite"
+     },
+     "part": "base",
+     "partTitle": "Estadísticas básicas",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Armadura básica",
+     "before": "37",
+     "after": "40",
+     "text": "Armadura básica: 37 ⇒ 40",
+     "id": "b1e1c14a3a70",
+     "section": "champions",
+     "tags": [
+      "Tank",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Malphite",
+      "name": "Malphite"
+     },
+     "part": "E",
+     "partTitle": "E: Golpe en el Suelo",
+     "spellKey": "Landslide",
+     "kind": "stat",
+     "attribute": "Daño básico",
+     "before": "70 / 110 / 150 / 190 / 230",
+     "after": "80 / 120 / 160 / 200 / 240",
+     "text": "Daño básico: 70 / 110 / 150 / 190 / 230 ⇒ 80 / 120 / 160 / 200 / 240",
+     "id": "8588bb824e7a",
+     "section": "champions",
+     "tags": [
+      "Tank",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Bots Apocalípticos",
+     "sectionId": "patch-doom-bots",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Malphite",
+      "name": "Malphite"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño recibido",
+     "before": "100%",
+     "after": "90%",
+     "text": "Daño recibido: 100% ⇒ 90%",
+     "id": "be45de959e03",
+     "section": "modes",
+     "tags": [
+      "Tank",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Bots Apocalípticos",
+     "sectionId": "patch-doom-bots",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Malphite",
+      "name": "Malphite"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Tenacidad",
+     "before": "0",
+     "after": "25",
+     "text": "Tenacidad: 0 ⇒ 25",
+     "id": "da9bfed7880b",
+     "section": "modes",
+     "tags": [
+      "Tank",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  }
+ ]
+}

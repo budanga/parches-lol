@@ -1,0 +1,251 @@
+{
+ "schemaVersion": 1,
+ "id": "Renekton",
+ "name": "Renekton",
+ "tags": [
+  "Fighter",
+  "Tank"
+ ],
+ "entries": [
+  {
+   "patch": "25.11",
+   "publishedAt": "2025-05-27T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Pelea",
+     "sectionId": "patch-brawl",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Renekton",
+      "name": "Renekton"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño recibido",
+     "before": "100%",
+     "after": "95%",
+     "text": "Daño recibido: 100% ⇒ 95%",
+     "id": "2ee56fdc0f65",
+     "section": "modes",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Pelea",
+     "sectionId": "patch-brawl",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Renekton",
+      "name": "Renekton"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Aceleración de Habilidad",
+     "before": "0",
+     "after": "10",
+     "text": "Aceleración de Habilidad: 0 ⇒ 10",
+     "id": "bc6ababc8b7d",
+     "section": "modes",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Pelea",
+     "sectionId": "patch-brawl",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Renekton",
+      "name": "Renekton"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Enfriamiento de la R",
+     "before": "120 / 100 / 80",
+     "after": "100 / 80 / 60",
+     "text": "Enfriamiento de la R: 120 / 100 / 80 ⇒ 100 / 80 / 60",
+     "id": "7b94b7401463",
+     "section": "modes",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.8",
+   "publishedAt": "2025-04-15T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Renekton",
+      "name": "Renekton"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Aumentamos el daño de su R en los niveles superiores.",
+     "id": "a14a9bda4c85",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Renekton",
+      "name": "Renekton"
+     },
+     "part": "R",
+     "partTitle": "R: Dominus",
+     "spellKey": "RenektonReignOfTheTyrant",
+     "kind": "stat",
+     "attribute": "Daño",
+     "before": "30 / 60 / 90 (+5% de Daño de Ataque adicional) (+5% de Poder de Habilidad)",
+     "after": "30 / 75 / 120 (+ 5% de Daño de Ataque adicional) (+ 5% de Poder de Habilidad)",
+     "text": "Daño: 30 / 60 / 90 (+5% de Daño de Ataque adicional) (+5% de Poder de Habilidad) ⇒ 30 / 75 / 120 (+ 5% de Daño de Ataque adicional) (+ 5% de Poder de Habilidad)",
+     "id": "cae11f13d347",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.7",
+   "publishedAt": "2025-04-01T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "ARAM",
+     "sectionId": "patch-aram",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Renekton",
+      "name": "Renekton"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Curación realizada",
+     "before": "105%",
+     "after": "110%",
+     "text": "Curación realizada: 105% ⇒ 110%",
+     "id": "55239f95b655",
+     "section": "modes",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.S1.3",
+   "publishedAt": "2025-02-04T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Sistemas",
+     "sectionId": "patch-systems",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Renekton",
+      "name": "Renekton"
+     },
+     "part": "Debilitaciones a campeones",
+     "partTitle": "Debilitaciones a campeones",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño recibido",
+     "before": "100%",
+     "after": "95%",
+     "text": "Renekton: Daño recibido: 100% ⇒ 95%",
+     "id": "6390da18059e",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Sistemas",
+     "sectionId": "patch-systems",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Renekton",
+      "name": "Renekton"
+     },
+     "part": "Debilitaciones a campeones",
+     "partTitle": "Debilitaciones a campeones",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño infligido",
+     "before": "100%",
+     "after": "95%",
+     "text": "Renekton: Daño infligido: 100% ⇒ 95%",
+     "id": "42715403fc6f",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  }
+ ]
+}

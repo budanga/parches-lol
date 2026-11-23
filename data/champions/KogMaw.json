@@ -1,0 +1,545 @@
+{
+ "schemaVersion": 1,
+ "id": "KogMaw",
+ "name": "Kog'Maw",
+ "tags": [
+  "Marksman",
+  "Mage"
+ ],
+ "entries": [
+  {
+   "patch": "26.15",
+   "publishedAt": "2026-07-28T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "ARAM: Caos",
+     "sectionId": "patch-aram:-mayhem",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "KogMaw",
+      "name": "Kog'Maw"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño infligido",
+     "before": "88%",
+     "after": "90%",
+     "text": "Daño infligido: 88% ⇒ 90%",
+     "id": "3e14d2abb8c6",
+     "section": "modes",
+     "tags": [
+      "Marksman",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.21",
+   "publishedAt": "2025-10-21T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "KogMaw",
+      "name": "Kog'Maw"
+     },
+     "part": "Q",
+     "partTitle": "Q: Baba Cáustica",
+     "spellKey": "KogMawQ",
+     "kind": "stat",
+     "attribute": "Velocidad de Ataque de la pasiva",
+     "before": "10% / 15% / 20% / 25% / 30%",
+     "after": "5% / 10% / 15% / 20% / 25%",
+     "text": "Velocidad de Ataque de la pasiva: 10% / 15% / 20% / 25% / 30% ⇒ 5% / 10% / 15% / 20% / 25%",
+     "id": "7d66b0922bbd",
+     "section": "champions",
+     "tags": [
+      "Marksman",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.18",
+   "publishedAt": "2025-09-09T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones (Arena)",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "KogMaw",
+      "name": "Kog'Maw"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": null,
+     "before": "Tasa de Poder de Habilidad de la R: 55%",
+     "after": "55% / 60% / 65%",
+     "text": "Tasa de Poder de Habilidad de la R: 55% ⇒ 55% / 60% / 65%",
+     "id": "82c896735d40",
+     "section": "modes",
+     "tags": [
+      "Marksman",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.17",
+   "publishedAt": "2025-08-26T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "KogMaw",
+      "name": "Kog'Maw"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Aumentamos el daño de su Q. Aumentamos el daño de su W. Aumentamos el daño de su R en los niveles superiores.",
+     "id": "0b274987636a",
+     "section": "champions",
+     "tags": [
+      "Marksman",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "KogMaw",
+      "name": "Kog'Maw"
+     },
+     "part": "Q",
+     "partTitle": "Q: Baba Cáustica",
+     "spellKey": "KogMawQ",
+     "kind": "stat",
+     "attribute": "Daño",
+     "before": "80 / 125 / 170 / 215 / 260 (+ 80% de Poder de Habilidad)",
+     "after": "80 / 125 / 170 / 215 / 260 (+ 90% de Poder de Habilidad) W: Descarga Bioarcana",
+     "text": "Daño: 80 / 125 / 170 / 215 / 260 (+ 80% de Poder de Habilidad) ⇒ 80 / 125 / 170 / 215 / 260 (+ 90% de Poder de Habilidad) W: Descarga Bioarcana",
+     "id": "84c3a6e3a854",
+     "section": "champions",
+     "tags": [
+      "Marksman",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "KogMaw",
+      "name": "Kog'Maw"
+     },
+     "part": "W",
+     "partTitle": "W: Descarga Bioarcana",
+     "spellKey": "KogMawBioArcaneBarrage",
+     "kind": "stat",
+     "attribute": "Daño al impacto",
+     "before": "3% / 3.75% / 4.5% / 5.25% / 6% (+ 1% por cada 100 de Poder de Habilidad) de la Vida Máxima del objetivo",
+     "after": "3% / 3.75% / 4.5% / 5.25% / 6% (+ 1.5% por cada 100 de Poder de Habilidad) de la Vida Máxima del objetivo R: Artillería Viviente",
+     "text": "Daño al impacto: 3% / 3.75% / 4.5% / 5.25% / 6% (+ 1% por cada 100 de Poder de Habilidad) de la Vida Máxima del objetivo ⇒ 3% / 3.75% / 4.5% / 5.25% / 6% (+ 1.5% por cada 100 de Poder de Habilidad) de la Vida Máxima del objetivo R: Artillería Viviente",
+     "id": "986eb0090775",
+     "section": "champions",
+     "tags": [
+      "Marksman",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "KogMaw",
+      "name": "Kog'Maw"
+     },
+     "part": "R",
+     "partTitle": "R: Artillería Viviente",
+     "spellKey": "KogMawLivingArtillery",
+     "kind": "stat",
+     "attribute": "Daño mínimo",
+     "before": "100 / 140 / 180 (+ 75% de Daño de Ataque adicional) (+ 35% de Poder de Habilidad)",
+     "after": "100 / 140 / 180 (+ 75% de Daño de Ataque adicional) (+ 35 / 40 / 45% de Poder de Habilidad)",
+     "text": "Daño mínimo: 100 / 140 / 180 (+ 75% de Daño de Ataque adicional) (+ 35% de Poder de Habilidad) ⇒ 100 / 140 / 180 (+ 75% de Daño de Ataque adicional) (+ 35 / 40 / 45% de Poder de Habilidad)",
+     "id": "aa4995b3e30c",
+     "section": "champions",
+     "tags": [
+      "Marksman",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "KogMaw",
+      "name": "Kog'Maw"
+     },
+     "part": "R",
+     "partTitle": "R: Artillería Viviente",
+     "spellKey": "KogMawLivingArtillery",
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "El daño máximo sigue siendo el doble",
+     "id": "7ffa466b6a5b",
+     "section": "champions",
+     "tags": [
+      "Marksman",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.11",
+   "publishedAt": "2025-05-27T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Pelea",
+     "sectionId": "patch-brawl",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "KogMaw",
+      "name": "Kog'Maw"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño infligido",
+     "before": "100%",
+     "after": "95%",
+     "text": "Daño infligido: 100% ⇒ 95%",
+     "id": "112f92115a3f",
+     "section": "modes",
+     "tags": [
+      "Marksman",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Pelea",
+     "sectionId": "patch-brawl",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "KogMaw",
+      "name": "Kog'Maw"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Aceleración de Habilidad",
+     "before": "0",
+     "after": "-10",
+     "text": "Aceleración de Habilidad: 0 ⇒ -10",
+     "id": "39d0e347f613",
+     "section": "modes",
+     "tags": [
+      "Marksman",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.9",
+   "publishedAt": "2025-04-29T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "ARAM",
+     "sectionId": "patch-aram",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "KogMaw",
+      "name": "Kog'Maw"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño infligido",
+     "before": "88%",
+     "after": "92%",
+     "text": "Daño infligido: 88% ⇒ 92%",
+     "id": "a6224676ebe8",
+     "section": "modes",
+     "tags": [
+      "Marksman",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "ARAM",
+     "sectionId": "patch-aram",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "KogMaw",
+      "name": "Kog'Maw"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Cantidad de reducción de Armadura y Resistencia Mágica de la Q",
+     "before": "De 16 a 32%",
+     "after": "De 15 a 27%",
+     "text": "Cantidad de reducción de Armadura y Resistencia Mágica de la Q: De 16 a 32% ⇒ De 15 a 27%",
+     "id": "b458a62537c3",
+     "section": "modes",
+     "tags": [
+      "Marksman",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "ARAM",
+     "sectionId": "patch-aram",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "KogMaw",
+      "name": "Kog'Maw"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Vida Máxima del objetivo como daño al impacto de la W",
+     "before": "De 3 a 6%",
+     "after": "De 2.5 a 4.5%",
+     "text": "Vida Máxima del objetivo como daño al impacto de la W: De 3 a 6% ⇒ De 2.5 a 4.5%",
+     "id": "2c3a0402016a",
+     "section": "modes",
+     "tags": [
+      "Marksman",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.4",
+   "publishedAt": "2025-02-19T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "KogMaw",
+      "name": "Kog'Maw"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Redujimos el daño de su Q y aumentamos la tasa de Poder de Habilidad.",
+     "id": "7274e0a43492",
+     "section": "champions",
+     "tags": [
+      "Marksman",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "KogMaw",
+      "name": "Kog'Maw"
+     },
+     "part": "Q",
+     "partTitle": "Q: Baba Cáustica",
+     "spellKey": "KogMawQ",
+     "kind": "stat",
+     "attribute": "Daño",
+     "before": "90/140/190/240/290 (+70% de Poder de Habilidad)",
+     "after": "80/125/170/215/260 (+80% de Poder de Habilidad)",
+     "text": "Daño: 90/140/190/240/290 (+70% de Poder de Habilidad) ⇒ 80/125/170/215/260 (+80% de Poder de Habilidad)",
+     "id": "bbc860e118a7",
+     "section": "champions",
+     "tags": [
+      "Marksman",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "URFAR",
+     "sectionId": "patch-arurf",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "KogMaw",
+      "name": "Kog'Maw"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño infligido",
+     "before": "90%",
+     "after": "85%",
+     "text": "Daño infligido: 90% ⇒ 85%",
+     "id": "b52cc88c70c6",
+     "section": "modes",
+     "tags": [
+      "Marksman",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "URFAR",
+     "sectionId": "patch-arurf",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "KogMaw",
+      "name": "Kog'Maw"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño recibido",
+     "before": "100%",
+     "after": "105%",
+     "text": "Daño recibido: 100% ⇒ 105%",
+     "id": "8e4b3fec1a70",
+     "section": "modes",
+     "tags": [
+      "Marksman",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.S1.3",
+   "publishedAt": "2025-02-04T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Sistemas",
+     "sectionId": "patch-systems",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "KogMaw",
+      "name": "Kog'Maw"
+     },
+     "part": "Debilitaciones a campeones",
+     "partTitle": "Debilitaciones a campeones",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño Infligido",
+     "before": "95%",
+     "after": "90%",
+     "text": "Kog'Maw: Daño Infligido: 95% ⇒ 90%",
+     "id": "116617e873ef",
+     "section": "champions",
+     "tags": [
+      "Marksman",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  }
+ ]
+}

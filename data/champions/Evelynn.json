@@ -1,0 +1,518 @@
+{
+ "schemaVersion": 1,
+ "id": "Evelynn",
+ "name": "Evelynn",
+ "tags": [
+  "Assassin",
+  "Mage"
+ ],
+ "entries": [
+  {
+   "patch": "26.22",
+   "publishedAt": "2026-11-03T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Classic",
+     "sectionId": "patch-classic",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Evelynn",
+      "name": "Evelynn"
+     },
+     "part": "Q",
+     "partTitle": "Q: Púas de Odio",
+     "spellKey": "EvelynnQ",
+     "kind": "stat",
+     "attribute": "Daño base",
+     "before": "40 / 55 / 70 / 85 / 100",
+     "after": "40 / 60 / 80 / 100 / 120",
+     "text": "Daño base: 40 / 55 / 70 / 85 / 100 ⇒ 40 / 60 / 80 / 100 / 120",
+     "id": "2c7976bfc510",
+     "section": "modes",
+     "tags": [
+      "Assassin",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.20",
+   "publishedAt": "2025-10-07T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Bots Apocalípticos",
+     "sectionId": "patch-doom-bots",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Evelynn",
+      "name": "Evelynn"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño infligido",
+     "before": "100%",
+     "after": "105%",
+     "text": "Daño infligido: 100% ⇒ 105%",
+     "id": "f6d9812d7b04",
+     "section": "modes",
+     "tags": [
+      "Assassin",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Bots Apocalípticos",
+     "sectionId": "patch-doom-bots",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Evelynn",
+      "name": "Evelynn"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Tenacidad",
+     "before": "0",
+     "after": "25",
+     "text": "Tenacidad: 0 ⇒ 25",
+     "id": "523ef8d11fd8",
+     "section": "modes",
+     "tags": [
+      "Assassin",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.11",
+   "publishedAt": "2025-05-27T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Pelea",
+     "sectionId": "patch-brawl",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Evelynn",
+      "name": "Evelynn"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Enfriamiento de la R",
+     "before": "120 / 100 / 80",
+     "after": "100 / 80 / 60",
+     "text": "Enfriamiento de la R: 120 / 100 / 80 ⇒ 100 / 80 / 60",
+     "id": "a12ccdb6d3a8",
+     "section": "modes",
+     "tags": [
+      "Assassin",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Pelea",
+     "sectionId": "patch-brawl",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Evelynn",
+      "name": "Evelynn"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño recibido",
+     "before": "100%",
+     "after": "95%",
+     "text": "Daño recibido: 100% ⇒ 95%",
+     "id": "fd841e85060b",
+     "section": "modes",
+     "tags": [
+      "Assassin",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Pelea",
+     "sectionId": "patch-brawl",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Evelynn",
+      "name": "Evelynn"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Aceleración de Habilidad",
+     "before": "0",
+     "after": "20",
+     "text": "Aceleración de Habilidad: 0 ⇒ 20",
+     "id": "44eaeb4406d2",
+     "section": "modes",
+     "tags": [
+      "Assassin",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.8",
+   "publishedAt": "2025-04-15T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Evelynn",
+      "name": "Evelynn"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Porcentaje básico de Vida Máxima como daño de la E (sin potenciar)",
+     "before": "5%",
+     "after": "4%",
+     "text": "Porcentaje básico de Vida Máxima como daño de la E (sin potenciar): 5% ⇒ 4%",
+     "id": "0bda79c9e6ef",
+     "section": "modes",
+     "tags": [
+      "Assassin",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Evelynn",
+      "name": "Evelynn"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Porcentaje básico de Vida Máxima como daño de la E (potenciado)",
+     "before": "7%",
+     "after": "6%",
+     "text": "Porcentaje básico de Vida Máxima como daño de la E (potenciado): 7% ⇒ 6%",
+     "id": "88b8ab752c96",
+     "section": "modes",
+     "tags": [
+      "Assassin",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.7",
+   "publishedAt": "2025-04-01T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "ARAM",
+     "sectionId": "patch-aram",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Evelynn",
+      "name": "Evelynn"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Enfriamiento de R",
+     "before": "120 / 100 / 80",
+     "after": "100 / 80 / 60",
+     "text": "Enfriamiento de R: 120 / 100 / 80 ⇒ 100 / 80 / 60",
+     "id": "9b6f4f4c0fa4",
+     "section": "modes",
+     "tags": [
+      "Assassin",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.6",
+   "publishedAt": "2025-03-18T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Evelynn",
+      "name": "Evelynn"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": null,
+     "before": "Q: Púas de Odio: Daño básico adicional: 30-70",
+     "after": "20-60",
+     "text": "Q: Púas de Odio: Daño básico adicional: 30-70 ⇒ 20-60",
+     "id": "cbe160ff9458",
+     "section": "modes",
+     "tags": [
+      "Assassin",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.S1.3",
+   "publishedAt": "2025-02-04T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Evelynn",
+      "name": "Evelynn"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Aumentamos el daño de su E.",
+     "id": "b64ed99fa4f8",
+     "section": "champions",
+     "tags": [
+      "Assassin",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Evelynn",
+      "name": "Evelynn"
+     },
+     "part": "E",
+     "partTitle": "E: Latigazo",
+     "spellKey": "EvelynnE",
+     "kind": "stat",
+     "attribute": "Daño básico",
+     "before": "55/70/85/100/115 (+3% (+1.5% de Poder de Habilidad) Vida Máxima del objetivo)",
+     "after": "60/90/120/150/180 (+3% (+1.5% por 100 de Poder de Habilidad) Vida Máxima del objetivo)",
+     "text": "Daño básico: 55/70/85/100/115 (+3% (+1.5% de Poder de Habilidad) Vida Máxima del objetivo) ⇒ 60/90/120/150/180 (+3% (+1.5% por 100 de Poder de Habilidad) Vida Máxima del objetivo)",
+     "id": "04d855a7679f",
+     "section": "champions",
+     "tags": [
+      "Assassin",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Evelynn",
+      "name": "Evelynn"
+     },
+     "part": "E",
+     "partTitle": "E: Latigazo",
+     "spellKey": "EvelynnE",
+     "kind": "stat",
+     "attribute": "Daño potenciado",
+     "before": "75/100/125/150/175 (+4% (+2.5% de Poder de Habilidad) Vida Máxima del objetivo)",
+     "after": "80/120/160/200/240 (+4% (+2.5% por 100 de Poder de Habilidad) Vida Máxima del objetivo)",
+     "text": "Daño potenciado: 75/100/125/150/175 (+4% (+2.5% de Poder de Habilidad) Vida Máxima del objetivo) ⇒ 80/120/160/200/240 (+4% (+2.5% por 100 de Poder de Habilidad) Vida Máxima del objetivo)",
+     "id": "6ff6f07ab4b8",
+     "section": "champions",
+     "tags": [
+      "Assassin",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.S1.2",
+   "publishedAt": "2025-01-22T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Evelynn",
+      "name": "Evelynn"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Aumentamos la velocidad de movimiento de su E en los rangos superiores. Aumentamos el daño de su R.",
+     "id": "b5c34513ebdd",
+     "section": "champions",
+     "tags": [
+      "Assassin",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Evelynn",
+      "name": "Evelynn"
+     },
+     "part": "E",
+     "partTitle": "E: Latigazo",
+     "spellKey": "EvelynnE",
+     "kind": "stat",
+     "attribute": "Velocidad de Movimiento",
+     "before": "30%",
+     "after": "30/35/40/45/50%",
+     "text": "Velocidad de Movimiento: 30% ⇒ 30/35/40/45/50%",
+     "id": "7f984286307d",
+     "section": "champions",
+     "tags": [
+      "Assassin",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Evelynn",
+      "name": "Evelynn"
+     },
+     "part": "R",
+     "partTitle": "R: Última Caricia",
+     "spellKey": "EvelynnR",
+     "kind": "stat",
+     "attribute": "Tasa de Poder de Habilidad sin potenciar",
+     "before": "(+65% de Poder de Habilidad)",
+     "after": "(+75% de Poder de Habilidad)",
+     "text": "Tasa de Poder de Habilidad sin potenciar: (+65% de Poder de Habilidad) ⇒ (+75% de Poder de Habilidad)",
+     "id": "54c4fb933d66",
+     "section": "champions",
+     "tags": [
+      "Assassin",
+      "Mage"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Evelynn",
+      "name": "Evelynn"
+     },
+     "part": "R",
+     "partTitle": "R: Última Caricia",
+     "spellKey": "EvelynnR",
+     "kind": "stat",
+     "attribute": "Tasa de Poder de Habilidad potenciado",
+     "before": "(+156% de Poder de Habilidad)",
+     "after": "(+180% de Poder de Habilidad)",
+     "text": "Tasa de Poder de Habilidad potenciado: (+156% de Poder de Habilidad) ⇒ (+180% de Poder de Habilidad)",
+     "id": "a9430941b866",
+     "section": "champions",
+     "tags": [
+      "Assassin",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,126 @@
+{
+ "schemaVersion": 1,
+ "id": "Anivia",
+ "name": "Anivia",
+ "tags": [
+  "Mage"
+ ],
+ "entries": [
+  {
+   "patch": "26.10",
+   "publishedAt": "2026-05-12T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Anivia",
+      "name": "Anivia"
+     },
+     "part": "base",
+     "partTitle": "Estadísticas base",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Armadura básica",
+     "before": "21",
+     "after": "19",
+     "text": "Armadura básica: 21 ⇒ 19",
+     "id": "52b47a01727a",
+     "section": "champions",
+     "tags": [
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Anivia",
+      "name": "Anivia"
+     },
+     "part": "base",
+     "partTitle": "Estadísticas base",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Crecimiento de Armadura",
+     "before": "4.5",
+     "after": "4.1",
+     "text": "Crecimiento de Armadura: 4.5 ⇒ 4.1",
+     "id": "6f9bf8235b3f",
+     "section": "champions",
+     "tags": [
+      "Mage"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.20",
+   "publishedAt": "2025-10-07T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Anivia",
+      "name": "Anivia"
+     },
+     "part": "Q",
+     "partTitle": "Q: Destello Helado",
+     "spellKey": "FlashFrost",
+     "kind": "stat",
+     "attribute": "Enfriamiento",
+     "before": "12 / 11 / 10 / 9 / 8 seg",
+     "after": "11 / 10 / 9 / 8 / 7 seg",
+     "text": "Enfriamiento: 12 / 11 / 10 / 9 / 8 seg ⇒ 11 / 10 / 9 / 8 / 7 seg",
+     "id": "c33e8930a3c5",
+     "section": "champions",
+     "tags": [
+      "Mage"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Anivia",
+      "name": "Anivia"
+     },
+     "part": "E",
+     "partTitle": "E: Quemadura Gélida",
+     "spellKey": "Frostbite",
+     "kind": "stat",
+     "attribute": "Daño básico",
+     "before": "50 / 75 / 100 / 125 / 150",
+     "after": "55 / 80 / 105 / 130 / 155",
+     "text": "Daño básico: 50 / 75 / 100 / 125 / 150 ⇒ 55 / 80 / 105 / 130 / 155",
+     "id": "89d8efd06840",
+     "section": "champions",
+     "tags": [
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  }
+ ]
+}

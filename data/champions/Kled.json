@@ -1,0 +1,1684 @@
+{
+ "schemaVersion": 1,
+ "id": "Kled",
+ "name": "Kled",
+ "tags": [
+  "Fighter"
+ ],
+ "entries": [
+  {
+   "patch": "26.8",
+   "publishedAt": "2026-04-14T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Kled",
+      "name": "Kled"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": null,
+     "before": "¡¡¡A la Cargaaaaaaa!!!: enfriamiento: 140/125/110",
+     "after": "60/45/30",
+     "text": "¡¡¡A la Cargaaaaaaa!!!: enfriamiento: 140/125/110 ⇒ 60/45/30",
+     "id": "543ebf7b7b50",
+     "section": "modes",
+     "tags": [
+      "Fighter"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.18",
+   "publishedAt": "2025-09-09T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones (Arena)",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Kled",
+      "name": "Kled"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Ahora, el modificador de vida de Arena lo recibe Kled, no Skaarl",
+     "id": "ab3a6b88c955",
+     "section": "modes",
+     "tags": [
+      "Fighter"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones (Arena)",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Kled",
+      "name": "Kled"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": null,
+     "before": "Crecimiento de Vida: 142 por nivel",
+     "after": "153 por nivel",
+     "text": "Crecimiento de Vida: 142 por nivel ⇒ 153 por nivel",
+     "id": "90ef286eeeac",
+     "section": "modes",
+     "tags": [
+      "Fighter"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones (Arena)",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Kled",
+      "name": "Kled"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": null,
+     "before": "Enfriamiento de la Q: De 11 a 7 seg",
+     "after": "De 9 a 5 seg",
+     "text": "Enfriamiento de la Q: De 11 a 7 seg ⇒ De 9 a 5 seg",
+     "id": "20ce1046a3cf",
+     "section": "modes",
+     "tags": [
+      "Fighter"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones (Arena)",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Kled",
+      "name": "Kled"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": null,
+     "before": "Tiempo de aterrizaje: 2 seg",
+     "after": "1.5 seg",
+     "text": "Tiempo de aterrizaje: 2 seg ⇒ 1.5 seg",
+     "id": "13e22dbc7c2e",
+     "section": "modes",
+     "tags": [
+      "Fighter"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.16",
+   "publishedAt": "2025-08-12T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones (Arena)",
+     "sectionId": "patch-champions-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Kled",
+      "name": "Kled"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Ahora, obtiene 15 de Coraje con las Flores de Poder",
+     "id": "64f3134b52ca",
+     "section": "modes",
+     "tags": [
+      "Fighter"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones (Arena)",
+     "sectionId": "patch-champions-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Kled",
+      "name": "Kled"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": null,
+     "before": "Enfriamiento de la Pasiva cuando Kled vuelve a montar: 30 seg",
+     "after": "15 seg",
+     "text": "Enfriamiento de la Pasiva cuando Kled vuelve a montar: 30 seg ⇒ 15 seg",
+     "id": "dd17658bbd84",
+     "section": "modes",
+     "tags": [
+      "Fighter"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones (Arena)",
+     "sectionId": "patch-champions-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Kled",
+      "name": "Kled"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": null,
+     "before": "Armadura y Resistencia Mágica adicionales de la pasiva por cada campeón enemigo cercano: 30%",
+     "after": "40%",
+     "text": "Armadura y Resistencia Mágica adicionales de la pasiva por cada campeón enemigo cercano: 30% ⇒ 40%",
+     "id": "f7a2ca3b23f8",
+     "section": "modes",
+     "tags": [
+      "Fighter"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones (Arena)",
+     "sectionId": "patch-champions-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Kled",
+      "name": "Kled"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": null,
+     "before": "Tiempo de demora para que la R alcance el poder máximo: 3 seg",
+     "after": "1.5 seg",
+     "text": "Tiempo de demora para que la R alcance el poder máximo: 3 seg ⇒ 1.5 seg",
+     "id": "f8ccf71fdd28",
+     "section": "modes",
+     "tags": [
+      "Fighter"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.15",
+   "publishedAt": "2025-07-29T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Kled",
+      "name": "Kled"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Aumentamos las resistencias de su pasiva cuando está desmontado.",
+     "id": "ae7c17445be9",
+     "section": "champions",
+     "tags": [
+      "Fighter"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Kled",
+      "name": "Kled"
+     },
+     "part": "P",
+     "partTitle": "Pasiva: Skaarl, la Lagartija Cobarde",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Resistencias cuando Kled está desmontado",
+     "before": "De 1 a 2% de Vida adicional (según la cantidad de campeones enemigos cercanos)",
+     "after": "De 4 (+ 1% de Vida adicional) a 10 (+ 2.5% de Vida adicional) (según la cantidad de campeones enemigos cercanos)",
+     "text": "Resistencias cuando Kled está desmontado: De 1 a 2% de Vida adicional (según la cantidad de campeones enemigos cercanos) ⇒ De 4 (+ 1% de Vida adicional) a 10 (+ 2.5% de Vida adicional) (según la cantidad de campeones enemigos cercanos)",
+     "id": "9682d2d93905",
+     "section": "champions",
+     "tags": [
+      "Fighter"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.14",
+   "publishedAt": "2025-07-15T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Kled",
+      "name": "Kled"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Ajustamos todas sus habilidades.",
+     "id": "c13ffecc0e59",
+     "section": "champions",
+     "tags": [
+      "Fighter"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Kled",
+      "name": "Kled"
+     },
+     "part": "P",
+     "partTitle": "Pasiva: Skaarl, la Lagartija Cobarde",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño de los autoataques contra campeones de Kled cuando está desmontado",
+     "before": "80%",
+     "after": "85% / 90% / 95% / 100% en los niveles 1, 6, 11 y 16, respectivamente",
+     "text": "Daño de los autoataques contra campeones de Kled cuando está desmontado: 80% ⇒ 85% / 90% / 95% / 100% en los niveles 1, 6, 11 y 16, respectivamente",
+     "id": "415ec708be5e",
+     "section": "champions",
+     "tags": [
+      "Fighter"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Kled",
+      "name": "Kled"
+     },
+     "part": "P",
+     "partTitle": "Pasiva: Skaarl, la Lagartija Cobarde",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Vida de Skaarl",
+     "before": "De 400 a 1550 (aumento lineal)",
+     "after": "De 400 a 1400 (aumento del multiplicador de progresión de estadísticas). (Nota: esta actualización solo implica que la vida de Skaarl seguirá las mismas reglas que las estadísticas de los demás campeones)",
+     "text": "Vida de Skaarl: De 400 a 1550 (aumento lineal) ⇒ De 400 a 1400 (aumento del multiplicador de progresión de estadísticas). (Nota: esta actualización solo implica que la vida de Skaarl seguirá las mismas reglas que las estadísticas de los demás campeones)",
+     "id": "fb6d33c01034",
+     "section": "champions",
+     "tags": [
+      "Fighter"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Kled",
+      "name": "Kled"
+     },
+     "part": "P",
+     "partTitle": "Pasiva: Skaarl, la Lagartija Cobarde",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Coraje obtenido al darle el último golpe a un súbdito",
+     "before": "4",
+     "after": "5",
+     "text": "Coraje obtenido al darle el último golpe a un súbdito: 4 ⇒ 5",
+     "id": "65af39bed6e8",
+     "section": "champions",
+     "tags": [
+      "Fighter"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Kled",
+      "name": "Kled"
+     },
+     "part": "P",
+     "partTitle": "Pasiva: Skaarl, la Lagartija Cobarde",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Alcance de adquisición del aumento de velocidad cuando Kled está desmontado",
+     "before": "1000",
+     "after": "1200",
+     "text": "Alcance de adquisición del aumento de velocidad cuando Kled está desmontado: 1000 ⇒ 1200",
+     "id": "b5159c35bedf",
+     "section": "champions",
+     "tags": [
+      "Fighter"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Kled",
+      "name": "Kled"
+     },
+     "part": "P",
+     "partTitle": "Pasiva: Skaarl, la Lagartija Cobarde",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Reducción de Velocidad de Movimiento cuando Kled está desmontado",
+     "before": "-60",
+     "after": "-40",
+     "text": "Reducción de Velocidad de Movimiento cuando Kled está desmontado: -60 ⇒ -40",
+     "id": "976cf437d09f",
+     "section": "champions",
+     "tags": [
+      "Fighter"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Kled",
+      "name": "Kled"
+     },
+     "part": "P",
+     "partTitle": "Pasiva: Skaarl, la Lagartija Cobarde",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Velocidad de Movimiento adicional al dirigirse hacia campeones enemigos cuando Kled está desmontado",
+     "before": "De 100 a 185 (según el nivel)",
+     "after": "De 70 a 155 (según el nivel)",
+     "text": "Velocidad de Movimiento adicional al dirigirse hacia campeones enemigos cuando Kled está desmontado: De 100 a 185 (según el nivel) ⇒ De 70 a 155 (según el nivel)",
+     "id": "a32df77ae3da",
+     "section": "champions",
+     "tags": [
+      "Fighter"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Kled",
+      "name": "Kled"
+     },
+     "part": "P",
+     "partTitle": "Pasiva: Skaarl, la Lagartija Cobarde",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Vida que obtiene Skaarl cuando Kled vuelve a montar",
+     "before": "De 45% a 75%",
+     "after": "De 40% 70%",
+     "text": "Vida que obtiene Skaarl cuando Kled vuelve a montar: De 45% a 75% ⇒ De 40% 70%",
+     "id": "fd5ecbdc52f1",
+     "section": "champions",
+     "tags": [
+      "Fighter"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Kled",
+      "name": "Kled"
+     },
+     "part": "P",
+     "partTitle": "Pasiva: Skaarl, la Lagartija Cobarde",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Coraje al lograr un derribo",
+     "before": "20",
+     "after": "0",
+     "text": "Coraje al lograr un derribo: 20 ⇒ 0",
+     "id": "f66592161c85",
+     "section": "champions",
+     "tags": [
+      "Fighter"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Kled",
+      "name": "Kled"
+     },
+     "part": "P",
+     "partTitle": "Pasiva: Skaarl, la Lagartija Cobarde",
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Ahora, Skaarl recupera vida al inicio de la secuencia que se activa cuando Kled vuelve a montar después de obtener 100 de Coraje y no al final",
+     "id": "7a279ee30649",
+     "section": "champions",
+     "tags": [
+      "Fighter"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Kled",
+      "name": "Kled"
+     },
+     "part": "P",
+     "partTitle": "Pasiva: Skaarl, la Lagartija Cobarde",
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Ahora, Kled obtiene un 1% de la Vida adicional como armadura y resistencia mágica mientras está desmontado. Este efecto aumenta en un 20% por cada campeón enemigo cercano (hasta alcanzar un 2% de la Vida adicional)",
+     "id": "f879e862efd5",
+     "section": "champions",
+     "tags": [
+      "Fighter"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Kled",
+      "name": "Kled"
+     },
+     "part": "P",
+     "partTitle": "Pasiva: Skaarl, la Lagartija Cobarde",
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Ahora, el tiempo de desplazamiento de Kled mientras está montado siempre es de 0.75 seg",
+     "id": "e45d64587ba1",
+     "section": "champions",
+     "tags": [
+      "Fighter"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Kled",
+      "name": "Kled"
+     },
+     "part": "Q (montado): Trampa para Osos",
+     "partTitle": "Q (montado): Trampa para Osos",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Tasa de Daño de Ataque adicional del impacto inicial",
+     "before": "65%",
+     "after": "60%. (Nota: El daño total del impacto inicial y el arrastre se redujo de un 195% de Daño de Ataque adicional a un 180% de Daño de Ataque adicional)",
+     "text": "Tasa de Daño de Ataque adicional del impacto inicial: 65% ⇒ 60%. (Nota: El daño total del impacto inicial y el arrastre se redujo de un 195% de Daño de Ataque adicional a un 180% de Daño de Ataque adicional)",
+     "id": "e6d5a737c478",
+     "section": "champions",
+     "tags": [
+      "Fighter"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Kled",
+      "name": "Kled"
+     },
+     "part": "Q (montado): Trampa para Osos",
+     "partTitle": "Q (montado): Trampa para Osos",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Efecto de ralentización",
+     "before": "40% / 45% / 50% / 55% / 60%",
+     "after": "30% / 35% / 40% / 45% / 50%",
+     "text": "Efecto de ralentización: 40% / 45% / 50% / 55% / 60% ⇒ 30% / 35% / 40% / 45% / 50%",
+     "id": "27d44cd5c766",
+     "section": "champions",
+     "tags": [
+      "Fighter"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Kled",
+      "name": "Kled"
+     },
+     "part": "Q (montado): Trampa para Osos",
+     "partTitle": "Q (montado): Trampa para Osos",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Duración de la ralentización",
+     "before": "1.5 seg",
+     "after": "2.5 seg",
+     "text": "Duración de la ralentización: 1.5 seg ⇒ 2.5 seg",
+     "id": "b93c9b4632f0",
+     "section": "champions",
+     "tags": [
+      "Fighter"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Kled",
+      "name": "Kled"
+     },
+     "part": "Q (montado): Trampa para Osos",
+     "partTitle": "Q (montado): Trampa para Osos",
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Ahora, el daño por arrastre se calcula al arrastrar al objetivo y no cuando la cuerda está unida",
+     "id": "c05ca6de6002",
+     "section": "champions",
+     "tags": [
+      "Fighter"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Kled",
+      "name": "Kled"
+     },
+     "part": "Q (montado): Trampa para Osos",
+     "partTitle": "Q (montado): Trampa para Osos",
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Ahora, la habilidad revisa un área pequeña alrededor del punto cero de Kled antes de que se dispare el misil",
+     "id": "7bf6d4a34d96",
+     "section": "champions",
+     "tags": [
+      "Fighter"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Kled",
+      "name": "Kled"
+     },
+     "part": "Q (montado): Trampa para Osos",
+     "partTitle": "Q (montado): Trampa para Osos",
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "La habilidad ya no aplica Heridas Graves al arrastrar al objetivo",
+     "id": "f1fb78856454",
+     "section": "champions",
+     "tags": [
+      "Fighter"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Kled",
+      "name": "Kled"
+     },
+     "part": "Q (montado): Trampa para Osos",
+     "partTitle": "Q (montado): Trampa para Osos",
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Ahora, el tiempo del arrastre siempre es de 1.75 seg",
+     "id": "e74eb11b12d0",
+     "section": "champions",
+     "tags": [
+      "Fighter"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Kled",
+      "name": "Kled"
+     },
+     "part": "Q (desmontado): Pistola de Bolsillo",
+     "partTitle": "Q (desmontado): Pistola de Bolsillo",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Tiempo de carga de la munición",
+     "before": "De 20 a 7.5 seg (según el nivel)",
+     "after": "18 / 16 /14 / 12 / 10 seg (según el nivel de la habilidad)",
+     "text": "Tiempo de carga de la munición: De 20 a 7.5 seg (según el nivel) ⇒ 18 / 16 /14 / 12 / 10 seg (según el nivel de la habilidad)",
+     "id": "cee8823c1212",
+     "section": "champions",
+     "tags": [
+      "Fighter"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Kled",
+      "name": "Kled"
+     },
+     "part": "Q (desmontado): Pistola de Bolsillo",
+     "partTitle": "Q (desmontado): Pistola de Bolsillo",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño por perdigón",
+     "before": "De 35 a 95 (+ 80% de Daño de Ataque adicional)",
+     "after": "De 35 a 95 (+ 65% de Daño de Ataque adicional)",
+     "text": "Daño por perdigón: De 35 a 95 (+ 80% de Daño de Ataque adicional) ⇒ De 35 a 95 (+ 65% de Daño de Ataque adicional)",
+     "id": "5957a70f9a78",
+     "section": "champions",
+     "tags": [
+      "Fighter"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Kled",
+      "name": "Kled"
+     },
+     "part": "Q (desmontado): Pistola de Bolsillo",
+     "partTitle": "Q (desmontado): Pistola de Bolsillo",
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Ahora, la habilidad revisa un área pequeña alrededor del punto cero de Kled antes de que se dispare el misil para impactar a campeones",
+     "id": "4d8eda1e2de0",
+     "section": "champions",
+     "tags": [
+      "Fighter"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Kled",
+      "name": "Kled"
+     },
+     "part": "Q (desmontado): Pistola de Bolsillo",
+     "partTitle": "Q (desmontado): Pistola de Bolsillo",
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Ahora, el daño a campeones se considera daño a un solo objetivo en vez de daño de área de efecto",
+     "id": "a99ab593b58a",
+     "section": "champions",
+     "tags": [
+      "Fighter"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Kled",
+      "name": "Kled"
+     },
+     "part": "W",
+     "partTitle": "W: Tendencias Violentas",
+     "spellKey": "KledW",
+     "kind": "stat",
+     "attribute": "Daño",
+     "before": "20 / 30 / 40 / 50 / 60 (+ 4.5 / 5 / 5.5 / 6 / 6.5% (+ 1% por cada 20 de Daño de Ataque adicional) de la Vida Máxima del objetivo)",
+     "after": "20 / 30 / 40 / 50 / 60 (+ 4.5 / 5 / 5.5 / 6 / 6.5% (+ 1% por cada 50 de Daño de Ataque adicional) (+ 1% por cada 250 de Vida adicional) de la Vida Máxima del objetivo)",
+     "text": "Daño: 20 / 30 / 40 / 50 / 60 (+ 4.5 / 5 / 5.5 / 6 / 6.5% (+ 1% por cada 20 de Daño de Ataque adicional) de la Vida Máxima del objetivo) ⇒ 20 / 30 / 40 / 50 / 60 (+ 4.5 / 5 / 5.5 / 6 / 6.5% (+ 1% por cada 50 de Daño de Ataque adicional) (+ 1% por cada 250 de Vida adicional) de la Vida Máxima del objetivo)",
+     "id": "bc9fd39ce2dc",
+     "section": "champions",
+     "tags": [
+      "Fighter"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Kled",
+      "name": "Kled"
+     },
+     "part": "W",
+     "partTitle": "W: Tendencias Violentas",
+     "spellKey": "KledW",
+     "kind": "stat",
+     "attribute": "Enfriamiento",
+     "before": "11 / 9.5 / 8 / 6.5 / 5 seg",
+     "after": "13 / 12 / 11 / 10 / 9 seg",
+     "text": "Enfriamiento: 11 / 9.5 / 8 / 6.5 / 5 seg ⇒ 13 / 12 / 11 / 10 / 9 seg",
+     "id": "e0e916ec2b54",
+     "section": "champions",
+     "tags": [
+      "Fighter"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Kled",
+      "name": "Kled"
+     },
+     "part": "W",
+     "partTitle": "W: Tendencias Violentas",
+     "spellKey": "KledW",
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Ahora, el enfriamiento restante de Tendencias Violentas se reduce al atacar enemigos. Los ataques contra campeones reducen el enfriamiento en 1.5 seg, mientras que los ataques contra unidades que no sean campeones reducen el enfriamiento en 0.5 seg",
+     "id": "289d620c3815",
+     "section": "champions",
+     "tags": [
+      "Fighter"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Kled",
+      "name": "Kled"
+     },
+     "part": "W",
+     "partTitle": "W: Tendencias Violentas",
+     "spellKey": "KledW",
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Ya no activa la secuencia de la W al atacar centinelas. Ahora, los ataques a centinelas tienen el mismo comportamiento que los ataques a plantas y mantienen la velocidad de ataque sin consumir la W",
+     "id": "5ee853ddc72d",
+     "section": "champions",
+     "tags": [
+      "Fighter"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Kled",
+      "name": "Kled"
+     },
+     "part": "E",
+     "partTitle": "E: Justa",
+     "spellKey": "KledE",
+     "kind": "stat",
+     "attribute": "Daño",
+     "before": "35 / 60 / 85 / 110 / 135 (+ 65% de Daño de Ataque adicional)",
+     "after": "35 / 60 / 85 / 110 / 135 (+ 55% de Daño de Ataque adicional)",
+     "text": "Daño: 35 / 60 / 85 / 110 / 135 (+ 65% de Daño de Ataque adicional) ⇒ 35 / 60 / 85 / 110 / 135 (+ 55% de Daño de Ataque adicional)",
+     "id": "4c48c4203a05",
+     "section": "champions",
+     "tags": [
+      "Fighter"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Kled",
+      "name": "Kled"
+     },
+     "part": "E",
+     "partTitle": "E: Justa",
+     "spellKey": "KledE",
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Ahora, tiene un rastreador en la interfaz que indica el lapso de tiempo para relanzar la E2",
+     "id": "aa707154d6c7",
+     "section": "champions",
+     "tags": [
+      "Fighter"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Kled",
+      "name": "Kled"
+     },
+     "part": "E",
+     "partTitle": "E: Justa",
+     "spellKey": "KledE",
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Ahora, tiene un indicador de alcance mientras la E2 está activa",
+     "id": "b37e992ac758",
+     "section": "champions",
+     "tags": [
+      "Fighter"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Kled",
+      "name": "Kled"
+     },
+     "part": "R",
+     "partTitle": "R: ¡¡¡A la Cargaaaaaaa!!!",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño mínimo",
+     "before": "4% / 5% / 6% (+ 4% por cada 100 de Daño de Ataque adicional) de la Vida Máxima del objetivo",
+     "after": "4% / 6% / 8% (+ 3% por cada 100 de Daño de Ataque adicional) de la Vida Máxima del objetivo",
+     "text": "Daño mínimo: 4% / 5% / 6% (+ 4% por cada 100 de Daño de Ataque adicional) de la Vida Máxima del objetivo ⇒ 4% / 6% / 8% (+ 3% por cada 100 de Daño de Ataque adicional) de la Vida Máxima del objetivo",
+     "id": "a2ac346cc23b",
+     "section": "champions",
+     "tags": [
+      "Fighter"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Kled",
+      "name": "Kled"
+     },
+     "part": "R",
+     "partTitle": "R: ¡¡¡A la Cargaaaaaaa!!!",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño máximo",
+     "before": "12% / 15% / 18% (+ 12% por cada 100 de Daño de Ataque adicional) de la Vida Máxima del objetivo",
+     "after": "12% / 18% / 24% (+ 9% por cada 100 de Daño de Ataque adicional) de la Vida Máxima del objetivo",
+     "text": "Daño máximo: 12% / 15% / 18% (+ 12% por cada 100 de Daño de Ataque adicional) de la Vida Máxima del objetivo ⇒ 12% / 18% / 24% (+ 9% por cada 100 de Daño de Ataque adicional) de la Vida Máxima del objetivo",
+     "id": "07c4339f4eb7",
+     "section": "champions",
+     "tags": [
+      "Fighter"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Kled",
+      "name": "Kled"
+     },
+     "part": "R",
+     "partTitle": "R: ¡¡¡A la Cargaaaaaaa!!!",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Tipo de daño",
+     "before": "Físico",
+     "after": "Mágico",
+     "text": "Tipo de daño: Físico ⇒ Mágico",
+     "id": "0020b337b958",
+     "section": "champions",
+     "tags": [
+      "Fighter"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Kled",
+      "name": "Kled"
+     },
+     "part": "R",
+     "partTitle": "R: ¡¡¡A la Cargaaaaaaa!!!",
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Ahora, tiene una anulación de alertas para indicar el alcance de la definitiva",
+     "id": "dd72f054dafa",
+     "section": "champions",
+     "tags": [
+      "Fighter"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Kled",
+      "name": "Kled"
+     },
+     "part": "Corrección de errores",
+     "partTitle": "Corrección de errores",
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Ahora, la mecánica que vuelve a comprobar si hay objetivos que entran en el área de la R durante la carga sin ser visibles para Kled funciona mucho mejor",
+     "id": "5a9e20e7595e",
+     "section": "champions",
+     "tags": [
+      "Fighter"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Kled",
+      "name": "Kled"
+     },
+     "part": "Corrección de errores",
+     "partTitle": "Corrección de errores",
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Si Renata revive a Kled con la W, ya no arruinará la barra de vida de Kled durante el resto de la partida",
+     "id": "05d2736621a1",
+     "section": "champions",
+     "tags": [
+      "Fighter"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Kled",
+      "name": "Kled"
+     },
+     "part": "Corrección de errores",
+     "partTitle": "Corrección de errores",
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Si Renata revive a Kled con la W, la barra de vida de Kled ya no se mostrará con el color de la vida de Skaarl",
+     "id": "1bafe2ace5e7",
+     "section": "champions",
+     "tags": [
+      "Fighter"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Kled",
+      "name": "Kled"
+     },
+     "part": "Corrección de errores",
+     "partTitle": "Corrección de errores",
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Kled ya no destruye los proyectiles de los aliados que están a punto de impactarlo al estar desmontándose, incluida Triunfo",
+     "id": "072802fc7e48",
+     "section": "champions",
+     "tags": [
+      "Fighter"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Kled",
+      "name": "Kled"
+     },
+     "part": "Corrección de errores",
+     "partTitle": "Corrección de errores",
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Ahora, la regeneración de vida se calcula correctamente cuando Kled vuelve a montar y ya no sufre retrasos de 0.25 seg de vez en cuando",
+     "id": "63a8b73356d9",
+     "section": "champions",
+     "tags": [
+      "Fighter"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Kled",
+      "name": "Kled"
+     },
+     "part": "Corrección de errores",
+     "partTitle": "Corrección de errores",
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "La R ya no elimina el rastro de Elixir de Hierro si el efecto del objeto está activo",
+     "id": "98dffcd441bf",
+     "section": "champions",
+     "tags": [
+      "Fighter"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Kled",
+      "name": "Kled"
+     },
+     "part": "Corrección de errores",
+     "partTitle": "Corrección de errores",
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "La R de Lulu ya no cura a Kled varias veces si está montado",
+     "id": "9c7fb23aa1a2",
+     "section": "champions",
+     "tags": [
+      "Fighter"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Kled",
+      "name": "Kled"
+     },
+     "part": "Corrección de errores",
+     "partTitle": "Corrección de errores",
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Agregamos una verificación adicional a la R para garantizar que los objetivos dentro del alcance de la definitiva queden fijados al instante cuando se lanza la habilidad",
+     "id": "5e232e4708bc",
+     "section": "champions",
+     "tags": [
+      "Fighter"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Kled",
+      "name": "Kled"
+     },
+     "part": "Corrección de errores",
+     "partTitle": "Corrección de errores",
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Ahora, el daño de la W4 cuando Kled está desmontado se aplica correctamente si lo provocan o lo silencian",
+     "id": "1acf9a43dd16",
+     "section": "champions",
+     "tags": [
+      "Fighter"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Kled",
+      "name": "Kled"
+     },
+     "part": "Corrección de errores",
+     "partTitle": "Corrección de errores",
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "La E ya no inflige daño a los enemigos dos veces si se alejan del área de activación de la habilidad y, luego, regresan (por ejemplo, si la E empuja hacia atrás a los súbditos y estos vuelven a acercarse al área de activación)",
+     "id": "7f38b209cfce",
+     "section": "champions",
+     "tags": [
+      "Fighter"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Kled",
+      "name": "Kled"
+     },
+     "part": "Corrección de errores",
+     "partTitle": "Corrección de errores",
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Kled ya no pierde una cantidad extremadamente pequeña de daño de ataque cuando está desmontado",
+     "id": "1eb3445c3738",
+     "section": "champions",
+     "tags": [
+      "Fighter"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Kled",
+      "name": "Kled"
+     },
+     "part": "Corrección de errores",
+     "partTitle": "Corrección de errores",
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Corregimos un error que provocaba que la barra de Coraje solo se pusiera amarilla si Kled reunía entre 50 y 59 de Coraje tras obtener Coraje. Ahora, la barra de Coraje siempre se pondrá amarilla si supera un 50% del total",
+     "id": "ef692cf36d36",
+     "section": "champions",
+     "tags": [
+      "Fighter"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Kled",
+      "name": "Kled"
+     },
+     "part": "Corrección de errores",
+     "partTitle": "Corrección de errores",
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Corregimos un error que hacía que, en ciertas circunstancias, la barra de vida de Kled mostrara una cantidad incorrecta de vida tras volver a montar. Esto duraba hasta que Kled se desmontaba de nuevo",
+     "id": "03fd620d7bd3",
+     "section": "champions",
+     "tags": [
+      "Fighter"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Kled",
+      "name": "Kled"
+     },
+     "part": "Corrección de errores",
+     "partTitle": "Corrección de errores",
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Corregimos un error que ocasionaba que Kled dejara de ser imparable antes de tiempo cuando se movía cerca del destino final de su definitiva, incluso si seguía cargando hacia un objetivo",
+     "id": "d151efd2efee",
+     "section": "champions",
+     "tags": [
+      "Fighter"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Kled",
+      "name": "Kled"
+     },
+     "part": "Corrección de errores",
+     "partTitle": "Corrección de errores",
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Corregimos un error que causaba que, en ciertas circunstancias, el modelo de Kled redujera los FPS de quien jugaba con él al mirarlo después de que volviera a montar",
+     "id": "57172f12974e",
+     "section": "champions",
+     "tags": [
+      "Fighter"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Kled",
+      "name": "Kled"
+     },
+     "part": "Corrección de errores",
+     "partTitle": "Corrección de errores",
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Corregimos un error que provocaba que la vida de Kled desmontado se redujera por culpa de algunas instancias de daño que se aplicaban al mismo tiempo que el daño que desmontaba a Kled.",
+     "id": "87c093ea66d4",
+     "section": "champions",
+     "tags": [
+      "Fighter"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.6",
+   "publishedAt": "2025-03-18T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Kled",
+      "name": "Kled"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": null,
+     "before": "Retraso de caída: 2.5",
+     "after": "2",
+     "text": "Retraso de caída: 2.5 ⇒ 2",
+     "id": "45f3b66ab6c1",
+     "section": "modes",
+     "tags": [
+      "Fighter"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Kled",
+      "name": "Kled"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": null,
+     "before": "Redujimos el enfriamiento básico de 20",
+     "after": "15 seg",
+     "text": "Redujimos el enfriamiento básico de 20 ⇒ 15 seg",
+     "id": "d00f07afb5ea",
+     "section": "modes",
+     "tags": [
+      "Fighter"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  }
+ ]
+}

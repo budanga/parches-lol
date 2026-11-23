@@ -1,0 +1,371 @@
+{
+ "schemaVersion": 1,
+ "id": "Hecarim",
+ "name": "Hecarim",
+ "tags": [
+  "Fighter",
+  "Tank"
+ ],
+ "entries": [
+  {
+   "patch": "26.22",
+   "publishedAt": "2026-11-03T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "ARAM: Caos",
+     "sectionId": "patch-aram:-mayhem",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Hecarim",
+      "name": "Hecarim"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Aceleración de habilidad",
+     "before": "10",
+     "after": "0",
+     "text": "Aceleración de habilidad: 10 ⇒ 0",
+     "id": "a495ca821906",
+     "section": "modes",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "26.21",
+   "publishedAt": "2026-10-20T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Classic",
+     "sectionId": "patch-classic",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Hecarim",
+      "name": "Hecarim"
+     },
+     "part": "R",
+     "partTitle": "R: Presagio de la Muerte",
+     "spellKey": null,
+     "kind": "new",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "NUEVO Hecarim",
+     "id": "025b6ad59e43",
+     "section": "modes",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "26.3",
+   "publishedAt": "2026-02-03T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Hecarim",
+      "name": "Hecarim"
+     },
+     "part": "Q",
+     "partTitle": "Q: Ataque de Furia",
+     "spellKey": "HecarimRapidSlash",
+     "kind": "stat",
+     "attribute": "Daño por impacto",
+     "before": "60 / 85 / 110 / 135 / 160 (+ 90% de Daño de Ataque adicional)",
+     "after": "60 / 90 / 120 / 150 / 180 (+ 90% de Daño de Ataque adicional)",
+     "text": "Daño por impacto: 60 / 85 / 110 / 135 / 160 (+ 90% de Daño de Ataque adicional) ⇒ 60 / 90 / 120 / 150 / 180 (+ 90% de Daño de Ataque adicional)",
+     "id": "3e4813c0408f",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Hecarim",
+      "name": "Hecarim"
+     },
+     "part": "Q",
+     "partTitle": "Q: Ataque de Furia",
+     "spellKey": "HecarimRapidSlash",
+     "kind": "stat",
+     "attribute": "Amplificación de daño por acumulación de Ataque de Furia",
+     "before": "3% (+ 4% cada 100 de Daño de Ataque adicional)",
+     "after": "3% (+ 3% cada 100 de Daño de Ataque adicional)",
+     "text": "Amplificación de daño por acumulación de Ataque de Furia: 3% (+ 4% cada 100 de Daño de Ataque adicional) ⇒ 3% (+ 3% cada 100 de Daño de Ataque adicional)",
+     "id": "51047e9757d9",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.20",
+   "publishedAt": "2025-10-07T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Bots Apocalípticos",
+     "sectionId": "patch-doom-bots",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Hecarim",
+      "name": "Hecarim"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño infligido",
+     "before": "100%",
+     "after": "105%",
+     "text": "Daño infligido: 100% ⇒ 105%",
+     "id": "74328329b743",
+     "section": "modes",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Bots Apocalípticos",
+     "sectionId": "patch-doom-bots",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Hecarim",
+      "name": "Hecarim"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño recibido",
+     "before": "100%",
+     "after": "95%",
+     "text": "Daño recibido: 100% ⇒ 95%",
+     "id": "bac58ec73095",
+     "section": "modes",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Bots Apocalípticos",
+     "sectionId": "patch-doom-bots",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Hecarim",
+      "name": "Hecarim"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Tenacidad",
+     "before": "0",
+     "after": "25",
+     "text": "Tenacidad: 0 ⇒ 25",
+     "id": "ed0db0654141",
+     "section": "modes",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.15",
+   "publishedAt": "2025-07-29T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Cambios de balance de ARAM",
+     "sectionId": "patch-aram-balance-changes",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Hecarim",
+      "name": "Hecarim"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Enfriamiento de la E",
+     "before": "20 / 19 / 18 / 17 / 16",
+     "after": "16 / 15 / 14 / 13 / 12",
+     "text": "Enfriamiento de la E: 20 / 19 / 18 / 17 / 16 ⇒ 16 / 15 / 14 / 13 / 12",
+     "id": "8eab0c32495b",
+     "section": "modes",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.11",
+   "publishedAt": "2025-05-27T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Pelea",
+     "sectionId": "patch-brawl",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Hecarim",
+      "name": "Hecarim"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño recibido",
+     "before": "100%",
+     "after": "95%",
+     "text": "Daño recibido: 100% ⇒ 95%",
+     "id": "7530daaea0ef",
+     "section": "modes",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Pelea",
+     "sectionId": "patch-brawl",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Hecarim",
+      "name": "Hecarim"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Aceleración de Habilidad",
+     "before": "0",
+     "after": "10",
+     "text": "Aceleración de Habilidad: 0 ⇒ 10",
+     "id": "116d6a160faf",
+     "section": "modes",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Pelea",
+     "sectionId": "patch-brawl",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Hecarim",
+      "name": "Hecarim"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Enfriamiento de la W",
+     "before": "14",
+     "after": "10",
+     "text": "Enfriamiento de la W: 14 ⇒ 10",
+     "id": "f8bf275cd9ee",
+     "section": "modes",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Pelea",
+     "sectionId": "patch-brawl",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Hecarim",
+      "name": "Hecarim"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Enfriamiento de la R",
+     "before": "140 / 120 / 100",
+     "after": "120 / 105 / 90",
+     "text": "Enfriamiento de la R: 140 / 120 / 100 ⇒ 120 / 105 / 90",
+     "id": "820751df4941",
+     "section": "modes",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  }
+ ]
+}

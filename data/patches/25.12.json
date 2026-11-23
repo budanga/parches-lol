@@ -1,0 +1,4134 @@
+{
+ "schemaVersion": 1,
+ "patch": "25.12",
+ "title": "Notas de la versión 25.12",
+ "url": "https://www.leagueoflegends.com/es-mx/news/game-updates/patch-25-12-notes/",
+ "publishedAt": "2025-06-10T18:05:00.000Z",
+ "ddragonVersion": "15.12.1",
+ "changes": [
+  {
+   "sectionTitle": "Hall of Legends",
+   "sectionId": "patch-hall-of-legends",
+   "midPatch": false,
+   "entity": {
+    "kind": "none",
+    "id": null,
+    "name": ""
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "text",
+   "attribute": null,
+   "before": null,
+   "after": null,
+   "text": "Aspecto y borde de Vayne Espíritu Legendario",
+   "id": "3eb755b2424a",
+   "section": "systems",
+   "tags": [],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Hall of Legends",
+   "sectionId": "patch-hall-of-legends",
+   "midPatch": false,
+   "entity": {
+    "kind": "none",
+    "id": null,
+    "name": ""
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "text",
+   "attribute": null,
+   "before": null,
+   "after": null,
+   "text": "Chroma de evento Vayne Espíritu Legendario (Trepamitos)",
+   "id": "2e25f0200314",
+   "section": "systems",
+   "tags": [],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Hall of Legends",
+   "sectionId": "patch-hall-of-legends",
+   "midPatch": false,
+   "entity": {
+    "kind": "none",
+    "id": null,
+    "name": ""
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "text",
+   "attribute": null,
+   "before": null,
+   "after": null,
+   "text": "Aspectos Ezreal Frío, PROYECTO: Lucian y Ashe Hada Dragón",
+   "id": "c8227e9ff657",
+   "section": "systems",
+   "tags": [],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Hall of Legends",
+   "sectionId": "patch-hall-of-legends",
+   "midPatch": false,
+   "entity": {
+    "kind": "none",
+    "id": null,
+    "name": ""
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "text",
+   "attribute": null,
+   "before": null,
+   "after": null,
+   "text": "125 de Esencia Mítica",
+   "id": "197fc9cf446d",
+   "section": "systems",
+   "tags": [],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Hall of Legends",
+   "sectionId": "patch-hall-of-legends",
+   "midPatch": false,
+   "entity": {
+    "kind": "none",
+    "id": null,
+    "name": ""
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "text",
+   "attribute": null,
+   "before": null,
+   "after": null,
+   "text": "11 cofres de botín",
+   "id": "b00c73f7b1ac",
+   "section": "systems",
+   "tags": [],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Hall of Legends",
+   "sectionId": "patch-hall-of-legends",
+   "midPatch": false,
+   "entity": {
+    "kind": "none",
+    "id": null,
+    "name": ""
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "text",
+   "attribute": null,
+   "before": null,
+   "after": null,
+   "text": "13 íconos y gestos temáticos de Uzi",
+   "id": "25f684b7ae94",
+   "section": "systems",
+   "tags": [],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Hall of Legends",
+   "sectionId": "patch-hall-of-legends",
+   "midPatch": false,
+   "entity": {
+    "kind": "none",
+    "id": null,
+    "name": ""
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "text",
+   "attribute": null,
+   "before": null,
+   "after": null,
+   "text": "Centinela ¡Remójense!",
+   "id": "8ad8817f9ef0",
+   "section": "systems",
+   "tags": [],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Hall of Legends",
+   "sectionId": "patch-hall-of-legends",
+   "midPatch": false,
+   "entity": {
+    "kind": "none",
+    "id": null,
+    "name": ""
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "text",
+   "attribute": null,
+   "before": null,
+   "after": null,
+   "text": "Estandarte Cazador Implacable",
+   "id": "2c7951c878a4",
+   "section": "systems",
+   "tags": [],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Hall of Legends",
+   "sectionId": "patch-hall-of-legends",
+   "midPatch": false,
+   "entity": {
+    "kind": "none",
+    "id": null,
+    "name": ""
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "text",
+   "attribute": null,
+   "before": null,
+   "after": null,
+   "text": "Título ''Perrito Loco''",
+   "id": "91f31386d2de",
+   "section": "systems",
+   "tags": [],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Hall of Legends",
+   "sectionId": "patch-hall-of-legends",
+   "midPatch": false,
+   "entity": {
+    "kind": "none",
+    "id": null,
+    "name": ""
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "text",
+   "attribute": null,
+   "before": null,
+   "after": null,
+   "text": "¡Y mucho más!",
+   "id": "148799a31af9",
+   "section": "systems",
+   "tags": [],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Próximas mejoras al Pase de Batalla",
+   "sectionId": "patch-upcoming-battle-pass-improvements",
+   "midPatch": false,
+   "entity": {
+    "kind": "none",
+    "id": null,
+    "name": ""
+   },
+   "part": "Misiones compensatorias",
+   "partTitle": "Misiones compensatorias",
+   "spellKey": null,
+   "kind": "text",
+   "attribute": null,
+   "before": null,
+   "after": null,
+   "text": "Semana 1: Recibirán las misiones de la Semana 1",
+   "id": "3fa787602537",
+   "section": "systems",
+   "tags": [],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Próximas mejoras al Pase de Batalla",
+   "sectionId": "patch-upcoming-battle-pass-improvements",
+   "midPatch": false,
+   "entity": {
+    "kind": "none",
+    "id": null,
+    "name": ""
+   },
+   "part": "Misiones compensatorias",
+   "partTitle": "Misiones compensatorias",
+   "spellKey": null,
+   "kind": "text",
+   "attribute": null,
+   "before": null,
+   "after": null,
+   "text": "Semana 2: Recibirán las misiones de la Semana 2. Las misiones de la Semana 1 que no hayan completado aún seguirán disponibles",
+   "id": "bee490a3fc4b",
+   "section": "systems",
+   "tags": [],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Próximas mejoras al Pase de Batalla",
+   "sectionId": "patch-upcoming-battle-pass-improvements",
+   "midPatch": false,
+   "entity": {
+    "kind": "none",
+    "id": null,
+    "name": ""
+   },
+   "part": "Misiones compensatorias",
+   "partTitle": "Misiones compensatorias",
+   "spellKey": null,
+   "kind": "text",
+   "attribute": null,
+   "before": null,
+   "after": null,
+   "text": "Semana 3: Recibirán las misiones de la Semana 3. Las misiones de las Semanas 1 y 2 que no hayan completado aún seguirán disponibles",
+   "id": "88073cdeb46a",
+   "section": "systems",
+   "tags": [],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Próximas mejoras al Pase de Batalla",
+   "sectionId": "patch-upcoming-battle-pass-improvements",
+   "midPatch": false,
+   "entity": {
+    "kind": "none",
+    "id": null,
+    "name": ""
+   },
+   "part": "Misiones compensatorias",
+   "partTitle": "Misiones compensatorias",
+   "spellKey": null,
+   "kind": "text",
+   "attribute": null,
+   "before": null,
+   "after": null,
+   "text": "Semana 4: Recibirán las misiones de la Semana 4. Las misiones de las Semanas 3 y 4 que no hayan completado aún seguirán disponibles, pero las de la Semana 1 desaparecerán",
+   "id": "1e8daaaa0488",
+   "section": "systems",
+   "tags": [],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Próximas mejoras al Pase de Batalla",
+   "sectionId": "patch-upcoming-battle-pass-improvements",
+   "midPatch": false,
+   "entity": {
+    "kind": "none",
+    "id": null,
+    "name": ""
+   },
+   "part": "Misiones compensatorias",
+   "partTitle": "Misiones compensatorias",
+   "spellKey": null,
+   "kind": "text",
+   "attribute": null,
+   "before": null,
+   "after": null,
+   "text": "Esto se repetirá cada semana",
+   "id": "e17ffb1fe70e",
+   "section": "systems",
+   "tags": [],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Campeones",
+   "sectionId": "patch-champions",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Aatrox",
+    "name": "Aatrox"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "text",
+   "attribute": null,
+   "before": null,
+   "after": null,
+   "text": "Aumentamos la curación de su pasiva y de su E.",
+   "id": "46492813bcbb",
+   "section": "champions",
+   "tags": [
+    "Fighter"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Campeones",
+   "sectionId": "patch-champions",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Aatrox",
+    "name": "Aatrox"
+   },
+   "part": "P",
+   "partTitle": "Pasiva: Heraldo de la Destrucción",
+   "spellKey": null,
+   "kind": "stat",
+   "attribute": "Tasa de curación contra campeones",
+   "before": "80%",
+   "after": "100%",
+   "text": "Tasa de curación contra campeones: 80% ⇒ 100%",
+   "id": "f9a16f58c9ef",
+   "section": "champions",
+   "tags": [
+    "Fighter"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Campeones",
+   "sectionId": "patch-champions",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Aatrox",
+    "name": "Aatrox"
+   },
+   "part": "P",
+   "partTitle": "Pasiva: Heraldo de la Destrucción",
+   "spellKey": null,
+   "kind": "stat",
+   "attribute": "Tasa de curación contra súbditos",
+   "before": "20%",
+   "after": "25%",
+   "text": "Tasa de curación contra súbditos: 20% ⇒ 25%",
+   "id": "d46baa83d7b5",
+   "section": "champions",
+   "tags": [
+    "Fighter"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Campeones",
+   "sectionId": "patch-champions",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Aatrox",
+    "name": "Aatrox"
+   },
+   "part": "E",
+   "partTitle": "E: Impulso Siniestro",
+   "spellKey": "AatroxE",
+   "kind": "stat",
+   "attribute": "Tasa de curación al infligir daño a campeones",
+   "before": "16% (+ 0.9% por cada 100 de Vida adicional)",
+   "after": "16% (+ 1.1% por cada 100 de Vida adicional)",
+   "text": "Tasa de curación al infligir daño a campeones: 16% (+ 0.9% por cada 100 de Vida adicional) ⇒ 16% (+ 1.1% por cada 100 de Vida adicional)",
+   "id": "46524508e3f0",
+   "section": "champions",
+   "tags": [
+    "Fighter"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Campeones",
+   "sectionId": "patch-champions",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Ahri",
+    "name": "Ahri"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "text",
+   "attribute": null,
+   "before": null,
+   "after": null,
+   "text": "Redujimos la duración del efecto de encanto de su E según su nivel. Aumentamos el enfriamiento de su R.",
+   "id": "9e524769f378",
+   "section": "champions",
+   "tags": [
+    "Mage",
+    "Assassin"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Campeones",
+   "sectionId": "patch-champions",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Ahri",
+    "name": "Ahri"
+   },
+   "part": "E",
+   "partTitle": "E: Encanto",
+   "spellKey": "AhriE",
+   "kind": "stat",
+   "attribute": "Duración del efecto de encanto",
+   "before": "1.2 / 1.4 / 1.6 / 1.8 / 2 seg",
+   "after": "1.2 / 1.35 / 1.5 / 1.65 / 1.8 seg",
+   "text": "Duración del efecto de encanto: 1.2 / 1.4 / 1.6 / 1.8 / 2 seg ⇒ 1.2 / 1.35 / 1.5 / 1.65 / 1.8 seg",
+   "id": "010b413c1282",
+   "section": "champions",
+   "tags": [
+    "Mage",
+    "Assassin"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Campeones",
+   "sectionId": "patch-champions",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Ahri",
+    "name": "Ahri"
+   },
+   "part": "R",
+   "partTitle": "R: Impulso Espiritual",
+   "spellKey": "AhriR",
+   "kind": "stat",
+   "attribute": "Enfriamiento",
+   "before": "130 / 115 / 100",
+   "after": "140 / 120 / 100",
+   "text": "Enfriamiento: 130 / 115 / 100 ⇒ 140 / 120 / 100",
+   "id": "284da4765a0d",
+   "section": "champions",
+   "tags": [
+    "Mage",
+    "Assassin"
+   ],
+   "verification": "verified",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Campeones",
+   "sectionId": "patch-champions",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Aphelios",
+    "name": "Aphelios"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "text",
+   "attribute": null,
+   "before": null,
+   "after": null,
+   "text": "Aumentamos su velocidad de ataque en el nivel 1. Aumentamos la velocidad de movimiento de Severum. Aumentamos el daño de Calibrum.",
+   "id": "7cb8007d766f",
+   "section": "champions",
+   "tags": [
+    "Marksman"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Campeones",
+   "sectionId": "patch-champions",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Aphelios",
+    "name": "Aphelios"
+   },
+   "part": "base",
+   "partTitle": "Estadísticas básicas",
+   "spellKey": null,
+   "kind": "stat",
+   "attribute": "Velocidad de Ataque en el nivel 1",
+   "before": "0.640",
+   "after": "0.665",
+   "text": "Velocidad de Ataque en el nivel 1: 0.640 ⇒ 0.665",
+   "id": "ee0ffdce3eb0",
+   "section": "champions",
+   "tags": [
+    "Marksman"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Campeones",
+   "sectionId": "patch-champions",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Aphelios",
+    "name": "Aphelios"
+   },
+   "part": "Severum",
+   "partTitle": "Severum",
+   "spellKey": null,
+   "kind": "stat",
+   "attribute": "Velocidad de Movimiento de Ímpetu de Precisión",
+   "before": "20%",
+   "after": "25%",
+   "text": "Velocidad de Movimiento de Ímpetu de Precisión: 20% ⇒ 25%",
+   "id": "f9d5aa05a245",
+   "section": "champions",
+   "tags": [
+    "Marksman"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Campeones",
+   "sectionId": "patch-champions",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Aphelios",
+    "name": "Aphelios"
+   },
+   "part": "Calibrum",
+   "partTitle": "Calibrum",
+   "spellKey": null,
+   "kind": "stat",
+   "attribute": "Daño de Disparo Lunar",
+   "before": "De 60 a 160 (+ de 42 a 60% de Daño de Ataque adicional)",
+   "after": "De 70 a 160 (+ de 42 a 60% de Daño de Ataque adicional)",
+   "text": "Daño de Disparo Lunar: De 60 a 160 (+ de 42 a 60% de Daño de Ataque adicional) ⇒ De 70 a 160 (+ de 42 a 60% de Daño de Ataque adicional)",
+   "id": "6af4c84a8ebe",
+   "section": "champions",
+   "tags": [
+    "Marksman"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Campeones",
+   "sectionId": "patch-champions",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Aurora",
+    "name": "Aurora"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "text",
+   "attribute": null,
+   "before": null,
+   "after": null,
+   "text": "Aumentamos su resistencia mágica básica. Aumentamos el daño de su R.",
+   "id": "38268d9c7a56",
+   "section": "champions",
+   "tags": [
+    "Mage",
+    "Assassin"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Campeones",
+   "sectionId": "patch-champions",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Aurora",
+    "name": "Aurora"
+   },
+   "part": "base",
+   "partTitle": "Estadísticas básicas",
+   "spellKey": null,
+   "kind": "stat",
+   "attribute": "Resistencia Mágica básica",
+   "before": "30",
+   "after": "32",
+   "text": "Resistencia Mágica básica: 30 ⇒ 32",
+   "id": "d81f23503b12",
+   "section": "champions",
+   "tags": [
+    "Mage",
+    "Assassin"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Campeones",
+   "sectionId": "patch-champions",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Aurora",
+    "name": "Aurora"
+   },
+   "part": "R",
+   "partTitle": "R: Entre Mundos",
+   "spellKey": "AuroraR",
+   "kind": "stat",
+   "attribute": "Daño",
+   "before": "175 / 275 / 375 (+ 60% de Poder de Habilidad)",
+   "after": "175 / 275 / 375 (+ 70% de Poder de Habilidad)",
+   "text": "Daño: 175 / 275 / 375 (+ 60% de Poder de Habilidad) ⇒ 175 / 275 / 375 (+ 70% de Poder de Habilidad)",
+   "id": "99b957b4b98a",
+   "section": "champions",
+   "tags": [
+    "Mage",
+    "Assassin"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Campeones",
+   "sectionId": "patch-champions",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Azir",
+    "name": "Azir"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "text",
+   "attribute": null,
+   "before": null,
+   "after": null,
+   "text": "Redujimos su velocidad de movimiento básica y su velocidad de ataque por nivel.",
+   "id": "c45d426e2d26",
+   "section": "champions",
+   "tags": [
+    "Mage",
+    "Marksman"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Campeones",
+   "sectionId": "patch-champions",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Azir",
+    "name": "Azir"
+   },
+   "part": "base",
+   "partTitle": "Estadísticas básicas",
+   "spellKey": null,
+   "kind": "stat",
+   "attribute": "Velocidad de Movimiento",
+   "before": "335",
+   "after": "330",
+   "text": "Velocidad de Movimiento: 335 ⇒ 330",
+   "id": "f48783b58a69",
+   "section": "champions",
+   "tags": [
+    "Mage",
+    "Marksman"
+   ],
+   "verification": "verified",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Campeones",
+   "sectionId": "patch-champions",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Azir",
+    "name": "Azir"
+   },
+   "part": "base",
+   "partTitle": "Estadísticas básicas",
+   "spellKey": null,
+   "kind": "stat",
+   "attribute": "Velocidad de Ataque por nivel",
+   "before": "6%",
+   "after": "5.5%",
+   "text": "Velocidad de Ataque por nivel 6% ⇒ 5.5%",
+   "id": "b1d978fc4325",
+   "section": "champions",
+   "tags": [
+    "Mage",
+    "Marksman"
+   ],
+   "verification": "verified",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Campeones",
+   "sectionId": "patch-champions",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Bard",
+    "name": "Bardo"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "text",
+   "attribute": null,
+   "before": null,
+   "after": null,
+   "text": "Aumentamos su velocidad de movimiento.",
+   "id": "c5bbd791ef48",
+   "section": "champions",
+   "tags": [
+    "Support",
+    "Mage"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Campeones",
+   "sectionId": "patch-champions",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Bard",
+    "name": "Bardo"
+   },
+   "part": "base",
+   "partTitle": "Estadísticas básicas",
+   "spellKey": null,
+   "kind": "stat",
+   "attribute": "Velocidad de Movimiento básica",
+   "before": "330",
+   "after": "335",
+   "text": "Velocidad de Movimiento básica: 330 ⇒ 335",
+   "id": "f1e00d30dab8",
+   "section": "champions",
+   "tags": [
+    "Support",
+    "Mage"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Campeones",
+   "sectionId": "patch-champions",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Belveth",
+    "name": "Bel'Veth"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "text",
+   "attribute": null,
+   "before": null,
+   "after": null,
+   "text": "Aumentamos el alcance de lanzamiento de su R.",
+   "id": "dde3b7d31ba0",
+   "section": "champions",
+   "tags": [
+    "Fighter"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Campeones",
+   "sectionId": "patch-champions",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Belveth",
+    "name": "Bel'Veth"
+   },
+   "part": "R",
+   "partTitle": "R: Banquete Infinito",
+   "spellKey": "BelvethR",
+   "kind": "stat",
+   "attribute": "Alcance de lanzamiento",
+   "before": "275",
+   "after": "175 / 275 / 375 450 (coincide con el alcance de ataque de su E)",
+   "text": "Alcance de lanzamiento: 275 ⇒ 175 / 275 / 375 450 (coincide con el alcance de ataque de su E)",
+   "id": "ce0936f528ab",
+   "section": "champions",
+   "tags": [
+    "Fighter"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Campeones",
+   "sectionId": "patch-champions",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Belveth",
+    "name": "Bel'Veth"
+   },
+   "part": "Corrección de error",
+   "partTitle": "Corrección de error",
+   "spellKey": null,
+   "kind": "text",
+   "attribute": null,
+   "before": null,
+   "after": null,
+   "text": "Corrección de error: Ahora, Bel'Veth puede usar su R sin que eso le impida lanzar hechizos de invocador que no son Destello",
+   "id": "eacd5339d84b",
+   "section": "champions",
+   "tags": [
+    "Fighter"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Campeones",
+   "sectionId": "patch-champions",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Garen",
+    "name": "Garen"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "text",
+   "attribute": null,
+   "before": null,
+   "after": null,
+   "text": "Aumentamos la progresión de daño de su pasiva.",
+   "id": "e7756f50ea49",
+   "section": "champions",
+   "tags": [
+    "Fighter",
+    "Tank"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Campeones",
+   "sectionId": "patch-champions",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Garen",
+    "name": "Garen"
+   },
+   "part": "E",
+   "partTitle": "E: Juicio",
+   "spellKey": "GarenE",
+   "kind": "stat",
+   "attribute": "Daño",
+   "before": "4 / 8 / 12 / 16 / 20 (+ 36 / 38 / 40 / 42 / 44% de Daño de Ataque)",
+   "after": "4 / 7 / 10 / 13 / 16 (+ 36 / 39 / 42 / 45 /48% de Daño de Ataque). (Nota: Esta mejora comenzará a funcionar después de alcanzar 100 de Daño de Ataque en total)",
+   "text": "Daño: 4 / 8 / 12 / 16 / 20 (+ 36 / 38 / 40 / 42 / 44% de Daño de Ataque) ⇒ 4 / 7 / 10 / 13 / 16 (+ 36 / 39 / 42 / 45 /48% de Daño de Ataque). (Nota: Esta mejora comenzará a funcionar después de alcanzar 100 de Daño de Ataque en total)",
+   "id": "d4f88d9f1d63",
+   "section": "champions",
+   "tags": [
+    "Fighter",
+    "Tank"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Campeones",
+   "sectionId": "patch-champions",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Garen",
+    "name": "Garen"
+   },
+   "part": "E",
+   "partTitle": "E: Juicio",
+   "spellKey": "GarenE",
+   "kind": "text",
+   "attribute": null,
+   "before": null,
+   "after": null,
+   "text": "Corrección de error: Ahora, la reducción de armadura se extiende correctamente con los giros adicionales en vez de no acumularse cuando la duración restante es corta",
+   "id": "16f756ad69a4",
+   "section": "champions",
+   "tags": [
+    "Fighter",
+    "Tank"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Campeones",
+   "sectionId": "patch-champions",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Gwen",
+    "name": "Gwen"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "text",
+   "attribute": null,
+   "before": null,
+   "after": null,
+   "text": "Redujimos su vida básica. Aumentamos el enfriamiento de su W.",
+   "id": "7c7e10aa487d",
+   "section": "champions",
+   "tags": [
+    "Fighter"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Campeones",
+   "sectionId": "patch-champions",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Gwen",
+    "name": "Gwen"
+   },
+   "part": "base",
+   "partTitle": "Estadísticas básicas",
+   "spellKey": null,
+   "kind": "stat",
+   "attribute": "Vida básica",
+   "before": "620",
+   "after": "600",
+   "text": "Vida básica: 620 ⇒ 600",
+   "id": "270b047673eb",
+   "section": "champions",
+   "tags": [
+    "Fighter"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Campeones",
+   "sectionId": "patch-champions",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Gwen",
+    "name": "Gwen"
+   },
+   "part": "W",
+   "partTitle": "W: Niebla Sagrada",
+   "spellKey": "GwenW",
+   "kind": "stat",
+   "attribute": "Enfriamiento",
+   "before": "22 / 21 / 20 / 19 / 18 seg",
+   "after": "24 / 22.5 / 21 / 19.5 / 18 seg",
+   "text": "Enfriamiento: 22 / 21 / 20 / 19 / 18 seg ⇒ 24 / 22.5 / 21 / 19.5 / 18 seg",
+   "id": "f2afc142fcb3",
+   "section": "champions",
+   "tags": [
+    "Fighter"
+   ],
+   "verification": "verified",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Campeones",
+   "sectionId": "patch-champions",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Jax",
+    "name": "Jax"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "text",
+   "attribute": null,
+   "before": null,
+   "after": null,
+   "text": "Aumentamos su velocidad de ataque pasiva.",
+   "id": "ef80d3c70947",
+   "section": "champions",
+   "tags": [
+    "Fighter"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Campeones",
+   "sectionId": "patch-champions",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Jax",
+    "name": "Jax"
+   },
+   "part": "P",
+   "partTitle": "Pasiva: Asalto Implacable",
+   "spellKey": null,
+   "kind": "stat",
+   "attribute": "Velocidad de Ataque adicional por acumulación",
+   "before": "3.5 / 5 / 6.5 / 8 / 9.5 / 11% (según el nivel)",
+   "after": "5 / 6.5 / 8 / 9.5 / 11 / 12.5% (según el nivel)",
+   "text": "Velocidad de Ataque adicional por acumulación: 3.5 / 5 / 6.5 / 8 / 9.5 / 11% (según el nivel) ⇒ 5 / 6.5 / 8 / 9.5 / 11 / 12.5% (según el nivel)",
+   "id": "4099316744a3",
+   "section": "champions",
+   "tags": [
+    "Fighter"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Campeones",
+   "sectionId": "patch-champions",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Kalista",
+    "name": "Kalista"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "text",
+   "attribute": null,
+   "before": null,
+   "after": null,
+   "text": "Redujimos su vida básica. Aumentamos el enfriamiento de su Q.",
+   "id": "a576b10f06ad",
+   "section": "champions",
+   "tags": [
+    "Marksman"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Campeones",
+   "sectionId": "patch-champions",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Kalista",
+    "name": "Kalista"
+   },
+   "part": "base",
+   "partTitle": "Estadísticas básicas",
+   "spellKey": null,
+   "kind": "stat",
+   "attribute": "Vida básica",
+   "before": "580",
+   "after": "560",
+   "text": "Vida básica: 580 ⇒ 560",
+   "id": "787271f89b4d",
+   "section": "champions",
+   "tags": [
+    "Marksman"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Campeones",
+   "sectionId": "patch-champions",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Kalista",
+    "name": "Kalista"
+   },
+   "part": "Q",
+   "partTitle": "Q: Atravesar",
+   "spellKey": "KalistaMysticShot",
+   "kind": "stat",
+   "attribute": "Enfriamiento",
+   "before": "8 seg",
+   "after": "9 seg",
+   "text": "Enfriamiento: 8 seg ⇒ 9 seg",
+   "id": "a6eec8a9115e",
+   "section": "champions",
+   "tags": [
+    "Marksman"
+   ],
+   "verification": "verified",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Campeones",
+   "sectionId": "patch-champions",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Leblanc",
+    "name": "LeBlanc"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "text",
+   "attribute": null,
+   "before": null,
+   "after": null,
+   "text": "Aumentamos el daño de su E. Redujimos el enfriamiento de su R.",
+   "id": "9c6a04acf271",
+   "section": "champions",
+   "tags": [
+    "Assassin",
+    "Mage"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Campeones",
+   "sectionId": "patch-champions",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Leblanc",
+    "name": "LeBlanc"
+   },
+   "part": "E",
+   "partTitle": "E: Cadenas Etéreas",
+   "spellKey": "LeblancE",
+   "kind": "stat",
+   "attribute": "Daño",
+   "before": "80 / 120 / 160 / 200 / 240 (+ 80% de Poder de Habilidad)",
+   "after": "80 / 120 / 160 / 200 / 240 (+ 85% de Poder de Habilidad)",
+   "text": "Daño: 80 / 120 / 160 / 200 / 240 (+ 80% de Poder de Habilidad) ⇒ 80 / 120 / 160 / 200 / 240 (+ 85% de Poder de Habilidad)",
+   "id": "f0e2e8021533",
+   "section": "champions",
+   "tags": [
+    "Assassin",
+    "Mage"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Campeones",
+   "sectionId": "patch-champions",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Leblanc",
+    "name": "LeBlanc"
+   },
+   "part": "R",
+   "partTitle": "R: Mímica",
+   "spellKey": "LeblancR",
+   "kind": "stat",
+   "attribute": "Enfriamiento",
+   "before": "50 / 40 / 30",
+   "after": "45 / 35 / 25",
+   "text": "Enfriamiento: 50 / 40 / 30 ⇒ 45 / 35 / 25",
+   "id": "aff064eb3bf2",
+   "section": "champions",
+   "tags": [
+    "Assassin",
+    "Mage"
+   ],
+   "verification": "verified",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Campeones",
+   "sectionId": "patch-champions",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "LeeSin",
+    "name": "Lee Sin"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "text",
+   "attribute": null,
+   "before": null,
+   "after": null,
+   "text": "Redujimos el enfriamiento y el porcentaje de ralentización de su E.",
+   "id": "514885e6057e",
+   "section": "champions",
+   "tags": [
+    "Fighter",
+    "Assassin"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Campeones",
+   "sectionId": "patch-champions",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "LeeSin",
+    "name": "Lee Sin"
+   },
+   "part": "E",
+   "partTitle": "E: Tempestad / Incapacitar",
+   "spellKey": "LeeSinEOne",
+   "kind": "stat",
+   "attribute": "Enfriamiento",
+   "before": "9 seg",
+   "after": "8 seg",
+   "text": "Enfriamiento: 9 seg ⇒ 8 seg",
+   "id": "756d49157002",
+   "section": "champions",
+   "tags": [
+    "Fighter",
+    "Assassin"
+   ],
+   "verification": "verified",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Campeones",
+   "sectionId": "patch-champions",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "LeeSin",
+    "name": "Lee Sin"
+   },
+   "part": "E",
+   "partTitle": "E: Tempestad / Incapacitar",
+   "spellKey": "LeeSinEOne",
+   "kind": "stat",
+   "attribute": "Porcentaje de ralentización",
+   "before": "20 / 35 / 50 / 65 / 80%",
+   "after": "35 / 45 / 55 / 65 / 75%",
+   "text": "Porcentaje de ralentización: 20 / 35 / 50 / 65 / 80% ⇒ 35 / 45 / 55 / 65 / 75%",
+   "id": "d16043e82845",
+   "section": "champions",
+   "tags": [
+    "Fighter",
+    "Assassin"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Campeones",
+   "sectionId": "patch-champions",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Mordekaiser",
+    "name": "Mordekaiser"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "text",
+   "attribute": null,
+   "before": null,
+   "after": null,
+   "text": "Aumentamos el daño de su Q.",
+   "id": "34642b4e7f18",
+   "section": "champions",
+   "tags": [
+    "Fighter",
+    "Mage"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Campeones",
+   "sectionId": "patch-champions",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Mordekaiser",
+    "name": "Mordekaiser"
+   },
+   "part": "Q",
+   "partTitle": "Q: Aniquilación",
+   "spellKey": "MordekaiserQ",
+   "kind": "stat",
+   "attribute": "Daño",
+   "before": "De 0 a 45 (según el nivel) (+ 80 / 110 / 140 / 170 / 200) (+ 70% de Poder de Habilidad)",
+   "after": "De 0 a 45 (según el nivel) (+ 80 / 115 / 150 / 185 / 220) (+ 70% de Poder de Habilidad)",
+   "text": "Daño: De 0 a 45 (según el nivel) (+ 80 / 110 / 140 / 170 / 200) (+ 70% de Poder de Habilidad) ⇒ De 0 a 45 (según el nivel) (+ 80 / 115 / 150 / 185 / 220) (+ 70% de Poder de Habilidad)",
+   "id": "e40f2b3711b9",
+   "section": "champions",
+   "tags": [
+    "Fighter",
+    "Mage"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Campeones",
+   "sectionId": "patch-champions",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Neeko",
+    "name": "Neeko"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "text",
+   "attribute": null,
+   "before": null,
+   "after": null,
+   "text": "Redujimos el daño de su Q y el de su W.",
+   "id": "2f48a486599f",
+   "section": "champions",
+   "tags": [
+    "Mage",
+    "Support"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Campeones",
+   "sectionId": "patch-champions",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Neeko",
+    "name": "Neeko"
+   },
+   "part": "Q",
+   "partTitle": "Q: Estallido Floral",
+   "spellKey": "NeekoQ",
+   "kind": "stat",
+   "attribute": "Daño",
+   "before": "80 / 125 / 170 / 215 / 260 (+ 50% de Poder de Habilidad)",
+   "after": "60 / 110 / 160 / 210 / 260 (+ 60% de Poder de Habilidad)",
+   "text": "Daño: 80 / 125 / 170 / 215 / 260 (+ 50% de Poder de Habilidad) ⇒ 60 / 110 / 160 / 210 / 260 (+ 60% de Poder de Habilidad)",
+   "id": "6471ab6bd46b",
+   "section": "champions",
+   "tags": [
+    "Mage",
+    "Support"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Campeones",
+   "sectionId": "patch-champions",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Neeko",
+    "name": "Neeko"
+   },
+   "part": "W",
+   "partTitle": "W: División de Esencia",
+   "spellKey": "NeekoW",
+   "kind": "stat",
+   "attribute": "Daño mágico adicional",
+   "before": "40 / 75 / 110 / 145 / 180",
+   "after": "30 / 65 / 100 / 135 / 170",
+   "text": "Daño mágico adicional: 40 / 75 / 110 / 145 / 180 ⇒ 30 / 65 / 100 / 135 / 170",
+   "id": "e1fc015a648a",
+   "section": "champions",
+   "tags": [
+    "Mage",
+    "Support"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Campeones",
+   "sectionId": "patch-champions",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Nidalee",
+    "name": "Nidalee"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "text",
+   "attribute": null,
+   "before": null,
+   "after": null,
+   "text": "Aumentamos el daño de su E (en la forma de puma).",
+   "id": "6e1be97d16d8",
+   "section": "champions",
+   "tags": [
+    "Assassin",
+    "Mage"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Campeones",
+   "sectionId": "patch-champions",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Nidalee",
+    "name": "Nidalee"
+   },
+   "part": "E",
+   "partTitle": "E: Zarpazo",
+   "spellKey": "PrimalSurge",
+   "kind": "stat",
+   "attribute": "Daño",
+   "before": "70 / 130 / 190 / 250 (+ 70% de Daño de Ataque adicional) (+ 40% de Poder de Habilidad)",
+   "after": "70 / 130 / 190 / 250 (+ 70% de Daño de Ataque adicional) (+55% de Poder de Habilidad)",
+   "text": "Daño: 70 / 130 / 190 / 250 (+ 70% de Daño de Ataque adicional) (+ 40% de Poder de Habilidad) ⇒ 70 / 130 / 190 / 250 (+ 70% de Daño de Ataque adicional) (+55% de Poder de Habilidad)",
+   "id": "9ee4caa725dc",
+   "section": "champions",
+   "tags": [
+    "Assassin",
+    "Mage"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Campeones",
+   "sectionId": "patch-champions",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Rammus",
+    "name": "Rammus"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "text",
+   "attribute": null,
+   "before": null,
+   "after": null,
+   "text": "Ajustamos todas sus habilidades.",
+   "id": "fe7465196ddc",
+   "section": "champions",
+   "tags": [
+    "Tank"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Campeones",
+   "sectionId": "patch-champions",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Rammus",
+    "name": "Rammus"
+   },
+   "part": "base",
+   "partTitle": "Estadísticas básicas",
+   "spellKey": null,
+   "kind": "stat",
+   "attribute": "Armadura básica",
+   "before": "40",
+   "after": "35",
+   "text": "Armadura básica: 40 ⇒ 35",
+   "id": "5309986e0408",
+   "section": "champions",
+   "tags": [
+    "Tank"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Campeones",
+   "sectionId": "patch-champions",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Rammus",
+    "name": "Rammus"
+   },
+   "part": "base",
+   "partTitle": "Estadísticas básicas",
+   "spellKey": null,
+   "kind": "stat",
+   "attribute": "Crecimiento de Armadura",
+   "before": "5.5",
+   "after": "4.5",
+   "text": "Crecimiento de Armadura: 5.5 ⇒ 4.5",
+   "id": "e90faa709c05",
+   "section": "champions",
+   "tags": [
+    "Tank"
+   ],
+   "verification": "verified",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Campeones",
+   "sectionId": "patch-champions",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Rammus",
+    "name": "Rammus"
+   },
+   "part": "base",
+   "partTitle": "Estadísticas básicas",
+   "spellKey": null,
+   "kind": "stat",
+   "attribute": "Velocidad de Ataque en el nivel 1",
+   "before": "0.656",
+   "after": "0.7",
+   "text": "Velocidad de Ataque en el nivel 1: 0.656 ⇒ 0.7",
+   "id": "d5b5ae413085",
+   "section": "champions",
+   "tags": [
+    "Tank"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Campeones",
+   "sectionId": "patch-champions",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Rammus",
+    "name": "Rammus"
+   },
+   "part": "base",
+   "partTitle": "Estadísticas básicas",
+   "spellKey": null,
+   "kind": "stat",
+   "attribute": "Daño de Ataque básico",
+   "before": "55",
+   "after": "65",
+   "text": "Daño de Ataque básico: 55 ⇒ 65",
+   "id": "d951fb0038de",
+   "section": "champions",
+   "tags": [
+    "Tank"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Campeones",
+   "sectionId": "patch-champions",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Rammus",
+    "name": "Rammus"
+   },
+   "part": "P",
+   "partTitle": "Pasiva: Caparazón de Púas",
+   "spellKey": null,
+   "kind": "removed",
+   "attribute": null,
+   "before": null,
+   "after": null,
+   "text": "ELIMINADO: Los ataques básicos de Rammus ya no obtienen 10 (+ 10%) de Armadura (aumentaba en un 50% durante el efecto de su W) como daño mágico al impacto",
+   "id": "e0fc89ee20ed",
+   "section": "champions",
+   "tags": [
+    "Tank"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Campeones",
+   "sectionId": "patch-champions",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Rammus",
+    "name": "Rammus"
+   },
+   "part": "P",
+   "partTitle": "Pasiva: Caparazón de Púas",
+   "spellKey": null,
+   "kind": "new",
+   "attribute": null,
+   "before": null,
+   "after": null,
+   "text": "NUEVO: Ahora, Rammus obtiene un 15% de su Armadura y su Resistencia Mágica totales como daño de ataque adicional",
+   "id": "82a4d02aaf84",
+   "section": "champions",
+   "tags": [
+    "Tank"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Campeones",
+   "sectionId": "patch-champions",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Rammus",
+    "name": "Rammus"
+   },
+   "part": "Q",
+   "partTitle": "Q: Bola Rodante",
+   "spellKey": "PowerBall",
+   "kind": "stat",
+   "attribute": "Daño",
+   "before": "80 / 110 / 140 / 170 / 200",
+   "after": "80 / 120 / 160 / 200 / 240",
+   "text": "Daño: 80 / 110 / 140 / 170 / 200 ⇒ 80 / 120 / 160 / 200 / 240",
+   "id": "5418d0d97464",
+   "section": "champions",
+   "tags": [
+    "Tank"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Campeones",
+   "sectionId": "patch-champions",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Rammus",
+    "name": "Rammus"
+   },
+   "part": "Q",
+   "partTitle": "Q: Bola Rodante",
+   "spellKey": "PowerBall",
+   "kind": "text",
+   "attribute": null,
+   "before": null,
+   "after": null,
+   "text": "Movimientos fluidos: Bola Rodante ya no bloquea el lanzamiento de la E durante alrededor de 0.375 seg al chocar contra un enemigo",
+   "id": "632207d5d283",
+   "section": "champions",
+   "tags": [
+    "Tank"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Campeones",
+   "sectionId": "patch-champions",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Rammus",
+    "name": "Rammus"
+   },
+   "part": "W",
+   "partTitle": "W: Posición Defensiva",
+   "spellKey": "DefensiveBallCurl",
+   "kind": "stat",
+   "attribute": "Duración",
+   "before": "6 seg",
+   "after": "7 seg",
+   "text": "Duración: 6 seg ⇒ 7 seg",
+   "id": "60d169ac0417",
+   "section": "champions",
+   "tags": [
+    "Tank"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Campeones",
+   "sectionId": "patch-champions",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Rammus",
+    "name": "Rammus"
+   },
+   "part": "W",
+   "partTitle": "W: Posición Defensiva",
+   "spellKey": "DefensiveBallCurl",
+   "kind": "text",
+   "attribute": null,
+   "before": null,
+   "after": null,
+   "text": "Duración con ataques básicos: La duración de la W ya no aumenta con los ataques básicos",
+   "id": "1771ea8d4d62",
+   "section": "champions",
+   "tags": [
+    "Tank"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Campeones",
+   "sectionId": "patch-champions",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Rammus",
+    "name": "Rammus"
+   },
+   "part": "W",
+   "partTitle": "W: Posición Defensiva",
+   "spellKey": "DefensiveBallCurl",
+   "kind": "stat",
+   "attribute": "Armadura adicional",
+   "before": "40 (+ 35 / 45 / 55 / 65 / 75% de la Armadura total)",
+   "after": "27 (+ 30 / 37.5 / 45 / 42.5 / 60% de la Armadura total)",
+   "text": "Armadura adicional: 40 (+ 35 / 45 / 55 / 65 / 75% de la Armadura total) ⇒ 27 (+ 30 / 37.5 / 45 / 42.5 / 60% de la Armadura total)",
+   "id": "db81e5c85866",
+   "section": "champions",
+   "tags": [
+    "Tank"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Campeones",
+   "sectionId": "patch-champions",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Rammus",
+    "name": "Rammus"
+   },
+   "part": "W",
+   "partTitle": "W: Posición Defensiva",
+   "spellKey": "DefensiveBallCurl",
+   "kind": "stat",
+   "attribute": "Resistencia Mágica adicional",
+   "before": "10 (+ 30 / 35 / 40 / 45 / 50% de la Resistencia Mágica total)",
+   "after": "27 (+ 30 / 37.5 / 45 / 42.5 / 60% de la Resistencia Mágica total)",
+   "text": "Resistencia Mágica adicional: 10 (+ 30 / 35 / 40 / 45 / 50% de la Resistencia Mágica total) ⇒ 27 (+ 30 / 37.5 / 45 / 42.5 / 60% de la Resistencia Mágica total)",
+   "id": "578d701f8c16",
+   "section": "champions",
+   "tags": [
+    "Tank"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Campeones",
+   "sectionId": "patch-champions",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Rammus",
+    "name": "Rammus"
+   },
+   "part": "W",
+   "partTitle": "W: Posición Defensiva",
+   "spellKey": "DefensiveBallCurl",
+   "kind": "stat",
+   "attribute": "Daño reflejado",
+   "before": "15 (+ 15% de la Armadura total)",
+   "after": "15 (+ 10% de la Armadura total) (+ 10% de la Resistencia Mágica total)",
+   "text": "Daño reflejado: 15 (+ 15% de la Armadura total) ⇒ 15 (+ 10% de la Armadura total) (+ 10% de la Resistencia Mágica total)",
+   "id": "05138a2b32c5",
+   "section": "champions",
+   "tags": [
+    "Tank"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Campeones",
+   "sectionId": "patch-champions",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Rammus",
+    "name": "Rammus"
+   },
+   "part": "W",
+   "partTitle": "W: Posición Defensiva",
+   "spellKey": "DefensiveBallCurl",
+   "kind": "text",
+   "attribute": null,
+   "before": null,
+   "after": null,
+   "text": "Daño al dragón: Ahora, la W de Rammus refleja correctamente el daño de los ataques básicos del dragón (al igual que Cota de Espinas)",
+   "id": "eebc63e8e803",
+   "section": "champions",
+   "tags": [
+    "Tank"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Campeones",
+   "sectionId": "patch-champions",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Rammus",
+    "name": "Rammus"
+   },
+   "part": "W",
+   "partTitle": "W: Posición Defensiva",
+   "spellKey": "DefensiveBallCurl",
+   "kind": "text",
+   "attribute": null,
+   "before": null,
+   "after": null,
+   "text": "Mejoras a la descripción: Ahora, la descripción de la W indica con mayor claridad qué tanta armadura y resistencia mágica otorga la habilidad",
+   "id": "982890f86fbf",
+   "section": "champions",
+   "tags": [
+    "Tank"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Campeones",
+   "sectionId": "patch-champions",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Rammus",
+    "name": "Rammus"
+   },
+   "part": "W",
+   "partTitle": "W: Posición Defensiva",
+   "spellKey": "DefensiveBallCurl",
+   "kind": "text",
+   "attribute": null,
+   "before": null,
+   "after": null,
+   "text": "Mejoras a la descripción: La descripción de la W ya no aparece en blanco cuando activa la habilidad; además, ahora muestra la cantidad de daño reflejado",
+   "id": "f54730679222",
+   "section": "champions",
+   "tags": [
+    "Tank"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Campeones",
+   "sectionId": "patch-champions",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Rammus",
+    "name": "Rammus"
+   },
+   "part": "E",
+   "partTitle": "E: Provocación Frenética",
+   "spellKey": "PuncturingTaunt",
+   "kind": "text",
+   "attribute": null,
+   "before": null,
+   "after": null,
+   "text": "Velocidad de Ataque:: La E ya no le otorga un 20 / 25 / 30 / 35 / 40% de Velocidad de Ataque adicional a Rammus",
+   "id": "a33e5276c64c",
+   "section": "champions",
+   "tags": [
+    "Tank"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Campeones",
+   "sectionId": "patch-champions",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Rammus",
+    "name": "Rammus"
+   },
+   "part": "E",
+   "partTitle": "E: Provocación Frenética",
+   "spellKey": "PuncturingTaunt",
+   "kind": "text",
+   "attribute": null,
+   "before": null,
+   "after": null,
+   "text": "Daño a monstruos: Ahora, la E inflige 80 / 100 / 120 / 140 / 160 (+ 70% de Poder de Habilidad) a monstruos al lanzarla. (Nota: Esta habilidad no inflige daño a campeones)",
+   "id": "389e64cfb59b",
+   "section": "champions",
+   "tags": [
+    "Tank"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Campeones",
+   "sectionId": "patch-champions",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Rammus",
+    "name": "Rammus"
+   },
+   "part": "R",
+   "partTitle": "R: Salto de Temblores",
+   "spellKey": "Tremors2",
+   "kind": "stat",
+   "attribute": "Enfriamiento",
+   "before": "90 seg",
+   "after": "120/105/90 seg",
+   "text": "Enfriamiento: 90 seg ⇒ 120/105/90 seg",
+   "id": "619d0e64fe3d",
+   "section": "champions",
+   "tags": [
+    "Tank"
+   ],
+   "verification": "verified",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Campeones",
+   "sectionId": "patch-champions",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Rammus",
+    "name": "Rammus"
+   },
+   "part": "R",
+   "partTitle": "R: Salto de Temblores",
+   "spellKey": "Tremors2",
+   "kind": "stat",
+   "attribute": "Daño inicial",
+   "before": "100 / 175 / 250 (+ 60% de Poder de Habilidad)",
+   "after": "150/ 250 / 350 (+ 60% de Poder de Habilidad)",
+   "text": "Daño inicial: 100 / 175 / 250 (+ 60% de Poder de Habilidad) ⇒ 150/ 250 / 350 (+ 60% de Poder de Habilidad)",
+   "id": "edfad247dc90",
+   "section": "champions",
+   "tags": [
+    "Tank"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Campeones",
+   "sectionId": "patch-champions",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Rammus",
+    "name": "Rammus"
+   },
+   "part": "R",
+   "partTitle": "R: Salto de Temblores",
+   "spellKey": "Tremors2",
+   "kind": "text",
+   "attribute": null,
+   "before": null,
+   "after": null,
+   "text": "Daño del epicentro: La R ya no inflige un 50% de daño adicional en el epicentro del impacto",
+   "id": "a7dc5aa0355b",
+   "section": "champions",
+   "tags": [
+    "Tank"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Campeones",
+   "sectionId": "patch-champions",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Rammus",
+    "name": "Rammus"
+   },
+   "part": "R",
+   "partTitle": "R: Salto de Temblores",
+   "spellKey": "Tremors2",
+   "kind": "text",
+   "attribute": null,
+   "before": null,
+   "after": null,
+   "text": "Daño de Réplica eliminado: La R ya no inflige 20 / 30 / 40 (+ 10% de Poder de Habilidad) de daño con las réplicas",
+   "id": "788ed38a9b94",
+   "section": "champions",
+   "tags": [
+    "Tank"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Campeones",
+   "sectionId": "patch-champions",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Rammus",
+    "name": "Rammus"
+   },
+   "part": "R",
+   "partTitle": "R: Salto de Temblores",
+   "spellKey": "Tremors2",
+   "kind": "stat",
+   "attribute": "Ralentización",
+   "before": "15 / 17.5 / 20% por acumulación, hasta un máximo de 60 / 70 / 80%",
+   "after": "30 / 40 / 50% (ya no se acumula)",
+   "text": "Ralentización: 15 / 17.5 / 20% por acumulación, hasta un máximo de 60 / 70 / 80% ⇒ 30 / 40 / 50% (ya no se acumula)",
+   "id": "b361019d03aa",
+   "section": "champions",
+   "tags": [
+    "Tank"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Campeones",
+   "sectionId": "patch-champions",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Rammus",
+    "name": "Rammus"
+   },
+   "part": "R",
+   "partTitle": "R: Salto de Temblores",
+   "spellKey": "Tremors2",
+   "kind": "text",
+   "attribute": null,
+   "before": null,
+   "after": null,
+   "text": "Mejora de funcionalidad: Ahora, Rammus puede elevarse en el aire durante el efecto de Bola Rodante incluso si está encima de un enemigo al lanzar Salto de Temblores lo suficientemente rápido",
+   "id": "eeccb9ddfec5",
+   "section": "champions",
+   "tags": [
+    "Tank"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Campeones",
+   "sectionId": "patch-champions",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Rammus",
+    "name": "Rammus"
+   },
+   "part": "R",
+   "partTitle": "R: Salto de Temblores",
+   "spellKey": "Tremors2",
+   "kind": "text",
+   "attribute": null,
+   "before": null,
+   "after": null,
+   "text": "Mejora de funcionalidad: Volvimos a sincronizar la animación de su R para que se reproduzca la animación completa durante el desplazamiento",
+   "id": "294719b33879",
+   "section": "champions",
+   "tags": [
+    "Tank"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Campeones",
+   "sectionId": "patch-champions",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Rammus",
+    "name": "Rammus"
+   },
+   "part": "R",
+   "partTitle": "R: Salto de Temblores",
+   "spellKey": "Tremors2",
+   "kind": "text",
+   "attribute": null,
+   "before": null,
+   "after": null,
+   "text": "Corrección de error: La R ya no interrumpe su animación ni le impide a Rammus lanzar Bola Rodante si ambas habilidades se activan a la vez y demasiado rápido",
+   "id": "145b5233cd71",
+   "section": "champions",
+   "tags": [
+    "Tank"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Campeones",
+   "sectionId": "patch-champions",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Rammus",
+    "name": "Rammus"
+   },
+   "part": "R",
+   "partTitle": "R: Salto de Temblores",
+   "spellKey": "Tremors2",
+   "kind": "text",
+   "attribute": null,
+   "before": null,
+   "after": null,
+   "text": "Corrección de error: Corregimos un error que provocaba que la animación de la R se trabara cuando se lanzaba a corto alcance",
+   "id": "41473d99f9b1",
+   "section": "champions",
+   "tags": [
+    "Tank"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Campeones",
+   "sectionId": "patch-champions",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Rumble",
+    "name": "Rumble"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "text",
+   "attribute": null,
+   "before": null,
+   "after": null,
+   "text": "Redujimos el daño de su Q. Redujimos la ralentización de su E.",
+   "id": "c98acd4dd158",
+   "section": "champions",
+   "tags": [
+    "Fighter",
+    "Mage"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Campeones",
+   "sectionId": "patch-champions",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Rumble",
+    "name": "Rumble"
+   },
+   "part": "Q",
+   "partTitle": "Q: Escupellamas",
+   "spellKey": "RumbleFlameThrower",
+   "kind": "stat",
+   "attribute": "Daño mágico total",
+   "before": "60 / 90 / 120 / 150 / 180 (+ 110% de Poder de Habilidad) (+ 6 / 7 / 8 / 9 / 10% de la Vida Máxima del objetivo)",
+   "after": "60 / 90 / 120 / 150 / 180 (+ 110% de Poder de Habilidad) (+ 6 / 6.5 / 7 / 7.5 / 8% de la Vida Máxima del objetivo)",
+   "text": "Daño mágico total: 60 / 90 / 120 / 150 / 180 (+ 110% de Poder de Habilidad) (+ 6 / 7 / 8 / 9 / 10% de la Vida Máxima del objetivo) ⇒ 60 / 90 / 120 / 150 / 180 (+ 110% de Poder de Habilidad) (+ 6 / 6.5 / 7 / 7.5 / 8% de la Vida Máxima del objetivo)",
+   "id": "baf4dc680e07",
+   "section": "champions",
+   "tags": [
+    "Fighter",
+    "Mage"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Campeones",
+   "sectionId": "patch-champions",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Rumble",
+    "name": "Rumble"
+   },
+   "part": "E",
+   "partTitle": "E: Arpón Eléctrico",
+   "spellKey": "RumbleGrenade",
+   "kind": "stat",
+   "attribute": "Ralentización",
+   "before": "15 / 20 / 25 / 30 / 35%",
+   "after": "10 / 15 / 20 / 25 / 30%",
+   "text": "Ralentización: 15 / 20 / 25 / 30 / 35% ⇒ 10 / 15 / 20 / 25 / 30%",
+   "id": "e4ce71ace3f4",
+   "section": "champions",
+   "tags": [
+    "Fighter",
+    "Mage"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Campeones",
+   "sectionId": "patch-champions",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Rumble",
+    "name": "Rumble"
+   },
+   "part": "E",
+   "partTitle": "E: Arpón Eléctrico",
+   "spellKey": "RumbleGrenade",
+   "kind": "stat",
+   "attribute": "Ralentización mejorada",
+   "before": "22.5 / 30 / 37.5 / 45 / 52.5%",
+   "after": "15 / 22.5 / 30 / 37.5 / 45%",
+   "text": "Ralentización mejorada: 22.5 / 30 / 37.5 / 45 / 52.5% ⇒ 15 / 22.5 / 30 / 37.5 / 45%",
+   "id": "51514f38c487",
+   "section": "champions",
+   "tags": [
+    "Fighter",
+    "Mage"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Campeones",
+   "sectionId": "patch-champions",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Samira",
+    "name": "Samira"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "text",
+   "attribute": null,
+   "before": null,
+   "after": null,
+   "text": "Aumentamos la velocidad de movimiento adicional de su pasiva. Aumentamos el daño de su Q.",
+   "id": "25d0e988588b",
+   "section": "champions",
+   "tags": [
+    "Marksman",
+    "Assassin"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Campeones",
+   "sectionId": "patch-champions",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Samira",
+    "name": "Samira"
+   },
+   "part": "P",
+   "partTitle": "Pasiva: Impulso Temerario",
+   "spellKey": null,
+   "kind": "stat",
+   "attribute": "Velocidad de Movimiento adicional por acumulación de Estilo",
+   "before": "2 / 2.5 / 3 / 3.5% (máximo de acumulaciones: 12 / 15 / 18 / 21%)",
+   "after": "2.75 / 3 / 3.25 / 3.5% (máximo de acumulaciones: 16.5 / 18 / 19.5 / 21%)",
+   "text": "Velocidad de Movimiento adicional por acumulación de Estilo: 2 / 2.5 / 3 / 3.5% (máximo de acumulaciones: 12 / 15 / 18 / 21%) ⇒ 2.75 / 3 / 3.25 / 3.5% (máximo de acumulaciones: 16.5 / 18 / 19.5 / 21%)",
+   "id": "0f22f0ee239c",
+   "section": "champions",
+   "tags": [
+    "Marksman",
+    "Assassin"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Campeones",
+   "sectionId": "patch-champions",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Samira",
+    "name": "Samira"
+   },
+   "part": "Q",
+   "partTitle": "Q: Instinto",
+   "spellKey": "SamiraQ",
+   "kind": "stat",
+   "attribute": "Daño",
+   "before": "0 / 5 / 10 / 15 / 20 (+95 / 102.5 / 110 / 117.5 / 125% de Daño de Ataque)",
+   "after": "5 / 10 / 15 / 20 / 25 (+95 / 102.5 / 110 / 117.5 / 125% de Daño de Ataque)",
+   "text": "Daño: 0 / 5 / 10 / 15 / 20 (+95 / 102.5 / 110 / 117.5 / 125% de Daño de Ataque) ⇒ 5 / 10 / 15 / 20 / 25 (+95 / 102.5 / 110 / 117.5 / 125% de Daño de Ataque)",
+   "id": "a8cdeaca9030",
+   "section": "champions",
+   "tags": [
+    "Marksman",
+    "Assassin"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Campeones",
+   "sectionId": "patch-champions",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Senna",
+    "name": "Senna"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "text",
+   "attribute": null,
+   "before": null,
+   "after": null,
+   "text": "Redujimos la probabilidad de aparición de almas por cada asesinato de súbdito.",
+   "id": "77ac7e6720ba",
+   "section": "champions",
+   "tags": [
+    "Support",
+    "Marksman"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Campeones",
+   "sectionId": "patch-champions",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Senna",
+    "name": "Senna"
+   },
+   "part": "P",
+   "partTitle": "Pasiva: Absolución",
+   "spellKey": null,
+   "kind": "stat",
+   "attribute": "Probabilidad de aparición de almas por cada asesinato de súbdito",
+   "before": "14%",
+   "after": "10%",
+   "text": "Probabilidad de aparición de almas por cada asesinato de súbdito: 14% ⇒ 10%",
+   "id": "a14a68ccd517",
+   "section": "champions",
+   "tags": [
+    "Support",
+    "Marksman"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Campeones",
+   "sectionId": "patch-champions",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Shen",
+    "name": "Shen"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "text",
+   "attribute": null,
+   "before": null,
+   "after": null,
+   "text": "Redujimos la tasa de vida adicional de su E.",
+   "id": "ab1f73de4ce0",
+   "section": "champions",
+   "tags": [
+    "Tank"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Campeones",
+   "sectionId": "patch-champions",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Shen",
+    "name": "Shen"
+   },
+   "part": "E",
+   "partTitle": "E: Ataque de Sombra",
+   "spellKey": "ShenE",
+   "kind": "stat",
+   "attribute": "Daño",
+   "before": "60 / 85 / 110 / 135 / 160 (+ 15% de Vida adicional)",
+   "after": "60 / 85 / 110 / 135 / 160 (+ 11% de Vida adicional)",
+   "text": "Daño: 60 / 85 / 110 / 135 / 160 (+ 15% de Vida adicional) ⇒ 60 / 85 / 110 / 135 / 160 (+ 11% de Vida adicional)",
+   "id": "d866ba83aaa2",
+   "section": "champions",
+   "tags": [
+    "Tank"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Campeones",
+   "sectionId": "patch-champions",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Taliyah",
+    "name": "Taliyah"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "text",
+   "attribute": null,
+   "before": null,
+   "after": null,
+   "text": "Redujimos su resistencia mágica básica. Redujimos el daño de su Q.",
+   "id": "a254e923ea97",
+   "section": "champions",
+   "tags": [
+    "Mage",
+    "Support"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Campeones",
+   "sectionId": "patch-champions",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Taliyah",
+    "name": "Taliyah"
+   },
+   "part": "base",
+   "partTitle": "Estadísticas básicas",
+   "spellKey": null,
+   "kind": "stat",
+   "attribute": "Resistencia Mágica básica",
+   "before": "30",
+   "after": "28",
+   "text": "Resistencia Mágica básica: 30 ⇒ 28",
+   "id": "32394bba3751",
+   "section": "champions",
+   "tags": [
+    "Mage",
+    "Support"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Campeones",
+   "sectionId": "patch-champions",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Taliyah",
+    "name": "Taliyah"
+   },
+   "part": "Q",
+   "partTitle": "Q: Descarga Pétrea",
+   "spellKey": "TaliyahQ",
+   "kind": "stat",
+   "attribute": "Daño potenciado",
+   "before": "190%",
+   "after": "180%",
+   "text": "Daño potenciado: 190% ⇒ 180%",
+   "id": "d51b81836613",
+   "section": "champions",
+   "tags": [
+    "Mage",
+    "Support"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Campeones",
+   "sectionId": "patch-champions",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "TwistedFate",
+    "name": "Twisted Fate"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "text",
+   "attribute": null,
+   "before": null,
+   "after": null,
+   "text": "Aumentamos la velocidad de ataque adicional de su E. Redujimos el enfriamiento de su R.",
+   "id": "fce09a4a9b99",
+   "section": "champions",
+   "tags": [
+    "Mage",
+    "Marksman"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Campeones",
+   "sectionId": "patch-champions",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "TwistedFate",
+    "name": "Twisted Fate"
+   },
+   "part": "E",
+   "partTitle": "E: Baraja Trucada",
+   "spellKey": "CardmasterStack",
+   "kind": "stat",
+   "attribute": "Velocidad de Ataque adicional",
+   "before": "10 / 20 / 30 / 40 / 50%",
+   "after": "15 / 25 / 35 / 45 / 55%",
+   "text": "Velocidad de Ataque adicional: 10 / 20 / 30 / 40 / 50% ⇒ 15 / 25 / 35 / 45 / 55%",
+   "id": "66711c334255",
+   "section": "champions",
+   "tags": [
+    "Mage",
+    "Marksman"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Campeones",
+   "sectionId": "patch-champions",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "TwistedFate",
+    "name": "Twisted Fate"
+   },
+   "part": "R",
+   "partTitle": "R: Destino",
+   "spellKey": "Destiny",
+   "kind": "stat",
+   "attribute": "Enfriamiento",
+   "before": "180 / 150 / 120 seg",
+   "after": "160 / 130 / 100 seg",
+   "text": "Enfriamiento: 180 / 150 / 120 seg ⇒ 160 / 130 / 100 seg",
+   "id": "4539c1064b43",
+   "section": "champions",
+   "tags": [
+    "Mage",
+    "Marksman"
+   ],
+   "verification": "verified",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Campeones",
+   "sectionId": "patch-champions",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Varus",
+    "name": "Varus"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "text",
+   "attribute": null,
+   "before": null,
+   "after": null,
+   "text": "Redujimos su armadura básica.",
+   "id": "95d221d34041",
+   "section": "champions",
+   "tags": [
+    "Marksman",
+    "Mage"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Campeones",
+   "sectionId": "patch-champions",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Varus",
+    "name": "Varus"
+   },
+   "part": "base",
+   "partTitle": "Estadísticas básicas",
+   "spellKey": null,
+   "kind": "stat",
+   "attribute": "Armadura básica",
+   "before": "27",
+   "after": "24",
+   "text": "Armadura básica: 27 ⇒ 24",
+   "id": "5807e1cd537f",
+   "section": "champions",
+   "tags": [
+    "Marksman",
+    "Mage"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Campeones",
+   "sectionId": "patch-champions",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Vi",
+    "name": "Vi"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "text",
+   "attribute": null,
+   "before": null,
+   "after": null,
+   "text": "Ajustamos el daño y redujimos la velocidad de ataque adicional de su W. Ajustamos el daño de su E.",
+   "id": "fd258f51f52b",
+   "section": "champions",
+   "tags": [
+    "Fighter",
+    "Assassin"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Campeones",
+   "sectionId": "patch-champions",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Vi",
+    "name": "Vi"
+   },
+   "part": "W",
+   "partTitle": "W: Golpes Abollantes",
+   "spellKey": "ViW",
+   "kind": "stat",
+   "attribute": "Vida Máxima del objetivo como daño",
+   "before": "4 / 5.5 / 7 / 8.5 / 10% (+ 2.857% de Daño de Ataque adicional)",
+   "after": "4 / 5 / 6 / 7 / 8 (+ 3.5% de Daño de Ataque adicional)",
+   "text": "Vida Máxima del objetivo como daño: 4 / 5.5 / 7 / 8.5 / 10% (+ 2.857% de Daño de Ataque adicional) ⇒ 4 / 5 / 6 / 7 / 8 (+ 3.5% de Daño de Ataque adicional)",
+   "id": "d43d772eea91",
+   "section": "champions",
+   "tags": [
+    "Fighter",
+    "Assassin"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Campeones",
+   "sectionId": "patch-champions",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Vi",
+    "name": "Vi"
+   },
+   "part": "W",
+   "partTitle": "W: Golpes Abollantes",
+   "spellKey": "ViW",
+   "kind": "stat",
+   "attribute": "Velocidad de Ataque adicional",
+   "before": "30 / 37.5 / 45 / 52.5 / 60%",
+   "after": "30 / 35 / 40 / 45 /50%",
+   "text": "Velocidad de Ataque adicional: 30 / 37.5 / 45 / 52.5 / 60% ⇒ 30 / 35 / 40 / 45 /50%",
+   "id": "2fe749ab4e4d",
+   "section": "champions",
+   "tags": [
+    "Fighter",
+    "Assassin"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Campeones",
+   "sectionId": "patch-champions",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Vi",
+    "name": "Vi"
+   },
+   "part": "E",
+   "partTitle": "E: Fuerza Implacable",
+   "spellKey": "ViE",
+   "kind": "stat",
+   "attribute": "Daño adicional",
+   "before": "0 / 15 / 30 / 45 / 60 (+ 120% de Daño de Ataque) (+ 100% de Poder de Habilidad)",
+   "after": "10 / 30 / 50 / 70 / 90 (+ 110% de Daño de Ataque) (+ 100% de Poder de Habilidad)",
+   "text": "Daño adicional: 0 / 15 / 30 / 45 / 60 (+ 120% de Daño de Ataque) (+ 100% de Poder de Habilidad) ⇒ 10 / 30 / 50 / 70 / 90 (+ 110% de Daño de Ataque) (+ 100% de Poder de Habilidad)",
+   "id": "27e665fb5e49",
+   "section": "champions",
+   "tags": [
+    "Fighter",
+    "Assassin"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Campeones",
+   "sectionId": "patch-champions",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Yorick",
+    "name": "Yorick"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "text",
+   "attribute": null,
+   "before": null,
+   "after": null,
+   "text": "Ajustamos la velocidad de ataque adicional de los Trotanieblas. Redujimos el daño de su Q.",
+   "id": "bada1c005721",
+   "section": "champions",
+   "tags": [
+    "Fighter",
+    "Tank"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Campeones",
+   "sectionId": "patch-champions",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Yorick",
+    "name": "Yorick"
+   },
+   "part": "P",
+   "partTitle": "Pasiva: Pastor de Almas",
+   "spellKey": null,
+   "kind": "stat",
+   "attribute": "Velocidad de Ataque de los Trotanieblas",
+   "before": "0.5 (+ 100% de la Velocidad de Ataque adicional de Yorick)",
+   "after": "0.5 (+ de 8 a 80% de Velocidad de Ataque)",
+   "text": "Velocidad de Ataque de los Trotanieblas: 0.5 (+ 100% de la Velocidad de Ataque adicional de Yorick) ⇒ 0.5 (+ de 8 a 80% de Velocidad de Ataque)",
+   "id": "ce365481ed21",
+   "section": "champions",
+   "tags": [
+    "Fighter",
+    "Tank"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Campeones",
+   "sectionId": "patch-champions",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Yorick",
+    "name": "Yorick"
+   },
+   "part": "Q",
+   "partTitle": "Q: Extremaunción",
+   "spellKey": "YorickQ",
+   "kind": "stat",
+   "attribute": "Daño",
+   "before": "30 / 55 / 80 / 105 / 130 (+ 50% de Daño de Ataque)",
+   "after": "30 / 50 / 70 / 90 / 110 (+ 50% de Daño de Ataque)",
+   "text": "Daño: 30 / 55 / 80 / 105 / 130 (+ 50% de Daño de Ataque) ⇒ 30 / 50 / 70 / 90 / 110 (+ 50% de Daño de Ataque)",
+   "id": "076a085ee96e",
+   "section": "champions",
+   "tags": [
+    "Fighter",
+    "Tank"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Campeones",
+   "sectionId": "patch-champions",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Zeri",
+    "name": "Zeri"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "text",
+   "attribute": null,
+   "before": null,
+   "after": null,
+   "text": "Aumentamos el daño de su R y el daño de la cadena de rayos.",
+   "id": "ff711aa7caea",
+   "section": "champions",
+   "tags": [
+    "Marksman"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Campeones",
+   "sectionId": "patch-champions",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Zeri",
+    "name": "Zeri"
+   },
+   "part": "R",
+   "partTitle": "R: Estallido Eléctrico",
+   "spellKey": "ZeriR",
+   "kind": "stat",
+   "attribute": "Daño",
+   "before": "175 / 275 / 375 (+ 85% de Daño de Ataque adicional) (+ 110% de Poder de Habilidad)",
+   "after": "200/ 300 / 400 (+ 100% de Daño de Ataque adicional) (+ 110% de Poder de Habilidad)",
+   "text": "Daño: 175 / 275 / 375 (+ 85% de Daño de Ataque adicional) (+ 110% de Poder de Habilidad) ⇒ 200/ 300 / 400 (+ 100% de Daño de Ataque adicional) (+ 110% de Poder de Habilidad)",
+   "id": "2004ae046f72",
+   "section": "champions",
+   "tags": [
+    "Marksman"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Campeones",
+   "sectionId": "patch-champions",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Zeri",
+    "name": "Zeri"
+   },
+   "part": "R",
+   "partTitle": "R: Estallido Eléctrico",
+   "spellKey": "ZeriR",
+   "kind": "stat",
+   "attribute": "Daño de la cadena de rayos",
+   "before": "30% de Daño de Ataque",
+   "after": "40% de Daño de Ataque",
+   "text": "Daño de la cadena de rayos: 30% de Daño de Ataque ⇒ 40% de Daño de Ataque",
+   "id": "01737c914367",
+   "section": "champions",
+   "tags": [
+    "Marksman"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Runas",
+   "sectionId": "patch-runes",
+   "midPatch": false,
+   "entity": {
+    "kind": "rune",
+    "id": "8437",
+    "name": "Agarre del Perpetuo"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "stat",
+   "attribute": "Eficacia a distancia",
+   "before": "60%",
+   "after": "40%",
+   "text": "Eficacia a distancia: 60% ⇒ 40%",
+   "id": "6afbe6f0299b",
+   "section": "runes",
+   "tags": [],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Dragones",
+   "sectionId": "patch-dragon",
+   "midPatch": false,
+   "entity": {
+    "kind": "none",
+    "id": null,
+    "name": ""
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "text",
+   "attribute": null,
+   "before": null,
+   "after": null,
+   "text": "Impactos de los ataques de los dragones: Ahora, todos los ataques básicos de los dragones activan reacciones al impacto (p. ej.: Cota de Espinas, Posición Defensiva)",
+   "id": "c026d372d9cf",
+   "section": "systems",
+   "tags": [],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Dragones",
+   "sectionId": "patch-dragon",
+   "midPatch": false,
+   "entity": {
+    "kind": "none",
+    "id": null,
+    "name": ""
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "text",
+   "attribute": null,
+   "before": null,
+   "after": null,
+   "text": "Evasión de los ataques de los dragones: Ahora, todos los ataques básicos de los dragones respetan la mecánica de evasión",
+   "id": "7aa6c51722e8",
+   "section": "systems",
+   "tags": [],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "ARAM",
+   "sectionId": "patch-aram",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Belveth",
+    "name": "Bel'Veth"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "stat",
+   "attribute": "Tenacidad",
+   "before": "100%",
+   "after": "120%",
+   "text": "Tenacidad: 100% ⇒ 120%",
+   "id": "967c16516b23",
+   "section": "modes",
+   "tags": [
+    "Fighter"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "ARAM",
+   "sectionId": "patch-aram",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Belveth",
+    "name": "Bel'Veth"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "stat",
+   "attribute": "Daño recibido",
+   "before": "100%",
+   "after": "95%",
+   "text": "Daño recibido: 100% ⇒ 95%",
+   "id": "2f8e39aaa32b",
+   "section": "modes",
+   "tags": [
+    "Fighter"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "ARAM",
+   "sectionId": "patch-aram",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Kayn",
+    "name": "Kayn"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "stat",
+   "attribute": "Tasa de Daño de Ataque adicional de la Q",
+   "before": "85%",
+   "after": "95%",
+   "text": "Tasa de Daño de Ataque adicional de la Q: 85% ⇒ 95%",
+   "id": "91f972dd3315",
+   "section": "modes",
+   "tags": [
+    "Fighter",
+    "Assassin"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "ARAM",
+   "sectionId": "patch-aram",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Kayn",
+    "name": "Kayn"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "stat",
+   "attribute": "Enfriamiento de la E (Asesino Sombrío)",
+   "before": "10 seg",
+   "after": "7 seg",
+   "text": "Enfriamiento de la E (Asesino Sombrío): 10 seg ⇒ 7 seg",
+   "id": "facf50a839b0",
+   "section": "modes",
+   "tags": [
+    "Fighter",
+    "Assassin"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "ARAM",
+   "sectionId": "patch-aram",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Kennen",
+    "name": "Kennen"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "stat",
+   "attribute": "Daño infligido",
+   "before": "105%",
+   "after": "100%",
+   "text": "Daño infligido: 105% ⇒ 100%",
+   "id": "c7c9bf871140",
+   "section": "modes",
+   "tags": [
+    "Mage"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "ARAM",
+   "sectionId": "patch-aram",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Shyvana",
+    "name": "Shyvana"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "stat",
+   "attribute": "Regeneración de Furia por curación, por derribo de súbditos de asedio y por derribo de súbditos de cañón",
+   "before": "0.05",
+   "after": "0.1",
+   "text": "Regeneración de Furia por curación, por derribo de súbditos de asedio y por derribo de súbditos de cañón: 0.05 ⇒ 0.1",
+   "id": "1b45d31214c0",
+   "section": "modes",
+   "tags": [
+    "Fighter",
+    "Mage"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "ARAM",
+   "sectionId": "patch-aram",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Sion",
+    "name": "Sion"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "stat",
+   "attribute": "Curación por unidad o derribo de campeón de la W",
+   "before": "8",
+   "after": "5",
+   "text": "Curación por unidad o derribo de campeón de la W: 8 ⇒ 5",
+   "id": "88ab7e130312",
+   "section": "modes",
+   "tags": [
+    "Tank",
+    "Fighter"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "ARAM",
+   "sectionId": "patch-aram",
+   "midPatch": false,
+   "entity": {
+    "kind": "item",
+    "id": "3153",
+    "name": "Espada del Rey Arruinado"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "stat",
+   "attribute": "Daño de la pasiva",
+   "before": "10 / 8%",
+   "after": "12 / 10% de la Vida actual del objetivo",
+   "text": "Daño de la pasiva: 10 / 8% ⇒ 12 / 10% de la Vida actual del objetivo",
+   "id": "d17d6bceb1c8",
+   "section": "modes",
+   "tags": [
+    "Damage",
+    "AttackSpeed",
+    "LifeSteal",
+    "Slow",
+    "OnHit"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "ARAM",
+   "sectionId": "patch-aram",
+   "midPatch": false,
+   "entity": {
+    "kind": "none",
+    "id": null,
+    "name": ""
+   },
+   "part": "Extenuación",
+   "partTitle": "Extenuación",
+   "spellKey": null,
+   "kind": "stat",
+   "attribute": "Enfriamiento",
+   "before": "240 seg",
+   "after": "290 seg. (Nota: ARAM tiene 70 de aceleración de invocador. En ese modo, su enfriamiento aumentaría de 140 seg a 170 seg)",
+   "text": "Enfriamiento: 240 seg ⇒ 290 seg. (Nota: ARAM tiene 70 de aceleración de invocador. En ese modo, su enfriamiento aumentaría de 140 seg a 170 seg)",
+   "id": "a24d067ff7d2",
+   "section": "modes",
+   "tags": [],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Pelea",
+   "sectionId": "patch-brawl",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Kayle",
+    "name": "Kayle"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "text",
+   "attribute": null,
+   "before": null,
+   "after": null,
+   "text": "Ganancia pasiva de XP: Kayle ya no obtendrá experiencia de forma pasiva en el modo Pelea",
+   "id": "b34647c66024",
+   "section": "modes",
+   "tags": [
+    "Mage",
+    "Marksman"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Pelea",
+   "sectionId": "patch-brawl",
+   "midPatch": false,
+   "entity": {
+    "kind": "none",
+    "id": null,
+    "name": ""
+   },
+   "part": "Ganancia pasiva de oro",
+   "partTitle": "Ganancia pasiva de oro",
+   "spellKey": null,
+   "kind": "stat",
+   "attribute": "Ganancia pasiva de oro",
+   "before": "65 de oro cada 10 seg",
+   "after": "75 de oro cada 10 seg, que aumenta a 100 de oro cada 10 seg después de los 5 min de partida",
+   "text": "Ganancia pasiva de oro: 65 de oro cada 10 seg ⇒ 75 de oro cada 10 seg, que aumenta a 100 de oro cada 10 seg después de los 5 min de partida",
+   "id": "6b9197c7c259",
+   "section": "modes",
+   "tags": [],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Pelea",
+   "sectionId": "patch-brawl",
+   "midPatch": false,
+   "entity": {
+    "kind": "none",
+    "id": null,
+    "name": ""
+   },
+   "part": "Ganancia pasiva de experiencia",
+   "partTitle": "Ganancia pasiva de experiencia",
+   "spellKey": null,
+   "kind": "stat",
+   "attribute": "Ganancia pasiva de experiencia",
+   "before": "20 de XP cada 10 seg",
+   "after": "20 de XP cada 10 seg, que aumenta a 30 de XP cada 10 seg después de los 5 min de partida",
+   "text": "Ganancia pasiva de experiencia: 20 de XP cada 10 seg ⇒ 20 de XP cada 10 seg, que aumenta a 30 de XP cada 10 seg después de los 5 min de partida",
+   "id": "6d0ed9f2e2f7",
+   "section": "modes",
+   "tags": [],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Pelea",
+   "sectionId": "patch-brawl",
+   "midPatch": false,
+   "entity": {
+    "kind": "none",
+    "id": null,
+    "name": ""
+   },
+   "part": "Juguito",
+   "partTitle": "Juguito",
+   "spellKey": null,
+   "kind": "new",
+   "attribute": null,
+   "before": null,
+   "after": null,
+   "text": "Nuevos productos: Añadimos Juguito de Poder de Bandle, Juguito de Vitalidad y Juguito de Aceleración a la tienda de objetos. Estos consumibles otorgan una mejora acumulable permanente, y solo pueden comprarlos después de subir al nivel 16. También vienen con gorritos. Y ya que vienen con gorritos, eliminaremos Juguito de Gorrito",
+   "id": "444376f01db0",
+   "section": "modes",
+   "tags": [],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Clash: Copa MSI",
+   "sectionId": "patch-clash---msi-cup",
+   "midPatch": false,
+   "entity": {
+    "kind": "none",
+    "id": null,
+    "name": ""
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "text",
+   "attribute": null,
+   "before": null,
+   "after": null,
+   "text": "Inscripción: A partir del 16 de junio a las 11:00 (hora local)",
+   "id": "d43af9ac5d53",
+   "section": "systems",
+   "tags": [],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Clash: Copa MSI",
+   "sectionId": "patch-clash---msi-cup",
+   "midPatch": false,
+   "entity": {
+    "kind": "none",
+    "id": null,
+    "name": ""
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "text",
+   "attribute": null,
+   "before": null,
+   "after": null,
+   "text": "Días del torneo: 21 y 22 de junio (entre las 16:00 y las 19:00 hora local, varía según la región)",
+   "id": "b28374bba8bb",
+   "section": "systems",
+   "tags": [],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Corrección de errores y cambios de funcionalidad",
+   "sectionId": "patch-bugfixes-and-qol-changes",
+   "midPatch": false,
+   "entity": {
+    "kind": "none",
+    "id": null,
+    "name": ""
+   },
+   "part": "Cambios de funcionalidad",
+   "partTitle": "Cambios de funcionalidad",
+   "spellKey": null,
+   "kind": "text",
+   "attribute": null,
+   "before": null,
+   "after": null,
+   "text": "Ahora, Cota de Espinas refleja correctamente el daño de los ataques básicos del dragón",
+   "id": "1d802714384f",
+   "section": "systems",
+   "tags": [],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Corrección de errores y cambios de funcionalidad",
+   "sectionId": "patch-bugfixes-and-qol-changes",
+   "midPatch": false,
+   "entity": {
+    "kind": "none",
+    "id": null,
+    "name": ""
+   },
+   "part": "Corrección de errores",
+   "partTitle": "Corrección de errores",
+   "spellKey": null,
+   "kind": "text",
+   "attribute": null,
+   "before": null,
+   "after": null,
+   "text": "Corregimos un error que hacía que el Heraldo de la Grieta no bailara si estaba cerca del nexo enemigo cuando lo destruían",
+   "id": "62673b5673ca",
+   "section": "systems",
+   "tags": [],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Corrección de errores y cambios de funcionalidad",
+   "sectionId": "patch-bugfixes-and-qol-changes",
+   "midPatch": false,
+   "entity": {
+    "kind": "none",
+    "id": null,
+    "name": ""
+   },
+   "part": "Corrección de errores",
+   "partTitle": "Corrección de errores",
+   "spellKey": null,
+   "kind": "text",
+   "attribute": null,
+   "before": null,
+   "after": null,
+   "text": "Corregimos un error que provocaba que el salto de Rengar fallara cuando aumentaba su alcance o cuando tenía como objetivo una unidad muy grande o el nexo",
+   "id": "4ec7702c5312",
+   "section": "systems",
+   "tags": [],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Corrección de errores y cambios de funcionalidad",
+   "sectionId": "patch-bugfixes-and-qol-changes",
+   "midPatch": false,
+   "entity": {
+    "kind": "none",
+    "id": null,
+    "name": ""
+   },
+   "part": "Corrección de errores",
+   "partTitle": "Corrección de errores",
+   "spellKey": null,
+   "kind": "text",
+   "attribute": null,
+   "before": null,
+   "after": null,
+   "text": "Corregimos un error que ocasionaba que la amplificación de daño de Canción de Sangre no amplificara el efecto de sangrado de Danza de la Muerte",
+   "id": "b0c914aaa26b",
+   "section": "systems",
+   "tags": [],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Corrección de errores y cambios de funcionalidad",
+   "sectionId": "patch-bugfixes-and-qol-changes",
+   "midPatch": false,
+   "entity": {
+    "kind": "none",
+    "id": null,
+    "name": ""
+   },
+   "part": "Corrección de errores",
+   "partTitle": "Corrección de errores",
+   "spellKey": null,
+   "kind": "text",
+   "attribute": null,
+   "before": null,
+   "after": null,
+   "text": "Corregimos un error que causaba que el audio de Canción de Sangre no se reprodujera en cada instancia incluso si ya se había conseguido la mejora",
+   "id": "d4bc830fe077",
+   "section": "systems",
+   "tags": [],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Corrección de errores y cambios de funcionalidad",
+   "sectionId": "patch-bugfixes-and-qol-changes",
+   "midPatch": false,
+   "entity": {
+    "kind": "none",
+    "id": null,
+    "name": ""
+   },
+   "part": "Corrección de errores",
+   "partTitle": "Corrección de errores",
+   "spellKey": null,
+   "kind": "text",
+   "attribute": null,
+   "before": null,
+   "after": null,
+   "text": "Corregimos un error que hacía que la R de Brand se cancelara si moría la siguiente unidad fijada como objetivo",
+   "id": "a3a28a418ca6",
+   "section": "systems",
+   "tags": [],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Corrección de errores y cambios de funcionalidad",
+   "sectionId": "patch-bugfixes-and-qol-changes",
+   "midPatch": false,
+   "entity": {
+    "kind": "none",
+    "id": null,
+    "name": ""
+   },
+   "part": "Corrección de errores",
+   "partTitle": "Corrección de errores",
+   "spellKey": null,
+   "kind": "text",
+   "attribute": null,
+   "before": null,
+   "after": null,
+   "text": "Corregimos un error que provocaba que, a veces, el indicador de la pasiva de Akali apareciera alrededor de los caracteres incorrectos",
+   "id": "dd478dd60fda",
+   "section": "systems",
+   "tags": [],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Corrección de errores y cambios de funcionalidad",
+   "sectionId": "patch-bugfixes-and-qol-changes",
+   "midPatch": false,
+   "entity": {
+    "kind": "none",
+    "id": null,
+    "name": ""
+   },
+   "part": "Corrección de errores",
+   "partTitle": "Corrección de errores",
+   "spellKey": null,
+   "kind": "text",
+   "attribute": null,
+   "before": null,
+   "after": null,
+   "text": "Corregimos un error que ocasionaba que la E2 de Sylas aplicara el daño de su W y curara al campeón varias veces",
+   "id": "bf5fea9db960",
+   "section": "systems",
+   "tags": [],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Corrección de errores y cambios de funcionalidad",
+   "sectionId": "patch-bugfixes-and-qol-changes",
+   "midPatch": false,
+   "entity": {
+    "kind": "none",
+    "id": null,
+    "name": ""
+   },
+   "part": "Corrección de errores",
+   "partTitle": "Corrección de errores",
+   "spellKey": null,
+   "kind": "text",
+   "attribute": null,
+   "before": null,
+   "after": null,
+   "text": "Corregimos un error que causaba que, a veces, el indicador de ejecución de la pasiva de Aurelion Sol fuera impreciso",
+   "id": "949c2e835fd4",
+   "section": "systems",
+   "tags": [],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Corrección de errores y cambios de funcionalidad",
+   "sectionId": "patch-bugfixes-and-qol-changes",
+   "midPatch": false,
+   "entity": {
+    "kind": "none",
+    "id": null,
+    "name": ""
+   },
+   "part": "Corrección de errores",
+   "partTitle": "Corrección de errores",
+   "spellKey": null,
+   "kind": "text",
+   "attribute": null,
+   "before": null,
+   "after": null,
+   "text": "Corregimos un error que hacía que Lumbría aumentara el daño de Ignición",
+   "id": "7060640dbf99",
+   "section": "systems",
+   "tags": [],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Corrección de errores y cambios de funcionalidad",
+   "sectionId": "patch-bugfixes-and-qol-changes",
+   "midPatch": false,
+   "entity": {
+    "kind": "none",
+    "id": null,
+    "name": ""
+   },
+   "part": "Corrección de errores",
+   "partTitle": "Corrección de errores",
+   "spellKey": null,
+   "kind": "text",
+   "attribute": null,
+   "before": null,
+   "after": null,
+   "text": "Corregimos un error que provocaba que el Heraldo de la Grieta no le hiciera daño a la torreta del nexo si la embestía mientras un jugador lo montaba",
+   "id": "7d6ba7f51ae5",
+   "section": "systems",
+   "tags": [],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Corrección de errores y cambios de funcionalidad",
+   "sectionId": "patch-bugfixes-and-qol-changes",
+   "midPatch": false,
+   "entity": {
+    "kind": "none",
+    "id": null,
+    "name": ""
+   },
+   "part": "Corrección de errores",
+   "partTitle": "Corrección de errores",
+   "spellKey": null,
+   "kind": "text",
+   "attribute": null,
+   "before": null,
+   "after": null,
+   "text": "Corregimos un error que ocasionaba que, a veces, el Heraldo de la Grieta fallara su ataque cargado",
+   "id": "0d13191c175a",
+   "section": "systems",
+   "tags": [],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Corrección de errores y cambios de funcionalidad",
+   "sectionId": "patch-bugfixes-and-qol-changes",
+   "midPatch": false,
+   "entity": {
+    "kind": "none",
+    "id": null,
+    "name": ""
+   },
+   "part": "Corrección de errores",
+   "partTitle": "Corrección de errores",
+   "spellKey": null,
+   "kind": "text",
+   "attribute": null,
+   "before": null,
+   "after": null,
+   "text": "Corregimos un error que causaba que algunos de los efectos de sonido de Darius Bestia Lunar no se reprodujeran o se interrumpieran antes de terminar",
+   "id": "4bf27e2b6ceb",
+   "section": "systems",
+   "tags": [],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Corrección de errores y cambios de funcionalidad",
+   "sectionId": "patch-bugfixes-and-qol-changes",
+   "midPatch": false,
+   "entity": {
+    "kind": "none",
+    "id": null,
+    "name": ""
+   },
+   "part": "Corrección de errores",
+   "partTitle": "Corrección de errores",
+   "spellKey": null,
+   "kind": "text",
+   "attribute": null,
+   "before": null,
+   "after": null,
+   "text": "Corregimos un error que hacía que los Espectros de la Niebla de Senna consumieran bonificaciones al impacto, como las activaciones de Daga de Statikk o de Brillo",
+   "id": "494471d50397",
+   "section": "systems",
+   "tags": [],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Corrección de errores y cambios de funcionalidad",
+   "sectionId": "patch-bugfixes-and-qol-changes",
+   "midPatch": false,
+   "entity": {
+    "kind": "none",
+    "id": null,
+    "name": ""
+   },
+   "part": "Corrección de errores",
+   "partTitle": "Corrección de errores",
+   "spellKey": null,
+   "kind": "text",
+   "attribute": null,
+   "before": null,
+   "after": null,
+   "text": "Corregimos un error que provocaba que los efectos visuales de la Q de Mordekaiser siguieran la dirección hacia la que observaba el campeón en lugar de permanecer donde él había lanzado e impactado la habilidad",
+   "id": "94e207e40b82",
+   "section": "systems",
+   "tags": [],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Corrección de errores y cambios de funcionalidad",
+   "sectionId": "patch-bugfixes-and-qol-changes",
+   "midPatch": false,
+   "entity": {
+    "kind": "none",
+    "id": null,
+    "name": ""
+   },
+   "part": "Corrección de errores",
+   "partTitle": "Corrección de errores",
+   "spellKey": null,
+   "kind": "text",
+   "attribute": null,
+   "before": null,
+   "after": null,
+   "text": "Corregimos un error que ocasionaba que la Q de Mordekaiser girara en la dirección hacia la que observaba el campeón si él lanzaba Destello durante la canalización de la habilidad",
+   "id": "100ceff616ca",
+   "section": "systems",
+   "tags": [],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Corrección de errores y cambios de funcionalidad",
+   "sectionId": "patch-bugfixes-and-qol-changes",
+   "midPatch": false,
+   "entity": {
+    "kind": "none",
+    "id": null,
+    "name": ""
+   },
+   "part": "Corrección de errores",
+   "partTitle": "Corrección de errores",
+   "spellKey": null,
+   "kind": "text",
+   "attribute": null,
+   "before": null,
+   "after": null,
+   "text": "Corregimos un error que permitía que la E de Swain atrajera a Yone hacia la ubicación inicial de su R",
+   "id": "ebcf763af480",
+   "section": "systems",
+   "tags": [],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Corrección de errores y cambios de funcionalidad",
+   "sectionId": "patch-bugfixes-and-qol-changes",
+   "midPatch": false,
+   "entity": {
+    "kind": "none",
+    "id": null,
+    "name": ""
+   },
+   "part": "Corrección de errores",
+   "partTitle": "Corrección de errores",
+   "spellKey": null,
+   "kind": "text",
+   "attribute": null,
+   "before": null,
+   "after": null,
+   "text": "Corregimos un error que hacía que las mejoras de la pantalla de muerte no funcionaran correctamente en varios modos de juego",
+   "id": "2c434c02ad67",
+   "section": "systems",
+   "tags": [],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Corrección de errores y cambios de funcionalidad",
+   "sectionId": "patch-bugfixes-and-qol-changes",
+   "midPatch": false,
+   "entity": {
+    "kind": "none",
+    "id": null,
+    "name": ""
+   },
+   "part": "Corrección de errores",
+   "partTitle": "Corrección de errores",
+   "spellKey": null,
+   "kind": "text",
+   "attribute": null,
+   "before": null,
+   "after": null,
+   "text": "Corregimos un error que provocaba que ¡Daisy! de Ivern no atacara los inhibidores y los nexos",
+   "id": "944aa074aae0",
+   "section": "systems",
+   "tags": [],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Corrección de errores y cambios de funcionalidad",
+   "sectionId": "patch-bugfixes-and-qol-changes",
+   "midPatch": false,
+   "entity": {
+    "kind": "none",
+    "id": null,
+    "name": ""
+   },
+   "part": "Corrección de errores",
+   "partTitle": "Corrección de errores",
+   "spellKey": null,
+   "kind": "text",
+   "attribute": null,
+   "before": null,
+   "after": null,
+   "text": "Corregimos un error que ocasionaba que apareciera texto de depuración cuando los jugadores con nivel de Honor 5 usaban sus alertas",
+   "id": "67a209bb8254",
+   "section": "systems",
+   "tags": [],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Corrección de errores y cambios de funcionalidad",
+   "sectionId": "patch-bugfixes-and-qol-changes",
+   "midPatch": false,
+   "entity": {
+    "kind": "none",
+    "id": null,
+    "name": ""
+   },
+   "part": "Corrección de errores",
+   "partTitle": "Corrección de errores",
+   "spellKey": null,
+   "kind": "text",
+   "attribute": null,
+   "before": null,
+   "after": null,
+   "text": "Corregimos un error que causaba que no se mostraran correctamente las alertas de chat de Cadencia Letal y Sexto Sentido",
+   "id": "629bff0a7929",
+   "section": "systems",
+   "tags": [],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Corrección de errores y cambios de funcionalidad",
+   "sectionId": "patch-bugfixes-and-qol-changes",
+   "midPatch": false,
+   "entity": {
+    "kind": "none",
+    "id": null,
+    "name": ""
+   },
+   "part": "Corrección de errores",
+   "partTitle": "Corrección de errores",
+   "spellKey": null,
+   "kind": "text",
+   "attribute": null,
+   "before": null,
+   "after": null,
+   "text": "Corregimos un error que hacía que los diálogos de Samira al derribar a un campeón no se reprodujeran correctamente",
+   "id": "186fa87a5835",
+   "section": "systems",
+   "tags": [],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Próximos aspectos y chromas",
+   "sectionId": "patch-upcoming-skins-and-chromas",
+   "midPatch": false,
+   "entity": {
+    "kind": "none",
+    "id": null,
+    "name": ""
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "text",
+   "attribute": null,
+   "before": null,
+   "after": null,
+   "text": "Lanzaremos los siguientes aspectos en esta versión:",
+   "id": "1773370fa97d",
+   "section": "cosmetics",
+   "tags": [],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Próximos aspectos y chromas",
+   "sectionId": "patch-upcoming-skins-and-chromas",
+   "midPatch": false,
+   "entity": {
+    "kind": "none",
+    "id": null,
+    "name": ""
+   },
+   "part": "Nilah Tinta Sombría",
+   "partTitle": "Nilah Tinta Sombría",
+   "spellKey": null,
+   "kind": "text",
+   "attribute": null,
+   "before": null,
+   "after": null,
+   "text": "Lanzaremos los siguientes chromas en esta versión:",
+   "id": "e7c4acc78744",
+   "section": "cosmetics",
+   "tags": [],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  }
+ ]
+}

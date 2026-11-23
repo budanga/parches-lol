@@ -1,0 +1,893 @@
+{
+ "schemaVersion": 1,
+ "id": "XinZhao",
+ "name": "Xin Zhao",
+ "tags": [
+  "Fighter",
+  "Tank"
+ ],
+ "entries": [
+  {
+   "patch": "26.21",
+   "publishedAt": "2026-10-20T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "XinZhao",
+      "name": "Xin Zhao"
+     },
+     "part": "Q",
+     "partTitle": "Q: Golpe de Garra Triple",
+     "spellKey": "XinZhaoQ",
+     "kind": "stat",
+     "attribute": "Daño por golpe",
+     "before": "15 / 30 / 45 / 60 / 75 (+40% de Daño de Ataque adicional)",
+     "after": "15 / 30 / 45 / 60 / 75 (+45% de Daño de Ataque adicional)",
+     "text": "Daño por golpe: 15 / 30 / 45 / 60 / 75 (+40% de Daño de Ataque adicional) ⇒ 15 / 30 / 45 / 60 / 75 (+45% de Daño de Ataque adicional)",
+     "id": "8e062e06ffed",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "XinZhao",
+      "name": "Xin Zhao"
+     },
+     "part": "E",
+     "partTitle": "E: Carga Audaz",
+     "spellKey": "XinZhaoE",
+     "kind": "stat",
+     "attribute": "Escalado de Velocidad de Ataque",
+     "before": "1% por cada 5% de Velocidad de ataque adicional de fuentes permanentes",
+     "after": "1% por cada 4% de Velocidad de ataque adicional de fuentes permanentes",
+     "text": "Escalado de Velocidad de Ataque: 1% por cada 5% de Velocidad de ataque adicional de fuentes permanentes ⇒ 1% por cada 4% de Velocidad de ataque adicional de fuentes permanentes",
+     "id": "56fef4387d52",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "26.18",
+   "publishedAt": "2026-09-09T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Classic",
+     "sectionId": "patch-classic",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "XinZhao",
+      "name": "Xin Zhao"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "new",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "NUEVO Xin Zhao",
+     "id": "38f28dca7654",
+     "section": "modes",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "26.15",
+   "publishedAt": "2026-07-28T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "ARAM: Caos",
+     "sectionId": "patch-aram:-mayhem",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "XinZhao",
+      "name": "Xin Zhao"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño infligido",
+     "before": "95%",
+     "after": "100%",
+     "text": "Daño infligido: 95% ⇒ 100%",
+     "id": "f4cbe1f6341b",
+     "section": "modes",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "26.12",
+   "publishedAt": "2026-06-09T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "XinZhao",
+      "name": "Xin Zhao"
+     },
+     "part": "P",
+     "partTitle": "Pasiva: Determinación",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Curación",
+     "before": "3 / 4 / 5% de Vida Máx. (+45 / 55 / 80% de Poder de Habilidad)",
+     "after": "2 / 3.5 / 5% de Vida Máx. (+40 / 50 / 70% de Poder de Habilidad)",
+     "text": "Curación: 3 / 4 / 5% de Vida Máx. (+45 / 55 / 80% de Poder de Habilidad) ⇒ 2 / 3.5 / 5% de Vida Máx. (+40 / 50 / 70% de Poder de Habilidad)",
+     "id": "1c9a8ca8dcdb",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "XinZhao",
+      "name": "Xin Zhao"
+     },
+     "part": "W",
+     "partTitle": "W: El Viento se Vuelve Tormenta",
+     "spellKey": "XinZhaoW",
+     "kind": "stat",
+     "attribute": "Costo de Maná",
+     "before": "60 / 55 / 50 / 45 / 40",
+     "after": "60",
+     "text": "Costo de Maná: 60 / 55 / 50 / 45 / 40 ⇒ 60",
+     "id": "8498ac8b20ac",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "XinZhao",
+      "name": "Xin Zhao"
+     },
+     "part": "E",
+     "partTitle": "E: Carga Audaz",
+     "spellKey": "XinZhaoE",
+     "kind": "stat",
+     "attribute": "Costo de Maná",
+     "before": "50",
+     "after": "60",
+     "text": "Costo de Maná: 50 ⇒ 60",
+     "id": "1f3d21e68d4e",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "26.11",
+   "publishedAt": "2026-05-27T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "XinZhao",
+      "name": "Xin Zhao"
+     },
+     "part": "P",
+     "partTitle": "Pasiva: Determinación",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño adicional",
+     "before": "15% / 30% / 45% / 60% de Daño de Ataque adicional (niveles 1 / 6 / 11 / 16)",
+     "after": "15% / 30% / 45% / 60% de Daño de Ataque adicional (+ 5% / 10% / 15% / 20% de Poder de Habilidad) (niveles 1 / 6 / 11 / 16)",
+     "text": "Daño adicional: 15% / 30% / 45% / 60% de Daño de Ataque adicional (niveles 1 / 6 / 11 / 16) ⇒ 15% / 30% / 45% / 60% de Daño de Ataque adicional (+ 5% / 10% / 15% / 20% de Poder de Habilidad) (niveles 1 / 6 / 11 / 16)",
+     "id": "1f7325d42eea",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "XinZhao",
+      "name": "Xin Zhao"
+     },
+     "part": "P",
+     "partTitle": "Pasiva: Determinación",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Cantidad de Curación",
+     "before": "3% / 4% / 5% de Vida Máxima (+ 50% / 65% / 90% de Poder de Habilidad) (niveles 1 / 6 / 11)",
+     "after": "3% / 4% / 5% de Vida Máxima (+ 45% / 55% / 80% de Poder de Habilidad) (niveles 1 / 6 / 11)",
+     "text": "Cantidad de Curación: 3% / 4% / 5% de Vida Máxima (+ 50% / 65% / 90% de Poder de Habilidad) (niveles 1 / 6 / 11) ⇒ 3% / 4% / 5% de Vida Máxima (+ 45% / 55% / 80% de Poder de Habilidad) (niveles 1 / 6 / 11)",
+     "id": "3a12430dca31",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "26.10",
+   "publishedAt": "2026-05-12T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "XinZhao",
+      "name": "Xin Zhao"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Golpe de Garra Triple",
+     "id": "55e573619e4a",
+     "section": "modes",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "XinZhao",
+      "name": "Xin Zhao"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": null,
+     "before": "Daño: 15 / 30 / 45 / 60 / 75 (+ 40% de Daño de Ataque adicional)",
+     "after": "15 / 30 / 45 / 60 / 75 (+ 30% de Daño de Ataque adicional)",
+     "text": "Daño: 15 / 30 / 45 / 60 / 75 (+ 40% de Daño de Ataque adicional) ⇒ 15 / 30 / 45 / 60 / 75 (+ 30% de Daño de Ataque adicional)",
+     "id": "e763be6269fa",
+     "section": "modes",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "XinZhao",
+      "name": "Xin Zhao"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": null,
+     "before": "Enfriamiento: 7 / 6.5 / 6 / 5.5 / 5",
+     "after": "8 / 7.5 / 7 / 6.5 / 6",
+     "text": "Enfriamiento: 7 / 6.5 / 6 / 5.5 / 5 ⇒ 8 / 7.5 / 7 / 6.5 / 6",
+     "id": "da3fdfd6d631",
+     "section": "modes",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "XinZhao",
+      "name": "Xin Zhao"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Carga Audaz",
+     "id": "f1882ef9c85f",
+     "section": "modes",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "XinZhao",
+      "name": "Xin Zhao"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": null,
+     "before": "Velocidad de Ataque: (+10% por cada 100 de Poder de Habilidad)",
+     "after": "(+5% por cada 100 de Poder de Habilidad)",
+     "text": "Velocidad de Ataque: (+10% por cada 100 de Poder de Habilidad) ⇒ (+5% por cada 100 de Poder de Habilidad)",
+     "id": "c5184bacab9e",
+     "section": "modes",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "XinZhao",
+      "name": "Xin Zhao"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": null,
+     "before": "Enfriamiento: 11",
+     "after": "13",
+     "text": "Enfriamiento: 11 ⇒ 13",
+     "id": "f1a10f41729c",
+     "section": "modes",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "26.9",
+   "publishedAt": "2026-04-28T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "XinZhao",
+      "name": "Xin Zhao"
+     },
+     "part": "P: Determinación",
+     "partTitle": "P: Determinación",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Curación",
+     "before": "3 / 4 / 5% de Vida Máxima (+65% de Poder de Habilidad) (niveles 1 / 6 / 11)",
+     "after": "3 / 4 / 5% de Vida Máxima (+50 / 65 / 60% de Poder de Habilidad) (niveles 1 / 6 / 11)",
+     "text": "Curación: 3 / 4 / 5% de Vida Máxima (+65% de Poder de Habilidad) (niveles 1 / 6 / 11) ⇒ 3 / 4 / 5% de Vida Máxima (+50 / 65 / 60% de Poder de Habilidad) (niveles 1 / 6 / 11)",
+     "id": "c29ca0299ea6",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "XinZhao",
+      "name": "Xin Zhao"
+     },
+     "part": "W",
+     "partTitle": "W: El Viento se Vuelve Tormenta",
+     "spellKey": "XinZhaoW",
+     "kind": "stat",
+     "attribute": "Ralentización al empujar",
+     "before": "50% durante 1.5 seg",
+     "after": "50% durante 1.5 seg (+0.5s cada 100 de Poder de Habilidad)",
+     "text": "Ralentización al empujar: 50% durante 1.5 seg ⇒ 50% durante 1.5 seg (+0.5s cada 100 de Poder de Habilidad)",
+     "id": "6ef852035b4f",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "XinZhao",
+      "name": "Xin Zhao"
+     },
+     "part": "E",
+     "partTitle": "E: Carga Audaz",
+     "spellKey": "XinZhaoE",
+     "kind": "stat",
+     "attribute": "Daño mágico",
+     "before": "50 / 75 / 100 / 125 / 150 (+60% de Poder de Habilidad)",
+     "after": "50 / 75 / 100 / 125 / 150 (+120% de Poder de Habilidad)",
+     "text": "Daño mágico: 50 / 75 / 100 / 125 / 150 (+60% de Poder de Habilidad) ⇒ 50 / 75 / 100 / 125 / 150 (+120% de Poder de Habilidad)",
+     "id": "b8cd9ebbc7d2",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "XinZhao",
+      "name": "Xin Zhao"
+     },
+     "part": "E",
+     "partTitle": "E: Carga Audaz",
+     "spellKey": "XinZhaoE",
+     "kind": "stat",
+     "attribute": "Mejora de Velocidad de Ataque",
+     "before": "40 / 50 / 60 / 70 / 80% durante 5s",
+     "after": "38 / 46 / 54 / 62 / 70% (+1% cada 5% de Velocidad de Ataque permanente) (+10% cada 100 de Poder de Habilidad) durante 5s",
+     "text": "Mejora de Velocidad de Ataque: 40 / 50 / 60 / 70 / 80% durante 5s ⇒ 38 / 46 / 54 / 62 / 70% (+1% cada 5% de Velocidad de Ataque permanente) (+10% cada 100 de Poder de Habilidad) durante 5s",
+     "id": "0c1442245a51",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "26.3",
+   "publishedAt": "2026-02-03T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "XinZhao",
+      "name": "Xin Zhao"
+     },
+     "part": "P",
+     "partTitle": "Pasiva: Determinación",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Valor de la curación cada tres impactos",
+     "before": "3% / 3.5% / 4% de la Vida Máxima (niveles 1, 6 y 11)",
+     "after": "3% / 4% / 5% de la Vida Máxima (niveles 1, 6 y 11)",
+     "text": "Valor de la curación cada tres impactos: 3% / 3.5% / 4% de la Vida Máxima (niveles 1, 6 y 11) ⇒ 3% / 4% / 5% de la Vida Máxima (niveles 1, 6 y 11)",
+     "id": "e062454247ad",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "XinZhao",
+      "name": "Xin Zhao"
+     },
+     "part": "E",
+     "partTitle": "E: Carga Audaz",
+     "spellKey": "XinZhaoE",
+     "kind": "stat",
+     "attribute": "Velocidad de Ataque adicional",
+     "before": "40% / 45% / 50% / 55% / 60%",
+     "after": "40% / 50% / 60% / 70% / 80%",
+     "text": "Velocidad de Ataque adicional: 40% / 45% / 50% / 55% / 60% ⇒ 40% / 50% / 60% / 70% / 80%",
+     "id": "630b92d2ad00",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.18",
+   "publishedAt": "2025-09-09T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones (Arena)",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "XinZhao",
+      "name": "Xin Zhao"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": null,
+     "before": "Tasa de Poder de Habilidad de la pasiva: 65%",
+     "after": "85%",
+     "text": "Tasa de Poder de Habilidad de la pasiva: 65% ⇒ 85%",
+     "id": "1fe85f250b39",
+     "section": "modes",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones (Arena)",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "XinZhao",
+      "name": "Xin Zhao"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": null,
+     "before": "Tasa de Poder de Habilidad de la E: 60%",
+     "after": "90%",
+     "text": "Tasa de Poder de Habilidad de la E: 60% ⇒ 90%",
+     "id": "8cae9d4a16c6",
+     "section": "modes",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.16",
+   "publishedAt": "2025-08-12T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "XinZhao",
+      "name": "Xin Zhao"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Redujimos su vida básica. Redujimos el daño de su Q.",
+     "id": "077d0b9b17a9",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "XinZhao",
+      "name": "Xin Zhao"
+     },
+     "part": "base",
+     "partTitle": "Estadísticas básicas",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Vida básica",
+     "before": "640",
+     "after": "620",
+     "text": "Vida básica: 640 ⇒ 620",
+     "id": "8a8080679547",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "XinZhao",
+      "name": "Xin Zhao"
+     },
+     "part": "Q",
+     "partTitle": "Q: Golpe de Garra Triple",
+     "spellKey": "XinZhaoQ",
+     "kind": "stat",
+     "attribute": "Daño físico adicional por impacto",
+     "before": "20 / 35 / 50 / 65 / 80",
+     "after": "15 / 30 / 45 / 60 / 75",
+     "text": "Daño físico adicional por impacto: 20 / 35 / 50 / 65 / 80 ⇒ 15 / 30 / 45 / 60 / 75",
+     "id": "3aef934de878",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.10",
+   "publishedAt": "2025-05-13T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "XinZhao",
+      "name": "Xin Zhao"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Redujimos el crecimiento de su armadura.",
+     "id": "0a98fb0c7010",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "XinZhao",
+      "name": "Xin Zhao"
+     },
+     "part": "base",
+     "partTitle": "Estadísticas básicas",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Crecimiento de Armadura",
+     "before": "5",
+     "after": "4.4",
+     "text": "Crecimiento de Armadura: 5 ⇒ 4.4",
+     "id": "c7b6af9795b5",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.6",
+   "publishedAt": "2025-03-18T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "XinZhao",
+      "name": "Xin Zhao"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Aumentamos el daño de su Q.",
+     "id": "fe6032acac7a",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "XinZhao",
+      "name": "Xin Zhao"
+     },
+     "part": "Q",
+     "partTitle": "Q: Golpe de Garra Triple",
+     "spellKey": "XinZhaoQ",
+     "kind": "stat",
+     "attribute": "Daño adicional",
+     "before": "16 / 29 / 42 / 55 / 68 (+ 40% de Daño de Ataque adicional)",
+     "after": "20 / 35 / 50 / 65 / 80 (+ 40% de Daño de Ataque adicional)",
+     "text": "Daño adicional: 16 / 29 / 42 / 55 / 68 (+ 40% de Daño de Ataque adicional) ⇒ 20 / 35 / 50 / 65 / 80 (+ 40% de Daño de Ataque adicional)",
+     "id": "144bb54938a9",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  }
+ ]
+}

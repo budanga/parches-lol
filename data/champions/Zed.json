@@ -1,0 +1,332 @@
+{
+ "schemaVersion": 1,
+ "id": "Zed",
+ "name": "Zed",
+ "tags": [
+  "Assassin"
+ ],
+ "entries": [
+  {
+   "patch": "26.10",
+   "publishedAt": "2026-05-12T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Zed",
+      "name": "Zed"
+     },
+     "part": "P: Desprecio hacia los Débiles",
+     "partTitle": "P: Desprecio hacia los Débiles",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Vida Máxima como daño",
+     "before": "6 / 8 / 10%",
+     "after": "5 / 7.5 / 10%",
+     "text": "Vida Máxima como daño: 6 / 8 / 10% ⇒ 5 / 7.5 / 10%",
+     "id": "c396efdd88a6",
+     "section": "champions",
+     "tags": [
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Zed",
+      "name": "Zed"
+     },
+     "part": "E",
+     "partTitle": "E: Cuchillada Sombría",
+     "spellKey": "ZedE",
+     "kind": "stat",
+     "attribute": "Daño",
+     "before": "70 / 95 / 120 / 145 / 170 (+80% de Daño de Ataque adicional)",
+     "after": "70 / 92.5 / 115 / 137.5 / 160 (+70% de Daño de Ataque adicional)",
+     "text": "Daño: 70 / 95 / 120 / 145 / 170 (+80% de Daño de Ataque adicional) ⇒ 70 / 92.5 / 115 / 137.5 / 160 (+70% de Daño de Ataque adicional)",
+     "id": "3f4469f8b0cf",
+     "section": "champions",
+     "tags": [
+      "Assassin"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "26.3",
+   "publishedAt": "2026-02-03T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "",
+     "sectionId": "patch-top",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Zed",
+      "name": "Zed"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": null,
+     "before": "Daño de la pasiva contra monstruos: ×0.5",
+     "after": "×0.75",
+     "text": "Daño de la pasiva contra monstruos: ×0.5 ⇒ ×0.75",
+     "id": "878fbe63c958",
+     "section": "champions",
+     "tags": [
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "",
+     "sectionId": "patch-top",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Zed",
+      "name": "Zed"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": null,
+     "before": "Daño máximo contra monstruos épicos: 100",
+     "after": "175",
+     "text": "Daño máximo contra monstruos épicos: 100 ⇒ 175",
+     "id": "06e37823f3a4",
+     "section": "champions",
+     "tags": [
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Zed",
+      "name": "Zed"
+     },
+     "part": "P",
+     "partTitle": "Pasiva: Desprecio hacia los Débiles",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño contra monstruos",
+     "before": "×1.2",
+     "after": "×0.5",
+     "text": "Daño contra monstruos: ×1.2 ⇒ ×0.5",
+     "id": "0835c3a42ac0",
+     "section": "champions",
+     "tags": [
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Zed",
+      "name": "Zed"
+     },
+     "part": "P",
+     "partTitle": "Pasiva: Desprecio hacia los Débiles",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño máximo contra monstruos épicos",
+     "before": "300",
+     "after": "100",
+     "text": "Daño máximo contra monstruos épicos: 300 ⇒ 100",
+     "id": "1adce993c435",
+     "section": "champions",
+     "tags": [
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "26.2",
+   "publishedAt": "2026-01-21T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Zed",
+      "name": "Zed"
+     },
+     "part": "P",
+     "partTitle": "Pasiva: Desprecio hacia los Débiles",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño contra monstruos",
+     "before": "×1.8",
+     "after": "×1.2",
+     "text": "Daño contra monstruos: ×1.8 ⇒ ×1.2",
+     "id": "6145d24fee2f",
+     "section": "champions",
+     "tags": [
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.24",
+   "publishedAt": "2025-12-02T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Zed",
+      "name": "Zed"
+     },
+     "part": "P",
+     "partTitle": "Pasiva: Desprecio hacia los Débiles",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño contra monstruos",
+     "before": "×2",
+     "after": "×1.8",
+     "text": "Daño contra monstruos: ×2 ⇒ ×1.8",
+     "id": "d10750ca38c1",
+     "section": "champions",
+     "tags": [
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.20",
+   "publishedAt": "2025-10-07T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Bots Apocalípticos",
+     "sectionId": "patch-doom-bots",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Zed",
+      "name": "Zed"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño infligido",
+     "before": "100%",
+     "after": "115%",
+     "text": "Daño infligido: 100% ⇒ 115%",
+     "id": "9f1244c46fe9",
+     "section": "modes",
+     "tags": [
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.5",
+   "publishedAt": "2025-03-04T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Zed",
+      "name": "Zed"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Aumentamos el daño de su E.",
+     "id": "dfb23d4c40cf",
+     "section": "champions",
+     "tags": [
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Zed",
+      "name": "Zed"
+     },
+     "part": "E",
+     "partTitle": "E: Cuchillada Sombría",
+     "spellKey": "ZedE",
+     "kind": "stat",
+     "attribute": "Daño",
+     "before": "65/90/115/140/165 (+65% de Daño de Ataque adicional)",
+     "after": "70/95/120/145/170 (+80% de Daño de Ataque adicional)",
+     "text": "Daño: 65/90/115/140/165 (+65% de Daño de Ataque adicional) ⇒ 70/95/120/145/170 (+80% de Daño de Ataque adicional)",
+     "id": "d820912cb1a4",
+     "section": "champions",
+     "tags": [
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  }
+ ]
+}

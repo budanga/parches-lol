@@ -1,0 +1,671 @@
+{
+ "schemaVersion": 1,
+ "id": "Mordekaiser",
+ "name": "Mordekaiser",
+ "tags": [
+  "Fighter",
+  "Mage"
+ ],
+ "entries": [
+  {
+   "patch": "26.22",
+   "publishedAt": "2026-11-03T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Classic",
+     "sectionId": "patch-classic",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Mordekaiser",
+      "name": "Mordekaiser"
+     },
+     "part": "base",
+     "partTitle": "Estadísticas base",
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Tiempo de ataque: Los ataques ahora se ejecutan aproximadamente un 70% más rápido. Esto lo corregimos aproximadamente 1 semana después de su lanzamiento",
+     "id": "378a6ad22be8",
+     "section": "modes",
+     "tags": [
+      "Fighter",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Classic",
+     "sectionId": "patch-classic",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Mordekaiser",
+      "name": "Mordekaiser"
+     },
+     "part": "R",
+     "partTitle": "R: Hijos de la Tumba",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño de Ataque adicional de mascotas",
+     "before": "75% de Daño de Ataque del objetivo",
+     "after": "75% de Daño de Ataque de Mordekaiser",
+     "text": "Daño de Ataque adicional de mascotas: 75% de Daño de Ataque del objetivo ⇒ 75% de Daño de Ataque de Mordekaiser",
+     "id": "ee7b9a5cffc9",
+     "section": "modes",
+     "tags": [
+      "Fighter",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Classic",
+     "sectionId": "patch-classic",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Mordekaiser",
+      "name": "Mordekaiser"
+     },
+     "part": "R",
+     "partTitle": "R: Hijos de la Tumba",
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Golpes Críticos a estructuras: Las mascotas ya no pueden asestar golpes críticos a las estructuras",
+     "id": "58bc0cdb6d1e",
+     "section": "modes",
+     "tags": [
+      "Fighter",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Classic",
+     "sectionId": "patch-classic",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Mordekaiser",
+      "name": "Mordekaiser"
+     },
+     "part": "R",
+     "partTitle": "R: Hijos de la Tumba",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño adicional a los inhibidores y al Nexo",
+     "before": "75% (¡Esto también era cierto en 2013!)",
+     "after": "0%",
+     "text": "Daño adicional a los inhibidores y al Nexo: 75% (¡Esto también era cierto en 2013!) ⇒ 0%",
+     "id": "617ea68c63c7",
+     "section": "modes",
+     "tags": [
+      "Fighter",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "26.21",
+   "publishedAt": "2026-10-20T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Classic",
+     "sectionId": "patch-classic",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Mordekaiser",
+      "name": "Mordekaiser"
+     },
+     "part": "Campeones",
+     "partTitle": "Campeones",
+     "spellKey": null,
+     "kind": "new",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "NUEVO Mordekaiser",
+     "id": "3506a9e6f398",
+     "section": "modes",
+     "tags": [
+      "Fighter",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "26.20",
+   "publishedAt": "2026-10-06T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Mordekaiser",
+      "name": "Mordekaiser"
+     },
+     "part": "Q",
+     "partTitle": "Q: Aniquilación",
+     "spellKey": "MordekaiserQ",
+     "kind": "stat",
+     "attribute": "Progresión del nivel 10 al 20",
+     "before": "(+5 por nivel)",
+     "after": "(+7 por nivel)",
+     "text": "Progresión del nivel 10 al 20: (+5 por nivel) ⇒ (+7 por nivel)",
+     "id": "064489cc5888",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Mordekaiser",
+      "name": "Mordekaiser"
+     },
+     "part": "R",
+     "partTitle": "R: Reino de la Muerte",
+     "spellKey": "MordekaiserR",
+     "kind": "stat",
+     "attribute": "Enfriamiento",
+     "before": "140 / 120 / 100 seg",
+     "after": "120 / 110 / 100 seg",
+     "text": "Enfriamiento: 140 / 120 / 100 seg ⇒ 120 / 110 / 100 seg",
+     "id": "cddfcb9059f2",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "26.15",
+   "publishedAt": "2026-07-28T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Mordekaiser",
+      "name": "Mordekaiser"
+     },
+     "part": "E",
+     "partTitle": "E: Garra del Inframundo",
+     "spellKey": "MordekaiserE",
+     "kind": "stat",
+     "attribute": "Enfriamiento",
+     "before": "18 / 16 / 14 / 12 / 10",
+     "after": "16 / 14 / 12 / 10 / 8",
+     "text": "Enfriamiento: 18 / 16 / 14 / 12 / 10 ⇒ 16 / 14 / 12 / 10 / 8",
+     "id": "34ad4cc73c15",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Mordekaiser",
+      "name": "Mordekaiser"
+     },
+     "part": "R",
+     "partTitle": "R: Reino de la Muerte",
+     "spellKey": "MordekaiserR",
+     "kind": "stat",
+     "attribute": "Estadísticas robadas",
+     "before": "13%",
+     "after": "10%",
+     "text": "Estadísticas robadas: 13% ⇒ 10%",
+     "id": "520d918cac14",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Mage"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Mordekaiser",
+      "name": "Mordekaiser"
+     },
+     "part": "R",
+     "partTitle": "R: Reino de la Muerte",
+     "spellKey": "MordekaiserR",
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Corrección de error: Corregimos un error que causaba que Mordekaiser obtuviera un aumento de daño (hasta el doble) al lanzar la definitiva a un objetivo con una cantidad de vida superior a la que le quedaría tras la reducción de vida máxima",
+     "id": "717d5868526f",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "ARAM: Caos",
+     "sectionId": "patch-aram:-mayhem",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Mordekaiser",
+      "name": "Mordekaiser"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño recibido",
+     "before": "-2%",
+     "after": "0%",
+     "text": "Daño recibido: -2% ⇒ 0%",
+     "id": "9733491e48d8",
+     "section": "modes",
+     "tags": [
+      "Fighter",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "26.14",
+   "publishedAt": "2026-07-14T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Mordekaiser",
+      "name": "Mordekaiser"
+     },
+     "part": "E",
+     "partTitle": "E: Garra del Inframundo",
+     "spellKey": "MordekaiserE",
+     "kind": "stat",
+     "attribute": "Daño",
+     "before": "60 / 75 / 90 / 105 / 120 (+40% de Poder de Habilidad)",
+     "after": "60 / 80 / 100 / 120 / 140 (+45% de Poder de Habilidad)",
+     "text": "Daño: 60 / 75 / 90 / 105 / 120 (+40% de Poder de Habilidad) ⇒ 60 / 80 / 100 / 120 / 140 (+45% de Poder de Habilidad)",
+     "id": "b3d7f6743c40",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Mage"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Mordekaiser",
+      "name": "Mordekaiser"
+     },
+     "part": "R",
+     "partTitle": "R: Reino de la Muerte",
+     "spellKey": "MordekaiserR",
+     "kind": "stat",
+     "attribute": "Robo de estadísticas",
+     "before": "10%",
+     "after": "13%",
+     "text": "Robo de estadísticas: 10% ⇒ 13%",
+     "id": "23618f508290",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Mage"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.22",
+   "publishedAt": "2025-11-04T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Mordekaiser",
+      "name": "Mordekaiser"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": null,
+     "before": "Duración del Reino de la Muerte: 28 seg",
+     "after": "15 seg",
+     "text": "Duración del Reino de la Muerte: 28 seg ⇒ 15 seg",
+     "id": "ad868b1242de",
+     "section": "modes",
+     "tags": [
+      "Fighter",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.19",
+   "publishedAt": "2025-09-23T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Cambios de balance de ARAM",
+     "sectionId": "patch-aram-balance-changes",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Mordekaiser",
+      "name": "Mordekaiser"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño infligido",
+     "before": "95%",
+     "after": "100%",
+     "text": "Daño infligido: 95% ⇒ 100%",
+     "id": "b12330d4c116",
+     "section": "modes",
+     "tags": [
+      "Fighter",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Cambios de balance de ARAM",
+     "sectionId": "patch-aram-balance-changes",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Mordekaiser",
+      "name": "Mordekaiser"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño recibido",
+     "before": "102%",
+     "after": "100%",
+     "text": "Daño recibido: 102% ⇒ 100%",
+     "id": "c643a5cd5fcc",
+     "section": "modes",
+     "tags": [
+      "Fighter",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.18",
+   "publishedAt": "2025-09-09T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones (Arena)",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Mordekaiser",
+      "name": "Mordekaiser"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": null,
+     "before": "Duración: 10 seg",
+     "after": "28 seg (el efecto termina justo antes de que aparezca el Anillo de Fuego)",
+     "text": "Duración: 10 seg ⇒ 28 seg (el efecto termina justo antes de que aparezca el Anillo de Fuego)",
+     "id": "d28acbfa346a",
+     "section": "modes",
+     "tags": [
+      "Fighter",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.16",
+   "publishedAt": "2025-08-12T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Mordekaiser",
+      "name": "Mordekaiser"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Agregamos una tasa de daño de ataque a su Q.",
+     "id": "53e2d8904a19",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Mordekaiser",
+      "name": "Mordekaiser"
+     },
+     "part": "Q",
+     "partTitle": "Q: Aniquilación",
+     "spellKey": "MordekaiserQ",
+     "kind": "stat",
+     "attribute": "Tasa de Daño de Ataque como daño",
+     "before": "0% de Daño de Ataque adicional",
+     "after": "120% de Daño de Ataque adicional",
+     "text": "Tasa de Daño de Ataque como daño: 0% de Daño de Ataque adicional ⇒ 120% de Daño de Ataque adicional",
+     "id": "52299db8ecb0",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.12",
+   "publishedAt": "2025-06-10T18:05:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Mordekaiser",
+      "name": "Mordekaiser"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Aumentamos el daño de su Q.",
+     "id": "34642b4e7f18",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Mordekaiser",
+      "name": "Mordekaiser"
+     },
+     "part": "Q",
+     "partTitle": "Q: Aniquilación",
+     "spellKey": "MordekaiserQ",
+     "kind": "stat",
+     "attribute": "Daño",
+     "before": "De 0 a 45 (según el nivel) (+ 80 / 110 / 140 / 170 / 200) (+ 70% de Poder de Habilidad)",
+     "after": "De 0 a 45 (según el nivel) (+ 80 / 115 / 150 / 185 / 220) (+ 70% de Poder de Habilidad)",
+     "text": "Daño: De 0 a 45 (según el nivel) (+ 80 / 110 / 140 / 170 / 200) (+ 70% de Poder de Habilidad) ⇒ De 0 a 45 (según el nivel) (+ 80 / 115 / 150 / 185 / 220) (+ 70% de Poder de Habilidad)",
+     "id": "e40f2b3711b9",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.7",
+   "publishedAt": "2025-04-01T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "ARAM",
+     "sectionId": "patch-aram",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Mordekaiser",
+      "name": "Mordekaiser"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño recibido",
+     "before": "105%",
+     "after": "102%",
+     "text": "Daño recibido: 105% ⇒ 102%",
+     "id": "ae1eaa31926e",
+     "section": "modes",
+     "tags": [
+      "Fighter",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  }
+ ]
+}

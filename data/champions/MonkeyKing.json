@@ -1,0 +1,359 @@
+{
+ "schemaVersion": 1,
+ "id": "MonkeyKing",
+ "name": "Wukong",
+ "tags": [
+  "Fighter",
+  "Tank"
+ ],
+ "entries": [
+  {
+   "patch": "26.21",
+   "publishedAt": "2026-10-20T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "MonkeyKing",
+      "name": "Wukong"
+     },
+     "part": "base",
+     "partTitle": "Estadísticas base",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Regeneración de Vida",
+     "before": "3.5 + 0.65 por nivel",
+     "after": "5.5 + 0.65 por nivel",
+     "text": "Regeneración de Vida: 3.5 + 0.65 por nivel ⇒ 5.5 + 0.65 por nivel",
+     "id": "cb92c9212a04",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "MonkeyKing",
+      "name": "Wukong"
+     },
+     "part": "P",
+     "partTitle": "Pasiva: Piel de Piedra",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Armadura por acumulación",
+     "before": "6 - 10 (según el nivel del campeón)",
+     "after": "4.5 - 10 (según el nivel del campeón)",
+     "text": "Armadura por acumulación: 6 - 10 (según el nivel del campeón) ⇒ 4.5 - 10 (según el nivel del campeón)",
+     "id": "acbd7b8723a0",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "26.10",
+   "publishedAt": "2026-05-12T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "MonkeyKing",
+      "name": "Wukong"
+     },
+     "part": "W",
+     "partTitle": "W: Guerrero Bromista",
+     "spellKey": "MonkeyKingDecoy",
+     "kind": "stat",
+     "attribute": "Daño del clon",
+     "before": "30 / 35 / 40 / 45 / 50%",
+     "after": "40 / 45 / 50 / 55 / 60%",
+     "text": "Daño del clon: 30 / 35 / 40 / 45 / 50% ⇒ 40 / 45 / 50 / 55 / 60%",
+     "id": "d24a22cd659f",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "MonkeyKing",
+      "name": "Wukong"
+     },
+     "part": "W",
+     "partTitle": "W: Guerrero Bromista",
+     "spellKey": "MonkeyKingDecoy",
+     "kind": "stat",
+     "attribute": "Duración del clon",
+     "before": "3.25",
+     "after": "4",
+     "text": "Duración del clon : 3.25 ⇒ 4",
+     "id": "95a83092dc27",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "MonkeyKing",
+      "name": "Wukong"
+     },
+     "part": "E",
+     "partTitle": "E: Golpe de Nimbo",
+     "spellKey": "MonkeyKingNimbus",
+     "kind": "stat",
+     "attribute": "Velocidad de Ataque adicional",
+     "before": "35 / 40 / 45 / 50 / 55%",
+     "after": "40 / 45 / 50 / 55 / 60%",
+     "text": "Velocidad de Ataque adicional: 35 / 40 / 45 / 50 / 55% ⇒ 40 / 45 / 50 / 55 / 60%",
+     "id": "cd27f795c896",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.20",
+   "publishedAt": "2025-10-07T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "MonkeyKing",
+      "name": "Wukong"
+     },
+     "part": "Q",
+     "partTitle": "Q: Golpe Aplastante",
+     "spellKey": "MonkeyKingDoubleAttack",
+     "kind": "stat",
+     "attribute": "Tasa de Daño de Ataque como daño adicional",
+     "before": "55%",
+     "after": "50% de Daño de Ataque adicional",
+     "text": "Tasa de Daño de Ataque como daño adicional: 55% ⇒ 50% de Daño de Ataque adicional",
+     "id": "84bf30fc1dd8",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "MonkeyKing",
+      "name": "Wukong"
+     },
+     "part": "W",
+     "partTitle": "W: Guerrero Bromista",
+     "spellKey": "MonkeyKingDecoy",
+     "kind": "stat",
+     "attribute": "Enfriamiento",
+     "before": "20 / 19 / 18 / 17 /16 seg",
+     "after": "22 / 21 / 20 / 19 / 18 seg",
+     "text": "Enfriamiento: 20 / 19 / 18 / 17 /16 seg ⇒ 22 / 21 / 20 / 19 / 18 seg",
+     "id": "b8befb454b85",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "MonkeyKing",
+      "name": "Wukong"
+     },
+     "part": "W",
+     "partTitle": "W: Guerrero Bromista",
+     "spellKey": "MonkeyKingDecoy",
+     "kind": "stat",
+     "attribute": "Daño de clon",
+     "before": "35% / 40% / 45% / 50% / 55%",
+     "after": "30% / 35% / 40% / 45% / 50%",
+     "text": "Daño de clon: 35% / 40% / 45% / 50% / 55% ⇒ 30% / 35% / 40% / 45% / 50%",
+     "id": "47387b51c5e7",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "MonkeyKing",
+      "name": "Wukong"
+     },
+     "part": "E",
+     "partTitle": "E: Golpe de Nimbo",
+     "spellKey": "MonkeyKingNimbus",
+     "kind": "stat",
+     "attribute": "Daño básico",
+     "before": "80 / 110 / 140 / 170 / 200",
+     "after": "80 / 120 / 160 / 200 / 240",
+     "text": "Daño básico: 80 / 110 / 140 / 170 / 200 ⇒ 80 / 120 / 160 / 200 / 240",
+     "id": "b5ed01fa44ff",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.S1.3",
+   "publishedAt": "2025-02-04T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "MonkeyKing",
+      "name": "Wukong"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Aumentamos el enfriamiento de su W. Redujimos la Velocidad de Ataque de la E.",
+     "id": "e676107f35db",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "MonkeyKing",
+      "name": "Wukong"
+     },
+     "part": "W",
+     "partTitle": "W: Señuelo",
+     "spellKey": "MonkeyKingDecoy",
+     "kind": "stat",
+     "attribute": "Enfriamiento",
+     "before": "18/17/16/15/14",
+     "after": "20/19/18/17/16",
+     "text": "Enfriamiento: 18/17/16/15/14 ⇒ 20/19/18/17/16",
+     "id": "796a5ddae223",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "MonkeyKing",
+      "name": "Wukong"
+     },
+     "part": "E",
+     "partTitle": "E: Golpe de Nimbo",
+     "spellKey": "MonkeyKingNimbus",
+     "kind": "stat",
+     "attribute": "Velocidad de Ataque",
+     "before": "40/45/50/55/60%",
+     "after": "35/40/45/50/55%",
+     "text": "Velocidad de Ataque: 40/45/50/55/60% ⇒ 35/40/45/50/55%",
+     "id": "6c3e1eb67333",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  }
+ ]
+}

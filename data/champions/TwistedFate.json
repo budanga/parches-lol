@@ -1,0 +1,485 @@
+{
+ "schemaVersion": 1,
+ "id": "TwistedFate",
+ "name": "Twisted Fate",
+ "tags": [
+  "Mage",
+  "Marksman"
+ ],
+ "entries": [
+  {
+   "patch": "26.21",
+   "publishedAt": "2026-10-20T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "TwistedFate",
+      "name": "Twisted Fate"
+     },
+     "part": "R",
+     "partTitle": "R: Destino",
+     "spellKey": "Destiny",
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Revelar: Ahora revela a unidades inalcanzables.",
+     "id": "ea6982d1a0de",
+     "section": "champions",
+     "tags": [
+      "Mage",
+      "Marksman"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "26.15",
+   "publishedAt": "2026-07-28T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "TwistedFate",
+      "name": "Twisted Fate"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "R: Destino",
+     "id": "18dd1acf7409",
+     "section": "modes",
+     "tags": [
+      "Mage",
+      "Marksman"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "TwistedFate",
+      "name": "Twisted Fate"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Enfriamiento",
+     "before": "170 / 140 / 110",
+     "after": "40 / 30 / 20",
+     "text": "Enfriamiento: 170 / 140 / 110 ⇒ 40 / 30 / 20",
+     "id": "8a4366c76ef7",
+     "section": "modes",
+     "tags": [
+      "Mage",
+      "Marksman"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "TwistedFate",
+      "name": "Twisted Fate"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Duración",
+     "before": "3 / 4 / 5 seg",
+     "after": "3 / 4 / 5 seg",
+     "text": "Duración: 3 / 4 / 5 seg ⇒ 3 / 4 / 5 seg",
+     "id": "1fbc1f66bc78",
+     "section": "modes",
+     "tags": [
+      "Mage",
+      "Marksman"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.14",
+   "publishedAt": "2025-07-15T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "TwistedFate",
+      "name": "Twisted Fate"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Redujimos el daño de su Q.",
+     "id": "f24f295fffbe",
+     "section": "champions",
+     "tags": [
+      "Mage",
+      "Marksman"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "TwistedFate",
+      "name": "Twisted Fate"
+     },
+     "part": "Q",
+     "partTitle": "Q: Comodines",
+     "spellKey": "WildCards",
+     "kind": "stat",
+     "attribute": "Daño",
+     "before": "70 / 115 / 160 / 205 / 250 (+ 50% de Daño de Ataque adicional) (+ 85% de Poder de Habilidad)",
+     "after": "60 / 105 / 150 / 195 / 240 (+ 50% de Daño de Ataque adicional) (+ 85% de Poder de Habilidad)",
+     "text": "Daño: 70 / 115 / 160 / 205 / 250 (+ 50% de Daño de Ataque adicional) (+ 85% de Poder de Habilidad) ⇒ 60 / 105 / 150 / 195 / 240 (+ 50% de Daño de Ataque adicional) (+ 85% de Poder de Habilidad)",
+     "id": "fb268ae2989d",
+     "section": "champions",
+     "tags": [
+      "Mage",
+      "Marksman"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.13",
+   "publishedAt": "2025-06-24T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "TwistedFate",
+      "name": "Twisted Fate"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Aumentamos el enfriamiento de su R.",
+     "id": "a6a723091f5e",
+     "section": "champions",
+     "tags": [
+      "Mage",
+      "Marksman"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "TwistedFate",
+      "name": "Twisted Fate"
+     },
+     "part": "R",
+     "partTitle": "R: Destino",
+     "spellKey": "Destiny",
+     "kind": "stat",
+     "attribute": "Enfriamiento",
+     "before": "160 / 130 / 100",
+     "after": "170 / 140 / 110",
+     "text": "Enfriamiento: 160 / 130 / 100 ⇒ 170 / 140 / 110",
+     "id": "a2421fef69e1",
+     "section": "champions",
+     "tags": [
+      "Mage",
+      "Marksman"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.12",
+   "publishedAt": "2025-06-10T18:05:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "TwistedFate",
+      "name": "Twisted Fate"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Aumentamos la velocidad de ataque adicional de su E. Redujimos el enfriamiento de su R.",
+     "id": "fce09a4a9b99",
+     "section": "champions",
+     "tags": [
+      "Mage",
+      "Marksman"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "TwistedFate",
+      "name": "Twisted Fate"
+     },
+     "part": "E",
+     "partTitle": "E: Baraja Trucada",
+     "spellKey": "CardmasterStack",
+     "kind": "stat",
+     "attribute": "Velocidad de Ataque adicional",
+     "before": "10 / 20 / 30 / 40 / 50%",
+     "after": "15 / 25 / 35 / 45 / 55%",
+     "text": "Velocidad de Ataque adicional: 10 / 20 / 30 / 40 / 50% ⇒ 15 / 25 / 35 / 45 / 55%",
+     "id": "66711c334255",
+     "section": "champions",
+     "tags": [
+      "Mage",
+      "Marksman"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "TwistedFate",
+      "name": "Twisted Fate"
+     },
+     "part": "R",
+     "partTitle": "R: Destino",
+     "spellKey": "Destiny",
+     "kind": "stat",
+     "attribute": "Enfriamiento",
+     "before": "180 / 150 / 120 seg",
+     "after": "160 / 130 / 100 seg",
+     "text": "Enfriamiento: 180 / 150 / 120 seg ⇒ 160 / 130 / 100 seg",
+     "id": "4539c1064b43",
+     "section": "champions",
+     "tags": [
+      "Mage",
+      "Marksman"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.11",
+   "publishedAt": "2025-05-27T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "TwistedFate",
+      "name": "Twisted Fate"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Aumentamos el daño de su Q.",
+     "id": "51092898231c",
+     "section": "champions",
+     "tags": [
+      "Mage",
+      "Marksman"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "TwistedFate",
+      "name": "Twisted Fate"
+     },
+     "part": "Q",
+     "partTitle": "Q: Comodines",
+     "spellKey": "WildCards",
+     "kind": "stat",
+     "attribute": "Daño básico",
+     "before": "60 / 105 / 150 / 195 / 240 (+ 50% de Daño de Ataque adicional) (+ 85% de Poder de Habilidad)",
+     "after": "70 / 115 / 160 / 205 / 250 (+ 50% de Daño de Ataque adicional) (+ 85% de Poder de Habilidad)",
+     "text": "Daño básico: 60 / 105 / 150 / 195 / 240 (+ 50% de Daño de Ataque adicional) (+ 85% de Poder de Habilidad) ⇒ 70 / 115 / 160 / 205 / 250 (+ 50% de Daño de Ataque adicional) (+ 85% de Poder de Habilidad)",
+     "id": "418c4b7d327f",
+     "section": "champions",
+     "tags": [
+      "Mage",
+      "Marksman"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Pelea",
+     "sectionId": "patch-brawl",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "TwistedFate",
+      "name": "Twisted Fate"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Enfriamiento de la R",
+     "before": "180 / 150 / 120",
+     "after": "120 / 100 / 80",
+     "text": "Enfriamiento de la R: 180 / 150 / 120 ⇒ 120 / 100 / 80",
+     "id": "bf9049c2e3c2",
+     "section": "modes",
+     "tags": [
+      "Mage",
+      "Marksman"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.6",
+   "publishedAt": "2025-03-18T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "TwistedFate",
+      "name": "Twisted Fate"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Aumentamos su armadura básica.",
+     "id": "20fb770b579d",
+     "section": "champions",
+     "tags": [
+      "Mage",
+      "Marksman"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "TwistedFate",
+      "name": "Twisted Fate"
+     },
+     "part": "base",
+     "partTitle": "Estadísticas básicas",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Armadura básica",
+     "before": "21",
+     "after": "24",
+     "text": "Armadura básica: 21 ⇒ 24",
+     "id": "1fa51884e35c",
+     "section": "champions",
+     "tags": [
+      "Mage",
+      "Marksman"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  }
+ ]
+}

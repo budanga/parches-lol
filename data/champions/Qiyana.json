@@ -1,0 +1,790 @@
+{
+ "schemaVersion": 1,
+ "id": "Qiyana",
+ "name": "Qiyana",
+ "tags": [
+  "Assassin"
+ ],
+ "entries": [
+  {
+   "patch": "26.21",
+   "publishedAt": "2026-10-20T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Qiyana",
+      "name": "Qiyana"
+     },
+     "part": "Q",
+     "partTitle": "Q: Filo de Ixtal / Furia Elemental",
+     "spellKey": "QiyanaQ",
+     "kind": "stat",
+     "attribute": "Daño",
+     "before": "80 / 110 / 140 / 170 / 200 (+90% de Daño de Ataque adicional)",
+     "after": "70 / 100 / 130 / 160 / 190 (+90% de Daño de Ataque adicional)",
+     "text": "Daño: 80 / 110 / 140 / 170 / 200 (+90% de Daño de Ataque adicional) ⇒ 70 / 100 / 130 / 160 / 190 (+90% de Daño de Ataque adicional)",
+     "id": "7c3de003a364",
+     "section": "champions",
+     "tags": [
+      "Assassin"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "26.17",
+   "publishedAt": "2026-08-25T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Qiyana",
+      "name": "Qiyana"
+     },
+     "part": "Q",
+     "partTitle": "Q: Furia Elemental",
+     "spellKey": "RekSaiQ",
+     "kind": "stat",
+     "attribute": "Daño",
+     "before": "70 / 100 / 130 / 160 / 190 (+85% de Daño de Ataque adicional)",
+     "after": "80 / 110 / 140 / 170 / 200 (+90% de Daño de Ataque adicional)",
+     "text": "Daño: 70 / 100 / 130 / 160 / 190 (+85% de Daño de Ataque adicional) ⇒ 80 / 110 / 140 / 170 / 200 (+90% de Daño de Ataque adicional)",
+     "id": "b531194a12b3",
+     "section": "champions",
+     "tags": [
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Qiyana",
+      "name": "Qiyana"
+     },
+     "part": "Q",
+     "partTitle": "Q: Furia Elemental",
+     "spellKey": "RekSaiQ",
+     "kind": "stat",
+     "attribute": "Modificador de daño a monstruos",
+     "before": "175% contra monstruos",
+     "after": "160% contra monstruos",
+     "text": "Modificador de daño a monstruos: 175% contra monstruos ⇒ 160% contra monstruos",
+     "id": "c67fc115b674",
+     "section": "champions",
+     "tags": [
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "26.15",
+   "publishedAt": "2026-07-28T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "ARAM: Caos",
+     "sectionId": "patch-aram:-mayhem",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Qiyana",
+      "name": "Qiyana"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño infligido",
+     "before": "115%",
+     "after": "110%",
+     "text": "Daño infligido: 115% ⇒ 110%",
+     "id": "3aaa8ef02389",
+     "section": "modes",
+     "tags": [
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "26.13",
+   "publishedAt": "2026-06-23T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Qiyana",
+      "name": "Qiyana"
+     },
+     "part": "Q",
+     "partTitle": "Q: Filo de Ixtal",
+     "spellKey": "QiyanaQ",
+     "kind": "stat",
+     "attribute": "Daño contra monstruos",
+     "before": "155%",
+     "after": "175%",
+     "text": "Daño contra monstruos: 155% ⇒ 175%",
+     "id": "29140ac3963c",
+     "section": "champions",
+     "tags": [
+      "Assassin"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "26.11",
+   "publishedAt": "2026-05-27T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "ARAM",
+     "sectionId": "patch-aram",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Qiyana",
+      "name": "Qiyana"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Aceleración de Habilidad",
+     "before": "0",
+     "after": "20",
+     "text": "Aceleración de Habilidad: 0 ⇒ 20",
+     "id": "8e7740ed91e6",
+     "section": "modes",
+     "tags": [
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "26.4",
+   "publishedAt": "2026-02-18T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Qiyana",
+      "name": "Qiyana"
+     },
+     "part": "base",
+     "partTitle": "Estadísticas básicas",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Crecimiento de Vida",
+     "before": "121",
+     "after": "115",
+     "text": "Crecimiento de Vida: 121 ⇒ 115",
+     "id": "64a506047c71",
+     "section": "champions",
+     "tags": [
+      "Assassin"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.24",
+   "publishedAt": "2025-12-02T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Actualizaciones dentro de la versión, 16 de diciembre de 2025",
+     "sectionId": "patch-season-3-ranked-ending-soon",
+     "midPatch": true,
+     "entity": {
+      "kind": "champion",
+      "id": "Qiyana",
+      "name": "Qiyana"
+     },
+     "part": "Q",
+     "partTitle": "Q: Filo de Ixtal / Furia Elemental",
+     "spellKey": "QiyanaQ",
+     "kind": "stat",
+     "attribute": "Daño contra monstruos",
+     "before": "×1.75",
+     "after": "×1.55",
+     "text": "Daño contra monstruos: ×1.75 ⇒ ×1.55",
+     "id": "0a2aa3f4c9bd",
+     "section": "champions",
+     "tags": [
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.21",
+   "publishedAt": "2025-10-21T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Qiyana",
+      "name": "Qiyana"
+     },
+     "part": "base",
+     "partTitle": "Estadísticas básicas",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Crecimiento de Vida",
+     "before": "124",
+     "after": "121",
+     "text": "Crecimiento de Vida: 124 ⇒ 121",
+     "id": "dde60f5e6957",
+     "section": "champions",
+     "tags": [
+      "Assassin"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Qiyana",
+      "name": "Qiyana"
+     },
+     "part": "Q",
+     "partTitle": "Q: Filo de Ixtal / Furia Elemental",
+     "spellKey": "QiyanaQ",
+     "kind": "stat",
+     "attribute": "Daño",
+     "before": "70 / 100 / 130 / 160 / 190 (+ 90% de Daño de Ataque adicional)",
+     "after": "70 / 100 / 130 / 160 / 190 (+ 85% de Daño de Ataque adicional)",
+     "text": "Daño: 70 / 100 / 130 / 160 / 190 (+ 90% de Daño de Ataque adicional) ⇒ 70 / 100 / 130 / 160 / 190 (+ 85% de Daño de Ataque adicional)",
+     "id": "709d4a85f655",
+     "section": "champions",
+     "tags": [
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.18",
+   "publishedAt": "2025-09-09T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Qiyana",
+      "name": "Qiyana"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Redujimos el crecimiento básico de su daño de ataque y de su armadura. Redujimos el daño de su pasiva.",
+     "id": "f7d1fcc8d045",
+     "section": "champions",
+     "tags": [
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Qiyana",
+      "name": "Qiyana"
+     },
+     "part": "base",
+     "partTitle": "Estadísticas básicas",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño de Ataque básico",
+     "before": "66",
+     "after": "64",
+     "text": "Daño de Ataque básico: 66 ⇒ 64",
+     "id": "15a51406a96c",
+     "section": "champions",
+     "tags": [
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Qiyana",
+      "name": "Qiyana"
+     },
+     "part": "base",
+     "partTitle": "Estadísticas básicas",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Crecimiento de Armadura",
+     "before": "4.7",
+     "after": "4.5",
+     "text": "Crecimiento de Armadura: 4.7 ⇒ 4.5",
+     "id": "892df744c8ee",
+     "section": "champions",
+     "tags": [
+      "Assassin"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Qiyana",
+      "name": "Qiyana"
+     },
+     "part": "P",
+     "partTitle": "Pasiva: Privilegio Real",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño adicional",
+     "before": "30% de Daño de Ataque adicional",
+     "after": "25% de Daño de Ataque adicional",
+     "text": "Daño adicional: 30% de Daño de Ataque adicional ⇒ 25% de Daño de Ataque adicional",
+     "id": "404045ffb454",
+     "section": "champions",
+     "tags": [
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.16",
+   "publishedAt": "2025-08-12T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Qiyana",
+      "name": "Qiyana"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Aumentamos el daño de su Q. Aumentamos la velocidad de ataque adicional de su W.",
+     "id": "14681ef6c080",
+     "section": "champions",
+     "tags": [
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Qiyana",
+      "name": "Qiyana"
+     },
+     "part": "Q",
+     "partTitle": "Q: Filo de Ixtal / Furia Elemental",
+     "spellKey": "QiyanaQ",
+     "kind": "stat",
+     "attribute": "Daño básico",
+     "before": "60 / 90 / 120 / 150 / 180",
+     "after": "70 / 100 / 130 / 160 / 190",
+     "text": "Daño básico: 60 / 90 / 120 / 150 / 180 ⇒ 70 / 100 / 130 / 160 / 190",
+     "id": "453997682d6c",
+     "section": "champions",
+     "tags": [
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Qiyana",
+      "name": "Qiyana"
+     },
+     "part": "W",
+     "partTitle": "W: Terraformación",
+     "spellKey": "QiyanaW",
+     "kind": "stat",
+     "attribute": "Velocidad de Ataque adicional",
+     "before": "5% / 10% / 15% / 20% / 25%",
+     "after": "15% / 20% / 25% / 30% / 35%",
+     "text": "Velocidad de Ataque adicional: 5% / 10% / 15% / 20% / 25% ⇒ 15% / 20% / 25% / 30% / 35%",
+     "id": "e66d035b05a5",
+     "section": "champions",
+     "tags": [
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones (Arena)",
+     "sectionId": "patch-champions-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Qiyana",
+      "name": "Qiyana"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": null,
+     "before": "Tasa de Daño de Ataque al impacto de la W: 20% adicional",
+     "after": "35% adicional",
+     "text": "Tasa de Daño de Ataque al impacto de la W: 20% adicional ⇒ 35% adicional",
+     "id": "a648f7b6edce",
+     "section": "modes",
+     "tags": [
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones (Arena)",
+     "sectionId": "patch-champions-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Qiyana",
+      "name": "Qiyana"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": null,
+     "before": "Daño básico de la R: 100 / 200 / 300",
+     "after": "150 / 300 / 450",
+     "text": "Daño básico de la R: 100 / 200 / 300 ⇒ 150 / 300 / 450",
+     "id": "0bdf5a8d6da2",
+     "section": "modes",
+     "tags": [
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.11",
+   "publishedAt": "2025-05-27T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Pelea",
+     "sectionId": "patch-brawl",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Qiyana",
+      "name": "Qiyana"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño recibido",
+     "before": "100%",
+     "after": "95%",
+     "text": "Daño recibido: 100% ⇒ 95%",
+     "id": "b3142ba03db4",
+     "section": "modes",
+     "tags": [
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Pelea",
+     "sectionId": "patch-brawl",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Qiyana",
+      "name": "Qiyana"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Aceleración de Habilidad",
+     "before": "0",
+     "after": "10",
+     "text": "Aceleración de Habilidad: 0 ⇒ 10",
+     "id": "12dcbbba6f91",
+     "section": "modes",
+     "tags": [
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Pelea",
+     "sectionId": "patch-brawl",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Qiyana",
+      "name": "Qiyana"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Enfriamiento de la R",
+     "before": "120",
+     "after": "100 / 85 / 70",
+     "text": "Enfriamiento de la R: 120 ⇒ 100 / 85 / 70",
+     "id": "b3e54e0d6200",
+     "section": "modes",
+     "tags": [
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.9",
+   "publishedAt": "2025-04-29T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Modos de juego rotativos y cambios en Arena",
+     "sectionId": "patch-rotating-game-modes-and-arena-changes",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Qiyana",
+      "name": "Qiyana"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Velocidad de Movimiento adicional de la W",
+     "before": "3 / 5 / 7 / 9 / 11%",
+     "after": "12 / 14 / 16 / 18 / 20%",
+     "text": "Velocidad de Movimiento adicional de la W: 3 / 5 / 7 / 9 / 11% ⇒ 12 / 14 / 16 / 18 / 20%",
+     "id": "041c5a2ce393",
+     "section": "modes",
+     "tags": [
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Modos de juego rotativos y cambios en Arena",
+     "sectionId": "patch-rotating-game-modes-and-arena-changes",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Qiyana",
+      "name": "Qiyana"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Velocidad de Ataque adicional de la W",
+     "before": "5 / 10 / 15 / 20 / 25%",
+     "after": "30 / 35 / 40 / 45 / 50",
+     "text": "Velocidad de Ataque adicional de la W: 5 / 10 / 15 / 20 / 25% ⇒ 30 / 35 / 40 / 45 / 50",
+     "id": "fce70e7dbca8",
+     "section": "modes",
+     "tags": [
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Modos de juego rotativos y cambios en Arena",
+     "sectionId": "patch-rotating-game-modes-and-arena-changes",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Qiyana",
+      "name": "Qiyana"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño mágico adicional de la W",
+     "before": "8 / 16 / 24 / 32 / 40 (+ 20% de Daño de Ataque adicional) (+ 45% de Poder de Habilidad)",
+     "after": "8 / 16 / 24 / 32 / 40 (+ 20% de Daño de Ataque adicional) (+ 55% de Poder de Habilidad)",
+     "text": "Daño mágico adicional de la W: 8 / 16 / 24 / 32 / 40 (+ 20% de Daño de Ataque adicional) (+ 45% de Poder de Habilidad) ⇒ 8 / 16 / 24 / 32 / 40 (+ 20% de Daño de Ataque adicional) (+ 55% de Poder de Habilidad)",
+     "id": "848c845a4a7f",
+     "section": "modes",
+     "tags": [
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.S1.2",
+   "publishedAt": "2025-01-22T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Partida Casual",
+     "sectionId": "patch-swiftplay",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Qiyana",
+      "name": "Qiyana"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Vida",
+     "before": "590",
+     "after": "620",
+     "text": "Vida: 590 ⇒ 620",
+     "id": "9273276b6d1d",
+     "section": "champions",
+     "tags": [
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Partida Casual",
+     "sectionId": "patch-swiftplay",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Qiyana",
+      "name": "Qiyana"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño de la E",
+     "before": "50/90/130/170/210 (+50% de Daño de Ataque adicional)",
+     "after": "50/90/130/170/210 (+70% de Daño de Ataque adicional)",
+     "text": "Daño de la E: 50/90/130/170/210 (+50% de Daño de Ataque adicional) ⇒ 50/90/130/170/210 (+70% de Daño de Ataque adicional)",
+     "id": "00d7909c2d8f",
+     "section": "champions",
+     "tags": [
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  }
+ ]
+}

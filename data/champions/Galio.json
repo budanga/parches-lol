@@ -1,0 +1,485 @@
+{
+ "schemaVersion": 1,
+ "id": "Galio",
+ "name": "Galio",
+ "tags": [
+  "Tank",
+  "Mage"
+ ],
+ "entries": [
+  {
+   "patch": "26.23",
+   "publishedAt": "2026-11-17T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Galio",
+      "name": "Galio"
+     },
+     "part": "W",
+     "partTitle": "W: Escudo de Durand",
+     "spellKey": "GalioW",
+     "kind": "stat",
+     "attribute": "Cantidad de escudo (también afecta a la R)",
+     "before": "7.5 / 9 / 10.5 / 12 / 13.5% de su Vida Máxima",
+     "after": "8 / 11 / 14 / 17 / 20% de su Vida Máxima",
+     "text": "Cantidad de escudo (también afecta a la R): 7.5 / 9 / 10.5 / 12 / 13.5% de su Vida Máxima ⇒ 8 / 11 / 14 / 17 / 20% de su Vida Máxima",
+     "id": "b7bc7d694528",
+     "section": "champions",
+     "tags": [
+      "Tank",
+      "Mage"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "26.21",
+   "publishedAt": "2026-10-20T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Galio",
+      "name": "Galio"
+     },
+     "part": "W",
+     "partTitle": "W: Escudo de Durand",
+     "spellKey": "GalioW",
+     "kind": "stat",
+     "attribute": "Tasa de Vida del escudo de la pasiva",
+     "before": "7.5 - 15%",
+     "after": "6 - 10%",
+     "text": "Tasa de Vida del escudo de la pasiva: 7.5 - 15% ⇒ 6 - 10%",
+     "id": "74fb6c11d66c",
+     "section": "modes",
+     "tags": [
+      "Tank",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Galio",
+      "name": "Galio"
+     },
+     "part": "W",
+     "partTitle": "W: Escudo de Durand",
+     "spellKey": "GalioW",
+     "kind": "stat",
+     "attribute": "Duración de provocación canalizada al máximo",
+     "before": "1.5 seg",
+     "after": "1 seg",
+     "text": "Duración de provocación canalizada al máximo: 1.5 seg ⇒ 1 seg",
+     "id": "b61ee883dfea",
+     "section": "modes",
+     "tags": [
+      "Tank",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Galio",
+      "name": "Galio"
+     },
+     "part": "R",
+     "partTitle": "R: Entrada Heroica",
+     "spellKey": "GalioR",
+     "kind": "stat",
+     "attribute": "Duración de lanzamiento en el aire",
+     "before": "1.5 seg",
+     "after": "1 seg",
+     "text": "Duración de lanzamiento en el aire: 1.5 seg ⇒ 1 seg",
+     "id": "f108369e08aa",
+     "section": "modes",
+     "tags": [
+      "Tank",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "26.18",
+   "publishedAt": "2026-09-09T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Classic",
+     "sectionId": "patch-classic",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Galio",
+      "name": "Galio"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "new",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "NUEVO Galio",
+     "id": "70f2c4d5ef57",
+     "section": "modes",
+     "tags": [
+      "Tank",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "26.10",
+   "publishedAt": "2026-05-12T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Galio",
+      "name": "Galio"
+     },
+     "part": "Q",
+     "partTitle": "Q: Vientos de Guerra",
+     "spellKey": "GalioQ",
+     "kind": "stat",
+     "attribute": "Costo de Maná",
+     "before": "70 / 75 / 80 / 85 / 90",
+     "after": "60 / 65 / 70 / 75 / 80",
+     "text": "Costo de Maná: 70 / 75 / 80 / 85 / 90 ⇒ 60 / 65 / 70 / 75 / 80",
+     "id": "3197a200707e",
+     "section": "champions",
+     "tags": [
+      "Tank",
+      "Mage"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Galio",
+      "name": "Galio"
+     },
+     "part": "E",
+     "partTitle": "E: Golpe Justiciero",
+     "spellKey": "GalioE",
+     "kind": "stat",
+     "attribute": "Daño total",
+     "before": "90 / 130 / 170 / 210 / 250 (+90% de Poder de Habilidad)",
+     "after": "100 / 135 / 170 / 205 / 240 (+100% de Poder de Habilidad)",
+     "text": "Daño total: 90 / 130 / 170 / 210 / 250 (+90% de Poder de Habilidad) ⇒ 100 / 135 / 170 / 205 / 240 (+100% de Poder de Habilidad)",
+     "id": "c9d54c9d2e3e",
+     "section": "champions",
+     "tags": [
+      "Tank",
+      "Mage"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Galio",
+      "name": "Galio"
+     },
+     "part": "R",
+     "partTitle": "R: Entrada Heroica",
+     "spellKey": "GalioR",
+     "kind": "new",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "NUEVO Daño total: Ahora aumenta con un 100% de la Resistencia Mágica adicional",
+     "id": "25a164558a60",
+     "section": "champions",
+     "tags": [
+      "Tank",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.18",
+   "publishedAt": "2025-09-09T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Galio",
+      "name": "Galio"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Redujimos el daño de su pasiva y de su Q.",
+     "id": "b17c3ae61e40",
+     "section": "champions",
+     "tags": [
+      "Tank",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Galio",
+      "name": "Galio"
+     },
+     "part": "P",
+     "partTitle": "Pasiva: Golpe Colosal",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Tasa de Poder de Habilidad",
+     "before": "45%",
+     "after": "40%",
+     "text": "Tasa de Poder de Habilidad: 45% ⇒ 40%",
+     "id": "b4c6aeb17828",
+     "section": "champions",
+     "tags": [
+      "Tank",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Galio",
+      "name": "Galio"
+     },
+     "part": "Q",
+     "partTitle": "Q: Vientos de Guerra",
+     "spellKey": "GalioQ",
+     "kind": "stat",
+     "attribute": "Porcentaje de Vida Máxima como daño por activación",
+     "before": "2.5%",
+     "after": "2%",
+     "text": "Porcentaje de Vida Máxima como daño por activación: 2.5% ⇒ 2%",
+     "id": "d9af0284cbd8",
+     "section": "champions",
+     "tags": [
+      "Tank",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.11",
+   "publishedAt": "2025-05-27T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Pelea",
+     "sectionId": "patch-brawl",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Galio",
+      "name": "Galio"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño infligido",
+     "before": "100%",
+     "after": "95%",
+     "text": "Daño infligido: 100% ⇒ 95%",
+     "id": "1669160f682f",
+     "section": "modes",
+     "tags": [
+      "Tank",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Pelea",
+     "sectionId": "patch-brawl",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Galio",
+      "name": "Galio"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Aceleración de Habilidad",
+     "before": "0",
+     "after": "-10",
+     "text": "Aceleración de Habilidad: 0 ⇒ -10",
+     "id": "dc842d3349b9",
+     "section": "modes",
+     "tags": [
+      "Tank",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Pelea",
+     "sectionId": "patch-brawl",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Galio",
+      "name": "Galio"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Enfriamiento de la R",
+     "before": "180 / 160 / 140",
+     "after": "120 / 110 / 100",
+     "text": "Enfriamiento de la R: 180 / 160 / 140 ⇒ 120 / 110 / 100",
+     "id": "f36543f20ac4",
+     "section": "modes",
+     "tags": [
+      "Tank",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.S1.3",
+   "publishedAt": "2025-02-04T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Galio",
+      "name": "Galio"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Redujimos su vida básica.",
+     "id": "f656bbccd52a",
+     "section": "champions",
+     "tags": [
+      "Tank",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Galio",
+      "name": "Galio"
+     },
+     "part": "base",
+     "partTitle": "Estadísticas básicas",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Vida",
+     "before": "632",
+     "after": "600",
+     "text": "Vida: 632 ⇒ 600",
+     "id": "d3d52662e450",
+     "section": "champions",
+     "tags": [
+      "Tank",
+      "Mage"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,5139 @@
+{
+ "schemaVersion": 1,
+ "patch": "25.20",
+ "title": "Patch 25.20 Notes",
+ "url": "https://www.leagueoflegends.com/es-mx/news/game-updates/patch-25-20-notes/",
+ "publishedAt": "2025-10-07T18:00:00.000Z",
+ "ddragonVersion": "15.20.1",
+ "changes": [
+  {
+   "sectionTitle": "Actualizaciones dentro de la versión",
+   "sectionId": "patch-midpatch-updates",
+   "midPatch": true,
+   "entity": {
+    "kind": "champion",
+    "id": "Azir",
+    "name": "Azir"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "stat",
+   "attribute": "Tasa de Poder de Habilidad de la W",
+   "before": "30% / 40% / 50% / 60% / 70%",
+   "after": "32.5% / 40% / 47.5% / 55% / 62.5%",
+   "text": "Tasa de Poder de Habilidad de la W: 30% / 40% / 50% / 60% / 70% ⇒ 32.5% / 40% / 47.5% / 55% / 62.5%",
+   "id": "5462ec0db8db",
+   "section": "champions",
+   "tags": [
+    "Mage",
+    "Marksman"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Versión en breve",
+   "sectionId": "patch-patch-highlights",
+   "midPatch": false,
+   "entity": {
+    "kind": "none",
+    "id": null,
+    "name": ""
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "text",
+   "attribute": null,
+   "before": null,
+   "after": null,
+   "text": "Soraka Flora Fatalis, Fiddlesticks Flora Fatalis, Lissandra Flora Fatalis y Xin Zhao Desafíos del Crepúsculo estarán disponibles el 8 de octubre de 2025.",
+   "id": "d28167b326de",
+   "section": "systems",
+   "tags": [],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Versión del Worlds",
+   "sectionId": "patch-world",
+   "midPatch": false,
+   "entity": {
+    "kind": "none",
+    "id": null,
+    "name": ""
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "text",
+   "attribute": null,
+   "before": null,
+   "after": null,
+   "text": "Para celebrar el Worlds, decoraremos un poco la Grieta con temática del Campeonato Mundial e incluiremos la nueva Copa del Invocador. ¡Dense una vuelta por el carril superior y echen un vistazo!",
+   "id": "24779cc67b81",
+   "section": "systems",
+   "tags": [],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Versión del Worlds",
+   "sectionId": "patch-world",
+   "midPatch": false,
+   "entity": {
+    "kind": "none",
+    "id": null,
+    "name": ""
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "text",
+   "attribute": null,
+   "before": null,
+   "after": null,
+   "text": "Xin Zhao Desafíos del Crepúsculo será el aspecto de los ingresos compartidos de Esports de este año. Riot destinará un porcentaje de las ganancias al Fondo de Ingresos Global, con el que se apoya directamente a las ligas y equipos del ecosistema de LoL Esports",
+   "id": "766132da0669",
+   "section": "systems",
+   "tags": [],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Versión del Worlds",
+   "sectionId": "patch-world",
+   "midPatch": false,
+   "entity": {
+    "kind": "none",
+    "id": null,
+    "name": ""
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "text",
+   "attribute": null,
+   "before": null,
+   "after": null,
+   "text": "En esta versión, lanzaremos 60 nuevos gestos de equipos, cada uno con un valor de 350 RP. Busquen a sus equipos (o memes) favoritos y adquiéranlos antes de que se vayan en la versión 25.23",
+   "id": "c24530d426b7",
+   "section": "systems",
+   "tags": [],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Versión del Worlds",
+   "sectionId": "patch-world",
+   "midPatch": false,
+   "entity": {
+    "kind": "none",
+    "id": null,
+    "name": ""
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "text",
+   "attribute": null,
+   "before": null,
+   "after": null,
+   "text": "¡Cuéntenle a la Grieta a quiénes apoyan este año! Adquieran un ícono de cualquiera de los equipos de 2025 por 250 RP. Tras equiparlo, representarán a su equipo favorito ostentando un acrónimo de tres letras delante de su nombre dentro del juego",
+   "id": "1e8801a60f34",
+   "section": "systems",
+   "tags": [],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Mejoras al modo streamer",
+   "sectionId": "patch-streamer-mode-improvements",
+   "midPatch": false,
+   "entity": {
+    "kind": "none",
+    "id": null,
+    "name": ""
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "text",
+   "attribute": null,
+   "before": null,
+   "after": null,
+   "text": "Ocultar nombres de otros jugadores: esto ocultará los nombres de jugador de los demás solo en su pantalla. Su identidad seguirá siendo visible para el resto de las personas que participen en la partida",
+   "id": "f1b8b7bf3ec7",
+   "section": "systems",
+   "tags": [],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Mejoras al modo streamer",
+   "sectionId": "patch-streamer-mode-improvements",
+   "midPatch": false,
+   "entity": {
+    "kind": "none",
+    "id": null,
+    "name": ""
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "text",
+   "attribute": null,
+   "before": null,
+   "after": null,
+   "text": "Ocultar mi nombre: esto ocultará su RiotID y su nombre de jugador para el resto de las personas que participen en la selección de campeones, la partida y las aplicaciones de terceros, pero el progreso de su cuenta (la puntuación de maestría, los desafíos, el título la foto de perfil, el borde de clasificatoria, etc.) seguirá siendo visible",
+   "id": "a45f696bfa0d",
+   "section": "systems",
+   "tags": [],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Mejoras al modo streamer",
+   "sectionId": "patch-streamer-mode-improvements",
+   "midPatch": false,
+   "entity": {
+    "kind": "none",
+    "id": null,
+    "name": ""
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "text",
+   "attribute": null,
+   "before": null,
+   "after": null,
+   "text": "Ocultar todo de mí: esto ocultará su RiotID, su nombre de jugador y todo el progreso de su cuenta para el resto de las personas que participen en la selección de campeones, la partida y las aplicaciones de terceros. Si quieren mantener el anonimato, les recomendamos esta opción",
+   "id": "32be25e835a5",
+   "section": "systems",
+   "tags": [],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Bloqueo de campeones aliados en la selección [SOLO NA Y OCE]",
+   "sectionId": "patch-banning-allied-hovers-[na-and-oce-only]",
+   "midPatch": false,
+   "entity": {
+    "kind": "none",
+    "id": null,
+    "name": ""
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "text",
+   "attribute": null,
+   "before": null,
+   "after": null,
+   "text": "En Reclutamiento Normal, Clasificatoria y Arena (y en cualquier otro modo que tenga una fase de bloqueo), ya no se podrá bloquear a los campeones que hayan seleccionado los compañeros de equipo",
+   "id": "a975bc6191d2",
+   "section": "systems",
+   "tags": [],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Campeones",
+   "sectionId": "patch-champions",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Anivia",
+    "name": "Anivia"
+   },
+   "part": "Q",
+   "partTitle": "Q: Destello Helado",
+   "spellKey": "FlashFrost",
+   "kind": "stat",
+   "attribute": "Enfriamiento",
+   "before": "12 / 11 / 10 / 9 / 8 seg",
+   "after": "11 / 10 / 9 / 8 / 7 seg",
+   "text": "Enfriamiento: 12 / 11 / 10 / 9 / 8 seg ⇒ 11 / 10 / 9 / 8 / 7 seg",
+   "id": "c33e8930a3c5",
+   "section": "champions",
+   "tags": [
+    "Mage"
+   ],
+   "verification": "verified",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Campeones",
+   "sectionId": "patch-champions",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Anivia",
+    "name": "Anivia"
+   },
+   "part": "E",
+   "partTitle": "E: Quemadura Gélida",
+   "spellKey": "Frostbite",
+   "kind": "stat",
+   "attribute": "Daño básico",
+   "before": "50 / 75 / 100 / 125 / 150",
+   "after": "55 / 80 / 105 / 130 / 155",
+   "text": "Daño básico: 50 / 75 / 100 / 125 / 150 ⇒ 55 / 80 / 105 / 130 / 155",
+   "id": "89d8efd06840",
+   "section": "champions",
+   "tags": [
+    "Mage"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Campeones",
+   "sectionId": "patch-champions",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Azir",
+    "name": "Azir"
+   },
+   "part": "W",
+   "partTitle": "W: ¡Levántense!",
+   "spellKey": "AzirW",
+   "kind": "stat",
+   "attribute": "Tasa de Poder de Habilidad",
+   "before": "+ 40% / 45% / 50% / 55% / 60% de Poder de Habilidad",
+   "after": "+ 30% / 40% / 60% / 60% / 70% de Poder de Habilidad",
+   "text": "Tasa de Poder de Habilidad: + 40% / 45% / 50% / 55% / 60% de Poder de Habilidad ⇒ + 30% / 40% / 60% / 60% / 70% de Poder de Habilidad",
+   "id": "c8e3a1837dcc",
+   "section": "champions",
+   "tags": [
+    "Mage",
+    "Marksman"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Campeones",
+   "sectionId": "patch-champions",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Azir",
+    "name": "Azir"
+   },
+   "part": "W",
+   "partTitle": "W: ¡Levántense!",
+   "spellKey": "AzirW",
+   "kind": "stat",
+   "attribute": "Tasa de recarga",
+   "before": "10 / 9 / 8 / 7 / 6",
+   "after": "12 / 10.5 / 9 / 7.5 / 6",
+   "text": "Tasa de recarga: 10 / 9 / 8 / 7 / 6 ⇒ 12 / 10.5 / 9 / 7.5 / 6",
+   "id": "60f8821ba113",
+   "section": "champions",
+   "tags": [
+    "Mage",
+    "Marksman"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Campeones",
+   "sectionId": "patch-champions",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Azir",
+    "name": "Azir"
+   },
+   "part": "W",
+   "partTitle": "W: ¡Levántense!",
+   "spellKey": "AzirW",
+   "kind": "stat",
+   "attribute": "Daño a objetivos adicionales",
+   "before": "25% / 50% / 75% / 100% (niveles 1, 6, 11 y 16)",
+   "after": "20% hasta el nivel 8; luego, + 8% por nivel (100% al llegar al nivel 18)",
+   "text": "Daño a objetivos adicionales: 25% / 50% / 75% / 100% (niveles 1, 6, 11 y 16) ⇒ 20% hasta el nivel 8; luego, + 8% por nivel (100% al llegar al nivel 18)",
+   "id": "9d8c32a408b2",
+   "section": "champions",
+   "tags": [
+    "Mage",
+    "Marksman"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Campeones",
+   "sectionId": "patch-champions",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Azir",
+    "name": "Azir"
+   },
+   "part": "E",
+   "partTitle": "E: Arenas Movedizas",
+   "spellKey": "AzirEWrapper",
+   "kind": "stat",
+   "attribute": "Daño",
+   "before": "60 / 100 / 140 / 180 / 220 (+ 40% de Poder de Habilidad)",
+   "after": "70 / 110 / 150 / 190 / 230 (+ 60% de Poder de Habilidad)",
+   "text": "Daño: 60 / 100 / 140 / 180 / 220 (+ 40% de Poder de Habilidad) ⇒ 70 / 110 / 150 / 190 / 230 (+ 60% de Poder de Habilidad)",
+   "id": "e52428d84ae8",
+   "section": "champions",
+   "tags": [
+    "Mage",
+    "Marksman"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Campeones",
+   "sectionId": "patch-champions",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Briar",
+    "name": "Briar"
+   },
+   "part": "P",
+   "partTitle": "Pasiva: Maldición Carmesí",
+   "spellKey": null,
+   "kind": "stat",
+   "attribute": "Máximo de acumulaciones",
+   "before": "7",
+   "after": "5",
+   "text": "Máximo de acumulaciones: 7 ⇒ 5",
+   "id": "d87db32890a3",
+   "section": "champions",
+   "tags": [
+    "Fighter",
+    "Assassin"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Campeones",
+   "sectionId": "patch-champions",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Camille",
+    "name": "Camille"
+   },
+   "part": "base",
+   "partTitle": "Estadísticas básicas",
+   "spellKey": null,
+   "kind": "stat",
+   "attribute": "Crecimiento de Armadura",
+   "before": "5",
+   "after": "4.5",
+   "text": "Crecimiento de Armadura: 5 ⇒ 4.5",
+   "id": "904504d88f01",
+   "section": "champions",
+   "tags": [
+    "Fighter",
+    "Assassin"
+   ],
+   "verification": "verified",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Campeones",
+   "sectionId": "patch-champions",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Camille",
+    "name": "Camille"
+   },
+   "part": "W",
+   "partTitle": "W: Barrido Táctico",
+   "spellKey": "CamilleW",
+   "kind": "stat",
+   "attribute": "Enfriamiento",
+   "before": "17 / 15.5 / 14 / 12.5 / 11 seg",
+   "after": "15 / 14 / 13 / 12 / 11 seg",
+   "text": "Enfriamiento: 17 / 15.5 / 14 / 12.5 / 11 seg ⇒ 15 / 14 / 13 / 12 / 11 seg",
+   "id": "0d0e5e489ea1",
+   "section": "champions",
+   "tags": [
+    "Fighter",
+    "Assassin"
+   ],
+   "verification": "verified",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Campeones",
+   "sectionId": "patch-champions",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Camille",
+    "name": "Camille"
+   },
+   "part": "W",
+   "partTitle": "W: Barrido Táctico",
+   "spellKey": "CamilleW",
+   "kind": "stat",
+   "attribute": "Daño básico",
+   "before": "50 / 75 / 100 / 125 / 150",
+   "after": "60 / 85 / 110 / 135 / 160",
+   "text": "Daño básico: 50 / 75 / 100 / 125 / 150 ⇒ 60 / 85 / 110 / 135 / 160",
+   "id": "0e00d815a354",
+   "section": "champions",
+   "tags": [
+    "Fighter",
+    "Assassin"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Campeones",
+   "sectionId": "patch-champions",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Fizz",
+    "name": "Fizz"
+   },
+   "part": "W",
+   "partTitle": "W: Tridente Piedramar",
+   "spellKey": "FizzW",
+   "kind": "stat",
+   "attribute": "Daño prolongado de su pasiva",
+   "before": "20 / 30 / 40 / 50 / 60 (+ 30% de Poder de Habilidad)",
+   "after": "30 / 45 / 60 / 75 / 90 (+ 25% de Poder de Habilidad)",
+   "text": "Daño prolongado de su pasiva: 20 / 30 / 40 / 50 / 60 (+ 30% de Poder de Habilidad) ⇒ 30 / 45 / 60 / 75 / 90 (+ 25% de Poder de Habilidad)",
+   "id": "251d783a8bdf",
+   "section": "champions",
+   "tags": [
+    "Assassin",
+    "Fighter"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Campeones",
+   "sectionId": "patch-champions",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Fizz",
+    "name": "Fizz"
+   },
+   "part": "W",
+   "partTitle": "W: Tridente Piedramar",
+   "spellKey": "FizzW",
+   "kind": "text",
+   "attribute": null,
+   "before": null,
+   "after": null,
+   "text": "Daño de torreta: el daño prolongado ya no afecta a las estructuras",
+   "id": "714c71e9e588",
+   "section": "champions",
+   "tags": [
+    "Assassin",
+    "Fighter"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Campeones",
+   "sectionId": "patch-champions",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Fizz",
+    "name": "Fizz"
+   },
+   "part": "W",
+   "partTitle": "W: Tridente Piedramar",
+   "spellKey": "FizzW",
+   "kind": "text",
+   "attribute": null,
+   "before": null,
+   "after": null,
+   "text": "Hicimos las matemáticas: el daño prolongado ahora muestra el daño total al objetivo",
+   "id": "42c77b398845",
+   "section": "champions",
+   "tags": [
+    "Assassin",
+    "Fighter"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Campeones",
+   "sectionId": "patch-champions",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Fizz",
+    "name": "Fizz"
+   },
+   "part": "W",
+   "partTitle": "W: Tridente Piedramar",
+   "spellKey": "FizzW",
+   "kind": "stat",
+   "attribute": "Daño súbito de la activa",
+   "before": "50 / 70 / 90 / 110 / 130",
+   "after": "50 / 75 / 100 / 125 / 150",
+   "text": "Daño súbito de la activa: 50 / 70 / 90 / 110 / 130 ⇒ 50 / 75 / 100 / 125 / 150",
+   "id": "df245f2fefc0",
+   "section": "champions",
+   "tags": [
+    "Assassin",
+    "Fighter"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Campeones",
+   "sectionId": "patch-champions",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Fizz",
+    "name": "Fizz"
+   },
+   "part": "W",
+   "partTitle": "W: Tridente Piedramar",
+   "spellKey": "FizzW",
+   "kind": "stat",
+   "attribute": "Daño al impacto",
+   "before": "10 / 15 / 20 / 25 / 30 (+ 35% de Poder de Habilidad)",
+   "after": "20 / 25 / 30 / 35 / 40 (+ 30% de Poder de Habilidad)",
+   "text": "Daño al impacto: 10 / 15 / 20 / 25 / 30 (+ 35% de Poder de Habilidad) ⇒ 20 / 25 / 30 / 35 / 40 (+ 30% de Poder de Habilidad)",
+   "id": "fd7c8cc058d2",
+   "section": "champions",
+   "tags": [
+    "Assassin",
+    "Fighter"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Campeones",
+   "sectionId": "patch-champions",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Fizz",
+    "name": "Fizz"
+   },
+   "part": "R",
+   "partTitle": "R: Carnada para Tiburones",
+   "spellKey": "FizzR",
+   "kind": "stat",
+   "attribute": "Daño de Guppy",
+   "before": "150 / 250 / 350 (+ 80% de Poder de Habilidad)",
+   "after": "180 / 300 / 420 (+ 60% de Poder de Habilidad)",
+   "text": "Daño de Guppy: 150 / 250 / 350 (+ 80% de Poder de Habilidad) ⇒ 180 / 300 / 420 (+ 60% de Poder de Habilidad)",
+   "id": "49414fe7faf0",
+   "section": "champions",
+   "tags": [
+    "Assassin",
+    "Fighter"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Campeones",
+   "sectionId": "patch-champions",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Fizz",
+    "name": "Fizz"
+   },
+   "part": "R",
+   "partTitle": "R: Carnada para Tiburones",
+   "spellKey": "FizzR",
+   "kind": "stat",
+   "attribute": "Daño de Chomper",
+   "before": "225 / 325 / 425 (+ 100% de Poder de Habilidad)",
+   "after": "225 / 375 / 525 (+ 75% de Poder de Habilidad)",
+   "text": "Daño de Chomper: 225 / 325 / 425 (+ 100% de Poder de Habilidad) ⇒ 225 / 375 / 525 (+ 75% de Poder de Habilidad)",
+   "id": "bd91f7bc15cd",
+   "section": "champions",
+   "tags": [
+    "Assassin",
+    "Fighter"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Campeones",
+   "sectionId": "patch-champions",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Fizz",
+    "name": "Fizz"
+   },
+   "part": "R",
+   "partTitle": "R: Carnada para Tiburones",
+   "spellKey": "FizzR",
+   "kind": "stat",
+   "attribute": "Daño de Gigalodón",
+   "before": "300 / 400 / 500 (+ 120% de Poder de Habilidad)",
+   "after": "270 / 450 / 630 (+ 90% de Poder de Habilidad)",
+   "text": "Daño de Gigalodón: 300 / 400 / 500 (+ 120% de Poder de Habilidad) ⇒ 270 / 450 / 630 (+ 90% de Poder de Habilidad)",
+   "id": "dc58bf55a9f7",
+   "section": "champions",
+   "tags": [
+    "Assassin",
+    "Fighter"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Campeones",
+   "sectionId": "patch-champions",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Graves",
+    "name": "Graves"
+   },
+   "part": "Q",
+   "partTitle": "Q: Fin del Trayecto",
+   "spellKey": "GravesQLineSpell",
+   "kind": "stat",
+   "attribute": "Daño inicial",
+   "before": "45 / 65 / 85 / 105 / 125 (+ 80% de Daño de Ataque adicional)",
+   "after": "50 / 75 / 100 / 125 / 150 (+ 65% de Daño de Ataque adicional)",
+   "text": "Daño inicial: 45 / 65 / 85 / 105 / 125 (+ 80% de Daño de Ataque adicional) ⇒ 50 / 75 / 100 / 125 / 150 (+ 65% de Daño de Ataque adicional)",
+   "id": "9e28e4345de7",
+   "section": "champions",
+   "tags": [
+    "Marksman"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Campeones",
+   "sectionId": "patch-champions",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Graves",
+    "name": "Graves"
+   },
+   "part": "Q",
+   "partTitle": "Q: Fin del Trayecto",
+   "spellKey": "GravesQLineSpell",
+   "kind": "stat",
+   "attribute": "Daño secundario",
+   "before": "85 / 120 / 155 / 190 / 225 (+ 40% / 65% / 90% / 115% / 140% de Daño de Ataque adicional)",
+   "after": "80 / 125 / 170 / 215 / 260 (+ 55% / 70% / 85% / 100% / 115% de Daño de Ataque adicional)",
+   "text": "Daño secundario: 85 / 120 / 155 / 190 / 225 (+ 40% / 65% / 90% / 115% / 140% de Daño de Ataque adicional) ⇒ 80 / 125 / 170 / 215 / 260 (+ 55% / 70% / 85% / 100% / 115% de Daño de Ataque adicional)",
+   "id": "18e9d565db35",
+   "section": "champions",
+   "tags": [
+    "Marksman"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Campeones",
+   "sectionId": "patch-champions",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Graves",
+    "name": "Graves"
+   },
+   "part": "Q",
+   "partTitle": "Q: Fin del Trayecto",
+   "spellKey": "GravesQLineSpell",
+   "kind": "stat",
+   "attribute": "Daño combinado",
+   "before": "130 / 185 / 240 / 295 / 350 (+ 120% / 145% / 170% / 195% / 220% de Daño de Ataque adicional)",
+   "after": "130 / 200 / 270 / 340 / 410 (+ 120% / 135% / 150% / 165% / 180 % de Daño de Ataque adicional)",
+   "text": "Daño combinado: 130 / 185 / 240 / 295 / 350 (+ 120% / 145% / 170% / 195% / 220% de Daño de Ataque adicional) ⇒ 130 / 200 / 270 / 340 / 410 (+ 120% / 135% / 150% / 165% / 180 % de Daño de Ataque adicional)",
+   "id": "8d11477daaff",
+   "section": "champions",
+   "tags": [
+    "Marksman"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Campeones",
+   "sectionId": "patch-champions",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Katarina",
+    "name": "Katarina"
+   },
+   "part": "base",
+   "partTitle": "Estadísticas básicas",
+   "spellKey": null,
+   "kind": "stat",
+   "attribute": "Armadura",
+   "before": "28",
+   "after": "32",
+   "text": "Armadura: 28 ⇒ 32",
+   "id": "58241d4e7c47",
+   "section": "champions",
+   "tags": [
+    "Assassin",
+    "Mage"
+   ],
+   "verification": "verified",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Campeones",
+   "sectionId": "patch-champions",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Malphite",
+    "name": "Malphite"
+   },
+   "part": "base",
+   "partTitle": "Estadísticas básicas",
+   "spellKey": null,
+   "kind": "stat",
+   "attribute": "Armadura básica",
+   "before": "37",
+   "after": "40",
+   "text": "Armadura básica: 37 ⇒ 40",
+   "id": "b1e1c14a3a70",
+   "section": "champions",
+   "tags": [
+    "Tank",
+    "Mage"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Campeones",
+   "sectionId": "patch-champions",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Malphite",
+    "name": "Malphite"
+   },
+   "part": "E",
+   "partTitle": "E: Golpe en el Suelo",
+   "spellKey": "Landslide",
+   "kind": "stat",
+   "attribute": "Daño básico",
+   "before": "70 / 110 / 150 / 190 / 230",
+   "after": "80 / 120 / 160 / 200 / 240",
+   "text": "Daño básico: 70 / 110 / 150 / 190 / 230 ⇒ 80 / 120 / 160 / 200 / 240",
+   "id": "8588bb824e7a",
+   "section": "champions",
+   "tags": [
+    "Tank",
+    "Mage"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Campeones",
+   "sectionId": "patch-champions",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Orianna",
+    "name": "Orianna"
+   },
+   "part": "W",
+   "partTitle": "W: Orden: Disonancia",
+   "spellKey": "OrianaDissonanceCommand",
+   "kind": "stat",
+   "attribute": "Daño",
+   "before": "70 / 120 / 170 / 220 / 270 (+ 70% de Poder de Habilidad)",
+   "after": "70 / 110 / 150 / 190 / 230 (+ 80% de Poder de Habilidad)",
+   "text": "Daño: 70 / 120 / 170 / 220 / 270 (+ 70% de Poder de Habilidad) ⇒ 70 / 110 / 150 / 190 / 230 (+ 80% de Poder de Habilidad)",
+   "id": "142f85c9ef33",
+   "section": "champions",
+   "tags": [
+    "Mage",
+    "Support"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Campeones",
+   "sectionId": "patch-champions",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Pantheon",
+    "name": "Pantheon"
+   },
+   "part": "Q",
+   "partTitle": "Q: Lanza Cometa",
+   "spellKey": "PantheonQ",
+   "kind": "stat",
+   "attribute": "Modificador de daño contra monstruos",
+   "before": "×0.75",
+   "after": "×0.8",
+   "text": "Modificador de daño contra monstruos: ×0.75 ⇒ ×0.8",
+   "id": "4b51b742427e",
+   "section": "champions",
+   "tags": [
+    "Fighter",
+    "Assassin"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Campeones",
+   "sectionId": "patch-champions",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Pantheon",
+    "name": "Pantheon"
+   },
+   "part": "W",
+   "partTitle": "W: Salto con Escudo",
+   "spellKey": "PantheonW",
+   "kind": "stat",
+   "attribute": "Límite de daño contra súbditos y monstruos",
+   "before": "120",
+   "after": "150",
+   "text": "Límite de daño contra súbditos y monstruos: 120 ⇒ 150",
+   "id": "951561d16fbe",
+   "section": "champions",
+   "tags": [
+    "Fighter",
+    "Assassin"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Campeones",
+   "sectionId": "patch-champions",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Veigar",
+    "name": "Veigar"
+   },
+   "part": "W",
+   "partTitle": "W: Materia Oscura",
+   "spellKey": "VeigarDarkMatter",
+   "kind": "stat",
+   "attribute": "Tasa de Poder de Habilidad",
+   "before": "(+ 60% / 70% / 80% / 90% / 100% de Poder de Habilidad)",
+   "after": "(+ 70% / 80% / 90% / 100% / 110% de Poder de Habilidad)",
+   "text": "Tasa de Poder de Habilidad: (+ 60% / 70% / 80% / 90% / 100% de Poder de Habilidad) ⇒ (+ 70% / 80% / 90% / 100% / 110% de Poder de Habilidad)",
+   "id": "29fb9c44e391",
+   "section": "champions",
+   "tags": [
+    "Mage"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Campeones",
+   "sectionId": "patch-champions",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Volibear",
+    "name": "Volibear"
+   },
+   "part": "P",
+   "partTitle": "Pasiva: La Tormenta Implacable",
+   "spellKey": null,
+   "kind": "stat",
+   "attribute": "Tasa de Poder de Habilidad",
+   "before": "50%",
+   "after": "45%",
+   "text": "Tasa de Poder de Habilidad: 50% ⇒ 45%",
+   "id": "e55b10f1a0f0",
+   "section": "champions",
+   "tags": [
+    "Fighter",
+    "Tank"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Campeones",
+   "sectionId": "patch-champions",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Volibear",
+    "name": "Volibear"
+   },
+   "part": "E",
+   "partTitle": "E: Rompecielos",
+   "spellKey": "VolibearE",
+   "kind": "stat",
+   "attribute": "Tasa de Poder de Habilidad",
+   "before": "80%",
+   "after": "70%",
+   "text": "Tasa de Poder de Habilidad: 80% ⇒ 70%",
+   "id": "cd7d4a7604f3",
+   "section": "champions",
+   "tags": [
+    "Fighter",
+    "Tank"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Campeones",
+   "sectionId": "patch-champions",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Warwick",
+    "name": "Warwick"
+   },
+   "part": "base",
+   "partTitle": "Estadísticas básicas",
+   "spellKey": null,
+   "kind": "stat",
+   "attribute": "Crecimiento de Daño de Ataque",
+   "before": "2.75",
+   "after": "2.5",
+   "text": "Crecimiento de Daño de Ataque: 2.75 ⇒ 2.5",
+   "id": "fc65d2624a80",
+   "section": "champions",
+   "tags": [
+    "Fighter",
+    "Tank"
+   ],
+   "verification": "verified",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Campeones",
+   "sectionId": "patch-champions",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Warwick",
+    "name": "Warwick"
+   },
+   "part": "base",
+   "partTitle": "Estadísticas básicas",
+   "spellKey": null,
+   "kind": "stat",
+   "attribute": "Crecimiento de Velocidad de Ataque",
+   "before": "2.3%",
+   "after": "2%",
+   "text": "Crecimiento de Velocidad de Ataque: 2.3% ⇒ 2%",
+   "id": "341ac4ac02cf",
+   "section": "champions",
+   "tags": [
+    "Fighter",
+    "Tank"
+   ],
+   "verification": "verified",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Campeones",
+   "sectionId": "patch-champions",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "MonkeyKing",
+    "name": "Wukong"
+   },
+   "part": "Q",
+   "partTitle": "Q: Golpe Aplastante",
+   "spellKey": "MonkeyKingDoubleAttack",
+   "kind": "stat",
+   "attribute": "Tasa de Daño de Ataque como daño adicional",
+   "before": "55%",
+   "after": "50% de Daño de Ataque adicional",
+   "text": "Tasa de Daño de Ataque como daño adicional: 55% ⇒ 50% de Daño de Ataque adicional",
+   "id": "84bf30fc1dd8",
+   "section": "champions",
+   "tags": [
+    "Fighter",
+    "Tank"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Campeones",
+   "sectionId": "patch-champions",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "MonkeyKing",
+    "name": "Wukong"
+   },
+   "part": "W",
+   "partTitle": "W: Guerrero Bromista",
+   "spellKey": "MonkeyKingDecoy",
+   "kind": "stat",
+   "attribute": "Enfriamiento",
+   "before": "20 / 19 / 18 / 17 /16 seg",
+   "after": "22 / 21 / 20 / 19 / 18 seg",
+   "text": "Enfriamiento: 20 / 19 / 18 / 17 /16 seg ⇒ 22 / 21 / 20 / 19 / 18 seg",
+   "id": "b8befb454b85",
+   "section": "champions",
+   "tags": [
+    "Fighter",
+    "Tank"
+   ],
+   "verification": "verified",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Campeones",
+   "sectionId": "patch-champions",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "MonkeyKing",
+    "name": "Wukong"
+   },
+   "part": "W",
+   "partTitle": "W: Guerrero Bromista",
+   "spellKey": "MonkeyKingDecoy",
+   "kind": "stat",
+   "attribute": "Daño de clon",
+   "before": "35% / 40% / 45% / 50% / 55%",
+   "after": "30% / 35% / 40% / 45% / 50%",
+   "text": "Daño de clon: 35% / 40% / 45% / 50% / 55% ⇒ 30% / 35% / 40% / 45% / 50%",
+   "id": "47387b51c5e7",
+   "section": "champions",
+   "tags": [
+    "Fighter",
+    "Tank"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Campeones",
+   "sectionId": "patch-champions",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "MonkeyKing",
+    "name": "Wukong"
+   },
+   "part": "E",
+   "partTitle": "E: Golpe de Nimbo",
+   "spellKey": "MonkeyKingNimbus",
+   "kind": "stat",
+   "attribute": "Daño básico",
+   "before": "80 / 110 / 140 / 170 / 200",
+   "after": "80 / 120 / 160 / 200 / 240",
+   "text": "Daño básico: 80 / 110 / 140 / 170 / 200 ⇒ 80 / 120 / 160 / 200 / 240",
+   "id": "b5ed01fa44ff",
+   "section": "champions",
+   "tags": [
+    "Fighter",
+    "Tank"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Sistemas",
+   "sectionId": "patch-systems",
+   "midPatch": false,
+   "entity": {
+    "kind": "none",
+    "id": null,
+    "name": ""
+   },
+   "part": "Detección de cambios de carril",
+   "partTitle": "Detección de cambios de carril",
+   "spellKey": null,
+   "kind": "stat",
+   "attribute": "Detección de cambio de carril en el carril superior",
+   "before": "Hasta el minuto 3:00",
+   "after": "Hasta el minuto 4:00",
+   "text": "Detección de cambio de carril en el carril superior: Hasta el minuto 3:00 ⇒ Hasta el minuto 4:00",
+   "id": "99cd16023c8e",
+   "section": "systems",
+   "tags": [],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Bots Apocalípticos",
+   "sectionId": "patch-doom-bots",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Ahri",
+    "name": "Ahri"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "stat",
+   "attribute": "Daño infligido",
+   "before": "100%",
+   "after": "110%",
+   "text": "Daño infligido: 100% ⇒ 110%",
+   "id": "2036431ddb9c",
+   "section": "modes",
+   "tags": [
+    "Mage",
+    "Assassin"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Bots Apocalípticos",
+   "sectionId": "patch-doom-bots",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Ahri",
+    "name": "Ahri"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "stat",
+   "attribute": "Daño recibido",
+   "before": "100%",
+   "after": "95%",
+   "text": "Daño recibido: 100% ⇒ 95%",
+   "id": "922955d8b73a",
+   "section": "modes",
+   "tags": [
+    "Mage",
+    "Assassin"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Bots Apocalípticos",
+   "sectionId": "patch-doom-bots",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Akali",
+    "name": "Akali"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "stat",
+   "attribute": "Daño infligido",
+   "before": "100%",
+   "after": "110%",
+   "text": "Daño infligido: 100% ⇒ 110%",
+   "id": "a788a15d6457",
+   "section": "modes",
+   "tags": [
+    "Assassin"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Bots Apocalípticos",
+   "sectionId": "patch-doom-bots",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Akali",
+    "name": "Akali"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "stat",
+   "attribute": "Daño recibido",
+   "before": "100%",
+   "after": "95%",
+   "text": "Daño recibido: 100% ⇒ 95%",
+   "id": "54a4feb22998",
+   "section": "modes",
+   "tags": [
+    "Assassin"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Bots Apocalípticos",
+   "sectionId": "patch-doom-bots",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Bard",
+    "name": "Bardo"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "stat",
+   "attribute": "Daño infligido",
+   "before": "100%",
+   "after": "105%",
+   "text": "Daño infligido: 100% ⇒ 105%",
+   "id": "ea0073c67ef7",
+   "section": "modes",
+   "tags": [
+    "Support",
+    "Mage"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Bots Apocalípticos",
+   "sectionId": "patch-doom-bots",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Bard",
+    "name": "Bardo"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "stat",
+   "attribute": "Daño recibido",
+   "before": "100%",
+   "after": "95%",
+   "text": "Daño recibido: 100% ⇒ 95%",
+   "id": "ddcf6b3c31bc",
+   "section": "modes",
+   "tags": [
+    "Support",
+    "Mage"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Bots Apocalípticos",
+   "sectionId": "patch-doom-bots",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Blitzcrank",
+    "name": "Blitzcrank"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "stat",
+   "attribute": "Daño recibido",
+   "before": "100%",
+   "after": "90%",
+   "text": "Daño recibido: 100% ⇒ 90%",
+   "id": "779c9ebbb5ab",
+   "section": "modes",
+   "tags": [
+    "Tank",
+    "Support"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Bots Apocalípticos",
+   "sectionId": "patch-doom-bots",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Diana",
+    "name": "Diana"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "stat",
+   "attribute": "Daño infligido",
+   "before": "100%",
+   "after": "105%",
+   "text": "Daño infligido: 100% ⇒ 105%",
+   "id": "0c3d3fcb89ca",
+   "section": "modes",
+   "tags": [
+    "Fighter",
+    "Assassin"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Bots Apocalípticos",
+   "sectionId": "patch-doom-bots",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Diana",
+    "name": "Diana"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "stat",
+   "attribute": "Daño recibido",
+   "before": "100%",
+   "after": "95%",
+   "text": "Daño recibido: 100% ⇒ 95%",
+   "id": "36499923e3bd",
+   "section": "modes",
+   "tags": [
+    "Fighter",
+    "Assassin"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Bots Apocalípticos",
+   "sectionId": "patch-doom-bots",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Diana",
+    "name": "Diana"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "stat",
+   "attribute": "Tenacidad",
+   "before": "0",
+   "after": "25",
+   "text": "Tenacidad: 0 ⇒ 25",
+   "id": "47b1fea25fd6",
+   "section": "modes",
+   "tags": [
+    "Fighter",
+    "Assassin"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Bots Apocalípticos",
+   "sectionId": "patch-doom-bots",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Evelynn",
+    "name": "Evelynn"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "stat",
+   "attribute": "Daño infligido",
+   "before": "100%",
+   "after": "105%",
+   "text": "Daño infligido: 100% ⇒ 105%",
+   "id": "f6d9812d7b04",
+   "section": "modes",
+   "tags": [
+    "Assassin",
+    "Mage"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Bots Apocalípticos",
+   "sectionId": "patch-doom-bots",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Evelynn",
+    "name": "Evelynn"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "stat",
+   "attribute": "Tenacidad",
+   "before": "0",
+   "after": "25",
+   "text": "Tenacidad: 0 ⇒ 25",
+   "id": "523ef8d11fd8",
+   "section": "modes",
+   "tags": [
+    "Assassin",
+    "Mage"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Bots Apocalípticos",
+   "sectionId": "patch-doom-bots",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Ezreal",
+    "name": "Ezreal"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "stat",
+   "attribute": "Daño infligido",
+   "before": "100%",
+   "after": "110%",
+   "text": "Daño infligido: 100% ⇒ 110%",
+   "id": "858fbfa17eae",
+   "section": "modes",
+   "tags": [
+    "Marksman",
+    "Mage"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Bots Apocalípticos",
+   "sectionId": "patch-doom-bots",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Fizz",
+    "name": "Fizz"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "stat",
+   "attribute": "Daño infligido",
+   "before": "100%",
+   "after": "105%",
+   "text": "Daño infligido: 100% ⇒ 105%",
+   "id": "1fbc1d9b5536",
+   "section": "modes",
+   "tags": [
+    "Assassin",
+    "Fighter"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Bots Apocalípticos",
+   "sectionId": "patch-doom-bots",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Fizz",
+    "name": "Fizz"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "stat",
+   "attribute": "Daño recibido",
+   "before": "100%",
+   "after": "95%",
+   "text": "Daño recibido: 100% ⇒ 95%",
+   "id": "1028588eb9e1",
+   "section": "modes",
+   "tags": [
+    "Assassin",
+    "Fighter"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Bots Apocalípticos",
+   "sectionId": "patch-doom-bots",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Hecarim",
+    "name": "Hecarim"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "stat",
+   "attribute": "Daño infligido",
+   "before": "100%",
+   "after": "105%",
+   "text": "Daño infligido: 100% ⇒ 105%",
+   "id": "74328329b743",
+   "section": "modes",
+   "tags": [
+    "Fighter",
+    "Tank"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Bots Apocalípticos",
+   "sectionId": "patch-doom-bots",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Hecarim",
+    "name": "Hecarim"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "stat",
+   "attribute": "Daño recibido",
+   "before": "100%",
+   "after": "95%",
+   "text": "Daño recibido: 100% ⇒ 95%",
+   "id": "bac58ec73095",
+   "section": "modes",
+   "tags": [
+    "Fighter",
+    "Tank"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Bots Apocalípticos",
+   "sectionId": "patch-doom-bots",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Hecarim",
+    "name": "Hecarim"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "stat",
+   "attribute": "Tenacidad",
+   "before": "0",
+   "after": "25",
+   "text": "Tenacidad: 0 ⇒ 25",
+   "id": "ed0db0654141",
+   "section": "modes",
+   "tags": [
+    "Fighter",
+    "Tank"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Bots Apocalípticos",
+   "sectionId": "patch-doom-bots",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Ivern",
+    "name": "Ivern"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "stat",
+   "attribute": "Escudo",
+   "before": "100%",
+   "after": "110%",
+   "text": "Escudo: 100% ⇒ 110%",
+   "id": "7e14ff5baeb6",
+   "section": "modes",
+   "tags": [
+    "Support",
+    "Mage"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Bots Apocalípticos",
+   "sectionId": "patch-doom-bots",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Ivern",
+    "name": "Ivern"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "stat",
+   "attribute": "Daño recibido",
+   "before": "100%",
+   "after": "95%",
+   "text": "Daño recibido: 100% ⇒ 95%",
+   "id": "c2dd366f85dc",
+   "section": "modes",
+   "tags": [
+    "Support",
+    "Mage"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Bots Apocalípticos",
+   "sectionId": "patch-doom-bots",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Jayce",
+    "name": "Jayce"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "stat",
+   "attribute": "Daño infligido",
+   "before": "100%",
+   "after": "105%",
+   "text": "Daño infligido: 100% ⇒ 105%",
+   "id": "8086141636a7",
+   "section": "modes",
+   "tags": [
+    "Fighter",
+    "Marksman"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Bots Apocalípticos",
+   "sectionId": "patch-doom-bots",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Jayce",
+    "name": "Jayce"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "stat",
+   "attribute": "Daño recibido",
+   "before": "100%",
+   "after": "97.5%",
+   "text": "Daño recibido: 100% ⇒ 97.5%",
+   "id": "2c20be4c9e62",
+   "section": "modes",
+   "tags": [
+    "Fighter",
+    "Marksman"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Bots Apocalípticos",
+   "sectionId": "patch-doom-bots",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Jayce",
+    "name": "Jayce"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "stat",
+   "attribute": "Tenacidad",
+   "before": "0",
+   "after": "25",
+   "text": "Tenacidad: 0 ⇒ 25",
+   "id": "253c579ceaf3",
+   "section": "modes",
+   "tags": [
+    "Fighter",
+    "Marksman"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Bots Apocalípticos",
+   "sectionId": "patch-doom-bots",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Kalista",
+    "name": "Kalista"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "stat",
+   "attribute": "Daño infligido",
+   "before": "100%",
+   "after": "110%",
+   "text": "Daño infligido: 100% ⇒ 110%",
+   "id": "2485ea26a3c4",
+   "section": "modes",
+   "tags": [
+    "Marksman"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Bots Apocalípticos",
+   "sectionId": "patch-doom-bots",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Kalista",
+    "name": "Kalista"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "stat",
+   "attribute": "Daño recibido",
+   "before": "100%",
+   "after": "95%",
+   "text": "Daño recibido: 100% ⇒ 95%",
+   "id": "8e571bfee29b",
+   "section": "modes",
+   "tags": [
+    "Marksman"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Bots Apocalípticos",
+   "sectionId": "patch-doom-bots",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Kassadin",
+    "name": "Kassadin"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "stat",
+   "attribute": "Daño infligido",
+   "before": "100%",
+   "after": "105%",
+   "text": "Daño infligido: 100% ⇒ 105%",
+   "id": "e36554a37f26",
+   "section": "modes",
+   "tags": [
+    "Assassin",
+    "Mage"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Bots Apocalípticos",
+   "sectionId": "patch-doom-bots",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Kassadin",
+    "name": "Kassadin"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "stat",
+   "attribute": "Daño recibido",
+   "before": "100%",
+   "after": "90%",
+   "text": "Daño recibido: 100% ⇒ 90%",
+   "id": "43472d228714",
+   "section": "modes",
+   "tags": [
+    "Assassin",
+    "Mage"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Bots Apocalípticos",
+   "sectionId": "patch-doom-bots",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Katarina",
+    "name": "Katarina"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "stat",
+   "attribute": "Daño infligido",
+   "before": "100%",
+   "after": "110%",
+   "text": "Daño infligido: 100% ⇒ 110%",
+   "id": "d4df9b109ccb",
+   "section": "modes",
+   "tags": [
+    "Assassin",
+    "Mage"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Bots Apocalípticos",
+   "sectionId": "patch-doom-bots",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Katarina",
+    "name": "Katarina"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "stat",
+   "attribute": "Daño recibido",
+   "before": "100%",
+   "after": "95%",
+   "text": "Daño recibido: 100% ⇒ 95%",
+   "id": "57a5883dfa0b",
+   "section": "modes",
+   "tags": [
+    "Assassin",
+    "Mage"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Bots Apocalípticos",
+   "sectionId": "patch-doom-bots",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Kennen",
+    "name": "Kennen"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "stat",
+   "attribute": "Daño infligido",
+   "before": "100%",
+   "after": "105%",
+   "text": "Daño infligido: 100% ⇒ 105%",
+   "id": "f247c4c7fd32",
+   "section": "modes",
+   "tags": [
+    "Mage"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Bots Apocalípticos",
+   "sectionId": "patch-doom-bots",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Kennen",
+    "name": "Kennen"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "stat",
+   "attribute": "Daño recibido",
+   "before": "100%",
+   "after": "95%",
+   "text": "Daño recibido: 100% ⇒ 95%",
+   "id": "22b0a83fd927",
+   "section": "modes",
+   "tags": [
+    "Mage"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Bots Apocalípticos",
+   "sectionId": "patch-doom-bots",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Khazix",
+    "name": "Kha'Zix"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "stat",
+   "attribute": "Daño infligido",
+   "before": "100%",
+   "after": "110%",
+   "text": "Daño infligido: 100% ⇒ 110%",
+   "id": "ad3ba7066d49",
+   "section": "modes",
+   "tags": [
+    "Assassin"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Bots Apocalípticos",
+   "sectionId": "patch-doom-bots",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Khazix",
+    "name": "Kha'Zix"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "stat",
+   "attribute": "Tenacidad",
+   "before": "0",
+   "after": "25",
+   "text": "Tenacidad: 0 ⇒ 25",
+   "id": "54d1725e45d3",
+   "section": "modes",
+   "tags": [
+    "Assassin"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Bots Apocalípticos",
+   "sectionId": "patch-doom-bots",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Leblanc",
+    "name": "LeBlanc"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "stat",
+   "attribute": "Daño infligido",
+   "before": "100%",
+   "after": "115%",
+   "text": "Daño infligido: 100% ⇒ 115%",
+   "id": "7abd4c527fb9",
+   "section": "modes",
+   "tags": [
+    "Assassin",
+    "Mage"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Bots Apocalípticos",
+   "sectionId": "patch-doom-bots",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "LeeSin",
+    "name": "Lee Sin"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "stat",
+   "attribute": "Daño infligido",
+   "before": "100%",
+   "after": "105%",
+   "text": "Daño infligido: 100% ⇒ 105%",
+   "id": "41d4aa6f381f",
+   "section": "modes",
+   "tags": [
+    "Fighter",
+    "Assassin"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Bots Apocalípticos",
+   "sectionId": "patch-doom-bots",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "LeeSin",
+    "name": "Lee Sin"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "stat",
+   "attribute": "Daño recibido",
+   "before": "100%",
+   "after": "95%",
+   "text": "Daño recibido: 100% ⇒ 95%",
+   "id": "d362c2a1c7d5",
+   "section": "modes",
+   "tags": [
+    "Fighter",
+    "Assassin"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Bots Apocalípticos",
+   "sectionId": "patch-doom-bots",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Lissandra",
+    "name": "Lissandra"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "stat",
+   "attribute": "Daño infligido",
+   "before": "100%",
+   "after": "105%",
+   "text": "Daño infligido: 100% ⇒ 105%",
+   "id": "b464d3716fe7",
+   "section": "modes",
+   "tags": [
+    "Mage"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Bots Apocalípticos",
+   "sectionId": "patch-doom-bots",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Lux",
+    "name": "Lux"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "stat",
+   "attribute": "Daño infligido",
+   "before": "100%",
+   "after": "110%",
+   "text": "Daño infligido: 100% ⇒ 110%",
+   "id": "e21cf8a766b5",
+   "section": "modes",
+   "tags": [
+    "Mage",
+    "Support"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Bots Apocalípticos",
+   "sectionId": "patch-doom-bots",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Malphite",
+    "name": "Malphite"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "stat",
+   "attribute": "Daño recibido",
+   "before": "100%",
+   "after": "90%",
+   "text": "Daño recibido: 100% ⇒ 90%",
+   "id": "be45de959e03",
+   "section": "modes",
+   "tags": [
+    "Tank",
+    "Mage"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Bots Apocalípticos",
+   "sectionId": "patch-doom-bots",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Malphite",
+    "name": "Malphite"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "stat",
+   "attribute": "Tenacidad",
+   "before": "0",
+   "after": "25",
+   "text": "Tenacidad: 0 ⇒ 25",
+   "id": "da9bfed7880b",
+   "section": "modes",
+   "tags": [
+    "Tank",
+    "Mage"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Bots Apocalípticos",
+   "sectionId": "patch-doom-bots",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Naafiri",
+    "name": "Naafiri"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "stat",
+   "attribute": "Daño infligido",
+   "before": "100%",
+   "after": "110%",
+   "text": "Daño infligido: 100% ⇒ 110%",
+   "id": "6d2011428b3f",
+   "section": "modes",
+   "tags": [
+    "Assassin",
+    "Fighter"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Bots Apocalípticos",
+   "sectionId": "patch-doom-bots",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Naafiri",
+    "name": "Naafiri"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "stat",
+   "attribute": "Daño recibido",
+   "before": "100%",
+   "after": "95%",
+   "text": "Daño recibido: 100% ⇒ 95%",
+   "id": "e19be9208419",
+   "section": "modes",
+   "tags": [
+    "Assassin",
+    "Fighter"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Bots Apocalípticos",
+   "sectionId": "patch-doom-bots",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Nasus",
+    "name": "Nasus"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "stat",
+   "attribute": "Daño recibido",
+   "before": "100%",
+   "after": "90%",
+   "text": "Daño recibido: 100% ⇒ 90%",
+   "id": "8aafa30ede22",
+   "section": "modes",
+   "tags": [
+    "Fighter",
+    "Tank"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Bots Apocalípticos",
+   "sectionId": "patch-doom-bots",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Nasus",
+    "name": "Nasus"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "stat",
+   "attribute": "Tenacidad",
+   "before": "0",
+   "after": "25",
+   "text": "Tenacidad: 0 ⇒ 25",
+   "id": "4599bdc140e5",
+   "section": "modes",
+   "tags": [
+    "Fighter",
+    "Tank"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Bots Apocalípticos",
+   "sectionId": "patch-doom-bots",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Nautilus",
+    "name": "Nautilus"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "stat",
+   "attribute": "Daño recibido",
+   "before": "100%",
+   "after": "90%",
+   "text": "Daño recibido: 100% ⇒ 90%",
+   "id": "66010f5f4015",
+   "section": "modes",
+   "tags": [
+    "Tank",
+    "Support"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Bots Apocalípticos",
+   "sectionId": "patch-doom-bots",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Nautilus",
+    "name": "Nautilus"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "stat",
+   "attribute": "Tenacidad",
+   "before": "0",
+   "after": "25",
+   "text": "Tenacidad: 0 ⇒ 25",
+   "id": "8c941259710f",
+   "section": "modes",
+   "tags": [
+    "Tank",
+    "Support"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Bots Apocalípticos",
+   "sectionId": "patch-doom-bots",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Nidalee",
+    "name": "Nidalee"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "stat",
+   "attribute": "Daño infligido",
+   "before": "100%",
+   "after": "110%",
+   "text": "Daño infligido: 100% ⇒ 110%",
+   "id": "8c063bf2cfde",
+   "section": "modes",
+   "tags": [
+    "Assassin",
+    "Mage"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Bots Apocalípticos",
+   "sectionId": "patch-doom-bots",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Nidalee",
+    "name": "Nidalee"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "stat",
+   "attribute": "Daño recibido",
+   "before": "100%",
+   "after": "95%",
+   "text": "Daño recibido: 100% ⇒ 95%",
+   "id": "fd0d8fda0822",
+   "section": "modes",
+   "tags": [
+    "Assassin",
+    "Mage"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Bots Apocalípticos",
+   "sectionId": "patch-doom-bots",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Nidalee",
+    "name": "Nidalee"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "stat",
+   "attribute": "Tenacidad",
+   "before": "0",
+   "after": "25",
+   "text": "Tenacidad: 0 ⇒ 25",
+   "id": "4bc1ca154f55",
+   "section": "modes",
+   "tags": [
+    "Assassin",
+    "Mage"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Bots Apocalípticos",
+   "sectionId": "patch-doom-bots",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Nocturne",
+    "name": "Nocturne"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "stat",
+   "attribute": "Daño infligido",
+   "before": "100%",
+   "after": "105%",
+   "text": "Daño infligido: 100% ⇒ 105%",
+   "id": "b535edff651a",
+   "section": "modes",
+   "tags": [
+    "Fighter",
+    "Assassin"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Bots Apocalípticos",
+   "sectionId": "patch-doom-bots",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Nocturne",
+    "name": "Nocturne"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "stat",
+   "attribute": "Daño recibido",
+   "before": "100%",
+   "after": "95%",
+   "text": "Daño recibido: 100% ⇒ 95%",
+   "id": "5e1d9c55cfc9",
+   "section": "modes",
+   "tags": [
+    "Fighter",
+    "Assassin"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Bots Apocalípticos",
+   "sectionId": "patch-doom-bots",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Nocturne",
+    "name": "Nocturne"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "stat",
+   "attribute": "Tenacidad",
+   "before": "0",
+   "after": "25",
+   "text": "Tenacidad: 0 ⇒ 25",
+   "id": "c2292dba362d",
+   "section": "modes",
+   "tags": [
+    "Fighter",
+    "Assassin"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Bots Apocalípticos",
+   "sectionId": "patch-doom-bots",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Nunu",
+    "name": "Nunu y Willump"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "stat",
+   "attribute": "Daño infligido",
+   "before": "100%",
+   "after": "105%",
+   "text": "Daño infligido: 100% ⇒ 105%",
+   "id": "0325aebcd9bc",
+   "section": "modes",
+   "tags": [
+    "Tank",
+    "Mage"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Bots Apocalípticos",
+   "sectionId": "patch-doom-bots",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Nunu",
+    "name": "Nunu y Willump"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "stat",
+   "attribute": "Daño recibido",
+   "before": "100%",
+   "after": "95%",
+   "text": "Daño recibido: 100% ⇒ 95%",
+   "id": "8dece13b6404",
+   "section": "modes",
+   "tags": [
+    "Tank",
+    "Mage"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Bots Apocalípticos",
+   "sectionId": "patch-doom-bots",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Nunu",
+    "name": "Nunu y Willump"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "stat",
+   "attribute": "Tenacidad",
+   "before": "0",
+   "after": "25",
+   "text": "Tenacidad: 0 ⇒ 25",
+   "id": "aefa5f2a98c3",
+   "section": "modes",
+   "tags": [
+    "Tank",
+    "Mage"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Bots Apocalípticos",
+   "sectionId": "patch-doom-bots",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Pyke",
+    "name": "Pyke"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "stat",
+   "attribute": "Daño recibido",
+   "before": "100%",
+   "after": "85%",
+   "text": "Daño recibido: 100% ⇒ 85%",
+   "id": "052f54bb70b6",
+   "section": "modes",
+   "tags": [
+    "Support",
+    "Assassin"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Bots Apocalípticos",
+   "sectionId": "patch-doom-bots",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Quinn",
+    "name": "Quinn"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "stat",
+   "attribute": "Daño infligido",
+   "before": "100%",
+   "after": "110%",
+   "text": "Daño infligido: 100% ⇒ 110%",
+   "id": "43590975b47a",
+   "section": "modes",
+   "tags": [
+    "Marksman",
+    "Assassin"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Bots Apocalípticos",
+   "sectionId": "patch-doom-bots",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Rengar",
+    "name": "Rengar"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "stat",
+   "attribute": "Daño infligido",
+   "before": "100%",
+   "after": "110%",
+   "text": "Daño infligido: 100% ⇒ 110%",
+   "id": "788b89d5d8bb",
+   "section": "modes",
+   "tags": [
+    "Assassin",
+    "Fighter"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Bots Apocalípticos",
+   "sectionId": "patch-doom-bots",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Rengar",
+    "name": "Rengar"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "stat",
+   "attribute": "Daño recibido",
+   "before": "100%",
+   "after": "95%",
+   "text": "Daño recibido: 100% ⇒ 95%",
+   "id": "036d592b9a9c",
+   "section": "modes",
+   "tags": [
+    "Assassin",
+    "Fighter"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Bots Apocalípticos",
+   "sectionId": "patch-doom-bots",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Shaco",
+    "name": "Shaco"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "stat",
+   "attribute": "Daño infligido",
+   "before": "100%",
+   "after": "115%",
+   "text": "Daño infligido: 100% ⇒ 115%",
+   "id": "7a448ee218a5",
+   "section": "modes",
+   "tags": [
+    "Assassin"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Bots Apocalípticos",
+   "sectionId": "patch-doom-bots",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Talon",
+    "name": "Talon"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "stat",
+   "attribute": "Daño infligido",
+   "before": "100%",
+   "after": "110%",
+   "text": "Daño infligido: 100% ⇒ 110%",
+   "id": "bf8b7ffc94e4",
+   "section": "modes",
+   "tags": [
+    "Assassin"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Bots Apocalípticos",
+   "sectionId": "patch-doom-bots",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Talon",
+    "name": "Talon"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "stat",
+   "attribute": "Tenacidad",
+   "before": "0",
+   "after": "25",
+   "text": "Tenacidad: 0 ⇒ 25",
+   "id": "928482ef388b",
+   "section": "modes",
+   "tags": [
+    "Assassin"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Bots Apocalípticos",
+   "sectionId": "patch-doom-bots",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Thresh",
+    "name": "Thresh"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "stat",
+   "attribute": "Daño recibido",
+   "before": "100%",
+   "after": "90%",
+   "text": "Daño recibido: 100% ⇒ 90%",
+   "id": "8dbb6a6d45fe",
+   "section": "modes",
+   "tags": [
+    "Support",
+    "Tank"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Bots Apocalípticos",
+   "sectionId": "patch-doom-bots",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Tristana",
+    "name": "Tristana"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "stat",
+   "attribute": "Daño infligido",
+   "before": "100%",
+   "after": "105%",
+   "text": "Daño infligido: 100% ⇒ 105%",
+   "id": "e564db2390a0",
+   "section": "modes",
+   "tags": [
+    "Marksman",
+    "Assassin"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Bots Apocalípticos",
+   "sectionId": "patch-doom-bots",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Tryndamere",
+    "name": "Tryndamere"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "stat",
+   "attribute": "Daño infligido",
+   "before": "100%",
+   "after": "105%",
+   "text": "Daño infligido: 100% ⇒ 105%",
+   "id": "51654303b86b",
+   "section": "modes",
+   "tags": [
+    "Fighter",
+    "Assassin"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Bots Apocalípticos",
+   "sectionId": "patch-doom-bots",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Tryndamere",
+    "name": "Tryndamere"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "stat",
+   "attribute": "Tenacidad",
+   "before": "0",
+   "after": "25",
+   "text": "Tenacidad: 0 ⇒ 25",
+   "id": "0a8f764f8ea6",
+   "section": "modes",
+   "tags": [
+    "Fighter",
+    "Assassin"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Bots Apocalípticos",
+   "sectionId": "patch-doom-bots",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Vex",
+    "name": "Vex"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "stat",
+   "attribute": "Daño infligido",
+   "before": "100%",
+   "after": "105%",
+   "text": "Daño infligido: 100% ⇒ 105%",
+   "id": "f7ded2f86556",
+   "section": "modes",
+   "tags": [
+    "Mage"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Bots Apocalípticos",
+   "sectionId": "patch-doom-bots",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Xerath",
+    "name": "Xerath"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "stat",
+   "attribute": "Daño infligido",
+   "before": "100%",
+   "after": "105%",
+   "text": "Daño infligido: 100% ⇒ 105%",
+   "id": "fa4599e619cd",
+   "section": "modes",
+   "tags": [
+    "Mage",
+    "Support"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Bots Apocalípticos",
+   "sectionId": "patch-doom-bots",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Zed",
+    "name": "Zed"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "stat",
+   "attribute": "Daño infligido",
+   "before": "100%",
+   "after": "115%",
+   "text": "Daño infligido: 100% ⇒ 115%",
+   "id": "9f1244c46fe9",
+   "section": "modes",
+   "tags": [
+    "Assassin"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Bots Apocalípticos",
+   "sectionId": "patch-doom-bots",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Zoe",
+    "name": "Zoe"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "stat",
+   "attribute": "Daño infligido",
+   "before": "100%",
+   "after": "115%",
+   "text": "Daño infligido: 100% ⇒ 115%",
+   "id": "0e077b4509cd",
+   "section": "modes",
+   "tags": [
+    "Mage"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Arena",
+   "sectionId": "patch-arena-",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Nidalee",
+    "name": "Nidalee"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "stat",
+   "attribute": null,
+   "before": "Amplificación de daño del alcance máximo de la Q: 325%",
+   "after": "400%",
+   "text": "Amplificación de daño del alcance máximo de la Q: 325% ⇒ 400%",
+   "id": "0f04923550b4",
+   "section": "modes",
+   "tags": [
+    "Assassin",
+    "Mage"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Arena",
+   "sectionId": "patch-arena-",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Nidalee",
+    "name": "Nidalee"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "stat",
+   "attribute": null,
+   "before": "Tasa de Poder de Habilidad de Zarpazo de la E: 55%",
+   "after": "75%",
+   "text": "Tasa de Poder de Habilidad de Zarpazo de la E: 55% ⇒ 75%",
+   "id": "72295a8a34de",
+   "section": "modes",
+   "tags": [
+    "Assassin",
+    "Mage"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Arena",
+   "sectionId": "patch-arena-",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Ezreal",
+    "name": "Ezreal"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "stat",
+   "attribute": null,
+   "before": "Velocidad de Ataque pasiva por acumulación: 15%",
+   "after": "20%",
+   "text": "Velocidad de Ataque pasiva por acumulación: 15% ⇒ 20%",
+   "id": "5d418d9aca70",
+   "section": "modes",
+   "tags": [
+    "Marksman",
+    "Mage"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Arena",
+   "sectionId": "patch-arena-",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Ezreal",
+    "name": "Ezreal"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "stat",
+   "attribute": null,
+   "before": "Duración de la pasiva: 6 seg",
+   "after": "8 seg",
+   "text": "Duración de la pasiva: 6 seg ⇒ 8 seg",
+   "id": "0af7ba9ad93a",
+   "section": "modes",
+   "tags": [
+    "Marksman",
+    "Mage"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Arena",
+   "sectionId": "patch-arena-",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Ezreal",
+    "name": "Ezreal"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "stat",
+   "attribute": null,
+   "before": "Tasa de Daño de Ataque de la Q: 150%",
+   "after": "160%",
+   "text": "Tasa de Daño de Ataque de la Q: 150% ⇒ 160%",
+   "id": "5ad47eab67ec",
+   "section": "modes",
+   "tags": [
+    "Marksman",
+    "Mage"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Arena",
+   "sectionId": "patch-arena-",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Ezreal",
+    "name": "Ezreal"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "stat",
+   "attribute": null,
+   "before": "Enfriamiento de la R: De 120 a 90 seg",
+   "after": "De 50 a 30 seg",
+   "text": "Enfriamiento de la R: De 120 a 90 seg ⇒ De 50 a 30 seg",
+   "id": "e82937de8821",
+   "section": "modes",
+   "tags": [
+    "Marksman",
+    "Mage"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Arena",
+   "sectionId": "patch-arena-",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Taliyah",
+    "name": "Taliyah"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "stat",
+   "attribute": null,
+   "before": "Daño básico de la Q: De 60 a 132",
+   "after": "De 70 a 150",
+   "text": "Daño básico de la Q: De 60 a 132 ⇒ De 70 a 150",
+   "id": "0d3b35fddf21",
+   "section": "modes",
+   "tags": [
+    "Mage",
+    "Support"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Arena",
+   "sectionId": "patch-arena-",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Taliyah",
+    "name": "Taliyah"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "stat",
+   "attribute": null,
+   "before": "Tasa de Poder de Habilidad de la Q: 55%",
+   "after": "60%",
+   "text": "Tasa de Poder de Habilidad de la Q: 55% ⇒ 60%",
+   "id": "294b35c39a76",
+   "section": "modes",
+   "tags": [
+    "Mage",
+    "Support"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Arena",
+   "sectionId": "patch-arena-",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Taliyah",
+    "name": "Taliyah"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "stat",
+   "attribute": null,
+   "before": "Enfriamiento de la E: 14 seg",
+   "after": "12 seg",
+   "text": "Enfriamiento de la E: 14 seg ⇒ 12 seg",
+   "id": "34573704926f",
+   "section": "modes",
+   "tags": [
+    "Mage",
+    "Support"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Arena",
+   "sectionId": "patch-arena-",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Hwei",
+    "name": "Hwei"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "stat",
+   "attribute": null,
+   "before": "Enfriamiento de la W: De 18 a 16 seg",
+   "after": "De 12 a 10 seg",
+   "text": "Enfriamiento de la W: De 18 a 16 seg ⇒ De 12 a 10 seg",
+   "id": "f880d8270762",
+   "section": "modes",
+   "tags": [
+    "Mage",
+    "Support"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Arena",
+   "sectionId": "patch-arena-",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Hwei",
+    "name": "Hwei"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "stat",
+   "attribute": null,
+   "before": "Enfriamiento de la E: De 13 a 11 seg",
+   "after": "De 12 a 10 seg",
+   "text": "Enfriamiento de la E: De 13 a 11 seg ⇒ De 12 a 10 seg",
+   "id": "8dbea3d26233",
+   "section": "modes",
+   "tags": [
+    "Mage",
+    "Support"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Arena",
+   "sectionId": "patch-arena-",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Jayce",
+    "name": "Jayce"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "stat",
+   "attribute": null,
+   "before": "Daño básico de la Q: De 40 a 240",
+   "after": "De 80 a 310",
+   "text": "Daño básico de la Q: De 40 a 240 ⇒ De 80 a 310",
+   "id": "ec34c76af2ca",
+   "section": "modes",
+   "tags": [
+    "Fighter",
+    "Marksman"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Arena",
+   "sectionId": "patch-arena-",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Jayce",
+    "name": "Jayce"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "stat",
+   "attribute": null,
+   "before": "Tasa de Daño de Ataque de la W: De 65% a 105%",
+   "after": "De 70% a 110%",
+   "text": "Tasa de Daño de Ataque de la W: De 65% a 105% ⇒ De 70% a 110%",
+   "id": "c1bea7a49d7a",
+   "section": "modes",
+   "tags": [
+    "Fighter",
+    "Marksman"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Arena",
+   "sectionId": "patch-arena-",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Ambessa",
+    "name": "Ambessa"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "stat",
+   "attribute": null,
+   "before": "Daño por porcentaje de Vida de la Q1: De 2% a 6%",
+   "after": "De 2% a 5%",
+   "text": "Daño por porcentaje de Vida de la Q1: De 2% a 6% ⇒ De 2% a 5%",
+   "id": "56431830dd84",
+   "section": "modes",
+   "tags": [
+    "Fighter",
+    "Assassin"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Arena",
+   "sectionId": "patch-arena-",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Ambessa",
+    "name": "Ambessa"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "stat",
+   "attribute": null,
+   "before": "Daño por porcentaje de Vida de la Q2: De 2% a 6%",
+   "after": "De 2% a 5%",
+   "text": "Daño por porcentaje de Vida de la Q2: De 2% a 6% ⇒ De 2% a 5%",
+   "id": "89538f1a0d42",
+   "section": "modes",
+   "tags": [
+    "Fighter",
+    "Assassin"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Arena",
+   "sectionId": "patch-arena-",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Ambessa",
+    "name": "Ambessa"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "stat",
+   "attribute": null,
+   "before": "Enfriamiento de la W: De 18 a 14 seg",
+   "after": "De 20 a 16 seg",
+   "text": "Enfriamiento de la W: De 18 a 14 seg ⇒ De 20 a 16 seg",
+   "id": "2a0248886b7f",
+   "section": "modes",
+   "tags": [
+    "Fighter",
+    "Assassin"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Arena",
+   "sectionId": "patch-arena-",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "AurelionSol",
+    "name": "Aurelion Sol"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "stat",
+   "attribute": null,
+   "before": "Obtención de Polvo Estelar de la Q: 2",
+   "after": "4",
+   "text": "Obtención de Polvo Estelar de la Q: 2 ⇒ 4",
+   "id": "1970dd0bc521",
+   "section": "modes",
+   "tags": [
+    "Mage"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Arena",
+   "sectionId": "patch-arena-",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "AurelionSol",
+    "name": "Aurelion Sol"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "stat",
+   "attribute": null,
+   "before": "Tasa de Poder de Habilidad de la Q: 55%",
+   "after": "60%",
+   "text": "Tasa de Poder de Habilidad de la Q: 55% ⇒ 60%",
+   "id": "c7eb53f2dedd",
+   "section": "modes",
+   "tags": [
+    "Mage"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Arena",
+   "sectionId": "patch-arena-",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Tryndamere",
+    "name": "Tryndamere"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "stat",
+   "attribute": null,
+   "before": "Ralentización de la W: De 50% a 80%",
+   "after": "De 30% a 60%",
+   "text": "Ralentización de la W: De 50% a 80% ⇒ De 30% a 60%",
+   "id": "0b3a8b8fb702",
+   "section": "modes",
+   "tags": [
+    "Fighter",
+    "Assassin"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Arena",
+   "sectionId": "patch-arena-",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Tryndamere",
+    "name": "Tryndamere"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "stat",
+   "attribute": null,
+   "before": "Reducción de Daño de Ataque de la W: De 30 a 90",
+   "after": "De 20 a 80",
+   "text": "Reducción de Daño de Ataque de la W: De 30 a 90 ⇒ De 20 a 80",
+   "id": "df33b2e1abb9",
+   "section": "modes",
+   "tags": [
+    "Fighter",
+    "Assassin"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Arena",
+   "sectionId": "patch-arena-",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Yasuo",
+    "name": "Yasuo"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "text",
+   "attribute": null,
+   "before": null,
+   "after": null,
+   "text": "El escudo que otorga la pasiva ya no es un 30% más fuerte en Arena",
+   "id": "b474c9a58635",
+   "section": "modes",
+   "tags": [
+    "Fighter",
+    "Assassin"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Arena",
+   "sectionId": "patch-arena-",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Yasuo",
+    "name": "Yasuo"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "stat",
+   "attribute": null,
+   "before": "Daño básico de la E: De 75 a 135",
+   "after": "De 70 a 130",
+   "text": "Daño básico de la E: De 75 a 135 ⇒ De 70 a 130",
+   "id": "5cefbc9b647c",
+   "section": "modes",
+   "tags": [
+    "Fighter",
+    "Assassin"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Arena",
+   "sectionId": "patch-arena-",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Udyr",
+    "name": "Udyr"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "stat",
+   "attribute": null,
+   "before": "Tasa de Daño de Ataque adicional de la Q: 2%",
+   "after": "1.5% por cada 100 de Daño de Ataque adicional",
+   "text": "Tasa de Daño de Ataque adicional de la Q: 2% ⇒ 1.5% por cada 100 de Daño de Ataque adicional",
+   "id": "4a9b2c6a8c4c",
+   "section": "modes",
+   "tags": [
+    "Fighter",
+    "Tank"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Arena",
+   "sectionId": "patch-arena-",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Udyr",
+    "name": "Udyr"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "stat",
+   "attribute": null,
+   "before": "Tasa de Daño de Ataque adicional de Despertar de la la Q2: 4%",
+   "after": "3% por cada 100 de Daño de Ataque adicional",
+   "text": "Tasa de Daño de Ataque adicional de Despertar de la la Q2: 4% ⇒ 3% por cada 100 de Daño de Ataque adicional",
+   "id": "364bb89d4080",
+   "section": "modes",
+   "tags": [
+    "Fighter",
+    "Tank"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Arena",
+   "sectionId": "patch-arena-",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Udyr",
+    "name": "Udyr"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "stat",
+   "attribute": null,
+   "before": "Daño básico del relámpago de la Q2: De 1.5% a 3%",
+   "after": "De 1% a 2%",
+   "text": "Daño básico del relámpago de la Q2: De 1.5% a 3% ⇒ De 1% a 2%",
+   "id": "ce443a3fffa1",
+   "section": "modes",
+   "tags": [
+    "Fighter",
+    "Tank"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Arena",
+   "sectionId": "patch-arena-",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Udyr",
+    "name": "Udyr"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "stat",
+   "attribute": null,
+   "before": "Aumento de la tasa de Poder de Habilidad del relámpago de la Q2: 4.8 por cada 100",
+   "after": "5.4 por cada 100 en total",
+   "text": "Aumento de la tasa de Poder de Habilidad del relámpago de la Q2: 4.8 por cada 100 ⇒ 5.4 por cada 100 en total",
+   "id": "639873e2924b",
+   "section": "modes",
+   "tags": [
+    "Fighter",
+    "Tank"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Arena",
+   "sectionId": "patch-arena-",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Udyr",
+    "name": "Udyr"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "stat",
+   "attribute": null,
+   "before": "Vida de la W al impacto: 1.2%",
+   "after": "1.5%",
+   "text": "Vida de la W al impacto: 1.2% ⇒ 1.5%",
+   "id": "6a18ba57530c",
+   "section": "modes",
+   "tags": [
+    "Fighter",
+    "Tank"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Arena",
+   "sectionId": "patch-arena-",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Udyr",
+    "name": "Udyr"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "stat",
+   "attribute": null,
+   "before": "Curación de la W2 a lo largo de 4 seg: 50%",
+   "after": "75%",
+   "text": "Curación de la W2 a lo largo de 4 seg: 50% ⇒ 75%",
+   "id": "e036dd531747",
+   "section": "modes",
+   "tags": [
+    "Fighter",
+    "Tank"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Arena",
+   "sectionId": "patch-arena-",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Udyr",
+    "name": "Udyr"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "stat",
+   "attribute": null,
+   "before": "Velocidad de Movimiento de la E: De 25% a 55%",
+   "after": "De 40% a 70%",
+   "text": "Velocidad de Movimiento de la E: De 25% a 55% ⇒ De 40% a 70%",
+   "id": "d7f6e18d6262",
+   "section": "modes",
+   "tags": [
+    "Fighter",
+    "Tank"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Arena",
+   "sectionId": "patch-arena-",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Pantheon",
+    "name": "Pantheon"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "stat",
+   "attribute": null,
+   "before": "Enfriamiento de la Q: De 10 a 7 seg",
+   "after": "De 11 a 8 seg",
+   "text": "Enfriamiento de la Q: De 10 a 7 seg ⇒ De 11 a 8 seg",
+   "id": "ad9dd01581a5",
+   "section": "modes",
+   "tags": [
+    "Fighter",
+    "Assassin"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Arena",
+   "sectionId": "patch-arena-",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Sylas",
+    "name": "Sylas"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "stat",
+   "attribute": null,
+   "before": "Tasa de Poder de Habilidad como daño de la W: 65%",
+   "after": "60%",
+   "text": "Tasa de Poder de Habilidad como daño de la W: 65% ⇒ 60%",
+   "id": "aeaeea02b591",
+   "section": "modes",
+   "tags": [
+    "Mage",
+    "Assassin"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Arena",
+   "sectionId": "patch-arena-",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Kayle",
+    "name": "Kayle"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "stat",
+   "attribute": null,
+   "before": "Ralentización de la Q: De 15% a 35%",
+   "after": "De 26% a 50%",
+   "text": "Ralentización de la Q: De 15% a 35% ⇒ De 26% a 50%",
+   "id": "770acf6b97b0",
+   "section": "modes",
+   "tags": [
+    "Mage",
+    "Marksman"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Arena",
+   "sectionId": "patch-arena-",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Kayle",
+    "name": "Kayle"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "stat",
+   "attribute": null,
+   "before": "Velocidad de Movimiento de la W: De 15% a 35%",
+   "after": "De 24% a 40%",
+   "text": "Velocidad de Movimiento de la W: De 15% a 35% ⇒ De 24% a 40%",
+   "id": "fc6370886111",
+   "section": "modes",
+   "tags": [
+    "Mage",
+    "Marksman"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Arena",
+   "sectionId": "patch-arena-",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Shaco",
+    "name": "Shaco"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "stat",
+   "attribute": null,
+   "before": "Tasa de Daño de Ataque adicional de la pasiva: 35%",
+   "after": "40%",
+   "text": "Tasa de Daño de Ataque adicional de la pasiva: 35% ⇒ 40%",
+   "id": "5b4412581dce",
+   "section": "modes",
+   "tags": [
+    "Assassin"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Arena",
+   "sectionId": "patch-arena-",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Shaco",
+    "name": "Shaco"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "stat",
+   "attribute": null,
+   "before": "Tasa de Poder de Habilidad multiobjetivo de la W: 80%",
+   "after": "10% de Poder de Habilidad",
+   "text": "Tasa de Poder de Habilidad multiobjetivo de la W: 80% ⇒ 10% de Poder de Habilidad",
+   "id": "cd47662430df",
+   "section": "modes",
+   "tags": [
+    "Assassin"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Arena",
+   "sectionId": "patch-arena-",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Bard",
+    "name": "Bardo"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "stat",
+   "attribute": null,
+   "before": "Tiempo de carga de la W: 8 seg",
+   "after": "5 seg",
+   "text": "Tiempo de carga de la W: 8 seg ⇒ 5 seg",
+   "id": "748f48742cf5",
+   "section": "modes",
+   "tags": [
+    "Support",
+    "Mage"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Arena",
+   "sectionId": "patch-arena-",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Bard",
+    "name": "Bardo"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "stat",
+   "attribute": null,
+   "before": "Tiempo de recarga de la W: 18 seg",
+   "after": "10 seg",
+   "text": "Tiempo de recarga de la W: 18 seg ⇒ 10 seg",
+   "id": "0cf5f1a5c7c0",
+   "section": "modes",
+   "tags": [
+    "Support",
+    "Mage"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Arena",
+   "sectionId": "patch-arena-",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Bard",
+    "name": "Bardo"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "stat",
+   "attribute": null,
+   "before": "Velocidad de Movimiento adicional del portal de la E: 33%",
+   "after": "50%",
+   "text": "Velocidad de Movimiento adicional del portal de la E: 33% ⇒ 50%",
+   "id": "ad3a5a827910",
+   "section": "modes",
+   "tags": [
+    "Support",
+    "Mage"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Arena",
+   "sectionId": "patch-arena-",
+   "midPatch": false,
+   "entity": {
+    "kind": "none",
+    "id": null,
+    "name": "Lento pero Seguro"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "text",
+   "attribute": null,
+   "before": null,
+   "after": null,
+   "text": "Quitamos el límite de velocidad de ataque mínima",
+   "id": "85e7d6273071",
+   "section": "modes",
+   "tags": [],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Arena",
+   "sectionId": "patch-arena-",
+   "midPatch": false,
+   "entity": {
+    "kind": "none",
+    "id": null,
+    "name": "Lento pero Seguro"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "text",
+   "attribute": null,
+   "before": null,
+   "after": null,
+   "text": "Ya no obtendrán velocidad de ataque si tienen menos de 1.0",
+   "id": "c0b331fe5ce9",
+   "section": "modes",
+   "tags": [],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Arena",
+   "sectionId": "patch-arena-",
+   "midPatch": false,
+   "entity": {
+    "kind": "none",
+    "id": null,
+    "name": "Misión: Sombrerero Loco"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "stat",
+   "attribute": null,
+   "before": "Fuerza adaptable por sombrero: 12",
+   "after": "10",
+   "text": "Fuerza adaptable por sombrero: 12 ⇒ 10",
+   "id": "e37234582d7c",
+   "section": "modes",
+   "tags": [],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Arena",
+   "sectionId": "patch-arena-",
+   "midPatch": false,
+   "entity": {
+    "kind": "none",
+    "id": null,
+    "name": "Misión: Sombrerero Loco"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "stat",
+   "attribute": null,
+   "before": "Tenacidad: 1%",
+   "after": "0.5%",
+   "text": "Tenacidad: 1% ⇒ 0.5%",
+   "id": "b227be322ff1",
+   "section": "modes",
+   "tags": [],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Arena",
+   "sectionId": "patch-arena-",
+   "midPatch": false,
+   "entity": {
+    "kind": "none",
+    "id": null,
+    "name": "Misión: Sombrerero Loco"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "stat",
+   "attribute": null,
+   "before": "Velocidad de Movimiento: 4",
+   "after": "2",
+   "text": "Velocidad de Movimiento: 4 ⇒ 2",
+   "id": "29d713435549",
+   "section": "modes",
+   "tags": [],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Arena",
+   "sectionId": "patch-arena-",
+   "midPatch": false,
+   "entity": {
+    "kind": "none",
+    "id": null,
+    "name": "Misión: Sombrerero Loco"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "text",
+   "attribute": null,
+   "before": null,
+   "after": null,
+   "text": "Se debe completar la misión al final de una ronda de combates",
+   "id": "57c79d94919d",
+   "section": "modes",
+   "tags": [],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Arena",
+   "sectionId": "patch-arena-",
+   "midPatch": false,
+   "entity": {
+    "kind": "none",
+    "id": null,
+    "name": "Prensa de Juguito"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "stat",
+   "attribute": null,
+   "before": "Sombreros de Juguito de Gorrito: 2",
+   "after": "1",
+   "text": "Sombreros de Juguito de Gorrito: 2 ⇒ 1",
+   "id": "39e3fa7d3c64",
+   "section": "modes",
+   "tags": [],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Arena",
+   "sectionId": "patch-arena-",
+   "midPatch": false,
+   "entity": {
+    "kind": "none",
+    "id": null,
+    "name": "Yunque de Gamba"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "stat",
+   "attribute": null,
+   "before": "Descuento de fragmentos de estadísticas: 250",
+   "after": "100 de oro",
+   "text": "Descuento de fragmentos de estadísticas: 250 ⇒ 100 de oro",
+   "id": "4bd85227be07",
+   "section": "modes",
+   "tags": [],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Arena",
+   "sectionId": "patch-arena-",
+   "midPatch": false,
+   "entity": {
+    "kind": "item",
+    "id": "3040",
+    "name": "Abrazo del Serafín"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "text",
+   "attribute": null,
+   "before": null,
+   "after": null,
+   "text": "Corregimos errores en las descripciones para que se muestre el maná máximo",
+   "id": "4adb5cd69cff",
+   "section": "modes",
+   "tags": [
+    "SpellDamage",
+    "Mana",
+    "AbilityHaste"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Arena",
+   "sectionId": "patch-arena-",
+   "midPatch": false,
+   "entity": {
+    "kind": "item",
+    "id": "3153",
+    "name": "Espada del Rey Arruinado"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "stat",
+   "attribute": null,
+   "before": "Cantidad de impactos necesarios para que se active: 1",
+   "after": "3",
+   "text": "Cantidad de impactos necesarios para que se active: 1 ⇒ 3",
+   "id": "cd032de9e555",
+   "section": "modes",
+   "tags": [
+    "Damage",
+    "AttackSpeed",
+    "LifeSteal",
+    "Slow",
+    "OnHit"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Arena",
+   "sectionId": "patch-arena-",
+   "midPatch": false,
+   "entity": {
+    "kind": "item",
+    "id": "3050",
+    "name": "Convergencia de Zeke"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "stat",
+   "attribute": null,
+   "before": "Duración: 5 seg",
+   "after": "12 seg",
+   "text": "Duración: 5 seg ⇒ 12 seg",
+   "id": "c9650cca4cc0",
+   "section": "modes",
+   "tags": [
+    "Health",
+    "SpellBlock",
+    "Armor",
+    "AbilityHaste"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Actualizaciones a la rareza de los íconos",
+   "sectionId": "patch-icon-rarity-updates",
+   "midPatch": false,
+   "entity": {
+    "kind": "none",
+    "id": null,
+    "name": ""
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "text",
+   "attribute": null,
+   "before": null,
+   "after": null,
+   "text": "Ahri Espíritu Legendario (Trascendente)",
+   "id": "69f2210702ff",
+   "section": "systems",
+   "tags": [],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Actualizaciones a la rareza de los íconos",
+   "sectionId": "patch-icon-rarity-updates",
+   "midPatch": false,
+   "entity": {
+    "kind": "none",
+    "id": null,
+    "name": ""
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "text",
+   "attribute": null,
+   "before": null,
+   "after": null,
+   "text": "Ahri Leyenda Inmortalizada (Trascendente)",
+   "id": "9019418df8f5",
+   "section": "systems",
+   "tags": [],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Actualizaciones a la rareza de los íconos",
+   "sectionId": "patch-icon-rarity-updates",
+   "midPatch": false,
+   "entity": {
+    "kind": "none",
+    "id": null,
+    "name": ""
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "text",
+   "attribute": null,
+   "before": null,
+   "after": null,
+   "text": "Kai'Sa Espíritu Legendario (Trascendente)",
+   "id": "8039d8b0c9b0",
+   "section": "systems",
+   "tags": [],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Actualizaciones a la rareza de los íconos",
+   "sectionId": "patch-icon-rarity-updates",
+   "midPatch": false,
+   "entity": {
+    "kind": "none",
+    "id": null,
+    "name": ""
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "text",
+   "attribute": null,
+   "before": null,
+   "after": null,
+   "text": "Kai'Sa Leyenda Inmortalizada (Trascendente)",
+   "id": "5c3c889b56aa",
+   "section": "systems",
+   "tags": [],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Actualizaciones a la rareza de los íconos",
+   "sectionId": "patch-icon-rarity-updates",
+   "midPatch": false,
+   "entity": {
+    "kind": "none",
+    "id": null,
+    "name": ""
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "text",
+   "attribute": null,
+   "before": null,
+   "after": null,
+   "text": "Arcane: Jinx Quebrantada (Enaltecido)",
+   "id": "643535bdc20f",
+   "section": "systems",
+   "tags": [],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Actualizaciones a la rareza de los íconos",
+   "sectionId": "patch-icon-rarity-updates",
+   "midPatch": false,
+   "entity": {
+    "kind": "none",
+    "id": null,
+    "name": ""
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "text",
+   "attribute": null,
+   "before": null,
+   "after": null,
+   "text": "Sett Serpiente Radiante (Enaltecido)",
+   "id": "aa1a7ed555eb",
+   "section": "systems",
+   "tags": [],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Actualizaciones a la rareza de los íconos",
+   "sectionId": "patch-icon-rarity-updates",
+   "midPatch": false,
+   "entity": {
+    "kind": "none",
+    "id": null,
+    "name": ""
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "text",
+   "attribute": null,
+   "before": null,
+   "after": null,
+   "text": "Mordekaiser Sahn-Uzal (Enaltecido)",
+   "id": "ac2842b1f420",
+   "section": "systems",
+   "tags": [],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Actualizaciones a la rareza de los íconos",
+   "sectionId": "patch-icon-rarity-updates",
+   "midPatch": false,
+   "entity": {
+    "kind": "none",
+    "id": null,
+    "name": ""
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "text",
+   "attribute": null,
+   "before": null,
+   "after": null,
+   "text": "Morgana Flor Espiritual (Enaltecido)",
+   "id": "c122e4bf73c2",
+   "section": "systems",
+   "tags": [],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Mejoras a las partidas personalizadas",
+   "sectionId": "patch-custom-game-improvements",
+   "midPatch": false,
+   "entity": {
+    "kind": "none",
+    "id": null,
+    "name": ""
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "text",
+   "attribute": null,
+   "before": null,
+   "after": null,
+   "text": "Ahora, pueden elegir el mapa donde quieren jugar al crear partidas personalizadas de ARAM. También pueden seleccionar ''Aleatorio'' si quieren que el azar decida por ustedes",
+   "id": "3cd6c79869ab",
+   "section": "systems",
+   "tags": [],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Mejoras a las partidas personalizadas",
+   "sectionId": "patch-custom-game-improvements",
+   "midPatch": false,
+   "entity": {
+    "kind": "none",
+    "id": null,
+    "name": ""
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "text",
+   "attribute": null,
+   "before": null,
+   "after": null,
+   "text": "Corregimos un error que hacía que el botón ''Agregar bot'' a veces apareciera en la configuración de las partidas personalizadas de ARAM aunque no se puedan agregar bots a esas partidas",
+   "id": "6b2c1d18d3ed",
+   "section": "systems",
+   "tags": [],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Mejoras a las partidas personalizadas",
+   "sectionId": "patch-custom-game-improvements",
+   "midPatch": false,
+   "entity": {
+    "kind": "none",
+    "id": null,
+    "name": ""
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "text",
+   "attribute": null,
+   "before": null,
+   "after": null,
+   "text": "Corregimos un error que permitía entrar a la misma sala de las partidas personalizadas en diferentes versiones del juego",
+   "id": "4424cb324d9e",
+   "section": "systems",
+   "tags": [],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Mejoras a las partidas personalizadas",
+   "sectionId": "patch-custom-game-improvements",
+   "midPatch": false,
+   "entity": {
+    "kind": "none",
+    "id": null,
+    "name": ""
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "text",
+   "attribute": null,
+   "before": null,
+   "after": null,
+   "text": "Corregimos un error que causaba que los lugares disponibles en la sala de una partida personalizada (como se muestran en la lista de amigos) incluyeran las ranuras de espectador",
+   "id": "749df36b7bbd",
+   "section": "systems",
+   "tags": [],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Mejoras a las partidas personalizadas",
+   "sectionId": "patch-custom-game-improvements",
+   "midPatch": false,
+   "entity": {
+    "kind": "none",
+    "id": null,
+    "name": ""
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "text",
+   "attribute": null,
+   "before": null,
+   "after": null,
+   "text": "Corregimos un error que provocaba que alguien volviera a ser espectador en la sala de una partida personalizada cuando otra persona modificaba su rol y se convertía en espectador",
+   "id": "e23c09ad0248",
+   "section": "systems",
+   "tags": [],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Mejoras al modo espectador",
+   "sectionId": "patch-bugfixes-and-qol-changes",
+   "midPatch": false,
+   "entity": {
+    "kind": "none",
+    "id": null,
+    "name": ""
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "text",
+   "attribute": null,
+   "before": null,
+   "after": null,
+   "text": "Ahora, se puede hacer clic y mantener presionado en los bordes del minimapa para moverlo por la pantalla",
+   "id": "ee789570b5b7",
+   "section": "systems",
+   "tags": [],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Mejoras al modo espectador",
+   "sectionId": "patch-bugfixes-and-qol-changes",
+   "midPatch": false,
+   "entity": {
+    "kind": "none",
+    "id": null,
+    "name": ""
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "text",
+   "attribute": null,
+   "before": null,
+   "after": null,
+   "text": "El minimapa tiene nuevas opciones de transparencia",
+   "id": "ec22eea2d55a",
+   "section": "systems",
+   "tags": [],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Mejoras al modo espectador",
+   "sectionId": "patch-bugfixes-and-qol-changes",
+   "midPatch": false,
+   "entity": {
+    "kind": "none",
+    "id": null,
+    "name": ""
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "text",
+   "attribute": null,
+   "before": null,
+   "after": null,
+   "text": "El marco o borde del minimapa se puede desactivar",
+   "id": "fc5e854af1f7",
+   "section": "systems",
+   "tags": [],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Mejoras al modo espectador",
+   "sectionId": "patch-bugfixes-and-qol-changes",
+   "midPatch": false,
+   "entity": {
+    "kind": "none",
+    "id": null,
+    "name": ""
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "text",
+   "attribute": null,
+   "before": null,
+   "after": null,
+   "text": "Se amplió el escalado del minimapa (puede ser mucho más grande o pequeño de lo normal)",
+   "id": "17ccfddba632",
+   "section": "systems",
+   "tags": [],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Corrección de errores y cambios de funcionalidad",
+   "sectionId": "patch-bugfixes-and-qol-changes",
+   "midPatch": false,
+   "entity": {
+    "kind": "none",
+    "id": null,
+    "name": ""
+   },
+   "part": "Cambios de funcionalidad",
+   "partTitle": "Cambios de funcionalidad",
+   "spellKey": null,
+   "kind": "text",
+   "attribute": null,
+   "before": null,
+   "after": null,
+   "text": "¡Añadimos nuevos efectos de sonido al gesto Pulgares Arriba!",
+   "id": "39a5909fcbc9",
+   "section": "systems",
+   "tags": [],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Corrección de errores y cambios de funcionalidad",
+   "sectionId": "patch-bugfixes-and-qol-changes",
+   "midPatch": false,
+   "entity": {
+    "kind": "none",
+    "id": null,
+    "name": ""
+   },
+   "part": "Corrección de errores",
+   "partTitle": "Corrección de errores",
+   "spellKey": null,
+   "kind": "text",
+   "attribute": null,
+   "before": null,
+   "after": null,
+   "text": "Corregimos un error que causaba que la curación de la W de Seraphine no se calculara correctamente según la cantidad de campeones aliados cercanos",
+   "id": "f9b5fd06aeb8",
+   "section": "systems",
+   "tags": [],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Corrección de errores y cambios de funcionalidad",
+   "sectionId": "patch-bugfixes-and-qol-changes",
+   "midPatch": false,
+   "entity": {
+    "kind": "none",
+    "id": null,
+    "name": ""
+   },
+   "part": "Corrección de errores",
+   "partTitle": "Corrección de errores",
+   "spellKey": null,
+   "kind": "text",
+   "attribute": null,
+   "before": null,
+   "after": null,
+   "text": "Corregimos un error que hacía que los efectos visuales del área de efecto de la W de Jinx no se reprodujeran correctamente al matar a un enemigo",
+   "id": "cb6a124ada3d",
+   "section": "systems",
+   "tags": [],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Corrección de errores y cambios de funcionalidad",
+   "sectionId": "patch-bugfixes-and-qol-changes",
+   "midPatch": false,
+   "entity": {
+    "kind": "none",
+    "id": null,
+    "name": ""
+   },
+   "part": "Corrección de errores",
+   "partTitle": "Corrección de errores",
+   "spellKey": null,
+   "kind": "text",
+   "attribute": null,
+   "before": null,
+   "after": null,
+   "text": "Corregimos un error que provocaba que Sylas copiara la pasiva de Sion con la R cuando lanzaba la definitiva al estar en estado zombi",
+   "id": "3a91d20d6336",
+   "section": "systems",
+   "tags": [],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Corrección de errores y cambios de funcionalidad",
+   "sectionId": "patch-bugfixes-and-qol-changes",
+   "midPatch": false,
+   "entity": {
+    "kind": "none",
+    "id": null,
+    "name": ""
+   },
+   "part": "Corrección de errores",
+   "partTitle": "Corrección de errores",
+   "spellKey": null,
+   "kind": "text",
+   "attribute": null,
+   "before": null,
+   "after": null,
+   "text": "Corregimos un error que ocasionaba que Tahm Kench obtuviera el efecto del Alma de las Nubes al lanzar la R contra un objetivo que estuviera fuera del alcance y cancelarla",
+   "id": "162b5bcf5a45",
+   "section": "systems",
+   "tags": [],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Corrección de errores y cambios de funcionalidad",
+   "sectionId": "patch-bugfixes-and-qol-changes",
+   "midPatch": false,
+   "entity": {
+    "kind": "none",
+    "id": null,
+    "name": ""
+   },
+   "part": "Corrección de errores",
+   "partTitle": "Corrección de errores",
+   "spellKey": null,
+   "kind": "text",
+   "attribute": null,
+   "before": null,
+   "after": null,
+   "text": "Corregimos un error que hacía que los efectos visuales de la R de Xin Zhao fueran más brillantes de lo previsto en el modo espectador",
+   "id": "c42550d3b730",
+   "section": "systems",
+   "tags": [],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Corrección de errores y cambios de funcionalidad",
+   "sectionId": "patch-bugfixes-and-qol-changes",
+   "midPatch": false,
+   "entity": {
+    "kind": "none",
+    "id": null,
+    "name": ""
+   },
+   "part": "Corrección de errores",
+   "partTitle": "Corrección de errores",
+   "spellKey": null,
+   "kind": "text",
+   "attribute": null,
+   "before": null,
+   "after": null,
+   "text": "Corregimos un error que causaba que los efectos de sonido del yoyó de Zoe no se reprodujeran al final de las animaciones de provocación y aparición",
+   "id": "28d9ab9f0040",
+   "section": "systems",
+   "tags": [],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Corrección de errores y cambios de funcionalidad",
+   "sectionId": "patch-bugfixes-and-qol-changes",
+   "midPatch": false,
+   "entity": {
+    "kind": "none",
+    "id": null,
+    "name": ""
+   },
+   "part": "Corrección de errores",
+   "partTitle": "Corrección de errores",
+   "spellKey": null,
+   "kind": "text",
+   "attribute": null,
+   "before": null,
+   "after": null,
+   "text": "Corregimos un error que permitía que Leona dejara de ser objetivo de las torretas al impactar con su E a un enemigo que estaba cerca de un muro",
+   "id": "1f303297c187",
+   "section": "systems",
+   "tags": [],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Corrección de errores y cambios de funcionalidad",
+   "sectionId": "patch-bugfixes-and-qol-changes",
+   "midPatch": false,
+   "entity": {
+    "kind": "none",
+    "id": null,
+    "name": ""
+   },
+   "part": "Corrección de errores",
+   "partTitle": "Corrección de errores",
+   "spellKey": null,
+   "kind": "text",
+   "attribute": null,
+   "before": null,
+   "after": null,
+   "text": "Corregimos un error que ocasionaba que los efectos visuales de Salvación (P) de Soraka parpadearan en todos los aspectos de la campeona",
+   "id": "75b131700fdc",
+   "section": "systems",
+   "tags": [],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Corrección de errores y cambios de funcionalidad",
+   "sectionId": "patch-bugfixes-and-qol-changes",
+   "midPatch": false,
+   "entity": {
+    "kind": "none",
+    "id": null,
+    "name": ""
+   },
+   "part": "Corrección de errores",
+   "partTitle": "Corrección de errores",
+   "spellKey": null,
+   "kind": "text",
+   "attribute": null,
+   "before": null,
+   "after": null,
+   "text": "Corregimos un error que hacía que se vieran dos bastones en el suelo tras la muerte de Soraka Celestial",
+   "id": "6f1247143501",
+   "section": "systems",
+   "tags": [],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Corrección de errores y cambios de funcionalidad",
+   "sectionId": "patch-bugfixes-and-qol-changes",
+   "midPatch": false,
+   "entity": {
+    "kind": "none",
+    "id": null,
+    "name": ""
+   },
+   "part": "Corrección de errores",
+   "partTitle": "Corrección de errores",
+   "spellKey": null,
+   "kind": "text",
+   "attribute": null,
+   "before": null,
+   "after": null,
+   "text": "Corregimos un error que provocaba que Soraka Celestial apareciera desde debajo del suelo al revivir",
+   "id": "0e3b199c4c8c",
+   "section": "systems",
+   "tags": [],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Próximos aspectos y chromas",
+   "sectionId": "patch-upcoming-skins-and-chromas",
+   "midPatch": false,
+   "entity": {
+    "kind": "none",
+    "id": null,
+    "name": ""
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "text",
+   "attribute": null,
+   "before": null,
+   "after": null,
+   "text": "Lanzaremos los siguientes aspectos en esta versión:",
+   "id": "1773370fa97d",
+   "section": "cosmetics",
+   "tags": [],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Próximos aspectos y chromas",
+   "sectionId": "patch-upcoming-skins-and-chromas",
+   "midPatch": false,
+   "entity": {
+    "kind": "none",
+    "id": null,
+    "name": ""
+   },
+   "part": "Xin Zhao Desafíos del Crepúsculo",
+   "partTitle": "Xin Zhao Desafíos del Crepúsculo",
+   "spellKey": null,
+   "kind": "text",
+   "attribute": null,
+   "before": null,
+   "after": null,
+   "text": "Lanzaremos los siguientes chromas en esta versión:",
+   "id": "4ce5365c485f",
+   "section": "cosmetics",
+   "tags": [],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  }
+ ]
+}

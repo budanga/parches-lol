@@ -1,0 +1,779 @@
+{
+ "schemaVersion": 1,
+ "id": "Teemo",
+ "name": "Teemo",
+ "tags": [
+  "Marksman",
+  "Mage"
+ ],
+ "entries": [
+  {
+   "patch": "26.21",
+   "publishedAt": "2026-10-20T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Teemo",
+      "name": "Teemo"
+     },
+     "part": "E",
+     "partTitle": "E: Tiro Tóxico",
+     "spellKey": "TeemoE",
+     "kind": "stat",
+     "attribute": "Tasa de Daño de Ataque del primer impacto",
+     "before": "5%",
+     "after": "10%",
+     "text": "Tasa de Daño de Ataque del primer impacto: 5% ⇒ 10%",
+     "id": "c5681482f313",
+     "section": "modes",
+     "tags": [
+      "Marksman",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Teemo",
+      "name": "Teemo"
+     },
+     "part": "E",
+     "partTitle": "E: Tiro Tóxico",
+     "spellKey": "TeemoE",
+     "kind": "stat",
+     "attribute": "Tasa de Daño de Ataque del daño prolongado",
+     "before": "10%",
+     "after": "20%",
+     "text": "Tasa de Daño de Ataque del daño prolongado: 10% ⇒ 20%",
+     "id": "e24be3b8d08e",
+     "section": "modes",
+     "tags": [
+      "Marksman",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "26.15",
+   "publishedAt": "2026-07-28T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "ARAM: Caos",
+     "sectionId": "patch-aram:-mayhem",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Teemo",
+      "name": "Teemo"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Aceleración de Habilidad",
+     "before": "-10",
+     "after": "0",
+     "text": "Aceleración de Habilidad: -10 ⇒ 0",
+     "id": "7b15afed3b8c",
+     "section": "modes",
+     "tags": [
+      "Marksman",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "ARAM: Caos",
+     "sectionId": "patch-aram:-mayhem",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Teemo",
+      "name": "Teemo"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño infligido a súbditos",
+     "before": "60%",
+     "after": "100%",
+     "text": "Daño infligido a súbditos: 60% ⇒ 100%",
+     "id": "8227d9b0a1b5",
+     "section": "modes",
+     "tags": [
+      "Marksman",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "26.11",
+   "publishedAt": "2026-05-27T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Teemo",
+      "name": "Teemo"
+     },
+     "part": "base",
+     "partTitle": "Estadísticas base",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Crecimiento de Armadura",
+     "before": "4.95 por nivel",
+     "after": "4.5 por nivel",
+     "text": "Crecimiento de Armadura: 4.95 por nivel ⇒ 4.5 por nivel",
+     "id": "628287b9e152",
+     "section": "champions",
+     "tags": [
+      "Marksman",
+      "Mage"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Teemo",
+      "name": "Teemo"
+     },
+     "part": "E",
+     "partTitle": "E: Tiro Tóxico",
+     "spellKey": "TeemoE",
+     "kind": "stat",
+     "attribute": "Escalado de daño al impacto/veneno por activación",
+     "before": "(+ 10% de Daño de Ataque adicional / + 20% de Daño de Ataque adicional)",
+     "after": "(+ 5% de Daño de Ataque adicional / + 10% de Daño de Ataque adicional)",
+     "text": "Escalado de daño al impacto/veneno por activación: (+ 10% de Daño de Ataque adicional / + 20% de Daño de Ataque adicional) ⇒ (+ 5% de Daño de Ataque adicional / + 10% de Daño de Ataque adicional)",
+     "id": "4366157854f4",
+     "section": "champions",
+     "tags": [
+      "Marksman",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "26.9",
+   "publishedAt": "2026-04-28T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Teemo",
+      "name": "Teemo"
+     },
+     "part": "E",
+     "partTitle": "E: Tiro Tóxico",
+     "spellKey": "TeemoE",
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "[NUEVO] Tasa de Daño de Ataque adicional según el daño inicial: 10% de Daño de Ataque adicional",
+     "id": "b3e9701d2e00",
+     "section": "champions",
+     "tags": [
+      "Marksman",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Teemo",
+      "name": "Teemo"
+     },
+     "part": "E",
+     "partTitle": "E: Tiro Tóxico",
+     "spellKey": "TeemoE",
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "[NUEVO] Tasa de Daño de Ataque adicional según el daño prolongado: 30% de Daño de Ataque adicional durante 4 seg",
+     "id": "e319fd7f5716",
+     "section": "champions",
+     "tags": [
+      "Marksman",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "26.4",
+   "publishedAt": "2026-02-18T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Teemo",
+      "name": "Teemo"
+     },
+     "part": "E",
+     "partTitle": "E: Tiro Tóxico",
+     "spellKey": "TeemoE",
+     "kind": "stat",
+     "attribute": "Daño contra monstruos",
+     "before": "145%",
+     "after": "160%",
+     "text": "Daño contra monstruos: 145% ⇒ 160%",
+     "id": "76946e916fd8",
+     "section": "champions",
+     "tags": [
+      "Marksman",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.17",
+   "publishedAt": "2025-08-26T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Teemo",
+      "name": "Teemo"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Los hongos (y huevos y los demás objetos que arroja Teemo) ahora son más visibles.",
+     "id": "17cb79ba2f7d",
+     "section": "champions",
+     "tags": [
+      "Marksman",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Teemo",
+      "name": "Teemo"
+     },
+     "part": "R",
+     "partTitle": "R: Trampa Nociva",
+     "spellKey": "TeemoR",
+     "kind": "stat",
+     "attribute": "Opacidad de la trampa",
+     "before": "30%",
+     "after": "50%",
+     "text": "Opacidad de la trampa: 30% ⇒ 50%",
+     "id": "9b532ec114c7",
+     "section": "champions",
+     "tags": [
+      "Marksman",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.15",
+   "publishedAt": "2025-07-29T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Cambios de balance de ARAM",
+     "sectionId": "patch-aram-balance-changes",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Teemo",
+      "name": "Teemo"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Aceleración de Habilidad",
+     "before": "-10",
+     "after": "-15",
+     "text": "Aceleración de Habilidad: -10 ⇒ -15",
+     "id": "b50776a0d536",
+     "section": "modes",
+     "tags": [
+      "Marksman",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Cambios de balance de ARAM",
+     "sectionId": "patch-aram-balance-changes",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Teemo",
+      "name": "Teemo"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Duración de la R",
+     "before": "5 min",
+     "after": "3 min",
+     "text": "Duración de la R: 5 min ⇒ 3 min",
+     "id": "80e76e450c21",
+     "section": "modes",
+     "tags": [
+      "Marksman",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.11",
+   "publishedAt": "2025-05-27T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Pelea",
+     "sectionId": "patch-brawl",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Teemo",
+      "name": "Teemo"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño infligido",
+     "before": "100%",
+     "after": "95%",
+     "text": "Daño infligido: 100% ⇒ 95%",
+     "id": "d03ce7e28522",
+     "section": "modes",
+     "tags": [
+      "Marksman",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Pelea",
+     "sectionId": "patch-brawl",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Teemo",
+      "name": "Teemo"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Enfriamiento de la R",
+     "before": "35 / 30 / 25",
+     "after": "40 / 35 / 30",
+     "text": "Enfriamiento de la R: 35 / 30 / 25 ⇒ 40 / 35 / 30",
+     "id": "743a9ad0b876",
+     "section": "modes",
+     "tags": [
+      "Marksman",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.4",
+   "publishedAt": "2025-02-19T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Teemo",
+      "name": "Teemo"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Aumentamos el daño de su E contra monstruos.",
+     "id": "ea8b31065fc3",
+     "section": "champions",
+     "tags": [
+      "Marksman",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Teemo",
+      "name": "Teemo"
+     },
+     "part": "E",
+     "partTitle": "E: Tiro Tóxico",
+     "spellKey": "ToxicShot",
+     "kind": "stat",
+     "attribute": "Daño a monstruos",
+     "before": "125%",
+     "after": "145%",
+     "text": "Daño a monstruos: 125% ⇒ 145%",
+     "id": "951d8296cb63",
+     "section": "champions",
+     "tags": [
+      "Marksman",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "ARAM",
+     "sectionId": "patch-aram",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Teemo",
+      "name": "Teemo"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño de la R",
+     "before": "200/325/450 (+50% de Poder de Habilidad)",
+     "after": "180/290/400 (+40% de Poder de Habilidad)",
+     "text": "Daño de la R: 200/325/450 (+50% de Poder de Habilidad) ⇒ 180/290/400 (+40% de Poder de Habilidad)",
+     "id": "778d568eb551",
+     "section": "modes",
+     "tags": [
+      "Marksman",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "ARAM",
+     "sectionId": "patch-aram",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Teemo",
+      "name": "Teemo"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Ralentización de la R",
+     "before": "30/40/50%",
+     "after": "20% en todos los rangos",
+     "text": "Ralentización de la R: 30/40/50% ⇒ 20% en todos los rangos",
+     "id": "bb5118f63482",
+     "section": "modes",
+     "tags": [
+      "Marksman",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "ARAM",
+     "sectionId": "patch-aram",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Teemo",
+      "name": "Teemo"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Cargas máximas de la R",
+     "before": "2/3/4",
+     "after": "3/4/5",
+     "text": "Cargas máximas de la R: 2/3/4 ⇒ 3/4/5",
+     "id": "559bd06cd54f",
+     "section": "modes",
+     "tags": [
+      "Marksman",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "ARAM",
+     "sectionId": "patch-aram",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Teemo",
+      "name": "Teemo"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Aceleración de Habilidad",
+     "before": "-20",
+     "after": "-10",
+     "text": "Aceleración de Habilidad: -20 ⇒ -10",
+     "id": "5f37cfbe0cc6",
+     "section": "modes",
+     "tags": [
+      "Marksman",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "ARAM",
+     "sectionId": "patch-aram",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Teemo",
+      "name": "Teemo"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño infligido",
+     "before": "-10%",
+     "after": "-5%",
+     "text": "Daño infligido: -10% ⇒ -5%",
+     "id": "f86e849e4d6f",
+     "section": "modes",
+     "tags": [
+      "Marksman",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.S1.3",
+   "publishedAt": "2025-02-04T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Teemo",
+      "name": "Teemo"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Redujimos el daño de su E.",
+     "id": "a13bc1d4112d",
+     "section": "champions",
+     "tags": [
+      "Marksman",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Teemo",
+      "name": "Teemo"
+     },
+     "part": "E",
+     "partTitle": "E: Tiro Tóxico",
+     "spellKey": "TeemoE",
+     "kind": "stat",
+     "attribute": "Daño al impacto",
+     "before": "14/27/40/53/66 (+30% de Poder de Habilidad)",
+     "after": "9/23/37/51/65 (+30% de Poder de Habilidad)",
+     "text": "Daño al impacto: 14/27/40/53/66 (+30% de Poder de Habilidad) ⇒ 9/23/37/51/65 (+30% de Poder de Habilidad)",
+     "id": "ff1aa37c6522",
+     "section": "champions",
+     "tags": [
+      "Marksman",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Sistemas",
+     "sectionId": "patch-systems",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Teemo",
+      "name": "Teemo"
+     },
+     "part": "Debilitaciones a campeones",
+     "partTitle": "Debilitaciones a campeones",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño infligido",
+     "before": "95%",
+     "after": "90%",
+     "text": "Teemo: Daño infligido: 95% ⇒ 90%",
+     "id": "12bbdebf8024",
+     "section": "champions",
+     "tags": [
+      "Marksman",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.S1.2",
+   "publishedAt": "2025-01-22T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Partida Casual",
+     "sectionId": "patch-swiftplay",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Teemo",
+      "name": "Teemo"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño de la R",
+     "before": "200/350/450 (+50% de Poder de Habilidad)",
+     "after": "200/300/400 (+45% de Poder de Habilidad)",
+     "text": "Daño de la R: 200/350/450 (+50% de Poder de Habilidad) ⇒ 200/300/400 (+45% de Poder de Habilidad)",
+     "id": "30ac3196d0ec",
+     "section": "champions",
+     "tags": [
+      "Marksman",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  }
+ ]
+}

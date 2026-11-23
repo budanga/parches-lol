@@ -1,0 +1,907 @@
+{
+ "schemaVersion": 1,
+ "id": "Zaahen",
+ "name": "Zaahen",
+ "tags": [
+  "Fighter"
+ ],
+ "entries": [
+  {
+   "patch": "26.23",
+   "publishedAt": "2026-11-17T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "ARAM: Caos",
+     "sectionId": "patch-aram:-mayhem",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Zaahen",
+      "name": "Zaahen"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño recibido",
+     "before": "100%",
+     "after": "105%",
+     "text": "Daño recibido: 100% ⇒ 105%",
+     "id": "f2d8bdc3a1fa",
+     "section": "modes",
+     "tags": [
+      "Fighter"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "26.22",
+   "publishedAt": "2026-11-03T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Zaahen",
+      "name": "Zaahen"
+     },
+     "part": "Q",
+     "partTitle": "Q: La Guja Darkin",
+     "spellKey": "ZaahenQ",
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Enfriamiento: 10 / 9 / 8 / 7 / 6 seg",
+     "id": "c9d0cda3a57a",
+     "section": "champions",
+     "tags": [
+      "Fighter"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Zaahen",
+      "name": "Zaahen"
+     },
+     "part": "Q",
+     "partTitle": "Q: La Guja Darkin",
+     "spellKey": "ZaahenQ",
+     "kind": "stat",
+     "attribute": null,
+     "before": "",
+     "after": "8 / 7.5 / 7 / 6.5 / 6 seg",
+     "text": "⇒ 8 / 7.5 / 7 / 6.5 / 6 seg",
+     "id": "970554e1dd67",
+     "section": "champions",
+     "tags": [
+      "Fighter"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "26.21",
+   "publishedAt": "2026-10-20T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Zaahen",
+      "name": "Zaahen"
+     },
+     "part": "P",
+     "partTitle": "Pasiva: Cultivo de Guerra",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño de Ataque adicional por acumulación",
+     "before": "1% - 2%",
+     "after": "1%",
+     "text": "Daño de Ataque adicional por acumulación: 1% - 2% ⇒ 1%",
+     "id": "da9edc8085eb",
+     "section": "modes",
+     "tags": [
+      "Fighter"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "26.18",
+   "publishedAt": "2026-09-09T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Zaahen",
+      "name": "Zaahen"
+     },
+     "part": "Q",
+     "partTitle": "Q: La Guja Darkin",
+     "spellKey": "ZaahenQ",
+     "kind": "new",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "NUEVO Comportamiento del enfriamiento: Si la Q está activa, ahora entra en enfriamiento de inmediato al entrar en Resurrección.",
+     "id": "6f1faca5f68d",
+     "section": "champions",
+     "tags": [
+      "Fighter"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Zaahen",
+      "name": "Zaahen"
+     },
+     "part": "Q",
+     "partTitle": "Q: La Guja Darkin",
+     "spellKey": "ZaahenQ",
+     "kind": "stat",
+     "attribute": "Daño de Q2",
+     "before": "25 / 50 / 75 / 100 / 125 (+20 / 25 / 30 / 35 / 40% de Daño de Ataque adicional)",
+     "after": "30 / 60 / 90 / 120 / 150 (+20 / 25 / 30 / 35 / 40% de Daño de Ataque adicional)",
+     "text": "Daño de Q2: 25 / 50 / 75 / 100 / 125 (+20 / 25 / 30 / 35 / 40% de Daño de Ataque adicional) ⇒ 30 / 60 / 90 / 120 / 150 (+20 / 25 / 30 / 35 / 40% de Daño de Ataque adicional)",
+     "id": "f8bb12f06f8e",
+     "section": "champions",
+     "tags": [
+      "Fighter"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "26.13",
+   "publishedAt": "2026-06-23T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Zaahen",
+      "name": "Zaahen"
+     },
+     "part": "W",
+     "partTitle": "W: Ominoso Retorno",
+     "spellKey": "ZaahenW",
+     "kind": "stat",
+     "attribute": "Enfriamiento",
+     "before": "16 / 15 / 14 / 13 / 12",
+     "after": "14 / 13.5 / 13 / 12.5 / 12",
+     "text": "Enfriamiento: 16 / 15 / 14 / 13 / 12 ⇒ 14 / 13.5 / 13 / 12.5 / 12",
+     "id": "f99504cb1edf",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "26.6",
+   "publishedAt": "2026-03-17T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Zaahen",
+      "name": "Zaahen"
+     },
+     "part": "W",
+     "partTitle": "W: Ominoso Retorno",
+     "spellKey": "ZaahenW",
+     "kind": "stat",
+     "attribute": "Daño secundario",
+     "before": "40 / 60 / 80 / 100 / 120 (+ 50% de Daño de Ataque adicional)",
+     "after": "30 / 50 / 70 / 90 / 110 (+ 30% de Daño de Ataque adicional)",
+     "text": "Daño secundario: 40 / 60 / 80 / 100 / 120 (+ 50% de Daño de Ataque adicional) ⇒ 30 / 50 / 70 / 90 / 110 (+ 30% de Daño de Ataque adicional)",
+     "id": "e8ac6e313546",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Zaahen",
+      "name": "Zaahen"
+     },
+     "part": "E",
+     "partTitle": "E: Embate Áureo",
+     "spellKey": "ZaahenE",
+     "kind": "stat",
+     "attribute": "Daño adicional contra monstruos",
+     "before": "75",
+     "after": "50",
+     "text": "Daño adicional contra monstruos: 75 ⇒ 50",
+     "id": "4d72b8015801",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "26.4",
+   "publishedAt": "2026-02-18T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "ARAM",
+     "sectionId": "patch-aram",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Zaahen",
+      "name": "Zaahen"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": null,
+     "before": "Daño infligido: 100%",
+     "after": "95%",
+     "text": "Daño infligido: 100% ⇒ 95%",
+     "id": "fbbb0f4e88af",
+     "section": "modes",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "ARAM",
+     "sectionId": "patch-aram",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Zaahen",
+      "name": "Zaahen"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": null,
+     "before": "Daño recibido: 100%",
+     "after": "105%",
+     "text": "Daño recibido: 100% ⇒ 105%",
+     "id": "6eb0265a3569",
+     "section": "modes",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "26.3",
+   "publishedAt": "2026-02-03T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Zaahen",
+      "name": "Zaahen"
+     },
+     "part": "Q",
+     "partTitle": "Q: La Guja Darkin",
+     "spellKey": "ZaahenQ",
+     "kind": "stat",
+     "attribute": "Modificador de daño contra monstruos",
+     "before": "×1.75",
+     "after": "×2",
+     "text": "Modificador de daño contra monstruos: ×1.75 ⇒ ×2",
+     "id": "0ab1c13abe62",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Zaahen",
+      "name": "Zaahen"
+     },
+     "part": "E",
+     "partTitle": "E: Embate Áureo",
+     "spellKey": "ZaahenE",
+     "kind": "stat",
+     "attribute": "Daño adicional contra monstruos",
+     "before": "50",
+     "after": "75",
+     "text": "Daño adicional contra monstruos: 50 ⇒ 75",
+     "id": "6c138630cce8",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "26.2",
+   "publishedAt": "2026-01-21T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Zaahen",
+      "name": "Zaahen"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": null,
+     "before": "Enfriamiento de la E: De 10 a 8 seg",
+     "after": "De 12 a 10 seg",
+     "text": "Enfriamiento de la E: De 10 a 8 seg ⇒ De 12 a 10 seg",
+     "id": "af1800658bab",
+     "section": "modes",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Zaahen",
+      "name": "Zaahen"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": null,
+     "before": "Penetración de Armadura de la R: 10% / 20% / 30%",
+     "after": "5% / 15% / 25%",
+     "text": "Penetración de Armadura de la R: 10% / 20% / 30% ⇒ 5% / 15% / 25%",
+     "id": "c3a6af8fedc1",
+     "section": "modes",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "26.1",
+   "publishedAt": "2026-01-07T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Zaahen",
+      "name": "Zaahen"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": null,
+     "before": "Tasa de Daño de Ataque de la pasiva: De 1.5 a 2.8",
+     "after": "De 1 a 2",
+     "text": "Tasa de Daño de Ataque de la pasiva: De 1.5 a 2.8 ⇒ De 1 a 2",
+     "id": "54148c1162c3",
+     "section": "modes",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Zaahen",
+      "name": "Zaahen"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": null,
+     "before": "Curación de la pasiva: De un 30% a un 75%",
+     "after": "De un 30% a un 45%",
+     "text": "Curación de la pasiva: De un 30% a un 75% ⇒ De un 30% a un 45%",
+     "id": "3b7316343614",
+     "section": "modes",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Zaahen",
+      "name": "Zaahen"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": null,
+     "before": "Tasa de Daño de Ataque de la Q: De un 20% a un 60%",
+     "after": "De un 10% a un 50%",
+     "text": "Tasa de Daño de Ataque de la Q: De un 20% a un 60% ⇒ De un 10% a un 50%",
+     "id": "18aee181d9d8",
+     "section": "modes",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Zaahen",
+      "name": "Zaahen"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": null,
+     "before": "Curación al impactar campeones de la Q: De un 5% a un 9%",
+     "after": "De un 3% a un 7%",
+     "text": "Curación al impactar campeones de la Q: De un 5% a un 9% ⇒ De un 3% a un 7%",
+     "id": "44abe715c19a",
+     "section": "modes",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Zaahen",
+      "name": "Zaahen"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": null,
+     "before": "Daño de la R: 250 / 400 / 550 (+ 200% de Daño de Ataque adicional)",
+     "after": "200 / 350 / 500 (+ 150% de Daño de Ataque adicional)",
+     "text": "Daño de la R: 250 / 400 / 550 (+ 200% de Daño de Ataque adicional) ⇒ 200 / 350 / 500 (+ 150% de Daño de Ataque adicional)",
+     "id": "f206faf8000c",
+     "section": "modes",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.24",
+   "publishedAt": "2025-12-02T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Actualizaciones dentro de la versión, 16 de diciembre de 2025",
+     "sectionId": "patch-season-3-ranked-ending-soon",
+     "midPatch": true,
+     "entity": {
+      "kind": "champion",
+      "id": "Zaahen",
+      "name": "Zaahen"
+     },
+     "part": "Q",
+     "partTitle": "Q: La Guja Darkin",
+     "spellKey": "ZaahenQ",
+     "kind": "stat",
+     "attribute": "Duración de Mantener/Relanzar",
+     "before": "5 seg",
+     "after": "4 seg",
+     "text": "Duración de Mantener/Relanzar: 5 seg ⇒ 4 seg",
+     "id": "4da07c5ba830",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Actualizaciones dentro de la versión, 16 de diciembre de 2025",
+     "sectionId": "patch-season-3-ranked-ending-soon",
+     "midPatch": true,
+     "entity": {
+      "kind": "champion",
+      "id": "Zaahen",
+      "name": "Zaahen"
+     },
+     "part": "Q",
+     "partTitle": "Q: La Guja Darkin",
+     "spellKey": "ZaahenQ",
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "La Q1 ya no cura a Zaahen al impactar centinelas, plantas o estructuras",
+     "id": "945aba374ae2",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Actualizaciones dentro de la versión, 16 de diciembre de 2025",
+     "sectionId": "patch-season-3-ranked-ending-soon",
+     "midPatch": true,
+     "entity": {
+      "kind": "champion",
+      "id": "Zaahen",
+      "name": "Zaahen"
+     },
+     "part": "Q",
+     "partTitle": "Q: La Guja Darkin",
+     "spellKey": "ZaahenQ",
+     "kind": "stat",
+     "attribute": "Tasa de daño adicional de la Q1",
+     "before": "(+ 20% / 30% / 40% / 50% / 60% de Daño de Ataque adicional)",
+     "after": "(+ 20% / 25% / 30% / 35% / 40% de Daño de Ataque adicional)",
+     "text": "Tasa de daño adicional de la Q1: (+ 20% / 30% / 40% / 50% / 60% de Daño de Ataque adicional) ⇒ (+ 20% / 25% / 30% / 35% / 40% de Daño de Ataque adicional)",
+     "id": "5443fe357ec2",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Actualizaciones dentro de la versión, 16 de diciembre de 2025",
+     "sectionId": "patch-season-3-ranked-ending-soon",
+     "midPatch": true,
+     "entity": {
+      "kind": "champion",
+      "id": "Zaahen",
+      "name": "Zaahen"
+     },
+     "part": "Q",
+     "partTitle": "Q: La Guja Darkin",
+     "spellKey": "ZaahenQ",
+     "kind": "stat",
+     "attribute": "Tasa de daño adicional de la Q2",
+     "before": "(+ 20% / 30% / 40% / 50% / 60% de Daño de Ataque adicional)",
+     "after": "(+ 20% / 25% / 30% / 35% / 40% de Daño de Ataque adicional)",
+     "text": "Tasa de daño adicional de la Q2: (+ 20% / 30% / 40% / 50% / 60% de Daño de Ataque adicional) ⇒ (+ 20% / 25% / 30% / 35% / 40% de Daño de Ataque adicional)",
+     "id": "68c20631c06d",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Actualizaciones dentro de la versión, 16 de diciembre de 2025",
+     "sectionId": "patch-season-3-ranked-ending-soon",
+     "midPatch": true,
+     "entity": {
+      "kind": "champion",
+      "id": "Zaahen",
+      "name": "Zaahen"
+     },
+     "part": "E",
+     "partTitle": "E: Embate Áureo",
+     "spellKey": "ZaahenE",
+     "kind": "stat",
+     "attribute": "Tasa de daño adicional del borde exterior",
+     "before": "(+ 100% de Daño de Ataque adicional)",
+     "after": "(+ 75% de Daño de Ataque adicional)",
+     "text": "Tasa de daño adicional del borde exterior: (+ 100% de Daño de Ataque adicional) ⇒ (+ 75% de Daño de Ataque adicional)",
+     "id": "3469071d9594",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Zaahen",
+      "name": "Zaahen"
+     },
+     "part": "P",
+     "partTitle": "Pasiva: Cultivo de Guerra",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño de Ataque adicional por acumulación (versión 25.23)",
+     "before": "De 1.5 a 3.3 (según el nivel)",
+     "after": "De 1.5 a 2.8 (según el nivel)",
+     "text": "Daño de Ataque adicional por acumulación (versión 25.23): De 1.5 a 3.3 (según el nivel) ⇒ De 1.5 a 2.8 (según el nivel)",
+     "id": "c0306e9567a8",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Zaahen",
+      "name": "Zaahen"
+     },
+     "part": "Q",
+     "partTitle": "Q: La Guja Darkin",
+     "spellKey": "ZaahenQ",
+     "kind": "stat",
+     "attribute": "Tasa de Daño de Ataque (versión 25.23)",
+     "before": "30% / 40% / 50% / 60% / 70% de Daño de Ataque adicional",
+     "after": "20% / 30% / 40% / 50% / 60% de Daño de Ataque adicional",
+     "text": "Tasa de Daño de Ataque (versión 25.23): 30% / 40% / 50% / 60% / 70% de Daño de Ataque adicional ⇒ 20% / 30% / 40% / 50% / 60% de Daño de Ataque adicional",
+     "id": "40854ec7e2ec",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Zaahen",
+      "name": "Zaahen"
+     },
+     "part": "Q",
+     "partTitle": "Q: La Guja Darkin",
+     "spellKey": "ZaahenQ",
+     "kind": "stat",
+     "attribute": "Daño básico del segundo lanzamiento (versión 25.23)",
+     "before": "30 / 60 / 90 / 120 / 150",
+     "after": "25 / 50 / 75 / 100 / 125",
+     "text": "Daño básico del segundo lanzamiento (versión 25.23): 30 / 60 / 90 / 120 / 150 ⇒ 25 / 50 / 75 / 100 / 125",
+     "id": "d5f54ab51552",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Zaahen",
+      "name": "Zaahen"
+     },
+     "part": "Q",
+     "partTitle": "Q: La Guja Darkin",
+     "spellKey": "ZaahenQ",
+     "kind": "stat",
+     "attribute": "Enfriamiento (versión 25.24)",
+     "before": "9 / 8 / 7 / 6 / 5 seg",
+     "after": "10 / 9 / 8 / 7 / 6 seg",
+     "text": "Enfriamiento (versión 25.24): 9 / 8 / 7 / 6 / 5 seg ⇒ 10 / 9 / 8 / 7 / 6 seg",
+     "id": "6cade12f5d00",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Zaahen",
+      "name": "Zaahen"
+     },
+     "part": "Q",
+     "partTitle": "Q: La Guja Darkin",
+     "spellKey": "ZaahenQ",
+     "kind": "stat",
+     "attribute": "Modificador de daño contra monstruos (versión 25.24)",
+     "before": "50%",
+     "after": "75%",
+     "text": "Modificador de daño contra monstruos (versión 25.24): 50% ⇒ 75%",
+     "id": "243dbaa1cb00",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Zaahen",
+      "name": "Zaahen"
+     },
+     "part": "E",
+     "partTitle": "E: Embate Áureo",
+     "spellKey": "ZaahenE",
+     "kind": "stat",
+     "attribute": "Daño al impactar un punto óptimo (versión 25.24)",
+     "before": "4% / 5% / 6% / 7% / 8%",
+     "after": "4% / 4.5% / 5% / 5.5% / 6%",
+     "text": "Daño al impactar un punto óptimo (versión 25.24): 4% / 5% / 6% / 7% / 8% ⇒ 4% / 4.5% / 5% / 5.5% / 6%",
+     "id": "508667fe2efa",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  }
+ ]
+}

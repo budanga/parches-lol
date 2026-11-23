@@ -1,0 +1,908 @@
+{
+ "schemaVersion": 1,
+ "id": "Briar",
+ "name": "Briar",
+ "tags": [
+  "Fighter",
+  "Assassin"
+ ],
+ "entries": [
+  {
+   "patch": "26.21",
+   "publishedAt": "2026-10-20T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Briar",
+      "name": "Briar"
+     },
+     "part": "Q",
+     "partTitle": "Q: Golpe de Adrenalina",
+     "spellKey": "BriarQ",
+     "kind": "stat",
+     "attribute": "Duración de aturdimiento",
+     "before": "0.85 seg",
+     "after": "0.5 seg",
+     "text": "Duración de aturdimiento: 0.85 seg ⇒ 0.5 seg",
+     "id": "617c7f646172",
+     "section": "modes",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Briar",
+      "name": "Briar"
+     },
+     "part": "E",
+     "partTitle": "E: Grito Escalofriante",
+     "spellKey": "BriarE",
+     "kind": "stat",
+     "attribute": "Tasa de Poder de Habilidad con carga completa",
+     "before": "100%",
+     "after": "150%",
+     "text": "Tasa de Poder de Habilidad con carga completa: 100% ⇒ 150%",
+     "id": "463fc1493ebe",
+     "section": "modes",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Briar",
+      "name": "Briar"
+     },
+     "part": "E",
+     "partTitle": "E: Grito Escalofriante",
+     "spellKey": "BriarE",
+     "kind": "stat",
+     "attribute": "Tasa de Poder de Habilidad por impacto contra un muro con carga completa",
+     "before": "240%",
+     "after": "350%",
+     "text": "Tasa de Poder de Habilidad por impacto contra un muro con carga completa: 240% ⇒ 350%",
+     "id": "9ec80128b6da",
+     "section": "modes",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Briar",
+      "name": "Briar"
+     },
+     "part": "E",
+     "partTitle": "E: Grito Escalofriante",
+     "spellKey": "BriarE",
+     "kind": "stat",
+     "attribute": "Tasa máxima total de Poder de Habilidad",
+     "before": "340%",
+     "after": "500%",
+     "text": "Tasa máxima total de Poder de Habilidad: 340% ⇒ 500%",
+     "id": "1d24bb9e370e",
+     "section": "modes",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "26.9",
+   "publishedAt": "2026-04-28T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Briar",
+      "name": "Briar"
+     },
+     "part": "base",
+     "partTitle": "Estadísticas base",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Crecimiento de Vida",
+     "before": "100",
+     "after": "95",
+     "text": "Crecimiento de Vida: 100 ⇒ 95",
+     "id": "a47bf51d31a6",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "26.3",
+   "publishedAt": "2026-02-03T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Briar",
+      "name": "Briar"
+     },
+     "part": "base",
+     "partTitle": "Estadísticas básicas",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Crecimiento de Vida",
+     "before": "95",
+     "after": "100",
+     "text": "Crecimiento de Vida: 95 ⇒ 100",
+     "id": "37120025f23b",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Briar",
+      "name": "Briar"
+     },
+     "part": "base",
+     "partTitle": "Estadísticas básicas",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Crecimiento de Armadura",
+     "before": "4.2",
+     "after": "4.5",
+     "text": "Crecimiento de Armadura: 4.2 ⇒ 4.5",
+     "id": "e6272d4e9505",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Briar",
+      "name": "Briar"
+     },
+     "part": "Q",
+     "partTitle": "Q: Golpe de Adrenalina",
+     "spellKey": "BriarQ",
+     "kind": "stat",
+     "attribute": "Costo de Vida",
+     "before": "6% de la Vida actual",
+     "after": "5% de la Vida actual",
+     "text": "Costo de Vida: 6% de la Vida actual ⇒ 5% de la Vida actual",
+     "id": "982abb43ff0a",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Briar",
+      "name": "Briar"
+     },
+     "part": "W",
+     "partTitle": "W: Frenesí Sangriento / Mordisco",
+     "spellKey": "BriarW",
+     "kind": "stat",
+     "attribute": "Costo de Vida",
+     "before": "6% de la Vida actual",
+     "after": "5% de la Vida actual",
+     "text": "Costo de Vida: 6% de la Vida actual ⇒ 5% de la Vida actual",
+     "id": "78af0a81b300",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Briar",
+      "name": "Briar"
+     },
+     "part": "E",
+     "partTitle": "E: Grito Escalofriante",
+     "spellKey": "BriarE",
+     "kind": "stat",
+     "attribute": "Costo de Vida",
+     "before": "6% de la Vida actual",
+     "after": "5% de la Vida actual",
+     "text": "Costo de Vida: 6% de la Vida actual ⇒ 5% de la Vida actual",
+     "id": "5944fd698f65",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Briar",
+      "name": "Briar"
+     },
+     "part": "R",
+     "partTitle": "R: Muerte Certera",
+     "spellKey": "BriarR",
+     "kind": "stat",
+     "attribute": "Costo de Vida",
+     "before": "6% de la Vida actual",
+     "after": "5% de la Vida actual",
+     "text": "Costo de Vida: 6% de la Vida actual ⇒ 5% de la Vida actual",
+     "id": "96a70f1c0d4d",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.20",
+   "publishedAt": "2025-10-07T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Briar",
+      "name": "Briar"
+     },
+     "part": "P",
+     "partTitle": "Pasiva: Maldición Carmesí",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Máximo de acumulaciones",
+     "before": "7",
+     "after": "5",
+     "text": "Máximo de acumulaciones: 7 ⇒ 5",
+     "id": "d87db32890a3",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.19",
+   "publishedAt": "2025-09-23T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Cambios de balance de ARAM",
+     "sectionId": "patch-aram-balance-changes",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Briar",
+      "name": "Briar"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño recibido",
+     "before": "95%",
+     "after": "100%",
+     "text": "Daño recibido: 95% ⇒ 100%",
+     "id": "139b2c3f8786",
+     "section": "modes",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Cambios de balance de ARAM",
+     "sectionId": "patch-aram-balance-changes",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Briar",
+      "name": "Briar"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Curación realizada",
+     "before": "115%",
+     "after": "110%",
+     "text": "Curación realizada: 115% ⇒ 110%",
+     "id": "fb7171e72296",
+     "section": "modes",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.18",
+   "publishedAt": "2025-09-09T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Briar",
+      "name": "Briar"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Redujimos el daño de su Q, que ahora inflige daño físico. Corregimos un error de su W. Aumentamos el alcance y redujimos el daño de su R; además, el sonido de alerta de esta habilidad ahora se reproduce tras un breve retraso.",
+     "id": "a7c8e66f8db6",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Briar",
+      "name": "Briar"
+     },
+     "part": "Q",
+     "partTitle": "Q: Golpe de Adrenalina",
+     "spellKey": "BriarQ",
+     "kind": "stat",
+     "attribute": "Daño básico",
+     "before": "60 / 90 / 120 / 150 / 180",
+     "after": "60 / 85 / 110 / 135 / 160",
+     "text": "Daño básico: 60 / 90 / 120 / 150 / 180 ⇒ 60 / 85 / 110 / 135 / 160",
+     "id": "d1e6a21f9c99",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Briar",
+      "name": "Briar"
+     },
+     "part": "Q",
+     "partTitle": "Q: Golpe de Adrenalina",
+     "spellKey": "BriarQ",
+     "kind": "stat",
+     "attribute": "Tipo de daño",
+     "before": "Mágico",
+     "after": "Físico",
+     "text": "Tipo de daño: Mágico ⇒ Físico",
+     "id": "fdc0a841de21",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Briar",
+      "name": "Briar"
+     },
+     "part": "W",
+     "partTitle": "W: Frenesí Sangriento",
+     "spellKey": "BriarW",
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Corrección de error: Corregimos un error que provocaba que Briar a veces dejara de moverse y cancelara la orden de ataque cuando el efecto de Frenesí finalizaba",
+     "id": "c42332d62389",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Briar",
+      "name": "Briar"
+     },
+     "part": "R",
+     "partTitle": "R: Muerte Certera",
+     "spellKey": "BriarR",
+     "kind": "stat",
+     "attribute": "Sonido general",
+     "before": "Se reproduce al lanzar la habilidad",
+     "after": "Se reproduce después de lanzar la habilidad",
+     "text": "Sonido general: Se reproduce al lanzar la habilidad ⇒ Se reproduce después de lanzar la habilidad",
+     "id": "143888ace53b",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Briar",
+      "name": "Briar"
+     },
+     "part": "R",
+     "partTitle": "R: Muerte Certera",
+     "spellKey": "BriarR",
+     "kind": "stat",
+     "attribute": "Daño",
+     "before": "150 / 250 / 350 (+ 50% de Daño de Ataque adicional) (+ 120% de Poder de Habilidad)",
+     "after": "150 / 250 / 350 (+ 130% de Poder de Habilidad). (Nota: Eliminamos la tasa de Daño de Ataque adicional de un 50%)",
+     "text": "Daño: 150 / 250 / 350 (+ 50% de Daño de Ataque adicional) (+ 120% de Poder de Habilidad) ⇒ 150 / 250 / 350 (+ 130% de Poder de Habilidad). (Nota: Eliminamos la tasa de Daño de Ataque adicional de un 50%)",
+     "id": "0691e567b84b",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Briar",
+      "name": "Briar"
+     },
+     "part": "R",
+     "partTitle": "R: Muerte Certera",
+     "spellKey": "BriarR",
+     "kind": "stat",
+     "attribute": "Alcance",
+     "before": "10 000",
+     "after": "12 000",
+     "text": "Alcance: 10 000 ⇒ 12 000",
+     "id": "f62c4aa89651",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.15",
+   "publishedAt": "2025-07-29T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Cambios de balance de ARAM",
+     "sectionId": "patch-aram-balance-changes",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Briar",
+      "name": "Briar"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Curación adicional",
+     "before": "5%",
+     "after": "15%",
+     "text": "Curación adicional: 5% ⇒ 15%",
+     "id": "16b9d227519d",
+     "section": "modes",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Cambios de balance de ARAM",
+     "sectionId": "patch-aram-balance-changes",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Briar",
+      "name": "Briar"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Reducción de daño de la E",
+     "before": "35%",
+     "after": "55%",
+     "text": "Reducción de daño de la E: 35% ⇒ 55%",
+     "id": "9cff147b2af1",
+     "section": "modes",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.14",
+   "publishedAt": "2025-07-15T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Briar",
+      "name": "Briar"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Cambiamos el efecto de purificación de su R. Corregimos un error de su Q.",
+     "id": "9e06714f7123",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Briar",
+      "name": "Briar"
+     },
+     "part": "R",
+     "partTitle": "R: Muerte Certera",
+     "spellKey": "BriarR",
+     "kind": "stat",
+     "attribute": "Efecto de purificación de control de masas",
+     "before": "Briar se libera de cualquier efecto de control de masas que le hayan aplicado cuando el proyectil impacta al objetivo",
+     "after": "Briar se libera de los efectos de control de masas cuando el proyectil impacta al objetivo y, además, es inmune a los efectos de este tipo durante la animación de lanzamiento de 1.25 seg que se reproduce después del impacto.",
+     "text": "Efecto de purificación de control de masas: Briar se libera de cualquier efecto de control de masas que le hayan aplicado cuando el proyectil impacta al objetivo ⇒ Briar se libera de los efectos de control de masas cuando el proyectil impacta al objetivo y, además, es inmune a los efectos de este tipo durante la animación de lanzamiento de 1.25 seg que se reproduce después del impacto.",
+     "id": "b43d61d49bea",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Briar",
+      "name": "Briar"
+     },
+     "part": "Corrección de error",
+     "partTitle": "Corrección de error",
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Corregimos un error que provocaba que, al estar bajo el efecto del frenesí de su W, Briar a veces les diera prioridad a los súbditos si le lanzaba la Q a un campeón enemigo que estaba cerca de un súbdito aliado",
+     "id": "e94c6816bf36",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.13",
+   "publishedAt": "2025-06-24T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Briar",
+      "name": "Briar"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Ya no se pueden cancelar los ataques de su W. Redujimos el tiempo de lanzamiento de su E.",
+     "id": "b6b77152239f",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Briar",
+      "name": "Briar"
+     },
+     "part": "W",
+     "partTitle": "W: Frenesí Sangriento",
+     "spellKey": "BriarW",
+     "kind": "new",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "NUEVO: Ya no se pueden cancelar los ataques al estar en estado de frenesí. (Esto evita que Briar cancele los ataques cuando persigue a enemigos que se mueven muy rápido)",
+     "id": "6b6decf33e38",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Briar",
+      "name": "Briar"
+     },
+     "part": "E",
+     "partTitle": "E: Grito Escalofriante",
+     "spellKey": "BriarE",
+     "kind": "stat",
+     "attribute": "Tiempo de lanzamiento tras la canalización",
+     "before": ".25 (se reduce con la velocidad de ataque)",
+     "after": ".15",
+     "text": "Tiempo de lanzamiento tras la canalización: .25 (se reduce con la velocidad de ataque) ⇒ .15",
+     "id": "4d1234568b6e",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.S1.3",
+   "publishedAt": "2025-02-04T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "ARAM",
+     "sectionId": "patch-aram",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Briar",
+      "name": "Briar"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": null,
+     "before": "Daño recibido: 100%",
+     "after": "95%",
+     "text": "Daño recibido: 100% ⇒ 95%",
+     "id": "9e20d0c9cad8",
+     "section": "modes",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "ARAM",
+     "sectionId": "patch-aram",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Briar",
+      "name": "Briar"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": null,
+     "before": "Curación realizada: 120%",
+     "after": "105%",
+     "text": "Curación realizada: 120% ⇒ 105%",
+     "id": "a2314876ef4d",
+     "section": "modes",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,386 @@
+{
+ "schemaVersion": 1,
+ "id": "Olaf",
+ "name": "Olaf",
+ "tags": [
+  "Fighter",
+  "Tank"
+ ],
+ "entries": [
+  {
+   "patch": "26.22",
+   "publishedAt": "2026-11-03T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Classic",
+     "sectionId": "patch-classic",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Olaf",
+      "name": "Olaf"
+     },
+     "part": "W",
+     "partTitle": "W: Golpes Sanguinarios",
+     "spellKey": "OlafFrenziedStrikes",
+     "kind": "stat",
+     "attribute": "Daño de Ataque adicional",
+     "before": "7 / 14 / 21 / 28 / 35",
+     "after": "10 / 17 / 24 / 31 / 38",
+     "text": "Daño de Ataque adicional: 7 / 14 / 21 / 28 / 35 ⇒ 10 / 17 / 24 / 31 / 38",
+     "id": "f9e30832223b",
+     "section": "modes",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Classic",
+     "sectionId": "patch-classic",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Olaf",
+      "name": "Olaf"
+     },
+     "part": "E",
+     "partTitle": "E: Lance Temerario",
+     "spellKey": "OlafRecklessStrike",
+     "kind": "stat",
+     "attribute": "Enfriamiento",
+     "before": "9 / 8 / 7 / 6 / 5 seg",
+     "after": "8 / 7 / 6 / 5 / 4 seg",
+     "text": "Enfriamiento: 9 / 8 / 7 / 6 / 5 seg ⇒ 8 / 7 / 6 / 5 / 4 seg",
+     "id": "ecbd05a93d99",
+     "section": "modes",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "26.13",
+   "publishedAt": "2026-06-23T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Olaf",
+      "name": "Olaf"
+     },
+     "part": "Q",
+     "partTitle": "Q: Corriente Marina",
+     "spellKey": "OlafAxeThrowCast",
+     "kind": "stat",
+     "attribute": "Daño físico adicional contra monstruos",
+     "before": "20 / 35 / 50 / 65 / 80",
+     "after": "20 / 45 / 70 / 95 / 120",
+     "text": "Daño físico adicional contra monstruos: 20 / 35 / 50 / 65 / 80 ⇒ 20 / 45 / 70 / 95 / 120",
+     "id": "125010d0305d",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "26.6",
+   "publishedAt": "2026-03-17T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "",
+     "sectionId": "patch-top",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Olaf",
+      "name": "Olaf"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": null,
+     "before": "Daño básico de la Q: 60 / 110 / 160 / 210 / 260",
+     "after": "70 / 120 / 170 / 220 / 270",
+     "text": "Daño básico de la Q: 60 / 110 / 160 / 210 / 260 ⇒ 70 / 120 / 170 / 220 / 270",
+     "id": "1b9e469d73d4",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "",
+     "sectionId": "patch-top",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Olaf",
+      "name": "Olaf"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": null,
+     "before": "Daño adicional de la Q contra monstruos: 10 / 25 / 40 / 55 / 70",
+     "after": "20 / 35 / 50 / 65 / 80",
+     "text": "Daño adicional de la Q contra monstruos: 10 / 25 / 40 / 55 / 70 ⇒ 20 / 35 / 50 / 65 / 80",
+     "id": "c46f37e700f4",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Olaf",
+      "name": "Olaf"
+     },
+     "part": "base",
+     "partTitle": "Estadísticas básicas",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Velocidad de Ataque básica",
+     "before": "0.694",
+     "after": "0.72",
+     "text": "Velocidad de Ataque básica: 0.694 ⇒ 0.72",
+     "id": "3cb4e7a7ee5f",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Olaf",
+      "name": "Olaf"
+     },
+     "part": "Q",
+     "partTitle": "Q: Corriente Marina",
+     "spellKey": "OlafAxeThrowCast",
+     "kind": "stat",
+     "attribute": "Valor de la ralentización",
+     "before": "25% / 30% / 40% / 45% durante de 1.5 a 2.5 seg (según la distancia)",
+     "after": "30% / 40% / 45% / 50% durante de 1 a 3 seg (según la distancia)",
+     "text": "Valor de la ralentización: 25% / 30% / 40% / 45% durante de 1.5 a 2.5 seg (según la distancia) ⇒ 30% / 40% / 45% / 50% durante de 1 a 3 seg (según la distancia)",
+     "id": "06e61e46a796",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Olaf",
+      "name": "Olaf"
+     },
+     "part": "Q",
+     "partTitle": "Q: Corriente Marina",
+     "spellKey": "OlafAxeThrowCast",
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Corrección de error: Ahora, los enemigos que solo reciban el impacto del hacha al final de la Q quedarán ralentizados durante la cantidad correcta de tiempo (antes, la ralentización tenía un valor fijo de un 30%)",
+     "id": "e75fd9601344",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Olaf",
+      "name": "Olaf"
+     },
+     "part": "W",
+     "partTitle": "W: Golpes Sanguinarios",
+     "spellKey": "OlafFrenziedStrikes",
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Corrección de error: Al volver a usar la W mientras el efecto del lanzamiento anterior siga activo, Olaf recibirá el efecto de la habilidad otra vez en lugar de renovar el efecto del lanzamiento anterior (es decir, el ataque se reiniciará y la mejora de velocidad de ataque se actualizará)",
+     "id": "22cebedf08bb",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Olaf",
+      "name": "Olaf"
+     },
+     "part": "E",
+     "partTitle": "E: Lance Temerario",
+     "spellKey": "OlafRecklessStrike",
+     "kind": "stat",
+     "attribute": "Daño autoinfligido",
+     "before": "30% del daño infligido",
+     "after": "40% del daño infligido",
+     "text": "Daño autoinfligido: 30% del daño infligido ⇒ 40% del daño infligido",
+     "id": "059a550acbf9",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.7",
+   "publishedAt": "2025-04-01T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Olaf",
+      "name": "Olaf"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "El tiempo de lanzamiento de la E ahora escala con la Velocidad de Ataque.",
+     "id": "184c4596a49f",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Olaf",
+      "name": "Olaf"
+     },
+     "part": "E",
+     "partTitle": "E: Lance Temerario",
+     "spellKey": "OlafRecklessStrike",
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Ahora el tiempo de lanzamiento escala según la velocidad de ataque",
+     "id": "6bc8503ffdca",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Olaf",
+      "name": "Olaf"
+     },
+     "part": "E",
+     "partTitle": "E: Lance Temerario",
+     "spellKey": "OlafRecklessStrike",
+     "kind": "stat",
+     "attribute": "Tiempo del lanzamiento",
+     "before": ".25s",
+     "after": ".25-.175 (0-125% de la velocidad de ataque adicional (incluye W))",
+     "text": "Tiempo del lanzamiento: .25s ⇒ .25-.175 (0-125% de la velocidad de ataque adicional (incluye W))",
+     "id": "95bb5bb19622",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,390 @@
+{
+ "schemaVersion": 1,
+ "id": "Kennen",
+ "name": "Kennen",
+ "tags": [
+  "Mage"
+ ],
+ "entries": [
+  {
+   "patch": "26.20",
+   "publishedAt": "2026-10-06T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Kennen",
+      "name": "Kennen"
+     },
+     "part": "E",
+     "partTitle": "E: Impulso Relámpago",
+     "spellKey": "KennenLightningRush",
+     "kind": "stat",
+     "attribute": "Velocidad de Ataque adicional",
+     "before": "40 / 50 / 60 / 70 / 80%",
+     "after": "50 / 60 / 70 / 80 / 90%",
+     "text": "Velocidad de Ataque adicional: 40 / 50 / 60 / 70 / 80% ⇒ 50 / 60 / 70 / 80 / 90%",
+     "id": "4571aad9442e",
+     "section": "champions",
+     "tags": [
+      "Mage"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "LoL Classic",
+     "sectionId": "patch-classic",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Kennen",
+      "name": "Kennen"
+     },
+     "part": "W",
+     "partTitle": "W: Tensión Eléctrica",
+     "spellKey": "KennenBringTheLight",
+     "kind": "stat",
+     "attribute": "Daño de la pasiva",
+     "before": "40 / 50 / 60 / 70 / 80% de Daño de Ataque total",
+     "after": "25 / 40 / 55 / 70 / 85 + 100% de Daño de Ataque adicional",
+     "text": "Daño de la pasiva: 40 / 50 / 60 / 70 / 80% de Daño de Ataque total ⇒ 25 / 40 / 55 / 70 / 85 + 100% de Daño de Ataque adicional",
+     "id": "d204890fda86",
+     "section": "modes",
+     "tags": [
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "26.16",
+   "publishedAt": "2026-08-11T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Kennen",
+      "name": "Kennen"
+     },
+     "part": "R",
+     "partTitle": "R: Tempestad Cercenante",
+     "spellKey": "KennenShurikenStorm",
+     "kind": "stat",
+     "attribute": "Resistencias adicionales",
+     "before": "20 / 40 / 60",
+     "after": "25 / 50 / 75",
+     "text": "Resistencias adicionales: 20 / 40 / 60 ⇒ 25 / 50 / 75",
+     "id": "e7b18b421ecd",
+     "section": "champions",
+     "tags": [
+      "Mage"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Kennen",
+      "name": "Kennen"
+     },
+     "part": "R",
+     "partTitle": "R: Tempestad Cercenante",
+     "spellKey": "KennenShurikenStorm",
+     "kind": "stat",
+     "attribute": "Daño",
+     "before": "40 / 75 / 110 (+ 22.5% de Poder de Habilidad)",
+     "after": "40 / 80 / 120 (+ 25% de Poder de Habilidad)",
+     "text": "Daño: 40 / 75 / 110 (+ 22.5% de Poder de Habilidad) ⇒ 40 / 80 / 120 (+ 25% de Poder de Habilidad)",
+     "id": "cb97c9963d85",
+     "section": "champions",
+     "tags": [
+      "Mage"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Kennen",
+      "name": "Kennen"
+     },
+     "part": "R",
+     "partTitle": "R: Tempestad Cercenante",
+     "spellKey": "KennenShurikenStorm",
+     "kind": "stat",
+     "attribute": "Daño máximo",
+     "before": "300 / 562.5 / 825 (+ 168.75% de Poder de Habilidad)",
+     "after": "300 / 600 / 900 (+ 187.5% de Poder de Habilidad)",
+     "text": "Daño máximo: 300 / 562.5 / 825 (+ 168.75% de Poder de Habilidad) ⇒ 300 / 600 / 900 (+ 187.5% de Poder de Habilidad)",
+     "id": "295fe956b340",
+     "section": "champions",
+     "tags": [
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "26.9",
+   "publishedAt": "2026-04-28T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Kennen",
+      "name": "Kennen"
+     },
+     "part": "W",
+     "partTitle": "W: Tensión Eléctrica",
+     "spellKey": "KennenBringTheLight",
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "[NUEVO] Pasiva: Ahora, cuando esté lista, aplica el efecto pasivo a todo el ataque como un efecto al impacto, en lugar de solo a la primera activación al impacto.",
+     "id": "a2ba79a3f134",
+     "section": "champions",
+     "tags": [
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Kennen",
+      "name": "Kennen"
+     },
+     "part": "W",
+     "partTitle": "W: Tensión Eléctrica",
+     "spellKey": "KennenBringTheLight",
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "[NUEVO] Daño de la pasiva: Ahora puede asestar Golpes Críticos por un 140% (+40% de Daño de Golpe Crítico adicional).",
+     "id": "7ea9f45573fd",
+     "section": "champions",
+     "tags": [
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Kennen",
+      "name": "Kennen"
+     },
+     "part": "E",
+     "partTitle": "E: Impulso Relámpago",
+     "spellKey": "KennenLightningRush",
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "[NUEVO] Mejora de Velocidad de Ataque: Ahora los Golpes Críticos extienden 1 seg la duración de la mejora de Velocidad de Ataque de Impulso Relámpago, hasta alcanzar la duración inicial de 4 seg. Esto puede ocurrir cualquier cantidad de veces",
+     "id": "d3a6a1758778",
+     "section": "champions",
+     "tags": [
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "26.4",
+   "publishedAt": "2026-02-18T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Kennen",
+      "name": "Kennen"
+     },
+     "part": "R",
+     "partTitle": "R: Tempestad Cercenante",
+     "spellKey": "KennenShurikenStorm",
+     "kind": "stat",
+     "attribute": "Enfriamiento",
+     "before": "120 / 100 / 80",
+     "after": "120",
+     "text": "Enfriamiento: 120 / 100 / 80 ⇒ 120",
+     "id": "52e8c53597b5",
+     "section": "champions",
+     "tags": [
+      "Mage"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.20",
+   "publishedAt": "2025-10-07T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Bots Apocalípticos",
+     "sectionId": "patch-doom-bots",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Kennen",
+      "name": "Kennen"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño infligido",
+     "before": "100%",
+     "after": "105%",
+     "text": "Daño infligido: 100% ⇒ 105%",
+     "id": "f247c4c7fd32",
+     "section": "modes",
+     "tags": [
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Bots Apocalípticos",
+     "sectionId": "patch-doom-bots",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Kennen",
+      "name": "Kennen"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño recibido",
+     "before": "100%",
+     "after": "95%",
+     "text": "Daño recibido: 100% ⇒ 95%",
+     "id": "22b0a83fd927",
+     "section": "modes",
+     "tags": [
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.12",
+   "publishedAt": "2025-06-10T18:05:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "ARAM",
+     "sectionId": "patch-aram",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Kennen",
+      "name": "Kennen"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño infligido",
+     "before": "105%",
+     "after": "100%",
+     "text": "Daño infligido: 105% ⇒ 100%",
+     "id": "c7c9bf871140",
+     "section": "modes",
+     "tags": [
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.S1.3",
+   "publishedAt": "2025-02-04T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Sistemas",
+     "sectionId": "patch-systems",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Kennen",
+      "name": "Kennen"
+     },
+     "part": "Debilitaciones a campeones",
+     "partTitle": "Debilitaciones a campeones",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño recibido",
+     "before": "100%",
+     "after": "95%",
+     "text": "Kennen: Daño recibido: 100% ⇒ 95%",
+     "id": "0080c7400573",
+     "section": "champions",
+     "tags": [
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  }
+ ]
+}

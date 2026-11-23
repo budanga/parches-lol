@@ -1,0 +1,184 @@
+{
+ "schemaVersion": 1,
+ "id": "Rakan",
+ "name": "Rakan",
+ "tags": [
+  "Support"
+ ],
+ "entries": [
+  {
+   "patch": "25.16",
+   "publishedAt": "2025-08-12T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones (Arena)",
+     "sectionId": "patch-champions-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Rakan",
+      "name": "Rakan"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": null,
+     "before": "Reembolso del enfriamiento al bloquear impactos de habilidades y ataques básicos con el escudo de la pasiva: 1 seg",
+     "after": "2 seg",
+     "text": "Reembolso del enfriamiento al bloquear impactos de habilidades y ataques básicos con el escudo de la pasiva: 1 seg ⇒ 2 seg",
+     "id": "acf49bf9f62d",
+     "section": "modes",
+     "tags": [
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones (Arena)",
+     "sectionId": "patch-champions-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Rakan",
+      "name": "Rakan"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": null,
+     "before": "Tasa de Poder de Habilidad como daño de la Q: 70%",
+     "after": "80%",
+     "text": "Tasa de Poder de Habilidad como daño de la Q: 70% ⇒ 80%",
+     "id": "cb64aff8ea43",
+     "section": "modes",
+     "tags": [
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones (Arena)",
+     "sectionId": "patch-champions-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Rakan",
+      "name": "Rakan"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": null,
+     "before": "Tasa de Poder de Habilidad como curación de la Q: 55%",
+     "after": "60%",
+     "text": "Tasa de Poder de Habilidad como curación de la Q: 55% ⇒ 60%",
+     "id": "7a3bad40a937",
+     "section": "modes",
+     "tags": [
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.7",
+   "publishedAt": "2025-04-01T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "ARAM",
+     "sectionId": "patch-aram",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Rakan",
+      "name": "Rakan"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Aceleración de Habilidad",
+     "before": "0",
+     "after": "10",
+     "text": "Aceleración de Habilidad: 0 ⇒ 10",
+     "id": "769565d67fcf",
+     "section": "modes",
+     "tags": [
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.S1.3",
+   "publishedAt": "2025-02-04T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Rakan",
+      "name": "Rakan"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Redujimos el enfriamiento de su W en los rangos inferiores.",
+     "id": "2b5500d74262",
+     "section": "champions",
+     "tags": [
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Rakan",
+      "name": "Rakan"
+     },
+     "part": "W",
+     "partTitle": "W: Gran Entrada",
+     "spellKey": "RakanW",
+     "kind": "stat",
+     "attribute": "Enfriamiento",
+     "before": "16/14.5/13/11.5/10",
+     "after": "14/13/12/11/10",
+     "text": "Enfriamiento: 16/14.5/13/11.5/10 ⇒ 14/13/12/11/10",
+     "id": "3a2209edb673",
+     "section": "champions",
+     "tags": [
+      "Support"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  }
+ ]
+}

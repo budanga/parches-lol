@@ -1,0 +1,44 @@
+{
+ "schemaVersion": 1,
+ "id": "Gragas",
+ "name": "Gragas",
+ "tags": [
+  "Fighter",
+  "Mage"
+ ],
+ "entries": [
+  {
+   "patch": "26.9",
+   "publishedAt": "2026-04-28T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Gragas",
+      "name": "Gragas"
+     },
+     "part": "W",
+     "partTitle": "W: Furia Ebria",
+     "spellKey": "GragasW",
+     "kind": "stat",
+     "attribute": "Reducción de daño",
+     "before": "10 / 12 / 14 / 16 / 18% (+4% por cada 100 de Poder de Habilidad)",
+     "after": "10 / 14 / 18 / 22 / 26% (+4% por cada 100 de Poder de Habilidad)",
+     "text": "Reducción de daño: 10 / 12 / 14 / 16 / 18% (+4% por cada 100 de Poder de Habilidad) ⇒ 10 / 14 / 18 / 22 / 26% (+4% por cada 100 de Poder de Habilidad)",
+     "id": "0023cedf0427",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  }
+ ]
+}

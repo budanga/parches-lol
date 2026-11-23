@@ -1,0 +1,290 @@
+{
+ "schemaVersion": 1,
+ "id": "Ekko",
+ "name": "Ekko",
+ "tags": [
+  "Assassin",
+  "Mage"
+ ],
+ "entries": [
+  {
+   "patch": "26.23",
+   "publishedAt": "2026-11-17T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "ARAM: Caos",
+     "sectionId": "patch-aram:-mayhem",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Ekko",
+      "name": "Ekko"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Tenacidad",
+     "before": "20%",
+     "after": "10%",
+     "text": "Tenacidad: 20% ⇒ 10%",
+     "id": "83bde56b7e13",
+     "section": "modes",
+     "tags": [
+      "Assassin",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "26.18",
+   "publishedAt": "2026-09-09T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Ekko",
+      "name": "Ekko"
+     },
+     "part": "Q",
+     "partTitle": "Q: Rebobinador de Tiempo",
+     "spellKey": "EkkoQ",
+     "kind": "stat",
+     "attribute": "Costo de Maná",
+     "before": "50 / 60 / 70 / 80 / 90",
+     "after": "40 / 50 / 60 / 70 / 80",
+     "text": "Costo de Maná: 50 / 60 / 70 / 80 / 90 ⇒ 40 / 50 / 60 / 70 / 80",
+     "id": "f52eecd31c61",
+     "section": "champions",
+     "tags": [
+      "Assassin",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Ekko",
+      "name": "Ekko"
+     },
+     "part": "Q",
+     "partTitle": "Q: Rebobinador de Tiempo",
+     "spellKey": "EkkoQ",
+     "kind": "stat",
+     "attribute": "Tasa de Poder de Habilidad del Daño de Retorno",
+     "before": "60%",
+     "after": "70%",
+     "text": "Tasa de Poder de Habilidad del Daño de Retorno: 60% ⇒ 70%",
+     "id": "2209ab895f14",
+     "section": "champions",
+     "tags": [
+      "Assassin",
+      "Mage"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "26.15",
+   "publishedAt": "2026-07-28T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "ARAM: Caos",
+     "sectionId": "patch-aram:-mayhem",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Ekko",
+      "name": "Ekko"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño infligido",
+     "before": "110%",
+     "after": "105%",
+     "text": "Daño infligido: 110% ⇒ 105%",
+     "id": "2738c7e2f9ff",
+     "section": "modes",
+     "tags": [
+      "Assassin",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "26.11",
+   "publishedAt": "2026-05-27T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Ekko",
+      "name": "Ekko"
+     },
+     "part": "P",
+     "partTitle": "Pasiva: Resonancia Pulsar-Z",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Enfriamiento por enemigo",
+     "before": "5 seg",
+     "after": "4 seg",
+     "text": "Enfriamiento por enemigo: 5 seg ⇒ 4 seg",
+     "id": "d3b005e39dd9",
+     "section": "champions",
+     "tags": [
+      "Assassin",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "26.3",
+   "publishedAt": "2026-02-03T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Ekko",
+      "name": "Ekko"
+     },
+     "part": "P",
+     "partTitle": "Pasiva: Resonancia Pulsar-Z",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Tasa de Poder de Habilidad",
+     "before": "90%",
+     "after": "80%",
+     "text": "Tasa de Poder de Habilidad: 90% ⇒ 80%",
+     "id": "84a7eac13835",
+     "section": "champions",
+     "tags": [
+      "Assassin",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Ekko",
+      "name": "Ekko"
+     },
+     "part": "P",
+     "partTitle": "Pasiva: Resonancia Pulsar-Z",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño contra monstruos",
+     "before": "300%",
+     "after": "270%",
+     "text": "Daño contra monstruos: 300% ⇒ 270%",
+     "id": "1e78f8eb24d8",
+     "section": "champions",
+     "tags": [
+      "Assassin",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.4",
+   "publishedAt": "2025-02-19T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Ekko",
+      "name": "Ekko"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Aumentamos el daño de su Q.",
+     "id": "3799d0f51607",
+     "section": "champions",
+     "tags": [
+      "Assassin",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Ekko",
+      "name": "Ekko"
+     },
+     "part": "Q",
+     "partTitle": "Q: Rebobinador de Tiempo",
+     "spellKey": "EkkoQ",
+     "kind": "stat",
+     "attribute": "Daño",
+     "before": "70/85/100/115/130 (+30% de Poder de Habilidad)",
+     "after": "80/95/110/125/140 (+30% de Poder de Habilidad)",
+     "text": "Daño: 70/85/100/115/130 (+30% de Poder de Habilidad) ⇒ 80/95/110/125/140 (+30% de Poder de Habilidad)",
+     "id": "20982af89ae8",
+     "section": "champions",
+     "tags": [
+      "Assassin",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  }
+ ]
+}

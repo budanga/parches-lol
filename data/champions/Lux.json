@@ -1,0 +1,632 @@
+{
+ "schemaVersion": 1,
+ "id": "Lux",
+ "name": "Lux",
+ "tags": [
+  "Mage",
+  "Support"
+ ],
+ "entries": [
+  {
+   "patch": "26.23",
+   "publishedAt": "2026-11-17T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "ARAM: Caos",
+     "sectionId": "patch-aram:-mayhem",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Lux",
+      "name": "Lux"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Modificador de escudo",
+     "before": "80%",
+     "after": "100%",
+     "text": "Modificador de escudo: 80% ⇒ 100%",
+     "id": "b876f67f92f8",
+     "section": "modes",
+     "tags": [
+      "Mage",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "26.13",
+   "publishedAt": "2026-06-23T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Lux",
+      "name": "Lux"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": null,
+     "before": "Temporizador fuera de combate: 5",
+     "after": "3",
+     "text": "Temporizador fuera de combate: 5 ⇒ 3",
+     "id": "0e30d1054b31",
+     "section": "modes",
+     "tags": [
+      "Mage",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Lux",
+      "name": "Lux"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": null,
+     "before": "Valor de escudo por nivel: 20",
+     "after": "25",
+     "text": "Valor de escudo por nivel: 20 ⇒ 25",
+     "id": "8498fd6c1a7a",
+     "section": "modes",
+     "tags": [
+      "Mage",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Lux",
+      "name": "Lux"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": null,
+     "before": "Escudo por ronda perdida: 75",
+     "after": "100",
+     "text": "Escudo por ronda perdida: 75 ⇒ 100",
+     "id": "f68348cc27ba",
+     "section": "modes",
+     "tags": [
+      "Mage",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "26.4",
+   "publishedAt": "2026-02-18T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Lux",
+      "name": "Lux"
+     },
+     "part": "base",
+     "partTitle": "Estadísticas base",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Maná básico",
+     "before": "480",
+     "after": "440",
+     "text": "Maná básico: 480 ⇒ 440",
+     "id": "900d823b6498",
+     "section": "champions",
+     "tags": [
+      "Mage",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Lux",
+      "name": "Lux"
+     },
+     "part": "base",
+     "partTitle": "Estadísticas base",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Regeneración de maná inicial",
+     "before": "7",
+     "after": "9",
+     "text": "Regeneración de maná inicial: 7 ⇒ 9",
+     "id": "42295ede8486",
+     "section": "champions",
+     "tags": [
+      "Mage",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Lux",
+      "name": "Lux"
+     },
+     "part": "Q",
+     "partTitle": "Q: Hechizo Luminoso",
+     "spellKey": "LuxLightBinding",
+     "kind": "stat",
+     "attribute": "Enfriamiento",
+     "before": "11 / 10.5 / 10 / 9.5 / 9",
+     "after": "10",
+     "text": "Enfriamiento: 11 / 10.5 / 10 / 9.5 / 9 ⇒ 10",
+     "id": "3b3e7eb7404b",
+     "section": "champions",
+     "tags": [
+      "Mage",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Lux",
+      "name": "Lux"
+     },
+     "part": "W",
+     "partTitle": "W: Barrera Prismática",
+     "spellKey": "LuxPrismaticWave",
+     "kind": "stat",
+     "attribute": "Enfriamiento",
+     "before": "14 / 13 / 12 / 11 / 10",
+     "after": "12 / 11.5 / 11 / 10.5 / 10",
+     "text": "Enfriamiento: 14 / 13 / 12 / 11 / 10 ⇒ 12 / 11.5 / 11 / 10.5 / 10",
+     "id": "b2fe7345485a",
+     "section": "champions",
+     "tags": [
+      "Mage",
+      "Support"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.24",
+   "publishedAt": "2025-12-02T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Actualizaciones dentro de la versión, 16 de diciembre de 2025",
+     "sectionId": "patch-season-3-ranked-ending-soon",
+     "midPatch": true,
+     "entity": {
+      "kind": "champion",
+      "id": "Lux",
+      "name": "Lux"
+     },
+     "part": "P",
+     "partTitle": "Pasiva: Iluminación",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Tasa de Poder de Habilidad",
+     "before": "(+ 30% de Poder de Habilidad)",
+     "after": "(+ 35% de Poder de Habilidad)",
+     "text": "Tasa de Poder de Habilidad: (+ 30% de Poder de Habilidad) ⇒ (+ 35% de Poder de Habilidad)",
+     "id": "ee84d39506ce",
+     "section": "champions",
+     "tags": [
+      "Mage",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Actualizaciones dentro de la versión, 16 de diciembre de 2025",
+     "sectionId": "patch-season-3-ranked-ending-soon",
+     "midPatch": true,
+     "entity": {
+      "kind": "champion",
+      "id": "Lux",
+      "name": "Lux"
+     },
+     "part": "Q",
+     "partTitle": "Q: Hechizo Luminoso",
+     "spellKey": "LuxLightBinding",
+     "kind": "stat",
+     "attribute": "Tasa de Poder de Habilidad",
+     "before": "(+ 65% de Poder de Habilidad)",
+     "after": "(+ 75% de Poder de Habilidad)",
+     "text": "Tasa de Poder de Habilidad: (+ 65% de Poder de Habilidad) ⇒ (+ 75% de Poder de Habilidad)",
+     "id": "9034c34152c9",
+     "section": "champions",
+     "tags": [
+      "Mage",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.20",
+   "publishedAt": "2025-10-07T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Bots Apocalípticos",
+     "sectionId": "patch-doom-bots",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Lux",
+      "name": "Lux"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño infligido",
+     "before": "100%",
+     "after": "110%",
+     "text": "Daño infligido: 100% ⇒ 110%",
+     "id": "e21cf8a766b5",
+     "section": "modes",
+     "tags": [
+      "Mage",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.14",
+   "publishedAt": "2025-07-15T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones (Arena)",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Lux",
+      "name": "Lux"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": null,
+     "before": "Cambio al enfriamiento de la Q para Arena revertido: 10 / 9.5 / 9 / 8.5 / 8",
+     "after": "11 / 10.5 / 10 / 9.5 / 9",
+     "text": "Cambio al enfriamiento de la Q para Arena revertido: 10 / 9.5 / 9 / 8.5 / 8 ⇒ 11 / 10.5 / 10 / 9.5 / 9",
+     "id": "2349b84156ba",
+     "section": "modes",
+     "tags": [
+      "Mage",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones (Arena)",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Lux",
+      "name": "Lux"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": null,
+     "before": "Cambio a la ralentización de la E para Arena parcialmente revertido: 40% / 45% / 50% / 55% / 60%",
+     "after": "35% / 40% / 45% / 50% / 55%",
+     "text": "Cambio a la ralentización de la E para Arena parcialmente revertido: 40% / 45% / 50% / 55% / 60% ⇒ 35% / 40% / 45% / 50% / 55%",
+     "id": "7747001b4545",
+     "section": "modes",
+     "tags": [
+      "Mage",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones (Arena)",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Lux",
+      "name": "Lux"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": null,
+     "before": "Cambio al enfriamiento de la R para Arena parcialmente revertido: 45/40/35",
+     "after": "55/45/35",
+     "text": "Cambio al enfriamiento de la R para Arena parcialmente revertido: 45/40/35 ⇒ 55/45/35",
+     "id": "074721c69ba7",
+     "section": "modes",
+     "tags": [
+      "Mage",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.11",
+   "publishedAt": "2025-05-27T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "ARAM",
+     "sectionId": "patch-aram",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Lux",
+      "name": "Lux"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Escudo",
+     "before": "80%",
+     "after": "90%",
+     "text": "Escudo: 80% ⇒ 90%",
+     "id": "3a75589c58b8",
+     "section": "modes",
+     "tags": [
+      "Mage",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Pelea",
+     "sectionId": "patch-brawl",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Lux",
+      "name": "Lux"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Enfriamiento de la R",
+     "before": "60 / 50 / 40",
+     "after": "80 / 70 / 60",
+     "text": "Enfriamiento de la R: 60 / 50 / 40 ⇒ 80 / 70 / 60",
+     "id": "cd9df282f05e",
+     "section": "modes",
+     "tags": [
+      "Mage",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Pelea",
+     "sectionId": "patch-brawl",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Lux",
+      "name": "Lux"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño infligido",
+     "before": "100%",
+     "after": "95%",
+     "text": "Daño infligido: 100% ⇒ 95%",
+     "id": "a4ebfa274ccd",
+     "section": "modes",
+     "tags": [
+      "Mage",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Pelea",
+     "sectionId": "patch-brawl",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Lux",
+      "name": "Lux"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Aceleración de Habilidad",
+     "before": "0",
+     "after": "-10",
+     "text": "Aceleración de Habilidad: 0 ⇒ -10",
+     "id": "e1c99afccf5a",
+     "section": "modes",
+     "tags": [
+      "Mage",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.9",
+   "publishedAt": "2025-04-29T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Modos de juego rotativos y cambios en Arena",
+     "sectionId": "patch-rotating-game-modes-and-arena-changes",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Lux",
+      "name": "Lux"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Enfriamiento de la R",
+     "before": "30",
+     "after": "45 / 40 / 35 seg",
+     "text": "Enfriamiento de la R: 30 ⇒ 45 / 40 / 35 seg",
+     "id": "82e97a4f8381",
+     "section": "modes",
+     "tags": [
+      "Mage",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.8",
+   "publishedAt": "2025-04-15T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "ARAM",
+     "sectionId": "patch-aram",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Lux",
+      "name": "Lux"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Enfriamiento de la R",
+     "before": "60 / 50 / 40",
+     "after": "80 / 70 / 60",
+     "text": "Enfriamiento de la R: 60 / 50 / 40 ⇒ 80 / 70 / 60",
+     "id": "8800edc9204a",
+     "section": "modes",
+     "tags": [
+      "Mage",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "ARAM",
+     "sectionId": "patch-aram",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Lux",
+      "name": "Lux"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño infligido",
+     "before": "85%",
+     "after": "90%",
+     "text": "Daño infligido: 85% ⇒ 90%",
+     "id": "4b0f030d2e75",
+     "section": "modes",
+     "tags": [
+      "Mage",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  }
+ ]
+}

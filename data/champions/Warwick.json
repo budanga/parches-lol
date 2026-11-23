@@ -1,0 +1,632 @@
+{
+ "schemaVersion": 1,
+ "id": "Warwick",
+ "name": "Warwick",
+ "tags": [
+  "Fighter",
+  "Tank"
+ ],
+ "entries": [
+  {
+   "patch": "26.15",
+   "publishedAt": "2026-07-28T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Warwick",
+      "name": "Warwick"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Pasiva: Sed Insaciable",
+     "id": "2048d06f03a4",
+     "section": "modes",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Warwick",
+      "name": "Warwick"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Amplificación de curación de La Última Batalla",
+     "before": "250%",
+     "after": "300%",
+     "text": "Amplificación de curación de La Última Batalla: 250% ⇒ 300%",
+     "id": "e221ca6360a2",
+     "section": "modes",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Warwick",
+      "name": "Warwick"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "W: Cacería de Sangre",
+     "id": "77c90c0f151a",
+     "section": "modes",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Warwick",
+      "name": "Warwick"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Enfriamiento",
+     "before": "80 / 70 / 60 / 50 / 40",
+     "after": "40 / 35 / 30 / 25 / 20",
+     "text": "Enfriamiento: 80 / 70 / 60 / 50 / 40 ⇒ 40 / 35 / 30 / 25 / 20",
+     "id": "c9240761d68f",
+     "section": "modes",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Warwick",
+      "name": "Warwick"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "E: Aullido Primigenio",
+     "id": "875a0e90a9b9",
+     "section": "modes",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Warwick",
+      "name": "Warwick"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Reducción de daño",
+     "before": "35 / 40 / 45 / 50 / 55%",
+     "after": "40 / 45 / 50 / 55 / 60%",
+     "text": "Reducción de daño: 35 / 40 / 45 / 50 / 55% ⇒ 40 / 45 / 50 / 55 / 60%",
+     "id": "69c29ae57f3e",
+     "section": "modes",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "26.9",
+   "publishedAt": "2026-04-28T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Warwick",
+      "name": "Warwick"
+     },
+     "part": "P: Sed Insaciable",
+     "partTitle": "P: Sed Insaciable",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño al impacto",
+     "before": "6 / 16 / 26 / 36 / 46",
+     "after": "6 / 18.25 / 30.5 / 42.75 / 55",
+     "text": "Daño al impacto: 6 / 16 / 26 / 36 / 46 ⇒ 6 / 18.25 / 30.5 / 42.75 / 55",
+     "id": "fc74bd0949b7",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.20",
+   "publishedAt": "2025-10-07T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Warwick",
+      "name": "Warwick"
+     },
+     "part": "base",
+     "partTitle": "Estadísticas básicas",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Crecimiento de Daño de Ataque",
+     "before": "2.75",
+     "after": "2.5",
+     "text": "Crecimiento de Daño de Ataque: 2.75 ⇒ 2.5",
+     "id": "fc65d2624a80",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Warwick",
+      "name": "Warwick"
+     },
+     "part": "base",
+     "partTitle": "Estadísticas básicas",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Crecimiento de Velocidad de Ataque",
+     "before": "2.3%",
+     "after": "2%",
+     "text": "Crecimiento de Velocidad de Ataque: 2.3% ⇒ 2%",
+     "id": "341ac4ac02cf",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.16",
+   "publishedAt": "2025-08-12T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Warwick",
+      "name": "Warwick"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Aumentamos su daño de ataque básico. Redujimos el daño de su pasiva en los rangos iniciales.",
+     "id": "dcf772bf7cea",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Warwick",
+      "name": "Warwick"
+     },
+     "part": "base",
+     "partTitle": "Estadísticas básicas",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño de Ataque básico",
+     "before": "60",
+     "after": "65",
+     "text": "Daño de Ataque básico: 60 ⇒ 65",
+     "id": "8a817d92967a",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Warwick",
+      "name": "Warwick"
+     },
+     "part": "P",
+     "partTitle": "Pasiva: Sed Insaciable",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño adicional al impacto",
+     "before": "De 12 a 46 (según el nivel)",
+     "after": "De 6 a 46 (según el nivel)",
+     "text": "Daño adicional al impacto: De 12 a 46 (según el nivel) ⇒ De 6 a 46 (según el nivel)",
+     "id": "ada035175704",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.11",
+   "publishedAt": "2025-05-27T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Pelea",
+     "sectionId": "patch-brawl",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Warwick",
+      "name": "Warwick"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño recibido",
+     "before": "100%",
+     "after": "95%",
+     "text": "Daño recibido: 100% ⇒ 95%",
+     "id": "150d71549367",
+     "section": "modes",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Pelea",
+     "sectionId": "patch-brawl",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Warwick",
+      "name": "Warwick"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Aceleración de Habilidad",
+     "before": "0",
+     "after": "10",
+     "text": "Aceleración de Habilidad: 0 ⇒ 10",
+     "id": "5c2802344336",
+     "section": "modes",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Pelea",
+     "sectionId": "patch-brawl",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Warwick",
+      "name": "Warwick"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Enfriamiento de la E",
+     "before": "15 / 14 / 13 / 12 / 11",
+     "after": "13 / 12 / 11 / 10 / 9",
+     "text": "Enfriamiento de la E: 15 / 14 / 13 / 12 / 11 ⇒ 13 / 12 / 11 / 10 / 9",
+     "id": "bb5b996e0300",
+     "section": "modes",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.9",
+   "publishedAt": "2025-04-29T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Modos de juego rotativos y cambios en Arena",
+     "sectionId": "patch-rotating-game-modes-and-arena-changes",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Warwick",
+      "name": "Warwick"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Q: Fauces de la Bestia",
+     "before": "5 / 6 / 7 / 8 / 9% de la Vida Máxima del objetivo (+ 100% de Daño de Ataque) (+ 100% de Poder de Habilidad)",
+     "after": "6 / 7 / 8 / 9 / 10% de la Vida Máxima del objetivo (+ 120% de Daño de Ataque) (+ 100% de Poder de Habilidad)",
+     "text": "Q: Fauces de la Bestia: 5 / 6 / 7 / 8 / 9% de la Vida Máxima del objetivo (+ 100% de Daño de Ataque) (+ 100% de Poder de Habilidad) ⇒ 6 / 7 / 8 / 9 / 10% de la Vida Máxima del objetivo (+ 120% de Daño de Ataque) (+ 100% de Poder de Habilidad)",
+     "id": "83b68fb563f1",
+     "section": "modes",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Modos de juego rotativos y cambios en Arena",
+     "sectionId": "patch-rotating-game-modes-and-arena-changes",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Warwick",
+      "name": "Warwick"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño de la R",
+     "before": "100 / 200 / 300 (+ 167% de Daño de Ataque adicional)",
+     "after": "175 / 300 / 425 (+ 167% de Daño de Ataque adicional)",
+     "text": "Daño de la R: 100 / 200 / 300 (+ 167% de Daño de Ataque adicional) ⇒ 175 / 300 / 425 (+ 167% de Daño de Ataque adicional)",
+     "id": "cf6d04d09828",
+     "section": "modes",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.7",
+   "publishedAt": "2025-04-01T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "ARAM",
+     "sectionId": "patch-aram",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Warwick",
+      "name": "Warwick"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Enfriamiento de Q",
+     "before": "8 / 7.5 / 7 / 6.5 / 6",
+     "after": "6",
+     "text": "Enfriamiento de Q: 8 / 7.5 / 7 / 6.5 / 6 ⇒ 6",
+     "id": "e189e5dffe40",
+     "section": "modes",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.4",
+   "publishedAt": "2025-02-19T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Warwick",
+      "name": "Warwick"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Aumentamos el costo de maná de su Q.",
+     "id": "de91c57c6750",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Warwick",
+      "name": "Warwick"
+     },
+     "part": "Q",
+     "partTitle": "Q: Fauces de la Bestia",
+     "spellKey": "WarwickQ",
+     "kind": "stat",
+     "attribute": "Costo de maná",
+     "before": "70/75/80/85/90",
+     "after": "80/85/90/95/100",
+     "text": "Costo de maná: 70/75/80/85/90 ⇒ 80/85/90/95/100",
+     "id": "8edccb8d7c96",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.S1.1",
+   "publishedAt": "2025-01-07T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "ARAM",
+     "sectionId": "patch-aram",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Warwick",
+      "name": "Warwick"
+     },
+     "part": "Debilitaciones a campeones",
+     "partTitle": "Debilitaciones a campeones",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Curación realizada",
+     "before": "120%",
+     "after": "100%",
+     "text": "Warwick: Curación realizada: 120% ⇒ 100%",
+     "id": "b84991d2674c",
+     "section": "modes",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  }
+ ]
+}

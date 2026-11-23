@@ -1,0 +1,383 @@
+{
+ "schemaVersion": 1,
+ "id": "Soraka",
+ "name": "Soraka",
+ "tags": [
+  "Support",
+  "Mage"
+ ],
+ "entries": [
+  {
+   "patch": "26.15",
+   "publishedAt": "2026-07-28T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "ARAM: Caos",
+     "sectionId": "patch-aram:-mayhem",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Soraka",
+      "name": "Soraka"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Curación",
+     "before": "105%",
+     "after": "100%",
+     "text": "Curación: 105% ⇒ 100%",
+     "id": "27304eadbbf4",
+     "section": "modes",
+     "tags": [
+      "Support",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.18",
+   "publishedAt": "2025-09-09T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones (Arena)",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Soraka",
+      "name": "Soraka"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": null,
+     "before": "Curación básica de la Q: De 120 a 240",
+     "after": "De 80 a 200",
+     "text": "Curación básica de la Q: De 120 a 240 ⇒ De 80 a 200",
+     "id": "ff7d547552db",
+     "section": "modes",
+     "tags": [
+      "Support",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones (Arena)",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Soraka",
+      "name": "Soraka"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": null,
+     "before": "Enfriamiento: De 6 a 4 seg",
+     "after": "5 seg en todos los rangos",
+     "text": "Enfriamiento: De 6 a 4 seg ⇒ 5 seg en todos los rangos",
+     "id": "8d6bf101027f",
+     "section": "modes",
+     "tags": [
+      "Support",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.11",
+   "publishedAt": "2025-05-27T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Pelea",
+     "sectionId": "patch-brawl",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Soraka",
+      "name": "Soraka"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Enfriamiento de la R",
+     "before": "150 / 135 / 120",
+     "after": "120 / 110 / 100",
+     "text": "Enfriamiento de la R: 150 / 135 / 120 ⇒ 120 / 110 / 100",
+     "id": "27213999e1c6",
+     "section": "modes",
+     "tags": [
+      "Support",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.9",
+   "publishedAt": "2025-04-29T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "ARAM",
+     "sectionId": "patch-aram",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Soraka",
+      "name": "Soraka"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Curación realizada",
+     "before": "105%",
+     "after": "100%",
+     "text": "Curación realizada: 105% ⇒ 100%",
+     "id": "88aff054df7f",
+     "section": "modes",
+     "tags": [
+      "Support",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.7",
+   "publishedAt": "2025-04-01T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "ARAM",
+     "sectionId": "patch-aram",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Soraka",
+      "name": "Soraka"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño recibido",
+     "before": "97%",
+     "after": "100%",
+     "text": "Daño recibido: 97% ⇒ 100%",
+     "id": "a56d77d58f96",
+     "section": "modes",
+     "tags": [
+      "Support",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.6",
+   "publishedAt": "2025-03-18T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Soraka",
+      "name": "Soraka"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": null,
+     "before": "Q: Invocación Estelar: Curación: 60-120 (+0.35 de Poder de Habilidad)",
+     "after": "120-240 (+0.45 de Poder de Habilidad)",
+     "text": "Q: Invocación Estelar: Curación: 60-120 (+0.35 de Poder de Habilidad) ⇒ 120-240 (+0.45 de Poder de Habilidad)",
+     "id": "71f2996affce",
+     "section": "modes",
+     "tags": [
+      "Support",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Soraka",
+      "name": "Soraka"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": null,
+     "before": "Q: Invocación Estelar: Enfriamiento: 8-4",
+     "after": "6-4 seg",
+     "text": "Q: Invocación Estelar: Enfriamiento: 8-4 ⇒ 6-4 seg",
+     "id": "8b322ceb7687",
+     "section": "modes",
+     "tags": [
+      "Support",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.5",
+   "publishedAt": "2025-03-04T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "ARAM",
+     "sectionId": "patch-aram",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Soraka",
+      "name": "Soraka"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Curación de su Q",
+     "before": "60/75/90/105/120 (+30% de Poder de Habilidad)",
+     "after": "75/90/105/120/135 (+40% de Poder de Habilidad)",
+     "text": "Curación de su Q: 60/75/90/105/120 (+30% de Poder de Habilidad) ⇒ 75/90/105/120/135 (+40% de Poder de Habilidad)",
+     "id": "fdec3302d8f0",
+     "section": "modes",
+     "tags": [
+      "Support",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "ARAM",
+     "sectionId": "patch-aram",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Soraka",
+      "name": "Soraka"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Costo de Vida de su W",
+     "before": "10% de la Vida Máxima",
+     "after": "5% de la Vida Máxima",
+     "text": "Costo de Vida de su W: 10% de la Vida Máxima ⇒ 5% de la Vida Máxima",
+     "id": "8c10f3f6546c",
+     "section": "modes",
+     "tags": [
+      "Support",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "ARAM",
+     "sectionId": "patch-aram",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Soraka",
+      "name": "Soraka"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Curación realizada",
+     "before": "100%",
+     "after": "105%",
+     "text": "Curación realizada: 100% ⇒ 105%",
+     "id": "fe4f6af6e549",
+     "section": "modes",
+     "tags": [
+      "Support",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.S1.2",
+   "publishedAt": "2025-01-22T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "ARAM",
+     "sectionId": "patch-aram",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Soraka",
+      "name": "Soraka"
+     },
+     "part": "Mejoras a campeones",
+     "partTitle": "Mejoras a campeones",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Aceleración de Habilidad",
+     "before": "0",
+     "after": "10",
+     "text": "Soraka: Aceleración de Habilidad: 0 ⇒ 10",
+     "id": "f269b149d1b5",
+     "section": "modes",
+     "tags": [
+      "Support",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  }
+ ]
+}

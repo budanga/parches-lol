@@ -1,0 +1,554 @@
+{
+ "schemaVersion": 1,
+ "id": "Viego",
+ "name": "Viego",
+ "tags": [
+  "Fighter",
+  "Assassin"
+ ],
+ "entries": [
+  {
+   "patch": "26.18",
+   "publishedAt": "2026-09-09T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Viego",
+      "name": "Viego"
+     },
+     "part": "base",
+     "partTitle": "Estadísticas base",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Crecimiento de Daño de Ataque",
+     "before": "3.5",
+     "after": "4",
+     "text": "Crecimiento de Daño de Ataque: 3.5 ⇒ 4",
+     "id": "71b61c28fff8",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Viego",
+      "name": "Viego"
+     },
+     "part": "P",
+     "partTitle": "Pasiva: Dominio del Soberano",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Curación",
+     "before": "2% (+…)",
+     "after": "2% (+ 2.5% por cada 100 de DA adicional) (+ 2% por cada 100 de PH) (+ 5% por cada 100% de Velocidad de Ataque adicional) (+ 2% por cada 500 de vida adicional) de la Vida Máxima del objetivo",
+     "text": "Curación: 2% (+…) ⇒ 2% (+ 2.5% por cada 100 de DA adicional) (+ 2% por cada 100 de PH) (+ 5% por cada 100% de Velocidad de Ataque adicional) (+ 2% por cada 500 de vida adicional) de la Vida Máxima del objetivo",
+     "id": "1d84f3e783aa",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "26.2",
+   "publishedAt": "2026-01-21T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Viego",
+      "name": "Viego"
+     },
+     "part": "base",
+     "partTitle": "Estadísticas básicas",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Crecimiento de Velocidad de Ataque",
+     "before": "2.25%",
+     "after": "2.75%",
+     "text": "Crecimiento de Velocidad de Ataque: 2.25% ⇒ 2.75%",
+     "id": "a0747c5bd8e5",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Viego",
+      "name": "Viego"
+     },
+     "part": "Q",
+     "partTitle": "Q: Espada del Rey Arruinado",
+     "spellKey": "ViegoQ",
+     "kind": "stat",
+     "attribute": "Modificador de daño de golpe crítico adicional al impacto según el porcentaje de vida del objetivo",
+     "before": "50%",
+     "after": "70%",
+     "text": "Modificador de daño de golpe crítico adicional al impacto según el porcentaje de vida del objetivo: 50% ⇒ 70%",
+     "id": "9ac402be1860",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Viego",
+      "name": "Viego"
+     },
+     "part": "Q",
+     "partTitle": "Q: Espada del Rey Arruinado",
+     "spellKey": "ViegoQ",
+     "kind": "stat",
+     "attribute": "Modificador de daño de golpe crítico adicional de la activa",
+     "before": "50%",
+     "after": "60%",
+     "text": "Modificador de daño de golpe crítico adicional de la activa: 50% ⇒ 60%",
+     "id": "6cc66a29da7e",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "26.1",
+   "publishedAt": "2026-01-07T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Viego",
+      "name": "Viego"
+     },
+     "part": "Q",
+     "partTitle": "Q: Espada del Rey Arruinado",
+     "spellKey": "ViegoQ",
+     "kind": "stat",
+     "attribute": "Progresión de daño de golpe crítico según el porcentaje de vida actual",
+     "before": "100% del total (×1.75 / ×2.15)",
+     "after": "50% adicional (×1.5 / ×1.65)",
+     "text": "Progresión de daño de golpe crítico según el porcentaje de vida actual: 100% del total (×1.75 / ×2.15) ⇒ 50% adicional (×1.5 / ×1.65)",
+     "id": "e3533807011e",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Viego",
+      "name": "Viego"
+     },
+     "part": "Q",
+     "partTitle": "Q: Espada del Rey Arruinado",
+     "spellKey": "ViegoQ",
+     "kind": "stat",
+     "attribute": "Progresión de daño de golpe crítico del segundo golpe",
+     "before": "100% del total (×1.75 / ×2.15)",
+     "after": "100% adicional (×2 / ×2.3)",
+     "text": "Progresión de daño de golpe crítico del segundo golpe: 100% del total (×1.75 / ×2.15) ⇒ 100% adicional (×2 / ×2.3)",
+     "id": "36be63003249",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Viego",
+      "name": "Viego"
+     },
+     "part": "Q",
+     "partTitle": "Q: Espada del Rey Arruinado",
+     "spellKey": "ViegoQ",
+     "kind": "stat",
+     "attribute": "Modificador de daño de golpe crítico activo",
+     "before": "100% del total (hasta ×1.75 / ×2.15)",
+     "after": "50% adicional (hasta ×1.5 / ×1.65)",
+     "text": "Modificador de daño de golpe crítico activo: 100% del total (hasta ×1.75 / ×2.15) ⇒ 50% adicional (hasta ×1.5 / ×1.65)",
+     "id": "784cf0259422",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Viego",
+      "name": "Viego"
+     },
+     "part": "R",
+     "partTitle": "R: Rompecorazones",
+     "spellKey": "ViegoR",
+     "kind": "stat",
+     "attribute": "Progresión de daño de golpe crítico",
+     "before": "Hasta ×2",
+     "after": "70% adicional (hasta ×1.7 / ×1.91)",
+     "text": "Progresión de daño de golpe crítico: Hasta ×2 ⇒ 70% adicional (hasta ×1.7 / ×1.91)",
+     "id": "b5dc07b83bc7",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.16",
+   "publishedAt": "2025-08-12T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Viego",
+      "name": "Viego"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Redujimos el crecimiento de su velocidad de ataque. Debilitamos su Q contra los monstruos y la mejoramos contra las unidades que no son monstruos.",
+     "id": "1b275dbcadb4",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Viego",
+      "name": "Viego"
+     },
+     "part": "base",
+     "partTitle": "Estadísticas básicas",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Crecimiento de Velocidad de Ataque",
+     "before": "2.5%",
+     "after": "2.25%",
+     "text": "Crecimiento de Velocidad de Ataque: 2.5% ⇒ 2.25%",
+     "id": "e507023bc758",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Viego",
+      "name": "Viego"
+     },
+     "part": "Q",
+     "partTitle": "Q: Espada del Rey Arruinado",
+     "spellKey": "ViegoQ",
+     "kind": "stat",
+     "attribute": "Daño",
+     "before": "15 / 30 / 45 / 60 / 75",
+     "after": "25 / 40 / 55 / 70 / 85",
+     "text": "Daño: 15 / 30 / 45 / 60 / 75 ⇒ 25 / 40 / 55 / 70 / 85",
+     "id": "e1a6d197227a",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Viego",
+      "name": "Viego"
+     },
+     "part": "Q",
+     "partTitle": "Q: Espada del Rey Arruinado",
+     "spellKey": "ViegoQ",
+     "kind": "stat",
+     "attribute": "Multiplicador de golpe crítico",
+     "before": "100%",
+     "after": "75%",
+     "text": "Multiplicador de golpe crítico: 100% ⇒ 75%",
+     "id": "4a6d75b6d72e",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Viego",
+      "name": "Viego"
+     },
+     "part": "Q",
+     "partTitle": "Q: Espada del Rey Arruinado",
+     "spellKey": "ViegoQ",
+     "kind": "stat",
+     "attribute": "Daño adicional contra monstruos",
+     "before": "15",
+     "after": "0",
+     "text": "Daño adicional contra monstruos: 15 ⇒ 0",
+     "id": "278abf2d0843",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Viego",
+      "name": "Viego"
+     },
+     "part": "Q",
+     "partTitle": "Q: Espada del Rey Arruinado",
+     "spellKey": "ViegoQ",
+     "kind": "stat",
+     "attribute": "Curación al impactar súbditos marcados",
+     "before": "50%",
+     "after": "100%",
+     "text": "Curación al impactar súbditos marcados: 50% ⇒ 100%",
+     "id": "31ca94f9bf4a",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Viego",
+      "name": "Viego"
+     },
+     "part": "Q",
+     "partTitle": "Q: Espada del Rey Arruinado",
+     "spellKey": "ViegoQ",
+     "kind": "stat",
+     "attribute": "Curación al impactar monstruos marcados",
+     "before": "145%",
+     "after": "125%",
+     "text": "Curación al impactar monstruos marcados: 145% ⇒ 125%",
+     "id": "4d57c8a05c36",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Viego",
+      "name": "Viego"
+     },
+     "part": "Q",
+     "partTitle": "Q: Espada del Rey Arruinado",
+     "spellKey": "ViegoQ",
+     "kind": "stat",
+     "attribute": "Curación al impactar campeones marcados",
+     "before": "135%",
+     "after": "150%",
+     "text": "Curación al impactar campeones marcados: 135% ⇒ 150%",
+     "id": "43184d37ceec",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.S1.3",
+   "publishedAt": "2025-02-04T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Viego",
+      "name": "Viego"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Redujimos su daño de ataque básico.",
+     "id": "92dba5413f10",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Viego",
+      "name": "Viego"
+     },
+     "part": "base",
+     "partTitle": "Estadísticas básicas",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño de Ataque",
+     "before": "60",
+     "after": "57",
+     "text": "Daño de Ataque: 60 ⇒ 57",
+     "id": "b7c137b9f20f",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  }
+ ]
+}

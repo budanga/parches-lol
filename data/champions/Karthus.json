@@ -1,0 +1,100 @@
+{
+ "schemaVersion": 1,
+ "id": "Karthus",
+ "name": "Karthus",
+ "tags": [
+  "Mage"
+ ],
+ "entries": [
+  {
+   "patch": "25.11",
+   "publishedAt": "2025-05-27T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Pelea",
+     "sectionId": "patch-brawl",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Karthus",
+      "name": "Karthus"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño infligido",
+     "before": "100%",
+     "after": "95%",
+     "text": "Daño infligido: 100% ⇒ 95%",
+     "id": "523c1dc82918",
+     "section": "modes",
+     "tags": [
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Pelea",
+     "sectionId": "patch-brawl",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Karthus",
+      "name": "Karthus"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Enfriamiento de la R",
+     "before": "200 / 180 / 160",
+     "after": "160 / 140 / 120",
+     "text": "Enfriamiento de la R: 200 / 180 / 160 ⇒ 160 / 140 / 120",
+     "id": "3efe69a85389",
+     "section": "modes",
+     "tags": [
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.9",
+   "publishedAt": "2025-04-29T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "ARAM",
+     "sectionId": "patch-aram",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Karthus",
+      "name": "Karthus"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño infligido",
+     "before": "90%",
+     "after": "93%",
+     "text": "Daño infligido: 90% ⇒ 93%",
+     "id": "ad1212b1eada",
+     "section": "modes",
+     "tags": [
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  }
+ ]
+}

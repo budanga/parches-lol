@@ -1,0 +1,364 @@
+{
+ "schemaVersion": 1,
+ "id": "Shen",
+ "name": "Shen",
+ "tags": [
+  "Tank"
+ ],
+ "entries": [
+  {
+   "patch": "26.22",
+   "publishedAt": "2026-11-03T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Shen",
+      "name": "Shen"
+     },
+     "part": "Q",
+     "partTitle": "Q: Ataque de Crepúsculo",
+     "spellKey": "ShenQ",
+     "kind": "stat",
+     "attribute": "Modificador de daño a monstruos",
+     "before": "100 / 125 / 150 / 175 / 200",
+     "after": "120 / 140 / 160 / 180 / 200",
+     "text": "Modificador de daño a monstruos: 100 / 125 / 150 / 175 / 200 ⇒ 120 / 140 / 160 / 180 / 200",
+     "id": "b1151d14cd1c",
+     "section": "champions",
+     "tags": [
+      "Tank"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "26.6",
+   "publishedAt": "2026-03-17T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Shen",
+      "name": "Shen"
+     },
+     "part": "Q",
+     "partTitle": "Q: Ataque de Crepúsculo",
+     "spellKey": "ShenQ",
+     "kind": "stat",
+     "attribute": "Límite de daño contra monstruos",
+     "before": "120 / 140 / 160 / 180 / 200",
+     "after": "100 / 125 / 150 / 175 / 200",
+     "text": "Límite de daño contra monstruos: 120 / 140 / 160 / 180 / 200 ⇒ 100 / 125 / 150 / 175 / 200",
+     "id": "f215e332ee14",
+     "section": "champions",
+     "tags": [
+      "Tank"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.12",
+   "publishedAt": "2025-06-10T18:05:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Shen",
+      "name": "Shen"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Redujimos la tasa de vida adicional de su E.",
+     "id": "ab1f73de4ce0",
+     "section": "champions",
+     "tags": [
+      "Tank"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Shen",
+      "name": "Shen"
+     },
+     "part": "E",
+     "partTitle": "E: Ataque de Sombra",
+     "spellKey": "ShenE",
+     "kind": "stat",
+     "attribute": "Daño",
+     "before": "60 / 85 / 110 / 135 / 160 (+ 15% de Vida adicional)",
+     "after": "60 / 85 / 110 / 135 / 160 (+ 11% de Vida adicional)",
+     "text": "Daño: 60 / 85 / 110 / 135 / 160 (+ 15% de Vida adicional) ⇒ 60 / 85 / 110 / 135 / 160 (+ 11% de Vida adicional)",
+     "id": "d866ba83aaa2",
+     "section": "champions",
+     "tags": [
+      "Tank"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.11",
+   "publishedAt": "2025-05-27T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Pelea",
+     "sectionId": "patch-brawl",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Shen",
+      "name": "Shen"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Enfriamiento de la R",
+     "before": "200 / 180 / 160",
+     "after": "140 / 120 / 100",
+     "text": "Enfriamiento de la R: 200 / 180 / 160 ⇒ 140 / 120 / 100",
+     "id": "9acb3ccbfb6d",
+     "section": "modes",
+     "tags": [
+      "Tank"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.9",
+   "publishedAt": "2025-04-29T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Shen",
+      "name": "Shen"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Aumentamos el daño de su Q potenciada.",
+     "id": "ab26c8041dfc",
+     "section": "champions",
+     "tags": [
+      "Tank"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Shen",
+      "name": "Shen"
+     },
+     "part": "Q",
+     "partTitle": "Q: Ataque de Crepúsculo",
+     "spellKey": "ShenQ",
+     "kind": "stat",
+     "attribute": "Daño mágico potenciado adicional",
+     "before": "De 10 a 40 (según el nivel) (+ 4 / 4.5 / 5 / 5.5 / 6% de Vida Máxima del objetivo)",
+     "after": "De 10 a 40 (según el nivel) (+ 5 / 5.5 / 6 / 6.5 / 7% de Vida Máxima del objetivo)",
+     "text": "Daño mágico potenciado adicional: De 10 a 40 (según el nivel) (+ 4 / 4.5 / 5 / 5.5 / 6% de Vida Máxima del objetivo) ⇒ De 10 a 40 (según el nivel) (+ 5 / 5.5 / 6 / 6.5 / 7% de Vida Máxima del objetivo)",
+     "id": "f409455982a7",
+     "section": "champions",
+     "tags": [
+      "Tank"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.8",
+   "publishedAt": "2025-04-15T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Shen",
+      "name": "Shen"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Aumentamos la ralentización de su Q. Redujimos el enfriamiento de su W.",
+     "id": "a139e4581077",
+     "section": "champions",
+     "tags": [
+      "Tank"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Shen",
+      "name": "Shen"
+     },
+     "part": "Q",
+     "partTitle": "Q: Ataque de Crepúsculo",
+     "spellKey": "ShenQ",
+     "kind": "stat",
+     "attribute": "Ralentización al alejarse de Shen",
+     "before": "15 / 20 / 25 / 30 / 35%",
+     "after": "25 / 30 / 35 / 40 / 45%",
+     "text": "Ralentización al alejarse de Shen: 15 / 20 / 25 / 30 / 35% ⇒ 25 / 30 / 35 / 40 / 45%",
+     "id": "cc77a69a7a8b",
+     "section": "champions",
+     "tags": [
+      "Tank"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Shen",
+      "name": "Shen"
+     },
+     "part": "W",
+     "partTitle": "W: Refugio del Espíritu",
+     "spellKey": "ShenW",
+     "kind": "stat",
+     "attribute": "Enfriamiento",
+     "before": "18 / 16.5 / 15 / 13.5 / 12",
+     "after": "16 / 14.5 / 13 / 11.5 / 10",
+     "text": "Enfriamiento: 18 / 16.5 / 15 / 13.5 / 12 ⇒ 16 / 14.5 / 13 / 11.5 / 10",
+     "id": "6bb112c74faa",
+     "section": "champions",
+     "tags": [
+      "Tank"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.7",
+   "publishedAt": "2025-04-01T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Shen",
+      "name": "Shen"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Ahora, la Q aplica un daño fijo a las estructuras.",
+     "id": "0dec7816b705",
+     "section": "champions",
+     "tags": [
+      "Tank"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Shen",
+      "name": "Shen"
+     },
+     "part": "Q",
+     "partTitle": "Q: Ataque de Crepúsculo",
+     "spellKey": "ShenQ",
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "[NUEVO] Ahora, la velocidad de ataque y daño fijo se aplican contra las estructuras. No se aplica el porcentaje de daño de vida máxima",
+     "id": "054ba70c218a",
+     "section": "champions",
+     "tags": [
+      "Tank"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  }
+ ]
+}

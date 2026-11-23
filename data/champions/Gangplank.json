@@ -1,0 +1,624 @@
+{
+ "schemaVersion": 1,
+ "id": "Gangplank",
+ "name": "Gangplank",
+ "tags": [
+  "Fighter"
+ ],
+ "entries": [
+  {
+   "patch": "26.22",
+   "publishedAt": "2026-11-03T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Classic",
+     "sectionId": "patch-classic",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Gangplank",
+      "name": "Gangplank"
+     },
+     "part": "base",
+     "partTitle": "Estadísticas base",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Regeneración de Vida Básica",
+     "before": "5",
+     "after": "7",
+     "text": "Regeneración de Vida Básica: 5 ⇒ 7",
+     "id": "ffe14f5a22c1",
+     "section": "modes",
+     "tags": [
+      "Fighter"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Classic",
+     "sectionId": "patch-classic",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Gangplank",
+      "name": "Gangplank"
+     },
+     "part": "base",
+     "partTitle": "Estadísticas base",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Vida por nivel",
+     "before": "81",
+     "after": "89",
+     "text": "Vida por nivel: 81 ⇒ 89",
+     "id": "a1e1546d2d33",
+     "section": "modes",
+     "tags": [
+      "Fighter"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Classic",
+     "sectionId": "patch-classic",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Gangplank",
+      "name": "Gangplank"
+     },
+     "part": "P",
+     "partTitle": "Pasiva: Hoja Empapada de Grog",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Máximo de acumulaciones",
+     "before": "3",
+     "after": "4",
+     "text": "Máximo de acumulaciones: 3 ⇒ 4",
+     "id": "9b6ed1592ba1",
+     "section": "modes",
+     "tags": [
+      "Fighter"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Classic",
+     "sectionId": "patch-classic",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Gangplank",
+      "name": "Gangplank"
+     },
+     "part": "Q",
+     "partTitle": "Q: Parrrlamentar",
+     "spellKey": "GangplankQWrapper",
+     "kind": "stat",
+     "attribute": "Costo de Maná",
+     "before": "50 / 55 / 60 / 65 / 70",
+     "after": "40 / 45 / 50 / 55 / 60",
+     "text": "Costo de Maná: 50 / 55 / 60 / 65 / 70 ⇒ 40 / 45 / 50 / 55 / 60",
+     "id": "a75d881045cc",
+     "section": "modes",
+     "tags": [
+      "Fighter"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Classic",
+     "sectionId": "patch-classic",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Gangplank",
+      "name": "Gangplank"
+     },
+     "part": "R",
+     "partTitle": "R: Descarga de Cañones",
+     "spellKey": "GangplankR",
+     "kind": "stat",
+     "attribute": "Enfriamiento",
+     "before": "120 / 115 / 110 seg",
+     "after": "120 / 110 / 100 seg",
+     "text": "Enfriamiento: 120 / 115 / 110 seg ⇒ 120 / 110 / 100 seg",
+     "id": "a3a5b3487df6",
+     "section": "modes",
+     "tags": [
+      "Fighter"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "26.21",
+   "publishedAt": "2026-10-20T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Gangplank",
+      "name": "Gangplank"
+     },
+     "part": "W",
+     "partTitle": "W: Eliminar Despreciables",
+     "spellKey": "GangplankW",
+     "kind": "stat",
+     "attribute": "Tasa de Poder de Habilidad",
+     "before": "90%",
+     "after": "135%",
+     "text": "Tasa de Poder de Habilidad: 90% ⇒ 135%",
+     "id": "91cd4a95cb1b",
+     "section": "modes",
+     "tags": [
+      "Fighter"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Gangplank",
+      "name": "Gangplank"
+     },
+     "part": "W",
+     "partTitle": "W: Eliminar Despreciables",
+     "spellKey": "GangplankW",
+     "kind": "stat",
+     "attribute": "Enfriamiento",
+     "before": "22 / 20 / 18 / 16 / 14 seg",
+     "after": "18 / 16 / 14 / 12 / 10 seg",
+     "text": "Enfriamiento: 22 / 20 / 18 / 16 / 14 seg ⇒ 18 / 16 / 14 / 12 / 10 seg",
+     "id": "0bfc734254d5",
+     "section": "modes",
+     "tags": [
+      "Fighter"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Gangplank",
+      "name": "Gangplank"
+     },
+     "part": "R",
+     "partTitle": "R: Descarga de Cañones",
+     "spellKey": "GangplankR",
+     "kind": "stat",
+     "attribute": "Enfriamiento",
+     "before": "130 / 110 / 90 seg",
+     "after": "100 / 80 / 60 seg",
+     "text": "Enfriamiento: 130 / 110 / 90 seg ⇒ 100 / 80 / 60 seg",
+     "id": "47e6e126ea32",
+     "section": "modes",
+     "tags": [
+      "Fighter"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "26.2",
+   "publishedAt": "2026-01-21T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Gangplank",
+      "name": "Gangplank"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": null,
+     "before": "Enfriamiento de la pasiva: 15 seg",
+     "after": "10 seg",
+     "text": "Enfriamiento de la pasiva: 15 seg ⇒ 10 seg",
+     "id": "3fda78b58669",
+     "section": "modes",
+     "tags": [
+      "Fighter"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Gangplank",
+      "name": "Gangplank"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": null,
+     "before": "Enfriamiento de la R: 160 / 140 / 120 seg",
+     "after": "130 / 100 / 90 seg",
+     "text": "Enfriamiento de la R: 160 / 140 / 120 seg ⇒ 130 / 100 / 90 seg",
+     "id": "2d8e2f7d9b76",
+     "section": "modes",
+     "tags": [
+      "Fighter"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "26.1",
+   "publishedAt": "2026-01-07T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Gangplank",
+      "name": "Gangplank"
+     },
+     "part": "P",
+     "partTitle": "Pasiva: Prueba de Fuego",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño",
+     "before": "De 50 a 250 (según el nivel) (+ 100% de Daño de Ataque adicional) (+ 200% de Probabilidad de Golpe Crítico)",
+     "after": "De 50 a 250 (+ 100% de Daño de Ataque adicional) (+ 0% de progresión de daño de golpe crítico)",
+     "text": "Daño: De 50 a 250 (según el nivel) (+ 100% de Daño de Ataque adicional) (+ 200% de Probabilidad de Golpe Crítico) ⇒ De 50 a 250 (+ 100% de Daño de Ataque adicional) (+ 0% de progresión de daño de golpe crítico)",
+     "id": "5de57b3dbbf5",
+     "section": "champions",
+     "tags": [
+      "Fighter"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Gangplank",
+      "name": "Gangplank"
+     },
+     "part": "E",
+     "partTitle": "E: Barril de Pólvora",
+     "spellKey": "GangplankE",
+     "kind": "stat",
+     "attribute": "Daño adicional contra campeones",
+     "before": "75 / 105 / 135 / 165 / 195",
+     "after": "75 / 95 / 115 / 135 / 155",
+     "text": "Daño adicional contra campeones: 75 / 105 / 135 / 165 / 195 ⇒ 75 / 95 / 115 / 135 / 155",
+     "id": "b1413444cf2d",
+     "section": "champions",
+     "tags": [
+      "Fighter"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Gangplank",
+      "name": "Gangplank"
+     },
+     "part": "E",
+     "partTitle": "E: Barril de Pólvora",
+     "spellKey": "GangplankE",
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "El temporizador ya no se reduce a 0.25 seg al subir al nivel 19",
+     "id": "69dcee717ae7",
+     "section": "champions",
+     "tags": [
+      "Fighter"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Gangplank",
+      "name": "Gangplank"
+     },
+     "part": "E",
+     "partTitle": "E: Barril de Pólvora",
+     "spellKey": "GangplankE",
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Ya no inflige un 5% de daño adicional al asestar un golpe crítico",
+     "id": "10ffb1ef04c7",
+     "section": "champions",
+     "tags": [
+      "Fighter"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.13",
+   "publishedAt": "2025-06-24T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Gangplank",
+      "name": "Gangplank"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Redujimos el costo de maná de su Q. Redujimos el enfriamiento de su R.",
+     "id": "f94f759000ea",
+     "section": "champions",
+     "tags": [
+      "Fighter"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Gangplank",
+      "name": "Gangplank"
+     },
+     "part": "Q",
+     "partTitle": "Q: Parrrlamentar",
+     "spellKey": "GangplankQWrapper",
+     "kind": "stat",
+     "attribute": "Costo de Maná",
+     "before": "55 / 50 / 45 / 40 / 35",
+     "after": "50 / 45 / 40 / 35 / 30",
+     "text": "Costo de Maná: 55 / 50 / 45 / 40 / 35 ⇒ 50 / 45 / 40 / 35 / 30",
+     "id": "fc2849f02935",
+     "section": "champions",
+     "tags": [
+      "Fighter"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Gangplank",
+      "name": "Gangplank"
+     },
+     "part": "R",
+     "partTitle": "R: Descarga de Cañones",
+     "spellKey": "GangplankR",
+     "kind": "stat",
+     "attribute": "Enfriamiento",
+     "before": "170 / 150 / 130",
+     "after": "160 / 140 / 120",
+     "text": "Enfriamiento: 170 / 150 / 130 ⇒ 160 / 140 / 120",
+     "id": "1137be90f02d",
+     "section": "champions",
+     "tags": [
+      "Fighter"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.11",
+   "publishedAt": "2025-05-27T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Pelea",
+     "sectionId": "patch-brawl",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Gangplank",
+      "name": "Gangplank"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Enfriamiento de la R",
+     "before": "170 / 150 / 130",
+     "after": "140 / 120 / 100",
+     "text": "Enfriamiento de la R: 170 / 150 / 130 ⇒ 140 / 120 / 100",
+     "id": "9329fea3f19c",
+     "section": "modes",
+     "tags": [
+      "Fighter"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Pelea",
+     "sectionId": "patch-brawl",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Gangplank",
+      "name": "Gangplank"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño recibido",
+     "before": "100%",
+     "after": "95%",
+     "text": "Daño recibido: 100% ⇒ 95%",
+     "id": "c2e30f3b5320",
+     "section": "modes",
+     "tags": [
+      "Fighter"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Pelea",
+     "sectionId": "patch-brawl",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Gangplank",
+      "name": "Gangplank"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Aceleración de Habilidad",
+     "before": "0",
+     "after": "20",
+     "text": "Aceleración de Habilidad: 0 ⇒ 20",
+     "id": "e0266686eb0d",
+     "section": "modes",
+     "tags": [
+      "Fighter"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.4",
+   "publishedAt": "2025-02-19T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Gangplank",
+      "name": "Gangplank"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Aumentamos su crecimiento de daño de ataque.",
+     "id": "e330c7a9c2ac",
+     "section": "champions",
+     "tags": [
+      "Fighter"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Gangplank",
+      "name": "Gangplank"
+     },
+     "part": "base",
+     "partTitle": "Estadísticas básicas",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Crecimiento de Daño de Ataque",
+     "before": "3.7",
+     "after": "4.2",
+     "text": "Crecimiento de Daño de Ataque: 3.7 ⇒ 4.2",
+     "id": "480cabb97c0d",
+     "section": "champions",
+     "tags": [
+      "Fighter"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  }
+ ]
+}

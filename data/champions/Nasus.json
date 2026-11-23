@@ -1,0 +1,383 @@
+{
+ "schemaVersion": 1,
+ "id": "Nasus",
+ "name": "Nasus",
+ "tags": [
+  "Fighter",
+  "Tank"
+ ],
+ "entries": [
+  {
+   "patch": "26.19",
+   "publishedAt": "2026-09-22T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Nasus",
+      "name": "Nasus"
+     },
+     "part": "Q",
+     "partTitle": "Q: Golpe Absorbente",
+     "spellKey": "NasusQ",
+     "kind": "stat",
+     "attribute": "Daño adicional",
+     "before": "40 / 60 / 80 / 100 / 120",
+     "after": "30 / 50 / 70 / 90 / 110",
+     "text": "Daño adicional: 40 / 60 / 80 / 100 / 120 ⇒ 30 / 50 / 70 / 90 / 110",
+     "id": "144bc03ba33a",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "26.17",
+   "publishedAt": "2026-08-25T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Nasus",
+      "name": "Nasus"
+     },
+     "part": "P",
+     "partTitle": "Pasiva: Devorador de Almas",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Robo de Vida",
+     "before": "12 / 18 / 24%",
+     "after": "10 / 15 / 20%",
+     "text": "Robo de Vida: 12 / 18 / 24% ⇒ 10 / 15 / 20%",
+     "id": "3872582ba95e",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "26.16",
+   "publishedAt": "2026-08-11T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Nasus",
+      "name": "Nasus"
+     },
+     "part": "Q",
+     "partTitle": "Q: Golpe Absorbente",
+     "spellKey": "NasusQ",
+     "kind": "stat",
+     "attribute": "Acumulaciones",
+     "before": "3, aumenta a 12 en campeones / súbditos grandes / monstruos",
+     "after": "4, aumenta a 10 en campeones / súbditos grandes / monstruos",
+     "text": "Acumulaciones: 3, aumenta a 12 en campeones / súbditos grandes / monstruos ⇒ 4, aumenta a 10 en campeones / súbditos grandes / monstruos",
+     "id": "363b28862bb7",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Classic",
+     "sectionId": "patch-classic",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Nasus",
+      "name": "Nasus"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Robo de Vida",
+     "before": "14 / 17 / 20%",
+     "after": "10 / 15 / 20%",
+     "text": "Robo de Vida: 14 / 17 / 20% ⇒ 10 / 15 / 20%",
+     "id": "54e2c439b029",
+     "section": "modes",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "26.15",
+   "publishedAt": "2026-07-28T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "ARAM: Caos",
+     "sectionId": "patch-aram:-mayhem",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Nasus",
+      "name": "Nasus"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño recibido",
+     "before": "-5%",
+     "after": "0%",
+     "text": "Daño recibido: -5% ⇒ 0%",
+     "id": "ff6c0bd49e44",
+     "section": "modes",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.24",
+   "publishedAt": "2025-12-02T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Nasus",
+      "name": "Nasus"
+     },
+     "part": "base",
+     "partTitle": "Estadísticas básicas",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Vida básica",
+     "before": "631",
+     "after": "650",
+     "text": "Vida básica: 631 ⇒ 650",
+     "id": "4388f82919f5",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Nasus",
+      "name": "Nasus"
+     },
+     "part": "Q",
+     "partTitle": "Q: Golpe Absorbente",
+     "spellKey": "NasusQ",
+     "kind": "stat",
+     "attribute": "Daño básico",
+     "before": "35 / 55 / 75 / 95 / 115",
+     "after": "40 / 60 / 80 / 100 / 120",
+     "text": "Daño básico: 35 / 55 / 75 / 95 / 115 ⇒ 40 / 60 / 80 / 100 / 120",
+     "id": "291ff9352f95",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.23",
+   "publishedAt": "2025-11-18T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "ARAM: Caos",
+     "sectionId": "patch-aram-mayhem",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Nasus",
+      "name": "Nasus"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": null,
+     "before": "Daño infligido: 90%",
+     "after": "100%",
+     "text": "Daño infligido: 90% ⇒ 100%",
+     "id": "7ab4f0b7c0af",
+     "section": "modes",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.20",
+   "publishedAt": "2025-10-07T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Bots Apocalípticos",
+     "sectionId": "patch-doom-bots",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Nasus",
+      "name": "Nasus"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño recibido",
+     "before": "100%",
+     "after": "90%",
+     "text": "Daño recibido: 100% ⇒ 90%",
+     "id": "8aafa30ede22",
+     "section": "modes",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Bots Apocalípticos",
+     "sectionId": "patch-doom-bots",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Nasus",
+      "name": "Nasus"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Tenacidad",
+     "before": "0",
+     "after": "25",
+     "text": "Tenacidad: 0 ⇒ 25",
+     "id": "4599bdc140e5",
+     "section": "modes",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.S1.3",
+   "publishedAt": "2025-02-04T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Nasus",
+      "name": "Nasus"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Aumentamos el robo de vida de su pasiva.",
+     "id": "88b8197dabcf",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Nasus",
+      "name": "Nasus"
+     },
+     "part": "P",
+     "partTitle": "Pasiva: Devorador de Almas",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Robo de vida",
+     "before": "9/15/21% (según el nivel)",
+     "after": "12/18/24% (según el nivel)",
+     "text": "Robo de vida: 9/15/21% (según el nivel) ⇒ 12/18/24% (según el nivel)",
+     "id": "741653a3ed7a",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  }
+ ]
+}

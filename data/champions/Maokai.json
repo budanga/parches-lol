@@ -1,0 +1,545 @@
+{
+ "schemaVersion": 1,
+ "id": "Maokai",
+ "name": "Maokai",
+ "tags": [
+  "Tank",
+  "Support"
+ ],
+ "entries": [
+  {
+   "patch": "26.22",
+   "publishedAt": "2026-11-03T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Maokai",
+      "name": "Maokai"
+     },
+     "part": "Q",
+     "partTitle": "Q: Aplastamiento Espinoso",
+     "spellKey": "MaokaiQ",
+     "kind": "stat",
+     "attribute": "Daño",
+     "before": "75 / 120 / 165 / 210 / 255 (+2 / 2.5 / 3 / 3.5 / 4% de la Vida Máxima del objetivo) (+50% de Poder de Habilidad)",
+     "after": "75 / 120 / 165 / 210 / 255 (+2.5 / 3 / 3.5 / 4 / 4.5% de la Vida Máxima del objetivo) (+50% de Poder de Habilidad)",
+     "text": "Daño: 75 / 120 / 165 / 210 / 255 (+2 / 2.5 / 3 / 3.5 / 4% de la Vida Máxima del objetivo) (+50% de Poder de Habilidad) ⇒ 75 / 120 / 165 / 210 / 255 (+2.5 / 3 / 3.5 / 4 / 4.5% de la Vida Máxima del objetivo) (+50% de Poder de Habilidad)",
+     "id": "642ed26b629a",
+     "section": "champions",
+     "tags": [
+      "Tank",
+      "Support"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "26.15",
+   "publishedAt": "2026-07-28T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Maokai",
+      "name": "Maokai"
+     },
+     "part": "Q",
+     "partTitle": "Q: Aplastamiento Espinoso",
+     "spellKey": "MaokaiQ",
+     "kind": "stat",
+     "attribute": "Modificador de daño a monstruos",
+     "before": "140 / 150 / 160 / 170 / 180",
+     "after": "150 / 160 / 170 / 180 / 190",
+     "text": "Modificador de daño a monstruos: 140 / 150 / 160 / 170 / 180 ⇒ 150 / 160 / 170 / 180 / 190",
+     "id": "df64f8019afd",
+     "section": "champions",
+     "tags": [
+      "Tank",
+      "Support"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Maokai",
+      "name": "Maokai"
+     },
+     "part": "Q",
+     "partTitle": "Q: Aplastamiento Espinoso",
+     "spellKey": "MaokaiQ",
+     "kind": "stat",
+     "attribute": "Tasa de Poder de Habilidad",
+     "before": "40%",
+     "after": "50%",
+     "text": "Tasa de Poder de Habilidad: 40% ⇒ 50%",
+     "id": "9fc37ae44e8a",
+     "section": "champions",
+     "tags": [
+      "Tank",
+      "Support"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "26.4",
+   "publishedAt": "2026-02-18T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Maokai",
+      "name": "Maokai"
+     },
+     "part": "Q",
+     "partTitle": "Q: Aplastamiento Espinoso",
+     "spellKey": "MaokaiQ",
+     "kind": "stat",
+     "attribute": "Daño adicional contra monstruos",
+     "before": "120 / 130 / 140 / 150 / 160",
+     "after": "140 / 150 / 160 / 170 / 180",
+     "text": "Daño adicional contra monstruos: 120 / 130 / 140 / 150 / 160 ⇒ 140 / 150 / 160 / 170 / 180",
+     "id": "ca5afe166075",
+     "section": "champions",
+     "tags": [
+      "Tank",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Maokai",
+      "name": "Maokai"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Se eliminó el modificador de daño básico de su Q en Arena",
+     "id": "52647485d21d",
+     "section": "modes",
+     "tags": [
+      "Tank",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Maokai",
+      "name": "Maokai"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": null,
+     "before": "Q: 40-160",
+     "after": "75-255",
+     "text": "Q: 40-160 ⇒ 75-255",
+     "id": "69f16a58f336",
+     "section": "modes",
+     "tags": [
+      "Tank",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Maokai",
+      "name": "Maokai"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Se eliminó el modificador de Enfriamiento de su W en Arena",
+     "id": "b5d389c604d0",
+     "section": "modes",
+     "tags": [
+      "Tank",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Maokai",
+      "name": "Maokai"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": null,
+     "before": "W: 14-10",
+     "after": "15-11",
+     "text": "W: 14-10 ⇒15-11",
+     "id": "45ea502ff519",
+     "section": "modes",
+     "tags": [
+      "Tank",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "26.3",
+   "publishedAt": "2026-02-03T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Maokai",
+      "name": "Maokai"
+     },
+     "part": "Q",
+     "partTitle": "Q: Aplastamiento Espinoso",
+     "spellKey": "MaokaiQ",
+     "kind": "stat",
+     "attribute": "Daño fijo",
+     "before": "65 / 110 / 155 / 200 / 245",
+     "after": "75 / 120 / 165 / 210 / 255",
+     "text": "Daño fijo: 65 / 110 / 155 / 200 / 245 ⇒ 75 / 120 / 165 / 210 / 255",
+     "id": "53c4f650fcb8",
+     "section": "champions",
+     "tags": [
+      "Tank",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.23",
+   "publishedAt": "2025-11-18T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "ARAM: Caos",
+     "sectionId": "patch-aram-mayhem",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Maokai",
+      "name": "Maokai"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": null,
+     "before": "Daño recibido: 110%",
+     "after": "100%",
+     "text": "Daño recibido: 110% ⇒ 100%",
+     "id": "5929a8971eda",
+     "section": "modes",
+     "tags": [
+      "Tank",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "ARAM: Caos",
+     "sectionId": "patch-aram-mayhem",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Maokai",
+      "name": "Maokai"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": null,
+     "before": "Daño infligido: 85%",
+     "after": "95%",
+     "text": "Daño infligido: 85% ⇒ 95%",
+     "id": "0a37ccc3c509",
+     "section": "modes",
+     "tags": [
+      "Tank",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.17",
+   "publishedAt": "2025-08-26T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Cambios de balance de ARAM",
+     "sectionId": "patch-aram-balance-changes",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Maokai",
+      "name": "Maokai"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Reducción de enfriamiento de la pasiva",
+     "before": "4 seg",
+     "after": "3 seg",
+     "text": "Reducción de enfriamiento de la pasiva: 4 seg ⇒ 3 seg",
+     "id": "ce58aa4fbc98",
+     "section": "modes",
+     "tags": [
+      "Tank",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Cambios de balance de ARAM",
+     "sectionId": "patch-aram-balance-changes",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Maokai",
+      "name": "Maokai"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Enfriamiento de la Q",
+     "before": "7 / 6.5 / 6 / 5.5 / 5",
+     "after": "8 / 7.5 / 7 / 6.5 / 6",
+     "text": "Enfriamiento de la Q: 7 / 6.5 / 6 / 5.5 / 5 ⇒ 8 / 7.5 / 7 / 6.5 / 6",
+     "id": "500762aa4579",
+     "section": "modes",
+     "tags": [
+      "Tank",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.11",
+   "publishedAt": "2025-05-27T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Pelea",
+     "sectionId": "patch-brawl",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Maokai",
+      "name": "Maokai"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Aceleración de Habilidad",
+     "before": "0",
+     "after": "-10",
+     "text": "Aceleración de Habilidad: 0 ⇒ -10",
+     "id": "6e0eb2af5bae",
+     "section": "modes",
+     "tags": [
+      "Tank",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.9",
+   "publishedAt": "2025-04-29T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "ARAM",
+     "sectionId": "patch-aram",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Maokai",
+      "name": "Maokai"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Curación realizada",
+     "before": "90%",
+     "after": "100%",
+     "text": "Curación realizada: 90% ⇒ 100%",
+     "id": "ee5567abd997",
+     "section": "modes",
+     "tags": [
+      "Tank",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "ARAM",
+     "sectionId": "patch-aram",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Maokai",
+      "name": "Maokai"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño infligido",
+     "before": "80%",
+     "after": "85%",
+     "text": "Daño infligido: 80% ⇒ 85%",
+     "id": "9a487ac84eb3",
+     "section": "modes",
+     "tags": [
+      "Tank",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "ARAM",
+     "sectionId": "patch-aram",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Maokai",
+      "name": "Maokai"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Tasa de Poder de Habilidad básica de la E",
+     "before": "25%",
+     "after": "20%",
+     "text": "Tasa de Poder de Habilidad básica de la E: 25% ⇒ 20%",
+     "id": "b70007fe7bac",
+     "section": "modes",
+     "tags": [
+      "Tank",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "ARAM",
+     "sectionId": "patch-aram",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Maokai",
+      "name": "Maokai"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Tasa de Poder de Habilidad mejorada de la E",
+     "before": "50%",
+     "after": "40%",
+     "text": "Tasa de Poder de Habilidad mejorada de la E: 50% ⇒ 40%",
+     "id": "f2f13d2cb486",
+     "section": "modes",
+     "tags": [
+      "Tank",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  }
+ ]
+}

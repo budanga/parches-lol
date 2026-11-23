@@ -1,0 +1,605 @@
+{
+ "schemaVersion": 1,
+ "id": "Ahri",
+ "name": "Ahri",
+ "tags": [
+  "Mage",
+  "Assassin"
+ ],
+ "entries": [
+  {
+   "patch": "26.6",
+   "publishedAt": "2026-03-17T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Ahri",
+      "name": "Ahri"
+     },
+     "part": "Q",
+     "partTitle": "Q: Orbe del Engaño",
+     "spellKey": "AhriQ",
+     "kind": "stat",
+     "attribute": "Daño del orbe cada vez que atraviesa a un objetivo",
+     "before": "40 / 65 / 90 / 115 / 140",
+     "after": "35 / 60 / 85 / 110 / 135",
+     "text": "Daño del orbe cada vez que atraviesa a un objetivo: 40 / 65 / 90 / 115 / 140 ⇒ 35 / 60 / 85 / 110 / 135",
+     "id": "6d8de793cee6",
+     "section": "champions",
+     "tags": [
+      "Mage",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "26.4",
+   "publishedAt": "2026-02-18T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Ahri",
+      "name": "Ahri"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Se eliminaron los modificadores específicos de área de su W",
+     "id": "e54138659ccc",
+     "section": "modes",
+     "tags": [
+      "Mage",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Ahri",
+      "name": "Ahri"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": null,
+     "before": "Daño básico reducido de 70/95/120/145/170",
+     "after": "40/60/80/100/120",
+     "text": "Daño básico reducido de 70/95/120/145/170 ⇒ 40/60/80/100/120",
+     "id": "960c235b7ad2",
+     "section": "modes",
+     "tags": [
+      "Mage",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Ahri",
+      "name": "Ahri"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": null,
+     "before": "Velocidad de Movimiento reducida de 50%",
+     "after": "40%",
+     "text": "Velocidad de Movimiento reducida de 50% ⇒ 40%",
+     "id": "303329950f05",
+     "section": "modes",
+     "tags": [
+      "Mage",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "26.3",
+   "publishedAt": "2026-02-03T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Ahri",
+      "name": "Ahri"
+     },
+     "part": "W",
+     "partTitle": "W: Fuego Zorruno",
+     "spellKey": "AhriW",
+     "kind": "stat",
+     "attribute": "Enfriamiento",
+     "before": "10 / 9 / 8 / 7 / 6 seg",
+     "after": "9 / 8 / 7 / 6 / 5 seg",
+     "text": "Enfriamiento: 10 / 9 / 8 / 7 / 6 seg ⇒ 9 / 8 / 7 / 6 / 5 seg",
+     "id": "c2b9c89efdff",
+     "section": "champions",
+     "tags": [
+      "Mage",
+      "Assassin"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.23",
+   "publishedAt": "2025-11-18T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Ahri",
+      "name": "Ahri"
+     },
+     "part": "W",
+     "partTitle": "W: Fuego Zorruno",
+     "spellKey": "AhriW",
+     "kind": "stat",
+     "attribute": "Daño de los impactos posteriores",
+     "before": "30%",
+     "after": "40%",
+     "text": "Daño de los impactos posteriores: 30% ⇒ 40%",
+     "id": "95222db8b5b8",
+     "section": "champions",
+     "tags": [
+      "Mage",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Ahri",
+      "name": "Ahri"
+     },
+     "part": "W",
+     "partTitle": "W: Fuego Zorruno",
+     "spellKey": "AhriW",
+     "kind": "stat",
+     "attribute": "Daño máximo contra un solo objetivo",
+     "before": "64 / 96 / 128 / 160 / 192 (+ 64% de Poder de Habilidad)",
+     "after": "72 / 108 / 144 / 180 / 216 (+ 72% de Poder de Habilidad)",
+     "text": "Daño máximo contra un solo objetivo: 64 / 96 / 128 / 160 / 192 (+ 64% de Poder de Habilidad) ⇒ 72 / 108 / 144 / 180 / 216 (+ 72% de Poder de Habilidad)",
+     "id": "9ce815c2c527",
+     "section": "champions",
+     "tags": [
+      "Mage",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.20",
+   "publishedAt": "2025-10-07T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Bots Apocalípticos",
+     "sectionId": "patch-doom-bots",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Ahri",
+      "name": "Ahri"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño infligido",
+     "before": "100%",
+     "after": "110%",
+     "text": "Daño infligido: 100% ⇒ 110%",
+     "id": "2036431ddb9c",
+     "section": "modes",
+     "tags": [
+      "Mage",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Bots Apocalípticos",
+     "sectionId": "patch-doom-bots",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Ahri",
+      "name": "Ahri"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño recibido",
+     "before": "100%",
+     "after": "95%",
+     "text": "Daño recibido: 100% ⇒ 95%",
+     "id": "922955d8b73a",
+     "section": "modes",
+     "tags": [
+      "Mage",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.19",
+   "publishedAt": "2025-09-23T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Ahri",
+      "name": "Ahri"
+     },
+     "part": "R",
+     "partTitle": "R: Impulso Espiritual",
+     "spellKey": "AhriR",
+     "kind": "stat",
+     "attribute": "Daño por impacto",
+     "before": "60 / 90 / 120 (+ 35% de Poder de Habilidad)",
+     "after": "75 / 125 / 175 (+ 35% de Poder de Habilidad)",
+     "text": "Daño por impacto: 60 / 90 / 120 (+ 35% de Poder de Habilidad) ⇒ 75 / 125 / 175 (+ 35% de Poder de Habilidad)",
+     "id": "fdb35dc26da1",
+     "section": "champions",
+     "tags": [
+      "Mage",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.12",
+   "publishedAt": "2025-06-10T18:05:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Ahri",
+      "name": "Ahri"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Redujimos la duración del efecto de encanto de su E según su nivel. Aumentamos el enfriamiento de su R.",
+     "id": "9e524769f378",
+     "section": "champions",
+     "tags": [
+      "Mage",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Ahri",
+      "name": "Ahri"
+     },
+     "part": "E",
+     "partTitle": "E: Encanto",
+     "spellKey": "AhriE",
+     "kind": "stat",
+     "attribute": "Duración del efecto de encanto",
+     "before": "1.2 / 1.4 / 1.6 / 1.8 / 2 seg",
+     "after": "1.2 / 1.35 / 1.5 / 1.65 / 1.8 seg",
+     "text": "Duración del efecto de encanto: 1.2 / 1.4 / 1.6 / 1.8 / 2 seg ⇒ 1.2 / 1.35 / 1.5 / 1.65 / 1.8 seg",
+     "id": "010b413c1282",
+     "section": "champions",
+     "tags": [
+      "Mage",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Ahri",
+      "name": "Ahri"
+     },
+     "part": "R",
+     "partTitle": "R: Impulso Espiritual",
+     "spellKey": "AhriR",
+     "kind": "stat",
+     "attribute": "Enfriamiento",
+     "before": "130 / 115 / 100",
+     "after": "140 / 120 / 100",
+     "text": "Enfriamiento: 130 / 115 / 100 ⇒ 140 / 120 / 100",
+     "id": "284da4765a0d",
+     "section": "champions",
+     "tags": [
+      "Mage",
+      "Assassin"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.8",
+   "publishedAt": "2025-04-15T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Ahri",
+      "name": "Ahri"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Redujimos el crecimiento de su armadura. Ajustamos el daño de su W y aumentamos su enfriamiento. Aumentamos el daño de su E.",
+     "id": "be6b12033f06",
+     "section": "champions",
+     "tags": [
+      "Mage",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Ahri",
+      "name": "Ahri"
+     },
+     "part": "base",
+     "partTitle": "Estadísticas básicas",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Crecimiento de Armadura",
+     "before": "4.7",
+     "after": "4.2",
+     "text": "Crecimiento de Armadura: 4.7 ⇒ 4.2",
+     "id": "ee2958f58f69",
+     "section": "champions",
+     "tags": [
+      "Mage",
+      "Assassin"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Ahri",
+      "name": "Ahri"
+     },
+     "part": "W",
+     "partTitle": "W: Fuego Zorruno",
+     "spellKey": "AhriW",
+     "kind": "stat",
+     "attribute": "Daño",
+     "before": "45 / 70 / 95 / 120 / 145 (+ 30% de Poder de Habilidad)",
+     "after": "40 / 60 / 80 / 100 / 120 (+ 40% de Poder de Habilidad)",
+     "text": "Daño: 45 / 70 / 95 / 120 / 145 (+ 30% de Poder de Habilidad) ⇒ 40 / 60 / 80 / 100 / 120 (+ 40% de Poder de Habilidad)",
+     "id": "e321db50e22e",
+     "section": "champions",
+     "tags": [
+      "Mage",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Ahri",
+      "name": "Ahri"
+     },
+     "part": "W",
+     "partTitle": "W: Fuego Zorruno",
+     "spellKey": "AhriW",
+     "kind": "stat",
+     "attribute": "Daño máximo",
+     "before": "72 / 112 / 152 / 192 / 232 (+ 48% de Poder de Habilidad)",
+     "after": "64 / 96 / 128 / 160 / 192 (+ 64% de Poder de Habilidad)",
+     "text": "Daño máximo: 72 / 112 / 152 / 192 / 232 (+ 48% de Poder de Habilidad) ⇒ 64 / 96 / 128 / 160 / 192 (+ 64% de Poder de Habilidad)",
+     "id": "e379c46f22cb",
+     "section": "champions",
+     "tags": [
+      "Mage",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Ahri",
+      "name": "Ahri"
+     },
+     "part": "W",
+     "partTitle": "W: Fuego Zorruno",
+     "spellKey": "AhriW",
+     "kind": "stat",
+     "attribute": "Enfriamiento",
+     "before": "9 / 8 / 7 / 6 / 5",
+     "after": "10 / 9 / 8 / 7 / 6",
+     "text": "Enfriamiento: 9 / 8 / 7 / 6 / 5 ⇒ 10 / 9 / 8 / 7 / 6",
+     "id": "b851f7cdbb97",
+     "section": "champions",
+     "tags": [
+      "Mage",
+      "Assassin"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Ahri",
+      "name": "Ahri"
+     },
+     "part": "E",
+     "partTitle": "E: Encanto",
+     "spellKey": "AhriE",
+     "kind": "stat",
+     "attribute": "Daño",
+     "before": "80 / 120 / 160 / 200 / 240 (+ 75% de Poder de Habilidad)",
+     "after": "80 / 120 / 160 / 200 / 240 (+ 85% de Poder de Habilidad)",
+     "text": "Daño: 80 / 120 / 160 / 200 / 240 (+ 75% de Poder de Habilidad) ⇒ 80 / 120 / 160 / 200 / 240 (+ 85% de Poder de Habilidad)",
+     "id": "645fc4b7cfb7",
+     "section": "champions",
+     "tags": [
+      "Mage",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.7",
+   "publishedAt": "2025-04-01T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "ARAM",
+     "sectionId": "patch-aram",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Ahri",
+      "name": "Ahri"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño infligido",
+     "before": "97%",
+     "after": "100%",
+     "text": "Daño infligido: 97% ⇒ 100%",
+     "id": "9c9303915f40",
+     "section": "modes",
+     "tags": [
+      "Mage",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  }
+ ]
+}

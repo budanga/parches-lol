@@ -1,0 +1,458 @@
+{
+ "schemaVersion": 1,
+ "id": "Chogath",
+ "name": "Cho'Gath",
+ "tags": [
+  "Tank",
+  "Mage"
+ ],
+ "entries": [
+  {
+   "patch": "26.23",
+   "publishedAt": "2026-11-17T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Chogath",
+      "name": "Cho'Gath"
+     },
+     "part": "R",
+     "partTitle": "R: Festín",
+     "spellKey": "Feast",
+     "kind": "stat",
+     "attribute": "Vida por acumulación",
+     "before": "100 / 150 / 200",
+     "after": "80 / 120 / 160",
+     "text": "Vida por acumulación: 100 / 150 / 200 ⇒ 80 / 120 / 160",
+     "id": "7c8682806490",
+     "section": "modes",
+     "tags": [
+      "Tank",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "26.17",
+   "publishedAt": "2026-08-25T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Chogath",
+      "name": "Cho'Gath"
+     },
+     "part": "E",
+     "partTitle": "E: Clavos Vorpalinos",
+     "spellKey": "VorpalSpikes",
+     "kind": "stat",
+     "attribute": "Daño Base (3 ataques)",
+     "before": "20 / 40 / 60 / 80 / 100 (+30% de Poder de Habilidad) (+2.5% - 3.9% (+.5% por Festín) de la Vida Máx. del objetivo)",
+     "after": "30 / 50 / 70 / 90 / 110 (+30% de Poder de Habilidad) (+2.5% - 3.9% (+.5% por Festín) de la Vida Máx. del objetivo)",
+     "text": "Daño Base (3 ataques): 20 / 40 / 60 / 80 / 100 (+30% de Poder de Habilidad) (+2.5% - 3.9% (+.5% por Festín) de la Vida Máx. del objetivo) ⇒ 30 / 50 / 70 / 90 / 110 (+30% de Poder de Habilidad) (+2.5% - 3.9% (+.5% por Festín) de la Vida Máx. del objetivo)",
+     "id": "368e3cd32094",
+     "section": "champions",
+     "tags": [
+      "Tank",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.23",
+   "publishedAt": "2025-11-18T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Chogath",
+      "name": "Cho'Gath"
+     },
+     "part": "E",
+     "partTitle": "E: Clavos Vorpalinos",
+     "spellKey": "VorpalSpikes",
+     "kind": "stat",
+     "attribute": "Daño contra monstruos",
+     "before": "20 / 40 / 60 / 80 / 100 (+ 30% de Poder de Habilidad) + hasta 200 según la Vida Máxima del objetivo",
+     "after": "100 / 150 / 200 / 250 / 300 (+ 30% de Poder de Habilidad)",
+     "text": "Daño contra monstruos: 20 / 40 / 60 / 80 / 100 (+ 30% de Poder de Habilidad) + hasta 200 según la Vida Máxima del objetivo ⇒ 100 / 150 / 200 / 250 / 300 (+ 30% de Poder de Habilidad)",
+     "id": "e88c70b56ec0",
+     "section": "champions",
+     "tags": [
+      "Tank",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "ARAM: Caos",
+     "sectionId": "patch-aram-mayhem",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Chogath",
+      "name": "Cho'Gath"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": null,
+     "before": "Daño recibido: 100%",
+     "after": "95%",
+     "text": "Daño recibido: 100% ⇒ 95%",
+     "id": "c1a191448192",
+     "section": "modes",
+     "tags": [
+      "Tank",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.11",
+   "publishedAt": "2025-05-27T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Chogath",
+      "name": "Cho'Gath"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Redujimos el crecimiento de su armadura.",
+     "id": "2b4147a0a80e",
+     "section": "champions",
+     "tags": [
+      "Tank",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Chogath",
+      "name": "Cho'Gath"
+     },
+     "part": "base",
+     "partTitle": "Estadísticas básicas",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Crecimiento de Armadura",
+     "before": "5",
+     "after": "4.5",
+     "text": "Crecimiento de Armadura: 5 ⇒ 4.5",
+     "id": "8f2717b6f96b",
+     "section": "champions",
+     "tags": [
+      "Tank",
+      "Mage"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.10",
+   "publishedAt": "2025-05-13T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Chogath",
+      "name": "Cho'Gath"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Aumentamos su velocidad de ataque básica. Redujimos el daño de su Q. Aumentamos el daño de su E.",
+     "id": "9528422a75a8",
+     "section": "champions",
+     "tags": [
+      "Tank",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Chogath",
+      "name": "Cho'Gath"
+     },
+     "part": "base",
+     "partTitle": "Estadísticas básicas",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Velocidad de Ataque en el nivel 1",
+     "before": "0.625",
+     "after": "0.658",
+     "text": "Velocidad de Ataque en el nivel 1: 0.625 ⇒ 0.658",
+     "id": "f70eea561b45",
+     "section": "champions",
+     "tags": [
+      "Tank",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Chogath",
+      "name": "Cho'Gath"
+     },
+     "part": "Q",
+     "partTitle": "Q: Ruptura",
+     "spellKey": "Rupture",
+     "kind": "stat",
+     "attribute": "Daño",
+     "before": "80 / 140 / 200 / 260 / 320 (+ 100% de Poder de Habilidad)",
+     "after": "80 / 135 / 190 / 245 / 300 (+ 100% de Poder de Habilidad)",
+     "text": "Daño: 80 / 140 / 200 / 260 / 320 (+ 100% de Poder de Habilidad) ⇒ 80 / 135 / 190 / 245 / 300 (+ 100% de Poder de Habilidad)",
+     "id": "c62b27d969bf",
+     "section": "champions",
+     "tags": [
+      "Tank",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Chogath",
+      "name": "Cho'Gath"
+     },
+     "part": "E",
+     "partTitle": "E: Clavos Vorpalinos",
+     "spellKey": "VorpalSpikes",
+     "kind": "stat",
+     "attribute": "Daño",
+     "before": "20 / 40 / 60 / 80 / 100 (+ 30% de Poder de Habilidad) (+ 2.5 / 2.75 / 3 / 3.25 / 3.5% (+ 0.5% por cada acumulación de Festín) de la Vida Máxima del objetivo)",
+     "after": "20 / 40 / 60 / 80 / 100 (+ 30% de Poder de Habilidad) (+ 2.5 / 2.85 / 3.2 / 3.55 / 3.9% (+ 0.5% por cada acumulación de Festín) de la Vida Máxima del objetivo)",
+     "text": "Daño: 20 / 40 / 60 / 80 / 100 (+ 30% de Poder de Habilidad) (+ 2.5 / 2.75 / 3 / 3.25 / 3.5% (+ 0.5% por cada acumulación de Festín) de la Vida Máxima del objetivo) ⇒ 20 / 40 / 60 / 80 / 100 (+ 30% de Poder de Habilidad) (+ 2.5 / 2.85 / 3.2 / 3.55 / 3.9% (+ 0.5% por cada acumulación de Festín) de la Vida Máxima del objetivo)",
+     "id": "81b2ca2f4a5f",
+     "section": "champions",
+     "tags": [
+      "Tank",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.6",
+   "publishedAt": "2025-03-18T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Chogath",
+      "name": "Cho'Gath"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": null,
+     "before": "R: Festín: Daño básico a campeones: 400-750",
+     "after": "300-600",
+     "text": "R: Festín: Daño básico a campeones: 400-750 ⇒ 300-600",
+     "id": "681943af5643",
+     "section": "modes",
+     "tags": [
+      "Tank",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.5",
+   "publishedAt": "2025-03-04T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Chogath",
+      "name": "Cho'Gath"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Redujimos el daño de su Q. Redujimos el daño de su W. Redujimos el daño de su E en los rangos inferiores, pero lo aumentamos en los rangos superiores.",
+     "id": "32fa219ae4e8",
+     "section": "champions",
+     "tags": [
+      "Tank",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Chogath",
+      "name": "Cho'Gath"
+     },
+     "part": "Q",
+     "partTitle": "Q: Ruptura",
+     "spellKey": "Rupture",
+     "kind": "stat",
+     "attribute": "Daño",
+     "before": "80/145/210/275/340 (+100% de Poder de Habilidad)",
+     "after": "80/140/200/260/320 (+100% de Poder de Habilidad)",
+     "text": "Daño: 80/145/210/275/340 (+100% de Poder de Habilidad) ⇒ 80/140/200/260/320 (+100% de Poder de Habilidad)",
+     "id": "53c48eb8459e",
+     "section": "champions",
+     "tags": [
+      "Tank",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Chogath",
+      "name": "Cho'Gath"
+     },
+     "part": "W",
+     "partTitle": "W: Grito Salvaje",
+     "spellKey": "FeralScream",
+     "kind": "stat",
+     "attribute": "Daño",
+     "before": "80/135/190/245/300 (+70% de Poder de Habilidad)",
+     "after": "80/130/180/230/280 (+70% de Poder de Habilidad)",
+     "text": "Daño: 80/135/190/245/300 (+70% de Poder de Habilidad) ⇒ 80/130/180/230/280 (+70% de Poder de Habilidad)",
+     "id": "33b26d4610fe",
+     "section": "champions",
+     "tags": [
+      "Tank",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Chogath",
+      "name": "Cho'Gath"
+     },
+     "part": "E",
+     "partTitle": "E: Clavos Vorpalinos",
+     "spellKey": "VorpalSpikes",
+     "kind": "stat",
+     "attribute": "Daño",
+     "before": "20/40/60/80/100 (+3% (+0.5% por acumulación) de la Vida Máxima del objetivo)",
+     "after": "20/40/60/80/100 (+2.5/2.75/3/3.25/3.5% (+0.5% por acumulación) de la Vida Máxima del objetivo)",
+     "text": "Daño: 20/40/60/80/100 (+3% (+0.5% por acumulación) de la Vida Máxima del objetivo) ⇒ 20/40/60/80/100 (+2.5/2.75/3/3.25/3.5% (+0.5% por acumulación) de la Vida Máxima del objetivo)",
+     "id": "8fc4cb0dcd12",
+     "section": "champions",
+     "tags": [
+      "Tank",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  }
+ ]
+}

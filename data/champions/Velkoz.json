@@ -1,0 +1,251 @@
+{
+ "schemaVersion": 1,
+ "id": "Velkoz",
+ "name": "Vel'Koz",
+ "tags": [
+  "Mage",
+  "Support"
+ ],
+ "entries": [
+  {
+   "patch": "26.23",
+   "publishedAt": "2026-11-17T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Velkoz",
+      "name": "Vel'Koz"
+     },
+     "part": "R",
+     "partTitle": "R: Rayo Desintegrador de Seres Vivos",
+     "spellKey": "VelkozR",
+     "kind": "stat",
+     "attribute": "Daño total",
+     "before": "450 / 700 / 925",
+     "after": "450 / 700 / 950",
+     "text": "Daño total: 450 / 700 / 925 ⇒ 450 / 700 / 950",
+     "id": "e5dcd95a2f5c",
+     "section": "champions",
+     "tags": [
+      "Mage",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "26.21",
+   "publishedAt": "2026-10-20T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Velkoz",
+      "name": "Vel'Koz"
+     },
+     "part": "P",
+     "partTitle": "Pasiva: Deconstrucción Orgánica",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño",
+     "before": "35 - 180 (+60% de Poder de Habilidad)",
+     "after": "35 - 205 (+65% de Poder de Habilidad)",
+     "text": "Daño: 35 - 180 (+60% de Poder de Habilidad) ⇒ 35 - 205 (+65% de Poder de Habilidad)",
+     "id": "24922f9ee619",
+     "section": "champions",
+     "tags": [
+      "Mage",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "26.8",
+   "publishedAt": "2026-04-14T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Velkoz",
+      "name": "Vel'Koz"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": null,
+     "before": "Rayo Desintegrador de Seres Vivos: enfriamiento: 100/90/80",
+     "after": "80/70/60",
+     "text": "Rayo Desintegrador de Seres Vivos: enfriamiento: 100/90/80 ⇒ 80/70/60",
+     "id": "c642c2fdf0ce",
+     "section": "modes",
+     "tags": [
+      "Mage",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Velkoz",
+      "name": "Vel'Koz"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Viktor",
+     "id": "ff99ef42e63b",
+     "section": "modes",
+     "tags": [
+      "Mage",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Velkoz",
+      "name": "Vel'Koz"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": null,
+     "before": "Tormenta Arcana: enfriamiento: 120/100/80",
+     "after": "100/80/60",
+     "text": "Tormenta Arcana: enfriamiento: 120/100/80 ⇒ 100/80/60",
+     "id": "b54c75ab64bf",
+     "section": "modes",
+     "tags": [
+      "Mage",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.18",
+   "publishedAt": "2025-09-09T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Velkoz",
+      "name": "Vel'Koz"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Redujimos el enfriamiento de su E. Aumentamos el daño de su R.",
+     "id": "9091d9793810",
+     "section": "champions",
+     "tags": [
+      "Mage",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Velkoz",
+      "name": "Vel'Koz"
+     },
+     "part": "E",
+     "partTitle": "E: Perturbación Tectónica",
+     "spellKey": "VelkozE",
+     "kind": "stat",
+     "attribute": "Enfriamiento",
+     "before": "14 / 13.5 / 13 / 12.5 / 12 seg",
+     "after": "12 / 11.5 / 11 / 10.5 / 10 seg",
+     "text": "Enfriamiento: 14 / 13.5 / 13 / 12.5 / 12 seg ⇒ 12 / 11.5 / 11 / 10.5 / 10 seg",
+     "id": "9981c0702640",
+     "section": "champions",
+     "tags": [
+      "Mage",
+      "Support"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Velkoz",
+      "name": "Vel'Koz"
+     },
+     "part": "R",
+     "partTitle": "R: Rayo Desintegrador de Seres Vivos",
+     "spellKey": "VelkozR",
+     "kind": "stat",
+     "attribute": "Daño básico total",
+     "before": "450 / 625 / 800",
+     "after": "450 / 700 / 925",
+     "text": "Daño básico total: 450 / 625 / 800 ⇒ 450 / 700 / 925",
+     "id": "1ce012b4d2fe",
+     "section": "champions",
+     "tags": [
+      "Mage",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  }
+ ]
+}

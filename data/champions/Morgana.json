@@ -1,0 +1,458 @@
+{
+ "schemaVersion": 1,
+ "id": "Morgana",
+ "name": "Morgana",
+ "tags": [
+  "Support",
+  "Mage"
+ ],
+ "entries": [
+  {
+   "patch": "26.21",
+   "publishedAt": "2026-10-20T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Morgana",
+      "name": "Morgana"
+     },
+     "part": "Q",
+     "partTitle": "Q: Hechizo Oscuro",
+     "spellKey": "MorganaQ",
+     "kind": "stat",
+     "attribute": "Enfriamiento",
+     "before": "12 seg",
+     "after": "14 seg",
+     "text": "Enfriamiento: 12 seg ⇒ 14 seg",
+     "id": "e4263e64be5e",
+     "section": "modes",
+     "tags": [
+      "Support",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Morgana",
+      "name": "Morgana"
+     },
+     "part": "E",
+     "partTitle": "E: Escudo Negro",
+     "spellKey": "MorganaE",
+     "kind": "stat",
+     "attribute": "Enfriamiento",
+     "before": "26 / 23.5 / 21 / 18.5 / 16 seg",
+     "after": "30 / 27.5 / 25 / 22.5 / 20 seg",
+     "text": "Enfriamiento: 26 / 23.5 / 21 / 18.5 / 16 seg ⇒ 30 / 27.5 / 25 / 22.5 / 20 seg",
+     "id": "fd75e747ff32",
+     "section": "modes",
+     "tags": [
+      "Support",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "26.15",
+   "publishedAt": "2026-07-28T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "ARAM: Caos",
+     "sectionId": "patch-aram:-mayhem",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Morgana",
+      "name": "Morgana"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño recibido",
+     "before": "-10%",
+     "after": "0%",
+     "text": "Daño recibido: -10% ⇒ 0%",
+     "id": "f33882bb6144",
+     "section": "modes",
+     "tags": [
+      "Support",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.21",
+   "publishedAt": "2025-10-21T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Morgana",
+      "name": "Morgana"
+     },
+     "part": "base",
+     "partTitle": "Estadísticas básicas",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Crecimiento de Armadura",
+     "before": "5",
+     "after": "4.2",
+     "text": "Crecimiento de Armadura: 5 ⇒ 4.2",
+     "id": "8b989c6b933b",
+     "section": "champions",
+     "tags": [
+      "Support",
+      "Mage"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.17",
+   "publishedAt": "2025-08-26T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Morgana",
+      "name": "Morgana"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Redujimos el costo de maná de su W en los rangos superiores. Aumentamos el daño de su W en los rangos inferiores.",
+     "id": "ac7cacd40ccf",
+     "section": "champions",
+     "tags": [
+      "Support",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Morgana",
+      "name": "Morgana"
+     },
+     "part": "W",
+     "partTitle": "W: Sombra Maldita",
+     "spellKey": "MorganaW",
+     "kind": "stat",
+     "attribute": "Costo de Maná",
+     "before": "70 / 85 / 100 / 115 / 130",
+     "after": "70 / 80 / 90 / 100 / 110",
+     "text": "Costo de Maná: 70 / 85 / 100 / 115 / 130 ⇒ 70 / 80 / 90 / 100 / 110",
+     "id": "f6ebd36d7216",
+     "section": "champions",
+     "tags": [
+      "Support",
+      "Mage"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Morgana",
+      "name": "Morgana"
+     },
+     "part": "W",
+     "partTitle": "W: Sombra Maldita",
+     "spellKey": "MorganaW",
+     "kind": "stat",
+     "attribute": "Daño mínimo por segundo",
+     "before": "14 / 28 / 42 / 56 / 70",
+     "after": "18 / 31 / 44 / 57 / 70",
+     "text": "Daño mínimo por segundo: 14 / 28 / 42 / 56 / 70 ⇒ 18 / 31 / 44 / 57 / 70",
+     "id": "21386c9b20ba",
+     "section": "champions",
+     "tags": [
+      "Support",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.16",
+   "publishedAt": "2025-08-12T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Morgana",
+      "name": "Morgana"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Ajustamos el daño de su W.",
+     "id": "7bed0d95e415",
+     "section": "champions",
+     "tags": [
+      "Support",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Morgana",
+      "name": "Morgana"
+     },
+     "part": "W",
+     "partTitle": "W: Sombra Maldita",
+     "spellKey": "MorganaW",
+     "kind": "stat",
+     "attribute": "Daño mínimo",
+     "before": "60 / 115 / 170 / 225 / 280 (+ 85% de Poder de Habilidad)",
+     "after": "70 / 140 / 210 / 280 / 350 (+ 100% de Poder de Habilidad)",
+     "text": "Daño mínimo: 60 / 115 / 170 / 225 / 280 (+ 85% de Poder de Habilidad) ⇒ 70 / 140 / 210 / 280 / 350 (+ 100% de Poder de Habilidad)",
+     "id": "a54073847007",
+     "section": "champions",
+     "tags": [
+      "Support",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Morgana",
+      "name": "Morgana"
+     },
+     "part": "W",
+     "partTitle": "W: Sombra Maldita",
+     "spellKey": "MorganaW",
+     "kind": "stat",
+     "attribute": "Daño máximo",
+     "before": "162 / 310.5 / 459 / 607.5 / 756 (+ 229.5% de Poder de Habilidad)",
+     "after": "140 / 280 / 420 / 560 / 700 (+ 200% de Poder de Habilidad)",
+     "text": "Daño máximo: 162 / 310.5 / 459 / 607.5 / 756 (+ 229.5% de Poder de Habilidad) ⇒ 140 / 280 / 420 / 560 / 700 (+ 200% de Poder de Habilidad)",
+     "id": "ab38ae59f5c0",
+     "section": "champions",
+     "tags": [
+      "Support",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.11",
+   "publishedAt": "2025-05-27T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Pelea",
+     "sectionId": "patch-brawl",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Morgana",
+      "name": "Morgana"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Aceleración de Habilidad",
+     "before": "0",
+     "after": "-10",
+     "text": "Aceleración de Habilidad: 0 ⇒ -10",
+     "id": "b917030ffff0",
+     "section": "modes",
+     "tags": [
+      "Mage",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.9",
+   "publishedAt": "2025-04-29T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Morgana",
+      "name": "Morgana"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Aumentamos la fuerza del escudo de su E. Aumentamos el daño y la velocidad de movimiento adicional de su R.",
+     "id": "07a02d16bcc1",
+     "section": "champions",
+     "tags": [
+      "Mage",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Morgana",
+      "name": "Morgana"
+     },
+     "part": "E",
+     "partTitle": "E: Escudo Negro",
+     "spellKey": "MorganaE",
+     "kind": "stat",
+     "attribute": "Fuerza de escudo",
+     "before": "80 / 135 / 190 / 245 / 300 (+70% de Poder de Habilidad)",
+     "after": "100 / 155 / 210 / 265 / 320 (+70% de Poder de Habilidad)",
+     "text": "Fuerza de escudo: 80 / 135 / 190 / 245 / 300 (+70% de Poder de Habilidad) ⇒ 100 / 155 / 210 / 265 / 320 (+70% de Poder de Habilidad)",
+     "id": "8b286558015c",
+     "section": "champions",
+     "tags": [
+      "Mage",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Morgana",
+      "name": "Morgana"
+     },
+     "part": "R",
+     "partTitle": "R: Grilletes del Alma",
+     "spellKey": "MorganaR",
+     "kind": "stat",
+     "attribute": "Daño",
+     "before": "175 / 250 /325 (+ 80% de Poder de Habilidad)",
+     "after": "200 / 275 / 350 (+ 80% de Poder de Habilidad)",
+     "text": "Daño: 175 / 250 /325 (+ 80% de Poder de Habilidad) ⇒ 200 / 275 / 350 (+ 80% de Poder de Habilidad)",
+     "id": "72542a9fabc0",
+     "section": "champions",
+     "tags": [
+      "Mage",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Morgana",
+      "name": "Morgana"
+     },
+     "part": "R",
+     "partTitle": "R: Grilletes del Alma",
+     "spellKey": "MorganaR",
+     "kind": "stat",
+     "attribute": "Velocidad de Movimiento adicional",
+     "before": "10 / 35 / 60%",
+     "after": "20 / 40 / 60%",
+     "text": "Velocidad de Movimiento adicional: 10 / 35 / 60% ⇒ 20 / 40 / 60%",
+     "id": "b3052f1d5a6b",
+     "section": "champions",
+     "tags": [
+      "Mage",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  }
+ ]
+}

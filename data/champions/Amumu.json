@@ -1,0 +1,185 @@
+{
+ "schemaVersion": 1,
+ "id": "Amumu",
+ "name": "Amumu",
+ "tags": [
+  "Tank",
+  "Support"
+ ],
+ "entries": [
+  {
+   "patch": "26.22",
+   "publishedAt": "2026-11-03T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Classic",
+     "sectionId": "patch-classic",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Amumu",
+      "name": "Amumu"
+     },
+     "part": "P",
+     "partTitle": "Pasiva: Toque Maldito",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Reducción de Resistencia Mágica",
+     "before": "15 / 25 / 35",
+     "after": "15 / 20 / 25 (niveles 1 / 7 / 13)",
+     "text": "Reducción de Resistencia Mágica: 15 / 25 / 35 ⇒ 15 / 20 / 25 (niveles 1 / 7 / 13)",
+     "id": "bb90bdb4805a",
+     "section": "modes",
+     "tags": [
+      "Tank",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Classic",
+     "sectionId": "patch-classic",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Amumu",
+      "name": "Amumu"
+     },
+     "part": "Q",
+     "partTitle": "Q: Lanzamiento de Vendas",
+     "spellKey": "BandageToss",
+     "kind": "stat",
+     "attribute": "Daño",
+     "before": "80 / 140 / 200 / 260 / 320",
+     "after": "80 / 130 / 180 / 230 / 280",
+     "text": "Daño: 80 / 140 / 200 / 260 / 320 ⇒ 80 / 130 / 180 / 230 / 280",
+     "id": "da6622c9d0bf",
+     "section": "modes",
+     "tags": [
+      "Tank",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Classic",
+     "sectionId": "patch-classic",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Amumu",
+      "name": "Amumu"
+     },
+     "part": "R",
+     "partTitle": "R: Maldición de la Momia Triste",
+     "spellKey": "CurseoftheSadMummy",
+     "kind": "stat",
+     "attribute": "Enfriamiento",
+     "before": "150 / 130 / 110 seg",
+     "after": "170 / 145 / 120 seg",
+     "text": "Enfriamiento: 150 / 130 / 110 seg ⇒ 170 / 145 / 120 seg",
+     "id": "0ebc1207b275",
+     "section": "modes",
+     "tags": [
+      "Tank",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.18",
+   "publishedAt": "2025-09-09T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Amumu",
+      "name": "Amumu"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Redujimos el enfriamiento y el costo de maná de su Q.",
+     "id": "68302c44c088",
+     "section": "champions",
+     "tags": [
+      "Tank",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Amumu",
+      "name": "Amumu"
+     },
+     "part": "Q",
+     "partTitle": "Q: Lanzamiento de Vendas",
+     "spellKey": "BandageToss",
+     "kind": "stat",
+     "attribute": "Enfriamiento",
+     "before": "16 / 15.5 / 15 / 14.5 / 14 seg",
+     "after": "16 / 15 / 14 / 13 / 12 seg",
+     "text": "Enfriamiento: 16 / 15.5 / 15 / 14.5 / 14 seg ⇒ 16 / 15 / 14 / 13 / 12 seg",
+     "id": "d83183901bf4",
+     "section": "champions",
+     "tags": [
+      "Tank",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Amumu",
+      "name": "Amumu"
+     },
+     "part": "Q",
+     "partTitle": "Q: Lanzamiento de Vendas",
+     "spellKey": "BandageToss",
+     "kind": "stat",
+     "attribute": "Costo de Maná",
+     "before": "45 / 50 / 55 / 60 / 65",
+     "after": "50 en todos los rangos",
+     "text": "Costo de Maná: 45 / 50 / 55 / 60 / 65 ⇒ 50 en todos los rangos",
+     "id": "bab8977b57c3",
+     "section": "champions",
+     "tags": [
+      "Tank",
+      "Support"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  }
+ ]
+}

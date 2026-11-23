@@ -1,0 +1,1002 @@
+{
+ "schemaVersion": 1,
+ "id": "Rammus",
+ "name": "Rammus",
+ "tags": [
+  "Tank"
+ ],
+ "entries": [
+  {
+   "patch": "26.22",
+   "publishedAt": "2026-11-03T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Classic",
+     "sectionId": "patch-classic",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Rammus",
+      "name": "Rammus"
+     },
+     "part": "base",
+     "partTitle": "Estadísticas base",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Armadura básica",
+     "before": "28.8",
+     "after": "25",
+     "text": "Armadura básica: 28.8 ⇒ 25",
+     "id": "97509350ec64",
+     "section": "modes",
+     "tags": [
+      "Tank"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Classic",
+     "sectionId": "patch-classic",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Rammus",
+      "name": "Rammus"
+     },
+     "part": "base",
+     "partTitle": "Estadísticas base",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño de Ataque por nivel",
+     "before": "3.5",
+     "after": "2.75",
+     "text": "Daño de Ataque por nivel: 3.5 ⇒ 2.75",
+     "id": "e3bc0716bb4e",
+     "section": "modes",
+     "tags": [
+      "Tank"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "26.21",
+   "publishedAt": "2026-10-20T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Rammus",
+      "name": "Rammus"
+     },
+     "part": "W",
+     "partTitle": "W: Posición Defensiva",
+     "spellKey": "DefensiveBallCurl",
+     "kind": "stat",
+     "attribute": "Armadura adicional",
+     "before": "27 / 32 / 37 / 42 / 47 (+30 - 60% de Armadura)",
+     "after": "25 / 30 / 35 / 40 / 45 (+30 - 50% de Armadura)",
+     "text": "Armadura adicional: 27 / 32 / 37 / 42 / 47 (+30 - 60% de Armadura) ⇒ 25 / 30 / 35 / 40 / 45 (+30 - 50% de Armadura)",
+     "id": "43e984f2fcfd",
+     "section": "champions",
+     "tags": [
+      "Tank"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Rammus",
+      "name": "Rammus"
+     },
+     "part": "W",
+     "partTitle": "W: Posición Defensiva",
+     "spellKey": "DefensiveBallCurl",
+     "kind": "stat",
+     "attribute": "Resistencia Mágica adicional",
+     "before": "20 / 25 / 30 / 35 / 40 (+30 - 60% de Resistencia Mágica)",
+     "after": "20 / 25 / 30 / 35 / 40 (+30 - 50% de Resistencia Mágica)",
+     "text": "Resistencia Mágica adicional: 20 / 25 / 30 / 35 / 40 (+30 - 60% de Resistencia Mágica) ⇒ 20 / 25 / 30 / 35 / 40 (+30 - 50% de Resistencia Mágica)",
+     "id": "745855ca1312",
+     "section": "champions",
+     "tags": [
+      "Tank"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "26.1",
+   "publishedAt": "2026-01-07T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Actualizaciones dentro de la versión",
+     "sectionId": "patch-large-changes",
+     "midPatch": true,
+     "entity": {
+      "kind": "champion",
+      "id": "Rammus",
+      "name": "Rammus"
+     },
+     "part": "base",
+     "partTitle": "Estadísticas básicas",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Vida",
+     "before": "675",
+     "after": "645",
+     "text": "Vida: 675 ⇒ 645",
+     "id": "7745c57a5946",
+     "section": "champions",
+     "tags": [
+      "Tank"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Actualizaciones dentro de la versión",
+     "sectionId": "patch-large-changes",
+     "midPatch": true,
+     "entity": {
+      "kind": "champion",
+      "id": "Rammus",
+      "name": "Rammus"
+     },
+     "part": "W",
+     "partTitle": "W: Posición Defensiva",
+     "spellKey": "DefensiveBallCurl",
+     "kind": "stat",
+     "attribute": "Resistencia Mágica",
+     "before": "27 / 32 / 37 / 42 / 47",
+     "after": "20 / 25 / 30 / 35 / 40",
+     "text": "Resistencia Mágica: 27 / 32 / 37 / 42 / 47 ⇒ 20 / 25 / 30 / 35 / 40",
+     "id": "aae19c679825",
+     "section": "champions",
+     "tags": [
+      "Tank"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.13",
+   "publishedAt": "2025-06-24T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Rammus",
+      "name": "Rammus"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Aumentamos su crecimiento de vida. Aumentamos la armadura y la resistencia mágica de su W",
+     "id": "39c823aa85ba",
+     "section": "champions",
+     "tags": [
+      "Tank"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Rammus",
+      "name": "Rammus"
+     },
+     "part": "base",
+     "partTitle": "Estadísticas básicas",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Crecimiento de Vida",
+     "before": "94",
+     "after": "100",
+     "text": "Crecimiento de Vida: 94 ⇒ 100",
+     "id": "21e4a7c4abc9",
+     "section": "champions",
+     "tags": [
+      "Tank"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Rammus",
+      "name": "Rammus"
+     },
+     "part": "W",
+     "partTitle": "W: Posición Defensiva",
+     "spellKey": "DefensiveBallCurl",
+     "kind": "stat",
+     "attribute": "Armadura y Resistencia Mágica adicionales",
+     "before": "27",
+     "after": "27 / 32 / 37 / 42 / 47",
+     "text": "Armadura y Resistencia Mágica adicionales: 27 ⇒ 27 / 32 / 37 / 42 / 47",
+     "id": "e2b2eaab1ad6",
+     "section": "champions",
+     "tags": [
+      "Tank"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.12",
+   "publishedAt": "2025-06-10T18:05:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Rammus",
+      "name": "Rammus"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Ajustamos todas sus habilidades.",
+     "id": "fe7465196ddc",
+     "section": "champions",
+     "tags": [
+      "Tank"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Rammus",
+      "name": "Rammus"
+     },
+     "part": "base",
+     "partTitle": "Estadísticas básicas",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Armadura básica",
+     "before": "40",
+     "after": "35",
+     "text": "Armadura básica: 40 ⇒ 35",
+     "id": "5309986e0408",
+     "section": "champions",
+     "tags": [
+      "Tank"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Rammus",
+      "name": "Rammus"
+     },
+     "part": "base",
+     "partTitle": "Estadísticas básicas",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Crecimiento de Armadura",
+     "before": "5.5",
+     "after": "4.5",
+     "text": "Crecimiento de Armadura: 5.5 ⇒ 4.5",
+     "id": "e90faa709c05",
+     "section": "champions",
+     "tags": [
+      "Tank"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Rammus",
+      "name": "Rammus"
+     },
+     "part": "base",
+     "partTitle": "Estadísticas básicas",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Velocidad de Ataque en el nivel 1",
+     "before": "0.656",
+     "after": "0.7",
+     "text": "Velocidad de Ataque en el nivel 1: 0.656 ⇒ 0.7",
+     "id": "d5b5ae413085",
+     "section": "champions",
+     "tags": [
+      "Tank"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Rammus",
+      "name": "Rammus"
+     },
+     "part": "base",
+     "partTitle": "Estadísticas básicas",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño de Ataque básico",
+     "before": "55",
+     "after": "65",
+     "text": "Daño de Ataque básico: 55 ⇒ 65",
+     "id": "d951fb0038de",
+     "section": "champions",
+     "tags": [
+      "Tank"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Rammus",
+      "name": "Rammus"
+     },
+     "part": "P",
+     "partTitle": "Pasiva: Caparazón de Púas",
+     "spellKey": null,
+     "kind": "removed",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "ELIMINADO: Los ataques básicos de Rammus ya no obtienen 10 (+ 10%) de Armadura (aumentaba en un 50% durante el efecto de su W) como daño mágico al impacto",
+     "id": "e0fc89ee20ed",
+     "section": "champions",
+     "tags": [
+      "Tank"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Rammus",
+      "name": "Rammus"
+     },
+     "part": "P",
+     "partTitle": "Pasiva: Caparazón de Púas",
+     "spellKey": null,
+     "kind": "new",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "NUEVO: Ahora, Rammus obtiene un 15% de su Armadura y su Resistencia Mágica totales como daño de ataque adicional",
+     "id": "82a4d02aaf84",
+     "section": "champions",
+     "tags": [
+      "Tank"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Rammus",
+      "name": "Rammus"
+     },
+     "part": "Q",
+     "partTitle": "Q: Bola Rodante",
+     "spellKey": "PowerBall",
+     "kind": "stat",
+     "attribute": "Daño",
+     "before": "80 / 110 / 140 / 170 / 200",
+     "after": "80 / 120 / 160 / 200 / 240",
+     "text": "Daño: 80 / 110 / 140 / 170 / 200 ⇒ 80 / 120 / 160 / 200 / 240",
+     "id": "5418d0d97464",
+     "section": "champions",
+     "tags": [
+      "Tank"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Rammus",
+      "name": "Rammus"
+     },
+     "part": "Q",
+     "partTitle": "Q: Bola Rodante",
+     "spellKey": "PowerBall",
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Movimientos fluidos: Bola Rodante ya no bloquea el lanzamiento de la E durante alrededor de 0.375 seg al chocar contra un enemigo",
+     "id": "632207d5d283",
+     "section": "champions",
+     "tags": [
+      "Tank"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Rammus",
+      "name": "Rammus"
+     },
+     "part": "W",
+     "partTitle": "W: Posición Defensiva",
+     "spellKey": "DefensiveBallCurl",
+     "kind": "stat",
+     "attribute": "Duración",
+     "before": "6 seg",
+     "after": "7 seg",
+     "text": "Duración: 6 seg ⇒ 7 seg",
+     "id": "60d169ac0417",
+     "section": "champions",
+     "tags": [
+      "Tank"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Rammus",
+      "name": "Rammus"
+     },
+     "part": "W",
+     "partTitle": "W: Posición Defensiva",
+     "spellKey": "DefensiveBallCurl",
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Duración con ataques básicos: La duración de la W ya no aumenta con los ataques básicos",
+     "id": "1771ea8d4d62",
+     "section": "champions",
+     "tags": [
+      "Tank"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Rammus",
+      "name": "Rammus"
+     },
+     "part": "W",
+     "partTitle": "W: Posición Defensiva",
+     "spellKey": "DefensiveBallCurl",
+     "kind": "stat",
+     "attribute": "Armadura adicional",
+     "before": "40 (+ 35 / 45 / 55 / 65 / 75% de la Armadura total)",
+     "after": "27 (+ 30 / 37.5 / 45 / 42.5 / 60% de la Armadura total)",
+     "text": "Armadura adicional: 40 (+ 35 / 45 / 55 / 65 / 75% de la Armadura total) ⇒ 27 (+ 30 / 37.5 / 45 / 42.5 / 60% de la Armadura total)",
+     "id": "db81e5c85866",
+     "section": "champions",
+     "tags": [
+      "Tank"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Rammus",
+      "name": "Rammus"
+     },
+     "part": "W",
+     "partTitle": "W: Posición Defensiva",
+     "spellKey": "DefensiveBallCurl",
+     "kind": "stat",
+     "attribute": "Resistencia Mágica adicional",
+     "before": "10 (+ 30 / 35 / 40 / 45 / 50% de la Resistencia Mágica total)",
+     "after": "27 (+ 30 / 37.5 / 45 / 42.5 / 60% de la Resistencia Mágica total)",
+     "text": "Resistencia Mágica adicional: 10 (+ 30 / 35 / 40 / 45 / 50% de la Resistencia Mágica total) ⇒ 27 (+ 30 / 37.5 / 45 / 42.5 / 60% de la Resistencia Mágica total)",
+     "id": "578d701f8c16",
+     "section": "champions",
+     "tags": [
+      "Tank"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Rammus",
+      "name": "Rammus"
+     },
+     "part": "W",
+     "partTitle": "W: Posición Defensiva",
+     "spellKey": "DefensiveBallCurl",
+     "kind": "stat",
+     "attribute": "Daño reflejado",
+     "before": "15 (+ 15% de la Armadura total)",
+     "after": "15 (+ 10% de la Armadura total) (+ 10% de la Resistencia Mágica total)",
+     "text": "Daño reflejado: 15 (+ 15% de la Armadura total) ⇒ 15 (+ 10% de la Armadura total) (+ 10% de la Resistencia Mágica total)",
+     "id": "05138a2b32c5",
+     "section": "champions",
+     "tags": [
+      "Tank"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Rammus",
+      "name": "Rammus"
+     },
+     "part": "W",
+     "partTitle": "W: Posición Defensiva",
+     "spellKey": "DefensiveBallCurl",
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Daño al dragón: Ahora, la W de Rammus refleja correctamente el daño de los ataques básicos del dragón (al igual que Cota de Espinas)",
+     "id": "eebc63e8e803",
+     "section": "champions",
+     "tags": [
+      "Tank"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Rammus",
+      "name": "Rammus"
+     },
+     "part": "W",
+     "partTitle": "W: Posición Defensiva",
+     "spellKey": "DefensiveBallCurl",
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Mejoras a la descripción: Ahora, la descripción de la W indica con mayor claridad qué tanta armadura y resistencia mágica otorga la habilidad",
+     "id": "982890f86fbf",
+     "section": "champions",
+     "tags": [
+      "Tank"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Rammus",
+      "name": "Rammus"
+     },
+     "part": "W",
+     "partTitle": "W: Posición Defensiva",
+     "spellKey": "DefensiveBallCurl",
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Mejoras a la descripción: La descripción de la W ya no aparece en blanco cuando activa la habilidad; además, ahora muestra la cantidad de daño reflejado",
+     "id": "f54730679222",
+     "section": "champions",
+     "tags": [
+      "Tank"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Rammus",
+      "name": "Rammus"
+     },
+     "part": "E",
+     "partTitle": "E: Provocación Frenética",
+     "spellKey": "PuncturingTaunt",
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Velocidad de Ataque:: La E ya no le otorga un 20 / 25 / 30 / 35 / 40% de Velocidad de Ataque adicional a Rammus",
+     "id": "a33e5276c64c",
+     "section": "champions",
+     "tags": [
+      "Tank"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Rammus",
+      "name": "Rammus"
+     },
+     "part": "E",
+     "partTitle": "E: Provocación Frenética",
+     "spellKey": "PuncturingTaunt",
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Daño a monstruos: Ahora, la E inflige 80 / 100 / 120 / 140 / 160 (+ 70% de Poder de Habilidad) a monstruos al lanzarla. (Nota: Esta habilidad no inflige daño a campeones)",
+     "id": "389e64cfb59b",
+     "section": "champions",
+     "tags": [
+      "Tank"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Rammus",
+      "name": "Rammus"
+     },
+     "part": "R",
+     "partTitle": "R: Salto de Temblores",
+     "spellKey": "Tremors2",
+     "kind": "stat",
+     "attribute": "Enfriamiento",
+     "before": "90 seg",
+     "after": "120/105/90 seg",
+     "text": "Enfriamiento: 90 seg ⇒ 120/105/90 seg",
+     "id": "619d0e64fe3d",
+     "section": "champions",
+     "tags": [
+      "Tank"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Rammus",
+      "name": "Rammus"
+     },
+     "part": "R",
+     "partTitle": "R: Salto de Temblores",
+     "spellKey": "Tremors2",
+     "kind": "stat",
+     "attribute": "Daño inicial",
+     "before": "100 / 175 / 250 (+ 60% de Poder de Habilidad)",
+     "after": "150/ 250 / 350 (+ 60% de Poder de Habilidad)",
+     "text": "Daño inicial: 100 / 175 / 250 (+ 60% de Poder de Habilidad) ⇒ 150/ 250 / 350 (+ 60% de Poder de Habilidad)",
+     "id": "edfad247dc90",
+     "section": "champions",
+     "tags": [
+      "Tank"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Rammus",
+      "name": "Rammus"
+     },
+     "part": "R",
+     "partTitle": "R: Salto de Temblores",
+     "spellKey": "Tremors2",
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Daño del epicentro: La R ya no inflige un 50% de daño adicional en el epicentro del impacto",
+     "id": "a7dc5aa0355b",
+     "section": "champions",
+     "tags": [
+      "Tank"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Rammus",
+      "name": "Rammus"
+     },
+     "part": "R",
+     "partTitle": "R: Salto de Temblores",
+     "spellKey": "Tremors2",
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Daño de Réplica eliminado: La R ya no inflige 20 / 30 / 40 (+ 10% de Poder de Habilidad) de daño con las réplicas",
+     "id": "788ed38a9b94",
+     "section": "champions",
+     "tags": [
+      "Tank"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Rammus",
+      "name": "Rammus"
+     },
+     "part": "R",
+     "partTitle": "R: Salto de Temblores",
+     "spellKey": "Tremors2",
+     "kind": "stat",
+     "attribute": "Ralentización",
+     "before": "15 / 17.5 / 20% por acumulación, hasta un máximo de 60 / 70 / 80%",
+     "after": "30 / 40 / 50% (ya no se acumula)",
+     "text": "Ralentización: 15 / 17.5 / 20% por acumulación, hasta un máximo de 60 / 70 / 80% ⇒ 30 / 40 / 50% (ya no se acumula)",
+     "id": "b361019d03aa",
+     "section": "champions",
+     "tags": [
+      "Tank"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Rammus",
+      "name": "Rammus"
+     },
+     "part": "R",
+     "partTitle": "R: Salto de Temblores",
+     "spellKey": "Tremors2",
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Mejora de funcionalidad: Ahora, Rammus puede elevarse en el aire durante el efecto de Bola Rodante incluso si está encima de un enemigo al lanzar Salto de Temblores lo suficientemente rápido",
+     "id": "eeccb9ddfec5",
+     "section": "champions",
+     "tags": [
+      "Tank"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Rammus",
+      "name": "Rammus"
+     },
+     "part": "R",
+     "partTitle": "R: Salto de Temblores",
+     "spellKey": "Tremors2",
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Mejora de funcionalidad: Volvimos a sincronizar la animación de su R para que se reproduzca la animación completa durante el desplazamiento",
+     "id": "294719b33879",
+     "section": "champions",
+     "tags": [
+      "Tank"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Rammus",
+      "name": "Rammus"
+     },
+     "part": "R",
+     "partTitle": "R: Salto de Temblores",
+     "spellKey": "Tremors2",
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Corrección de error: La R ya no interrumpe su animación ni le impide a Rammus lanzar Bola Rodante si ambas habilidades se activan a la vez y demasiado rápido",
+     "id": "145b5233cd71",
+     "section": "champions",
+     "tags": [
+      "Tank"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Rammus",
+      "name": "Rammus"
+     },
+     "part": "R",
+     "partTitle": "R: Salto de Temblores",
+     "spellKey": "Tremors2",
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Corrección de error: Corregimos un error que provocaba que la animación de la R se trabara cuando se lanzaba a corto alcance",
+     "id": "41473d99f9b1",
+     "section": "champions",
+     "tags": [
+      "Tank"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  }
+ ]
+}

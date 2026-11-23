@@ -1,0 +1,485 @@
+{
+ "schemaVersion": 1,
+ "id": "Braum",
+ "name": "Braum",
+ "tags": [
+  "Tank",
+  "Support"
+ ],
+ "entries": [
+  {
+   "patch": "26.23",
+   "publishedAt": "2026-11-17T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Braum",
+      "name": "Braum"
+     },
+     "part": "P",
+     "partTitle": "Pasiva: Golpes Conmocionantes",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Duración de aturdimiento",
+     "before": "1.25 / 1.5 / 1.75 seg",
+     "after": "1 / 1.25 / 1.5 seg",
+     "text": "Duración de aturdimiento: 1.25 / 1.5 / 1.75 seg ⇒ 1 / 1.25 / 1.5 seg",
+     "id": "b52676b3b9dd",
+     "section": "modes",
+     "tags": [
+      "Tank",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "26.4",
+   "publishedAt": "2026-02-18T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Braum",
+      "name": "Braum"
+     },
+     "part": "R",
+     "partTitle": "R: Fisura Glacial",
+     "spellKey": "BraumRWrapper",
+     "kind": "stat",
+     "attribute": "Daño básico",
+     "before": "150 / 300 / 450",
+     "after": "150 / 250 / 350",
+     "text": "Daño básico: 150 / 300 / 450 ⇒ 150 / 250 / 350",
+     "id": "fd70332e91b8",
+     "section": "champions",
+     "tags": [
+      "Tank",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Braum",
+      "name": "Braum"
+     },
+     "part": "R",
+     "partTitle": "R: Fisura Glacial",
+     "spellKey": "BraumRWrapper",
+     "kind": "stat",
+     "attribute": "Enfriamiento",
+     "before": "120 / 100 / 80",
+     "after": "130 / 115 / 100 seconds",
+     "text": "Enfriamiento: 120 / 100 / 80 ⇒ 130 / 115 / 100 seconds",
+     "id": "3503f9c53fb7",
+     "section": "champions",
+     "tags": [
+      "Tank",
+      "Support"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Braum",
+      "name": "Braum"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": null,
+     "before": "Daño básico de la R: 150-450",
+     "after": "200-600",
+     "text": "Daño básico de la R: 150-450 ⇒ 200-600",
+     "id": "34648aa25b89",
+     "section": "modes",
+     "tags": [
+      "Tank",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Braum",
+      "name": "Braum"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": null,
+     "before": "Velocidad de movimiento: 40-60",
+     "after": "50-70",
+     "text": "Velocidad de movimiento: 40-60 ⇒ 50-70",
+     "id": "84ebba626938",
+     "section": "modes",
+     "tags": [
+      "Tank",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "26.3",
+   "publishedAt": "2026-02-03T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Braum",
+      "name": "Braum"
+     },
+     "part": "base",
+     "partTitle": "Estadísticas básicas",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Vida",
+     "before": "630",
+     "after": "610",
+     "text": "Vida: 630 ⇒ 610",
+     "id": "c41a0cbaf791",
+     "section": "champions",
+     "tags": [
+      "Tank",
+      "Support"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Braum",
+      "name": "Braum"
+     },
+     "part": "Q",
+     "partTitle": "Q: Rigor del Invierno",
+     "spellKey": "BraumQ",
+     "kind": "stat",
+     "attribute": "Daño",
+     "before": "75 / 125 / 175 / 225 / 275 (+ 2.5 de Vida)",
+     "after": "75 / 120 / 165 / 210 / 255 (+ 2.5% de Vida)",
+     "text": "Daño: 75 / 125 / 175 / 225 / 275 (+ 2.5 de Vida) ⇒ 75 / 120 / 165 / 210 / 255 (+ 2.5% de Vida)",
+     "id": "ea04dbcf5e88",
+     "section": "champions",
+     "tags": [
+      "Tank",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.24",
+   "publishedAt": "2025-12-02T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Braum",
+      "name": "Braum"
+     },
+     "part": "base",
+     "partTitle": "Estadísticas básicas",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Vida básica",
+     "before": "610",
+     "after": "630",
+     "text": "Vida básica: 610 ⇒ 630",
+     "id": "d234cb8dc70e",
+     "section": "champions",
+     "tags": [
+      "Tank",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Braum",
+      "name": "Braum"
+     },
+     "part": "P",
+     "partTitle": "Pasiva: Golpes Conmocionantes",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño de los ataques posteriores",
+     "before": "20%",
+     "after": "40%",
+     "text": "Daño de los ataques posteriores: 20% ⇒ 40%",
+     "id": "11cd109a54a4",
+     "section": "champions",
+     "tags": [
+      "Tank",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.16",
+   "publishedAt": "2025-08-12T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones (Arena)",
+     "sectionId": "patch-champions-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Braum",
+      "name": "Braum"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": null,
+     "before": "Daño de la pasiva: 20%",
+     "after": "25%",
+     "text": "Daño de la pasiva: 20% ⇒ 25%",
+     "id": "f589443313e7",
+     "section": "modes",
+     "tags": [
+      "Tank",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones (Arena)",
+     "sectionId": "patch-champions-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Braum",
+      "name": "Braum"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": null,
+     "before": "Tasa de Vida Máxima de la Q: 2.5%",
+     "after": "5%",
+     "text": "Tasa de Vida Máxima de la Q: 2.5% ⇒ 5%",
+     "id": "550ea1ae7ca9",
+     "section": "modes",
+     "tags": [
+      "Tank",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.15",
+   "publishedAt": "2025-07-29T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Braum",
+      "name": "Braum"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Redujimos el crecimiento de su armadura y su armadura básica.",
+     "id": "0cae320d8233",
+     "section": "champions",
+     "tags": [
+      "Tank",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Braum",
+      "name": "Braum"
+     },
+     "part": "base",
+     "partTitle": "Estadísticas básicas",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Armadura básica",
+     "before": "42",
+     "after": "35",
+     "text": "Armadura básica: 42 ⇒ 35",
+     "id": "2791409e2f2b",
+     "section": "champions",
+     "tags": [
+      "Tank",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Braum",
+      "name": "Braum"
+     },
+     "part": "base",
+     "partTitle": "Estadísticas básicas",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Crecimiento de Armadura",
+     "before": "5.2",
+     "after": "5",
+     "text": "Crecimiento de Armadura: 5.2 ⇒ 5",
+     "id": "7b77ae9ce709",
+     "section": "champions",
+     "tags": [
+      "Tank",
+      "Support"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.14",
+   "publishedAt": "2025-07-15T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Braum",
+      "name": "Braum"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Redujimos su armadura básica.",
+     "id": "720dcb3c6fb7",
+     "section": "champions",
+     "tags": [
+      "Tank",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Braum",
+      "name": "Braum"
+     },
+     "part": "base",
+     "partTitle": "Estadísticas básicas",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Armadura básica",
+     "before": "47",
+     "after": "42",
+     "text": "Armadura básica: 47 ⇒ 42",
+     "id": "50070cdc170a",
+     "section": "champions",
+     "tags": [
+      "Tank",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  }
+ ]
+}

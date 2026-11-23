@@ -1,0 +1,641 @@
+{
+ "schemaVersion": 1,
+ "id": "Tryndamere",
+ "name": "Tryndamere",
+ "tags": [
+  "Fighter",
+  "Assassin"
+ ],
+ "entries": [
+  {
+   "patch": "26.6",
+   "publishedAt": "2026-03-17T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Tryndamere",
+      "name": "Tryndamere"
+     },
+     "part": "base",
+     "partTitle": "Estadísticas básicas",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Tasa de Velocidad de Ataque",
+     "before": "0.694",
+     "after": "0.725",
+     "text": "Tasa de Velocidad de Ataque: 0.694 ⇒ 0.725",
+     "id": "fa565a0a849c",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "26.3",
+   "publishedAt": "2026-02-03T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Tryndamere",
+      "name": "Tryndamere"
+     },
+     "part": "base",
+     "partTitle": "Estadísticas básicas",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Crecimiento de Daño de Ataque",
+     "before": "4",
+     "after": "4.5",
+     "text": "Crecimiento de Daño de Ataque: 4 ⇒ 4.5",
+     "id": "75fc47ff7fe4",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "26.1",
+   "publishedAt": "2026-01-07T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Actualizaciones dentro de la versión",
+     "sectionId": "patch-large-changes",
+     "midPatch": true,
+     "entity": {
+      "kind": "champion",
+      "id": "Tryndamere",
+      "name": "Tryndamere"
+     },
+     "part": "W",
+     "partTitle": "W: Grito Burlón",
+     "spellKey": "TryndamereW",
+     "kind": "stat",
+     "attribute": "Duración de la ralentización",
+     "before": "2.5 seg",
+     "after": "3.25 seg",
+     "text": "Duración de la ralentización: 2.5 seg ⇒ 3.25 seg",
+     "id": "0a0c10ef4fe8",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Actualizaciones dentro de la versión",
+     "sectionId": "patch-large-changes",
+     "midPatch": true,
+     "entity": {
+      "kind": "champion",
+      "id": "Tryndamere",
+      "name": "Tryndamere"
+     },
+     "part": "E",
+     "partTitle": "E: Cuchillada Giratoria",
+     "spellKey": "TryndamereE",
+     "kind": "stat",
+     "attribute": "Daño básico",
+     "before": "70 / 105 / 140 / 175 / 210",
+     "after": "80 / 120 / 160 / 200 / 240",
+     "text": "Daño básico: 70 / 105 / 140 / 175 / 210 ⇒ 80 / 120 / 160 / 200 / 240",
+     "id": "0143963ff9fe",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Tryndamere",
+      "name": "Tryndamere"
+     },
+     "part": "Q",
+     "partTitle": "Q: Ansia de Sangre",
+     "spellKey": "TryndamereQ",
+     "kind": "stat",
+     "attribute": "Daño de Ataque adicional",
+     "before": "5 / 10 / 15 / 20 / 25 (+ hasta 15 / 25 / 35 / 45 / 55 según la vida faltante)",
+     "after": "0 (+ 20 / 35 / 50 / 65 / 80 según la vida faltante)",
+     "text": "Daño de Ataque adicional: 5 / 10 / 15 / 20 / 25 (+ hasta 15 / 25 / 35 / 45 / 55 según la vida faltante) ⇒ 0 (+ 20 / 35 / 50 / 65 / 80 según la vida faltante)",
+     "id": "a10e76c6b9e8",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Tryndamere",
+      "name": "Tryndamere"
+     },
+     "part": "Q",
+     "partTitle": "Q: Ansia de Sangre",
+     "spellKey": "TryndamereQ",
+     "kind": "stat",
+     "attribute": "Daño de Ataque adicional máximo",
+     "before": "Al tener un 0% de Vida restante",
+     "after": "Al tener un 10% de Vida restante",
+     "text": "Daño de Ataque adicional máximo: Al tener un 0% de Vida restante ⇒ Al tener un 10% de Vida restante",
+     "id": "6be86707d014",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Tryndamere",
+      "name": "Tryndamere"
+     },
+     "part": "Q",
+     "partTitle": "Q: Ansia de Sangre",
+     "spellKey": "TryndamereQ",
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Ahora, aclaramos en la descripción de la Q el valor de la curación máxima y por acumulación de Furia",
+     "id": "1487d3375440",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Tryndamere",
+      "name": "Tryndamere"
+     },
+     "part": "W",
+     "partTitle": "W: Grito Burlón",
+     "spellKey": "TryndamereW",
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Ya no ralentiza a los enemigos que estén mirando hacia otro lado durante 4 seg",
+     "id": "72ba58fd1988",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Tryndamere",
+      "name": "Tryndamere"
+     },
+     "part": "W",
+     "partTitle": "W: Grito Burlón",
+     "spellKey": "TryndamereW",
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Ahora, ralentiza a cualquier enemigo que esté alejándose de Tryndamere durante la debilitación de 2.5 seg",
+     "id": "275dd77f704d",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Tryndamere",
+      "name": "Tryndamere"
+     },
+     "part": "W",
+     "partTitle": "W: Grito Burlón",
+     "spellKey": "TryndamereW",
+     "kind": "stat",
+     "attribute": "Ralentización",
+     "before": "30% / 37.5% / 45% / 52.5% / 60%",
+     "after": "30% / 35% / 40% / 45% / 50%",
+     "text": "Ralentización: 30% / 37.5% / 45% / 52.5% / 60% ⇒ 30% / 35% / 40% / 45% / 50%",
+     "id": "41187eae21b4",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Tryndamere",
+      "name": "Tryndamere"
+     },
+     "part": "W",
+     "partTitle": "W: Grito Burlón",
+     "spellKey": "TryndamereW",
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Aún reduce el daño de ataque del enemigo durante 4 seg",
+     "id": "eee0eb5f47eb",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Tryndamere",
+      "name": "Tryndamere"
+     },
+     "part": "E",
+     "partTitle": "E: Cuchillada Giratoria",
+     "spellKey": "TryndamereE",
+     "kind": "stat",
+     "attribute": "Daño",
+     "before": "75 / 105 / 135 / 165 / 195 (+ 130% de Daño de Ataque adicional)",
+     "after": "70 / 105 / 140 / 175 / 210 (+ 100% de Daño de Ataque adicional)",
+     "text": "Daño: 75 / 105 / 135 / 165 / 195 (+ 130% de Daño de Ataque adicional) ⇒ 70 / 105 / 140 / 175 / 210 (+ 100% de Daño de Ataque adicional)",
+     "id": "fe489645e97e",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.20",
+   "publishedAt": "2025-10-07T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Bots Apocalípticos",
+     "sectionId": "patch-doom-bots",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Tryndamere",
+      "name": "Tryndamere"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño infligido",
+     "before": "100%",
+     "after": "105%",
+     "text": "Daño infligido: 100% ⇒ 105%",
+     "id": "51654303b86b",
+     "section": "modes",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Bots Apocalípticos",
+     "sectionId": "patch-doom-bots",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Tryndamere",
+      "name": "Tryndamere"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Tenacidad",
+     "before": "0",
+     "after": "25",
+     "text": "Tenacidad: 0 ⇒ 25",
+     "id": "0a8f764f8ea6",
+     "section": "modes",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena-",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Tryndamere",
+      "name": "Tryndamere"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": null,
+     "before": "Ralentización de la W: De 50% a 80%",
+     "after": "De 30% a 60%",
+     "text": "Ralentización de la W: De 50% a 80% ⇒ De 30% a 60%",
+     "id": "0b3a8b8fb702",
+     "section": "modes",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena-",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Tryndamere",
+      "name": "Tryndamere"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": null,
+     "before": "Reducción de Daño de Ataque de la W: De 30 a 90",
+     "after": "De 20 a 80",
+     "text": "Reducción de Daño de Ataque de la W: De 30 a 90 ⇒ De 20 a 80",
+     "id": "df33b2e1abb9",
+     "section": "modes",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.11",
+   "publishedAt": "2025-05-27T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Pelea",
+     "sectionId": "patch-brawl",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Tryndamere",
+      "name": "Tryndamere"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Enfriamiento de la E",
+     "before": "12 / 11 / 10 / 9 / 8",
+     "after": "8",
+     "text": "Enfriamiento de la E: 12 / 11 / 10 / 9 / 8 ⇒ 8",
+     "id": "08e076c4104c",
+     "section": "modes",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Pelea",
+     "sectionId": "patch-brawl",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Tryndamere",
+      "name": "Tryndamere"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Enfriamiento de la R",
+     "before": "120 / 100 / 80",
+     "after": "60 / 50 / 40",
+     "text": "Enfriamiento de la R: 120 / 100 / 80 ⇒ 60 / 50 / 40",
+     "id": "ff5031827725",
+     "section": "modes",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Pelea",
+     "sectionId": "patch-brawl",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Tryndamere",
+      "name": "Tryndamere"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño infligido",
+     "before": "100%",
+     "after": "105%",
+     "text": "Daño infligido: 100% ⇒ 105%",
+     "id": "3867717f04bb",
+     "section": "modes",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Pelea",
+     "sectionId": "patch-brawl",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Tryndamere",
+      "name": "Tryndamere"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño recibido",
+     "before": "100%",
+     "after": "95%",
+     "text": "Daño recibido: 100% ⇒ 95%",
+     "id": "af577ef8df9a",
+     "section": "modes",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.8",
+   "publishedAt": "2025-04-15T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Tryndamere",
+      "name": "Tryndamere"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Crecimiento de Daño de Ataque",
+     "before": "4",
+     "after": "3",
+     "text": "Crecimiento de Daño de Ataque: 4 ⇒ 3",
+     "id": "0d76cf15204e",
+     "section": "modes",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Tryndamere",
+      "name": "Tryndamere"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Reducción de Daño de Ataque de la W",
+     "before": "30 / 52.5 / 75 / 97.5 / 120",
+     "after": "30 / 45 / 60 / 75 / 90",
+     "text": "Reducción de Daño de Ataque de la W: 30 / 52.5 / 75 / 97.5 / 120 ⇒ 30 / 45 / 60 / 75 / 90",
+     "id": "cb0385d13bde",
+     "section": "modes",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  }
+ ]
+}

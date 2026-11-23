@@ -1,0 +1,500 @@
+{
+ "schemaVersion": 1,
+ "id": "Illaoi",
+ "name": "Illaoi",
+ "tags": [
+  "Fighter",
+  "Tank"
+ ],
+ "entries": [
+  {
+   "patch": "26.6",
+   "publishedAt": "2026-03-17T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "ARAM: Caos",
+     "sectionId": "patch-aram:-mayhem",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Illaoi",
+      "name": "Illaoi"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": null,
+     "before": "Daño recibido: 105%",
+     "after": "100%",
+     "text": "Daño recibido: 105% ⇒ 100%",
+     "id": "36aa46213f26",
+     "section": "modes",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "ARAM: Caos",
+     "sectionId": "patch-aram:-mayhem",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Illaoi",
+      "name": "Illaoi"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": null,
+     "before": "Curación: 80%",
+     "after": "90%",
+     "text": "Curación: 80% ⇒ 90%",
+     "id": "eaf9bf1d6e29",
+     "section": "modes",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "26.4",
+   "publishedAt": "2026-02-18T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Illaoi",
+      "name": "Illaoi"
+     },
+     "part": "P",
+     "partTitle": "Pasiva: Profeta de un Dios Ancestral",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño básico del tentáculo",
+     "before": "De 9 a 180 (según el nivel)",
+     "after": "De 9 a 200 (según el nivel)",
+     "text": "Daño básico del tentáculo: De 9 a 180 (según el nivel) ⇒ De 9 a 200 (según el nivel)",
+     "id": "fc0055f793b3",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.18",
+   "publishedAt": "2025-09-09T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Illaoi",
+      "name": "Illaoi"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Ajustamos la funcionalidad de su pasiva. Redujimos el daño de su W. Redujimos la duración de los Recipientes de su E.",
+     "id": "df66acbe605f",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Illaoi",
+      "name": "Illaoi"
+     },
+     "part": "P",
+     "partTitle": "Pasiva: Profeta de un Dios Ancestral",
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Ajuste de funcionalidad: Ya no genera tentáculos durante la canalización del hechizo Teleportación. Ahora, su pasiva se activa cuando Illaoi termina de teletransportarse",
+     "id": "76275cc70e24",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Illaoi",
+      "name": "Illaoi"
+     },
+     "part": "W",
+     "partTitle": "W: Dura Lección",
+     "spellKey": "IllaoiW",
+     "kind": "stat",
+     "attribute": "Vida Máxima del objetivo como daño",
+     "before": "4% cada 100 de Daño de Ataque total",
+     "after": "3.5% cada 100 de Daño de Ataque total",
+     "text": "Vida Máxima del objetivo como daño: 4% cada 100 de Daño de Ataque total ⇒ 3.5% cada 100 de Daño de Ataque total",
+     "id": "5afe12971a65",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Illaoi",
+      "name": "Illaoi"
+     },
+     "part": "E",
+     "partTitle": "E: Prueba de Espíritu",
+     "spellKey": "IllaoiE",
+     "kind": "stat",
+     "attribute": "Duración de los Recipientes",
+     "before": "3 seg",
+     "after": "4 seg",
+     "text": "Duración de los Recipientes: 3 seg ⇒ 4 seg",
+     "id": "8b4f3ac87ccd",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.16",
+   "publishedAt": "2025-08-12T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Illaoi",
+      "name": "Illaoi"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Aumentamos el daño y redujimos el enfriamiento de su pasiva.",
+     "id": "8a68d0e34134",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Illaoi",
+      "name": "Illaoi"
+     },
+     "part": "P",
+     "partTitle": "Pasiva: Profeta de un Dios Ancestral",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Tasa de Daño de Ataque total",
+     "before": "105%",
+     "after": "110%",
+     "text": "Tasa de Daño de Ataque total: 105% ⇒ 110%",
+     "id": "44d1431fa7c6",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Illaoi",
+      "name": "Illaoi"
+     },
+     "part": "P",
+     "partTitle": "Pasiva: Profeta de un Dios Ancestral",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Demora de la aparición de los tentáculos",
+     "before": "De 20 a 7.25 seg (según el nivel)",
+     "after": "De 18 a 7 seg (según el nivel)",
+     "text": "Demora de la aparición de los tentáculos: De 20 a 7.25 seg (según el nivel) ⇒ De 18 a 7 seg (según el nivel)",
+     "id": "6796c395e8d3",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.15",
+   "publishedAt": "2025-07-29T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Illaoi",
+      "name": "Illaoi"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Aumentamos el daño de su pasiva. Ajustamos su E.",
+     "id": "b281b91b7616",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Illaoi",
+      "name": "Illaoi"
+     },
+     "part": "P",
+     "partTitle": "Pasiva: Profeta de un Dios Ancestral",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño",
+     "before": "De 9 a 162 (según el nivel) (+ 100% de Daño de Ataque) (+ 40% de Poder de Habilidad)",
+     "after": "De 9 a 162 (según el nivel) (+ 105% de Daño de Ataque) (+ 40% de Poder de Habilidad)",
+     "text": "Daño: De 9 a 162 (según el nivel) (+ 100% de Daño de Ataque) (+ 40% de Poder de Habilidad) ⇒ De 9 a 162 (según el nivel) (+ 105% de Daño de Ataque) (+ 40% de Poder de Habilidad)",
+     "id": "d8e815cd00e3",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Illaoi",
+      "name": "Illaoi"
+     },
+     "part": "P",
+     "partTitle": "Pasiva: Profeta de un Dios Ancestral",
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Ahora, el daño que aparece en la descripción se actualiza con los niveles de la Q",
+     "id": "00db8bd77922",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Illaoi",
+      "name": "Illaoi"
+     },
+     "part": "Q",
+     "partTitle": "Q: Tentáculo Aplastante",
+     "spellKey": "IllaoiQ",
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Ahora, el daño que aparece en la descripción muestra el daño total de la habilidad y se actualiza con los niveles de la Q",
+     "id": "faecc8045552",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Illaoi",
+      "name": "Illaoi"
+     },
+     "part": "E",
+     "partTitle": "E: Prueba de Espíritu",
+     "spellKey": "IllaoiE",
+     "kind": "stat",
+     "attribute": "Demora del azote de los tentáculos",
+     "before": "5 / 4 / 3 seg (niveles 1, 7 y 13, respectivamente)",
+     "after": "4 / 3.5 / 3 seg (niveles 1, 7 y 13, respectivamente)",
+     "text": "Demora del azote de los tentáculos: 5 / 4 / 3 seg (niveles 1, 7 y 13, respectivamente) ⇒ 4 / 3.5 / 3 seg (niveles 1, 7 y 13, respectivamente)",
+     "id": "f889b3d7876f",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Illaoi",
+      "name": "Illaoi"
+     },
+     "part": "E",
+     "partTitle": "E: Prueba de Espíritu",
+     "spellKey": "IllaoiE",
+     "kind": "stat",
+     "attribute": "Duración del fantasma",
+     "before": "10",
+     "after": "3",
+     "text": "Duración del fantasma: 10 ⇒ 3",
+     "id": "290e5e78dfbd",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Illaoi",
+      "name": "Illaoi"
+     },
+     "part": "E",
+     "partTitle": "E: Prueba de Espíritu",
+     "spellKey": "IllaoiE",
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Ahora, los tentáculos que generan los fantasmas azotan al objetivo alrededor de 1 seg antes",
+     "id": "b78e986e5853",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  }
+ ]
+}

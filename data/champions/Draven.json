@@ -1,0 +1,474 @@
+{
+ "schemaVersion": 1,
+ "id": "Draven",
+ "name": "Draven",
+ "tags": [
+  "Marksman"
+ ],
+ "entries": [
+  {
+   "patch": "26.19",
+   "publishedAt": "2026-09-22T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Draven",
+      "name": "Draven"
+     },
+     "part": "base",
+     "partTitle": "Estadísticas base",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño de Ataque",
+     "before": "62",
+     "after": "64",
+     "text": "Daño de Ataque: 62 ⇒ 64",
+     "id": "e06659a1362b",
+     "section": "champions",
+     "tags": [
+      "Marksman"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "26.13",
+   "publishedAt": "2026-06-23T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Draven",
+      "name": "Draven"
+     },
+     "part": "E",
+     "partTitle": "E: Apártate",
+     "spellKey": "DravenDoubleShot",
+     "kind": "stat",
+     "attribute": "Enfriamiento",
+     "before": "18 / 17 / 16 / 15 / 14 seg",
+     "after": "16 / 15 / 14 / 13 / 12 seg",
+     "text": "Enfriamiento: 18 / 17 / 16 / 15 / 14 seg ⇒ 16 / 15 / 14 / 13 / 12 seg",
+     "id": "573e0970a578",
+     "section": "champions",
+     "tags": [
+      "Marksman"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Draven",
+      "name": "Draven"
+     },
+     "part": "R",
+     "partTitle": "R: Muerte Rodante",
+     "spellKey": "DravenRCast",
+     "kind": "stat",
+     "attribute": "Reducción de daño al impactar a un enemigo",
+     "before": "-8% de forma multiplicativa, hasta un 40% (con 11 impactos)",
+     "after": "-5%, hasta un mínimo de un 50% (con 14 impactos)",
+     "text": "Reducción de daño al impactar a un enemigo: -8% de forma multiplicativa, hasta un 40% (con 11 impactos) ⇒ -5%, hasta un mínimo de un 50% (con 14 impactos)",
+     "id": "ce9334883055",
+     "section": "champions",
+     "tags": [
+      "Marksman"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "26.3",
+   "publishedAt": "2026-02-03T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Draven",
+      "name": "Draven"
+     },
+     "part": "base",
+     "partTitle": "Estadísticas básicas",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Crecimiento de Daño de Ataque",
+     "before": "3",
+     "after": "3.4",
+     "text": "Crecimiento de Daño de Ataque: 3 ⇒ 3.4",
+     "id": "6262eb782b70",
+     "section": "champions",
+     "tags": [
+      "Marksman"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "26.1",
+   "publishedAt": "2026-01-07T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Draven",
+      "name": "Draven"
+     },
+     "part": "base",
+     "partTitle": "Estadísticas básicas",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Crecimiento de Daño de Ataque",
+     "before": "3.6",
+     "after": "3",
+     "text": "Crecimiento de Daño de Ataque: 3.6 ⇒ 3",
+     "id": "67b2d791d5c5",
+     "section": "champions",
+     "tags": [
+      "Marksman"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Draven",
+      "name": "Draven"
+     },
+     "part": "W",
+     "partTitle": "W: Impulso Sangriento",
+     "spellKey": "DravenFury",
+     "kind": "stat",
+     "attribute": "Velocidad de Ataque",
+     "before": "30% / 35% / 40% / 45% / 50%",
+     "after": "20% / 25% / 30% / 35% / 40%",
+     "text": "Velocidad de Ataque: 30% / 35% / 40% / 45% / 50% ⇒ 20% / 25% / 30% / 35% / 40%",
+     "id": "65f0fe673baf",
+     "section": "champions",
+     "tags": [
+      "Marksman"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.19",
+   "publishedAt": "2025-09-23T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Draven",
+      "name": "Draven"
+     },
+     "part": "W",
+     "partTitle": "W: Impulso Sangriento",
+     "spellKey": "DravenFury",
+     "kind": "stat",
+     "attribute": "Velocidad de Ataque",
+     "before": "20% / 25% / 30% / 35% / 40%",
+     "after": "30% / 35% / 40% / 45% / 50%",
+     "text": "Velocidad de Ataque: 20% / 25% / 30% / 35% / 40% ⇒ 30% / 35% / 40% / 45% / 50%",
+     "id": "71b0029e76c6",
+     "section": "champions",
+     "tags": [
+      "Marksman"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Draven",
+      "name": "Draven"
+     },
+     "part": "R",
+     "partTitle": "R: Muerte Rodante",
+     "spellKey": "DravenRCast",
+     "kind": "stat",
+     "attribute": "Daño",
+     "before": "175 / 275 / 375 (110% / 130% / 150% de Daño de Ataque adicional)",
+     "after": "200 / 300 / 400 (110% / 130% / 150% de Daño de Ataque adicional)",
+     "text": "Daño: 175 / 275 / 375 (110% / 130% / 150% de Daño de Ataque adicional) ⇒ 200 / 300 / 400 (110% / 130% / 150% de Daño de Ataque adicional)",
+     "id": "832db49fac2e",
+     "section": "champions",
+     "tags": [
+      "Marksman"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.11",
+   "publishedAt": "2025-05-27T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Pelea",
+     "sectionId": "patch-brawl",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Draven",
+      "name": "Draven"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño infligido",
+     "before": "100%",
+     "after": "105%",
+     "text": "Daño infligido: 100% ⇒ 105%",
+     "id": "90da2999fa1b",
+     "section": "modes",
+     "tags": [
+      "Marksman"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Pelea",
+     "sectionId": "patch-brawl",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Draven",
+      "name": "Draven"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño recibido",
+     "before": "100%",
+     "after": "90%",
+     "text": "Daño recibido: 100% ⇒ 90%",
+     "id": "23167f44e014",
+     "section": "modes",
+     "tags": [
+      "Marksman"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.7",
+   "publishedAt": "2025-04-01T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "ARAM",
+     "sectionId": "patch-aram",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Draven",
+      "name": "Draven"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Obtención de oro de pasiva",
+     "before": "25 + (2 acumulaciones) Oro adicional",
+     "after": "40 + (2 acumulaciones) Oro adicional",
+     "text": "Obtención de oro de pasiva: 25 + (2 acumulaciones) Oro adicional ⇒ 40 + (2 acumulaciones) Oro adicional",
+     "id": "d380761e684f",
+     "section": "modes",
+     "tags": [
+      "Marksman"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "ARAM",
+     "sectionId": "patch-aram",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Draven",
+      "name": "Draven"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Pérdida de acumulación de pasiva al morir",
+     "before": "50%",
+     "after": "30%",
+     "text": "Pérdida de acumulación de pasiva al morir: 50% ⇒ 30%",
+     "id": "91a2db7de935",
+     "section": "modes",
+     "tags": [
+      "Marksman"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Draven",
+      "name": "Draven"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Aumenta la probabilidad de aumentar el nivel de tus yunques de estadísticas",
+     "id": "726db06f26f6",
+     "section": "modes",
+     "tags": [
+      "Marksman"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Draven",
+      "name": "Draven"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Mientras estés en una buena racha y cada 3 victorias, obtienes 1 yunque de estadísticas",
+     "id": "37c0d059aa97",
+     "section": "modes",
+     "tags": [
+      "Marksman"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.6",
+   "publishedAt": "2025-03-18T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Draven",
+      "name": "Draven"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Eliminamos las acumulaciones de adoración adicionales de la pasiva.",
+     "id": "acbc3bc8f42a",
+     "section": "champions",
+     "tags": [
+      "Marksman"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Draven",
+      "name": "Draven"
+     },
+     "part": "P",
+     "partTitle": "Pasiva: League of Draven",
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Draven ya no obtiene 2 acumulaciones de Adoración adicional por cada 6 asesinatos",
+     "id": "4ea8154f6988",
+     "section": "champions",
+     "tags": [
+      "Marksman"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,462 @@
+{
+ "schemaVersion": 1,
+ "id": "Syndra",
+ "name": "Syndra",
+ "tags": [
+  "Mage"
+ ],
+ "entries": [
+  {
+   "patch": "26.23",
+   "publishedAt": "2026-11-17T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Syndra",
+      "name": "Syndra"
+     },
+     "part": "E",
+     "partTitle": "E: Dispersar a los Débiles",
+     "spellKey": "SyndraE",
+     "kind": "stat",
+     "attribute": "Costo de Maná",
+     "before": "50",
+     "after": "60",
+     "text": "Costo de Maná: 50 ⇒ 60",
+     "id": "8bb333252c3d",
+     "section": "champions",
+     "tags": [
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Syndra",
+      "name": "Syndra"
+     },
+     "part": "E",
+     "partTitle": "E: Dispersar a los Débiles",
+     "spellKey": "SyndraE",
+     "kind": "stat",
+     "attribute": "Enfriamiento",
+     "before": "15",
+     "after": "17 / 16.5 / 16 / 15.5 / 15",
+     "text": "Enfriamiento: 15 ⇒ 17 / 16.5 / 16 / 15.5 / 15",
+     "id": "b6fa409b5cd8",
+     "section": "champions",
+     "tags": [
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "26.18",
+   "publishedAt": "2026-09-09T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Syndra",
+      "name": "Syndra"
+     },
+     "part": "P",
+     "partTitle": "Pasiva: Trascendencia",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Maná de Fragmento",
+     "before": "De 20 a 255",
+     "after": "De 20 a 199",
+     "text": "Maná de Fragmento: De 20 a 255 ⇒ De 20 a 199",
+     "id": "b66d93870607",
+     "section": "champions",
+     "tags": [
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Syndra",
+      "name": "Syndra"
+     },
+     "part": "W",
+     "partTitle": "W: Fuerza de Voluntad",
+     "spellKey": "SyndraW",
+     "kind": "stat",
+     "attribute": "Enfriamiento",
+     "before": "12 / 11 / 10 / 9 / 8 seg",
+     "after": "13 / 12 / 11 / 10 / 9 seg",
+     "text": "Enfriamiento: 12 / 11 / 10 / 9 / 8 seg ⇒ 13 / 12 / 11 / 10 / 9 seg",
+     "id": "d34175630e18",
+     "section": "champions",
+     "tags": [
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "26.12",
+   "publishedAt": "2026-06-09T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Syndra",
+      "name": "Syndra"
+     },
+     "part": "base",
+     "partTitle": "Estadísticas base",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Vida básica",
+     "before": "563",
+     "after": "583",
+     "text": "Vida básica: 563 ⇒ 583",
+     "id": "46dff6ddcbf0",
+     "section": "champions",
+     "tags": [
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Syndra",
+      "name": "Syndra"
+     },
+     "part": "Q",
+     "partTitle": "Q: Esfera Oscura",
+     "spellKey": "SyndraQ",
+     "kind": "stat",
+     "attribute": "Daño",
+     "before": "80-220 (+65% de Poder de Habilidad)",
+     "after": "90-230 (+70% de Poder de Habilidad)",
+     "text": "Daño: 80-220 (+65% de Poder de Habilidad) ⇒ 90-230 (+70% de Poder de Habilidad)",
+     "id": "f52ee249afbf",
+     "section": "champions",
+     "tags": [
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "26.4",
+   "publishedAt": "2026-02-18T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Syndra",
+      "name": "Syndra"
+     },
+     "part": "W",
+     "partTitle": "W: Fuerza de Voluntad",
+     "spellKey": "SyndraW",
+     "kind": "stat",
+     "attribute": "Daño básico",
+     "before": "70 / 105 / 140 / 175 / 210",
+     "after": "70 / 100 / 130 / 160 / 190",
+     "text": "Daño básico: 70 / 105 / 140 / 175 / 210 ⇒ 70 / 100 / 130 / 160 / 190",
+     "id": "609bf012f66c",
+     "section": "champions",
+     "tags": [
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Syndra",
+      "name": "Syndra"
+     },
+     "part": "R",
+     "partTitle": "R: Poder Desatado",
+     "spellKey": "SyndraR",
+     "kind": "stat",
+     "attribute": "Daño básico",
+     "before": "90 / 130 / 170",
+     "after": "80 / 120 / 160",
+     "text": "Daño básico: 90 / 130 / 170 ⇒ 80 / 120 / 160",
+     "id": "7d72ab2235b2",
+     "section": "champions",
+     "tags": [
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.19",
+   "publishedAt": "2025-09-23T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Syndra",
+      "name": "Syndra"
+     },
+     "part": "base",
+     "partTitle": "Estadísticas básicas",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Crecimiento de Vida",
+     "before": "104",
+     "after": "100",
+     "text": "Crecimiento de Vida: 104 ⇒ 100",
+     "id": "263884adeb91",
+     "section": "champions",
+     "tags": [
+      "Mage"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Syndra",
+      "name": "Syndra"
+     },
+     "part": "base",
+     "partTitle": "Estadísticas básicas",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Crecimiento de Armadura",
+     "before": "4.6",
+     "after": "4",
+     "text": "Crecimiento de Armadura: 4.6 ⇒ 4",
+     "id": "e9d598daaeb0",
+     "section": "champions",
+     "tags": [
+      "Mage"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Syndra",
+      "name": "Syndra"
+     },
+     "part": "Q",
+     "partTitle": "Q: Esfera Oscura",
+     "spellKey": "SyndraQ",
+     "kind": "stat",
+     "attribute": "Daño",
+     "before": "75 / 110 / 145 / 180 / 215 (+ 60% de Poder de Habilidad)",
+     "after": "80 / 115 / 150 / 185 / 220 (+ 65% de Poder de Habilidad)",
+     "text": "Daño: 75 / 110 / 145 / 180 / 215 (+ 60% de Poder de Habilidad) ⇒ 80 / 115 / 150 / 185 / 220 (+ 65% de Poder de Habilidad)",
+     "id": "27d8cd4fe67f",
+     "section": "champions",
+     "tags": [
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Syndra",
+      "name": "Syndra"
+     },
+     "part": "E",
+     "partTitle": "E: Dispersar a los Débiles",
+     "spellKey": "SyndraE",
+     "kind": "stat",
+     "attribute": "Enfriamiento",
+     "before": "17 seg",
+     "after": "15 seg",
+     "text": "Enfriamiento: 17 seg ⇒ 15 seg",
+     "id": "06d796c6ab57",
+     "section": "champions",
+     "tags": [
+      "Mage"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.8",
+   "publishedAt": "2025-04-15T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Syndra",
+      "name": "Syndra"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Redujimos la ralentización de su W en los niveles superiores. Ajustamos el daño de su E. Ajustamos el daño de su R.",
+     "id": "3f7ba0d99653",
+     "section": "champions",
+     "tags": [
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Syndra",
+      "name": "Syndra"
+     },
+     "part": "W",
+     "partTitle": "W: Fuerza de Voluntad",
+     "spellKey": "SyndraW",
+     "kind": "stat",
+     "attribute": "Ralentización",
+     "before": "25 / 30 / 35 / 40 / 45%",
+     "after": "25%",
+     "text": "Ralentización: 25 / 30 / 35 / 40 / 45% ⇒ 25%",
+     "id": "abd24d26736b",
+     "section": "champions",
+     "tags": [
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Syndra",
+      "name": "Syndra"
+     },
+     "part": "E",
+     "partTitle": "E: Dispersar a los Débiles",
+     "spellKey": "SyndraE",
+     "kind": "stat",
+     "attribute": "Daño",
+     "before": "75 / 115 / 155 / 195 / 235 (+ 45% de Poder de Habilidad)",
+     "after": "60 / 95 / 130 / 165 / 200 (+ 60% de Poder de Habilidad)",
+     "text": "Daño: 75 / 115 / 155 / 195 / 235 (+ 45% de Poder de Habilidad) ⇒ 60 / 95 / 130 / 165 / 200 (+ 60% de Poder de Habilidad)",
+     "id": "2575f12b722e",
+     "section": "champions",
+     "tags": [
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Syndra",
+      "name": "Syndra"
+     },
+     "part": "R",
+     "partTitle": "R: Poder Desatado",
+     "spellKey": "SyndraR",
+     "kind": "stat",
+     "attribute": "Daño por esfera",
+     "before": "100 / 140 / 180 (+17% de Poder de Habilidad)",
+     "after": "90 / 130 / 170 (+ 20% de Poder de Habilidad)",
+     "text": "Daño por esfera: 100 / 140 / 180 (+17% de Poder de Habilidad) ⇒ 90 / 130 / 170 (+ 20% de Poder de Habilidad)",
+     "id": "c9e1fafb2a07",
+     "section": "champions",
+     "tags": [
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  }
+ ]
+}

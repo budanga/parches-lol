@@ -1,0 +1,164 @@
+{
+ "schemaVersion": 1,
+ "id": "Blitzcrank",
+ "name": "Blitzcrank",
+ "tags": [
+  "Tank",
+  "Support"
+ ],
+ "entries": [
+  {
+   "patch": "25.22",
+   "publishedAt": "2025-11-04T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Blitzcrank",
+      "name": "Blitzcrank"
+     },
+     "part": "E",
+     "partTitle": "E: Puño de Poder",
+     "spellKey": "PowerFist",
+     "kind": "stat",
+     "attribute": "Enfriamiento",
+     "before": "9 / 8 / 7 / 6 / 5 seg",
+     "after": "7 / 6.5 / 6 / 5.5 / 5 seg",
+     "text": "Enfriamiento: 9 / 8 / 7 / 6 / 5 seg ⇒ 7 / 6.5 / 6 / 5.5 / 5 seg",
+     "id": "f055beab4767",
+     "section": "champions",
+     "tags": [
+      "Tank",
+      "Support"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.20",
+   "publishedAt": "2025-10-07T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Bots Apocalípticos",
+     "sectionId": "patch-doom-bots",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Blitzcrank",
+      "name": "Blitzcrank"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño recibido",
+     "before": "100%",
+     "after": "90%",
+     "text": "Daño recibido: 100% ⇒ 90%",
+     "id": "779c9ebbb5ab",
+     "section": "modes",
+     "tags": [
+      "Tank",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.8",
+   "publishedAt": "2025-04-15T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Blitzcrank",
+      "name": "Blitzcrank"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Aumentamos el escudo de su pasiva. Aumentamos el daño de su Q.",
+     "id": "5de64d503759",
+     "section": "champions",
+     "tags": [
+      "Tank",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Blitzcrank",
+      "name": "Blitzcrank"
+     },
+     "part": "P",
+     "partTitle": "Pasiva: Barrera de Maná",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Escudo",
+     "before": "30% del Maná Máximo",
+     "after": "35% del Maná Máximo",
+     "text": "Escudo: 30% del Maná Máximo ⇒ 35% del Maná Máximo",
+     "id": "4a48f66f527c",
+     "section": "champions",
+     "tags": [
+      "Tank",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Blitzcrank",
+      "name": "Blitzcrank"
+     },
+     "part": "Q",
+     "partTitle": "Q: Agarre Cohete",
+     "spellKey": "RocketGrab",
+     "kind": "stat",
+     "attribute": "Daño",
+     "before": "105 / 150 / 195 / 240 / 285 (+ 120% de Poder de Habilidad)",
+     "after": "110 / 160 / 210 / 260 / 310 (+ 120% de Poder de Habilidad)",
+     "text": "Daño: 105 / 150 / 195 / 240 / 285 (+ 120% de Poder de Habilidad) ⇒ 110 / 160 / 210 / 260 / 310 (+ 120% de Poder de Habilidad)",
+     "id": "27d9c71cbf24",
+     "section": "champions",
+     "tags": [
+      "Tank",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  }
+ ]
+}

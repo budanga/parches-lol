@@ -1,0 +1,1751 @@
+{
+ "schemaVersion": 1,
+ "id": "Ambessa",
+ "name": "Ambessa",
+ "tags": [
+  "Fighter",
+  "Assassin"
+ ],
+ "entries": [
+  {
+   "patch": "26.20",
+   "publishedAt": "2026-10-06T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Ambessa",
+      "name": "Ambessa"
+     },
+     "part": "P",
+     "partTitle": "Pasiva: Paso de Dragarto",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño",
+     "before": "De 5 a 30 (+25% de Daño de Ataque adicional)",
+     "after": "De 5 a 25 (+20% de Daño de Ataque adicional)",
+     "text": "Daño: De 5 a 30 (+25% de Daño de Ataque adicional) ⇒ De 5 a 25 (+20% de Daño de Ataque adicional)",
+     "id": "3ebc9e58e5fb",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "26.15",
+   "publishedAt": "2026-07-28T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "ARAM: Caos",
+     "sectionId": "patch-aram:-mayhem",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Ambessa",
+      "name": "Ambessa"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño recibido",
+     "before": "-5%",
+     "after": "0%",
+     "text": "Daño recibido: -5% ⇒ 0%",
+     "id": "a3525edc3a61",
+     "section": "modes",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "26.14",
+   "publishedAt": "2026-07-14T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Ambessa",
+      "name": "Ambessa"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Tasa de daño de ataque base de la Q1",
+     "before": "60%",
+     "after": "45%",
+     "text": "Tasa de daño de ataque base de la Q1 60% ⇒ 45%",
+     "id": "c0a55380a29d",
+     "section": "modes",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Ambessa",
+      "name": "Ambessa"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Tasa de daño de ataque base de la Q2",
+     "before": "90%",
+     "after": "70%",
+     "text": "Tasa de daño de ataque base de la Q2 90% ⇒ 70%",
+     "id": "d5e92a893aa0",
+     "section": "modes",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Ambessa",
+      "name": "Ambessa"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Gragas",
+     "id": "9f1657996fef",
+     "section": "modes",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Ambessa",
+      "name": "Ambessa"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Tasa de curación de la pasiva",
+     "before": "3.5%",
+     "after": "5.5%",
+     "text": "Tasa de curación de la pasiva: 3.5% ⇒ 5.5%",
+     "id": "ac2ebbe65457",
+     "section": "modes",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Ambessa",
+      "name": "Ambessa"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño base de la E",
+     "before": "De 80 a 220",
+     "after": "De 80 a 260",
+     "text": "Daño base de la E: De 80 a 220 ⇒ De 80 a 260",
+     "id": "51855a93d85e",
+     "section": "modes",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Ambessa",
+      "name": "Ambessa"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Heimerdinger",
+     "id": "aa3f9a6784b6",
+     "section": "modes",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Ambessa",
+      "name": "Ambessa"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño base de la Q",
+     "before": "De 30 a 90",
+     "after": "De 40 a 120",
+     "text": "Daño base de la Q: De 30 a 90 ⇒ De 40 a 120",
+     "id": "84ebf0e204a3",
+     "section": "modes",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Ambessa",
+      "name": "Ambessa"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Tasa de Poder de Habilidad del rayo",
+     "before": "45%",
+     "after": "55%",
+     "text": "Tasa de Poder de Habilidad del rayo: 45% ⇒ 55%",
+     "id": "424dbc6e553d",
+     "section": "modes",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Ambessa",
+      "name": "Ambessa"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Illaoi",
+     "id": "5d3addfc5141",
+     "section": "modes",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Ambessa",
+      "name": "Ambessa"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Amplificación de daño de tentáculo de la pasiva de la Q",
+     "before": "De 4% a 20%",
+     "after": "De 10% a 30%",
+     "text": "Amplificación de daño de tentáculo de la pasiva de la Q: De 4% a 20% ⇒ De 10% a 30%",
+     "id": "171430893915",
+     "section": "modes",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Ambessa",
+      "name": "Ambessa"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Kled",
+     "id": "a0e2dbaa3542",
+     "section": "modes",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Ambessa",
+      "name": "Ambessa"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Enfriamiento de la montura Pasiva",
+     "before": "15",
+     "after": "12",
+     "text": "Enfriamiento de la montura Pasiva: 15 ⇒ 12",
+     "id": "1aed201136cd",
+     "section": "modes",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Ambessa",
+      "name": "Ambessa"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Corrección de error: Flores de Poder ahora otorga coraje correctamente.",
+     "id": "0ebfcbbb66f1",
+     "section": "modes",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Ambessa",
+      "name": "Ambessa"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Locke",
+     "id": "5614cd597343",
+     "section": "modes",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Ambessa",
+      "name": "Ambessa"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Enfriamiento de la Q",
+     "before": "De 10 a 6",
+     "after": "De 8.5 a 4.5",
+     "text": "Enfriamiento de la Q: De 10 a 6 ⇒ De 8.5 a 4.5",
+     "id": "5a16acca25ce",
+     "section": "modes",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Ambessa",
+      "name": "Ambessa"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Enfriamiento de la E",
+     "before": "10",
+     "after": "8",
+     "text": "Enfriamiento de la E: 10 ⇒ 8",
+     "id": "ab003121e900",
+     "section": "modes",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Ambessa",
+      "name": "Ambessa"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Tasa de Poder de Habilidad de la E2",
+     "before": "0.4",
+     "after": "0.65",
+     "text": "Tasa de Poder de Habilidad de la E2: 0.4 ⇒ 0.65",
+     "id": "e07513c1b0e5",
+     "section": "modes",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Ambessa",
+      "name": "Ambessa"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Enfriamiento de la R",
+     "before": "De 120 a 80",
+     "after": "De 90 a 60",
+     "text": "Enfriamiento de la R: De 120 a 80 ⇒ De 90 a 60",
+     "id": "125bd42b770b",
+     "section": "modes",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Ambessa",
+      "name": "Ambessa"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Quinn",
+     "id": "aae15071246e",
+     "section": "modes",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Ambessa",
+      "name": "Ambessa"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Enfriamiento de la pasiva de Hostigador",
+     "before": "De 7 seg a 2.56 seg",
+     "after": "De 5 seg a 1.83 seg",
+     "text": "Enfriamiento de la pasiva de Hostigador: De 7 seg a 2.56 seg ⇒ De 5 seg a 1.83 seg",
+     "id": "fa5fea7edcb0",
+     "section": "modes",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Ambessa",
+      "name": "Ambessa"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Enfriamiento de la E",
+     "before": "De 12 a 8",
+     "after": "De 10 a 6",
+     "text": "Enfriamiento de la E: De 12 a 8 ⇒ De 10 a 6",
+     "id": "c920a00ea7e7",
+     "section": "modes",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Ambessa",
+      "name": "Ambessa"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Rakan",
+     "id": "24d80b7655eb",
+     "section": "modes",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Ambessa",
+      "name": "Ambessa"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño base de la Q",
+     "before": "De 70 a 250",
+     "after": "De 95 a 275",
+     "text": "Daño base de la Q: De 70 a 250 ⇒ De 95 a 275",
+     "id": "3a9eb14f5d9f",
+     "section": "modes",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Ambessa",
+      "name": "Ambessa"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Samira",
+     "id": "1801dab731cd",
+     "section": "modes",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Ambessa",
+      "name": "Ambessa"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño de la R",
+     "before": "10 / 20 / 30",
+     "after": "15 / 30 / 45",
+     "text": "Daño de la R: 10 / 20 / 30 ⇒ 15 / 30 / 45",
+     "id": "cfe490fe6fe1",
+     "section": "modes",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Ambessa",
+      "name": "Ambessa"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Skarner",
+     "id": "bba759d9e2ee",
+     "section": "modes",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Ambessa",
+      "name": "Ambessa"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Distancia de movimiento de la E tras el agarre",
+     "before": "675",
+     "after": "1000",
+     "text": "Distancia de movimiento de la E tras el agarre: 675 ⇒ 1000",
+     "id": "2ed2b984a49e",
+     "section": "modes",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Ambessa",
+      "name": "Ambessa"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño base de la R",
+     "before": "De 250 a 450",
+     "after": "De 350 a 550",
+     "text": "Daño base de la R: De 250 a 450 ⇒ De 350 a 550",
+     "id": "598789f565a3",
+     "section": "modes",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Ambessa",
+      "name": "Ambessa"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Velocidad de movimiento mientras está activa",
+     "before": "40%",
+     "after": "60%",
+     "text": "Velocidad de movimiento mientras está activa: 40% ⇒ 60%",
+     "id": "aae264f6848a",
+     "section": "modes",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Ambessa",
+      "name": "Ambessa"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Swain",
+     "id": "2d6d64f6119b",
+     "section": "modes",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Ambessa",
+      "name": "Ambessa"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Poder Demoniaco generado por segundo al drenar (R)",
+     "before": "20",
+     "after": "25",
+     "text": "Poder Demoniaco generado por segundo al drenar (R): 20 ⇒ 25",
+     "id": "98e4d68d293f",
+     "section": "modes",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Ambessa",
+      "name": "Ambessa"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Poder Demoniaco perdido",
+     "before": "10",
+     "after": "15",
+     "text": "Poder Demoniaco perdido: 10 ⇒ 15",
+     "id": "a68bd9e0dfb8",
+     "section": "modes",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Ambessa",
+      "name": "Ambessa"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Poder Demoniaco amplificado perdido tras 5 seg",
+     "before": "15",
+     "after": "20",
+     "text": "Poder Demoniaco amplificado perdido tras 5 seg: 15 ⇒ 20",
+     "id": "c48fd75e1ce1",
+     "section": "modes",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Ambessa",
+      "name": "Ambessa"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Yorick",
+     "id": "a0b118571dbd",
+     "section": "modes",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Ambessa",
+      "name": "Ambessa"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Tasa de vida faltante de la Q",
+     "before": "De 3% a 7%",
+     "after": "De 6% a 10%",
+     "text": "Tasa de vida faltante de la Q: De 3% a 7% ⇒ De 6% a 10%",
+     "id": "ea2dbc6bb752",
+     "section": "modes",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Ambessa",
+      "name": "Ambessa"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Modificador de Vida de Dama de la Niebla (R)",
+     "before": "70%",
+     "after": "100%",
+     "text": "Modificador de Vida de Dama de la Niebla (R): 70% ⇒ 100%",
+     "id": "a8cf76e310dc",
+     "section": "modes",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Ambessa",
+      "name": "Ambessa"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Zoe",
+     "id": "af96997512a4",
+     "section": "modes",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Ambessa",
+      "name": "Ambessa"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Tasa de Poder de Habilidad de la Pasiva",
+     "before": "35%",
+     "after": "40%",
+     "text": "Tasa de Poder de Habilidad de la Pasiva: 35% ⇒ 40%",
+     "id": "5e2fdb9857cc",
+     "section": "modes",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Ambessa",
+      "name": "Ambessa"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Tasa de Poder de Habilidad de la Q",
+     "before": "De 0.6 a 1.5",
+     "after": "De 0.7 a 1.75",
+     "text": "Tasa de Poder de Habilidad de la Q: De 0.6 a 1.5 ⇒ De 0.7 a 1.75",
+     "id": "d47a6f550abb",
+     "section": "modes",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Ambessa",
+      "name": "Ambessa"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño mágico de la W por proyectil",
+     "before": "De 15 a 55",
+     "after": "De 20 a 80",
+     "text": "Daño mágico de la W por proyectil: De 15 a 55 ⇒ De 20 a 80",
+     "id": "6bdf60893747",
+     "section": "modes",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Ambessa",
+      "name": "Ambessa"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Enfriamiento de la R",
+     "before": "De 11 a 5",
+     "after": "De 8 a 2",
+     "text": "Enfriamiento de la R: De 11 a 5 ⇒ De 8 a 2",
+     "id": "ae817db5bcd4",
+     "section": "modes",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "26.10",
+   "publishedAt": "2026-05-12T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Ambessa",
+      "name": "Ambessa"
+     },
+     "part": "Q",
+     "partTitle": "Q: Barrido Astuto / Azote Desgarrador",
+     "spellKey": "AmbessaQ",
+     "kind": "stat",
+     "attribute": "Daño según la Vida Máxima del objetivo",
+     "before": "2 / 3 / 4 / 5 / 6%",
+     "after": "4 / 4.5 / 5 / 5.5 / 6%",
+     "text": "Daño según la Vida Máxima del objetivo: 2 / 3 / 4 / 5 / 6% ⇒ 4 / 4.5 / 5 / 5.5 / 6%",
+     "id": "281d9d215b34",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Ambessa",
+      "name": "Ambessa"
+     },
+     "part": "Q",
+     "partTitle": "Q: Barrido Astuto / Azote Desgarrador",
+     "spellKey": "AmbessaQ",
+     "kind": "stat",
+     "attribute": "Daño adicional contra monstruos",
+     "before": "125",
+     "after": "75",
+     "text": "Daño adicional contra monstruos: 125 ⇒ 75",
+     "id": "5d04d77b2bd6",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Ambessa",
+      "name": "Ambessa"
+     },
+     "part": "R",
+     "partTitle": "R: Ejecución Pública",
+     "spellKey": "AmbessaR",
+     "kind": "stat",
+     "attribute": "Porcentaje de vida",
+     "before": "10 / 12.5 / 15%",
+     "after": "15 / 17.5 / 20%",
+     "text": "Porcentaje de vida: 10 / 12.5 / 15% ⇒ 15 / 17.5 / 20%",
+     "id": "60b76027b2c3",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Ambessa",
+      "name": "Ambessa"
+     },
+     "part": "R",
+     "partTitle": "R: Ejecución Pública",
+     "spellKey": "AmbessaR",
+     "kind": "stat",
+     "attribute": "Efectividad de curación contra monstruos",
+     "before": "40%",
+     "after": "25%",
+     "text": "Efectividad de curación contra monstruos: 40%⇒ 25%",
+     "id": "6df26a6fd25c",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "26.9",
+   "publishedAt": "2026-04-28T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Ambessa",
+      "name": "Ambessa"
+     },
+     "part": "R",
+     "partTitle": "R: Ejecución Pública",
+     "spellKey": "AmbessaR",
+     "kind": "stat",
+     "attribute": "Tiempo de lanzamiento",
+     "before": "0.55",
+     "after": "0.70",
+     "text": "Tiempo de lanzamiento: 0.55 ⇒ 0.70",
+     "id": "30e549127d9e",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "26.4",
+   "publishedAt": "2026-02-18T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Ambessa",
+      "name": "Ambessa"
+     },
+     "part": "Q",
+     "partTitle": "Q: Barrido Astuto / Azote Desgarrador",
+     "spellKey": "AmbessaQ",
+     "kind": "stat",
+     "attribute": "Daño adicional a monstruos",
+     "before": "150",
+     "after": "125",
+     "text": "Daño adicional a monstruos: 150 ⇒ 125",
+     "id": "8b0abc373564",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.24",
+   "publishedAt": "2025-12-02T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Actualizaciones dentro de la versión, 16 de diciembre de 2025",
+     "sectionId": "patch-season-3-ranked-ending-soon",
+     "midPatch": true,
+     "entity": {
+      "kind": "champion",
+      "id": "Ambessa",
+      "name": "Ambessa"
+     },
+     "part": "P",
+     "partTitle": "Pasiva: Paso de Dragarto",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño",
+     "before": "(+ 30% de Daño de Ataque adicional)",
+     "after": "(+ 25% de Daño de Ataque adicional)",
+     "text": "Daño: (+ 30% de Daño de Ataque adicional) ⇒ (+ 25% de Daño de Ataque adicional)",
+     "id": "aa6530e2c32e",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Actualizaciones dentro de la versión, 16 de diciembre de 2025",
+     "sectionId": "patch-season-3-ranked-ending-soon",
+     "midPatch": true,
+     "entity": {
+      "kind": "champion",
+      "id": "Ambessa",
+      "name": "Ambessa"
+     },
+     "part": "E",
+     "partTitle": "E: Lacerar",
+     "spellKey": "AmbessaE",
+     "kind": "stat",
+     "attribute": "Daño",
+     "before": "(+ 40% / 45% / 50% / 55% / 60% de Daño de Ataque adicional)",
+     "after": "(+ 50% de Daño de Ataque adicional)",
+     "text": "Daño: (+ 40% / 45% / 50% / 55% / 60% de Daño de Ataque adicional) ⇒ (+ 50% de Daño de Ataque adicional)",
+     "id": "fc482faa6326",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Ambessa",
+      "name": "Ambessa"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": null,
+     "before": "Enfriamiento de la Q: De 14 a 10 seg",
+     "after": "De 16 a 12 seg",
+     "text": "Enfriamiento de la Q: De 14 a 10 seg ⇒ De 16 a 12 seg",
+     "id": "dd222b7f6ceb",
+     "section": "modes",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.23",
+   "publishedAt": "2025-11-18T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Ambessa",
+      "name": "Ambessa"
+     },
+     "part": "Q",
+     "partTitle": "Q: Barrido Astuto / Azote Desgarrador",
+     "spellKey": "AmbessaQ",
+     "kind": "stat",
+     "attribute": "Daño contra monstruos",
+     "before": "+125",
+     "after": "+150",
+     "text": "Daño contra monstruos: +125 ⇒ +150",
+     "id": "41c3c9c9e236",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.20",
+   "publishedAt": "2025-10-07T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena-",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Ambessa",
+      "name": "Ambessa"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": null,
+     "before": "Daño por porcentaje de Vida de la Q1: De 2% a 6%",
+     "after": "De 2% a 5%",
+     "text": "Daño por porcentaje de Vida de la Q1: De 2% a 6% ⇒ De 2% a 5%",
+     "id": "56431830dd84",
+     "section": "modes",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena-",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Ambessa",
+      "name": "Ambessa"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": null,
+     "before": "Daño por porcentaje de Vida de la Q2: De 2% a 6%",
+     "after": "De 2% a 5%",
+     "text": "Daño por porcentaje de Vida de la Q2: De 2% a 6% ⇒ De 2% a 5%",
+     "id": "89538f1a0d42",
+     "section": "modes",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena-",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Ambessa",
+      "name": "Ambessa"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": null,
+     "before": "Enfriamiento de la W: De 18 a 14 seg",
+     "after": "De 20 a 16 seg",
+     "text": "Enfriamiento de la W: De 18 a 14 seg ⇒ De 20 a 16 seg",
+     "id": "2a0248886b7f",
+     "section": "modes",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.7",
+   "publishedAt": "2025-04-01T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Ambessa",
+      "name": "Ambessa"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Selecciona un sacrificio:",
+     "id": "3b6d42e00ab1",
+     "section": "modes",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Ambessa",
+      "name": "Ambessa"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Sacrificio por plata: tras 2 rondas, obtienes un aumento de plata",
+     "id": "f9f10e53015c",
+     "section": "modes",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Ambessa",
+      "name": "Ambessa"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Sacrificio por oro: por las siguientes 5 rondas, entra al combate con un 75% de vida y después de las rondas, obtienes un aumento de oro",
+     "id": "5d8a48a14e2e",
+     "section": "modes",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Ambessa",
+      "name": "Ambessa"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Sacrificio de prismático: por las siguientes 7 rondas, entra en combate con un 50% de vida y después de las 7 rondas, obtienes un aumento de prismático",
+     "id": "a6f1cdd10290",
+     "section": "modes",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.5",
+   "publishedAt": "2025-03-04T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Ambessa",
+      "name": "Ambessa"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Redujimos el daño de su E.",
+     "id": "60dae6e9ce09",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Ambessa",
+      "name": "Ambessa"
+     },
+     "part": "E",
+     "partTitle": "E: Lacerar",
+     "spellKey": "AmbessaE",
+     "kind": "stat",
+     "attribute": "Daño",
+     "before": "40/65/90/115/140 (+60% de Daño de Ataque adicional)",
+     "after": "40/60/80/100/120 (+60 de Daño de Ataque adicional)",
+     "text": "Daño: 40/65/90/115/140 (+60% de Daño de Ataque adicional) ⇒ 40/60/80/100/120 (+60 de Daño de Ataque adicional)",
+     "id": "587a91d5c76d",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  }
+ ]
+}

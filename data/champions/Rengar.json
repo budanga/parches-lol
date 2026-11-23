@@ -1,0 +1,713 @@
+{
+ "schemaVersion": 1,
+ "id": "Rengar",
+ "name": "Rengar",
+ "tags": [
+  "Assassin",
+  "Fighter"
+ ],
+ "entries": [
+  {
+   "patch": "26.21",
+   "publishedAt": "2026-10-20T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Rengar",
+      "name": "Rengar"
+     },
+     "part": "W",
+     "partTitle": "W: Rugido de Batalla",
+     "spellKey": "RengarW",
+     "kind": "stat",
+     "attribute": "Tasa de Poder de Habilidad",
+     "before": "95%",
+     "after": "120%",
+     "text": "Tasa de Poder de Habilidad: 95% ⇒ 120%",
+     "id": "1e8269d116ac",
+     "section": "modes",
+     "tags": [
+      "Assassin",
+      "Fighter"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Rengar",
+      "name": "Rengar"
+     },
+     "part": "W",
+     "partTitle": "W: Rugido de Batalla",
+     "spellKey": "RengarW",
+     "kind": "stat",
+     "attribute": "Tasa de Poder de Habilidad potenciada",
+     "before": "105%",
+     "after": "120%",
+     "text": "Tasa de Poder de Habilidad potenciada: 105% ⇒ 120%",
+     "id": "da1525d18428",
+     "section": "modes",
+     "tags": [
+      "Assassin",
+      "Fighter"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "26.4",
+   "publishedAt": "2026-02-18T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Rengar",
+      "name": "Rengar"
+     },
+     "part": "Q",
+     "partTitle": "Q: Fiereza",
+     "spellKey": "RengarQ",
+     "kind": "stat",
+     "attribute": "Daño",
+     "before": "30 / 60 / 90 / 120 / 150 (+100 / 103.75 / 107.5 / 111.25 / 115% de Daño de Ataque total)",
+     "after": "20 / 55 / 90 / 125 / 160 (+ 105% de Daño de Ataque total)",
+     "text": "Daño: 30 / 60 / 90 / 120 / 150 (+100 / 103.75 / 107.5 / 111.25 / 115% de Daño de Ataque total) ⇒ 20 / 55 / 90 / 125 / 160 (+ 105% de Daño de Ataque total)",
+     "id": "4e37a05d27eb",
+     "section": "champions",
+     "tags": [
+      "Assassin",
+      "Fighter"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Rengar",
+      "name": "Rengar"
+     },
+     "part": "Q",
+     "partTitle": "Q: Fiereza",
+     "spellKey": "RengarQ",
+     "kind": "stat",
+     "attribute": "Daño de Ferocidad",
+     "before": "30 - 235 (según el nivel) (+130% de Daño de Ataque total)",
+     "after": "35 - 240 (según el nivel) (+120% de Daño de Ataque total)",
+     "text": "Daño de Ferocidad: 30 - 235 (según el nivel) (+130% de Daño de Ataque total) ⇒ 35 - 240 (según el nivel) (+120% de Daño de Ataque total)",
+     "id": "dc0b68ff1c1b",
+     "section": "champions",
+     "tags": [
+      "Assassin",
+      "Fighter"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "26.1",
+   "publishedAt": "2026-01-07T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Rengar",
+      "name": "Rengar"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Actualizamos los scripts de todas las habilidades de Rengar",
+     "id": "2af65c7d27f2",
+     "section": "champions",
+     "tags": [
+      "Assassin",
+      "Fighter"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Rengar",
+      "name": "Rengar"
+     },
+     "part": "Q",
+     "partTitle": "Q: Fiereza",
+     "spellKey": "RengarQ",
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Ahora, la Q se consume al golpear plantas",
+     "id": "8db98a2f9ac4",
+     "section": "champions",
+     "tags": [
+      "Assassin",
+      "Fighter"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Rengar",
+      "name": "Rengar"
+     },
+     "part": "Q",
+     "partTitle": "Q: Fiereza",
+     "spellKey": "RengarQ",
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "La Q ya no asesta siempre un golpe crítico",
+     "id": "498e99311ff6",
+     "section": "champions",
+     "tags": [
+      "Assassin",
+      "Fighter"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Rengar",
+      "name": "Rengar"
+     },
+     "part": "Q",
+     "partTitle": "Q: Fiereza",
+     "spellKey": "RengarQ",
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "El daño de la Q ya no inflige hasta un 101.25% de Daño de Ataque total como daño adicional según la probabilidad de golpe crítico y el daño de golpe crítico",
+     "id": "04d2295479e8",
+     "section": "champions",
+     "tags": [
+      "Assassin",
+      "Fighter"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Rengar",
+      "name": "Rengar"
+     },
+     "part": "Q",
+     "partTitle": "Q: Fiereza",
+     "spellKey": "RengarQ",
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Ahora, la Q inflige un 100% / 130% de Daño de Ataque como daño adicional si Rengar asesta un golpe crítico",
+     "id": "19ca5f50f195",
+     "section": "champions",
+     "tags": [
+      "Assassin",
+      "Fighter"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.20",
+   "publishedAt": "2025-10-07T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Bots Apocalípticos",
+     "sectionId": "patch-doom-bots",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Rengar",
+      "name": "Rengar"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño infligido",
+     "before": "100%",
+     "after": "110%",
+     "text": "Daño infligido: 100% ⇒ 110%",
+     "id": "788b89d5d8bb",
+     "section": "modes",
+     "tags": [
+      "Assassin",
+      "Fighter"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Bots Apocalípticos",
+     "sectionId": "patch-doom-bots",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Rengar",
+      "name": "Rengar"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño recibido",
+     "before": "100%",
+     "after": "95%",
+     "text": "Daño recibido: 100% ⇒ 95%",
+     "id": "036d592b9a9c",
+     "section": "modes",
+     "tags": [
+      "Assassin",
+      "Fighter"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.13",
+   "publishedAt": "2025-06-24T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Cambios de balance de ARAM",
+     "sectionId": "patch-aram-balance-changes",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Rengar",
+      "name": "Rengar"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Tasa de Daño de Ataque de la Q",
+     "before": "De 100% a 115%",
+     "after": "De 110% a 125%",
+     "text": "Tasa de Daño de Ataque de la Q: De 100% a 115% ⇒ De 110% a 125%",
+     "id": "c7352bb86eff",
+     "section": "modes",
+     "tags": [
+      "Assassin",
+      "Fighter"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Cambios de balance de ARAM",
+     "sectionId": "patch-aram-balance-changes",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Rengar",
+      "name": "Rengar"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Tasa de Daño de Ataque de la Q potenciada",
+     "before": "130%",
+     "after": "140%",
+     "text": "Tasa de Daño de Ataque de la Q potenciada: 130% ⇒ 140%",
+     "id": "e32b06200a7b",
+     "section": "modes",
+     "tags": [
+      "Assassin",
+      "Fighter"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Cambios de balance de ARAM",
+     "sectionId": "patch-aram-balance-changes",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Rengar",
+      "name": "Rengar"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño de Ataque adicional de la E",
+     "before": "80%",
+     "after": "100%",
+     "text": "Daño de Ataque adicional de la E: 80% ⇒ 100%",
+     "id": "9d95bba6c64a",
+     "section": "modes",
+     "tags": [
+      "Assassin",
+      "Fighter"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.11",
+   "publishedAt": "2025-05-27T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Rengar",
+      "name": "Rengar"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Redujimos el enfriamiento de su R.",
+     "id": "7af0b335cdfe",
+     "section": "champions",
+     "tags": [
+      "Assassin",
+      "Fighter"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Rengar",
+      "name": "Rengar"
+     },
+     "part": "R",
+     "partTitle": "R: Adrenalina del Cazador",
+     "spellKey": "RengarR",
+     "kind": "stat",
+     "attribute": "Enfriamiento",
+     "before": "110 / 100 / 90",
+     "after": "100 / 90 / 80",
+     "text": "Enfriamiento: 110 / 100 / 90 ⇒ 100 / 90 / 80",
+     "id": "45f203703a48",
+     "section": "champions",
+     "tags": [
+      "Assassin",
+      "Fighter"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Pelea",
+     "sectionId": "patch-brawl",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Rengar",
+      "name": "Rengar"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño recibido",
+     "before": "100%",
+     "after": "95%",
+     "text": "Daño recibido: 100% ⇒ 95%",
+     "id": "036fbee80515",
+     "section": "modes",
+     "tags": [
+      "Assassin",
+      "Fighter"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Pelea",
+     "sectionId": "patch-brawl",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Rengar",
+      "name": "Rengar"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Enfriamiento de la R",
+     "before": "110 / 100 / 90",
+     "after": "90 / 75 / 60",
+     "text": "Enfriamiento de la R: 110 / 100 / 90 ⇒ 90 / 75 / 60",
+     "id": "f438f5b651bd",
+     "section": "modes",
+     "tags": [
+      "Assassin",
+      "Fighter"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.9",
+   "publishedAt": "2025-04-29T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Rengar",
+      "name": "Rengar"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Actualizamos sus objetos recomendados.",
+     "id": "d75170a6323f",
+     "section": "champions",
+     "tags": [
+      "Assassin",
+      "Fighter"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Rengar",
+      "name": "Rengar"
+     },
+     "part": "Objetos recomendados",
+     "partTitle": "Objetos recomendados",
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Actualizamos los objetos recomendados de Rengar para que muestren los objetos ideales para carril superior y jungla.",
+     "id": "a3a3990cb3fa",
+     "section": "champions",
+     "tags": [
+      "Assassin",
+      "Fighter"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.8",
+   "publishedAt": "2025-04-15T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "ARAM",
+     "sectionId": "patch-aram",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Rengar",
+      "name": "Rengar"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Enfriamiento de la R",
+     "before": "110 / 100 / 90",
+     "after": "90 / 80 / 70",
+     "text": "Enfriamiento de la R: 110 / 100 / 90 ⇒ 90 / 80 / 70",
+     "id": "4655a22ffb79",
+     "section": "modes",
+     "tags": [
+      "Assassin",
+      "Fighter"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.S1.2",
+   "publishedAt": "2025-01-22T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Partida Casual",
+     "sectionId": "patch-swiftplay",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Rengar",
+      "name": "Rengar"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Vida",
+     "before": "590",
+     "after": "620",
+     "text": "Vida: 590 ⇒ 620",
+     "id": "3099c7d62fe0",
+     "section": "champions",
+     "tags": [
+      "Assassin",
+      "Fighter"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Partida Casual",
+     "sectionId": "patch-swiftplay",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Rengar",
+      "name": "Rengar"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Crecimiento de Vida",
+     "before": "104",
+     "after": "110",
+     "text": "Crecimiento de Vida: 104 ⇒ 110",
+     "id": "f2902e01312c",
+     "section": "champions",
+     "tags": [
+      "Assassin",
+      "Fighter"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Partida Casual",
+     "sectionId": "patch-swiftplay",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Rengar",
+      "name": "Rengar"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Crecimiento de Daño de Ataque",
+     "before": "3",
+     "after": "3.5",
+     "text": "Crecimiento de Daño de Ataque: 3 ⇒ 3.5",
+     "id": "5c08671bce65",
+     "section": "champions",
+     "tags": [
+      "Assassin",
+      "Fighter"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  }
+ ]
+}

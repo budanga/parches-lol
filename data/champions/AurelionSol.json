@@ -1,0 +1,248 @@
+{
+ "schemaVersion": 1,
+ "id": "AurelionSol",
+ "name": "Aurelion Sol",
+ "tags": [
+  "Mage"
+ ],
+ "entries": [
+  {
+   "patch": "26.22",
+   "publishedAt": "2026-11-03T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "AurelionSol",
+      "name": "Aurelion Sol"
+     },
+     "part": "E",
+     "partTitle": "E: Singularidad",
+     "spellKey": "AurelionSolE",
+     "kind": "stat",
+     "attribute": "Daño mágico total",
+     "before": "50 / 75 / 100 / 125 / 150 (+60% de Poder de Habilidad) a lo largo de 5 seg",
+     "after": "50 / 80 / 110 / 140 / 170 (+60 / 65 / 70 / 75 / 80% de Poder de Habilidad) a lo largo de 5 seg",
+     "text": "Daño mágico total: 50 / 75 / 100 / 125 / 150 (+60% de Poder de Habilidad) a lo largo de 5 seg ⇒ 50 / 80 / 110 / 140 / 170 (+60 / 65 / 70 / 75 / 80% de Poder de Habilidad) a lo largo de 5 seg",
+     "id": "514db42db197",
+     "section": "champions",
+     "tags": [
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "26.17",
+   "publishedAt": "2026-08-25T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "AurelionSol",
+      "name": "Aurelion Sol"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Costo de Maná por seg",
+     "before": "35 / 40 / 45 / 50 / 55",
+     "after": "30 / 35 / 40 / 45 / 50",
+     "text": "Costo de Maná por seg: 35 / 40 / 45 / 50 / 55 ⇒ 30 / 35 / 40 / 45 / 50",
+     "id": "8d9d8e46fbff",
+     "section": "champions",
+     "tags": [
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "AurelionSol",
+      "name": "Aurelion Sol"
+     },
+     "part": "W",
+     "partTitle": "W: Vuelo Astral",
+     "spellKey": "AurelionSolW",
+     "kind": "stat",
+     "attribute": "Enfriamiento",
+     "before": "22 / 20.5 / 19 / 17.5 / 16s",
+     "after": "22 / 20 / 18 / 16 / 14s",
+     "text": "Enfriamiento: 22 / 20.5 / 19 / 17.5 / 16s ⇒ 22 / 20 / 18 / 16 / 14s",
+     "id": "0bfcadda484d",
+     "section": "champions",
+     "tags": [
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.22",
+   "publishedAt": "2025-11-04T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "AurelionSol",
+      "name": "Aurelion Sol"
+     },
+     "part": "base",
+     "partTitle": "Estadísticas básicas",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Velocidad de Movimiento",
+     "before": "335",
+     "after": "340",
+     "text": "Velocidad de Movimiento: 335 ⇒ 340",
+     "id": "7d8ba99a2285",
+     "section": "champions",
+     "tags": [
+      "Mage"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "AurelionSol",
+      "name": "Aurelion Sol"
+     },
+     "part": "Q",
+     "partTitle": "Q: Aliento Luminoso",
+     "spellKey": "AurelionSolQ",
+     "kind": "stat",
+     "attribute": "Costo inicial de Maná por segundo",
+     "before": "35 / 40 / 45 / 50 / 55",
+     "after": "30 / 35 / 40 / 45 / 50",
+     "text": "Costo inicial de Maná por segundo: 35 / 40 / 45 / 50 / 55 ⇒ 30 / 35 / 40 / 45 / 50",
+     "id": "49bd9b2d6b22",
+     "section": "champions",
+     "tags": [
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.20",
+   "publishedAt": "2025-10-07T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena-",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "AurelionSol",
+      "name": "Aurelion Sol"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": null,
+     "before": "Obtención de Polvo Estelar de la Q: 2",
+     "after": "4",
+     "text": "Obtención de Polvo Estelar de la Q: 2 ⇒ 4",
+     "id": "1970dd0bc521",
+     "section": "modes",
+     "tags": [
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena-",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "AurelionSol",
+      "name": "Aurelion Sol"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": null,
+     "before": "Tasa de Poder de Habilidad de la Q: 55%",
+     "after": "60%",
+     "text": "Tasa de Poder de Habilidad de la Q: 55% ⇒ 60%",
+     "id": "c7eb53f2dedd",
+     "section": "modes",
+     "tags": [
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.14",
+   "publishedAt": "2025-07-15T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones (Arena)",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "AurelionSol",
+      "name": "Aurelion Sol"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": null,
+     "before": "Cantidad de acumulaciones de la pasiva por ronda: 40",
+     "after": "30",
+     "text": "Cantidad de acumulaciones de la pasiva por ronda: 40 ⇒ 30",
+     "id": "421873fd0dfe",
+     "section": "modes",
+     "tags": [
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  }
+ ]
+}

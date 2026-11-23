@@ -1,0 +1,437 @@
+{
+ "schemaVersion": 1,
+ "id": "Karma",
+ "name": "Karma",
+ "tags": [
+  "Mage",
+  "Support"
+ ],
+ "entries": [
+  {
+   "patch": "26.21",
+   "publishedAt": "2026-10-20T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Classic",
+     "sectionId": "patch-classic",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Karma",
+      "name": "Karma"
+     },
+     "part": "Q",
+     "partTitle": "Q: Onda Celestial",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño",
+     "before": "70 / 110 / 150 / 190 / 230 / 270",
+     "after": "85 / 125 / 165 / 205 / 245 / 285",
+     "text": "Daño: 70 / 110 / 150 / 190 / 230 / 270 ⇒ 85 / 125 / 165 / 205 / 245 / 285",
+     "id": "b564bd8c6524",
+     "section": "modes",
+     "tags": [
+      "Mage",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Classic",
+     "sectionId": "patch-classic",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Karma",
+      "name": "Karma"
+     },
+     "part": "Q",
+     "partTitle": "Q: Onda Celestial",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Curación básica de Mantra",
+     "before": "35 / 55 / 75 / 95 / 115 / 135",
+     "after": "50 / 70 / 90 / 110 / 130 / 150",
+     "text": "Curación básica de Mantra: 35 / 55 / 75 / 95 / 115 / 135 ⇒ 50 / 70 / 90 / 110 / 130 / 150",
+     "id": "438a3b4d5514",
+     "section": "modes",
+     "tags": [
+      "Mage",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Classic",
+     "sectionId": "patch-classic",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Karma",
+      "name": "Karma"
+     },
+     "part": "W",
+     "partTitle": "W: Vínculo Espiritual",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño base",
+     "before": "80 / 125 / 170 / 215 / 260 / 305",
+     "after": "100 / 140 / 180 / 220 / 260 / 300",
+     "text": "Daño base: 80 / 125 / 170 / 215 / 260 / 305 ⇒ 100 / 140 / 180 / 220 / 260 / 300",
+     "id": "3664a43e0ee4",
+     "section": "modes",
+     "tags": [
+      "Mage",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Classic",
+     "sectionId": "patch-classic",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Karma",
+      "name": "Karma"
+     },
+     "part": "W",
+     "partTitle": "W: Vínculo Espiritual",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Velocidad de Movimiento",
+     "before": "10 / 12 / 14 / 16 / 18 / 20%",
+     "after": "15 / 16 / 17 / 18 / 19 / 20%",
+     "text": "Velocidad de Movimiento: 10 / 12 / 14 / 16 / 18 / 20% ⇒ 15 / 16 / 17 / 18 / 19 / 20%",
+     "id": "4100d209c70b",
+     "section": "modes",
+     "tags": [
+      "Mage",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "26.20",
+   "publishedAt": "2026-10-06T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "LoL Classic",
+     "sectionId": "patch-classic",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Karma",
+      "name": "Karma"
+     },
+     "part": "Campeones",
+     "partTitle": "Campeones",
+     "spellKey": null,
+     "kind": "new",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "NUEVO Karma",
+     "id": "5f22f9871f10",
+     "section": "modes",
+     "tags": [
+      "Mage",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "26.8",
+   "publishedAt": "2026-04-14T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Karma",
+      "name": "Karma"
+     },
+     "part": "base",
+     "partTitle": "Estadísticas base",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño de Ataque base",
+     "before": "51",
+     "after": "49",
+     "text": "Daño de Ataque base: 51 ⇒ 49",
+     "id": "12f40ab782bf",
+     "section": "champions",
+     "tags": [
+      "Mage",
+      "Support"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Karma",
+      "name": "Karma"
+     },
+     "part": "base",
+     "partTitle": "Estadísticas base",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Crecimiento del daño de ataque",
+     "before": "3.3",
+     "after": "3.0",
+     "text": "Crecimiento del daño de ataque: 3.3 ⇒ 3.0",
+     "id": "4d43bbe51bb9",
+     "section": "champions",
+     "tags": [
+      "Mage",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Karma",
+      "name": "Karma"
+     },
+     "part": "E",
+     "partTitle": "E: Inspiración",
+     "spellKey": "KarmaSolKimShield",
+     "kind": "stat",
+     "attribute": "Costo de Maná",
+     "before": "50 / 55 / 60 / 65 / 70",
+     "after": "60 / 65 / 70 / 75 / 80",
+     "text": "Costo de Maná: 50 / 55 / 60 / 65 / 70 ⇒ 60 / 65 / 70 / 75 / 80",
+     "id": "44d3531545be",
+     "section": "champions",
+     "tags": [
+      "Mage",
+      "Support"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "26.7",
+   "publishedAt": "2026-03-31T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Karma",
+      "name": "Karma"
+     },
+     "part": "R",
+     "partTitle": "R: Mantra",
+     "spellKey": "KarmaMantra",
+     "kind": "stat",
+     "attribute": "E potenciada - Escudo adicional de Desafío para el objetivo primario/secundario",
+     "before": "50 / 100 / 150 / 200 (+45% DE PODER DE HABILIDAD)",
+     "after": "45 / 85 / 125 / 165 (+45% DE PODER DE HABILIDAD)",
+     "text": "E potenciada - Escudo adicional de Desafío para el objetivo primario/secundario: 50 / 100 / 150 / 200 (+45% DE PODER DE HABILIDAD) ⇒ 45 / 85 / 125 / 165 (+45% DE PODER DE HABILIDAD)",
+     "id": "2a2ce73c38f9",
+     "section": "champions",
+     "tags": [
+      "Mage",
+      "Support"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "26.1",
+   "publishedAt": "2026-01-07T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "ARAM: Caos",
+     "sectionId": "patch-aram-mayhem",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Karma",
+      "name": "Karma"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": null,
+     "before": "Daño adicional del combo R + Q: 40 / 90 / 140 / 190",
+     "after": "40 / 100 / 160 / 220",
+     "text": "Daño adicional del combo R + Q: 40 / 90 / 140 / 190 ⇒ 40 / 100 / 160 / 220",
+     "id": "67c299044077",
+     "section": "modes",
+     "tags": [
+      "Mage",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.6",
+   "publishedAt": "2025-03-18T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Karma",
+      "name": "Karma"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Redujimos el daño básico de su Q.",
+     "id": "9b86d1bb0b00",
+     "section": "champions",
+     "tags": [
+      "Mage",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Karma",
+      "name": "Karma"
+     },
+     "part": "Q",
+     "partTitle": "Q: Llama Interna",
+     "spellKey": "KarmaQ",
+     "kind": "stat",
+     "attribute": "Daño",
+     "before": "70 / 120 / 170 / 220 / 270 (+ 70% de Poder de Habilidad)",
+     "after": "60 / 110 / 160 / 210 / 260 (+ 70% de Poder de Habilidad)",
+     "text": "Daño: 70 / 120 / 170 / 220 / 270 (+ 70% de Poder de Habilidad) ⇒ 60 / 110 / 160 / 210 / 260 (+ 70% de Poder de Habilidad)",
+     "id": "b6651b1e8040",
+     "section": "champions",
+     "tags": [
+      "Mage",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.S1.2",
+   "publishedAt": "2025-01-22T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "ARAM",
+     "sectionId": "patch-aram",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Karma",
+      "name": "Karma"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": null,
+     "before": "Daño mágico adicional de la RQ: 40/100/160/220 (+30% de Poder de Habilidad)",
+     "after": "40/90/140/190",
+     "text": "Daño mágico adicional de la RQ: 40/100/160/220 (+30% de Poder de Habilidad) ⇒ 40/90/140/190",
+     "id": "c6ff9e593bd6",
+     "section": "modes",
+     "tags": [
+      "Mage",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.S1.1",
+   "publishedAt": "2025-01-07T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "ARAM",
+     "sectionId": "patch-aram",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Karma",
+      "name": "Karma"
+     },
+     "part": "Mejoras a campeones",
+     "partTitle": "Mejoras a campeones",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño infligido",
+     "before": "98%",
+     "after": "100%",
+     "text": "Karma: Daño infligido: 98% ⇒ 100%",
+     "id": "fdf09d4422ac",
+     "section": "modes",
+     "tags": [
+      "Mage",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  }
+ ]
+}

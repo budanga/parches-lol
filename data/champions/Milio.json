@@ -1,0 +1,305 @@
+{
+ "schemaVersion": 1,
+ "id": "Milio",
+ "name": "Milio",
+ "tags": [
+  "Support",
+  "Mage"
+ ],
+ "entries": [
+  {
+   "patch": "26.21",
+   "publishedAt": "2026-10-20T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Milio",
+      "name": "Milio"
+     },
+     "part": "Q",
+     "partTitle": "Q: Ultramegapatada de Fuego",
+     "spellKey": "MilioQ",
+     "kind": "stat",
+     "attribute": "Enfriamiento",
+     "before": "8 seg",
+     "after": "10 seg",
+     "text": "Enfriamiento: 8 seg ⇒ 10 seg",
+     "id": "c9a3fd06b692",
+     "section": "modes",
+     "tags": [
+      "Support",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Milio",
+      "name": "Milio"
+     },
+     "part": "Q",
+     "partTitle": "Q: Ultramegapatada de Fuego",
+     "spellKey": "MilioQ",
+     "kind": "stat",
+     "attribute": "Tasa de Poder de Habilidad",
+     "before": "120%",
+     "after": "200%",
+     "text": "Tasa de Poder de Habilidad: 120% ⇒ 200%",
+     "id": "6095218f56e1",
+     "section": "modes",
+     "tags": [
+      "Support",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Milio",
+      "name": "Milio"
+     },
+     "part": "R",
+     "partTitle": "R: Aliento de la Vida",
+     "spellKey": "MilioR",
+     "kind": "stat",
+     "attribute": "Enfriamiento",
+     "before": "160 / 145 / 130 seg",
+     "after": "180 / 150 / 130 seg",
+     "text": "Enfriamiento: 160 / 145 / 130 seg ⇒ 180 / 150 / 130 seg",
+     "id": "8a57d3bc4414",
+     "section": "modes",
+     "tags": [
+      "Support",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "26.1",
+   "publishedAt": "2026-01-07T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "ARAM: Caos",
+     "sectionId": "patch-aram-mayhem",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Milio",
+      "name": "Milio"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": null,
+     "before": "Curación: 95%",
+     "after": "100%",
+     "text": "Curación: 95% ⇒ 100%",
+     "id": "f5412f22deb2",
+     "section": "modes",
+     "tags": [
+      "Support",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "ARAM: Caos",
+     "sectionId": "patch-aram-mayhem",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Milio",
+      "name": "Milio"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": null,
+     "before": "Escudo: 90%",
+     "after": "100%",
+     "text": "Escudo: 90% ⇒ 100%",
+     "id": "86f93f00658c",
+     "section": "modes",
+     "tags": [
+      "Support",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "ARAM: Caos",
+     "sectionId": "patch-aram-mayhem",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Milio",
+      "name": "Milio"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": null,
+     "before": "Aceleración de Habilidad: -10",
+     "after": "0",
+     "text": "Aceleración de Habilidad: -10 ⇒ 0",
+     "id": "610b275b2795",
+     "section": "modes",
+     "tags": [
+      "Support",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.24",
+   "publishedAt": "2025-12-02T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Milio",
+      "name": "Milio"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": null,
+     "before": "Daño del efecto de quemadura de la pasiva: De 10 a 50",
+     "after": "De 20 a 100",
+     "text": "Daño del efecto de quemadura de la pasiva: De 10 a 50 ⇒ De 20 a 100",
+     "id": "3ddeef190c36",
+     "section": "modes",
+     "tags": [
+      "Support",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Milio",
+      "name": "Milio"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": null,
+     "before": "Enfriamiento de la Q: 10 seg",
+     "after": "8 seg",
+     "text": "Enfriamiento de la Q: 10 seg ⇒ 8 seg",
+     "id": "334428f45e33",
+     "section": "modes",
+     "tags": [
+      "Support",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Milio",
+      "name": "Milio"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": null,
+     "before": "Curación básica de la R: De 150 a 350",
+     "after": "De 200 a 500",
+     "text": "Curación básica de la R: De 150 a 350 ⇒ De 200 a 500",
+     "id": "fc15705da438",
+     "section": "modes",
+     "tags": [
+      "Support",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.11",
+   "publishedAt": "2025-05-27T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Pelea",
+     "sectionId": "patch-brawl",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Milio",
+      "name": "Milio"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Enfriamiento de la R",
+     "before": "160 / 145 / 130",
+     "after": "130 / 115 / 100",
+     "text": "Enfriamiento de la R: 160 / 145 / 130 ⇒ 130 / 115 / 100",
+     "id": "9610db5ec6dc",
+     "section": "modes",
+     "tags": [
+      "Support",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  }
+ ]
+}

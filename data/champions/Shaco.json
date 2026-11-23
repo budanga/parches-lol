@@ -1,0 +1,650 @@
+{
+ "schemaVersion": 1,
+ "id": "Shaco",
+ "name": "Shaco",
+ "tags": [
+  "Assassin"
+ ],
+ "entries": [
+  {
+   "patch": "26.1",
+   "publishedAt": "2026-01-07T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Shaco",
+      "name": "Shaco"
+     },
+     "part": "P",
+     "partTitle": "Pasiva: Puñalada en la Espalda",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño",
+     "before": "De 20 a 35 (según el nivel) (+ 25% de Daño de Ataque adicional)",
+     "after": "De 20 a 35 (según el nivel) (+ 20% de Daño de Ataque adicional)",
+     "text": "Daño: De 20 a 35 (según el nivel) (+ 25% de Daño de Ataque adicional) ⇒ De 20 a 35 (según el nivel) (+ 20% de Daño de Ataque adicional)",
+     "id": "a70d15a029f7",
+     "section": "champions",
+     "tags": [
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Shaco",
+      "name": "Shaco"
+     },
+     "part": "P",
+     "partTitle": "Pasiva: Puñalada en la Espalda",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Modificador de daño de golpe crítico",
+     "before": "100% (×1.75 / ×2.15)",
+     "after": "100% (×2.0 / ×2.3)",
+     "text": "Modificador de daño de golpe crítico: 100% (×1.75 / ×2.15) ⇒ 100% (×2.0 / ×2.3)",
+     "id": "6b7a45155996",
+     "section": "champions",
+     "tags": [
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Shaco",
+      "name": "Shaco"
+     },
+     "part": "Q",
+     "partTitle": "Q: Engaño",
+     "spellKey": "Deceive",
+     "kind": "stat",
+     "attribute": "Modificador de Puñalada en la Espalda",
+     "before": "×1.55 / ×1.95",
+     "after": "60% de daño de golpe crítico adicional (×1.6 / ×1.78)",
+     "text": "Modificador de Puñalada en la Espalda: ×1.55 / ×1.95 ⇒ 60% de daño de golpe crítico adicional (×1.6 / ×1.78)",
+     "id": "be9e23e75ac9",
+     "section": "champions",
+     "tags": [
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Shaco",
+      "name": "Shaco"
+     },
+     "part": "Q",
+     "partTitle": "Q: Engaño",
+     "spellKey": "Deceive",
+     "kind": "stat",
+     "attribute": "Daño de Puñalada en la Espalda al asestar un golpe crítico",
+     "before": "100% (×1.75 / ×2.15)",
+     "after": "100% (×2.0 / ×2.3)",
+     "text": "Daño de Puñalada en la Espalda al asestar un golpe crítico: 100% (×1.75 / ×2.15) ⇒ 100% (×2.0 / ×2.3)",
+     "id": "1453fe4e9519",
+     "section": "champions",
+     "tags": [
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.22",
+   "publishedAt": "2025-11-04T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Shaco",
+      "name": "Shaco"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Ahora, la W tiene un límite de seis trampas activas a la vez",
+     "id": "daf8bfa3f798",
+     "section": "modes",
+     "tags": [
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Shaco",
+      "name": "Shaco"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": null,
+     "before": "Enfriamiento de la W: 17 seg",
+     "after": "15 seg",
+     "text": "Enfriamiento de la W: 17 seg ⇒ 15 seg",
+     "id": "fee27c62e9d6",
+     "section": "modes",
+     "tags": [
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Shaco",
+      "name": "Shaco"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": null,
+     "before": "Daño a un solo objetivo de la W: 10%",
+     "after": "12% (igual que en la Grieta del Invocador)",
+     "text": "Daño a un solo objetivo de la W: 10% ⇒ 12% (igual que en la Grieta del Invocador)",
+     "id": "c53b028480a4",
+     "section": "modes",
+     "tags": [
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Shaco",
+      "name": "Shaco"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": null,
+     "before": "Tasa de Poder de Habilidad del área de efecto de la W: 14%",
+     "after": "18% (igual que en la Grieta del Invocador)",
+     "text": "Tasa de Poder de Habilidad del área de efecto de la W: 14% ⇒ 18% (igual que en la Grieta del Invocador)",
+     "id": "95e19cb76d79",
+     "section": "modes",
+     "tags": [
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.20",
+   "publishedAt": "2025-10-07T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Bots Apocalípticos",
+     "sectionId": "patch-doom-bots",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Shaco",
+      "name": "Shaco"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño infligido",
+     "before": "100%",
+     "after": "115%",
+     "text": "Daño infligido: 100% ⇒ 115%",
+     "id": "7a448ee218a5",
+     "section": "modes",
+     "tags": [
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena-",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Shaco",
+      "name": "Shaco"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": null,
+     "before": "Tasa de Daño de Ataque adicional de la pasiva: 35%",
+     "after": "40%",
+     "text": "Tasa de Daño de Ataque adicional de la pasiva: 35% ⇒ 40%",
+     "id": "5b4412581dce",
+     "section": "modes",
+     "tags": [
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena-",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Shaco",
+      "name": "Shaco"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": null,
+     "before": "Tasa de Poder de Habilidad multiobjetivo de la W: 80%",
+     "after": "10% de Poder de Habilidad",
+     "text": "Tasa de Poder de Habilidad multiobjetivo de la W: 80% ⇒ 10% de Poder de Habilidad",
+     "id": "cd47662430df",
+     "section": "modes",
+     "tags": [
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.16",
+   "publishedAt": "2025-08-12T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Shaco",
+      "name": "Shaco"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Redujimos el daño de su pasiva. Redujimos el daño y aumentamos el enfriamiento de su Q.",
+     "id": "ad1e0e7a5736",
+     "section": "champions",
+     "tags": [
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Shaco",
+      "name": "Shaco"
+     },
+     "part": "P",
+     "partTitle": "Pasiva: Puñalada en la Espalda",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Tasa de Daño de Ataque adicional",
+     "before": "30%",
+     "after": "25%",
+     "text": "Tasa de Daño de Ataque adicional: 30% ⇒ 25%",
+     "id": "eaf3d77a042f",
+     "section": "champions",
+     "tags": [
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Shaco",
+      "name": "Shaco"
+     },
+     "part": "Q",
+     "partTitle": "Q: Engaño",
+     "spellKey": "Deceive",
+     "kind": "stat",
+     "attribute": "Tasa de Daño de Ataque adicional",
+     "before": "65%",
+     "after": "60%",
+     "text": "Tasa de Daño de Ataque adicional: 65% ⇒ 60%",
+     "id": "c46884a678f7",
+     "section": "champions",
+     "tags": [
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Shaco",
+      "name": "Shaco"
+     },
+     "part": "Q",
+     "partTitle": "Q: Engaño",
+     "spellKey": "Deceive",
+     "kind": "stat",
+     "attribute": "Enfriamiento",
+     "before": "12 / 11.5 / 11 / 10.5 / 10 seg",
+     "after": "13 / 12.5 / 12 / 11.5 / 11 seg",
+     "text": "Enfriamiento: 12 / 11.5 / 11 / 10.5 / 10 seg ⇒ 13 / 12.5 / 12 / 11.5 / 11 seg",
+     "id": "886abc74280c",
+     "section": "champions",
+     "tags": [
+      "Assassin"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.13",
+   "publishedAt": "2025-06-24T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Cambios de balance de ARAM",
+     "sectionId": "patch-aram-balance-changes",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Shaco",
+      "name": "Shaco"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño de Ataque adicional de la pasiva",
+     "before": "30%",
+     "after": "40%",
+     "text": "Daño de Ataque adicional de la pasiva: 30% ⇒ 40%",
+     "id": "6e2977ce5e94",
+     "section": "modes",
+     "tags": [
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Cambios de balance de ARAM",
+     "sectionId": "patch-aram-balance-changes",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Shaco",
+      "name": "Shaco"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Enfriamiento de la Q",
+     "before": "12 / 11.5 / 11 / 10.5 / 10",
+     "after": "12 / 11 / 10 / 9 / 8",
+     "text": "Enfriamiento de la Q: 12 / 11.5 / 11 / 10.5 / 10 ⇒ 12 / 11 / 10 / 9 / 8",
+     "id": "d53890ba4693",
+     "section": "modes",
+     "tags": [
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Cambios de balance de ARAM",
+     "sectionId": "patch-aram-balance-changes",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Shaco",
+      "name": "Shaco"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño de Ataque adicional de la Q",
+     "before": "65%",
+     "after": "85%",
+     "text": "Daño de Ataque adicional de la Q: 65% ⇒ 85%",
+     "id": "7bde89fb70bc",
+     "section": "modes",
+     "tags": [
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Cambios de balance de ARAM",
+     "sectionId": "patch-aram-balance-changes",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Shaco",
+      "name": "Shaco"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño de Ataque adicional de la E",
+     "before": "80%",
+     "after": "100%",
+     "text": "Daño de Ataque adicional de la E: 80% ⇒ 100%",
+     "id": "8fcb9e20538a",
+     "section": "modes",
+     "tags": [
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.11",
+   "publishedAt": "2025-05-27T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Pelea",
+     "sectionId": "patch-brawl",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Shaco",
+      "name": "Shaco"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Aceleración de Habilidad",
+     "before": "0",
+     "after": "-10",
+     "text": "Aceleración de Habilidad: 0 ⇒ -10",
+     "id": "c8526983032b",
+     "section": "modes",
+     "tags": [
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.7",
+   "publishedAt": "2025-04-01T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Shaco",
+      "name": "Shaco"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Aumentamos el daño de su pasiva. Aumentamos el daño de su Q.",
+     "id": "9677f6b906d3",
+     "section": "champions",
+     "tags": [
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Shaco",
+      "name": "Shaco"
+     },
+     "part": "P",
+     "partTitle": "Pasiva: Puñalada en la Espalda",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño",
+     "before": "20 a 35 (según el nivel) (+ 25% de Daño de Ataque adicional) de daño físico adicional",
+     "after": "20 a 35 (según el nivel) (+ 30% de Daño de Ataque adicional) de daño físico adicional",
+     "text": "Daño: 20 a 35 (según el nivel) (+ 25% de Daño de Ataque adicional) de daño físico adicional ⇒ 20 a 35 (según el nivel) (+ 30% de Daño de Ataque adicional) de daño físico adicional",
+     "id": "067ab78ab2e7",
+     "section": "champions",
+     "tags": [
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Shaco",
+      "name": "Shaco"
+     },
+     "part": "Q",
+     "partTitle": "Q: Engaño",
+     "spellKey": "Deceive",
+     "kind": "stat",
+     "attribute": "Daño",
+     "before": "25 / 35 / 45 / 55 / 65 (+ 60% de Daño de Ataque adicional)",
+     "after": "25 / 35 / 45 / 55 / 65 (+ 65% de Daño de Ataque adicional)",
+     "text": "Daño: 25 / 35 / 45 / 55 / 65 (+ 60% de Daño de Ataque adicional) ⇒ 25 / 35 / 45 / 55 / 65 (+ 65% de Daño de Ataque adicional)",
+     "id": "5ed9af028056",
+     "section": "champions",
+     "tags": [
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  }
+ ]
+}

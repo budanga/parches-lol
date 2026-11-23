@@ -1,0 +1,284 @@
+{
+ "schemaVersion": 1,
+ "id": "Vladimir",
+ "name": "Vladimir",
+ "tags": [
+  "Mage",
+  "Fighter"
+ ],
+ "entries": [
+  {
+   "patch": "26.23",
+   "publishedAt": "2026-11-17T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Vladimir",
+      "name": "Vladimir"
+     },
+     "part": "P",
+     "partTitle": "Pasiva: Pacto Carmesí",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Tasa de Poder de Habilidad a Vida",
+     "before": "160",
+     "after": "130",
+     "text": "Tasa de Poder de Habilidad a Vida: 160 ⇒ 130",
+     "id": "2e544363826d",
+     "section": "modes",
+     "tags": [
+      "Mage",
+      "Fighter"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Vladimir",
+      "name": "Vladimir"
+     },
+     "part": "P",
+     "partTitle": "Pasiva: Pacto Carmesí",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Tasa de Vida a Poder de Habilidad",
+     "before": "3.33%",
+     "after": "2%",
+     "text": "Tasa de Vida a Poder de Habilidad: 3.33% ⇒ 2%",
+     "id": "a35e57e5f331",
+     "section": "modes",
+     "tags": [
+      "Mage",
+      "Fighter"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "26.6",
+   "publishedAt": "2026-03-17T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "ARAM: Caos",
+     "sectionId": "patch-aram:-mayhem",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Vladimir",
+      "name": "Vladimir"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": null,
+     "before": "Daño recibido: 105%",
+     "after": "100%",
+     "text": "Daño recibido: 105% ⇒ 100%",
+     "id": "5c3940a7f614",
+     "section": "modes",
+     "tags": [
+      "Mage",
+      "Fighter"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "ARAM: Caos",
+     "sectionId": "patch-aram:-mayhem",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Vladimir",
+      "name": "Vladimir"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": null,
+     "before": "Curación: 90%",
+     "after": "100%",
+     "text": "Curación: 90% ⇒ 100%",
+     "id": "82c2a7d8d4d0",
+     "section": "modes",
+     "tags": [
+      "Mage",
+      "Fighter"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "ARAM: Caos",
+     "sectionId": "patch-aram:-mayhem",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Vladimir",
+      "name": "Vladimir"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": null,
+     "before": "Daño infligido: 95%",
+     "after": "100%",
+     "text": "Daño infligido: 95% ⇒ 100%",
+     "id": "08764fb724af",
+     "section": "modes",
+     "tags": [
+      "Mage",
+      "Fighter"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.23",
+   "publishedAt": "2025-11-18T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Vladimir",
+      "name": "Vladimir"
+     },
+     "part": "base",
+     "partTitle": "Estadísticas básicas",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Vida básica",
+     "before": "607",
+     "after": "600",
+     "text": "Vida básica: 607 ⇒ 600",
+     "id": "0cdec9fb195b",
+     "section": "champions",
+     "tags": [
+      "Mage",
+      "Fighter"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Vladimir",
+      "name": "Vladimir"
+     },
+     "part": "base",
+     "partTitle": "Estadísticas básicas",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Armadura básica",
+     "before": "27",
+     "after": "24",
+     "text": "Armadura básica: 27 ⇒ 24",
+     "id": "1ef080654a5d",
+     "section": "champions",
+     "tags": [
+      "Mage",
+      "Fighter"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.9",
+   "publishedAt": "2025-04-29T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "ARAM",
+     "sectionId": "patch-aram",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Vladimir",
+      "name": "Vladimir"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño infligido",
+     "before": "95%",
+     "after": "100%",
+     "text": "Daño infligido: 95% ⇒ 100%",
+     "id": "538c84a9aadf",
+     "section": "modes",
+     "tags": [
+      "Mage",
+      "Fighter"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.6",
+   "publishedAt": "2025-03-18T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Vladimir",
+      "name": "Vladimir"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Ahora puede otorgar Chofer",
+     "id": "2dd183d813e9",
+     "section": "modes",
+     "tags": [
+      "Mage",
+      "Fighter"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,695 @@
+{
+ "schemaVersion": 1,
+ "id": "Udyr",
+ "name": "Udyr",
+ "tags": [
+  "Fighter",
+  "Tank"
+ ],
+ "entries": [
+  {
+   "patch": "26.23",
+   "publishedAt": "2026-11-17T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Classic",
+     "sectionId": "patch-classic",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Udyr",
+      "name": "Udyr"
+     },
+     "part": "Campeones",
+     "partTitle": "Campeones",
+     "spellKey": null,
+     "kind": "new",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "NUEVO : Udyr",
+     "id": "e3e1794ec42d",
+     "section": "modes",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "26.9",
+   "publishedAt": "2026-04-28T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Udyr",
+      "name": "Udyr"
+     },
+     "part": "Q",
+     "partTitle": "Q: Garra Salvaje",
+     "spellKey": "UdyrQ",
+     "kind": "stat",
+     "attribute": "Daño adicional en los primeros 2 ataques",
+     "before": "3 / 4 / 5 / 6 / 7 / 8% (+4% cada 100 de Daño de Ataque adicional) de la Vida Máxima del objetivo",
+     "after": "3 / 4 / 5 / 6 / 7 / 8% (+3.5% cada 100 de Daño de Ataque adicional) de la Vida Máxima del objetivo",
+     "text": "Daño adicional en los primeros 2 ataques: 3 / 4 / 5 / 6 / 7 / 8% (+4% cada 100 de Daño de Ataque adicional) de la Vida Máxima del objetivo ⇒ 3 / 4 / 5 / 6 / 7 / 8% (+3.5% cada 100 de Daño de Ataque adicional) de la Vida Máxima del objetivo",
+     "id": "4b7d604b85bb",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Udyr",
+      "name": "Udyr"
+     },
+     "part": "Q",
+     "partTitle": "Q: Garra Salvaje",
+     "spellKey": "UdyrQ",
+     "kind": "stat",
+     "attribute": "Daño adicional al impacto durante 4 seg",
+     "before": "5 / 13 / 21 / 29 / 37 / 45 (+25% de Daño de Ataque adicional)",
+     "after": "6 / 12 / 18 / 24 / 30 / 36 (+20% de Daño de Ataque adicional) (+1 a 2% de Vida adicional)",
+     "text": "Daño adicional al impacto durante 4 seg: 5 / 13 / 21 / 29 / 37 / 45 (+25% de Daño de Ataque adicional) ⇒ 6 / 12 / 18 / 24 / 30 / 36 (+20% de Daño de Ataque adicional) (+1 a 2% de Vida adicional)",
+     "id": "8a3cdfc5c72b",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Udyr",
+      "name": "Udyr"
+     },
+     "part": "Q",
+     "partTitle": "Q: Garra Salvaje",
+     "spellKey": "UdyrQ",
+     "kind": "stat",
+     "attribute": "Daño adicional de Despertar en los primeros 2 ataques",
+     "before": "De 2 a 4% adicional (según el nivel) (+3% cada 100 de Daño de Ataque adicional) de la Vida Máxima del objetivo",
+     "after": "De 2 a 4% adicional (según el nivel) (+1.5% cada 100 de Daño de Ataque adicional) (+1% cada 1000 de Vida adicional) de la Vida Máxima del objetivo",
+     "text": "Daño adicional de Despertar en los primeros 2 ataques: De 2 a 4% adicional (según el nivel) (+3% cada 100 de Daño de Ataque adicional) de la Vida Máxima del objetivo ⇒ De 2 a 4% adicional (según el nivel) (+1.5% cada 100 de Daño de Ataque adicional) (+1% cada 1000 de Vida adicional) de la Vida Máxima del objetivo",
+     "id": "2f322a2ff09b",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Udyr",
+      "name": "Udyr"
+     },
+     "part": "Q",
+     "partTitle": "Q: Garra Salvaje",
+     "spellKey": "UdyrQ",
+     "kind": "stat",
+     "attribute": "Daño por rebote de Cadena de Rayos despertada",
+     "before": "De 1.5 a 3% (según el nivel) (+0.8% cada 100 de Poder de Habilidad)",
+     "after": "De 1.5 a 3% (según el nivel) (+0.6% cada 100 de Poder de Habilidad)",
+     "text": "Daño por rebote de Cadena de Rayos despertada: De 1.5 a 3% (según el nivel) (+0.8% cada 100 de Poder de Habilidad) ⇒ De 1.5 a 3% (según el nivel) (+0.6% cada 100 de Poder de Habilidad)",
+     "id": "f9835f35177f",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Udyr",
+      "name": "Udyr"
+     },
+     "part": "W",
+     "partTitle": "W: Manto Férreo",
+     "spellKey": "UdyrW",
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "[NUEVO] Tasa Daño de Ataque del Escudo: 50% de Daño de Ataque adicional",
+     "id": "2b681ba1d81a",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Udyr",
+      "name": "Udyr"
+     },
+     "part": "W",
+     "partTitle": "W: Manto Férreo",
+     "spellKey": "UdyrW",
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "[NUEVO] Tasa de Daño de Ataque del Escudo despertado: 100% de Daño de Ataque adicional",
+     "id": "92d072f4b062",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Udyr",
+      "name": "Udyr"
+     },
+     "part": "W",
+     "partTitle": "W: Manto Férreo",
+     "spellKey": "UdyrW",
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "[NUEVO] Tasa de Daño de Ataque de Curación despertada: 50% de Daño de Ataque adicional",
+     "id": "95afb74e3078",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Udyr",
+      "name": "Udyr"
+     },
+     "part": "E",
+     "partTitle": "E: Estampida Abrasadora",
+     "spellKey": "UdyrE",
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "[NUEVO] Tasa de Velocidad de Movimiento por daño de ataque: 5% de Velocidad de Movimiento cada 100 de Daño de Ataque adicional",
+     "id": "64bb182d6b5d",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Udyr",
+      "name": "Udyr"
+     },
+     "part": "E",
+     "partTitle": "E: Estampida Abrasadora",
+     "spellKey": "UdyrE",
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "[NUEVO] Tasa de Velocidad de Movimiento por daño de ataque: 10% de Velocidad de Movimiento cada 100 de Daño de Ataque adicional",
+     "id": "95109315227f",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "26.4",
+   "publishedAt": "2026-02-18T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Udyr",
+      "name": "Udyr"
+     },
+     "part": "Q",
+     "partTitle": "Q: Garra Salvaje",
+     "spellKey": "UdyrQ",
+     "kind": "stat",
+     "attribute": "Daño adicional básico al impacto",
+     "before": "5 / 11 / 17 / 23 / 29 / 35",
+     "after": "5 / 13 / 21 /29 / 37 / 45",
+     "text": "Daño adicional básico al impacto: 5 / 11 / 17 / 23 / 29 / 35 ⇒ 5 / 13 / 21 /29 / 37 / 45",
+     "id": "db13af47c580",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Udyr",
+      "name": "Udyr"
+     },
+     "part": "W",
+     "partTitle": "W: Manto Férreo",
+     "spellKey": "UdyrW",
+     "kind": "stat",
+     "attribute": "Potencia básica del escudo",
+     "before": "45 / 60 / 75 / 90 / 105 / 120",
+     "after": "45 / 65 / 85 / 105 / 125 / 145",
+     "text": "Potencia básica del escudo: 45 / 60 / 75 / 90 / 105 / 120 ⇒ 45 / 65 / 85 / 105 / 125 / 145",
+     "id": "fd541da4a687",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.20",
+   "publishedAt": "2025-10-07T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena-",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Udyr",
+      "name": "Udyr"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": null,
+     "before": "Tasa de Daño de Ataque adicional de la Q: 2%",
+     "after": "1.5% por cada 100 de Daño de Ataque adicional",
+     "text": "Tasa de Daño de Ataque adicional de la Q: 2% ⇒ 1.5% por cada 100 de Daño de Ataque adicional",
+     "id": "4a9b2c6a8c4c",
+     "section": "modes",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena-",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Udyr",
+      "name": "Udyr"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": null,
+     "before": "Tasa de Daño de Ataque adicional de Despertar de la la Q2: 4%",
+     "after": "3% por cada 100 de Daño de Ataque adicional",
+     "text": "Tasa de Daño de Ataque adicional de Despertar de la la Q2: 4% ⇒ 3% por cada 100 de Daño de Ataque adicional",
+     "id": "364bb89d4080",
+     "section": "modes",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena-",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Udyr",
+      "name": "Udyr"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": null,
+     "before": "Daño básico del relámpago de la Q2: De 1.5% a 3%",
+     "after": "De 1% a 2%",
+     "text": "Daño básico del relámpago de la Q2: De 1.5% a 3% ⇒ De 1% a 2%",
+     "id": "ce443a3fffa1",
+     "section": "modes",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena-",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Udyr",
+      "name": "Udyr"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": null,
+     "before": "Aumento de la tasa de Poder de Habilidad del relámpago de la Q2: 4.8 por cada 100",
+     "after": "5.4 por cada 100 en total",
+     "text": "Aumento de la tasa de Poder de Habilidad del relámpago de la Q2: 4.8 por cada 100 ⇒ 5.4 por cada 100 en total",
+     "id": "639873e2924b",
+     "section": "modes",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena-",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Udyr",
+      "name": "Udyr"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": null,
+     "before": "Vida de la W al impacto: 1.2%",
+     "after": "1.5%",
+     "text": "Vida de la W al impacto: 1.2% ⇒ 1.5%",
+     "id": "6a18ba57530c",
+     "section": "modes",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena-",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Udyr",
+      "name": "Udyr"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": null,
+     "before": "Curación de la W2 a lo largo de 4 seg: 50%",
+     "after": "75%",
+     "text": "Curación de la W2 a lo largo de 4 seg: 50% ⇒ 75%",
+     "id": "e036dd531747",
+     "section": "modes",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena-",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Udyr",
+      "name": "Udyr"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": null,
+     "before": "Velocidad de Movimiento de la E: De 25% a 55%",
+     "after": "De 40% a 70%",
+     "text": "Velocidad de Movimiento de la E: De 25% a 55% ⇒ De 40% a 70%",
+     "id": "d7f6e18d6262",
+     "section": "modes",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.13",
+   "publishedAt": "2025-06-24T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Cambios de balance de ARAM",
+     "sectionId": "patch-aram-balance-changes",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Udyr",
+      "name": "Udyr"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Curación",
+     "before": "90%",
+     "after": "100%",
+     "text": "Curación: 90% ⇒ 100%",
+     "id": "71f35bac49f1",
+     "section": "modes",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Cambios de balance de ARAM",
+     "sectionId": "patch-aram-balance-changes",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Udyr",
+      "name": "Udyr"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Escudo",
+     "before": "90%",
+     "after": "100%",
+     "text": "Escudo: 90% ⇒ 100%",
+     "id": "ec1a09d83016",
+     "section": "modes",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.11",
+   "publishedAt": "2025-05-27T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Udyr",
+      "name": "Udyr"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Aumentamos el daño de su R.",
+     "id": "e6f1d5ef07a6",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Udyr",
+      "name": "Udyr"
+     },
+     "part": "R",
+     "partTitle": "R: Tormenta Invernal",
+     "spellKey": "UdyrR",
+     "kind": "stat",
+     "attribute": "Daño de Ataque básico al estar potenciado por la Posición de Tormenta",
+     "before": "De 10 a 30 (según el nivel) (+ 30% de Poder de Habilidad)",
+     "after": "De 10 a 40 (según el nivel) (+ 35% de Poder de Habilidad)",
+     "text": "Daño de Ataque básico al estar potenciado por la Posición de Tormenta: De 10 a 30 (según el nivel) (+ 30% de Poder de Habilidad) ⇒ De 10 a 40 (según el nivel) (+ 35% de Poder de Habilidad)",
+     "id": "b829bea64bcd",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Udyr",
+      "name": "Udyr"
+     },
+     "part": "R",
+     "partTitle": "R: Tormenta Invernal",
+     "spellKey": "UdyrR",
+     "kind": "stat",
+     "attribute": "Daño por segundo de la tormenta",
+     "before": "20 / 34 / 48 / 62 / 76 / 90 (+ 35% de Poder de Habilidad)",
+     "after": "36 / 52 / 68 / 84 / 100 (+ 35% de Poder de Habilidad)",
+     "text": "Daño por segundo de la tormenta: 20 / 34 / 48 / 62 / 76 / 90 (+ 35% de Poder de Habilidad) ⇒ 36 / 52 / 68 / 84 / 100 (+ 35% de Poder de Habilidad)",
+     "id": "7783618fbcdd",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  }
+ ]
+}

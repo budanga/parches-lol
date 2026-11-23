@@ -1,0 +1,659 @@
+{
+ "schemaVersion": 1,
+ "id": "Nocturne",
+ "name": "Nocturne",
+ "tags": [
+  "Fighter",
+  "Assassin"
+ ],
+ "entries": [
+  {
+   "patch": "26.19",
+   "publishedAt": "2026-09-22T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Nocturne",
+      "name": "Nocturne"
+     },
+     "part": "R",
+     "partTitle": "R: Paranoia",
+     "spellKey": "NocturneParanoia",
+     "kind": "stat",
+     "attribute": "Enfriamiento",
+     "before": "140 / 115 / 90 seg",
+     "after": "160 / 130 / 100 seg",
+     "text": "Enfriamiento: 140 / 115 / 90 seg ⇒ 160 / 130 / 100 seg",
+     "id": "f91c95666896",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "26.17",
+   "publishedAt": "2026-08-25T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Nocturne",
+      "name": "Nocturne"
+     },
+     "part": "base",
+     "partTitle": "Estadísticas base",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Armadura",
+     "before": "38",
+     "after": "36",
+     "text": "Armadura: 38 ⇒ 36",
+     "id": "d1cba1fd0f2b",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Nocturne",
+      "name": "Nocturne"
+     },
+     "part": "base",
+     "partTitle": "Estadísticas base",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Vida",
+     "before": "655",
+     "after": "640",
+     "text": "Vida: 655 ⇒ 640",
+     "id": "86c4f49fa627",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "26.15",
+   "publishedAt": "2026-07-28T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Nocturne",
+      "name": "Nocturne"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Pasiva: Navajas de la Penumbra",
+     "id": "3f7c451ccfe8",
+     "section": "modes",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Nocturne",
+      "name": "Nocturne"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Curación básica",
+     "before": "13 mínimo / 32 máximo",
+     "after": "15 mínimo / 50 máximo",
+     "text": "Curación básica: 13 mínimo / 32 máximo ⇒ 15 mínimo / 50 máximo",
+     "id": "2079eac54b51",
+     "section": "modes",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Nocturne",
+      "name": "Nocturne"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Tasa de Daño de Ataque",
+     "before": "120%",
+     "after": "130%",
+     "text": "Tasa de Daño de Ataque: 120% ⇒ 130%",
+     "id": "1d446c234fba",
+     "section": "modes",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Nocturne",
+      "name": "Nocturne"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Tasa de Daño de Ataque de Golpe Crítico",
+     "before": "110%",
+     "after": "120%",
+     "text": "Tasa de Daño de Ataque de Golpe Crítico: 110% ⇒ 120%",
+     "id": "a36ad424ac80",
+     "section": "modes",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Nocturne",
+      "name": "Nocturne"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "R: Paranoia",
+     "id": "2a6b2368aaa4",
+     "section": "modes",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Nocturne",
+      "name": "Nocturne"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Enfriamiento",
+     "before": "140 / 115 / 90",
+     "after": "100 / 70 / 40",
+     "text": "Enfriamiento: 140 / 115 / 90 ⇒ 100 / 70 / 40",
+     "id": "8cd58cc08d7d",
+     "section": "modes",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "26.13",
+   "publishedAt": "2026-06-23T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Nocturne",
+      "name": "Nocturne"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Ahora otorga la capacidad de caminar por los muros al estar dentro de las zonas de oscuridad",
+     "id": "ba7db811d0c7",
+     "section": "modes",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Nocturne",
+      "name": "Nocturne"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": null,
+     "before": "Cantidad de zonas: De 1 a 3",
+     "after": "3",
+     "text": "Cantidad de zonas: De 1 a 3 ⇒ 3",
+     "id": "c25459ab2132",
+     "section": "modes",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "26.12",
+   "publishedAt": "2026-06-09T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Nocturne",
+      "name": "Nocturne"
+     },
+     "part": "Q",
+     "partTitle": "Q: Portador del Anochecer",
+     "spellKey": "NocturneDuskbringer",
+     "kind": "stat",
+     "attribute": "Daño",
+     "before": "65 / 110 / 155 / 200 / 245",
+     "after": "65 / 105 / 145 / 185 / 225",
+     "text": "Daño: 65 / 110 / 155 / 200 / 245 ⇒ 65 / 105 / 145 / 185 / 225",
+     "id": "74d1dce18e97",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "26.5",
+   "publishedAt": "2026-03-03T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Nocturne",
+      "name": "Nocturne"
+     },
+     "part": "P",
+     "partTitle": "Pasiva: Navajas de la Penumbra",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Enfriamiento",
+     "before": "13",
+     "after": "12",
+     "text": "Enfriamiento: 13 ⇒ 12",
+     "id": "e45e898276ab",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Nocturne",
+      "name": "Nocturne"
+     },
+     "part": "Q",
+     "partTitle": "Q: Portador del Anochecer",
+     "spellKey": "NocturneDuskbringer",
+     "kind": "stat",
+     "attribute": "Velocidad de Movimiento adicional",
+     "before": "15 / 20 / 25 / 30 / 35%",
+     "after": "20 / 25 / 30 / 35 / 40%",
+     "text": "Velocidad de Movimiento adicional: 15 / 20 / 25 / 30 / 35% ⇒ 20 / 25 / 30 / 35 / 40%",
+     "id": "a91aeebddcdf",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.20",
+   "publishedAt": "2025-10-07T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Bots Apocalípticos",
+     "sectionId": "patch-doom-bots",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Nocturne",
+      "name": "Nocturne"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño infligido",
+     "before": "100%",
+     "after": "105%",
+     "text": "Daño infligido: 100% ⇒ 105%",
+     "id": "b535edff651a",
+     "section": "modes",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Bots Apocalípticos",
+     "sectionId": "patch-doom-bots",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Nocturne",
+      "name": "Nocturne"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño recibido",
+     "before": "100%",
+     "after": "95%",
+     "text": "Daño recibido: 100% ⇒ 95%",
+     "id": "5e1d9c55cfc9",
+     "section": "modes",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Bots Apocalípticos",
+     "sectionId": "patch-doom-bots",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Nocturne",
+      "name": "Nocturne"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Tenacidad",
+     "before": "0",
+     "after": "25",
+     "text": "Tenacidad: 0 ⇒ 25",
+     "id": "c2292dba362d",
+     "section": "modes",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.16",
+   "publishedAt": "2025-08-12T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Nocturne",
+      "name": "Nocturne"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Redujimos el crecimiento de su armadura. Redujimos el daño de ataque adicional de su Q.",
+     "id": "cfc20bb3ba62",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Nocturne",
+      "name": "Nocturne"
+     },
+     "part": "base",
+     "partTitle": "Estadísticas básicas",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Crecimiento de Armadura",
+     "before": "4.7",
+     "after": "4.2",
+     "text": "Crecimiento de Armadura: 4.7 ⇒ 4.2",
+     "id": "12fa9d71ae78",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Nocturne",
+      "name": "Nocturne"
+     },
+     "part": "Q",
+     "partTitle": "Q: Portador del Anochecer",
+     "spellKey": "NocturneDuskbringer",
+     "kind": "stat",
+     "attribute": "Daño de Ataque adicional",
+     "before": "20 / 30 / 40 / 50 / 60",
+     "after": "15 / 25 / 35 / 45 / 55",
+     "text": "Daño de Ataque adicional: 20 / 30 / 40 / 50 / 60 ⇒ 15 / 25 / 35 / 45 / 55",
+     "id": "c3cc766fb4bc",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.11",
+   "publishedAt": "2025-05-27T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Pelea",
+     "sectionId": "patch-brawl",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Nocturne",
+      "name": "Nocturne"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño recibido",
+     "before": "100%",
+     "after": "95%",
+     "text": "Daño recibido: 100% ⇒ 95%",
+     "id": "a45b6b924824",
+     "section": "modes",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Pelea",
+     "sectionId": "patch-brawl",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Nocturne",
+      "name": "Nocturne"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Enfriamiento de la R",
+     "before": "140 / 115 / 90",
+     "after": "120 / 100 / 80",
+     "text": "Enfriamiento de la R: 140 / 115 / 90 ⇒ 120 / 100 / 80",
+     "id": "1294ff14214a",
+     "section": "modes",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  }
+ ]
+}

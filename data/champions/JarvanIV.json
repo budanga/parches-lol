@@ -1,0 +1,191 @@
+{
+ "schemaVersion": 1,
+ "id": "JarvanIV",
+ "name": "Jarvan IV",
+ "tags": [
+  "Fighter",
+  "Tank"
+ ],
+ "entries": [
+  {
+   "patch": "25.16",
+   "publishedAt": "2025-08-12T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "JarvanIV",
+      "name": "Jarvan IV"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Redujimos el crecimiento de su armadura.",
+     "id": "d7eb39b7fe01",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "JarvanIV",
+      "name": "Jarvan IV"
+     },
+     "part": "base",
+     "partTitle": "Estadísticas básicas",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Crecimiento de Armadura",
+     "before": "5.2",
+     "after": "4.6",
+     "text": "Crecimiento de Armadura: 5.2 ⇒ 4.6",
+     "id": "a01dfcc16040",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.6",
+   "publishedAt": "2025-03-18T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "JarvanIV",
+      "name": "Jarvan IV"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Aumentamos el daño de su Q.",
+     "id": "26200a53a2ec",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "JarvanIV",
+      "name": "Jarvan IV"
+     },
+     "part": "Q",
+     "partTitle": "Q: Golpe Dragón",
+     "spellKey": "JarvanIVDragonStrike",
+     "kind": "stat",
+     "attribute": "Daño",
+     "before": "80 / 120 / 160 / 200 / 240 (+ 140% de Daño de Ataque adicional)",
+     "after": "90 / 130 / 170 / 210 / 250 (+ 145% de Daño de Ataque adicional)",
+     "text": "Daño: 80 / 120 / 160 / 200 / 240 (+ 140% de Daño de Ataque adicional) ⇒ 90 / 130 / 170 / 210 / 250 (+ 145% de Daño de Ataque adicional)",
+     "id": "a795cef5161b",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.S1.1",
+   "publishedAt": "2025-01-07T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Actualizaciones dentro de la versión",
+     "sectionId": "patch-fearless-draft",
+     "midPatch": true,
+     "entity": {
+      "kind": "champion",
+      "id": "JarvanIV",
+      "name": "Jarvan IV"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Crecimiento de Armadura",
+     "before": "5.2",
+     "after": "4.7",
+     "text": "Crecimiento de Armadura: 5.2 ⇒ 4.7",
+     "id": "fb69d60c8b5a",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Actualizaciones dentro de la versión",
+     "sectionId": "patch-fearless-draft",
+     "midPatch": true,
+     "entity": {
+      "kind": "champion",
+      "id": "JarvanIV",
+      "name": "Jarvan IV"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño de la Q",
+     "before": "80/120/160/200/240 (+ 140% de Daño de Ataque adicional)",
+     "after": "70/110/150/190/230 (+ 140% de Daño de Ataque adicional)",
+     "text": "Daño de la Q: 80/120/160/200/240 (+ 140% de Daño de Ataque adicional) ⇒ 70/110/150/190/230 (+ 140% de Daño de Ataque adicional)",
+     "id": "8a682cbe4036",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,198 @@
+{
+ "schemaVersion": 1,
+ "id": "Sejuani",
+ "name": "Sejuani",
+ "tags": [
+  "Tank"
+ ],
+ "entries": [
+  {
+   "patch": "25.24",
+   "publishedAt": "2025-12-02T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Sejuani",
+      "name": "Sejuani"
+     },
+     "part": "Q",
+     "partTitle": "Q: Asalto Ártico",
+     "spellKey": "SejuaniQ",
+     "kind": "stat",
+     "attribute": "Enfriamiento",
+     "before": "19 / 17.5 / 16 / 14.5 / 13 seg",
+     "after": "18 / 16.5 / 15 / 13.5 / 12 seg",
+     "text": "Enfriamiento: 19 / 17.5 / 16 / 14.5 / 13 seg ⇒ 18 / 16.5 / 15 / 13.5 / 12 seg",
+     "id": "037718f07731",
+     "section": "champions",
+     "tags": [
+      "Tank"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Sejuani",
+      "name": "Sejuani"
+     },
+     "part": "Q",
+     "partTitle": "Q: Asalto Ártico",
+     "spellKey": "SejuaniQ",
+     "kind": "stat",
+     "attribute": "Costo de Maná",
+     "before": "70 / 75 / 80 / 85 / 90",
+     "after": "60 / 65 / 70 / 75 /80",
+     "text": "Costo de Maná: 70 / 75 / 80 / 85 / 90 ⇒ 60 / 65 / 70 / 75 /80",
+     "id": "f14b8f67332d",
+     "section": "champions",
+     "tags": [
+      "Tank"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Sejuani",
+      "name": "Sejuani"
+     },
+     "part": "Q",
+     "partTitle": "Q: Asalto Ártico",
+     "spellKey": "SejuaniQ",
+     "kind": "stat",
+     "attribute": "Tasa de Poder de Habilidad",
+     "before": "60%",
+     "after": "75%",
+     "text": "Tasa de Poder de Habilidad: 60% ⇒ 75%",
+     "id": "6d01777f7d33",
+     "section": "champions",
+     "tags": [
+      "Tank"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Sejuani",
+      "name": "Sejuani"
+     },
+     "part": "W",
+     "partTitle": "W: Ira del Invierno",
+     "spellKey": "SejuaniW",
+     "kind": "stat",
+     "attribute": "Costo de Maná",
+     "before": "65",
+     "after": "60",
+     "text": "Costo de Maná: 65 ⇒ 60",
+     "id": "79c0ce2ce4bd",
+     "section": "champions",
+     "tags": [
+      "Tank"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Sejuani",
+      "name": "Sejuani"
+     },
+     "part": "W",
+     "partTitle": "W: Ira del Invierno",
+     "spellKey": "SejuaniW",
+     "kind": "stat",
+     "attribute": "Tasa de Poder de Habilidad del primer impacto",
+     "before": "20%",
+     "after": "30%",
+     "text": "Tasa de Poder de Habilidad del primer impacto: 20% ⇒ 30%",
+     "id": "507881ffb70e",
+     "section": "champions",
+     "tags": [
+      "Tank"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Sejuani",
+      "name": "Sejuani"
+     },
+     "part": "E",
+     "partTitle": "E: Permahielo",
+     "spellKey": "SejuaniE",
+     "kind": "stat",
+     "attribute": "Tasa de Poder de Habilidad",
+     "before": "60%",
+     "after": "70%",
+     "text": "Tasa de Poder de Habilidad: 60% ⇒ 70%",
+     "id": "fd2f148e3195",
+     "section": "champions",
+     "tags": [
+      "Tank"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Sejuani",
+      "name": "Sejuani"
+     },
+     "part": "R",
+     "partTitle": "R: Prisión Glacial",
+     "spellKey": "SejuaniR",
+     "kind": "stat",
+     "attribute": "Enfriamiento",
+     "before": "130 / 110 / 90 seg",
+     "after": "120 / 105 / 90 seg",
+     "text": "Enfriamiento: 130 / 110 / 90 seg ⇒ 120 / 105 / 90 seg",
+     "id": "b3fc6dd15847",
+     "section": "champions",
+     "tags": [
+      "Tank"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  }
+ ]
+}

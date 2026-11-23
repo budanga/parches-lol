@@ -1,0 +1,665 @@
+{
+ "schemaVersion": 1,
+ "id": "Brand",
+ "name": "Brand",
+ "tags": [
+  "Mage",
+  "Support"
+ ],
+ "entries": [
+  {
+   "patch": "26.23",
+   "publishedAt": "2026-11-17T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "ARAM: Caos",
+     "sectionId": "patch-aram:-mayhem",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Brand",
+      "name": "Brand"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño recibido",
+     "before": "110%",
+     "after": "105%",
+     "text": "Daño recibido: 110% ⇒ 105%",
+     "id": "e8540960b915",
+     "section": "modes",
+     "tags": [
+      "Mage",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "26.13",
+   "publishedAt": "2026-06-23T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Brand",
+      "name": "Brand"
+     },
+     "part": "base",
+     "partTitle": "Estadísticas base",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Regeneración de Maná básica",
+     "before": "9",
+     "after": "11",
+     "text": "Regeneración de Maná básica: 9 ⇒ 11",
+     "id": "848eb2747056",
+     "section": "champions",
+     "tags": [
+      "Mage",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Brand",
+      "name": "Brand"
+     },
+     "part": "P",
+     "partTitle": "Pasiva: Llamarada",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño de detonación",
+     "before": "8 - 12% (niveles 1 - 17) (+2% por cada 100 de Poder de Habilidad)",
+     "after": "6 - 12% (niveles 1 - 18, progresa por encima del nivel 18) (+2% por cada 100 de Poder de Habilidad)",
+     "text": "Daño de detonación: 8 - 12% (niveles 1 - 17) (+2% por cada 100 de Poder de Habilidad) ⇒ 6 - 12% (niveles 1 - 18, progresa por encima del nivel 18) (+2% por cada 100 de Poder de Habilidad)",
+     "id": "e8aea65c85f7",
+     "section": "champions",
+     "tags": [
+      "Mage",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Brand",
+      "name": "Brand"
+     },
+     "part": "E",
+     "partTitle": "E: Conflagración",
+     "spellKey": "BrandE",
+     "kind": "stat",
+     "attribute": "Costo de Maná",
+     "before": "70 / 75 / 80 / 85 / 90",
+     "after": "90",
+     "text": "Costo de Maná: 70 / 75 / 80 / 85 / 90 ⇒ 90",
+     "id": "fff5852b4bce",
+     "section": "champions",
+     "tags": [
+      "Mage",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "26.11",
+   "publishedAt": "2026-05-27T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Brand",
+      "name": "Brand"
+     },
+     "part": "base",
+     "partTitle": "Estadísticas base",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Armadura básica",
+     "before": "27",
+     "after": "24",
+     "text": "Armadura básica: 27 ⇒ 24",
+     "id": "19036d756d7c",
+     "section": "champions",
+     "tags": [
+      "Mage",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "26.4",
+   "publishedAt": "2026-02-18T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Brand",
+      "name": "Brand"
+     },
+     "part": "P",
+     "partTitle": "Pasiva: Llamarada",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño en llamas contra monstruos",
+     "before": "265%",
+     "after": "270%",
+     "text": "Daño en llamas contra monstruos: 265% ⇒ 270%",
+     "id": "742cba868b28",
+     "section": "champions",
+     "tags": [
+      "Mage",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Brand",
+      "name": "Brand"
+     },
+     "part": "P",
+     "partTitle": "Pasiva: Llamarada",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Límite de daño a monstruos no épicos",
+     "before": "40",
+     "after": "50",
+     "text": "Límite de daño a monstruos no épicos: 40 ⇒ 50",
+     "id": "7003d45c21f1",
+     "section": "champions",
+     "tags": [
+      "Mage",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.24",
+   "publishedAt": "2025-12-02T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Actualizaciones dentro de la versión, 16 de diciembre de 2025",
+     "sectionId": "patch-season-3-ranked-ending-soon",
+     "midPatch": true,
+     "entity": {
+      "kind": "champion",
+      "id": "Brand",
+      "name": "Brand"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": null,
+     "before": "Daño recibido: 105%",
+     "after": "110%",
+     "text": "Daño recibido: 105% ⇒ 110%",
+     "id": "fdd8aa478ef1",
+     "section": "champions",
+     "tags": [
+      "Mage",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Actualizaciones dentro de la versión, 16 de diciembre de 2025",
+     "sectionId": "patch-season-3-ranked-ending-soon",
+     "midPatch": true,
+     "entity": {
+      "kind": "champion",
+      "id": "Brand",
+      "name": "Brand"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": null,
+     "before": "Aceleración de Habilidad: -10",
+     "after": "-20",
+     "text": "Aceleración de Habilidad: -10 ⇒ -20",
+     "id": "7a433d93c807",
+     "section": "champions",
+     "tags": [
+      "Mage",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.19",
+   "publishedAt": "2025-09-23T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Brand",
+      "name": "Brand"
+     },
+     "part": "P",
+     "partTitle": "Pasiva: Llamarada",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Modificador de daño contra monstruos",
+     "before": "×2.6",
+     "after": "×2.65",
+     "text": "Modificador de daño contra monstruos: ×2.6 ⇒ ×2.65",
+     "id": "5a87dc0a3030",
+     "section": "champions",
+     "tags": [
+      "Mage",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Brand",
+      "name": "Brand"
+     },
+     "part": "W",
+     "partTitle": "W: Columna de Fuego",
+     "spellKey": "BrandW",
+     "kind": "stat",
+     "attribute": "Daño",
+     "before": "75 / 120 / 165 / 210 / 255 (+ 60% de Poder de Habilidad)",
+     "after": "75 / 120 / 165 / 210 / 255 (+ 70% de Poder de Habilidad)",
+     "text": "Daño: 75 / 120 / 165 / 210 / 255 (+ 60% de Poder de Habilidad) ⇒ 75 / 120 / 165 / 210 / 255 (+ 70% de Poder de Habilidad)",
+     "id": "e49321044448",
+     "section": "champions",
+     "tags": [
+      "Mage",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Brand",
+      "name": "Brand"
+     },
+     "part": "R",
+     "partTitle": "R: Piroclasma",
+     "spellKey": "BrandR",
+     "kind": "stat",
+     "attribute": "Daño por impacto",
+     "before": "100 / 175 / 250 (+ 25% de Poder de Habilidad)",
+     "after": "100 / 175 / 250 (+ 30% de Poder de Habilidad)",
+     "text": "Daño por impacto: 100 / 175 / 250 (+ 25% de Poder de Habilidad) ⇒ 100 / 175 / 250 (+ 30% de Poder de Habilidad)",
+     "id": "7fba6252125e",
+     "section": "champions",
+     "tags": [
+      "Mage",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.16",
+   "publishedAt": "2025-08-12T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Brand",
+      "name": "Brand"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Aumentamos el daño de su pasiva contra monstruos. Aumentamos la duración del aturdimiento de su Q. Redujimos el enfriamiento de su R.",
+     "id": "f24cbeac6389",
+     "section": "champions",
+     "tags": [
+      "Mage",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Brand",
+      "name": "Brand"
+     },
+     "part": "P",
+     "partTitle": "Pasiva: Llamarada",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño por activación contra monstruos",
+     "before": "240%",
+     "after": "260%",
+     "text": "Daño por activación contra monstruos: 240% ⇒ 260%",
+     "id": "20d020a10182",
+     "section": "champions",
+     "tags": [
+      "Mage",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Brand",
+      "name": "Brand"
+     },
+     "part": "Q",
+     "partTitle": "Q: Abrasar",
+     "spellKey": "BrandQ",
+     "kind": "stat",
+     "attribute": "Duración del aturdimiento de En Llamas",
+     "before": "1.5 seg",
+     "after": "1.75 seg",
+     "text": "Duración del aturdimiento de En Llamas: 1.5 seg ⇒ 1.75 seg",
+     "id": "401add53a754",
+     "section": "champions",
+     "tags": [
+      "Mage",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Brand",
+      "name": "Brand"
+     },
+     "part": "R",
+     "partTitle": "R: Piroclasma",
+     "spellKey": "BrandR",
+     "kind": "stat",
+     "attribute": "Enfriamiento",
+     "before": "110 / 100 / 90",
+     "after": "100 / 90 / 80 seg",
+     "text": "Enfriamiento: 110 / 100 / 90 ⇒ 100 / 90 / 80 seg",
+     "id": "665ccafbc15f",
+     "section": "champions",
+     "tags": [
+      "Mage",
+      "Support"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.11",
+   "publishedAt": "2025-05-27T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Pelea",
+     "sectionId": "patch-brawl",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Brand",
+      "name": "Brand"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Aceleración de Habilidad",
+     "before": "0",
+     "after": "-10",
+     "text": "Aceleración de Habilidad: 0 ⇒ -10",
+     "id": "76ceab8492e1",
+     "section": "modes",
+     "tags": [
+      "Mage",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.8",
+   "publishedAt": "2025-04-15T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Brand",
+      "name": "Brand"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Aumentamos el daño por activación de su pasiva contra monstruos.",
+     "id": "481341d2c004",
+     "section": "champions",
+     "tags": [
+      "Mage",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Brand",
+      "name": "Brand"
+     },
+     "part": "P",
+     "partTitle": "Pasiva: Llamarada",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño por activación de En Llamas contra monstruos",
+     "before": "215%",
+     "after": "240%",
+     "text": "Daño por activación de En Llamas contra monstruos: 215% ⇒ 240%",
+     "id": "c45351c92fe0",
+     "section": "champions",
+     "tags": [
+      "Mage",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.7",
+   "publishedAt": "2025-04-01T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Brand",
+      "name": "Brand"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Aumentamos el daño de su pasiva.",
+     "id": "401d7ecf0cc3",
+     "section": "champions",
+     "tags": [
+      "Mage",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Brand",
+      "name": "Brand"
+     },
+     "part": "P",
+     "partTitle": "Pasiva: Llamarada",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Límite de daño por activación contra monstruos no épicos",
+     "before": "7.5 / 15 / 22.5 (según las acumulaciones de Llamarada)",
+     "after": "10 / 20 / 30 (según las acumulaciones de Llamarada)",
+     "text": "Límite de daño por activación contra monstruos no épicos: 7.5 / 15 / 22.5 (según las acumulaciones de Llamarada) ⇒ 10 / 20 / 30 (según las acumulaciones de Llamarada)",
+     "id": "5f7b12334106",
+     "section": "champions",
+     "tags": [
+      "Mage",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Brand",
+      "name": "Brand"
+     },
+     "part": "P",
+     "partTitle": "Pasiva: Llamarada",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Límite de daño de explosión contra monstruos",
+     "before": "250 / 325 / 400 / 475",
+     "after": "270 / 355 / 440 / 525",
+     "text": "Límite de daño de explosión contra monstruos: 250 / 325 / 400 / 475 ⇒ 270 / 355 / 440 / 525",
+     "id": "5e8071143e62",
+     "section": "champions",
+     "tags": [
+      "Mage",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  }
+ ]
+}

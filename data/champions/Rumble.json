@@ -1,0 +1,761 @@
+{
+ "schemaVersion": 1,
+ "id": "Rumble",
+ "name": "Rumble",
+ "tags": [
+  "Fighter",
+  "Mage"
+ ],
+ "entries": [
+  {
+   "patch": "26.22",
+   "publishedAt": "2026-11-03T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Rumble",
+      "name": "Rumble"
+     },
+     "part": "R",
+     "partTitle": "R: El Equilibrador",
+     "spellKey": "RumbleCarpetBomb",
+     "kind": "stat",
+     "attribute": "Daño por segundo",
+     "before": "120 / 200 / 280 (+35% de Poder de Habilidad)",
+     "after": "(+40% de Poder de Habilidad)",
+     "text": "Daño por segundo: 120 / 200 / 280 (+35% de Poder de Habilidad) ⇒ (+40% de Poder de Habilidad)",
+     "id": "9209a2bcabb1",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Rumble",
+      "name": "Rumble"
+     },
+     "part": "R",
+     "partTitle": "R: El Equilibrador",
+     "spellKey": "RumbleCarpetBomb",
+     "kind": "stat",
+     "attribute": "Tasa de Poder de Habilidad del daño máximo",
+     "before": "175% de Poder de Habilidad",
+     "after": "200% de Poder de Habilidad",
+     "text": "Tasa de Poder de Habilidad del daño máximo: 175% de Poder de Habilidad ⇒ 200% de Poder de Habilidad",
+     "id": "97a0c3b98225",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "26.19",
+   "publishedAt": "2026-09-22T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Rumble",
+      "name": "Rumble"
+     },
+     "part": "P",
+     "partTitle": "Pasiva: Titán del Desguazadero",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "(Sobrecalentado) Velocidad de Ataque",
+     "before": "De 50 a 130%",
+     "after": "De 30 a 100%",
+     "text": "(Sobrecalentado) Velocidad de Ataque: De 50 a 130% ⇒ De 30 a 100%",
+     "id": "785bc0b5dfe7",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Rumble",
+      "name": "Rumble"
+     },
+     "part": "P",
+     "partTitle": "Pasiva: Titán del Desguazadero",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Límite de daño a monstruos",
+     "before": "De 65 a 150",
+     "after": "De 90 a 175",
+     "text": "Límite de daño a monstruos: De 65 a 150 ⇒ De 90 a 175",
+     "id": "a6b65efa29cb",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "26.13",
+   "publishedAt": "2026-06-23T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Rumble",
+      "name": "Rumble"
+     },
+     "part": "Q",
+     "partTitle": "Q: Escupellamas",
+     "spellKey": "RumbleFlameThrower",
+     "kind": "stat",
+     "attribute": "Daño",
+     "before": "60 / 85 / 110 / 135 / 160 (+100% de Poder de Habilidad)",
+     "after": "50 / 75 / 100 / 125 / 150 (+105% de Poder de Habilidad)",
+     "text": "Daño: 60 / 85 / 110 / 135 / 160 (+100% de Poder de Habilidad) ⇒ 50 / 75 / 100 / 125 / 150 (+105% de Poder de Habilidad)",
+     "id": "cb27dd9740b1",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Mage"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "26.4",
+   "publishedAt": "2026-02-18T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Rumble",
+      "name": "Rumble"
+     },
+     "part": "base",
+     "partTitle": "Estadísticas básicas",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Vida básica",
+     "before": "655",
+     "after": "640",
+     "text": "Vida básica: 655 ⇒ 640",
+     "id": "f1388b897f67",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Rumble",
+      "name": "Rumble"
+     },
+     "part": "R",
+     "partTitle": "R: El Equilibrador",
+     "spellKey": "RumbleCarpetBomb",
+     "kind": "stat",
+     "attribute": "Daño máximo",
+     "before": "700 / 1050 / 1400",
+     "after": "600 / 1000 / 1400",
+     "text": "Daño máximo: 700 / 1050 / 1400 ⇒ 600 / 1000 / 1400",
+     "id": "8142396d7d3a",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.17",
+   "publishedAt": "2025-08-26T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Rumble",
+      "name": "Rumble"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Redujimos el daño de su pasiva. Redujimos el daño de su Q en los rangos superiores.",
+     "id": "21c659461ae4",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Rumble",
+      "name": "Rumble"
+     },
+     "part": "P",
+     "partTitle": "Pasiva: Titán del Desguazadero",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño al estar sobrecalentado",
+     "before": "De 5 a 40 (+ 25% de Poder de Habilidad) + 5% de la Vida Máxima del objetivo",
+     "after": "De 5 a 40 (+ 25% de Poder de Habilidad) (+ 4% de la Vida Máxima del objetivo)",
+     "text": "Daño al estar sobrecalentado: De 5 a 40 (+ 25% de Poder de Habilidad) + 5% de la Vida Máxima del objetivo ⇒ De 5 a 40 (+ 25% de Poder de Habilidad) (+ 4% de la Vida Máxima del objetivo)",
+     "id": "c0e726a607fd",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Rumble",
+      "name": "Rumble"
+     },
+     "part": "Q",
+     "partTitle": "Q: Escupellamas",
+     "spellKey": "RumbleFlameThrower",
+     "kind": "stat",
+     "attribute": "Daño a lo largo de 3 seg",
+     "before": "60 / 90 / 120 / 150 / 180 (+ 100% de Poder de Habilidad) + 6% / 6.5% / 7% / 7.5% / 8% de la Vida Máxima del objetivo",
+     "after": "60 / 85 / 110 / 135 / 160 (+ 100% de Poder de Habilidad) + 6% / 6.5% / 7% / 7.5% / 8% de la Vida Máxima del objetivo",
+     "text": "Daño a lo largo de 3 seg: 60 / 90 / 120 / 150 / 180 (+ 100% de Poder de Habilidad) + 6% / 6.5% / 7% / 7.5% / 8% de la Vida Máxima del objetivo ⇒ 60 / 85 / 110 / 135 / 160 (+ 100% de Poder de Habilidad) + 6% / 6.5% / 7% / 7.5% / 8% de la Vida Máxima del objetivo",
+     "id": "b131024b9396",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.16",
+   "publishedAt": "2025-08-12T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Rumble",
+      "name": "Rumble"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Redujimos el daño de su Q. Implementamos mejoras de funcionalidad y corregimos errores que afectaban el poder de su Q y su R.",
+     "id": "c7a7e3498f0a",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Rumble",
+      "name": "Rumble"
+     },
+     "part": "Q",
+     "partTitle": "Q: Escupellamas",
+     "spellKey": "RumbleFlameThrower",
+     "kind": "stat",
+     "attribute": "Daño a lo largo de los tres segundos",
+     "before": "60 / 90 / 120 / 150 / 180 (+ 110% de Poder de Habilidad) (+ 6% / 6.8% / 7.6% / 8.4% / 9.2% de la Vida máxima del objetivo)",
+     "after": "60 / 90 / 120 / 150 / 180 (+ 100% de Poder de Habilidad) (+ 6% /6.5% / 7% / 7.5% / 8% de la Vida máxima del objetivo)",
+     "text": "Daño a lo largo de los tres segundos: 60 / 90 / 120 / 150 / 180 (+ 110% de Poder de Habilidad) (+ 6% / 6.8% / 7.6% / 8.4% / 9.2% de la Vida máxima del objetivo) ⇒ 60 / 90 / 120 / 150 / 180 (+ 100% de Poder de Habilidad) (+ 6% /6.5% / 7% / 7.5% / 8% de la Vida máxima del objetivo)",
+     "id": "f25d77a290bf",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Rumble",
+      "name": "Rumble"
+     },
+     "part": "Q",
+     "partTitle": "Q: Escupellamas",
+     "spellKey": "RumbleFlameThrower",
+     "kind": "stat",
+     "attribute": "Duración máxima de la quemadura",
+     "before": "3 seg",
+     "after": "3.5 seg",
+     "text": "Duración máxima de la quemadura: 3 seg ⇒ 3.5 seg",
+     "id": "bc15d8fd8884",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Rumble",
+      "name": "Rumble"
+     },
+     "part": "Q",
+     "partTitle": "Q: Escupellamas",
+     "spellKey": "RumbleFlameThrower",
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Ya no falla alguna que otra vez al aplicar la debilitación completa",
+     "id": "d50562e1fb15",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Rumble",
+      "name": "Rumble"
+     },
+     "part": "Q",
+     "partTitle": "Q: Escupellamas",
+     "spellKey": "RumbleFlameThrower",
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Cuando está en el equipo rojo, ya no inflige daño retardado ni menos daño a los campeones",
+     "id": "3411b9971fad",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Rumble",
+      "name": "Rumble"
+     },
+     "part": "Q",
+     "partTitle": "Q: Escupellamas",
+     "spellKey": "RumbleFlameThrower",
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "La debilitación ya no comprueba la disponibilidad del objetivo antes de infligirle daño",
+     "id": "3725d2c508ca",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Rumble",
+      "name": "Rumble"
+     },
+     "part": "Q",
+     "partTitle": "Q: Escupellamas",
+     "spellKey": "RumbleFlameThrower",
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "La debilitación ya no comprueba si el objetivo se encuentra a menos de 700 unidades de distancia antes de infligirle daño",
+     "id": "3beeb3ac2db0",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Rumble",
+      "name": "Rumble"
+     },
+     "part": "R",
+     "partTitle": "R: El Equilibrador",
+     "spellKey": "RumbleCarpetBomb",
+     "kind": "stat",
+     "attribute": "Tasa de activación",
+     "before": "0.5 seg",
+     "after": "0.25 seg",
+     "text": "Tasa de activación: 0.5 seg ⇒ 0.25 seg",
+     "id": "5c3c1aee656f",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Rumble",
+      "name": "Rumble"
+     },
+     "part": "R",
+     "partTitle": "R: El Equilibrador",
+     "spellKey": "RumbleCarpetBomb",
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Ahora, la habilidad dura el lapso de tiempo que corresponde en toda el área de daño",
+     "id": "0d07b3d1a785",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Rumble",
+      "name": "Rumble"
+     },
+     "part": "R",
+     "partTitle": "R: El Equilibrador",
+     "spellKey": "RumbleCarpetBomb",
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Ahora, inflige daño más rápido cuando caen los misiles",
+     "id": "fd890a87d121",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Rumble",
+      "name": "Rumble"
+     },
+     "part": "R",
+     "partTitle": "R: El Equilibrador",
+     "spellKey": "RumbleCarpetBomb",
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Cuando está en el equipo rojo, ya no inflige daño retardado ni menos daño a los campeones",
+     "id": "8d7072f63549",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.12",
+   "publishedAt": "2025-06-10T18:05:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Rumble",
+      "name": "Rumble"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Redujimos el daño de su Q. Redujimos la ralentización de su E.",
+     "id": "c98acd4dd158",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Rumble",
+      "name": "Rumble"
+     },
+     "part": "Q",
+     "partTitle": "Q: Escupellamas",
+     "spellKey": "RumbleFlameThrower",
+     "kind": "stat",
+     "attribute": "Daño mágico total",
+     "before": "60 / 90 / 120 / 150 / 180 (+ 110% de Poder de Habilidad) (+ 6 / 7 / 8 / 9 / 10% de la Vida Máxima del objetivo)",
+     "after": "60 / 90 / 120 / 150 / 180 (+ 110% de Poder de Habilidad) (+ 6 / 6.5 / 7 / 7.5 / 8% de la Vida Máxima del objetivo)",
+     "text": "Daño mágico total: 60 / 90 / 120 / 150 / 180 (+ 110% de Poder de Habilidad) (+ 6 / 7 / 8 / 9 / 10% de la Vida Máxima del objetivo) ⇒ 60 / 90 / 120 / 150 / 180 (+ 110% de Poder de Habilidad) (+ 6 / 6.5 / 7 / 7.5 / 8% de la Vida Máxima del objetivo)",
+     "id": "baf4dc680e07",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Rumble",
+      "name": "Rumble"
+     },
+     "part": "E",
+     "partTitle": "E: Arpón Eléctrico",
+     "spellKey": "RumbleGrenade",
+     "kind": "stat",
+     "attribute": "Ralentización",
+     "before": "15 / 20 / 25 / 30 / 35%",
+     "after": "10 / 15 / 20 / 25 / 30%",
+     "text": "Ralentización: 15 / 20 / 25 / 30 / 35% ⇒ 10 / 15 / 20 / 25 / 30%",
+     "id": "e4ce71ace3f4",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Rumble",
+      "name": "Rumble"
+     },
+     "part": "E",
+     "partTitle": "E: Arpón Eléctrico",
+     "spellKey": "RumbleGrenade",
+     "kind": "stat",
+     "attribute": "Ralentización mejorada",
+     "before": "22.5 / 30 / 37.5 / 45 / 52.5%",
+     "after": "15 / 22.5 / 30 / 37.5 / 45%",
+     "text": "Ralentización mejorada: 22.5 / 30 / 37.5 / 45 / 52.5% ⇒ 15 / 22.5 / 30 / 37.5 / 45%",
+     "id": "51514f38c487",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.11",
+   "publishedAt": "2025-05-27T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Pelea",
+     "sectionId": "patch-brawl",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Rumble",
+      "name": "Rumble"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño recibido",
+     "before": "100%",
+     "after": "95%",
+     "text": "Daño recibido: 100% ⇒ 95%",
+     "id": "e841be0887c0",
+     "section": "modes",
+     "tags": [
+      "Fighter",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  }
+ ]
+}

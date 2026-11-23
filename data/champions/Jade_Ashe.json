@@ -1,0 +1,41 @@
+{
+ "schemaVersion": 1,
+ "id": "Jade_Ashe",
+ "name": "Ashe",
+ "tags": [],
+ "entries": [
+  {
+   "patch": "26.15",
+   "publishedAt": "2026-07-28T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "ARAM: Caos",
+     "sectionId": "patch-aram:-mayhem",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Jade_Ashe",
+      "name": "Ashe"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño infligido",
+     "before": "105%",
+     "after": "100%",
+     "text": "Daño infligido: 105% ⇒ 100%",
+     "id": "30700d6a0a9d",
+     "section": "modes",
+     "tags": [
+      "Marksman",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  }
+ ]
+}

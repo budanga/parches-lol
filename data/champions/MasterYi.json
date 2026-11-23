@@ -1,0 +1,785 @@
+{
+ "schemaVersion": 1,
+ "id": "MasterYi",
+ "name": "Maestro Yi",
+ "tags": [
+  "Fighter",
+  "Assassin"
+ ],
+ "entries": [
+  {
+   "patch": "26.23",
+   "publishedAt": "2026-11-17T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "MasterYi",
+      "name": "Maestro Yi"
+     },
+     "part": "Q",
+     "partTitle": "Q: Golpe Alfa",
+     "spellKey": "AlphaStrike",
+     "kind": "stat",
+     "attribute": "Daño",
+     "before": "20 / 40 / 60 / 80 / 100 (+70% de Daño de Ataque)",
+     "after": "20 / 40 / 60 / 80 / 100 (+60% de Daño de Ataque)",
+     "text": "Daño: 20 / 40 / 60 / 80 / 100 (+70% de Daño de Ataque) ⇒ 20 / 40 / 60 / 80 / 100 (+60% de Daño de Ataque)",
+     "id": "ad14e00097d0",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "MasterYi",
+      "name": "Maestro Yi"
+     },
+     "part": "Q",
+     "partTitle": "Q: Golpe Alfa",
+     "spellKey": "AlphaStrike",
+     "kind": "stat",
+     "attribute": "Daño máximo a un solo objetivo",
+     "before": "35 / 70 / 105 / 140 / 175 (+122.5% de Daño de Ataque)",
+     "after": "35 / 70 / 105 / 140 / 175 (+105% de Daño de Ataque). Recuerden que esto también puede asestar golpes críticos e infligir daño adicional.",
+     "text": "Daño máximo a un solo objetivo: 35 / 70 / 105 / 140 / 175 (+122.5% de Daño de Ataque) ⇒ 35 / 70 / 105 / 140 / 175 (+105% de Daño de Ataque). Recuerden que esto también puede asestar golpes críticos e infligir daño adicional.",
+     "id": "a189838de33e",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "26.19",
+   "publishedAt": "2026-09-22T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "MasterYi",
+      "name": "Maestro Yi"
+     },
+     "part": "Q",
+     "partTitle": "Q: Golpe Alfa",
+     "spellKey": "AlphaStrike",
+     "kind": "stat",
+     "attribute": "Reembolso de enfriamiento al impacto",
+     "before": "-1 seg, que se reduce con Aceleración de Habilidad",
+     "after": "1 seg",
+     "text": "Reembolso de enfriamiento al impacto: -1 seg, que se reduce con Aceleración de Habilidad ⇒ 1 seg",
+     "id": "5ae192f0fafc",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "26.18",
+   "publishedAt": "2026-09-09T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "MasterYi",
+      "name": "Maestro Yi"
+     },
+     "part": "base",
+     "partTitle": "Estadísticas base",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Crecimiento de Armadura",
+     "before": "33 + 4.5 por Nivel",
+     "after": "33 + 5 por nivel",
+     "text": "Crecimiento de Armadura: 33 + 4.5 por Nivel ⇒ 33 + 5 por nivel",
+     "id": "1be7365a722c",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "MasterYi",
+      "name": "Maestro Yi"
+     },
+     "part": "R",
+     "partTitle": "R: Imparable",
+     "spellKey": "Highlander",
+     "kind": "stat",
+     "attribute": "Velocidad de Movimiento",
+     "before": "35 / 45 / 55%",
+     "after": "40 / 50 / 60%",
+     "text": "Velocidad de Movimiento: 35 / 45 / 55% ⇒ 40 / 50 / 60%",
+     "id": "4f22ce791952",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "26.2",
+   "publishedAt": "2026-01-21T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "MasterYi",
+      "name": "Maestro Yi"
+     },
+     "part": "base",
+     "partTitle": "Estadísticas básicas",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Crecimiento de Armadura",
+     "before": "4.2",
+     "after": "4.5",
+     "text": "Crecimiento de Armadura: 4.2 ⇒ 4.5",
+     "id": "33c7d5e5ffdc",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "MasterYi",
+      "name": "Maestro Yi"
+     },
+     "part": "Q",
+     "partTitle": "Q: Golpe Alfa",
+     "spellKey": "AlphaStrike",
+     "kind": "stat",
+     "attribute": "Modificador de daño al impacto",
+     "before": "65%",
+     "after": "75%",
+     "text": "Modificador de daño al impacto: 65% ⇒ 75%",
+     "id": "d731d5e0eebd",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "MasterYi",
+      "name": "Maestro Yi"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Ahora, el enfriamiento de la Q comienza cuando termina el hechizo (al igual que en URF)",
+     "id": "05aab49dd0a4",
+     "section": "modes",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.24",
+   "publishedAt": "2025-12-02T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "MasterYi",
+      "name": "Maestro Yi"
+     },
+     "part": "base",
+     "partTitle": "Estadísticas básicas",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Vida básica",
+     "before": "655",
+     "after": "640",
+     "text": "Vida básica: 655 ⇒ 640",
+     "id": "375df8691ac9",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "MasterYi",
+      "name": "Maestro Yi"
+     },
+     "part": "base",
+     "partTitle": "Estadísticas básicas",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Crecimiento de Daño de Ataque",
+     "before": "2.8",
+     "after": "2.5",
+     "text": "Crecimiento de Daño de Ataque: 2.8 ⇒ 2.5",
+     "id": "c9a391fe8323",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.17",
+   "publishedAt": "2025-08-26T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "MasterYi",
+      "name": "Maestro Yi"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Redujimos su vida básica. Redujimos el daño de su Q.",
+     "id": "a38bcdfbae4b",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "MasterYi",
+      "name": "Maestro Yi"
+     },
+     "part": "base",
+     "partTitle": "Estadísticas básicas",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Vida básica",
+     "before": "669",
+     "after": "655",
+     "text": "Vida básica: 669 ⇒ 655",
+     "id": "64b3895c362d",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "MasterYi",
+      "name": "Maestro Yi"
+     },
+     "part": "Q",
+     "partTitle": "Q: Golpe Alfa",
+     "spellKey": "AlphaStrike",
+     "kind": "stat",
+     "attribute": "Modificador de daño al impacto",
+     "before": "75%",
+     "after": "65%",
+     "text": "Modificador de daño al impacto: 75% ⇒ 65%",
+     "id": "922566daf38f",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.16",
+   "publishedAt": "2025-08-12T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "MasterYi",
+      "name": "Maestro Yi"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Su Q ahora otorga acumulaciones de Matakrakens y Terminus.",
+     "id": "c8e052885a30",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "MasterYi",
+      "name": "Maestro Yi"
+     },
+     "part": "Q",
+     "partTitle": "Q: Golpe Alfa",
+     "spellKey": "AlphaStrike",
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Sinergia al impacto: Los lanzamientos de Golpe Alfa ahora otorgan acumulaciones de Matakrakens y Terminus",
+     "id": "73dfb2ee9547",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.15",
+   "publishedAt": "2025-07-29T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "MasterYi",
+      "name": "Maestro Yi"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Redujimos el daño de su Q para los armados de poco daño de ataque.",
+     "id": "10454e2bd9f4",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "MasterYi",
+      "name": "Maestro Yi"
+     },
+     "part": "Q",
+     "partTitle": "Q: Golpe Alfa",
+     "spellKey": "AlphaStrike",
+     "kind": "stat",
+     "attribute": "Daño",
+     "before": "30 / 60 / 90 / 120 / 150 (+ 50% de Daño de Ataque total)",
+     "after": "20 / 40 / 60 / 80 / 100 (+ 70% de Daño de Ataque total)",
+     "text": "Daño: 30 / 60 / 90 / 120 / 150 (+ 50% de Daño de Ataque total) ⇒ 20 / 40 / 60 / 80 / 100 (+ 70% de Daño de Ataque total)",
+     "id": "d9446c8baeea",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "MasterYi",
+      "name": "Maestro Yi"
+     },
+     "part": "Q",
+     "partTitle": "Q: Golpe Alfa",
+     "spellKey": "AlphaStrike",
+     "kind": "stat",
+     "attribute": "Daño a monstruos",
+     "before": "95 / 150 / 205 / 260 / 315 (+ 50% de Daño de Ataque total)",
+     "after": "80 / 125 / 170 / 215 / 260 (+ 70% de Daño de Ataque total)",
+     "text": "Daño a monstruos: 95 / 150 / 205 / 260 / 315 (+ 50% de Daño de Ataque total) ⇒ 80 / 125 / 170 / 215 / 260 (+ 70% de Daño de Ataque total)",
+     "id": "5dd4d4733537",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.11",
+   "publishedAt": "2025-05-27T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Pelea",
+     "sectionId": "patch-brawl",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "MasterYi",
+      "name": "Maestro Yi"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño infligido",
+     "before": "100%",
+     "after": "95%",
+     "text": "Daño infligido: 100% ⇒ 95%",
+     "id": "225f575f414d",
+     "section": "modes",
+     "tags": [
+      "Assassin",
+      "Fighter"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.6",
+   "publishedAt": "2025-03-18T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "MasterYi",
+      "name": "Maestro Yi"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Redujimos el crecimiento de su armadura. Aumentamos el daño de golpe crítico de su Q.",
+     "id": "94dd12991ae5",
+     "section": "champions",
+     "tags": [
+      "Assassin",
+      "Fighter"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "MasterYi",
+      "name": "Maestro Yi"
+     },
+     "part": "base",
+     "partTitle": "Estadísticas básicas",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Crecimiento de Armadura",
+     "before": "4.7",
+     "after": "4.2",
+     "text": "Crecimiento de Armadura: 4.7 ⇒ 4.2",
+     "id": "4e6b4619a2f8",
+     "section": "champions",
+     "tags": [
+      "Assassin",
+      "Fighter"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "MasterYi",
+      "name": "Maestro Yi"
+     },
+     "part": "Q",
+     "partTitle": "Q: Golpe Alfa",
+     "spellKey": "AlphaStrike",
+     "kind": "stat",
+     "attribute": "Daño adicional de Golpe Crítico",
+     "before": "75%",
+     "after": "100%",
+     "text": "Daño adicional de Golpe Crítico: 75% ⇒ 100%",
+     "id": "798a471f355e",
+     "section": "champions",
+     "tags": [
+      "Assassin",
+      "Fighter"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.S1.2",
+   "publishedAt": "2025-01-22T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "MasterYi",
+      "name": "Maestro Yi"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Aumentamos el crecimiento de su daño de ataque. Aumentamos el daño de su E.",
+     "id": "a1ba08bdf269",
+     "section": "champions",
+     "tags": [
+      "Assassin",
+      "Fighter"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "MasterYi",
+      "name": "Maestro Yi"
+     },
+     "part": "base",
+     "partTitle": "Estadísticas básicas",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Crecimiento de Daño de Ataque",
+     "before": "2.5",
+     "after": "2.8",
+     "text": "Crecimiento de Daño de Ataque: 2.5 ⇒ 2.8",
+     "id": "085c70e23a8a",
+     "section": "champions",
+     "tags": [
+      "Assassin",
+      "Fighter"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "MasterYi",
+      "name": "Maestro Yi"
+     },
+     "part": "E",
+     "partTitle": "E: Estilo Wuju",
+     "spellKey": "WujuStyle",
+     "kind": "stat",
+     "attribute": "Daño verdadero al impacto",
+     "before": "20/25/30/35/40 (+30% de Daño de Ataque adicional)",
+     "after": "20/25/30/35/40 (+35% de Daño de Ataque adicional)",
+     "text": "Daño verdadero al impacto: 20/25/30/35/40 (+30% de Daño de Ataque adicional) ⇒ 20/25/30/35/40 (+35% de Daño de Ataque adicional)",
+     "id": "e1c0d131661c",
+     "section": "champions",
+     "tags": [
+      "Assassin",
+      "Fighter"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.S1.1",
+   "publishedAt": "2025-01-07T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "ARAM",
+     "sectionId": "patch-aram",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "MasterYi",
+      "name": "Maestro Yi"
+     },
+     "part": "Debilitaciones a campeones",
+     "partTitle": "Debilitaciones a campeones",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño recibido",
+     "before": "97%",
+     "after": "100%",
+     "text": "Maestro Yi: Daño recibido: 97% ⇒ 100%",
+     "id": "7e85020d9a12",
+     "section": "modes",
+     "tags": [
+      "Assassin",
+      "Fighter"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  }
+ ]
+}

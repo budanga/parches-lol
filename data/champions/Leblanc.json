@@ -1,0 +1,659 @@
+{
+ "schemaVersion": 1,
+ "id": "Leblanc",
+ "name": "LeBlanc",
+ "tags": [
+  "Assassin",
+  "Mage"
+ ],
+ "entries": [
+  {
+   "patch": "26.23",
+   "publishedAt": "2026-11-17T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Leblanc",
+      "name": "LeBlanc"
+     },
+     "part": "Q",
+     "partTitle": "Q: Sello de la Maldad",
+     "spellKey": "LeblancQ",
+     "kind": "stat",
+     "attribute": "Tasa de Poder de Habilidad (tanto inicial como de la marca)",
+     "before": "40% de Poder de Habilidad",
+     "after": "35% de Poder de Habilidad",
+     "text": "Tasa de Poder de Habilidad (tanto inicial como de la marca): 40% de Poder de Habilidad ⇒ 35% de Poder de Habilidad",
+     "id": "3126bf1c5b9a",
+     "section": "champions",
+     "tags": [
+      "Assassin",
+      "Mage"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "26.17",
+   "publishedAt": "2026-08-25T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Leblanc",
+      "name": "LeBlanc"
+     },
+     "part": "base",
+     "partTitle": "Estadísticas base",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Tasa de Velocidad de Ataque",
+     "before": "0.4",
+     "after": "0.625",
+     "text": "Tasa de Velocidad de Ataque: 0.4 ⇒ 0.625",
+     "id": "2863c516e89c",
+     "section": "champions",
+     "tags": [
+      "Assassin",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Leblanc",
+      "name": "LeBlanc"
+     },
+     "part": "base",
+     "partTitle": "Estadísticas base",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Crecimiento de Velocidad de Ataque",
+     "before": "2.35%",
+     "after": "1.5%",
+     "text": "Crecimiento de Velocidad de Ataque: 2.35% ⇒ 1.5%",
+     "id": "f1418763aed7",
+     "section": "champions",
+     "tags": [
+      "Assassin",
+      "Mage"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Leblanc",
+      "name": "LeBlanc"
+     },
+     "part": "W",
+     "partTitle": "W: Distorsión",
+     "spellKey": "LeblancW",
+     "kind": "stat",
+     "attribute": "Daño",
+     "before": "75 / 115 / 155 / 195 / 235 (+80% de Poder de Habilidad)",
+     "after": "75 / 115 / 155 / 195 / 235 (+90% de Poder de Habilidad)",
+     "text": "Daño: 75 / 115 / 155 / 195 / 235 (+80% de Poder de Habilidad) ⇒ 75 / 115 / 155 / 195 / 235 (+90% de Poder de Habilidad)",
+     "id": "5f5294ed1ca3",
+     "section": "champions",
+     "tags": [
+      "Assassin",
+      "Mage"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Leblanc",
+      "name": "LeBlanc"
+     },
+     "part": "RW: Mímica: Distorsión",
+     "partTitle": "RW: Mímica: Distorsión",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño",
+     "before": "150 / 315 / 480 (+ 80% de Poder de Habilidad)",
+     "after": "150 / 315 / 480 (+ 90% de Poder de Habilidad)",
+     "text": "Daño: 150 / 315 / 480 (+ 80% de Poder de Habilidad) ⇒ 150 / 315 / 480 (+ 90% de Poder de Habilidad)",
+     "id": "22af3539fd7d",
+     "section": "champions",
+     "tags": [
+      "Assassin",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "26.13",
+   "publishedAt": "2026-06-23T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Leblanc",
+      "name": "LeBlanc"
+     },
+     "part": "R",
+     "partTitle": "R: Mímica",
+     "spellKey": "LeblancR",
+     "kind": "stat",
+     "attribute": "Daño de la RQ1 / RE1",
+     "before": "70 / 140 / 210",
+     "after": "70 / 150 / 230",
+     "text": "Daño de la RQ1 / RE1: 70 / 140 / 210 ⇒ 70 / 150 / 230",
+     "id": "ba76ca76a688",
+     "section": "champions",
+     "tags": [
+      "Assassin",
+      "Mage"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Leblanc",
+      "name": "LeBlanc"
+     },
+     "part": "R",
+     "partTitle": "R: Mímica",
+     "spellKey": "LeblancR",
+     "kind": "stat",
+     "attribute": "Daño de Marca / Inmovilización",
+     "before": "140 / 280 / 420",
+     "after": "140 / 300 / 460",
+     "text": "Daño de Marca / Inmovilización: 140 / 280 / 420 ⇒ 140 / 300 / 460",
+     "id": "954cc530deee",
+     "section": "champions",
+     "tags": [
+      "Assassin",
+      "Mage"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Leblanc",
+      "name": "LeBlanc"
+     },
+     "part": "R",
+     "partTitle": "R: Mímica",
+     "spellKey": "LeblancR",
+     "kind": "stat",
+     "attribute": "Daño de la RW",
+     "before": "150 / 300 / 450",
+     "after": "150 / 315 / 480",
+     "text": "Daño de la RW: 150 / 300 / 450 ⇒ 150 / 315 / 480",
+     "id": "ed87d9c466de",
+     "section": "champions",
+     "tags": [
+      "Assassin",
+      "Mage"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.22",
+   "publishedAt": "2025-11-04T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Leblanc",
+      "name": "LeBlanc"
+     },
+     "part": "base",
+     "partTitle": "Estadísticas básicas",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Crecimiento de Vida",
+     "before": "111",
+     "after": "108",
+     "text": "Crecimiento de Vida: 111 ⇒ 108",
+     "id": "3a93c3b1b724",
+     "section": "champions",
+     "tags": [
+      "Assassin",
+      "Mage"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Leblanc",
+      "name": "LeBlanc"
+     },
+     "part": "base",
+     "partTitle": "Estadísticas básicas",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Crecimiento de Armadura",
+     "before": "4.7",
+     "after": "4.2",
+     "text": "Crecimiento de Armadura: 4.7 ⇒ 4.2",
+     "id": "442415862dad",
+     "section": "champions",
+     "tags": [
+      "Assassin",
+      "Mage"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Leblanc",
+      "name": "LeBlanc"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": null,
+     "before": "Enfriamiento de la pasiva: 60 seg",
+     "after": "10 seg",
+     "text": "Enfriamiento de la pasiva: 60 seg ⇒ 10 seg",
+     "id": "e07a286b8b9b",
+     "section": "modes",
+     "tags": [
+      "Assassin",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Leblanc",
+      "name": "LeBlanc"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": null,
+     "before": "Reembolso de enfriamiento de la Q al conseguir un asesinato: 30%",
+     "after": "60%",
+     "text": "Reembolso de enfriamiento de la Q al conseguir un asesinato: 30% ⇒ 60%",
+     "id": "0dbd7bb228ab",
+     "section": "modes",
+     "tags": [
+      "Assassin",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Leblanc",
+      "name": "LeBlanc"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": null,
+     "before": "Daño básico de la Q: De 75 a 175",
+     "after": "De 85 a 185",
+     "text": "Daño básico de la Q: De 75 a 175 ⇒ De 85 a 185",
+     "id": "7bf7ef2feb3c",
+     "section": "modes",
+     "tags": [
+      "Assassin",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Leblanc",
+      "name": "LeBlanc"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": null,
+     "before": "Daño postergado de la E: De 80 a 240",
+     "after": "De 100 a 260",
+     "text": "Daño postergado de la E: De 80 a 240 ⇒ De 100 a 260",
+     "id": "a05ec6323450",
+     "section": "modes",
+     "tags": [
+      "Assassin",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.20",
+   "publishedAt": "2025-10-07T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Bots Apocalípticos",
+     "sectionId": "patch-doom-bots",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Leblanc",
+      "name": "LeBlanc"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño infligido",
+     "before": "100%",
+     "after": "115%",
+     "text": "Daño infligido: 100% ⇒ 115%",
+     "id": "7abd4c527fb9",
+     "section": "modes",
+     "tags": [
+      "Assassin",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.19",
+   "publishedAt": "2025-09-23T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Leblanc",
+      "name": "LeBlanc"
+     },
+     "part": "W",
+     "partTitle": "W: Distorsión",
+     "spellKey": "LeblancW",
+     "kind": "stat",
+     "attribute": "Daño",
+     "before": "75 / 115 / 155 / 195 / 235 (+ 70% de Poder de Habilidad)",
+     "after": "75 / 115 / 155 / 195 / 235 (+ 80% de Poder de Habilidad)",
+     "text": "Daño: 75 / 115 / 155 / 195 / 235 (+ 70% de Poder de Habilidad) ⇒ 75 / 115 / 155 / 195 / 235 (+ 80% de Poder de Habilidad)",
+     "id": "364c4728932a",
+     "section": "champions",
+     "tags": [
+      "Assassin",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Leblanc",
+      "name": "LeBlanc"
+     },
+     "part": "R",
+     "partTitle": "R: Mímica",
+     "spellKey": "LeblancR",
+     "kind": "stat",
+     "attribute": "Daño de Distorsión",
+     "before": "150 / 300 / 450 (+ 75% de Poder de Habilidad)",
+     "after": "150 / 300 / 450 (+ 80% de Poder de Habilidad)",
+     "text": "Daño de Distorsión: 150 / 300 / 450 (+ 75% de Poder de Habilidad) ⇒ 150 / 300 / 450 (+ 80% de Poder de Habilidad)",
+     "id": "e8ec1b8ebb79",
+     "section": "champions",
+     "tags": [
+      "Assassin",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.12",
+   "publishedAt": "2025-06-10T18:05:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Leblanc",
+      "name": "LeBlanc"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Aumentamos el daño de su E. Redujimos el enfriamiento de su R.",
+     "id": "9c6a04acf271",
+     "section": "champions",
+     "tags": [
+      "Assassin",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Leblanc",
+      "name": "LeBlanc"
+     },
+     "part": "E",
+     "partTitle": "E: Cadenas Etéreas",
+     "spellKey": "LeblancE",
+     "kind": "stat",
+     "attribute": "Daño",
+     "before": "80 / 120 / 160 / 200 / 240 (+ 80% de Poder de Habilidad)",
+     "after": "80 / 120 / 160 / 200 / 240 (+ 85% de Poder de Habilidad)",
+     "text": "Daño: 80 / 120 / 160 / 200 / 240 (+ 80% de Poder de Habilidad) ⇒ 80 / 120 / 160 / 200 / 240 (+ 85% de Poder de Habilidad)",
+     "id": "f0e2e8021533",
+     "section": "champions",
+     "tags": [
+      "Assassin",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Leblanc",
+      "name": "LeBlanc"
+     },
+     "part": "R",
+     "partTitle": "R: Mímica",
+     "spellKey": "LeblancR",
+     "kind": "stat",
+     "attribute": "Enfriamiento",
+     "before": "50 / 40 / 30",
+     "after": "45 / 35 / 25",
+     "text": "Enfriamiento: 50 / 40 / 30 ⇒ 45 / 35 / 25",
+     "id": "aff064eb3bf2",
+     "section": "champions",
+     "tags": [
+      "Assassin",
+      "Mage"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.11",
+   "publishedAt": "2025-05-27T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Pelea",
+     "sectionId": "patch-brawl",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Leblanc",
+      "name": "LeBlanc"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Aceleración de Habilidad",
+     "before": "0",
+     "after": "10",
+     "text": "Aceleración de Habilidad: 0 ⇒ 10",
+     "id": "cce05ba54a3a",
+     "section": "modes",
+     "tags": [
+      "Assassin",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.7",
+   "publishedAt": "2025-04-01T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Leblanc",
+      "name": "LeBlanc"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Cada 25 seg, todos los jugadores se vuelven invisibles durante 3 seg",
+     "id": "696e48e87726",
+     "section": "modes",
+     "tags": [
+      "Assassin",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  }
+ ]
+}

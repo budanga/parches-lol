@@ -1,0 +1,893 @@
+{
+ "schemaVersion": 1,
+ "id": "Azir",
+ "name": "Azir",
+ "tags": [
+  "Mage",
+  "Marksman"
+ ],
+ "entries": [
+  {
+   "patch": "26.23",
+   "publishedAt": "2026-11-17T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Azir",
+      "name": "Azir"
+     },
+     "part": "base",
+     "partTitle": "Estadísticas base",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Alcance de ataque",
+     "before": "525",
+     "after": "550",
+     "text": "Alcance de ataque: 525 ⇒ 550",
+     "id": "2db8032b1557",
+     "section": "champions",
+     "tags": [
+      "Mage",
+      "Marksman"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Azir",
+      "name": "Azir"
+     },
+     "part": "W",
+     "partTitle": "W: ¡Levántense!",
+     "spellKey": "AzirW",
+     "kind": "stat",
+     "attribute": "Tasa de Daño de Ataque / al impacto",
+     "before": "50%",
+     "after": "67%",
+     "text": "Tasa de Daño de Ataque / al impacto: 50% ⇒ 67%",
+     "id": "a4b58473d708",
+     "section": "champions",
+     "tags": [
+      "Mage",
+      "Marksman"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Azir",
+      "name": "Azir"
+     },
+     "part": "W",
+     "partTitle": "W: ¡Levántense!",
+     "spellKey": "AzirW",
+     "kind": "stat",
+     "attribute": "Tasa de Daño de Ataque adicional",
+     "before": "0%",
+     "after": "30%",
+     "text": "Tasa de Daño de Ataque adicional: 0% ⇒ 30%",
+     "id": "d3acc7cf09f5",
+     "section": "modes",
+     "tags": [
+      "Mage",
+      "Marksman"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "26.21",
+   "publishedAt": "2026-10-20T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Azir",
+      "name": "Azir"
+     },
+     "part": "base",
+     "partTitle": "Estadísticas base",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Crecimiento de maná",
+     "before": "40 por nivel",
+     "after": "50 por nivel",
+     "text": "Crecimiento de maná: 40 por nivel ⇒ 50 por nivel",
+     "id": "f4b054e8db33",
+     "section": "champions",
+     "tags": [
+      "Mage",
+      "Marksman"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "26.16",
+   "publishedAt": "2026-08-11T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Azir",
+      "name": "Azir"
+     },
+     "part": "Q",
+     "partTitle": "Q: Conquistador de las Arenas",
+     "spellKey": "AzirQWrapper",
+     "kind": "stat",
+     "attribute": "Daño",
+     "before": "60 / 80 / 100 / 120 / 140 (+ 35 / 40 / 45 / 50 / 55% de Poder de Habilidad)",
+     "after": "75 / 95 / 115 / 135 / 155 (+ 35 / 40 / 45 / 50 / 55% de Poder de Habilidad)",
+     "text": "Daño: 60 / 80 / 100 / 120 / 140 (+ 35 / 40 / 45 / 50 / 55% de Poder de Habilidad) ⇒ 75 / 95 / 115 / 135 / 155 (+ 35 / 40 / 45 / 50 / 55% de Poder de Habilidad)",
+     "id": "2740ceed9940",
+     "section": "champions",
+     "tags": [
+      "Mage",
+      "Marksman"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "26.14",
+   "publishedAt": "2026-07-14T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Azir",
+      "name": "Azir"
+     },
+     "part": "W",
+     "partTitle": "W: ¡Levántense!",
+     "spellKey": "AzirW",
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "¿Al impacto? Más bien, al destruir: Quemadura, El Tormento de Liandry, Antorcha de Fuegoscuro y Alternador Hextech ahora infligen el 100% de su daño al impacto en lugar del 50%.",
+     "id": "a8fcb52fc0ff",
+     "section": "champions",
+     "tags": [
+      "Mage",
+      "Marksman"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Azir",
+      "name": "Azir"
+     },
+     "part": "W",
+     "partTitle": "W: ¡Levántense!",
+     "spellKey": "AzirW",
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Toque Doble: Conquistador ahora aplicará 2 acumulaciones por impacto en lugar de 1.",
+     "id": "e4ac7d68419c",
+     "section": "champions",
+     "tags": [
+      "Mage",
+      "Marksman"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Azir",
+      "name": "Azir"
+     },
+     "part": "W",
+     "partTitle": "W: ¡Levántense!",
+     "spellKey": "AzirW",
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Enfocado como Láser Estrategia Ofensiva ahora se aplica al objetivo principal alcanzado",
+     "id": "eeed9f9c4cc0",
+     "section": "champions",
+     "tags": [
+      "Mage",
+      "Marksman"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Azir",
+      "name": "Azir"
+     },
+     "part": "R",
+     "partTitle": "R: División Imperial",
+     "spellKey": "AzirR",
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "¡Fuera de aquí, plebeyo! Ahora lanza hacia atrás a los monstruos de la jungla",
+     "id": "74c6baf5ee34",
+     "section": "champions",
+     "tags": [
+      "Mage",
+      "Marksman"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "26.6",
+   "publishedAt": "2026-03-17T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Azir",
+      "name": "Azir"
+     },
+     "part": "Q",
+     "partTitle": "Q: Conquistador de las Arenas",
+     "spellKey": "AzirQWrapper",
+     "kind": "stat",
+     "attribute": "Tasa de Poder de Habilidad",
+     "before": "(+ 35% de Poder de Habilidad)",
+     "after": "(+ 35% / 40% / 45% / 50% / 55% de Poder de Habilidad)",
+     "text": "Tasa de Poder de Habilidad: (+ 35% de Poder de Habilidad) ⇒ (+ 35% / 40% / 45% / 50% / 55% de Poder de Habilidad)",
+     "id": "affc7428a3db",
+     "section": "champions",
+     "tags": [
+      "Mage",
+      "Marksman"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Azir",
+      "name": "Azir"
+     },
+     "part": "W",
+     "partTitle": "W: ¡Levántense!",
+     "spellKey": "AzirW",
+     "kind": "stat",
+     "attribute": "Daño",
+     "before": "De 0 a 45 (5 de daño por nivel a partir del nivel 10)",
+     "after": "De 0 a 72 (7 de daño por nivel a partir del nivel 10)",
+     "text": "Daño: De 0 a 45 (5 de daño por nivel a partir del nivel 10) ⇒ De 0 a 72 (7 de daño por nivel a partir del nivel 10)",
+     "id": "5180c261d534",
+     "section": "champions",
+     "tags": [
+      "Mage",
+      "Marksman"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Azir",
+      "name": "Azir"
+     },
+     "part": "W",
+     "partTitle": "W: ¡Levántense!",
+     "spellKey": "AzirW",
+     "kind": "stat",
+     "attribute": "Tasa de Poder de Habilidad",
+     "before": "(+ 32.5% / 40% / 47.5% / 55% / 62.5% de Poder de Habilidad)",
+     "after": "(+ 35% / 42.5% / 50% / 57.5% / 65% de Poder de Habilidad)",
+     "text": "Tasa de Poder de Habilidad: (+ 32.5% / 40% / 47.5% / 55% / 62.5% de Poder de Habilidad) ⇒ (+ 35% / 42.5% / 50% / 57.5% / 65% de Poder de Habilidad)",
+     "id": "9b2852a1544c",
+     "section": "champions",
+     "tags": [
+      "Mage",
+      "Marksman"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "26.5",
+   "publishedAt": "2026-03-03T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Azir",
+      "name": "Azir"
+     },
+     "part": "base",
+     "partTitle": "Estadísticas básicas",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Crecimiento de Vida",
+     "before": "119",
+     "after": "108",
+     "text": "Crecimiento de Vida: 119 ⇒ 108",
+     "id": "5fef5d9ba6ec",
+     "section": "champions",
+     "tags": [
+      "Mage",
+      "Marksman"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.24",
+   "publishedAt": "2025-12-02T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Azir",
+      "name": "Azir"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": null,
+     "before": "Tiempo de recarga de la W: De 12 a 6 seg",
+     "after": "De 10 a 6 seg",
+     "text": "Tiempo de recarga de la W: De 12 a 6 seg ⇒ De 10 a 6 seg",
+     "id": "c61e6a0b51da",
+     "section": "modes",
+     "tags": [
+      "Mage",
+      "Marksman"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.20",
+   "publishedAt": "2025-10-07T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Actualizaciones dentro de la versión",
+     "sectionId": "patch-midpatch-updates",
+     "midPatch": true,
+     "entity": {
+      "kind": "champion",
+      "id": "Azir",
+      "name": "Azir"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Tasa de Poder de Habilidad de la W",
+     "before": "30% / 40% / 50% / 60% / 70%",
+     "after": "32.5% / 40% / 47.5% / 55% / 62.5%",
+     "text": "Tasa de Poder de Habilidad de la W: 30% / 40% / 50% / 60% / 70% ⇒ 32.5% / 40% / 47.5% / 55% / 62.5%",
+     "id": "5462ec0db8db",
+     "section": "champions",
+     "tags": [
+      "Mage",
+      "Marksman"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Azir",
+      "name": "Azir"
+     },
+     "part": "W",
+     "partTitle": "W: ¡Levántense!",
+     "spellKey": "AzirW",
+     "kind": "stat",
+     "attribute": "Tasa de Poder de Habilidad",
+     "before": "+ 40% / 45% / 50% / 55% / 60% de Poder de Habilidad",
+     "after": "+ 30% / 40% / 60% / 60% / 70% de Poder de Habilidad",
+     "text": "Tasa de Poder de Habilidad: + 40% / 45% / 50% / 55% / 60% de Poder de Habilidad ⇒ + 30% / 40% / 60% / 60% / 70% de Poder de Habilidad",
+     "id": "c8e3a1837dcc",
+     "section": "champions",
+     "tags": [
+      "Mage",
+      "Marksman"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Azir",
+      "name": "Azir"
+     },
+     "part": "W",
+     "partTitle": "W: ¡Levántense!",
+     "spellKey": "AzirW",
+     "kind": "stat",
+     "attribute": "Tasa de recarga",
+     "before": "10 / 9 / 8 / 7 / 6",
+     "after": "12 / 10.5 / 9 / 7.5 / 6",
+     "text": "Tasa de recarga: 10 / 9 / 8 / 7 / 6 ⇒ 12 / 10.5 / 9 / 7.5 / 6",
+     "id": "60f8821ba113",
+     "section": "champions",
+     "tags": [
+      "Mage",
+      "Marksman"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Azir",
+      "name": "Azir"
+     },
+     "part": "W",
+     "partTitle": "W: ¡Levántense!",
+     "spellKey": "AzirW",
+     "kind": "stat",
+     "attribute": "Daño a objetivos adicionales",
+     "before": "25% / 50% / 75% / 100% (niveles 1, 6, 11 y 16)",
+     "after": "20% hasta el nivel 8; luego, + 8% por nivel (100% al llegar al nivel 18)",
+     "text": "Daño a objetivos adicionales: 25% / 50% / 75% / 100% (niveles 1, 6, 11 y 16) ⇒ 20% hasta el nivel 8; luego, + 8% por nivel (100% al llegar al nivel 18)",
+     "id": "9d8c32a408b2",
+     "section": "champions",
+     "tags": [
+      "Mage",
+      "Marksman"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Azir",
+      "name": "Azir"
+     },
+     "part": "E",
+     "partTitle": "E: Arenas Movedizas",
+     "spellKey": "AzirEWrapper",
+     "kind": "stat",
+     "attribute": "Daño",
+     "before": "60 / 100 / 140 / 180 / 220 (+ 40% de Poder de Habilidad)",
+     "after": "70 / 110 / 150 / 190 / 230 (+ 60% de Poder de Habilidad)",
+     "text": "Daño: 60 / 100 / 140 / 180 / 220 (+ 40% de Poder de Habilidad) ⇒ 70 / 110 / 150 / 190 / 230 (+ 60% de Poder de Habilidad)",
+     "id": "e52428d84ae8",
+     "section": "champions",
+     "tags": [
+      "Mage",
+      "Marksman"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.18",
+   "publishedAt": "2025-09-09T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Azir",
+      "name": "Azir"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Redujimos el crecimiento de su velocidad de ataque. Redujimos el daño de su W.",
+     "id": "e225aea0a85e",
+     "section": "champions",
+     "tags": [
+      "Mage",
+      "Marksman"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Azir",
+      "name": "Azir"
+     },
+     "part": "base",
+     "partTitle": "Estadísticas básicas",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Crecimiento de Velocidad de Ataque",
+     "before": "5.5%",
+     "after": "5.0%",
+     "text": "Crecimiento de Velocidad de Ataque: 5.5% ⇒ 5.0%",
+     "id": "c559c5388861",
+     "section": "champions",
+     "tags": [
+      "Mage",
+      "Marksman"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Azir",
+      "name": "Azir"
+     },
+     "part": "W",
+     "partTitle": "W: ¡Levántense!",
+     "spellKey": "AzirW",
+     "kind": "stat",
+     "attribute": "Tasa de Poder de Habilidad",
+     "before": "+ 45% / 50% / 55% / 60% / 65% de Poder de Habilidad",
+     "after": "+ 40% / 45% / 50% / 55% / 60% de Poder de Habilidad",
+     "text": "Tasa de Poder de Habilidad: + 45% / 50% / 55% / 60% / 65% de Poder de Habilidad ⇒ + 40% / 45% / 50% / 55% / 60% de Poder de Habilidad",
+     "id": "c2d50d984120",
+     "section": "champions",
+     "tags": [
+      "Mage",
+      "Marksman"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.14",
+   "publishedAt": "2025-07-15T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Azir",
+      "name": "Azir"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Aumentamos su vida básica. Aumentamos el daño de su W.",
+     "id": "7e313c82a1fc",
+     "section": "champions",
+     "tags": [
+      "Mage",
+      "Marksman"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Azir",
+      "name": "Azir"
+     },
+     "part": "base",
+     "partTitle": "Estadísticas básicas",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Vida básica",
+     "before": "550",
+     "after": "575",
+     "text": "Vida básica: 550 ⇒ 575",
+     "id": "89161095000b",
+     "section": "champions",
+     "tags": [
+      "Mage",
+      "Marksman"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Azir",
+      "name": "Azir"
+     },
+     "part": "W",
+     "partTitle": "W: ¡Levántense!",
+     "spellKey": "AzirW",
+     "kind": "stat",
+     "attribute": "Daño",
+     "before": "(+ 40% / 45% / 50% / 55% / 60% de Poder de Habilidad)",
+     "after": "(+ 45% / 50% / 55% / 60% / 65% de Poder de Habilidad)",
+     "text": "Daño: (+ 40% / 45% / 50% / 55% / 60% de Poder de Habilidad) ⇒ (+ 45% / 50% / 55% / 60% / 65% de Poder de Habilidad)",
+     "id": "b3b074a44e7c",
+     "section": "champions",
+     "tags": [
+      "Mage",
+      "Marksman"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.12",
+   "publishedAt": "2025-06-10T18:05:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Azir",
+      "name": "Azir"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Redujimos su velocidad de movimiento básica y su velocidad de ataque por nivel.",
+     "id": "c45d426e2d26",
+     "section": "champions",
+     "tags": [
+      "Mage",
+      "Marksman"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Azir",
+      "name": "Azir"
+     },
+     "part": "base",
+     "partTitle": "Estadísticas básicas",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Velocidad de Movimiento",
+     "before": "335",
+     "after": "330",
+     "text": "Velocidad de Movimiento: 335 ⇒ 330",
+     "id": "f48783b58a69",
+     "section": "champions",
+     "tags": [
+      "Mage",
+      "Marksman"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Azir",
+      "name": "Azir"
+     },
+     "part": "base",
+     "partTitle": "Estadísticas básicas",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Velocidad de Ataque por nivel",
+     "before": "6%",
+     "after": "5.5%",
+     "text": "Velocidad de Ataque por nivel 6% ⇒ 5.5%",
+     "id": "b1d978fc4325",
+     "section": "champions",
+     "tags": [
+      "Mage",
+      "Marksman"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.11",
+   "publishedAt": "2025-05-27T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Pelea",
+     "sectionId": "patch-brawl",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Azir",
+      "name": "Azir"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño infligido",
+     "before": "100%",
+     "after": "105%",
+     "text": "Daño infligido: 100% ⇒ 105%",
+     "id": "1846b9cb72a4",
+     "section": "modes",
+     "tags": [
+      "Mage",
+      "Marksman"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Pelea",
+     "sectionId": "patch-brawl",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Azir",
+      "name": "Azir"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Aceleración de Habilidad",
+     "before": "0",
+     "after": "10",
+     "text": "Aceleración de Habilidad: 0 ⇒ 10",
+     "id": "822fa70c12a5",
+     "section": "modes",
+     "tags": [
+      "Mage",
+      "Marksman"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  }
+ ]
+}

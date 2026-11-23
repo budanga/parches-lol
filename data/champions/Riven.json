@@ -1,0 +1,224 @@
+{
+ "schemaVersion": 1,
+ "id": "Riven",
+ "name": "Riven",
+ "tags": [
+  "Fighter",
+  "Assassin"
+ ],
+ "entries": [
+  {
+   "patch": "26.15",
+   "publishedAt": "2026-07-28T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Riven",
+      "name": "Riven"
+     },
+     "part": "R",
+     "partTitle": "R: Espada del Exilio",
+     "spellKey": "RivenFengShuiEngine",
+     "kind": "stat",
+     "attribute": "Tasa de Daño de Ataque adicional",
+     "before": "25%",
+     "after": "20%",
+     "text": "Tasa de Daño de Ataque adicional: 25% ⇒ 20%",
+     "id": "11fc1f8546de",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Riven",
+      "name": "Riven"
+     },
+     "part": "R",
+     "partTitle": "R: Corte de Viento",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Tasa de Daño de Ataque adicional",
+     "before": "60% mínimo / 180% máximo",
+     "after": "55% mínimo / 165% máximo",
+     "text": "Tasa de Daño de Ataque adicional: 60% mínimo / 180% máximo ⇒ 55% mínimo / 165% máximo",
+     "id": "3f97912b7b9d",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "26.3",
+   "publishedAt": "2026-02-03T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Riven",
+      "name": "Riven"
+     },
+     "part": "P",
+     "partTitle": "Pasiva: Espada Rúnica",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Tasa de Daño de Ataque total",
+     "before": "De un 30% a un 50% (según el nivel)",
+     "after": "De un 30% a un 45% (según el nivel)",
+     "text": "Tasa de Daño de Ataque total: De un 30% a un 50% (según el nivel) ⇒ De un 30% a un 45% (según el nivel)",
+     "id": "605dac33f06e",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Riven",
+      "name": "Riven"
+     },
+     "part": "Q",
+     "partTitle": "Q: Alas Rotas",
+     "spellKey": "RivenTriCleave",
+     "kind": "stat",
+     "attribute": "Daño",
+     "before": "40 / 75 / 105 / 135 / 165 (+ 65% / 70% / 75% / 80% / 85% de Daño de Ataque adicional)",
+     "after": "40 / 75 / 105 / 135 / 165 (+ 60% / 65% / 70% / 75% / 80% de Daño de Ataque adicional)",
+     "text": "Daño: 40 / 75 / 105 / 135 / 165 (+ 65% / 70% / 75% / 80% / 85% de Daño de Ataque adicional) ⇒ 40 / 75 / 105 / 135 / 165 (+ 60% / 65% / 70% / 75% / 80% de Daño de Ataque adicional)",
+     "id": "6066c1e96c8a",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.23",
+   "publishedAt": "2025-11-18T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Riven",
+      "name": "Riven"
+     },
+     "part": "P",
+     "partTitle": "Pasiva: Espada Rúnica",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño adicional contra monstruos",
+     "before": "0",
+     "after": "50 de daño adicional fijo",
+     "text": "Daño adicional contra monstruos: 0 ⇒ 50 de daño adicional fijo",
+     "id": "c519b697d80c",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.14",
+   "publishedAt": "2025-07-15T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Riven",
+      "name": "Riven"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Redujimos la tasa de daño de ataque de su pasiva en el juego tardío.",
+     "id": "3b8b912e7f94",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Riven",
+      "name": "Riven"
+     },
+     "part": "P",
+     "partTitle": "Pasiva: Espada Rúnica",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Tasa de Daño de Ataque",
+     "before": "De 30% a 60% (según el nivel)",
+     "after": "De 30% a 50% (según el nivel)",
+     "text": "Tasa de Daño de Ataque: De 30% a 60% (según el nivel) ⇒ De 30% a 50% (según el nivel)",
+     "id": "13d676ac324d",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,734 @@
+{
+ "schemaVersion": 1,
+ "id": "Vayne",
+ "name": "Vayne",
+ "tags": [
+  "Marksman",
+  "Assassin"
+ ],
+ "entries": [
+  {
+   "patch": "26.23",
+   "publishedAt": "2026-11-17T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Vayne",
+      "name": "Vayne"
+     },
+     "part": "W",
+     "partTitle": "W: Proyectiles de Plata",
+     "spellKey": "VayneSilveredBolts",
+     "kind": "stat",
+     "attribute": "Tasa de Vida Máxima",
+     "before": "4 / 4.5 / 5 / 5.5 / 6%",
+     "after": "3 / 3.5 / 4 / 4.5 / 5%",
+     "text": "Tasa de Vida Máxima: 4 / 4.5 / 5 / 5.5 / 6% ⇒ 3 / 3.5 / 4 / 4.5 / 5%",
+     "id": "ae1019731679",
+     "section": "modes",
+     "tags": [
+      "Marksman",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "26.20",
+   "publishedAt": "2026-10-06T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Vayne",
+      "name": "Vayne"
+     },
+     "part": "base",
+     "partTitle": "Estadísticas base",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Vida cada 5",
+     "before": "4 + 0.5 por nivel",
+     "after": "5.5 + 0.4 por nivel",
+     "text": "Vida cada 5: 4 + 0.5 por nivel ⇒ 5.5 + 0.4 por nivel",
+     "id": "5af3dc98fcf7",
+     "section": "champions",
+     "tags": [
+      "Marksman",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Vayne",
+      "name": "Vayne"
+     },
+     "part": "Q",
+     "partTitle": "Q: Voltereta",
+     "spellKey": "VayneTumble",
+     "kind": "stat",
+     "attribute": "Costo de Maná",
+     "before": "46 / 42 / 38 / 34 / 30",
+     "after": "30",
+     "text": "Costo de Maná: 46 / 42 / 38 / 34 / 30 ⇒ 30",
+     "id": "ba1c9939a2b9",
+     "section": "champions",
+     "tags": [
+      "Marksman",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "26.17",
+   "publishedAt": "2026-08-25T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Vayne",
+      "name": "Vayne"
+     },
+     "part": "base",
+     "partTitle": "Estadísticas base",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Vida",
+     "before": "550 + 103/Nivel",
+     "after": "580 + 98/Nivel",
+     "text": "Vida: 550 + 103/Nivel ⇒ 580 + 98/Nivel",
+     "id": "bd38d87fdbcb",
+     "section": "champions",
+     "tags": [
+      "Marksman",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Vayne",
+      "name": "Vayne"
+     },
+     "part": "base",
+     "partTitle": "Estadísticas base",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Regeneración de Vida",
+     "before": "3.5 + .55/Nivel",
+     "after": "4 + .5/Nivel",
+     "text": "Regeneración de Vida: 3.5 + .55/Nivel ⇒ 4 + .5/Nivel",
+     "id": "68cdc400374f",
+     "section": "champions",
+     "tags": [
+      "Marksman",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Vayne",
+      "name": "Vayne"
+     },
+     "part": "base",
+     "partTitle": "Estadísticas base",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Tasa de Velocidad de Ataque",
+     "before": ".658 + 3.3%/Nivel",
+     "after": ".67 + 2.8%/Nivel",
+     "text": "Tasa de Velocidad de Ataque: .658 + 3.3%/Nivel ⇒ .67 + 2.8%/Nivel",
+     "id": "917b52584e27",
+     "section": "champions",
+     "tags": [
+      "Marksman",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Vayne",
+      "name": "Vayne"
+     },
+     "part": "Q",
+     "partTitle": "Q: Voltereta",
+     "spellKey": "VayneTumble",
+     "kind": "stat",
+     "attribute": "Costo de Maná",
+     "before": "30",
+     "after": "46 / 42 / 38 / 34 / 30",
+     "text": "Costo de Maná: 30 ⇒ 46 / 42 / 38 / 34 / 30",
+     "id": "c3ca1e1207f1",
+     "section": "champions",
+     "tags": [
+      "Marksman",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Vayne",
+      "name": "Vayne"
+     },
+     "part": "W",
+     "partTitle": "W: Proyectiles de Plata",
+     "spellKey": "VayneSilveredBolts",
+     "kind": "stat",
+     "attribute": "Daño verdadero",
+     "before": "6 / 7 / 8 / 9 / 10% de la Vida Máxima del objetivo",
+     "after": "4 / 5.5 / 7 / 8.5 / 10% de la Vida Máxima del objetivo",
+     "text": "Daño verdadero: 6 / 7 / 8 / 9 / 10% de la Vida Máxima del objetivo ⇒ 4 / 5.5 / 7 / 8.5 / 10% de la Vida Máxima del objetivo",
+     "id": "796a98d2881f",
+     "section": "champions",
+     "tags": [
+      "Marksman",
+      "Assassin"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Vayne",
+      "name": "Vayne"
+     },
+     "part": "W",
+     "partTitle": "W: Proyectiles de Plata",
+     "spellKey": "VayneSilveredBolts",
+     "kind": "stat",
+     "attribute": "Daño mínimo",
+     "before": "50 / 65 / 80 / 95 / 110",
+     "after": "40 / 55 / 70 / 85 / 100",
+     "text": "Daño mínimo: 50 / 65 / 80 / 95 / 110 ⇒ 40 / 55 / 70 / 85 / 100",
+     "id": "2c1cac9c695a",
+     "section": "champions",
+     "tags": [
+      "Marksman",
+      "Assassin"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "26.12",
+   "publishedAt": "2026-06-09T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Vayne",
+      "name": "Vayne"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "new",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "NUEVO Orbe del Timador: Otorga un 40% de desgarradura de escudos en todo el daño infligido",
+     "id": "9d3abe889fcf",
+     "section": "modes",
+     "tags": [
+      "Marksman",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Vayne",
+      "name": "Vayne"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Kindred",
+     "id": "4c766e5548b8",
+     "section": "modes",
+     "tags": [
+      "Marksman",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Vayne",
+      "name": "Vayne"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": null,
+     "before": "Lobo: Vida adicional: 10%",
+     "after": "15%",
+     "text": "Lobo: Vida adicional: 10% ⇒ 15%",
+     "id": "e33bd6f27621",
+     "section": "modes",
+     "tags": [
+      "Marksman",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Vayne",
+      "name": "Vayne"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Evelynn",
+     "id": "b4c4a32292cc",
+     "section": "modes",
+     "tags": [
+      "Marksman",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Vayne",
+      "name": "Vayne"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": null,
+     "before": "La Vida se establece de 50",
+     "after": "75",
+     "text": "La Vida se establece de 50 ⇒ 75",
+     "id": "da9099749b78",
+     "section": "modes",
+     "tags": [
+      "Marksman",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Vayne",
+      "name": "Vayne"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Yone",
+     "id": "d6619d8b3065",
+     "section": "modes",
+     "tags": [
+      "Marksman",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Vayne",
+      "name": "Vayne"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "El oro obtenido por victoria de ronda de Cazador aumentó de 250 a 500",
+     "id": "01a6e275cf0e",
+     "section": "modes",
+     "tags": [
+      "Marksman",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Vayne",
+      "name": "Vayne"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Swain",
+     "id": "d8f6408c27d4",
+     "section": "modes",
+     "tags": [
+      "Marksman",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Vayne",
+      "name": "Vayne"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Ya no forma parte de la ronda 2",
+     "id": "604b525a9175",
+     "section": "modes",
+     "tags": [
+      "Marksman",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Vayne",
+      "name": "Vayne"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Nilah",
+     "id": "050bebd0f947",
+     "section": "modes",
+     "tags": [
+      "Marksman",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Vayne",
+      "name": "Vayne"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Ya no forma parte de la ronda 8",
+     "id": "1cb15c316259",
+     "section": "modes",
+     "tags": [
+      "Marksman",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "26.11",
+   "publishedAt": "2026-05-27T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Vayne",
+      "name": "Vayne"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "new",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "NUEVO Vayne: Herramientas del Cazador",
+     "id": "7b62e39db386",
+     "section": "modes",
+     "tags": [
+      "Marksman",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.17",
+   "publishedAt": "2025-08-26T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Vayne",
+      "name": "Vayne"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Aumentamos el daño a monstruos de su W.",
+     "id": "f8e3000d923b",
+     "section": "champions",
+     "tags": [
+      "Marksman",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Vayne",
+      "name": "Vayne"
+     },
+     "part": "W",
+     "partTitle": "W: Proyectiles de Plata",
+     "spellKey": "VayneSilveredBolts",
+     "kind": "stat",
+     "attribute": "Daño a monstruos",
+     "before": "6% / 7% / 8% / 9% / 10% de la Vida Máxima, con un límite de 200",
+     "after": "140 / 155 / 170 / 185 / 200 de daño sin importar la cantidad de vida",
+     "text": "Daño a monstruos: 6% / 7% / 8% / 9% / 10% de la Vida Máxima, con un límite de 200 ⇒ 140 / 155 / 170 / 185 / 200 de daño sin importar la cantidad de vida",
+     "id": "b6877774a25b",
+     "section": "champions",
+     "tags": [
+      "Marksman",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.13",
+   "publishedAt": "2025-06-24T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Cambios de balance de ARAM",
+     "sectionId": "patch-aram-balance-changes",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Vayne",
+      "name": "Vayne"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño infligido",
+     "before": "105%",
+     "after": "100%",
+     "text": "Daño infligido: 105% ⇒ 100%",
+     "id": "94aba23cef13",
+     "section": "modes",
+     "tags": [
+      "Marksman",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.4",
+   "publishedAt": "2025-02-19T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "URFAR",
+     "sectionId": "patch-arurf",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Vayne",
+      "name": "Vayne"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño infligido",
+     "before": "100%",
+     "after": "95%",
+     "text": "Daño infligido: 100% ⇒ 95%",
+     "id": "bc424ba57b25",
+     "section": "modes",
+     "tags": [
+      "Marksman",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  }
+ ]
+}

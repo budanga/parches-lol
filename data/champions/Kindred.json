@@ -1,0 +1,384 @@
+{
+ "schemaVersion": 1,
+ "id": "Kindred",
+ "name": "Kindred",
+ "tags": [
+  "Marksman"
+ ],
+ "entries": [
+  {
+   "patch": "26.20",
+   "publishedAt": "2026-10-06T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Kindred",
+      "name": "Kindred"
+     },
+     "part": "W",
+     "partTitle": "W: Frenesí de Lobo",
+     "spellKey": "KindredW",
+     "kind": "stat",
+     "attribute": "Modificador de daño contra monstruos",
+     "before": "150%",
+     "after": "165%",
+     "text": "Modificador de daño contra monstruos: 150% ⇒ 165%",
+     "id": "9dfc1db5b531",
+     "section": "champions",
+     "tags": [
+      "Marksman"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Kindred",
+      "name": "Kindred"
+     },
+     "part": "E",
+     "partTitle": "E: Terror Creciente",
+     "spellKey": "KindredEWrapper",
+     "kind": "stat",
+     "attribute": "Duración de ralentización",
+     "before": "1 seg",
+     "after": "1.5 seg",
+     "text": "Duración de ralentización: 1 seg ⇒ 1.5 seg",
+     "id": "ee182af719b3",
+     "section": "champions",
+     "tags": [
+      "Marksman"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Kindred",
+      "name": "Kindred"
+     },
+     "part": "E",
+     "partTitle": "E: Terror Creciente",
+     "spellKey": "KindredEWrapper",
+     "kind": "stat",
+     "attribute": "Fijación de monstruos pequeños como objetivo",
+     "before": "Habilitada",
+     "after": "Eliminada",
+     "text": "Fijación de monstruos pequeños como objetivo: Habilitada ⇒ Eliminada",
+     "id": "6822e860f415",
+     "section": "champions",
+     "tags": [
+      "Marksman"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "26.15",
+   "publishedAt": "2026-07-28T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "ARAM: Caos",
+     "sectionId": "patch-aram:-mayhem",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Kindred",
+      "name": "Kindred"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño infligido",
+     "before": "110%",
+     "after": "100%",
+     "text": "Daño infligido: 110% ⇒ 100%",
+     "id": "1a5e0870adfb",
+     "section": "modes",
+     "tags": [
+      "Marksman"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "26.13",
+   "publishedAt": "2026-06-23T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Kindred",
+      "name": "Kindred"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": null,
+     "before": "Resurrecciones de la Oveja: 2",
+     "after": "1",
+     "text": "Resurrecciones de la Oveja: 2 ⇒ 1",
+     "id": "9d0888198695",
+     "section": "modes",
+     "tags": [
+      "Marksman"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "26.1",
+   "publishedAt": "2026-01-07T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Kindred",
+      "name": "Kindred"
+     },
+     "part": "E",
+     "partTitle": "E: Terror Creciente",
+     "spellKey": "KindredEWrapper",
+     "kind": "stat",
+     "attribute": "Vida faltante como daño de golpe crítico",
+     "before": "×1.5 / ×1.9 si el objetivo tiene menos de (entre un 25% y un 75%) de Vida (según la probabilidad de golpe crítico)",
+     "after": "50% de Probabilidad de Golpe Crítico y daño de golpe crítico adicionales siempre (hasta ×1.5 / ×1.65)",
+     "text": "Vida faltante como daño de golpe crítico: ×1.5 / ×1.9 si el objetivo tiene menos de (entre un 25% y un 75%) de Vida (según la probabilidad de golpe crítico) ⇒ 50% de Probabilidad de Golpe Crítico y daño de golpe crítico adicionales siempre (hasta ×1.5 / ×1.65)",
+     "id": "c8fe5deadb76",
+     "section": "champions",
+     "tags": [
+      "Marksman"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Kindred",
+      "name": "Kindred"
+     },
+     "part": "E",
+     "partTitle": "E: Terror Creciente",
+     "spellKey": "KindredEWrapper",
+     "kind": "stat",
+     "attribute": "Daño del salto",
+     "before": "×1.75 / ×2.15 al asestar un golpe crítico",
+     "after": "50% de Probabilidad de Golpe Crítico y daño de golpe crítico adicionales siempre (hasta ×1.5 / ×1.65)",
+     "text": "Daño del salto: ×1.75 / ×2.15 al asestar un golpe crítico ⇒ 50% de Probabilidad de Golpe Crítico y daño de golpe crítico adicionales siempre (hasta ×1.5 / ×1.65)",
+     "id": "022e2d219673",
+     "section": "champions",
+     "tags": [
+      "Marksman"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Kindred",
+      "name": "Kindred"
+     },
+     "part": "E",
+     "partTitle": "E: Terror Creciente",
+     "spellKey": "KindredEWrapper",
+     "kind": "stat",
+     "attribute": "Límite de daño contra monstruos",
+     "before": "300, incluido el daño básico y la tasa de daño de ataque adicional",
+     "after": "200 solo para la fracción de daño que corresponde al porcentaje de vida (representa una mejora en casi cualquier situación)",
+     "text": "Límite de daño contra monstruos: 300, incluido el daño básico y la tasa de daño de ataque adicional ⇒ 200 solo para la fracción de daño que corresponde al porcentaje de vida (representa una mejora en casi cualquier situación)",
+     "id": "0544985a8891",
+     "section": "champions",
+     "tags": [
+      "Marksman"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.13",
+   "publishedAt": "2025-06-24T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Kindred",
+      "name": "Kindred"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Redujimos el enfriamiento de su R en los niveles bajos.",
+     "id": "ae5081e832bd",
+     "section": "champions",
+     "tags": [
+      "Marksman"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Kindred",
+      "name": "Kindred"
+     },
+     "part": "R",
+     "partTitle": "R: Alivio de Cordero",
+     "spellKey": "KindredR",
+     "kind": "stat",
+     "attribute": "Enfriamiento",
+     "before": "180 / 150 / 120",
+     "after": "160 / 140 / 120",
+     "text": "Enfriamiento: 180 / 150 / 120 ⇒ 160 / 140 / 120",
+     "id": "90bf15a077ea",
+     "section": "champions",
+     "tags": [
+      "Marksman"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.11",
+   "publishedAt": "2025-05-27T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Pelea",
+     "sectionId": "patch-brawl",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Kindred",
+      "name": "Kindred"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño infligido",
+     "before": "100%",
+     "after": "105%",
+     "text": "Daño infligido: 100% ⇒ 105%",
+     "id": "163fed4d610c",
+     "section": "modes",
+     "tags": [
+      "Marksman"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Pelea",
+     "sectionId": "patch-brawl",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Kindred",
+      "name": "Kindred"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño recibido",
+     "before": "100%",
+     "after": "95%",
+     "text": "Daño recibido: 100% ⇒ 95%",
+     "id": "2690f4d2b2fc",
+     "section": "modes",
+     "tags": [
+      "Marksman"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Pelea",
+     "sectionId": "patch-brawl",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Kindred",
+      "name": "Kindred"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Enfriamiento de la R",
+     "before": "180 / 150 / 120",
+     "after": "120 / 110 / 100",
+     "text": "Enfriamiento de la R: 180 / 150 / 120 ⇒ 120 / 110 / 100",
+     "id": "65889d6cacf1",
+     "section": "modes",
+     "tags": [
+      "Marksman"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  }
+ ]
+}

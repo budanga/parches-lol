@@ -1,0 +1,558 @@
+{
+ "schemaVersion": 1,
+ "id": "Aatrox",
+ "name": "Aatrox",
+ "tags": [
+  "Fighter"
+ ],
+ "entries": [
+  {
+   "patch": "26.21",
+   "publishedAt": "2026-10-20T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Classic",
+     "sectionId": "patch-classic",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Aatrox",
+      "name": "Aatrox"
+     },
+     "part": "P",
+     "partTitle": "Pasiva: Pozo de Sangre",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Enfriamiento",
+     "before": "225 seg",
+     "after": "225 / 200 / 175 / 150 seg (niveles 1 / 6 / 11 / 16)",
+     "text": "Enfriamiento: 225 seg ⇒ 225 / 200 / 175 / 150 seg (niveles 1 / 6 / 11 / 16)",
+     "id": "0f380464612e",
+     "section": "modes",
+     "tags": [
+      "Fighter"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "26.20",
+   "publishedAt": "2026-10-06T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "LoL Classic",
+     "sectionId": "patch-classic",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Aatrox",
+      "name": "Aatrox"
+     },
+     "part": "Campeones",
+     "partTitle": "Campeones",
+     "spellKey": null,
+     "kind": "new",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "NUEVO Aatrox",
+     "id": "1a2311a665e2",
+     "section": "modes",
+     "tags": [
+      "Fighter"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "26.19",
+   "publishedAt": "2026-09-22T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Aatrox",
+      "name": "Aatrox"
+     },
+     "part": "W",
+     "partTitle": "W: Cadenas Infernales",
+     "spellKey": "AatroxW",
+     "kind": "stat",
+     "attribute": "Enfriamiento",
+     "before": "20 / 18 / 16 / 14 / 12 seg",
+     "after": "18 / 16.5 / 15 / 13.5 / 12 seg",
+     "text": "Enfriamiento: 20 / 18 / 16 / 14 / 12 seg ⇒ 18 / 16.5 / 15 / 13.5 / 12 seg",
+     "id": "d438a9d9f993",
+     "section": "champions",
+     "tags": [
+      "Fighter"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Aatrox",
+      "name": "Aatrox"
+     },
+     "part": "E",
+     "partTitle": "E: Impulso Siniestro",
+     "spellKey": "AatroxE",
+     "kind": "stat",
+     "attribute": "Tasa de Curación",
+     "before": "1.1% por cada 100 de Vida adicional",
+     "after": "1.3% por cada 100 de Vida adicional",
+     "text": "Tasa de Curación: 1.1% por cada 100 de Vida adicional ⇒ 1.3% por cada 100 de Vida adicional",
+     "id": "94cb0b3825df",
+     "section": "champions",
+     "tags": [
+      "Fighter"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "26.12",
+   "publishedAt": "2026-06-09T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Aatrox",
+      "name": "Aatrox"
+     },
+     "part": "Q",
+     "partTitle": "Q: La Espada Darkin",
+     "spellKey": "AatroxQ",
+     "kind": "stat",
+     "attribute": "Daño adicional de punto óptimo",
+     "before": "70",
+     "after": "75",
+     "text": "Daño adicional de punto óptimo: 70 ⇒ 75",
+     "id": "8c54d69820fd",
+     "section": "champions",
+     "tags": [
+      "Fighter"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "26.2",
+   "publishedAt": "2026-01-21T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Aatrox",
+      "name": "Aatrox"
+     },
+     "part": "P",
+     "partTitle": "Pasiva: Heraldo de la Destrucción",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño mágico adicional según la vida máxima del objetivo",
+     "before": "De 4% a 8% (según el nivel)",
+     "after": "De 4% a 10% (según el nivel)",
+     "text": "Daño mágico adicional según la vida máxima del objetivo: De 4% a 8% (según el nivel) ⇒ De 4% a 10% (según el nivel)",
+     "id": "0b2e366d620a",
+     "section": "champions",
+     "tags": [
+      "Fighter"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Aatrox",
+      "name": "Aatrox"
+     },
+     "part": "Q",
+     "partTitle": "Q: La Espada Darkin",
+     "spellKey": "AatroxQ",
+     "kind": "stat",
+     "attribute": "Daño adicional contra monstruos",
+     "before": "15",
+     "after": "25",
+     "text": "Daño adicional contra monstruos: 15 ⇒ 25",
+     "id": "1dc625ce8a6f",
+     "section": "champions",
+     "tags": [
+      "Fighter"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.24",
+   "publishedAt": "2025-12-02T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Actualizaciones dentro de la versión, 16 de diciembre de 2025",
+     "sectionId": "patch-season-3-ranked-ending-soon",
+     "midPatch": true,
+     "entity": {
+      "kind": "champion",
+      "id": "Aatrox",
+      "name": "Aatrox"
+     },
+     "part": "Q",
+     "partTitle": "Q: La Espada Darkin",
+     "spellKey": "AatroxQ",
+     "kind": "stat",
+     "attribute": "Daño adicional mínimo contra monstruos",
+     "before": "40",
+     "after": "15",
+     "text": "Daño adicional mínimo contra monstruos: 40 ⇒ 15",
+     "id": "1613e23dde54",
+     "section": "champions",
+     "tags": [
+      "Fighter"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.23",
+   "publishedAt": "2025-11-18T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Aatrox",
+      "name": "Aatrox"
+     },
+     "part": "P",
+     "partTitle": "Pasiva: Heraldo de la Destrucción",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Límite de daño contra monstruos",
+     "before": "100",
+     "after": "De 100 a 320 (según el nivel)",
+     "text": "Límite de daño contra monstruos: 100 ⇒ De 100 a 320 (según el nivel)",
+     "id": "f8bc2fd75ae5",
+     "section": "champions",
+     "tags": [
+      "Fighter"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Aatrox",
+      "name": "Aatrox"
+     },
+     "part": "Q",
+     "partTitle": "Q: La Espada Darkin",
+     "spellKey": "AatroxQ",
+     "kind": "stat",
+     "attribute": "Daño adicional contra monstruos",
+     "before": "0",
+     "after": "40 de daño adicional fijo (se multiplica con otros efectos, como los puntos óptimos y los lanzamientos múltiples)",
+     "text": "Daño adicional contra monstruos: 0 ⇒ 40 de daño adicional fijo (se multiplica con otros efectos, como los puntos óptimos y los lanzamientos múltiples)",
+     "id": "048f0e0f557a",
+     "section": "champions",
+     "tags": [
+      "Fighter"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.12",
+   "publishedAt": "2025-06-10T18:05:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Aatrox",
+      "name": "Aatrox"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Aumentamos la curación de su pasiva y de su E.",
+     "id": "46492813bcbb",
+     "section": "champions",
+     "tags": [
+      "Fighter"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Aatrox",
+      "name": "Aatrox"
+     },
+     "part": "P",
+     "partTitle": "Pasiva: Heraldo de la Destrucción",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Tasa de curación contra campeones",
+     "before": "80%",
+     "after": "100%",
+     "text": "Tasa de curación contra campeones: 80% ⇒ 100%",
+     "id": "f9a16f58c9ef",
+     "section": "champions",
+     "tags": [
+      "Fighter"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Aatrox",
+      "name": "Aatrox"
+     },
+     "part": "P",
+     "partTitle": "Pasiva: Heraldo de la Destrucción",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Tasa de curación contra súbditos",
+     "before": "20%",
+     "after": "25%",
+     "text": "Tasa de curación contra súbditos: 20% ⇒ 25%",
+     "id": "d46baa83d7b5",
+     "section": "champions",
+     "tags": [
+      "Fighter"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Aatrox",
+      "name": "Aatrox"
+     },
+     "part": "E",
+     "partTitle": "E: Impulso Siniestro",
+     "spellKey": "AatroxE",
+     "kind": "stat",
+     "attribute": "Tasa de curación al infligir daño a campeones",
+     "before": "16% (+ 0.9% por cada 100 de Vida adicional)",
+     "after": "16% (+ 1.1% por cada 100 de Vida adicional)",
+     "text": "Tasa de curación al infligir daño a campeones: 16% (+ 0.9% por cada 100 de Vida adicional) ⇒ 16% (+ 1.1% por cada 100 de Vida adicional)",
+     "id": "46524508e3f0",
+     "section": "champions",
+     "tags": [
+      "Fighter"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.11",
+   "publishedAt": "2025-05-27T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Aatrox",
+      "name": "Aatrox"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Redujimos el daño de su pasiva. Aumentamos el daño al impactar un punto óptimo de su Q. Se cambió el tipo de daño de su W a daño físico.",
+     "id": "035ba8d0a449",
+     "section": "champions",
+     "tags": [
+      "Fighter"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Aatrox",
+      "name": "Aatrox"
+     },
+     "part": "P",
+     "partTitle": "Pasiva: Heraldo de la Destrucción",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño",
+     "before": "De 4 a 12% de la Vida Máxima (según el nivel)",
+     "after": "De 4 a 8% de la Vida Máxima (según el nivel)",
+     "text": "Daño: De 4 a 12% de la Vida Máxima (según el nivel) ⇒ De 4 a 8% de la Vida Máxima (según el nivel)",
+     "id": "ea0316c8be34",
+     "section": "champions",
+     "tags": [
+      "Fighter"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Aatrox",
+      "name": "Aatrox"
+     },
+     "part": "Q",
+     "partTitle": "Q: La Espada Darkin",
+     "spellKey": "AatroxQ",
+     "kind": "stat",
+     "attribute": "Daño al impactar un punto óptimo",
+     "before": "160%",
+     "after": "170%",
+     "text": "Daño al impactar un punto óptimo: 160% ⇒ 170%",
+     "id": "8a841315561f",
+     "section": "champions",
+     "tags": [
+      "Fighter"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Aatrox",
+      "name": "Aatrox"
+     },
+     "part": "W",
+     "partTitle": "W: Cadenas Infernales",
+     "spellKey": "AatroxW",
+     "kind": "stat",
+     "attribute": "Tipo de daño",
+     "before": "Mágico",
+     "after": "Físico",
+     "text": "Tipo de daño: Mágico ⇒ Físico",
+     "id": "f39d52960ed4",
+     "section": "champions",
+     "tags": [
+      "Fighter"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Pelea",
+     "sectionId": "patch-brawl",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Aatrox",
+      "name": "Aatrox"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño recibido",
+     "before": "100%",
+     "after": "95%",
+     "text": "Daño recibido: 100% ⇒ 95%",
+     "id": "5d5152b525de",
+     "section": "modes",
+     "tags": [
+      "Fighter"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  }
+ ]
+}

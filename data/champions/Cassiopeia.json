@@ -1,0 +1,876 @@
+{
+ "schemaVersion": 1,
+ "id": "Cassiopeia",
+ "name": "Cassiopeia",
+ "tags": [
+  "Mage"
+ ],
+ "entries": [
+  {
+   "patch": "26.20",
+   "publishedAt": "2026-10-06T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Cassiopeia",
+      "name": "Cassiopeia"
+     },
+     "part": "base",
+     "partTitle": "Estadísticas base",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Vida base",
+     "before": "630",
+     "after": "610",
+     "text": "Vida base: 630 ⇒ 610",
+     "id": "78fe111ab526",
+     "section": "champions",
+     "tags": [
+      "Mage"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Cassiopeia",
+      "name": "Cassiopeia"
+     },
+     "part": "base",
+     "partTitle": "Estadísticas base",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Maná básico",
+     "before": "480",
+     "after": "450",
+     "text": "Maná básico: 480 ⇒ 450",
+     "id": "f190afdf742e",
+     "section": "champions",
+     "tags": [
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "26.18",
+   "publishedAt": "2026-09-09T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Cassiopeia",
+      "name": "Cassiopeia"
+     },
+     "part": "P",
+     "partTitle": "Pasiva: Gracia Serpentina",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Velocidad de Movimiento adicional",
+     "before": "6% ~ 40% (según el nivel)",
+     "after": "5% ~ 36% (según el nivel)",
+     "text": "Velocidad de Movimiento adicional: 6% ~ 40% (según el nivel) ⇒ 5% ~ 36% (según el nivel)",
+     "id": "6d0256906bfa",
+     "section": "champions",
+     "tags": [
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Cassiopeia",
+      "name": "Cassiopeia"
+     },
+     "part": "Q",
+     "partTitle": "Q: Explosión Nociva",
+     "spellKey": "CassiopeiaQ",
+     "kind": "stat",
+     "attribute": "Daño",
+     "before": "75 / 110 / 145 / 180 / 215",
+     "after": "65 / 100 / 135 / 170 / 205",
+     "text": "Daño: 75 / 110 / 145 / 180 / 215 ⇒ 65 / 100 / 135 / 170 / 205",
+     "id": "ae5e36c88e2d",
+     "section": "champions",
+     "tags": [
+      "Mage"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Cassiopeia",
+      "name": "Cassiopeia"
+     },
+     "part": "Q",
+     "partTitle": "Q: Explosión Nociva",
+     "spellKey": "CassiopeiaQ",
+     "kind": "stat",
+     "attribute": "Tasa de Poder de Habilidad",
+     "before": "65%",
+     "after": "75%",
+     "text": "Tasa de Poder de Habilidad: 65% ⇒ 75%",
+     "id": "7b40dbd814cb",
+     "section": "champions",
+     "tags": [
+      "Mage"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Cassiopeia",
+      "name": "Cassiopeia"
+     },
+     "part": "E",
+     "partTitle": "E: Colmillos Gemelos",
+     "spellKey": "CassiopeiaE",
+     "kind": "stat",
+     "attribute": "Costo de Maná",
+     "before": "40",
+     "after": "45",
+     "text": "Costo de Maná: 40 ⇒ 45",
+     "id": "5105c66e2d1f",
+     "section": "champions",
+     "tags": [
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Cassiopeia",
+      "name": "Cassiopeia"
+     },
+     "part": "E",
+     "partTitle": "E: Colmillos Gemelos",
+     "spellKey": "CassiopeiaE",
+     "kind": "stat",
+     "attribute": "Tasa de Poder de Habilidad básica",
+     "before": "10%",
+     "after": "20%",
+     "text": "Tasa de Poder de Habilidad básica: 10% ⇒ 20%",
+     "id": "9df9e5f4435d",
+     "section": "champions",
+     "tags": [
+      "Mage"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Cassiopeia",
+      "name": "Cassiopeia"
+     },
+     "part": "E",
+     "partTitle": "E: Colmillos Gemelos",
+     "spellKey": "CassiopeiaE",
+     "kind": "stat",
+     "attribute": "Tasa de Poder de Habilidad mejorada",
+     "before": "55%",
+     "after": "45%",
+     "text": "Tasa de Poder de Habilidad mejorada: 55% ⇒ 45%",
+     "id": "6118a573b64d",
+     "section": "champions",
+     "tags": [
+      "Mage"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Cassiopeia",
+      "name": "Cassiopeia"
+     },
+     "part": "E",
+     "partTitle": "E: Colmillos Gemelos",
+     "spellKey": "CassiopeiaE",
+     "kind": "stat",
+     "attribute": "Tasa de Poder de Habilidad total",
+     "before": "65%",
+     "after": "65%",
+     "text": "Tasa de Poder de Habilidad total: 65% ⇒ 65%",
+     "id": "a1c04253656b",
+     "section": "champions",
+     "tags": [
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Cassiopeia",
+      "name": "Cassiopeia"
+     },
+     "part": "E",
+     "partTitle": "E: Colmillos Gemelos",
+     "spellKey": "CassiopeiaE",
+     "kind": "stat",
+     "attribute": "Daño",
+     "before": "De 52 a 120",
+     "after": "De 50 a 120",
+     "text": "Daño: De 52 a 120 ⇒ De 50 a 120",
+     "id": "16026bf94e1e",
+     "section": "champions",
+     "tags": [
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Cassiopeia",
+      "name": "Cassiopeia"
+     },
+     "part": "R",
+     "partTitle": "R: Mirada Petrificante",
+     "spellKey": "CassiopeiaR",
+     "kind": "stat",
+     "attribute": "Daño",
+     "before": "150 / 250 / 350",
+     "after": "125 / 225 / 325",
+     "text": "Daño: 150 / 250 / 350 ⇒ 125 / 225 / 325",
+     "id": "9df838622e07",
+     "section": "champions",
+     "tags": [
+      "Mage"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Cassiopeia",
+      "name": "Cassiopeia"
+     },
+     "part": "R",
+     "partTitle": "R: Mirada Petrificante",
+     "spellKey": "CassiopeiaR",
+     "kind": "stat",
+     "attribute": "Tasa de Poder de Habilidad",
+     "before": "50%",
+     "after": "75%",
+     "text": "Tasa de Poder de Habilidad: 50% ⇒ 75%",
+     "id": "4fbba149438d",
+     "section": "champions",
+     "tags": [
+      "Mage"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "26.13",
+   "publishedAt": "2026-06-23T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Cassiopeia",
+      "name": "Cassiopeia"
+     },
+     "part": "base",
+     "partTitle": "Estadísticas base",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Vida por nivel",
+     "before": "104",
+     "after": "98",
+     "text": "Vida por nivel: 104 ⇒ 98",
+     "id": "d3a873808334",
+     "section": "champions",
+     "tags": [
+      "Mage"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "26.7",
+   "publishedAt": "2026-03-31T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Cassiopeia",
+      "name": "Cassiopeia"
+     },
+     "part": "base",
+     "partTitle": "Estadísticas base",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Maná básico",
+     "before": "450",
+     "after": "480",
+     "text": "Maná básico: 450 ⇒ 480",
+     "id": "e3f41c2361b1",
+     "section": "champions",
+     "tags": [
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Cassiopeia",
+      "name": "Cassiopeia"
+     },
+     "part": "E",
+     "partTitle": "E: Colmillos Gemelos",
+     "spellKey": "CassiopeiaE",
+     "kind": "stat",
+     "attribute": "Daño mágico adicional",
+     "before": "20 / 43 / 66 / 89 / 112",
+     "after": "20 / 45 / 70 / 95 / 120",
+     "text": "Daño mágico adicional: 20 / 43 / 66 / 89 / 112 ⇒ 20 / 45 / 70 / 95 / 120",
+     "id": "fce2521d8918",
+     "section": "champions",
+     "tags": [
+      "Mage"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "26.6",
+   "publishedAt": "2026-03-17T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "",
+     "sectionId": "patch-top",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Cassiopeia",
+      "name": "Cassiopeia"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Debido a un error, no hemos podido incorporar los cambios de Cassiopeia que mencionamos en las notas de la versión, pero los implementaremos en una versión futura",
+     "id": "8d5a73851cac",
+     "section": "champions",
+     "tags": [
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Cassiopeia",
+      "name": "Cassiopeia"
+     },
+     "part": "base",
+     "partTitle": "Estadísticas básicas",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Maná básico",
+     "before": "450",
+     "after": "480",
+     "text": "Maná básico: 450 ⇒ 480",
+     "id": "e3f41c2361b1",
+     "section": "champions",
+     "tags": [
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Cassiopeia",
+      "name": "Cassiopeia"
+     },
+     "part": "E",
+     "partTitle": "E: Colmillos Gemelos",
+     "spellKey": "CassiopeiaE",
+     "kind": "stat",
+     "attribute": "Daño mágico adicional contra objetivos envenenados",
+     "before": "20 / 43 / 66 / 89 / 112",
+     "after": "20 / 45 / 70 / 90 / 120",
+     "text": "Daño mágico adicional contra objetivos envenenados: 20 / 43 / 66 / 89 / 112 ⇒ 20 / 45 / 70 / 90 / 120",
+     "id": "8bad61363221",
+     "section": "champions",
+     "tags": [
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "26.1",
+   "publishedAt": "2026-01-07T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Cassiopeia",
+      "name": "Cassiopeia"
+     },
+     "part": "base",
+     "partTitle": "Estadísticas básicas",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Velocidad de Movimiento básica",
+     "before": "328",
+     "after": "335",
+     "text": "Velocidad de Movimiento básica: 328 ⇒ 335",
+     "id": "50b71220964c",
+     "section": "champions",
+     "tags": [
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Cassiopeia",
+      "name": "Cassiopeia"
+     },
+     "part": "P",
+     "partTitle": "Pasiva: Gracia Serpentina",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Rediseño de la pasiva",
+     "before": "Obtiene de 4 a 72 de Velocidad de Movimiento (según el nivel), pero no puede comprar botas",
+     "after": "La efectividad de todas las mejoras de velocidad de movimiento aumentan de un 6% a un 40% (según el nivel)",
+     "text": "Rediseño de la pasiva: Obtiene de 4 a 72 de Velocidad de Movimiento (según el nivel), pero no puede comprar botas ⇒ La efectividad de todas las mejoras de velocidad de movimiento aumentan de un 6% a un 40% (según el nivel)",
+     "id": "6502e7b1b70f",
+     "section": "champions",
+     "tags": [
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.18",
+   "publishedAt": "2025-09-09T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Cassiopeia",
+      "name": "Cassiopeia"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Aumentamos su Maná. Redujimos el daño de su E contra objetivos envenenados.",
+     "id": "099c3ac2f4b1",
+     "section": "champions",
+     "tags": [
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Cassiopeia",
+      "name": "Cassiopeia"
+     },
+     "part": "base",
+     "partTitle": "Estadísticas básicas",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Maná básico",
+     "before": "400",
+     "after": "450",
+     "text": "Maná básico: 400 ⇒ 450",
+     "id": "47414e882a62",
+     "section": "champions",
+     "tags": [
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Cassiopeia",
+      "name": "Cassiopeia"
+     },
+     "part": "E",
+     "partTitle": "E: Colmillos Gemelos",
+     "spellKey": "CassiopeiaE",
+     "kind": "stat",
+     "attribute": "Daño básico contra objetivos envenenados",
+     "before": "20 / 40 / 60 / 80 / 100",
+     "after": "20 / 43 / 66 / 89 / 112",
+     "text": "Daño básico contra objetivos envenenados: 20 / 40 / 60 / 80 / 100 ⇒ 20 / 43 / 66 / 89 / 112",
+     "id": "ca261c765f9a",
+     "section": "champions",
+     "tags": [
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.7",
+   "publishedAt": "2025-04-01T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Cassiopeia",
+      "name": "Cassiopeia"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Ya no puedes comprar botas y la ronda de botas se convierte en una ronda de objetos completos",
+     "id": "65ab49b43e13",
+     "section": "modes",
+     "tags": [
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Cassiopeia",
+      "name": "Cassiopeia"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Si ya habías comprado las botas, estas se venden al precio completo",
+     "id": "4f70c6fefca9",
+     "section": "modes",
+     "tags": [
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.S1.3",
+   "publishedAt": "2025-02-04T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Cassiopeia",
+      "name": "Cassiopeia"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Redujimos el daño de su Q. Redujimos el daño de su W.",
+     "id": "8adeac078a4f",
+     "section": "champions",
+     "tags": [
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Cassiopeia",
+      "name": "Cassiopeia"
+     },
+     "part": "Q",
+     "partTitle": "Q: Explosión Nociva",
+     "spellKey": "CassiopeiaQ",
+     "kind": "stat",
+     "attribute": "Daño",
+     "before": "75/110/145/180/215 (+70% de Poder de Habilidad)",
+     "after": "75/110/145/180/215 (+65% de Poder de Habilidad)",
+     "text": "Daño: 75/110/145/180/215 (+70% de Poder de Habilidad) ⇒ 75/110/145/180/215 (+65% de Poder de Habilidad)",
+     "id": "43e7c2d89d6e",
+     "section": "champions",
+     "tags": [
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Cassiopeia",
+      "name": "Cassiopeia"
+     },
+     "part": "W",
+     "partTitle": "W: Miasma",
+     "spellKey": "CassiopeiaW",
+     "kind": "stat",
+     "attribute": "Daño por segundo",
+     "before": "20/25/30/35/40 (+15% de Poder de Habilidad)",
+     "after": "20/25/30/35/40 (+10 de Poder de Habilidad)",
+     "text": "Daño por segundo: 20/25/30/35/40 (+15% de Poder de Habilidad) ⇒ 20/25/30/35/40 (+10 de Poder de Habilidad)",
+     "id": "711bbaffc165",
+     "section": "champions",
+     "tags": [
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.S1.2",
+   "publishedAt": "2025-01-22T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Cassiopeia",
+      "name": "Cassiopeia"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Redujimos la velocidad de movimiento de su pasiva triunfal.",
+     "id": "36b13027590f",
+     "section": "champions",
+     "tags": [
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Cassiopeia",
+      "name": "Cassiopeia"
+     },
+     "part": "P",
+     "partTitle": "Pasiva: Gracia Serpentina",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Velocidad de Movimiento Triunfante por nivel",
+     "before": "6",
+     "after": "5",
+     "text": "Velocidad de Movimiento Triunfante por nivel: 6 ⇒ 5",
+     "id": "7c6a02785e2a",
+     "section": "champions",
+     "tags": [
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Cassiopeia",
+      "name": "Cassiopeia"
+     },
+     "part": "P",
+     "partTitle": "Pasiva: Gracia Serpentina",
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "La velocidad de movimiento predeterminada de Gracia Serpentina permanece sin cambios",
+     "id": "d347d897aacf",
+     "section": "champions",
+     "tags": [
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  }
+ ]
+}

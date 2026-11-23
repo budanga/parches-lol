@@ -1,0 +1,410 @@
+{
+ "schemaVersion": 1,
+ "id": "Zoe",
+ "name": "Zoe",
+ "tags": [
+  "Mage"
+ ],
+ "entries": [
+  {
+   "patch": "26.9",
+   "publishedAt": "2026-04-28T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Zoe",
+      "name": "Zoe"
+     },
+     "part": "W",
+     "partTitle": "W: Ladrona de Hechizos",
+     "spellKey": "ZoeW",
+     "kind": "stat",
+     "attribute": "Daño por proyectil",
+     "before": "20 / 30 / 40 / 50 / 60 (+15% de Poder de Habilidad)",
+     "after": "15 / 25 / 35 / 45 / 55 (+10% de Poder de Habilidad)",
+     "text": "Daño por proyectil: 20 / 30 / 40 / 50 / 60 (+15% de Poder de Habilidad) ⇒ 15 / 25 / 35 / 45 / 55 (+10% de Poder de Habilidad)",
+     "id": "ce5503503f7b",
+     "section": "champions",
+     "tags": [
+      "Mage"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Zoe",
+      "name": "Zoe"
+     },
+     "part": "W",
+     "partTitle": "W: Ladrona de Hechizos",
+     "spellKey": "ZoeW",
+     "kind": "stat",
+     "attribute": "Daño total",
+     "before": "60 / 90 / 120 / 150 / 180 (+45% de Poder de Habilidad)",
+     "after": "45 / 75 / 105 / 135 / 165 (+30% de Poder de Habilidad)",
+     "text": "Daño total: 60 / 90 / 120 / 150 / 180 (+45% de Poder de Habilidad) ⇒ 45 / 75 / 105 / 135 / 165 (+30% de Poder de Habilidad)",
+     "id": "bf5a9b0db2d9",
+     "section": "champions",
+     "tags": [
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Zoe",
+      "name": "Zoe"
+     },
+     "part": "E",
+     "partTitle": "E: Burbuja Dormilona",
+     "spellKey": "ZoeE",
+     "kind": "stat",
+     "attribute": "Enfriamiento",
+     "before": "16 / 15 / 14 / 13 / 12",
+     "after": "18 / 17 / 16 / 15 / 14",
+     "text": "Enfriamiento: 16 / 15 / 14 / 13 / 12 ⇒ 18 / 17 / 16 / 15 / 14",
+     "id": "fa5b63d5fcd2",
+     "section": "champions",
+     "tags": [
+      "Mage"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Zoe",
+      "name": "Zoe"
+     },
+     "part": "E",
+     "partTitle": "E: Burbuja Dormilona",
+     "spellKey": "ZoeE",
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Otorga un 16 / 19.5 / 23 / 26.5 / 30% de la reducción de enfriamiento al golpear a un campeón enemigo.",
+     "id": "92dadfb6118d",
+     "section": "champions",
+     "tags": [
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.20",
+   "publishedAt": "2025-10-07T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Bots Apocalípticos",
+     "sectionId": "patch-doom-bots",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Zoe",
+      "name": "Zoe"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño infligido",
+     "before": "100%",
+     "after": "115%",
+     "text": "Daño infligido: 100% ⇒ 115%",
+     "id": "0e077b4509cd",
+     "section": "modes",
+     "tags": [
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.14",
+   "publishedAt": "2025-07-15T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Zoe",
+      "name": "Zoe"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Redujimos el daño de su Q y el de su W.",
+     "id": "2eac706b6eb9",
+     "section": "champions",
+     "tags": [
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Zoe",
+      "name": "Zoe"
+     },
+     "part": "Q",
+     "partTitle": "Q: Estrella Saltarina",
+     "spellKey": "ZoeQ",
+     "kind": "stat",
+     "attribute": "Daño",
+     "before": "De 7 a 50 (según el nivel) (+ 50 / 80 / 110 / 140 / 170) (+ 60% de Poder de Habilidad)",
+     "after": "De 2 a 50 (según el nivel) (+ 50 / 80 / 110 / 140 / 170) (+ 60% de Poder de Habilidad)",
+     "text": "Daño: De 7 a 50 (según el nivel) (+ 50 / 80 / 110 / 140 / 170) (+ 60% de Poder de Habilidad) ⇒ De 2 a 50 (según el nivel) (+ 50 / 80 / 110 / 140 / 170) (+ 60% de Poder de Habilidad)",
+     "id": "ee5030f07083",
+     "section": "champions",
+     "tags": [
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Zoe",
+      "name": "Zoe"
+     },
+     "part": "W",
+     "partTitle": "W: Ladrona de Hechizos",
+     "spellKey": "ZoeW",
+     "kind": "stat",
+     "attribute": "Daño total",
+     "before": "75 / 105 / 135 / 165 / 195 (+ 40% de Poder de Habilidad)",
+     "after": "60 / 90 / 120 / 150 / 180 (+ 45% de Poder de Habilidad)",
+     "text": "Daño total: 75 / 105 / 135 / 165 / 195 (+ 40% de Poder de Habilidad) ⇒ 60 / 90 / 120 / 150 / 180 (+ 45% de Poder de Habilidad)",
+     "id": "0fea110cf98d",
+     "section": "champions",
+     "tags": [
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.8",
+   "publishedAt": "2025-04-15T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Zoe",
+      "name": "Zoe"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Redujimos la pérdida de daño secundario de su Q.",
+     "id": "b1785e2a162d",
+     "section": "champions",
+     "tags": [
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Zoe",
+      "name": "Zoe"
+     },
+     "part": "Q",
+     "partTitle": "Q: Estrella Saltarina",
+     "spellKey": "ZoeQ",
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Pérdida de daño contra objetivos secundarios: eliminado",
+     "id": "f898722bf8e1",
+     "section": "champions",
+     "tags": [
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.6",
+   "publishedAt": "2025-03-18T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Zoe",
+      "name": "Zoe"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": null,
+     "before": "Estadísticas: Vida adicional al nivel 18: 255",
+     "after": "493",
+     "text": "Estadísticas: Vida adicional al nivel 18: 255 ⇒ 493",
+     "id": "0089e81711cc",
+     "section": "modes",
+     "tags": [
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Zoe",
+      "name": "Zoe"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": null,
+     "before": "Q: Estrella Saltarina: Enfriamiento: 8.5-6.5",
+     "after": "6-4 seg",
+     "text": "Q: Estrella Saltarina: Enfriamiento: 8.5-6.5 ⇒ 6-4 seg",
+     "id": "df1e97da516a",
+     "section": "modes",
+     "tags": [
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.S1.3",
+   "publishedAt": "2025-02-04T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-swiftplay",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Zoe",
+      "name": "Zoe"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño de E",
+     "before": "70/110/150/190/230 (+45% de Poder de Habilidad)",
+     "after": "85/125/165/205/245 (+45% de Poder de Habilidad)",
+     "text": "Daño de E: 70/110/150/190/230 (+45% de Poder de Habilidad) ⇒ 85/125/165/205/245 (+45% de Poder de Habilidad)",
+     "id": "6b3078b43212",
+     "section": "champions",
+     "tags": [
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-swiftplay",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Zoe",
+      "name": "Zoe"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Enfriamiento de E",
+     "before": "16/15/14/13/12",
+     "after": "14/13.5/13/12.5/12",
+     "text": "Enfriamiento de E: 16/15/14/13/12 ⇒ 14/13.5/13/12.5/12",
+     "id": "b4da40f23733",
+     "section": "champions",
+     "tags": [
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  }
+ ]
+}

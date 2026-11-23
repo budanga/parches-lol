@@ -1,0 +1,218 @@
+{
+ "schemaVersion": 1,
+ "id": "Neeko",
+ "name": "Neeko",
+ "tags": [
+  "Mage",
+  "Support"
+ ],
+ "entries": [
+  {
+   "patch": "26.20",
+   "publishedAt": "2026-10-06T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Neeko",
+      "name": "Neeko"
+     },
+     "part": "E",
+     "partTitle": "E: Espiral Enredadiza",
+     "spellKey": "NeekoE",
+     "kind": "stat",
+     "attribute": "Daño base",
+     "before": "70 / 105 / 140 / 175 / 210 (+65% de Poder de Habilidad)",
+     "after": "80 / 115 / 150 / 185 / 220 (+65% de Poder de Habilidad)",
+     "text": "Daño base: 70 / 105 / 140 / 175 / 210 (+65% de Poder de Habilidad) ⇒ 80 / 115 / 150 / 185 / 220 (+65% de Poder de Habilidad)",
+     "id": "4cfc0d11cabd",
+     "section": "champions",
+     "tags": [
+      "Mage",
+      "Support"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Neeko",
+      "name": "Neeko"
+     },
+     "part": "E",
+     "partTitle": "E: Espiral Enredadiza",
+     "spellKey": "NeekoE",
+     "kind": "stat",
+     "attribute": "Duración de inmovilización potenciada",
+     "before": "1.8 / 2.1 / 2.4 / 2.7 / 3 seg",
+     "after": "2 / 2.25 / 2.5 / 2.75 / 3 seg",
+     "text": "Duración de inmovilización potenciada: 1.8 / 2.1 / 2.4 / 2.7 / 3 seg ⇒ 2 / 2.25 / 2.5 / 2.75 / 3 seg",
+     "id": "18221abf6d35",
+     "section": "champions",
+     "tags": [
+      "Mage",
+      "Support"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "26.5",
+   "publishedAt": "2026-03-03T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Neeko",
+      "name": "Neeko"
+     },
+     "part": "W",
+     "partTitle": "W: Cambiaformas",
+     "spellKey": "NeekoW",
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Neekos un poco menos engañosas: El enfriamiento ahora comienza cuando el clon expira, en lugar de al lanzarlo",
+     "id": "1f18baa16ddc",
+     "section": "champions",
+     "tags": [
+      "Mage",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Neeko",
+      "name": "Neeko"
+     },
+     "part": "W",
+     "partTitle": "W: Cambiaformas",
+     "spellKey": "NeekoW",
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Diversión eliminada: Neeko ya no puede usar Ctrl+5 para reproducir la expresión de broma solo en el clon. Sin embargo, Neeko aún puede bromear, bailar o retirarse para que su clon inicie dichas acciones",
+     "id": "748724f29ea7",
+     "section": "champions",
+     "tags": [
+      "Mage",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.12",
+   "publishedAt": "2025-06-10T18:05:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Neeko",
+      "name": "Neeko"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Redujimos el daño de su Q y el de su W.",
+     "id": "2f48a486599f",
+     "section": "champions",
+     "tags": [
+      "Mage",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Neeko",
+      "name": "Neeko"
+     },
+     "part": "Q",
+     "partTitle": "Q: Estallido Floral",
+     "spellKey": "NeekoQ",
+     "kind": "stat",
+     "attribute": "Daño",
+     "before": "80 / 125 / 170 / 215 / 260 (+ 50% de Poder de Habilidad)",
+     "after": "60 / 110 / 160 / 210 / 260 (+ 60% de Poder de Habilidad)",
+     "text": "Daño: 80 / 125 / 170 / 215 / 260 (+ 50% de Poder de Habilidad) ⇒ 60 / 110 / 160 / 210 / 260 (+ 60% de Poder de Habilidad)",
+     "id": "6471ab6bd46b",
+     "section": "champions",
+     "tags": [
+      "Mage",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Neeko",
+      "name": "Neeko"
+     },
+     "part": "W",
+     "partTitle": "W: División de Esencia",
+     "spellKey": "NeekoW",
+     "kind": "stat",
+     "attribute": "Daño mágico adicional",
+     "before": "40 / 75 / 110 / 145 / 180",
+     "after": "30 / 65 / 100 / 135 / 170",
+     "text": "Daño mágico adicional: 40 / 75 / 110 / 145 / 180 ⇒ 30 / 65 / 100 / 135 / 170",
+     "id": "e1fc015a648a",
+     "section": "champions",
+     "tags": [
+      "Mage",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  }
+ ]
+}

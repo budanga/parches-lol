@@ -1,0 +1,539 @@
+{
+ "schemaVersion": 1,
+ "id": "KSante",
+ "name": "K'Sante",
+ "tags": [
+  "Tank",
+  "Fighter"
+ ],
+ "entries": [
+  {
+   "patch": "26.23",
+   "publishedAt": "2026-11-17T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "KSante",
+      "name": "K'Sante"
+     },
+     "part": "W",
+     "partTitle": "W: Trazacaminos",
+     "spellKey": "KSanteW",
+     "kind": "stat",
+     "attribute": "Maná",
+     "before": "45 / 50 / 55 / 60 / 65",
+     "after": "45",
+     "text": "Maná: 45 / 50 / 55 / 60 / 65 ⇒ 45",
+     "id": "43ac1dbf2dc4",
+     "section": "champions",
+     "tags": [
+      "Tank",
+      "Fighter"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "KSante",
+      "name": "K'Sante"
+     },
+     "part": "W",
+     "partTitle": "W: Trazacaminos",
+     "spellKey": "KSanteW",
+     "kind": "stat",
+     "attribute": "Daño base",
+     "before": "45 / 75 / 105 / 135 / 165",
+     "after": "45 / 85 / 125 / 165 / 205",
+     "text": "Daño base: 45 / 75 / 105 / 135 / 165 ⇒ 45 / 85 / 125 / 165 / 205",
+     "id": "657faffa83ac",
+     "section": "champions",
+     "tags": [
+      "Tank",
+      "Fighter"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "KSante",
+      "name": "K'Sante"
+     },
+     "part": "W",
+     "partTitle": "W: Trazacaminos",
+     "spellKey": "KSanteW",
+     "kind": "stat",
+     "attribute": "Aumento de daño por tiempo de carga de Con Todo",
+     "before": "10 / 27.5 / 45 / 62.5 / 80% de daño",
+     "after": "10 / 26.25 / 42.5 / 58.75 / 75% de daño",
+     "text": "Aumento de daño por tiempo de carga de Con Todo: 10 / 27.5 / 45 / 62.5 / 80% de daño ⇒ 10 / 26.25 / 42.5 / 58.75 / 75% de daño",
+     "id": "46d27c1b9f75",
+     "section": "champions",
+     "tags": [
+      "Tank",
+      "Fighter"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "26.20",
+   "publishedAt": "2026-10-06T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "KSante",
+      "name": "K'Sante"
+     },
+     "part": "W",
+     "partTitle": "W: Trazacaminos",
+     "spellKey": "KSanteW",
+     "kind": "stat",
+     "attribute": "Costo de Maná",
+     "before": "40 / 45 / 50 / 55 / 60",
+     "after": "45 / 50 / 55 / 60 / 65",
+     "text": "Costo de Maná: 40 / 45 / 50 / 55 / 60 ⇒ 45 / 50 / 55 / 60 / 65",
+     "id": "582d209c2263",
+     "section": "champions",
+     "tags": [
+      "Tank",
+      "Fighter"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "KSante",
+      "name": "K'Sante"
+     },
+     "part": "W",
+     "partTitle": "W: Trazacaminos",
+     "spellKey": "KSanteW",
+     "kind": "stat",
+     "attribute": "Reducción de daño de la W básica/Con Todo",
+     "before": "30 / 75%",
+     "after": "25 / 70%",
+     "text": "Reducción de daño de la W básica/Con Todo: 30 / 75% ⇒ 25 / 70%",
+     "id": "26ef7f8dd84a",
+     "section": "champions",
+     "tags": [
+      "Tank",
+      "Fighter"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "ARAM: Caos",
+     "sectionId": "patch-aram:-mayhem",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "KSante",
+      "name": "K'Sante"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Enfriamiento de la W",
+     "before": "De 14 a 10",
+     "after": "10",
+     "text": "Enfriamiento de la W: De 14 a 10 ⇒ 10",
+     "id": "24f46f4c2adb",
+     "section": "modes",
+     "tags": [
+      "Tank",
+      "Fighter"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "ARAM: Caos",
+     "sectionId": "patch-aram:-mayhem",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "KSante",
+      "name": "K'Sante"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Reducción de daño de la W",
+     "before": "30%",
+     "after": "45%",
+     "text": "Reducción de daño de la W: 30% ⇒ 45%",
+     "id": "23ea48417a6f",
+     "section": "modes",
+     "tags": [
+      "Tank",
+      "Fighter"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "ARAM: Caos",
+     "sectionId": "patch-aram:-mayhem",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "KSante",
+      "name": "K'Sante"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Potencia del escudo de la E",
+     "before": "13.5% de Vida adicional",
+     "after": "15% de Vida adicional",
+     "text": "Potencia del escudo de la E: 13.5% de Vida adicional ⇒ 15% de Vida adicional",
+     "id": "ba5a7a468e9e",
+     "section": "modes",
+     "tags": [
+      "Tank",
+      "Fighter"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "26.13",
+   "publishedAt": "2026-06-23T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "KSante",
+      "name": "K'Sante"
+     },
+     "part": "E",
+     "partTitle": "E: Juego de Pies",
+     "spellKey": "KSanteE",
+     "kind": "stat",
+     "attribute": "Escudo",
+     "before": "80 / 120 / 160 / 200 / 240 (+15% de Vida adicional)",
+     "after": "70 / 112.5 / 155 / 197.5 / 240 (+13.5% de Vida adicional)",
+     "text": "Escudo: 80 / 120 / 160 / 200 / 240 (+15% de Vida adicional) ⇒ 70 / 112.5 / 155 / 197.5 / 240 (+13.5% de Vida adicional)",
+     "id": "720e70d994dd",
+     "section": "champions",
+     "tags": [
+      "Tank",
+      "Fighter"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "26.4",
+   "publishedAt": "2026-02-18T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "KSante",
+      "name": "K'Sante"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": null,
+     "before": "Pasiva: el daño de la Marca según el porcentaje de vida aumentó de 1%-2%",
+     "after": "2%-3%",
+     "text": "Pasiva: el daño de la Marca según el porcentaje de vida aumentó de 1%-2% ⇒ 2%-3%",
+     "id": "3eb844ec2682",
+     "section": "modes",
+     "tags": [
+      "Tank",
+      "Fighter"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "KSante",
+      "name": "K'Sante"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": null,
+     "before": "El daño físico de Con Todo según la Vida Máxima aumentó de 1%",
+     "after": "1.5%.",
+     "text": "El daño físico de Con Todo según la Vida Máxima aumentó de 1% ⇒ 1.5%.",
+     "id": "86bc6aeb9514",
+     "section": "modes",
+     "tags": [
+      "Tank",
+      "Fighter"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.11",
+   "publishedAt": "2025-05-27T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Pelea",
+     "sectionId": "patch-brawl",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "KSante",
+      "name": "K'Sante"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño recibido",
+     "before": "100%",
+     "after": "95%",
+     "text": "Daño recibido: 100% ⇒ 95%",
+     "id": "ce00dfe1ae33",
+     "section": "modes",
+     "tags": [
+      "Tank",
+      "Fighter"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.9",
+   "publishedAt": "2025-04-29T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "KSante",
+      "name": "K'Sante"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Actualizamos su tienda de objetos predeterminada. Aumentamos el daño de su W.",
+     "id": "6456a6f17ba3",
+     "section": "champions",
+     "tags": [
+      "Tank",
+      "Fighter"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "KSante",
+      "name": "K'Sante"
+     },
+     "part": "Tienda de objetos",
+     "partTitle": "Tienda de objetos",
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Actualizamos la tienda de objetos predeterminada de K'Sante para que muestre objetos de tanque y no de peleador",
+     "id": "82eba4c44486",
+     "section": "champions",
+     "tags": [
+      "Tank",
+      "Fighter"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "KSante",
+      "name": "K'Sante"
+     },
+     "part": "W",
+     "partTitle": "W: Trazacaminos",
+     "spellKey": "KSanteW",
+     "kind": "stat",
+     "attribute": "Daño básico",
+     "before": "40 / 60 / 80 / 100 / 120",
+     "after": "45 / 75 / 105 / 135 / 165",
+     "text": "Daño básico: 40 / 60 / 80 / 100 / 120 ⇒ 45 / 75 / 105 / 135 / 165",
+     "id": "be4daa1f5704",
+     "section": "champions",
+     "tags": [
+      "Tank",
+      "Fighter"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.5",
+   "publishedAt": "2025-03-04T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "KSante",
+      "name": "K'Sante"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Redujimos el daño de su pasiva. Redujimos el daño de su W.",
+     "id": "e5dabe8b4bcc",
+     "section": "champions",
+     "tags": [
+      "Tank",
+      "Fighter"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "KSante",
+      "name": "K'Sante"
+     },
+     "part": "P",
+     "partTitle": "Pasiva: Instinto Intrépido",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño de la marca",
+     "before": "20 (+ de 1 a 2% (según el nivel) de la Vida Máxima del objetivo)",
+     "after": "12 (+ de 1 a 2% (según el nivel) de la Vida Máxima del objetivo)",
+     "text": "Daño de la marca: 20 (+ de 1 a 2% (según el nivel) de la Vida Máxima del objetivo) ⇒ 12 (+ de 1 a 2% (según el nivel) de la Vida Máxima del objetivo)",
+     "id": "d26a46c3b459",
+     "section": "champions",
+     "tags": [
+      "Tank",
+      "Fighter"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "KSante",
+      "name": "K'Sante"
+     },
+     "part": "W",
+     "partTitle": "W: Trazacaminos",
+     "spellKey": "KSanteW",
+     "kind": "stat",
+     "attribute": "Daño verdadero adicional de Con Todo",
+     "before": "de 10 a 100% (según la duración de la canalización)",
+     "after": "de 10 a 80% (según la duración de la canalización)",
+     "text": "Daño verdadero adicional de Con Todo: de 10 a 100% (según la duración de la canalización) ⇒ de 10 a 80% (según la duración de la canalización)",
+     "id": "27d1bf3fa3ee",
+     "section": "champions",
+     "tags": [
+      "Tank",
+      "Fighter"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  }
+ ]
+}

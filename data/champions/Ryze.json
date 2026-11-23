@@ -1,0 +1,758 @@
+{
+ "schemaVersion": 1,
+ "id": "Ryze",
+ "name": "Ryze",
+ "tags": [
+  "Mage"
+ ],
+ "entries": [
+  {
+   "patch": "26.21",
+   "publishedAt": "2026-10-20T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Ryze",
+      "name": "Ryze"
+     },
+     "part": "Q",
+     "partTitle": "Q: Descarga Eléctrica",
+     "spellKey": "RyzeQWrapper",
+     "kind": "stat",
+     "attribute": "Daño adicional de Flujo",
+     "before": "15% / 40% / 65% / 90% de daño aumentado",
+     "after": "10% / 40% / 70% / 100% de daño aumentado",
+     "text": "Daño adicional de Flujo: 15% / 40% / 65% / 90% de daño aumentado ⇒ 10% / 40% / 70% / 100% de daño aumentado",
+     "id": "2c249f3b4424",
+     "section": "champions",
+     "tags": [
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Ryze",
+      "name": "Ryze"
+     },
+     "part": "Q",
+     "partTitle": "Q: Descarga Eléctrica",
+     "spellKey": "RyzeQWrapper",
+     "kind": "stat",
+     "attribute": "Velocidad de Movimiento adicional",
+     "before": "28% / 32% / 36% / 40% / 44%",
+     "after": "30% / 35% / 40% / 45% / 50%",
+     "text": "Velocidad de Movimiento adicional: 28% / 32% / 36% / 40% / 44% ⇒ 30% / 35% / 40% / 45% / 50%",
+     "id": "f6dd2b12bcd9",
+     "section": "champions",
+     "tags": [
+      "Mage"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Ryze",
+      "name": "Ryze"
+     },
+     "part": "W",
+     "partTitle": "W: Prisión Rúnica",
+     "spellKey": "RyzeW",
+     "kind": "stat",
+     "attribute": "Daño",
+     "before": "60 / 90 / 120 / 150 / 180 (+60% de Poder de Habilidad) (+3% de Maná adicional)",
+     "after": "60 / 90 / 120 / 150 / 180 (+70% de Poder de Habilidad) (+3% de Maná adicional)",
+     "text": "Daño: 60 / 90 / 120 / 150 / 180 (+60% de Poder de Habilidad) (+3% de Maná adicional) ⇒ 60 / 90 / 120 / 150 / 180 (+70% de Poder de Habilidad) (+3% de Maná adicional)",
+     "id": "ae1679cc1423",
+     "section": "champions",
+     "tags": [
+      "Mage"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "26.19",
+   "publishedAt": "2026-09-22T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Ryze",
+      "name": "Ryze"
+     },
+     "part": "base",
+     "partTitle": "Estadísticas base",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Crecimiento de Armadura",
+     "before": "4.2",
+     "after": "4.7",
+     "text": "Crecimiento de Armadura: 4.2 ⇒ 4.7",
+     "id": "a58543a88139",
+     "section": "champions",
+     "tags": [
+      "Mage"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Ryze",
+      "name": "Ryze"
+     },
+     "part": "Q",
+     "partTitle": "Q: Descarga Eléctrica",
+     "spellKey": "RyzeQWrapper",
+     "kind": "stat",
+     "attribute": "Daño adicional de Flujo",
+     "before": "25 / 50 / 75 / 100% de daño aumentado",
+     "after": "15 / 40 / 65 / 90% de daño aumentado",
+     "text": "Daño adicional de Flujo: 25 / 50 / 75 / 100% de daño aumentado ⇒ 15 / 40 / 65 / 90% de daño aumentado",
+     "id": "d705d9095781",
+     "section": "champions",
+     "tags": [
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Ryze",
+      "name": "Ryze"
+     },
+     "part": "E",
+     "partTitle": "E: Flujo de Hechizos",
+     "spellKey": "RyzeE",
+     "kind": "stat",
+     "attribute": "Costo de Maná",
+     "before": "35 / 45 / 55 / 65 / 75",
+     "after": "40 / 50 / 60 / 70 / 80",
+     "text": "Costo de Maná: 35 / 45 / 55 / 65 / 75 ⇒ 40 / 50 / 60 / 70 / 80",
+     "id": "2396d46fe4db",
+     "section": "champions",
+     "tags": [
+      "Mage"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "26.15",
+   "publishedAt": "2026-07-28T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "ARAM: Caos",
+     "sectionId": "patch-aram:-mayhem",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Ryze",
+      "name": "Ryze"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño infligido",
+     "before": "105%",
+     "after": "100%",
+     "text": "Daño infligido: 105% ⇒ 100%",
+     "id": "f72613706b79",
+     "section": "modes",
+     "tags": [
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "ARAM: Caos",
+     "sectionId": "patch-aram:-mayhem",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Ryze",
+      "name": "Ryze"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño recibido",
+     "before": "5%",
+     "after": "0%",
+     "text": "Daño recibido: 5% ⇒ 0%",
+     "id": "652ef4566697",
+     "section": "modes",
+     "tags": [
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "26.12",
+   "publishedAt": "2026-06-09T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Ryze",
+      "name": "Ryze"
+     },
+     "part": "base",
+     "partTitle": "Estadísticas base",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Vida básica",
+     "before": "645",
+     "after": "620",
+     "text": "Vida básica: 645 ⇒ 620",
+     "id": "10348f824770",
+     "section": "champions",
+     "tags": [
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Ryze",
+      "name": "Ryze"
+     },
+     "part": "base",
+     "partTitle": "Estadísticas base",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño de Ataque básico",
+     "before": "58",
+     "after": "55",
+     "text": "Daño de Ataque básico: 58 ⇒ 55",
+     "id": "db05b30ba5e9",
+     "section": "champions",
+     "tags": [
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "26.4",
+   "publishedAt": "2026-02-18T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Ryze",
+      "name": "Ryze"
+     },
+     "part": "R",
+     "partTitle": "R: Distorsión del Entorno",
+     "spellKey": "RyzeR",
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "¡Todos a bordo!: Ya no se fallará en teletransportar a un campeón si este se encuentra saliendo del círculo mientras está cerca del borde.",
+     "id": "badd7e8edeca",
+     "section": "champions",
+     "tags": [
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "26.3",
+   "publishedAt": "2026-02-03T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Ryze",
+      "name": "Ryze"
+     },
+     "part": "W",
+     "partTitle": "W: Prisión Rúnica",
+     "spellKey": "RyzeW",
+     "kind": "stat",
+     "attribute": "Daño",
+     "before": "60 / 90 / 120 / 150 / 180 (+ 70% de Poder de Habilidad) (+ 4% de Maná adicional)",
+     "after": "60 / 90 / 120 / 150 / 180(+ 60% de Poder de Habilidad) (+ 3% de Maná adicional)",
+     "text": "Daño: 60 / 90 / 120 / 150 / 180 (+ 70% de Poder de Habilidad) (+ 4% de Maná adicional) ⇒ 60 / 90 / 120 / 150 / 180(+ 60% de Poder de Habilidad) (+ 3% de Maná adicional)",
+     "id": "2871475a0b87",
+     "section": "champions",
+     "tags": [
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.14",
+   "publishedAt": "2025-07-15T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones (Arena)",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Ryze",
+      "name": "Ryze"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": null,
+     "before": "Ralentización de la W: 50%",
+     "after": "40%",
+     "text": "Ralentización de la W: 50% ⇒ 40%",
+     "id": "eb3d656d091e",
+     "section": "modes",
+     "tags": [
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones (Arena)",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Ryze",
+      "name": "Ryze"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": null,
+     "before": "Duración de la inmovilización de la W: 1.5",
+     "after": "1.25",
+     "text": "Duración de la inmovilización de la W: 1.5 ⇒ 1.25",
+     "id": "099e506d0b48",
+     "section": "modes",
+     "tags": [
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones (Arena)",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Ryze",
+      "name": "Ryze"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": null,
+     "before": "Daño adicional de la R: 40 / 60 / 80",
+     "after": "30 / 50 / 70",
+     "text": "Daño adicional de la R: 40 / 60 / 80 ⇒ 30 / 50 / 70",
+     "id": "8a9b07505025",
+     "section": "modes",
+     "tags": [
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.13",
+   "publishedAt": "2025-06-24T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Ryze",
+      "name": "Ryze"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Aumentamos el daño y ajustamos el costo de maná de su W.",
+     "id": "6b528ec06d23",
+     "section": "champions",
+     "tags": [
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Ryze",
+      "name": "Ryze"
+     },
+     "part": "W",
+     "partTitle": "W: Prisión Rúnica",
+     "spellKey": "RyzeW",
+     "kind": "stat",
+     "attribute": "Daño",
+     "before": "70 / 100 / 130 / 160 / 190 (+ 70% de Poder de Habilidad) (+ 4% de Maná adicional)",
+     "after": "60 / 90 / 120 / 150 / 180 (+ 70% de Poder de Habilidad) (+ 4% de Maná adicional)",
+     "text": "Daño: 70 / 100 / 130 / 160 / 190 (+ 70% de Poder de Habilidad) (+ 4% de Maná adicional) ⇒ 60 / 90 / 120 / 150 / 180 (+ 70% de Poder de Habilidad) (+ 4% de Maná adicional)",
+     "id": "2bd51ee76ae4",
+     "section": "champions",
+     "tags": [
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Ryze",
+      "name": "Ryze"
+     },
+     "part": "W",
+     "partTitle": "W: Prisión Rúnica",
+     "spellKey": "RyzeW",
+     "kind": "stat",
+     "attribute": "Maná",
+     "before": "40 / 55 / 70 / 85 / 100",
+     "after": "50 / 60 / 70 / 80 / 90",
+     "text": "Maná: 40 / 55 / 70 / 85 / 100 ⇒ 50 / 60 / 70 / 80 / 90",
+     "id": "b6b37cfeafe2",
+     "section": "champions",
+     "tags": [
+      "Mage"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.11",
+   "publishedAt": "2025-05-27T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Ryze",
+      "name": "Ryze"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Redujimos el daño de su W. Aumentamos el daño de Descarga Eléctrica que le otorga la pasiva de su R.",
+     "id": "620be3f0eb3c",
+     "section": "champions",
+     "tags": [
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Ryze",
+      "name": "Ryze"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño",
+     "before": "80 / 110 / 140 / 170 / 200 (+ 70% de Poder de Habilidad) (+ 4% de Maná adicional)",
+     "after": "70 / 100 / 130 / 160 / 190 (+ 70% de Poder de Habilidad) (+ 4% de Maná adicional)",
+     "text": "Daño: 80 / 110 / 140 / 170 / 200 (+ 70% de Poder de Habilidad) (+ 4% de Maná adicional) ⇒ 70 / 100 / 130 / 160 / 190 (+ 70% de Poder de Habilidad) (+ 4% de Maná adicional)",
+     "id": "749f6068853f",
+     "section": "champions",
+     "tags": [
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Ryze",
+      "name": "Ryze"
+     },
+     "part": "R",
+     "partTitle": "R: Distorsión del Entorno",
+     "spellKey": "RyzeR",
+     "kind": "stat",
+     "attribute": "Daño de Descarga Eléctrica contra enemigos marcados con Flujo que otorga la pasiva",
+     "before": "40 / 70 / 100%",
+     "after": "50 / 75 / 100%",
+     "text": "Daño de Descarga Eléctrica contra enemigos marcados con Flujo que otorga la pasiva: 40 / 70 / 100% ⇒ 50 / 75 / 100%",
+     "id": "a0610e4f5e2c",
+     "section": "champions",
+     "tags": [
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Pelea",
+     "sectionId": "patch-brawl",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Ryze",
+      "name": "Ryze"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Enfriamiento de la R",
+     "before": "180 / 160 / 140",
+     "after": "120 / 100 / 80",
+     "text": "Enfriamiento de la R: 180 / 160 / 140 ⇒ 120 / 100 / 80",
+     "id": "5ed8b738bd66",
+     "section": "modes",
+     "tags": [
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.9",
+   "publishedAt": "2025-04-29T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Modos de juego rotativos y cambios en Arena",
+     "sectionId": "patch-rotating-game-modes-and-arena-changes",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Ryze",
+      "name": "Ryze"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Velocidad de Movimiento adicional de la Q",
+     "before": "28 / 33 / 38 / 23 / 48%",
+     "after": "24 / 28 / 32 / 36 / 40%",
+     "text": "Velocidad de Movimiento adicional de la Q: 28 / 33 / 38 / 23 / 48% ⇒ 24 / 28 / 32 / 36 / 40%",
+     "id": "1eb2e9dd6caf",
+     "section": "modes",
+     "tags": [
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.8",
+   "publishedAt": "2025-04-15T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Ryze",
+      "name": "Ryze"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Tasa de Maná de la pasiva",
+     "before": "7.5%",
+     "after": "6.5%",
+     "text": "Tasa de Maná de la pasiva: 7.5% ⇒ 6.5%",
+     "id": "6b6f5bf81452",
+     "section": "modes",
+     "tags": [
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Ryze",
+      "name": "Ryze"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Amplificación de daño de la R de Descarga Eléctrica",
+     "before": "40 / 70 / 100%",
+     "after": "40 / 60 / 80%",
+     "text": "Amplificación de daño de la R de Descarga Eléctrica: 40 / 70 / 100% ⇒ 40 / 60 / 80%",
+     "id": "d9d6bb2096eb",
+     "section": "modes",
+     "tags": [
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.6",
+   "publishedAt": "2025-03-18T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Ryze",
+      "name": "Ryze"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": null,
+     "before": "Pasiva: Maestría Arcana: Obtención de Maná por cada 100 de Poder de Habilidad: 10%",
+     "after": "7.5%",
+     "text": "Pasiva: Maestría Arcana: Obtención de Maná por cada 100 de Poder de Habilidad: 10% ⇒ 7.5%",
+     "id": "ae1c26fc9a74",
+     "section": "modes",
+     "tags": [
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  }
+ ]
+}

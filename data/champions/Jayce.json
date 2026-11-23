@@ -1,0 +1,740 @@
+{
+ "schemaVersion": 1,
+ "id": "Jayce",
+ "name": "Jayce",
+ "tags": [
+  "Fighter",
+  "Marksman"
+ ],
+ "entries": [
+  {
+   "patch": "26.14",
+   "publishedAt": "2026-07-14T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Jayce",
+      "name": "Jayce"
+     },
+     "part": "P",
+     "partTitle": "Pasiva: Condensador Hextech",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Velocidad de Movimiento adicional",
+     "before": "40",
+     "after": "30",
+     "text": "Velocidad de Movimiento adicional: 40 ⇒ 30",
+     "id": "dc2b18fdd0ed",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Marksman"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Jayce",
+      "name": "Jayce"
+     },
+     "part": "R - Martillo de Mercurio",
+     "partTitle": "R - Martillo de Mercurio",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Armadura y resistencia mágica adicionales",
+     "before": "5 / 15 / 25 / 35 (+7.5% de Daño de Ataque adicional)",
+     "after": "5 / 12 / 19 / 26 (+7.5% de Daño de Ataque adicional)",
+     "text": "Armadura y resistencia mágica adicionales: 5 / 15 / 25 / 35 (+7.5% de Daño de Ataque adicional) ⇒ 5 / 12 / 19 / 26 (+7.5% de Daño de Ataque adicional)",
+     "id": "0c2720600a7c",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Marksman"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "26.3",
+   "publishedAt": "2026-02-03T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Jayce",
+      "name": "Jayce"
+     },
+     "part": "Q",
+     "partTitle": "Q: ¡Hacia los Cielos!",
+     "spellKey": "JayceToTheSkies",
+     "kind": "stat",
+     "attribute": "Daño",
+     "before": "60 / 105 / 150 / 295 / 240 / 285 (+ 135% de Daño de Ataque adicional)",
+     "after": "60 / 110 / 160 / 210 / 260 / 310 (+ 135% de Daño de Ataque adicional)",
+     "text": "Daño: 60 / 105 / 150 / 295 / 240 / 285 (+ 135% de Daño de Ataque adicional)⇒ 60 / 110 / 160 / 210 / 260 / 310 (+ 135% de Daño de Ataque adicional)",
+     "id": "96aa59762dd6",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Marksman"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Jayce",
+      "name": "Jayce"
+     },
+     "part": "Q",
+     "partTitle": "Q: ¡Hacia los Cielos!",
+     "spellKey": "JayceToTheSkies",
+     "kind": "stat",
+     "attribute": "Daño adicional contra monstruos",
+     "before": "25",
+     "after": "10",
+     "text": "Daño adicional contra monstruos: 25 ⇒ 10",
+     "id": "4d1f95c6e5aa",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Marksman"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Jayce",
+      "name": "Jayce"
+     },
+     "part": "Q",
+     "partTitle": "Q: Descarga Eléctrica",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño",
+     "before": "80 / 126 / 172 / 218 / 264 / 310 (+ 140% de Daño de Ataque adicional)",
+     "after": "80 / 121 / 162 / 203 / 244 / 285 (+ 130% de Daño de Ataque adicional)",
+     "text": "Daño: 80 / 126 / 172 / 218 / 264 / 310 (+ 140% de Daño de Ataque adicional) ⇒ 80 / 121 / 162 / 203 / 244 / 285 (+ 130% de Daño de Ataque adicional)",
+     "id": "5596185ca8bb",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Marksman"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Jayce",
+      "name": "Jayce"
+     },
+     "part": "Q",
+     "partTitle": "Q: Descarga Eléctrica",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño adicional contra monstruos",
+     "before": "25",
+     "after": "10",
+     "text": "Daño adicional contra monstruos: 25 ⇒ 10",
+     "id": "0b1be0cd21d8",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Marksman"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Jayce",
+      "name": "Jayce"
+     },
+     "part": "R",
+     "partTitle": "R: Posición de cañón: Cañón de Mercurio",
+     "spellKey": "JayceStanceHtG",
+     "kind": "stat",
+     "attribute": "Reducción de Armadura y Resistencia Mágica",
+     "before": "10% / 15% / 20% / 25%",
+     "after": "20% / 25% / 30% / 35%",
+     "text": "Reducción de Armadura y Resistencia Mágica: 10% / 15% / 20% / 25% ⇒ 20% / 25% / 30% / 35%",
+     "id": "28c485190d4c",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Marksman"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "26.2",
+   "publishedAt": "2026-01-21T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Jayce",
+      "name": "Jayce"
+     },
+     "part": "Q",
+     "partTitle": "Q: ¡Hacia los Cielos! / Descarga Eléctrica",
+     "spellKey": "JayceToTheSkies",
+     "kind": "stat",
+     "attribute": "Daño adicional contra monstruos",
+     "before": "50",
+     "after": "25",
+     "text": "Daño adicional contra monstruos: 50 ⇒ 25",
+     "id": "7b27071cbefe",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Marksman"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.23",
+   "publishedAt": "2025-11-18T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Jayce",
+      "name": "Jayce"
+     },
+     "part": "Q",
+     "partTitle": "Q: ¡Hacia los Cielos! (Posición de Martillo)",
+     "spellKey": "JayceToTheSkies",
+     "kind": "stat",
+     "attribute": "Daño adicional contra monstruos",
+     "before": "0",
+     "after": "50 de daño adicional fijo",
+     "text": "Daño adicional contra monstruos: 0 ⇒ 50 de daño adicional fijo",
+     "id": "4f13f7aebd51",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Marksman"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Jayce",
+      "name": "Jayce"
+     },
+     "part": "Q",
+     "partTitle": "Q: Descarga Eléctrica (Posición de Cañón)",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño adicional contra monstruos",
+     "before": "0",
+     "after": "50 de daño adicional fijo",
+     "text": "Daño adicional contra monstruos: 0 ⇒ 50 de daño adicional fijo",
+     "id": "f9a35d70558a",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Marksman"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.20",
+   "publishedAt": "2025-10-07T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Bots Apocalípticos",
+     "sectionId": "patch-doom-bots",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Jayce",
+      "name": "Jayce"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño infligido",
+     "before": "100%",
+     "after": "105%",
+     "text": "Daño infligido: 100% ⇒ 105%",
+     "id": "8086141636a7",
+     "section": "modes",
+     "tags": [
+      "Fighter",
+      "Marksman"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Bots Apocalípticos",
+     "sectionId": "patch-doom-bots",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Jayce",
+      "name": "Jayce"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño recibido",
+     "before": "100%",
+     "after": "97.5%",
+     "text": "Daño recibido: 100% ⇒ 97.5%",
+     "id": "2c20be4c9e62",
+     "section": "modes",
+     "tags": [
+      "Fighter",
+      "Marksman"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Bots Apocalípticos",
+     "sectionId": "patch-doom-bots",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Jayce",
+      "name": "Jayce"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Tenacidad",
+     "before": "0",
+     "after": "25",
+     "text": "Tenacidad: 0 ⇒ 25",
+     "id": "253c579ceaf3",
+     "section": "modes",
+     "tags": [
+      "Fighter",
+      "Marksman"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena-",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Jayce",
+      "name": "Jayce"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": null,
+     "before": "Daño básico de la Q: De 40 a 240",
+     "after": "De 80 a 310",
+     "text": "Daño básico de la Q: De 40 a 240 ⇒ De 80 a 310",
+     "id": "ec34c76af2ca",
+     "section": "modes",
+     "tags": [
+      "Fighter",
+      "Marksman"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena-",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Jayce",
+      "name": "Jayce"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": null,
+     "before": "Tasa de Daño de Ataque de la W: De 65% a 105%",
+     "after": "De 70% a 110%",
+     "text": "Tasa de Daño de Ataque de la W: De 65% a 105% ⇒ De 70% a 110%",
+     "id": "c1bea7a49d7a",
+     "section": "modes",
+     "tags": [
+      "Fighter",
+      "Marksman"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.18",
+   "publishedAt": "2025-09-09T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Jayce",
+      "name": "Jayce"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Aumentamos el daño de su Q.",
+     "id": "41dab4116ef7",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Marksman"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Jayce",
+      "name": "Jayce"
+     },
+     "part": "Q",
+     "partTitle": "Q: Descarga Eléctrica (Posición de Cañón)",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño",
+     "before": "60 / 110 / 160 / 210 / 260 / 310",
+     "after": "80 / 126 / 172 / 218 / 264 / 310",
+     "text": "Daño: 60 / 110 / 160 / 210 / 260 / 310 ⇒ 80 / 126 / 172 / 218 / 264 / 310",
+     "id": "2358ca91f512",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Marksman"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.11",
+   "publishedAt": "2025-05-27T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Pelea",
+     "sectionId": "patch-brawl",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Jayce",
+      "name": "Jayce"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño recibido",
+     "before": "100%",
+     "after": "95%",
+     "text": "Daño recibido: 100% ⇒ 95%",
+     "id": "1384964735bc",
+     "section": "modes",
+     "tags": [
+      "Marksman",
+      "Fighter"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.4",
+   "publishedAt": "2025-02-19T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Jayce",
+      "name": "Jayce"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Aumentamos la velocidad de ataque de su W.",
+     "id": "b93b2b6a47af",
+     "section": "champions",
+     "tags": [
+      "Marksman",
+      "Fighter"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Jayce",
+      "name": "Jayce"
+     },
+     "part": "W",
+     "partTitle": "W: Hipercarga",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Velocidad de Ataque de set",
+     "before": "2.67",
+     "after": "3.0",
+     "text": "Velocidad de Ataque de set: 2.67 ⇒ 3.0",
+     "id": "767b5bd1fa59",
+     "section": "champions",
+     "tags": [
+      "Marksman",
+      "Fighter"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.S1.3",
+   "publishedAt": "2025-02-04T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Jayce",
+      "name": "Jayce"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Redujimos el daño de su Q en ambas formas. Redujimos el daño de su W. Redujimos el daño de su R.",
+     "id": "7824d5cc78de",
+     "section": "champions",
+     "tags": [
+      "Marksman",
+      "Fighter"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Jayce",
+      "name": "Jayce"
+     },
+     "part": "Q",
+     "partTitle": "Q: ¡Hacia los Cielos!",
+     "spellKey": "JayceToTheSkies",
+     "kind": "stat",
+     "attribute": "Daño",
+     "before": "60/110/160/210/260/310 (+120% de Daño de Ataque adicional)",
+     "after": "60/105/150/195/240/285 (+135% de Daño de Ataque adicional)",
+     "text": "Daño: 60/110/160/210/260/310 (+120% de Daño de Ataque adicional) ⇒ 60/105/150/195/240/285 (+135% de Daño de Ataque adicional)",
+     "id": "fb820bcfba15",
+     "section": "champions",
+     "tags": [
+      "Marksman",
+      "Fighter"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Jayce",
+      "name": "Jayce"
+     },
+     "part": "Q",
+     "partTitle": "Q: Descarga Eléctrica",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño",
+     "before": "60/115/170/225/280/335 (+125% de Daño de Ataque adicional)",
+     "after": "60/110/160/210/260/310 (+140% de Daño de Ataque adicional)",
+     "text": "Daño: 60/115/170/225/280/335 (+125% de Daño de Ataque adicional) ⇒ 60/110/160/210/260/310 (+140% de Daño de Ataque adicional)",
+     "id": "4546a7d85cbf",
+     "section": "champions",
+     "tags": [
+      "Marksman",
+      "Fighter"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Jayce",
+      "name": "Jayce"
+     },
+     "part": "W",
+     "partTitle": "W: Campo Electrificado",
+     "spellKey": "JayceStaticField",
+     "kind": "stat",
+     "attribute": "Daño",
+     "before": "40/55/70/85/100/115 (+25% de Poder de Habilidad)",
+     "after": "35/50/65/80/95/110 (+25% de Poder de Habilidad)",
+     "text": "Daño: 40/55/70/85/100/115 (+25% de Poder de Habilidad) ⇒ 35/50/65/80/95/110 (+25% de Poder de Habilidad)",
+     "id": "8b29f1c44b2a",
+     "section": "champions",
+     "tags": [
+      "Marksman",
+      "Fighter"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Jayce",
+      "name": "Jayce"
+     },
+     "part": "R - Transformar Martillo de Mercurio",
+     "partTitle": "R - Transformar Martillo de Mercurio",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño de Ataque básico potenciado",
+     "before": "25/65/105/145 (según el nivel) (+25% de Daño de Ataque adicional)",
+     "after": "25/60/100/130 (según el nivel) (+30% de Daño de Ataque adicional)",
+     "text": "Daño de Ataque básico potenciado: 25/65/105/145 (según el nivel) (+25% de Daño de Ataque adicional) ⇒ 25/60/100/130 (según el nivel) (+30% de Daño de Ataque adicional)",
+     "id": "589fb29eefae",
+     "section": "champions",
+     "tags": [
+      "Marksman",
+      "Fighter"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  }
+ ]
+}

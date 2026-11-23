@@ -1,0 +1,317 @@
+{
+ "schemaVersion": 1,
+ "id": "Nami",
+ "name": "Nami",
+ "tags": [
+  "Support",
+  "Mage"
+ ],
+ "entries": [
+  {
+   "patch": "26.23",
+   "publishedAt": "2026-11-17T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Nami",
+      "name": "Nami"
+     },
+     "part": "W",
+     "partTitle": "W: Flujo y Reflujo",
+     "spellKey": "NamiW",
+     "kind": "stat",
+     "attribute": "Tasa de Poder de Habilidad",
+     "before": "65%",
+     "after": "50%",
+     "text": "Tasa de Poder de Habilidad: 65% ⇒ 50%",
+     "id": "e2ec945350f4",
+     "section": "modes",
+     "tags": [
+      "Support",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Nami",
+      "name": "Nami"
+     },
+     "part": "W",
+     "partTitle": "W: Flujo y Reflujo",
+     "spellKey": "NamiW",
+     "kind": "stat",
+     "attribute": "Daño base",
+     "before": "30",
+     "after": "25",
+     "text": "Daño base: 30 ⇒ 25",
+     "id": "70a375a0e233",
+     "section": "modes",
+     "tags": [
+      "Support",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Nami",
+      "name": "Nami"
+     },
+     "part": "W",
+     "partTitle": "W: Flujo y Reflujo",
+     "spellKey": "NamiW",
+     "kind": "stat",
+     "attribute": "Curación básica",
+     "before": "40",
+     "after": "30",
+     "text": "Curación básica: 40 ⇒ 30",
+     "id": "cfbc81bf2700",
+     "section": "modes",
+     "tags": [
+      "Support",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "26.22",
+   "publishedAt": "2026-11-03T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Classic",
+     "sectionId": "patch-classic",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Nami",
+      "name": "Nami"
+     },
+     "part": "Q",
+     "partTitle": "Q: Prisión de Agua",
+     "spellKey": "NamiQ",
+     "kind": "stat",
+     "attribute": "Daño",
+     "before": "75 / 130 / 185 / 240 / 295 + 65% de Poder de Habilidad",
+     "after": "90 / 145 / 200 / 255 / 310 + 100% de Poder de Habilidad",
+     "text": "Daño: 75 / 130 / 185 / 240 / 295 + 65% de Poder de Habilidad ⇒ 90 / 145 / 200 / 255 / 310 + 100% de Poder de Habilidad",
+     "id": "3568904d26d1",
+     "section": "modes",
+     "tags": [
+      "Support",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Classic",
+     "sectionId": "patch-classic",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Nami",
+      "name": "Nami"
+     },
+     "part": "W",
+     "partTitle": "W: Flujo y Reflujo",
+     "spellKey": "NamiW",
+     "kind": "stat",
+     "attribute": "Reducción de daño por rebote",
+     "before": "30%",
+     "after": "15% (reducción de curación sin cambios en 15%)",
+     "text": "Reducción de daño por rebote: 30% ⇒ 15% (reducción de curación sin cambios en 15%)",
+     "id": "f4586c0c97ef",
+     "section": "modes",
+     "tags": [
+      "Support",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "26.19",
+   "publishedAt": "2026-09-22T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "LoL Classic",
+     "sectionId": "patch-classic",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Nami",
+      "name": "Nami"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "new",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "NUEVO Nami",
+     "id": "8a3a26cf78d7",
+     "section": "modes",
+     "tags": [
+      "Support",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "26.14",
+   "publishedAt": "2026-07-14T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Nami",
+      "name": "Nami"
+     },
+     "part": "E",
+     "partTitle": "E: Bendición de la Marea",
+     "spellKey": "NamiE",
+     "kind": "stat",
+     "attribute": "Daño por impacto",
+     "before": "20 / 30 / 40 / 50 / 60",
+     "after": "20 / 35 / 50 / 65 / 80",
+     "text": "Daño por impacto: 20 / 30 / 40 / 50 / 60 ⇒ 20 / 35 / 50 / 65 / 80",
+     "id": "05b098781a2b",
+     "section": "champions",
+     "tags": [
+      "Support",
+      "Mage"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "26.7",
+   "publishedAt": "2026-03-31T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Nami",
+      "name": "Nami"
+     },
+     "part": "W",
+     "partTitle": "W: Flujo y Reflujo",
+     "spellKey": "NamiW",
+     "kind": "stat",
+     "attribute": "Modificador de rebote",
+     "before": "(+10% por cada 100 de Poder de Habilidad) de efecto por rebote",
+     "after": "-20% (+15% por cada 100 de Poder de Habilidad) de efecto por rebote",
+     "text": "Modificador de rebote: (+10% por cada 100 de Poder de Habilidad) de efecto por rebote ⇒ -20% (+15% por cada 100 de Poder de Habilidad) de efecto por rebote",
+     "id": "84d8dc6a149d",
+     "section": "champions",
+     "tags": [
+      "Support",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "26.1",
+   "publishedAt": "2026-01-07T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "ARAM: Caos",
+     "sectionId": "patch-aram-mayhem",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Nami",
+      "name": "Nami"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": null,
+     "before": "Daño infligido: 95%",
+     "after": "100%",
+     "text": "Daño infligido: 95% ⇒ 100%",
+     "id": "5222c88e188e",
+     "section": "modes",
+     "tags": [
+      "Support",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "ARAM: Caos",
+     "sectionId": "patch-aram-mayhem",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Nami",
+      "name": "Nami"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": null,
+     "before": "Daño recibido: 105%",
+     "after": "100%",
+     "text": "Daño recibido: 105% ⇒ 100%",
+     "id": "6e2ce44244f3",
+     "section": "modes",
+     "tags": [
+      "Support",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  }
+ ]
+}

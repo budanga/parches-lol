@@ -1,0 +1,863 @@
+{
+ "schemaVersion": 1,
+ "id": "Senna",
+ "name": "Senna",
+ "tags": [
+  "Support",
+  "Marksman"
+ ],
+ "entries": [
+  {
+   "patch": "26.19",
+   "publishedAt": "2026-09-22T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Senna",
+      "name": "Senna"
+     },
+     "part": "Invitados de Honor",
+     "partTitle": "Invitados de Honor",
+     "spellKey": null,
+     "kind": "new",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "NUEVO Senna",
+     "id": "bf9906f4ba4d",
+     "section": "modes",
+     "tags": [
+      "Support",
+      "Marksman"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "26.15",
+   "publishedAt": "2026-07-28T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "ARAM: Caos",
+     "sectionId": "patch-aram:-mayhem",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Senna",
+      "name": "Senna"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño infligido",
+     "before": "97%",
+     "after": "100%",
+     "text": "Daño infligido: 97% ⇒ 100%",
+     "id": "d20891f646f3",
+     "section": "modes",
+     "tags": [
+      "Support",
+      "Marksman"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "26.14",
+   "publishedAt": "2026-07-14T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Senna",
+      "name": "Senna"
+     },
+     "part": "P",
+     "partTitle": "Pasiva: Absolución",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Modificadores de golpe crítico",
+     "before": "85%",
+     "after": "80%",
+     "text": "Modificadores de golpe crítico: 85% ⇒ 80%",
+     "id": "da8cc463083d",
+     "section": "champions",
+     "tags": [
+      "Support",
+      "Marksman"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Senna",
+      "name": "Senna"
+     },
+     "part": "Q",
+     "partTitle": "Q: Oscuridad Lacerante",
+     "spellKey": "SennaQ",
+     "kind": "stat",
+     "attribute": "Tasa de ralentización según el poder de habilidad",
+     "before": "10% por cada 100 de Poder de Habilidad",
+     "after": "7% por cada 100 de Poder de Habilidad",
+     "text": "Tasa de ralentización según el poder de habilidad: 10% por cada 100 de Poder de Habilidad ⇒ 7% por cada 100 de Poder de Habilidad",
+     "id": "788b5cabea23",
+     "section": "champions",
+     "tags": [
+      "Support",
+      "Marksman"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Senna",
+      "name": "Senna"
+     },
+     "part": "Q",
+     "partTitle": "Q: Oscuridad Lacerante",
+     "spellKey": "SennaQ",
+     "kind": "stat",
+     "attribute": "Tasa de curación de Poder de Habilidad",
+     "before": "50% de Poder de Habilidad",
+     "after": "35% de Poder de Habilidad",
+     "text": "Tasa de curación de Poder de Habilidad: 50% de Poder de Habilidad ⇒ 35% de Poder de Habilidad",
+     "id": "6c4f1eca631a",
+     "section": "champions",
+     "tags": [
+      "Support",
+      "Marksman"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "26.13",
+   "publishedAt": "2026-06-23T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Senna",
+      "name": "Senna"
+     },
+     "part": "P",
+     "partTitle": "Pasiva: Absolución",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Probabilidad de aparición de almas (asesinato de Senna)",
+     "before": "10%",
+     "after": "5%",
+     "text": "Probabilidad de aparición de almas (asesinato de Senna): 10% ⇒ 5%",
+     "id": "cacbd4bca629",
+     "section": "champions",
+     "tags": [
+      "Support",
+      "Marksman"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Senna",
+      "name": "Senna"
+     },
+     "part": "P",
+     "partTitle": "Pasiva: Absolución",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Probabilidad de aparición de almas (asesinato de aliado)",
+     "before": "28%",
+     "after": "32%",
+     "text": "Probabilidad de aparición de almas (asesinato de aliado): 28% ⇒ 32%",
+     "id": "b3c3b1b434f4",
+     "section": "champions",
+     "tags": [
+      "Support",
+      "Marksman"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Senna",
+      "name": "Senna"
+     },
+     "part": "P",
+     "partTitle": "Pasiva: Absolución",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño Crítico",
+     "before": "-10% (180% / 27% con Filo del Infinito)",
+     "after": "-15% (170% / 25.5% con Filo del Infinito)",
+     "text": "Daño Crítico: -10% (180% / 27% con Filo del Infinito) ⇒ -15% (170% / 25.5% con Filo del Infinito)",
+     "id": "87394af31517",
+     "section": "champions",
+     "tags": [
+      "Support",
+      "Marksman"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Senna",
+      "name": "Senna"
+     },
+     "part": "Q",
+     "partTitle": "Q: Oscuridad Lacerante",
+     "spellKey": "SennaQ",
+     "kind": "stat",
+     "attribute": "Reembolso del enfriamiento",
+     "before": "Al impacto",
+     "after": "Al atacar",
+     "text": "Reembolso del enfriamiento: Al impacto ⇒ Al atacar",
+     "id": "a8aa67733df9",
+     "section": "champions",
+     "tags": [
+      "Support",
+      "Marksman"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "26.4",
+   "publishedAt": "2026-02-18T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Senna",
+      "name": "Senna"
+     },
+     "part": "Q",
+     "partTitle": "Q: Oscuridad Lacerante",
+     "spellKey": "SennaQ",
+     "kind": "stat",
+     "attribute": "Daño",
+     "before": "30 / 60 / 90 / 120 / 150 (+ 40% de Daño de Ataque adicional)",
+     "after": "30 / 55 / 80 / 105 / 130 (+ 60% de Daño de Ataque adicional)",
+     "text": "Daño: 30 / 60 / 90 / 120 / 150 (+ 40% de Daño de Ataque adicional) ⇒ 30 / 55 / 80 / 105 / 130 (+ 60% de Daño de Ataque adicional)",
+     "id": "e749fa5a75b0",
+     "section": "champions",
+     "tags": [
+      "Support",
+      "Marksman"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Senna",
+      "name": "Senna"
+     },
+     "part": "W",
+     "partTitle": "W: Abrazo Final",
+     "spellKey": "SennaW",
+     "kind": "stat",
+     "attribute": "Daño",
+     "before": "70 / 115 / 160 / 205 / 250 (+ 70% de Daño de Ataque adicional)",
+     "after": "70 / 110 / 150 / 190 / 230 (+ 90% de Daño de Ataque adicional)",
+     "text": "Daño: 70 / 115 / 160 / 205 / 250 (+ 70% de Daño de Ataque adicional) ⇒ 70 / 110 / 150 / 190 / 230 (+ 90% de Daño de Ataque adicional)",
+     "id": "8b85603e3915",
+     "section": "champions",
+     "tags": [
+      "Support",
+      "Marksman"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "26.1",
+   "publishedAt": "2026-01-07T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Senna",
+      "name": "Senna"
+     },
+     "part": "base",
+     "partTitle": "Estadísticas básicas",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño de golpe crítico",
+     "before": "100% del daño de golpe crítico total (×1.75 / ×2.15)",
+     "after": "90% del total (×1.8 / ×2.07)",
+     "text": "Daño de golpe crítico: 100% del daño de golpe crítico total (×1.75 / ×2.15) ⇒ 90% del total (×1.8 / ×2.07)",
+     "id": "cb43e5048e4d",
+     "section": "champions",
+     "tags": [
+      "Support",
+      "Marksman"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.17",
+   "publishedAt": "2025-08-26T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Senna",
+      "name": "Senna"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Aumentamos su crecimiento de velocidad de ataque. Aumentamos la curación de su Q.",
+     "id": "f249d3100f11",
+     "section": "champions",
+     "tags": [
+      "Support",
+      "Marksman"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Senna",
+      "name": "Senna"
+     },
+     "part": "base",
+     "partTitle": "Estadísticas básicas",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Crecimiento de Velocidad de Ataque",
+     "before": "2%",
+     "after": "2.6%",
+     "text": "Crecimiento de Velocidad de Ataque: 2% ⇒ 2.6%",
+     "id": "1c21e315933f",
+     "section": "champions",
+     "tags": [
+      "Support",
+      "Marksman"
+     ],
+     "verification": "mismatch",
+     "gameData": {
+      "before": "2",
+      "after": "3"
+     },
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Senna",
+      "name": "Senna"
+     },
+     "part": "Q",
+     "partTitle": "Q: Oscuridad Lacerante",
+     "spellKey": "SennaQ",
+     "kind": "stat",
+     "attribute": "Curación",
+     "before": "40 / 55 / 70 / 85 / 100 (+ 40% de Daño de Ataque adicional) (+ 50% de Poder de Habilidad)",
+     "after": "40 / 60 / 80 / 100 / 120 (+ 40% de Daño de Ataque adicional) (+ 50% de Poder de Habilidad)",
+     "text": "Curación: 40 / 55 / 70 / 85 / 100 (+ 40% de Daño de Ataque adicional) (+ 50% de Poder de Habilidad) ⇒ 40 / 60 / 80 / 100 / 120 (+ 40% de Daño de Ataque adicional) (+ 50% de Poder de Habilidad)",
+     "id": "a47ab0ef4275",
+     "section": "champions",
+     "tags": [
+      "Support",
+      "Marksman"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.15",
+   "publishedAt": "2025-07-29T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Cambios de balance de ARAM",
+     "sectionId": "patch-aram-balance-changes",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Senna",
+      "name": "Senna"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño infligido",
+     "before": "-3%",
+     "after": "-8%",
+     "text": "Daño infligido: -3% ⇒ -8%",
+     "id": "a8ddf44dc20f",
+     "section": "modes",
+     "tags": [
+      "Support",
+      "Marksman"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "URFAR",
+     "sectionId": "patch-arurf",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Senna",
+      "name": "Senna"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño infligido",
+     "before": "100%",
+     "after": "110%",
+     "text": "Daño infligido: 100% ⇒ 110%",
+     "id": "a7f5fc2043ce",
+     "section": "modes",
+     "tags": [
+      "Support",
+      "Marksman"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.12",
+   "publishedAt": "2025-06-10T18:05:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Senna",
+      "name": "Senna"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Redujimos la probabilidad de aparición de almas por cada asesinato de súbdito.",
+     "id": "77ac7e6720ba",
+     "section": "champions",
+     "tags": [
+      "Support",
+      "Marksman"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Senna",
+      "name": "Senna"
+     },
+     "part": "P",
+     "partTitle": "Pasiva: Absolución",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Probabilidad de aparición de almas por cada asesinato de súbdito",
+     "before": "14%",
+     "after": "10%",
+     "text": "Probabilidad de aparición de almas por cada asesinato de súbdito: 14% ⇒ 10%",
+     "id": "a14a68ccd517",
+     "section": "champions",
+     "tags": [
+      "Support",
+      "Marksman"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.11",
+   "publishedAt": "2025-05-27T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Pelea",
+     "sectionId": "patch-brawl",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Senna",
+      "name": "Senna"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño de Ataque por alma",
+     "before": "0.75",
+     "after": "1",
+     "text": "Daño de Ataque por alma: 0.75 ⇒ 1",
+     "id": "bc5394646f91",
+     "section": "modes",
+     "tags": [
+      "Support",
+      "Marksman"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Pelea",
+     "sectionId": "patch-brawl",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Senna",
+      "name": "Senna"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Alcance por cada 20 almas",
+     "before": "20",
+     "after": "25",
+     "text": "Alcance por cada 20 almas: 20 ⇒ 25",
+     "id": "2edc3e5d1578",
+     "section": "modes",
+     "tags": [
+      "Support",
+      "Marksman"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Pelea",
+     "sectionId": "patch-brawl",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Senna",
+      "name": "Senna"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Probabilidad de Golpe Crítico por cada 20 almas",
+     "before": "10%",
+     "after": "12%",
+     "text": "Probabilidad de Golpe Crítico por cada 20 almas: 10% ⇒ 12%",
+     "id": "99496d24732a",
+     "section": "modes",
+     "tags": [
+      "Support",
+      "Marksman"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Pelea",
+     "sectionId": "patch-brawl",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Senna",
+      "name": "Senna"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Enfriamiento de la R",
+     "before": "140 / 120 / 100",
+     "after": "120 / 105 /90",
+     "text": "Enfriamiento de la R: 140 / 120 / 100 ⇒ 120 / 105 /90",
+     "id": "919d8d017e2b",
+     "section": "modes",
+     "tags": [
+      "Support",
+      "Marksman"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Pelea",
+     "sectionId": "patch-brawl",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Senna",
+      "name": "Senna"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño infligido",
+     "before": "100%",
+     "after": "105%",
+     "text": "Daño infligido: 100% ⇒ 105%",
+     "id": "97a96195ff14",
+     "section": "modes",
+     "tags": [
+      "Support",
+      "Marksman"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Pelea",
+     "sectionId": "patch-brawl",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Senna",
+      "name": "Senna"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Aceleración de Habilidad",
+     "before": "0",
+     "after": "10",
+     "text": "Aceleración de Habilidad: 0 ⇒ 10",
+     "id": "0bcdfe74f1e4",
+     "section": "modes",
+     "tags": [
+      "Support",
+      "Marksman"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.10",
+   "publishedAt": "2025-05-13T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Senna",
+      "name": "Senna"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Aumentamos la probabilidad de golpe crítico y la tasa de aparición de almas de su pasiva. Redujimos la curación de su Q.",
+     "id": "0b1aef42b265",
+     "section": "champions",
+     "tags": [
+      "Support",
+      "Marksman"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Senna",
+      "name": "Senna"
+     },
+     "part": "P",
+     "partTitle": "Pasiva: Absolución",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Probabilidad de Golpe Crítico por cada 20 acumulaciones",
+     "before": "8%",
+     "after": "10%",
+     "text": "Probabilidad de Golpe Crítico por cada 20 acumulaciones: 8% ⇒ 10%",
+     "id": "2a84ca2259e6",
+     "section": "champions",
+     "tags": [
+      "Support",
+      "Marksman"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Senna",
+      "name": "Senna"
+     },
+     "part": "P",
+     "partTitle": "Pasiva: Absolución",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Tasa de aparición de almas al matar un súbdito o monstruo",
+     "before": "8.4%",
+     "after": "14%",
+     "text": "Tasa de aparición de almas al matar un súbdito o monstruo: 8.4% ⇒ 14%",
+     "id": "2ba5568a177c",
+     "section": "champions",
+     "tags": [
+      "Support",
+      "Marksman"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Senna",
+      "name": "Senna"
+     },
+     "part": "Q",
+     "partTitle": "Q: Oscuridad Lacerante",
+     "spellKey": "SennaQ",
+     "kind": "stat",
+     "attribute": "Curación",
+     "before": "40 / 55 / 70 / 85 / 100 (+ 40% de Daño de Ataque adicional) (+ 60% de Poder de Habilidad)",
+     "after": "40 / 55 / 70 / 85 / 100 (+ 40% de Daño de Ataque adicional) (+ 50% de Poder de Habilidad)",
+     "text": "Curación: 40 / 55 / 70 / 85 / 100 (+ 40% de Daño de Ataque adicional) (+ 60% de Poder de Habilidad) ⇒ 40 / 55 / 70 / 85 / 100 (+ 40% de Daño de Ataque adicional) (+ 50% de Poder de Habilidad)",
+     "id": "5716c1d3dd68",
+     "section": "champions",
+     "tags": [
+      "Support",
+      "Marksman"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  }
+ ]
+}

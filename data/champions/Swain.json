@@ -1,0 +1,779 @@
+{
+ "schemaVersion": 1,
+ "id": "Swain",
+ "name": "Swain",
+ "tags": [
+  "Mage",
+  "Support"
+ ],
+ "entries": [
+  {
+   "patch": "26.22",
+   "publishedAt": "2026-11-03T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Classic",
+     "sectionId": "patch-classic",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Swain",
+      "name": "Swain"
+     },
+     "part": "Campeones",
+     "partTitle": "Campeones",
+     "spellKey": null,
+     "kind": "new",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "NUEVO Swain",
+     "id": "405f6f72b4db",
+     "section": "modes",
+     "tags": [
+      "Mage",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "26.20",
+   "publishedAt": "2026-10-06T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Swain",
+      "name": "Swain"
+     },
+     "part": "base",
+     "partTitle": "Estadísticas base",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Resistencia Mágica básica",
+     "before": "31",
+     "after": "34",
+     "text": "Resistencia Mágica básica: 31 ⇒ 34",
+     "id": "f46d3088e152",
+     "section": "champions",
+     "tags": [
+      "Mage",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Swain",
+      "name": "Swain"
+     },
+     "part": "base",
+     "partTitle": "Estadísticas base",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Armadura básica",
+     "before": "25",
+     "after": "23",
+     "text": "Armadura básica: 25 ⇒ 23",
+     "id": "9c42fb6d2f06",
+     "section": "champions",
+     "tags": [
+      "Mage",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Swain",
+      "name": "Swain"
+     },
+     "part": "W",
+     "partTitle": "W: Visión Imperial",
+     "spellKey": "SwainW",
+     "kind": "stat",
+     "attribute": "Daño",
+     "before": "70 / 105 / 140 / 175 / 210 (+60%)",
+     "after": "70 / 115 / 160 / 205 / 250 (+60%)",
+     "text": "Daño: 70 / 105 / 140 / 175 / 210 (+60%) ⇒ 70 / 115 / 160 / 205 / 250 (+60%)",
+     "id": "f2d91fc7b118",
+     "section": "champions",
+     "tags": [
+      "Mage",
+      "Support"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Swain",
+      "name": "Swain"
+     },
+     "part": "W",
+     "partTitle": "W: Visión Imperial",
+     "spellKey": "SwainW",
+     "kind": "stat",
+     "attribute": "Enfriamiento",
+     "before": "22 / 21 / 20 / 19 / 18 seg",
+     "after": "20 / 19 / 18 / 17 / 16 seg",
+     "text": "Enfriamiento: 22 / 21 / 20 / 19 / 18 seg ⇒ 20 / 19 / 18 / 17 / 16 seg",
+     "id": "be274b3b2391",
+     "section": "champions",
+     "tags": [
+      "Mage",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "ARAM: Caos",
+     "sectionId": "patch-aram:-mayhem",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Swain",
+      "name": "Swain"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño recibido",
+     "before": "105%",
+     "after": "100%",
+     "text": "Daño recibido: 105% ⇒ 100%",
+     "id": "061f124fddb3",
+     "section": "modes",
+     "tags": [
+      "Mage",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "ARAM: Caos",
+     "sectionId": "patch-aram:-mayhem",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Swain",
+      "name": "Swain"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Curación",
+     "before": "95%",
+     "after": "100%",
+     "text": "Curación: 95% ⇒ 100%",
+     "id": "b059bfd410fa",
+     "section": "modes",
+     "tags": [
+      "Mage",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "ARAM: Caos",
+     "sectionId": "patch-aram:-mayhem",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Swain",
+      "name": "Swain"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Restauración de Fragmentos de Alma",
+     "before": "6% fijo",
+     "after": "De un 3% a un 6% según el nivel",
+     "text": "Restauración de Fragmentos de Alma: 6% fijo ⇒ De un 3% a un 6% según el nivel",
+     "id": "c58e7ea47e45",
+     "section": "modes",
+     "tags": [
+      "Mage",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "26.13",
+   "publishedAt": "2026-06-23T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Swain",
+      "name": "Swain"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": null,
+     "before": "Curación de la R: 15 / 30 / 45",
+     "after": "10 / 15 / 20",
+     "text": "Curación de la R: 15 / 30 / 45 ⇒ 10 / 15 / 20",
+     "id": "5fc7c880e533",
+     "section": "modes",
+     "tags": [
+      "Mage",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "26.6",
+   "publishedAt": "2026-03-17T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "ARAM: Caos",
+     "sectionId": "patch-aram:-mayhem",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Swain",
+      "name": "Swain"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": null,
+     "before": "Daño recibido: 115%",
+     "after": "105%",
+     "text": "Daño recibido: 115% ⇒ 105%",
+     "id": "8ae4c3ef69c0",
+     "section": "modes",
+     "tags": [
+      "Mage",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "ARAM: Caos",
+     "sectionId": "patch-aram:-mayhem",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Swain",
+      "name": "Swain"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": null,
+     "before": "Curación: 80%",
+     "after": "90%",
+     "text": "Curación: 80% ⇒ 90%",
+     "id": "bbfb6b0b112a",
+     "section": "modes",
+     "tags": [
+      "Mage",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "ARAM: Caos",
+     "sectionId": "patch-aram:-mayhem",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Swain",
+      "name": "Swain"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": null,
+     "before": "Daño infligido: 95%",
+     "after": "100%",
+     "text": "Daño infligido: 95% ⇒ 100%",
+     "id": "2a42f0479a8a",
+     "section": "modes",
+     "tags": [
+      "Mage",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "26.4",
+   "publishedAt": "2026-02-18T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Swain",
+      "name": "Swain"
+     },
+     "part": "W",
+     "partTitle": "W: Visión Imperial",
+     "spellKey": "SwainW",
+     "kind": "stat",
+     "attribute": "Ralentización",
+     "before": "50 / 55 / 60 / 65 / 70%",
+     "after": "50% en todos los rangos",
+     "text": "Ralentización: 50 / 55 / 60 / 65 / 70% ⇒ 50% en todos los rangos",
+     "id": "4d8eadc0d8f9",
+     "section": "champions",
+     "tags": [
+      "Mage",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Swain",
+      "name": "Swain"
+     },
+     "part": "R",
+     "partTitle": "R: Ascenso Demoniaco",
+     "spellKey": "SwainR",
+     "kind": "stat",
+     "attribute": "Progresión del daño por segundo",
+     "before": "5% DE PH",
+     "after": "4% DE PH",
+     "text": "Progresión del daño por segundo: 5% DE PH ⇒ 4% DE PH",
+     "id": "29b33ba566d2",
+     "section": "champions",
+     "tags": [
+      "Mage",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Swain",
+      "name": "Swain"
+     },
+     "part": "R",
+     "partTitle": "R: Ascenso Demoniaco",
+     "spellKey": "SwainR",
+     "kind": "stat",
+     "attribute": "Progresión de daño de Llamarada Infernal",
+     "before": "50% DE PH",
+     "after": "40% DE PH",
+     "text": "Progresión de daño de Llamarada Infernal: 50% DE PH ⇒ 40% DE PH",
+     "id": "a24cc874729c",
+     "section": "champions",
+     "tags": [
+      "Mage",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Swain",
+      "name": "Swain"
+     },
+     "part": "R",
+     "partTitle": "R: Ascenso Demoniaco",
+     "spellKey": "SwainR",
+     "kind": "stat",
+     "attribute": "Ralentización de Llamarada Infernal",
+     "before": "75%",
+     "after": "50%",
+     "text": "Ralentización de Llamarada Infernal: 75% ⇒ 50%",
+     "id": "5166beddab75",
+     "section": "champions",
+     "tags": [
+      "Mage",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.24",
+   "publishedAt": "2025-12-02T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Swain",
+      "name": "Swain"
+     },
+     "part": "P",
+     "partTitle": "Pasiva: Parvada Hambrienta",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Curación por fragmento",
+     "before": "Del 3% al 6% (según el nivel)",
+     "after": "6%",
+     "text": "Curación por fragmento: Del 3% al 6% (según el nivel) ⇒ 6%",
+     "id": "d17978bf5240",
+     "section": "champions",
+     "tags": [
+      "Mage",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.23",
+   "publishedAt": "2025-11-18T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Swain",
+      "name": "Swain"
+     },
+     "part": "E",
+     "partTitle": "E: Nunca Más",
+     "spellKey": "SwainE",
+     "kind": "stat",
+     "attribute": "Daño",
+     "before": "80 / 120 / 160 / 200 / 240 (+ 70% de Poder de Habilidad)",
+     "after": "90 / 130 / 170 / 210 / 250 (+ 70% de Poder de Habilidad)",
+     "text": "Daño: 80 / 120 / 160 / 200 / 240 (+ 70% de Poder de Habilidad) ⇒ 90 / 130 / 170 / 210 / 250 (+ 70% de Poder de Habilidad)",
+     "id": "06264c4e3b67",
+     "section": "champions",
+     "tags": [
+      "Mage",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Swain",
+      "name": "Swain"
+     },
+     "part": "E",
+     "partTitle": "E: Nunca Más",
+     "spellKey": "SwainE",
+     "kind": "stat",
+     "attribute": "Maná",
+     "before": "60 / 65 / 70 / 75 / 80",
+     "after": "50 / 55 / 60 / 65 / 70",
+     "text": "Maná: 60 / 65 / 70 / 75 / 80 ⇒ 50 / 55 / 60 / 65 / 70",
+     "id": "6d8ec299637c",
+     "section": "champions",
+     "tags": [
+      "Mage",
+      "Support"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.11",
+   "publishedAt": "2025-05-27T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Pelea",
+     "sectionId": "patch-brawl",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Swain",
+      "name": "Swain"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño infligido",
+     "before": "100%",
+     "after": "95%",
+     "text": "Daño infligido: 100% ⇒ 95%",
+     "id": "e23962e8dc03",
+     "section": "modes",
+     "tags": [
+      "Mage",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.6",
+   "publishedAt": "2025-03-18T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Swain",
+      "name": "Swain"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": null,
+     "before": "Pasiva: Parvada Hambrienta: Vida obtenida por cada acumulación: 15",
+     "after": "12",
+     "text": "Pasiva: Parvada Hambrienta: Vida obtenida por cada acumulación: 15 ⇒ 12",
+     "id": "81cab228e8a9",
+     "section": "modes",
+     "tags": [
+      "Mage",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Swain",
+      "name": "Swain"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": null,
+     "before": "R: Ascenso Demoniaco: Daño del drenado por cada activación: 15-25",
+     "after": "10-20",
+     "text": "R: Ascenso Demoniaco: Daño del drenado por cada activación: 15-25 ⇒ 10-20",
+     "id": "20eb73f88e84",
+     "section": "modes",
+     "tags": [
+      "Mage",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.S1.3",
+   "publishedAt": "2025-02-04T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Swain",
+      "name": "Swain"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Aumentamos la vida máxima adicional de su pasiva.",
+     "id": "0e77002cef99",
+     "section": "champions",
+     "tags": [
+      "Mage",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Swain",
+      "name": "Swain"
+     },
+     "part": "P",
+     "partTitle": "Pasiva: Parvada Hambrienta",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Vida Máxima por Fragmento de Alma",
+     "before": "12",
+     "after": "15",
+     "text": "Vida Máxima por Fragmento de Alma: 12 ⇒ 15",
+     "id": "29e34148318c",
+     "section": "champions",
+     "tags": [
+      "Mage",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Swain",
+      "name": "Swain"
+     },
+     "part": "E",
+     "partTitle": "E: Nunca Más",
+     "spellKey": "SwainE",
+     "kind": "stat",
+     "attribute": "Daño",
+     "before": "80/120/160/200/240 (+60% de Poder de Habilidad)",
+     "after": "80/120/160/200/240 (+70% de Poder de Habilidad)",
+     "text": "Daño 80/120/160/200/240 (+60% de Poder de Habilidad) ⇒ 80/120/160/200/240 (+70% de Poder de Habilidad)",
+     "id": "3479e5dd09aa",
+     "section": "champions",
+     "tags": [
+      "Mage",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.S1.1",
+   "publishedAt": "2025-01-07T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "ARAM",
+     "sectionId": "patch-aram",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Swain",
+      "name": "Swain"
+     },
+     "part": "Mejoras a campeones",
+     "partTitle": "Mejoras a campeones",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño infligido",
+     "before": "90%",
+     "after": "95%",
+     "text": "Swain: Daño infligido: 90% ⇒ 95%",
+     "id": "096e2832be99",
+     "section": "modes",
+     "tags": [
+      "Mage",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  }
+ ]
+}

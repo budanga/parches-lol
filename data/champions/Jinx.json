@@ -1,0 +1,338 @@
+{
+ "schemaVersion": 1,
+ "id": "Jinx",
+ "name": "Jinx",
+ "tags": [
+  "Marksman"
+ ],
+ "entries": [
+  {
+   "patch": "26.21",
+   "publishedAt": "2026-10-20T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Jinx",
+      "name": "Jinx"
+     },
+     "part": "base",
+     "partTitle": "Estadísticas base",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño de Ataque",
+     "before": "59 + 3.25 por nivel",
+     "after": "59 + 3 por nivel",
+     "text": "Daño de Ataque: 59 + 3.25 por nivel ⇒ 59 + 3 por nivel",
+     "id": "1f59be0ba843",
+     "section": "champions",
+     "tags": [
+      "Marksman"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Jinx",
+      "name": "Jinx"
+     },
+     "part": "base",
+     "partTitle": "Estadísticas base",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Vida",
+     "before": "630 + 105 por nivel",
+     "after": "610 + 105 por nivel",
+     "text": "Vida: 630 + 105 por nivel ⇒ 610 + 105 por nivel",
+     "id": "295b8068d6d9",
+     "section": "champions",
+     "tags": [
+      "Marksman"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "26.4",
+   "publishedAt": "2026-02-18T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Jinx",
+      "name": "Jinx"
+     },
+     "part": "base",
+     "partTitle": "Estadísticas básicas",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Crecimiento de Armadura",
+     "before": "4.7",
+     "after": "4.2",
+     "text": "Crecimiento de Armadura: 4.7 ⇒ 4.2",
+     "id": "30d587ff30cd",
+     "section": "champions",
+     "tags": [
+      "Marksman"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "26.1",
+   "publishedAt": "2026-01-07T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Jinx",
+      "name": "Jinx"
+     },
+     "part": "base",
+     "partTitle": "Estadísticas básicas",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Crecimiento de Velocidad de Ataque",
+     "before": "1.4%",
+     "after": "1%",
+     "text": "Crecimiento de Velocidad de Ataque: 1.4% ⇒ 1%",
+     "id": "7bc11be5fd33",
+     "section": "champions",
+     "tags": [
+      "Marksman"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Jinx",
+      "name": "Jinx"
+     },
+     "part": "R",
+     "partTitle": "R: ¡¡Supermegacohete Requetemortal!!",
+     "spellKey": "JinxR",
+     "kind": "stat",
+     "attribute": "Daño máximo fijo",
+     "before": "250 / 400 / 550 (+ 130% de Daño de Ataque adicional)",
+     "after": "200 / 350 / 500 (+ 120% de Daño de Ataque adicional)",
+     "text": "Daño máximo fijo: 250 / 400 / 550 (+ 130% de Daño de Ataque adicional) ⇒ 200 / 350 / 500 (+ 120% de Daño de Ataque adicional)",
+     "id": "70c4623a3ccc",
+     "section": "champions",
+     "tags": [
+      "Marksman"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.23",
+   "publishedAt": "2025-11-18T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Jinx",
+      "name": "Jinx"
+     },
+     "part": "R",
+     "partTitle": "R: ¡¡Supermegacohete Requetemortal!!",
+     "spellKey": "JinxR",
+     "kind": "stat",
+     "attribute": "Daño máximo",
+     "before": "300 / 450 / 600 (+ 155% de Daño de Ataque adicional) (+ 25% / 30% / 35% de la Vida faltante del objetivo)",
+     "after": "250 / 400 / 550 (+ 130% de Daño de Ataque adicional) (+ 25% / 30% / 35% de la Vida faltante del objetivo)",
+     "text": "Daño máximo: 300 / 450 / 600 (+ 155% de Daño de Ataque adicional) (+ 25% / 30% / 35% de la Vida faltante del objetivo) ⇒ 250 / 400 / 550 (+ 130% de Daño de Ataque adicional) (+ 25% / 30% / 35% de la Vida faltante del objetivo)",
+     "id": "0c00c06f7e0e",
+     "section": "champions",
+     "tags": [
+      "Marksman"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.19",
+   "publishedAt": "2025-09-23T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Jinx",
+      "name": "Jinx"
+     },
+     "part": "Q",
+     "partTitle": "Q: ¡Cambio de Armas!",
+     "spellKey": "JinxQ",
+     "kind": "stat",
+     "attribute": "Alcance adicional",
+     "before": "80 / 110 / 140 / 170 / 200",
+     "after": "100 / 125 / 150 / 175 / 200",
+     "text": "Alcance adicional: 80 / 110 / 140 / 170 / 200 ⇒ 100 / 125 / 150 / 175 / 200",
+     "id": "3aacf3824f76",
+     "section": "champions",
+     "tags": [
+      "Marksman"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Jinx",
+      "name": "Jinx"
+     },
+     "part": "E",
+     "partTitle": "E: ¡Mascafuegos!",
+     "spellKey": "JinxE",
+     "kind": "stat",
+     "attribute": "Daño",
+     "before": "70 / 120 / 170 / 220 / 270 (+ 100% de Poder de Habilidad)",
+     "after": "90 / 140 / 190 / 240 / 290 (+ 100% de Poder de Habilidad)",
+     "text": "Daño: 70 / 120 / 170 / 220 / 270 (+ 100% de Poder de Habilidad) ⇒ 90 / 140 / 190 / 240 / 290 (+ 100% de Poder de Habilidad)",
+     "id": "1357964b4487",
+     "section": "champions",
+     "tags": [
+      "Marksman"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.11",
+   "publishedAt": "2025-05-27T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Pelea",
+     "sectionId": "patch-brawl",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Jinx",
+      "name": "Jinx"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño infligido",
+     "before": "100%",
+     "after": "95%",
+     "text": "Daño infligido: 100% ⇒ 95%",
+     "id": "c1369aa6c826",
+     "section": "modes",
+     "tags": [
+      "Marksman"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.6",
+   "publishedAt": "2025-03-18T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Jinx",
+      "name": "Jinx"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Redujimos el daño de su R.",
+     "id": "22ad51edecf8",
+     "section": "champions",
+     "tags": [
+      "Marksman"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Jinx",
+      "name": "Jinx"
+     },
+     "part": "R",
+     "partTitle": "R: ¡¡Supermegacohete Requetemortal!!",
+     "spellKey": "JinxR",
+     "kind": "stat",
+     "attribute": "Daño",
+     "before": "325 / 475 / 625 (+ 165% de Daño de Ataque adicional) (+ 25 / 30 / 35% de la Vida faltante del objetivo)",
+     "after": "300 / 450 / 600 (+ 155% de Daño de Ataque adicional) (+ 25 / 30 / 35% de la Vida faltante del objetivo)",
+     "text": "Daño: 325 / 475 / 625 (+ 165% de Daño de Ataque adicional) (+ 25 / 30 / 35% de la Vida faltante del objetivo) ⇒ 300 / 450 / 600 (+ 155% de Daño de Ataque adicional) (+ 25 / 30 / 35% de la Vida faltante del objetivo)",
+     "id": "7496d1d3fd1e",
+     "section": "champions",
+     "tags": [
+      "Marksman"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  }
+ ]
+}

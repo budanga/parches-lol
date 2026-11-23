@@ -1,0 +1,560 @@
+{
+ "schemaVersion": 1,
+ "id": "Kaisa",
+ "name": "Kai'Sa",
+ "tags": [
+  "Marksman",
+  "Mage"
+ ],
+ "entries": [
+  {
+   "patch": "26.15",
+   "publishedAt": "2026-07-28T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Kaisa",
+      "name": "Kai'Sa"
+     },
+     "part": "P",
+     "partTitle": "Pasiva: Segunda Piel",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Heridas Corrosivas",
+     "before": "4 - 24 (nivel del campeón) (+12% de Poder de Habilidad), +1 - 6 (nivel del campeón) (+3% de Poder de Habilidad) por acumulación previa",
+     "after": "4 - 30 (nivel del campeón) (+12% de Poder de Habilidad), +1 - 8 (nivel del campeón) (+3% de Poder de Habilidad) por acumulación previa",
+     "text": "Heridas Corrosivas: 4 - 24 (nivel del campeón) (+12% de Poder de Habilidad), +1 - 6 (nivel del campeón) (+3% de Poder de Habilidad) por acumulación previa ⇒ 4 - 30 (nivel del campeón) (+12% de Poder de Habilidad), +1 - 8 (nivel del campeón) (+3% de Poder de Habilidad) por acumulación previa",
+     "id": "b24c5bce5e2c",
+     "section": "champions",
+     "tags": [
+      "Marksman",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "ARAM: Caos",
+     "sectionId": "patch-aram:-mayhem",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Kaisa",
+      "name": "Kai'Sa"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño recibido",
+     "before": "10%",
+     "after": "0%",
+     "text": "Daño recibido: 10% ⇒ 0%",
+     "id": "c482def630cc",
+     "section": "modes",
+     "tags": [
+      "Marksman",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Kaisa",
+      "name": "Kai'Sa"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Pasiva: Segunda Piel",
+     "id": "dd3ebead9e6d",
+     "section": "modes",
+     "tags": [
+      "Marksman",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Kaisa",
+      "name": "Kai'Sa"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Modificador de daño al impacto en Arena",
+     "before": "50%",
+     "after": "100%",
+     "text": "Modificador de daño al impacto en Arena: 50% ⇒ 100%",
+     "id": "1b16c5250d3b",
+     "section": "modes",
+     "tags": [
+      "Marksman",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Kaisa",
+      "name": "Kai'Sa"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño de detonación",
+     "before": "10% de la Vida faltante",
+     "after": "15% de la Vida faltante",
+     "text": "Daño de detonación: 10% de la Vida faltante ⇒ 15% de la Vida faltante",
+     "id": "f0aca093aa00",
+     "section": "modes",
+     "tags": [
+      "Marksman",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Kaisa",
+      "name": "Kai'Sa"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Tasa de Poder de Habilidad",
+     "before": "30%",
+     "after": "12%",
+     "text": "Tasa de Poder de Habilidad: 30% ⇒ 12%",
+     "id": "e08cd9e888c8",
+     "section": "modes",
+     "tags": [
+      "Marksman",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Kaisa",
+      "name": "Kai'Sa"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Tasa de Poder de Habilidad por acumulación",
+     "before": "5%",
+     "after": "3%",
+     "text": "Tasa de Poder de Habilidad por acumulación: 5% ⇒ 3%",
+     "id": "24a297ac172f",
+     "section": "modes",
+     "tags": [
+      "Marksman",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Kaisa",
+      "name": "Kai'Sa"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Q: Lluvia de Icathia",
+     "id": "21d739431778",
+     "section": "modes",
+     "tags": [
+      "Marksman",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Kaisa",
+      "name": "Kai'Sa"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Tasa de Poder de Habilidad",
+     "before": "15%",
+     "after": "20%",
+     "text": "Tasa de Poder de Habilidad: 15% ⇒ 20%",
+     "id": "63a884ac040b",
+     "section": "modes",
+     "tags": [
+      "Marksman",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "26.13",
+   "publishedAt": "2026-06-23T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Kaisa",
+      "name": "Kai'Sa"
+     },
+     "part": "W",
+     "partTitle": "W: Buscadora del Vacío",
+     "spellKey": "KaisaW",
+     "kind": "stat",
+     "attribute": "Enfriamiento",
+     "before": "22 / 20 / 18 / 16 / 14",
+     "after": "20 / 18.5 / 17 / 15.5 / 14",
+     "text": "Enfriamiento: 22 / 20 / 18 / 16 / 14 ⇒ 20 / 18.5 / 17 / 15.5 / 14",
+     "id": "b418f7742be6",
+     "section": "champions",
+     "tags": [
+      "Marksman",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Kaisa",
+      "name": "Kai'Sa"
+     },
+     "part": "R",
+     "partTitle": "R: Instinto Asesino",
+     "spellKey": "KaisaR",
+     "kind": "stat",
+     "attribute": "Escudo",
+     "before": "70 / 90 / 110 (+90 / 135 / 180% de Daño de Ataque) (+120% de Poder de Habilidad)",
+     "after": "100 / 150 / 200 (+90 / 135 / 180% de Daño de Ataque) (+120% de Poder de Habilidad)",
+     "text": "Escudo: 70 / 90 / 110 (+90 / 135 / 180% de Daño de Ataque) (+120% de Poder de Habilidad) ⇒ 100 / 150 / 200 (+90 / 135 / 180% de Daño de Ataque) (+120% de Poder de Habilidad)",
+     "id": "65bdffc69cff",
+     "section": "champions",
+     "tags": [
+      "Marksman",
+      "Mage"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.23",
+   "publishedAt": "2025-11-18T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Kaisa",
+      "name": "Kai'Sa"
+     },
+     "part": "base",
+     "partTitle": "Estadísticas básicas",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Armadura básica",
+     "before": "27",
+     "after": "25",
+     "text": "Armadura básica: 27 ⇒ 25",
+     "id": "aad1c281ad2e",
+     "section": "champions",
+     "tags": [
+      "Marksman",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Kaisa",
+      "name": "Kai'Sa"
+     },
+     "part": "R",
+     "partTitle": "R: Instinto Asesino",
+     "spellKey": "KaisaR",
+     "kind": "stat",
+     "attribute": "Enfriamiento",
+     "before": "120 / 90 / 60 seg",
+     "after": "130 / 100 / 70 seg",
+     "text": "Enfriamiento: 120 / 90 / 60 seg ⇒ 130 / 100 / 70 seg",
+     "id": "735294116b07",
+     "section": "champions",
+     "tags": [
+      "Marksman",
+      "Mage"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.17",
+   "publishedAt": "2025-08-26T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Cambios de balance de ARAM",
+     "sectionId": "patch-aram-balance-changes",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Kaisa",
+      "name": "Kai'Sa"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Tasa de Daño de Ataque adicional de la Q",
+     "before": "55%",
+     "after": "65%",
+     "text": "Tasa de Daño de Ataque adicional de la Q: 55% ⇒ 65%",
+     "id": "74391d9df779",
+     "section": "modes",
+     "tags": [
+      "Marksman",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.6",
+   "publishedAt": "2025-03-18T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Kaisa",
+      "name": "Kai'Sa"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Aumentamos su armadura básica y su regeneración de vida básica. Redujimos el enfriamiento de su R.",
+     "id": "51f4f13f3ee8",
+     "section": "champions",
+     "tags": [
+      "Marksman",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Kaisa",
+      "name": "Kai'Sa"
+     },
+     "part": "base",
+     "partTitle": "Estadísticas básicas",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Armadura básica",
+     "before": "25",
+     "after": "27",
+     "text": "Armadura básica: 25 ⇒ 27",
+     "id": "54b7b5adf6a5",
+     "section": "champions",
+     "tags": [
+      "Marksman",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Kaisa",
+      "name": "Kai'Sa"
+     },
+     "part": "base",
+     "partTitle": "Estadísticas básicas",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Regeneración de Vida básica",
+     "before": "3.5",
+     "after": "4",
+     "text": "Regeneración de Vida básica: 3.5 ⇒ 4",
+     "id": "be827e77f613",
+     "section": "champions",
+     "tags": [
+      "Marksman",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Kaisa",
+      "name": "Kai'Sa"
+     },
+     "part": "R",
+     "partTitle": "R: Instinto Asesino",
+     "spellKey": "KaisaR",
+     "kind": "stat",
+     "attribute": "Enfriamiento",
+     "before": "130 / 100 / 70",
+     "after": "120 / 90 / 60 seg",
+     "text": "Enfriamiento: 130 / 100 / 70 ⇒ 120 / 90 / 60 seg",
+     "id": "c01ec183677e",
+     "section": "champions",
+     "tags": [
+      "Marksman",
+      "Mage"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.S1.2",
+   "publishedAt": "2025-01-22T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "ARAM",
+     "sectionId": "patch-aram",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Kaisa",
+      "name": "Kai'Sa"
+     },
+     "part": "Mejoras a campeones",
+     "partTitle": "Mejoras a campeones",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño recibido",
+     "before": "95%",
+     "after": "90%",
+     "text": "Kai'Sa: Daño recibido: 95% ⇒ 90%",
+     "id": "b39f4fc4d742",
+     "section": "modes",
+     "tags": [
+      "Marksman",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  }
+ ]
+}

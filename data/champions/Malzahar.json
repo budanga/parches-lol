@@ -1,0 +1,294 @@
+{
+ "schemaVersion": 1,
+ "id": "Malzahar",
+ "name": "Malzahar",
+ "tags": [
+  "Mage"
+ ],
+ "entries": [
+  {
+   "patch": "26.21",
+   "publishedAt": "2026-10-20T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Malzahar",
+      "name": "Malzahar"
+     },
+     "part": "W",
+     "partTitle": "W: Enjambre del Vacío",
+     "spellKey": "MalzaharW",
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Cargas máximas de Ente del Vacío: Ahora puede almacenar hasta 6 cargas",
+     "id": "e43de7ec355c",
+     "section": "modes",
+     "tags": [
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "26.15",
+   "publishedAt": "2026-07-28T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "ARAM: Caos",
+     "sectionId": "patch-aram:-mayhem",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Malzahar",
+      "name": "Malzahar"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño infligido a súbditos",
+     "before": "60%",
+     "after": "100%",
+     "text": "Daño infligido a súbditos: 60% ⇒ 100%",
+     "id": "b44a028000ca",
+     "section": "modes",
+     "tags": [
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.11",
+   "publishedAt": "2025-05-27T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Pelea",
+     "sectionId": "patch-brawl",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Malzahar",
+      "name": "Malzahar"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño infligido",
+     "before": "100%",
+     "after": "95%",
+     "text": "Daño infligido: 100% ⇒ 95%",
+     "id": "27d6b3e1ef62",
+     "section": "modes",
+     "tags": [
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Pelea",
+     "sectionId": "patch-brawl",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Malzahar",
+      "name": "Malzahar"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Aceleración de Habilidad",
+     "before": "0",
+     "after": "-10",
+     "text": "Aceleración de Habilidad: 0 ⇒ -10",
+     "id": "6c6b3b565cbd",
+     "section": "modes",
+     "tags": [
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.S1.2",
+   "publishedAt": "2025-01-22T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Malzahar",
+      "name": "Malzahar"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Actualizamos los Entes del Vacío de su W que ahora aumentarán su daño al subir de nivel.",
+     "id": "8a2204884eee",
+     "section": "champions",
+     "tags": [
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Malzahar",
+      "name": "Malzahar"
+     },
+     "part": "W",
+     "partTitle": "W: Enjambre del Vacío",
+     "spellKey": "MalzaharW",
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "El daño del Ente del Vacío ya se actualiza cuando Malzahar sube de nivel",
+     "id": "b073bd733617",
+     "section": "champions",
+     "tags": [
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Malzahar",
+      "name": "Malzahar"
+     },
+     "part": "W",
+     "partTitle": "W: Enjambre del Vacío",
+     "spellKey": "MalzaharW",
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Descripción actualizada que muestra el daño de ataque total del Ente del Vacío",
+     "id": "4f8ba41a7f8d",
+     "section": "champions",
+     "tags": [
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Partida Casual",
+     "sectionId": "patch-swiftplay",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Malzahar",
+      "name": "Malzahar"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Crecimiento de Armadura",
+     "before": "4.7",
+     "after": "4.2",
+     "text": "Crecimiento de Armadura: 4.7 ⇒ 4.2",
+     "id": "dc95ed7706b1",
+     "section": "champions",
+     "tags": [
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Partida Casual",
+     "sectionId": "patch-swiftplay",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Malzahar",
+      "name": "Malzahar"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño de la W",
+     "before": "5 a 64.5 (según el nivel) (+12/14/16/18/20) (+20% de Poder de Habilidad adicional)",
+     "after": "5 a 64.5 (según el nivel) (+12/14/16/18/20) (+15% de Poder de Habilidad adicional)",
+     "text": "Daño de la W: 5 a 64.5 (según el nivel) (+12/14/16/18/20) (+20% de Poder de Habilidad adicional) ⇒ 5 a 64.5 (según el nivel) (+12/14/16/18/20) (+15% de Poder de Habilidad adicional)",
+     "id": "623abc58556f",
+     "section": "champions",
+     "tags": [
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Partida Casual",
+     "sectionId": "patch-swiftplay",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Malzahar",
+      "name": "Malzahar"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño de la R",
+     "before": "125/200/275 (+80% de Poder de Habilidad)",
+     "after": "125/200/275 (+60% de Poder de Habilidad)",
+     "text": "Daño de la R: 125/200/275 (+80% de Poder de Habilidad) ⇒ 125/200/275 (+60% de Poder de Habilidad)",
+     "id": "d56792fce9c4",
+     "section": "champions",
+     "tags": [
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  }
+ ]
+}

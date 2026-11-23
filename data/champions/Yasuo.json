@@ -1,0 +1,356 @@
+{
+ "schemaVersion": 1,
+ "id": "Yasuo",
+ "name": "Yasuo",
+ "tags": [
+  "Fighter",
+  "Assassin"
+ ],
+ "entries": [
+  {
+   "patch": "26.23",
+   "publishedAt": "2026-11-17T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "ARAM: Caos",
+     "sectionId": "patch-aram:-mayhem",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Yasuo",
+      "name": "Yasuo"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Aumento de Velocidad de Ataque total",
+     "before": "2.5%",
+     "after": "0%",
+     "text": "Aumento de Velocidad de Ataque total: 2.5% ⇒ 0%",
+     "id": "896f900efddb",
+     "section": "modes",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "26.22",
+   "publishedAt": "2026-11-03T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Yasuo",
+      "name": "Yasuo"
+     },
+     "part": "Q",
+     "partTitle": "Q: Tempestad de Acero",
+     "spellKey": "YasuoQ1Wrapper",
+     "kind": "stat",
+     "attribute": "Daño",
+     "before": "20 / 45 / 70 / 95 / 120 (+105% del Daño de Ataque total)",
+     "after": "20 / 45 / 70 / 95 / 120 (+100% del Daño de Ataque total)",
+     "text": "Daño: 20 / 45 / 70 / 95 / 120 (+105% del Daño de Ataque total) ⇒ 20 / 45 / 70 / 95 / 120 (+100% del Daño de Ataque total)",
+     "id": "b5ccb7dfc36b",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "26.17",
+   "publishedAt": "2026-08-25T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Yasuo",
+      "name": "Yasuo"
+     },
+     "part": "P",
+     "partTitle": "Pasiva: Camino del Vagabundo",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Reducción de daño de golpe crítico",
+     "before": "-10%",
+     "after": "-5%",
+     "text": "Reducción de daño de golpe crítico: -10% ⇒ -5%",
+     "id": "03df53dbd958",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "26.1",
+   "publishedAt": "2026-01-07T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Yasuo",
+      "name": "Yasuo"
+     },
+     "part": "base",
+     "partTitle": "Estadísticas básicas",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño de golpe crítico",
+     "before": "×1.75 / ×2.15",
+     "after": "90% (×1.8 / ×2.07)",
+     "text": "Daño de golpe crítico: ×1.75 / ×2.15 ⇒ 90% (×1.8 / ×2.07)",
+     "id": "93cf9f7f474b",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.20",
+   "publishedAt": "2025-10-07T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena-",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Yasuo",
+      "name": "Yasuo"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "El escudo que otorga la pasiva ya no es un 30% más fuerte en Arena",
+     "id": "b474c9a58635",
+     "section": "modes",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena-",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Yasuo",
+      "name": "Yasuo"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": null,
+     "before": "Daño básico de la E: De 75 a 135",
+     "after": "De 70 a 130",
+     "text": "Daño básico de la E: De 75 a 135 ⇒ De 70 a 130",
+     "id": "5cefbc9b647c",
+     "section": "modes",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.14",
+   "publishedAt": "2025-07-15T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Yasuo",
+      "name": "Yasuo"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Redujimos el crecimiento de su daño de ataque.",
+     "id": "fab95366d585",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Yasuo",
+      "name": "Yasuo"
+     },
+     "part": "base",
+     "partTitle": "Estadísticas básicas",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Crecimiento de Daño de Ataque",
+     "before": "3",
+     "after": "2.5",
+     "text": "Crecimiento de Daño de Ataque: 3 ⇒ 2.5",
+     "id": "443cab2b864b",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.13",
+   "publishedAt": "2025-06-24T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Cambios de balance de ARAM",
+     "sectionId": "patch-aram-balance-changes",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Yasuo",
+      "name": "Yasuo"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Enfriamiento de la W",
+     "before": "25 / 23 / 21 / 19 / 17",
+     "after": "27 / 25 / 23 / 21 / 19",
+     "text": "Enfriamiento de la W: 25 / 23 / 21 / 19 / 17 ⇒ 27 / 25 / 23 / 21 / 19",
+     "id": "146a30c8cecc",
+     "section": "modes",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.4",
+   "publishedAt": "2025-02-19T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Yasuo",
+      "name": "Yasuo"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Eliminamos la reducción de daño de golpe crítico de su pasiva.",
+     "id": "7be8750a0a6b",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Yasuo",
+      "name": "Yasuo"
+     },
+     "part": "P",
+     "partTitle": "Pasiva: Camino del Vagabundo",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Reducción de daño de golpe crítico",
+     "before": "10%",
+     "after": "ELIMINADO",
+     "text": "Reducción de daño de golpe crítico: 10% ⇒ ELIMINADO",
+     "id": "45a8f6057da4",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  }
+ ]
+}

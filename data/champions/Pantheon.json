@@ -1,0 +1,284 @@
+{
+ "schemaVersion": 1,
+ "id": "Pantheon",
+ "name": "Pantheon",
+ "tags": [
+  "Fighter",
+  "Assassin"
+ ],
+ "entries": [
+  {
+   "patch": "26.4",
+   "publishedAt": "2026-02-18T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Pantheon",
+      "name": "Pantheon"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": null,
+     "before": "Enfriamiento de la W: 13-9",
+     "after": "15-11",
+     "text": "Enfriamiento de la W: 13-9 ⇒ 15-11",
+     "id": "69671e277d60",
+     "section": "modes",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.20",
+   "publishedAt": "2025-10-07T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Pantheon",
+      "name": "Pantheon"
+     },
+     "part": "Q",
+     "partTitle": "Q: Lanza Cometa",
+     "spellKey": "PantheonQ",
+     "kind": "stat",
+     "attribute": "Modificador de daño contra monstruos",
+     "before": "×0.75",
+     "after": "×0.8",
+     "text": "Modificador de daño contra monstruos: ×0.75 ⇒ ×0.8",
+     "id": "4b51b742427e",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Pantheon",
+      "name": "Pantheon"
+     },
+     "part": "W",
+     "partTitle": "W: Salto con Escudo",
+     "spellKey": "PantheonW",
+     "kind": "stat",
+     "attribute": "Límite de daño contra súbditos y monstruos",
+     "before": "120",
+     "after": "150",
+     "text": "Límite de daño contra súbditos y monstruos: 120 ⇒ 150",
+     "id": "951561d16fbe",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena-",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Pantheon",
+      "name": "Pantheon"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": null,
+     "before": "Enfriamiento de la Q: De 10 a 7 seg",
+     "after": "De 11 a 8 seg",
+     "text": "Enfriamiento de la Q: De 10 a 7 seg ⇒ De 11 a 8 seg",
+     "id": "ad9dd01581a5",
+     "section": "modes",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.19",
+   "publishedAt": "2025-09-23T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Pantheon",
+      "name": "Pantheon"
+     },
+     "part": "Q",
+     "partTitle": "Q: Lanza Cometa",
+     "spellKey": "PantheonQ",
+     "kind": "stat",
+     "attribute": "Modificador de daño contra monstruos",
+     "before": "×0.9",
+     "after": "×0.75",
+     "text": "Modificador de daño contra monstruos: ×0.9 ⇒ ×0.75",
+     "id": "d9fe24477e81",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Pantheon",
+      "name": "Pantheon"
+     },
+     "part": "W",
+     "partTitle": "W: Salto con Escudo",
+     "spellKey": "PantheonW",
+     "kind": "stat",
+     "attribute": "Límite de daño contra súbditos y monstruos",
+     "before": "200",
+     "after": "120",
+     "text": "Límite de daño contra súbditos y monstruos: 200 ⇒ 120",
+     "id": "69781360cb97",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.15",
+   "publishedAt": "2025-07-29T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Pantheon",
+      "name": "Pantheon"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Redujimos el daño contra monstruos de su Q.",
+     "id": "8014a1b30a84",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Pantheon",
+      "name": "Pantheon"
+     },
+     "part": "Q",
+     "partTitle": "Q: Lanza Cometa",
+     "spellKey": "PantheonQ",
+     "kind": "stat",
+     "attribute": "Daño a monstruos",
+     "before": "105%",
+     "after": "90%",
+     "text": "Daño a monstruos: 105% ⇒ 90%",
+     "id": "117800f6330c",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.11",
+   "publishedAt": "2025-05-27T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Pelea",
+     "sectionId": "patch-brawl",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Pantheon",
+      "name": "Pantheon"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Enfriamiento de la R",
+     "before": "180 / 165 / 150",
+     "after": "120 / 100 / 80",
+     "text": "Enfriamiento de la R: 180 / 165 / 150 ⇒ 120 / 100 / 80",
+     "id": "c3509fe37789",
+     "section": "modes",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  }
+ ]
+}

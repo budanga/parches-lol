@@ -1,0 +1,305 @@
+{
+ "schemaVersion": 1,
+ "id": "Janna",
+ "name": "Janna",
+ "tags": [
+  "Support",
+  "Mage"
+ ],
+ "entries": [
+  {
+   "patch": "26.22",
+   "publishedAt": "2026-11-03T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Classic",
+     "sectionId": "patch-classic",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Janna",
+      "name": "Janna"
+     },
+     "part": "P",
+     "partTitle": "Pasiva: Viento a Favor",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Velocidad de Movimiento adicional global",
+     "before": "3%",
+     "after": "2%",
+     "text": "Velocidad de Movimiento adicional global: 3% ⇒ 2%",
+     "id": "19bb316ac5eb",
+     "section": "modes",
+     "tags": [
+      "Support",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "26.1",
+   "publishedAt": "2026-01-07T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "ARAM: Caos",
+     "sectionId": "patch-aram-mayhem",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Janna",
+      "name": "Janna"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": null,
+     "before": "Daño infligido: 95%",
+     "after": "100%",
+     "text": "Daño infligido: 95% ⇒ 100%",
+     "id": "67576d701803",
+     "section": "modes",
+     "tags": [
+      "Support",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "ARAM: Caos",
+     "sectionId": "patch-aram-mayhem",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Janna",
+      "name": "Janna"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": null,
+     "before": "Daño recibido: 105%",
+     "after": "100%",
+     "text": "Daño recibido: 105% ⇒ 100%",
+     "id": "5d196276f0af",
+     "section": "modes",
+     "tags": [
+      "Support",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "ARAM: Caos",
+     "sectionId": "patch-aram-mayhem",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Janna",
+      "name": "Janna"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": null,
+     "before": "Curación: 90%",
+     "after": "100%",
+     "text": "Curación: 90% ⇒ 100%",
+     "id": "6343e54d457f",
+     "section": "modes",
+     "tags": [
+      "Support",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "ARAM: Caos",
+     "sectionId": "patch-aram-mayhem",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Janna",
+      "name": "Janna"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": null,
+     "before": "Escudo: 95%",
+     "after": "100%",
+     "text": "Escudo: 95% ⇒ 100%",
+     "id": "a0a2e8ea581a",
+     "section": "modes",
+     "tags": [
+      "Support",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.22",
+   "publishedAt": "2025-11-04T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Janna",
+      "name": "Janna"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": null,
+     "before": "Velocidad de Movimiento adicional de la pasiva para los aliados: 6%",
+     "after": "8%",
+     "text": "Velocidad de Movimiento adicional de la pasiva para los aliados: 6% ⇒ 8%",
+     "id": "a6788b75d551",
+     "section": "modes",
+     "tags": [
+      "Support",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Janna",
+      "name": "Janna"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": null,
+     "before": "Velocidad de Movimiento adicional de la pasiva: 30%",
+     "after": "40%",
+     "text": "Velocidad de Movimiento adicional de la pasiva: 30% ⇒ 40%",
+     "id": "7c15415f3821",
+     "section": "modes",
+     "tags": [
+      "Support",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Janna",
+      "name": "Janna"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": null,
+     "before": "Daño adicional por segundo de la Q cargada: De 10 a 30",
+     "after": "De 20 a 40",
+     "text": "Daño adicional por segundo de la Q cargada: De 10 a 30 ⇒ De 20 a 40",
+     "id": "6d8d3ddddc63",
+     "section": "modes",
+     "tags": [
+      "Support",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Janna",
+      "name": "Janna"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": null,
+     "before": "Tasa de Poder de Habilidad del daño adicional por segundo de la Q cargada: 10%",
+     "after": "20%",
+     "text": "Tasa de Poder de Habilidad del daño adicional por segundo de la Q cargada: 10% ⇒ 20%",
+     "id": "cde53290d281",
+     "section": "modes",
+     "tags": [
+      "Support",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.11",
+   "publishedAt": "2025-05-27T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "ARAM",
+     "sectionId": "patch-aram",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Janna",
+      "name": "Janna"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Escudo",
+     "before": "95%",
+     "after": "100%",
+     "text": "Escudo: 95% ⇒ 100%",
+     "id": "936bb26f1cad",
+     "section": "modes",
+     "tags": [
+      "Support",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  }
+ ]
+}

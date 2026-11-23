@@ -1,0 +1,860 @@
+{
+ "schemaVersion": 1,
+ "id": "Smolder",
+ "name": "Smolder",
+ "tags": [
+  "Marksman",
+  "Mage"
+ ],
+ "entries": [
+  {
+   "patch": "26.22",
+   "publishedAt": "2026-11-03T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Smolder",
+      "name": "Smolder"
+     },
+     "part": "W",
+     "partTitle": "W: ¡ACHÚ!",
+     "spellKey": "SmolderW",
+     "kind": "stat",
+     "attribute": "Daño de explosión",
+     "before": "10 / 35 / 60 / 85 / 110 (+50% de Daño de Ataque adicional) (+80% de Poder de Habilidad)",
+     "after": "25 / 50 / 75 / 100 / 125 (+50% de Daño de Ataque adicional) (+80% de Poder de Habilidad)",
+     "text": "Daño de explosión: 10 / 35 / 60 / 85 / 110 (+50% de Daño de Ataque adicional) (+80% de Poder de Habilidad) ⇒ 25 / 50 / 75 / 100 / 125 (+50% de Daño de Ataque adicional) (+80% de Poder de Habilidad)",
+     "id": "b47093b11274",
+     "section": "champions",
+     "tags": [
+      "Marksman",
+      "Mage"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "26.20",
+   "publishedAt": "2026-10-06T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Smolder",
+      "name": "Smolder"
+     },
+     "part": "P",
+     "partTitle": "Pasiva: Dragón Entrenando",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño mágico adicional de Aliento Superabrasador",
+     "before": "De 25 a 55% (+0 a 9% con Filo del Infinito) de las acumulaciones de Dragón Entrenando, que escala con la Probabilidad de Golpe Crítico",
+     "after": "De 25 a 60% (+0 a 10.5% con Filo del Infinito) de las acumulaciones de Dragón Entrenando, que escala con la Probabilidad de Golpe Crítico",
+     "text": "Daño mágico adicional de Aliento Superabrasador: De 25 a 55% (+0 a 9% con Filo del Infinito) de las acumulaciones de Dragón Entrenando, que escala con la Probabilidad de Golpe Crítico ⇒ De 25 a 60% (+0 a 10.5% con Filo del Infinito) de las acumulaciones de Dragón Entrenando, que escala con la Probabilidad de Golpe Crítico",
+     "id": "046e320efdaa",
+     "section": "champions",
+     "tags": [
+      "Marksman",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Smolder",
+      "name": "Smolder"
+     },
+     "part": "P",
+     "partTitle": "Pasiva: Dragón Entrenando",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño mágico adicional de Vuela, Vuela",
+     "before": "De 8 a 12.8% (+0 a 1.44% con Filo del Infinito) de las acumulaciones de Dragón Entrenando, que escala con la Probabilidad de Golpe Crítico",
+     "after": "De 8 a 14% (+0 a 1.8% con Filo del Infinito) de las acumulaciones de Dragón Entrenando, que escala la Probabilidad de Golpe Crítico",
+     "text": "Daño mágico adicional de Vuela, Vuela: De 8 a 12.8% (+0 a 1.44% con Filo del Infinito) de las acumulaciones de Dragón Entrenando, que escala con la Probabilidad de Golpe Crítico ⇒ De 8 a 14% (+0 a 1.8% con Filo del Infinito) de las acumulaciones de Dragón Entrenando, que escala la Probabilidad de Golpe Crítico",
+     "id": "5ba04624d13d",
+     "section": "champions",
+     "tags": [
+      "Marksman",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Smolder",
+      "name": "Smolder"
+     },
+     "part": "R",
+     "partTitle": "R: ¡MAMÁAAA!",
+     "spellKey": "SmolderR",
+     "kind": "stat",
+     "attribute": "Autocuración",
+     "before": "100 / 135 / 170 (+50% de Daño de Ataque adicional) (+75% de Poder de Habilidad)",
+     "after": "100 / 175 / 250 (+75% de Daño de Ataque adicional) (+75% de Poder de Habilidad)",
+     "text": "Autocuración: 100 / 135 / 170 (+50% de Daño de Ataque adicional) (+75% de Poder de Habilidad) ⇒ 100 / 175 / 250 (+75% de Daño de Ataque adicional) (+75% de Poder de Habilidad)",
+     "id": "b84c564d5426",
+     "section": "champions",
+     "tags": [
+      "Marksman",
+      "Mage"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "26.15",
+   "publishedAt": "2026-07-28T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "ARAM: Caos",
+     "sectionId": "patch-aram:-mayhem",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Smolder",
+      "name": "Smolder"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Aceleración de Habilidad",
+     "before": "-10",
+     "after": "0",
+     "text": "Aceleración de Habilidad: -10 ⇒ 0",
+     "id": "d1b7aec24030",
+     "section": "modes",
+     "tags": [
+      "Marksman",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "26.11",
+   "publishedAt": "2026-05-27T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Smolder",
+      "name": "Smolder"
+     },
+     "part": "P",
+     "partTitle": "Pasiva: Dragón Entrenando",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño mágico adicional en la Q",
+     "before": "40% * (1 + (probabilidad de golpe crítico * 0.5 * (1 + daño de golpe crítico adicional)) de acumulaciones de la pasiva (60% con 100% de daño de golpe crítico, 66% con Filo del Infinito)",
+     "after": "25% * (1 + (probabilidad de golpe crítico * 1.2 * (1 + daño de golpe crítico adicional)) de acumulaciones de la pasiva",
+     "text": "Daño mágico adicional en la Q: 40% * (1 + (probabilidad de golpe crítico * 0.5 * (1 + daño de golpe crítico adicional)) de acumulaciones de la pasiva (60% con 100% de daño de golpe crítico, 66% con Filo del Infinito) ⇒ 25% * (1 + (probabilidad de golpe crítico * 1.2 * (1 + daño de golpe crítico adicional)) de acumulaciones de la pasiva",
+     "id": "973be7baecd2",
+     "section": "champions",
+     "tags": [
+      "Marksman",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Smolder",
+      "name": "Smolder"
+     },
+     "part": "P",
+     "partTitle": "Pasiva: Dragón Entrenando",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño mágico adicional en la E",
+     "before": "12% de las acumulaciones de la pasiva",
+     "after": "8% * (1 + (probabilidad de golpe crítico * 0.6 * (1 + daño de golpe crítico adicional)) de las acumulaciones de la pasiva",
+     "text": "Daño mágico adicional en la E: 12% de las acumulaciones de la pasiva ⇒ 8% * (1 + (probabilidad de golpe crítico * 0.6 * (1 + daño de golpe crítico adicional)) de las acumulaciones de la pasiva",
+     "id": "75a0c059b50b",
+     "section": "champions",
+     "tags": [
+      "Marksman",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "26.10",
+   "publishedAt": "2026-05-12T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Smolder",
+      "name": "Smolder"
+     },
+     "part": "base",
+     "partTitle": "Estadísticas base",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño de Ataque básico",
+     "before": "60",
+     "after": "58",
+     "text": "Daño de Ataque básico: 60 ⇒ 58",
+     "id": "7539b2e1b0fd",
+     "section": "champions",
+     "tags": [
+      "Marksman",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Smolder",
+      "name": "Smolder"
+     },
+     "part": "Q",
+     "partTitle": "Q: Aliento Superabrasador",
+     "spellKey": "SmolderQ",
+     "kind": "stat",
+     "attribute": "Daño",
+     "before": "60 / 75 / 90 / 105 / 120 (+130% de Daño de Ataque adicional)",
+     "after": "60 / 70 / 80 / 90 / 100 (+130% de Daño de Ataque adicional)",
+     "text": "Daño: 60 / 75 / 90 / 105 / 120 (+130% de Daño de Ataque adicional) ⇒ 60 / 70 / 80 / 90 / 100 (+130% de Daño de Ataque adicional)",
+     "id": "a9dffe940d11",
+     "section": "champions",
+     "tags": [
+      "Marksman",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Smolder",
+      "name": "Smolder"
+     },
+     "part": "Q",
+     "partTitle": "Q: Aliento Superabrasador",
+     "spellKey": "SmolderQ",
+     "kind": "stat",
+     "attribute": "Aumento de Crítico",
+     "before": "50% (+15% de Filo del Infinito)",
+     "after": "75% (+22.5% de Filo del Infinito)",
+     "text": "Aumento de Crítico: 50% (+15% de Filo del Infinito) ⇒ 75% (+22.5% de Filo del Infinito)",
+     "id": "55eb13154483",
+     "section": "champions",
+     "tags": [
+      "Marksman",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Smolder",
+      "name": "Smolder"
+     },
+     "part": "W",
+     "partTitle": "W: ¡Achú!",
+     "spellKey": "SmolderW",
+     "kind": "stat",
+     "attribute": "Daño físico de la explosión",
+     "before": "10 - 110 (+65% de Daño de Ataque adicional) (+80% de Poder de Habilidad)",
+     "after": "10 - 110 (+50% de Daño de Ataque adicional) (+80% de Poder de Habilidad)",
+     "text": "Daño físico de la explosión: 10 - 110 (+65% de Daño de Ataque adicional) (+80% de Poder de Habilidad) ⇒ 10 - 110 (+50% de Daño de Ataque adicional) (+80% de Poder de Habilidad)",
+     "id": "9ac0360e572e",
+     "section": "champions",
+     "tags": [
+      "Marksman",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Smolder",
+      "name": "Smolder"
+     },
+     "part": "R",
+     "partTitle": "R: ¡MAMÁAAA!",
+     "spellKey": "SmolderR",
+     "kind": "stat",
+     "attribute": "Daño",
+     "before": "Daño: 200 / 300 / 400 (+ 110% de Daño de Ataque adicional)",
+     "after": "150 / 250 / 350 (+ 100% de Daño de Ataque adicional)",
+     "text": "Daño: Daño: 200 / 300 / 400 (+ 110% de Daño de Ataque adicional) ⇒ 150 / 250 / 350 (+ 100% de Daño de Ataque adicional)",
+     "id": "da6bddf40aa6",
+     "section": "champions",
+     "tags": [
+      "Marksman",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "26.2",
+   "publishedAt": "2026-01-21T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Smolder",
+      "name": "Smolder"
+     },
+     "part": "base",
+     "partTitle": "Estadísticas básicas",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Crecimiento de Armadura",
+     "before": "4.7",
+     "after": "4.0",
+     "text": "Crecimiento de Armadura: 4.7 ⇒ 4.0",
+     "id": "d83baa2f5eb5",
+     "section": "champions",
+     "tags": [
+      "Marksman",
+      "Mage"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "26.1",
+   "publishedAt": "2026-01-07T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Smolder",
+      "name": "Smolder"
+     },
+     "part": "Q",
+     "partTitle": "Q: Aliento Superabrasador",
+     "spellKey": "SmolderQ",
+     "kind": "stat",
+     "attribute": "Progresión de daño de golpe crítico",
+     "before": "Hasta ×1.75 / ×2.15",
+     "after": "50% de daño de golpe crítico adicional (hasta ×1.5 / ×1.65) (también afecta las acumulaciones de la pasiva de la Q)",
+     "text": "Progresión de daño de golpe crítico: Hasta ×1.75 / ×2.15 ⇒ 50% de daño de golpe crítico adicional (hasta ×1.5 / ×1.65) (también afecta las acumulaciones de la pasiva de la Q)",
+     "id": "ff867e1e8ece",
+     "section": "champions",
+     "tags": [
+      "Marksman",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.11",
+   "publishedAt": "2025-05-27T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Smolder",
+      "name": "Smolder"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Redujimos su armadura básica y su regeneración de vida.",
+     "id": "92a3c0a6947a",
+     "section": "champions",
+     "tags": [
+      "Marksman",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Smolder",
+      "name": "Smolder"
+     },
+     "part": "base",
+     "partTitle": "Estadísticas básicas",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Armadura básica (nivel 1)",
+     "before": "26",
+     "after": "24",
+     "text": "Armadura básica (nivel 1): 26 ⇒ 24",
+     "id": "0633f285fea4",
+     "section": "champions",
+     "tags": [
+      "Marksman",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Smolder",
+      "name": "Smolder"
+     },
+     "part": "base",
+     "partTitle": "Estadísticas básicas",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Regeneración de Vida básica (nivel 1)",
+     "before": "4.5",
+     "after": "3.75",
+     "text": "Regeneración de Vida básica (nivel 1): 4.5 ⇒ 3.75",
+     "id": "9ee31acb244d",
+     "section": "champions",
+     "tags": [
+      "Marksman",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Pelea",
+     "sectionId": "patch-brawl",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Smolder",
+      "name": "Smolder"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño infligido",
+     "before": "100%",
+     "after": "95%",
+     "text": "Daño infligido: 100% ⇒ 95%",
+     "id": "3f92d6231333",
+     "section": "modes",
+     "tags": [
+      "Marksman",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.10",
+   "publishedAt": "2025-05-13T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Smolder",
+      "name": "Smolder"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Aumentamos el daño y la quemadura de su Q y el daño por cada acumulación que otorga la pasiva de su E.",
+     "id": "ae1ebb98c1ab",
+     "section": "champions",
+     "tags": [
+      "Marksman",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Smolder",
+      "name": "Smolder"
+     },
+     "part": "P",
+     "partTitle": "Pasiva: Dragón Entrenando",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño por acumulación de la Q",
+     "before": "0.3",
+     "after": "0.4",
+     "text": "Daño por acumulación de la Q: 0.3 ⇒ 0.4",
+     "id": "04bc1a114790",
+     "section": "champions",
+     "tags": [
+      "Marksman",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Smolder",
+      "name": "Smolder"
+     },
+     "part": "P",
+     "partTitle": "Pasiva: Dragón Entrenando",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño de quemadura por cada 100 acumulaciones de la Q",
+     "before": "0.4%",
+     "after": "0.5%",
+     "text": "Daño de quemadura por cada 100 acumulaciones de la Q: 0.4% ⇒ 0.5%",
+     "id": "793e29601c22",
+     "section": "champions",
+     "tags": [
+      "Marksman",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Smolder",
+      "name": "Smolder"
+     },
+     "part": "P",
+     "partTitle": "Pasiva: Dragón Entrenando",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño de impacto por acumulación de la E",
+     "before": "0.1",
+     "after": "0.12",
+     "text": "Daño de impacto por acumulación de la E: 0.1 ⇒ 0.12",
+     "id": "8a56b031c76d",
+     "section": "champions",
+     "tags": [
+      "Marksman",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.6",
+   "publishedAt": "2025-03-18T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Smolder",
+      "name": "Smolder"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Aumentamos el daño de su W. Aumentamos el daño de su E. Redujimos el enfriamiento de su R.",
+     "id": "344013a16767",
+     "section": "champions",
+     "tags": [
+      "Marksman",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Smolder",
+      "name": "Smolder"
+     },
+     "part": "W",
+     "partTitle": "W: ¡ACHÚ!",
+     "spellKey": "SmolderW",
+     "kind": "stat",
+     "attribute": "Daño del moco",
+     "before": "30 / 50 / 70 / 90 / 110 (+ 60% de Daño de Ataque adicional)",
+     "after": "60 / 70 / 80 / 90 / 100 (+ 60% de Daño de Ataque adicional)",
+     "text": "Daño del moco: 30 / 50 / 70 / 90 / 110 (+ 60% de Daño de Ataque adicional) ⇒ 60 / 70 / 80 / 90 / 100 (+ 60% de Daño de Ataque adicional)",
+     "id": "ce44af4c73d5",
+     "section": "champions",
+     "tags": [
+      "Marksman",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Smolder",
+      "name": "Smolder"
+     },
+     "part": "W",
+     "partTitle": "W: ¡ACHÚ!",
+     "spellKey": "SmolderW",
+     "kind": "stat",
+     "attribute": "Daño de explosión",
+     "before": "30 / 50 / 70 / 90 / 110 (+ 60% de Daño de Ataque adicional) (+ 80% de Poder de Habilidad)",
+     "after": "10 / 35 / 60 / 85 / 110 (+ 65% de Daño de Ataque adicional) (+ 80% de Poder de Habilidad)",
+     "text": "Daño de explosión: 30 / 50 / 70 / 90 / 110 (+ 60% de Daño de Ataque adicional) (+ 80% de Poder de Habilidad) ⇒ 10 / 35 / 60 / 85 / 110 (+ 65% de Daño de Ataque adicional) (+ 80% de Poder de Habilidad)",
+     "id": "775f635507be",
+     "section": "champions",
+     "tags": [
+      "Marksman",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Smolder",
+      "name": "Smolder"
+     },
+     "part": "E",
+     "partTitle": "E: Vuela, Vuela",
+     "spellKey": "SmolderE",
+     "kind": "stat",
+     "attribute": "Daño por proyectil",
+     "before": "5 / 10 / 15 / 20 / 25 (+ 25% de Daño de Ataque)",
+     "after": "10 / 15 / 20 / 25 / 30 (+ 30% de Daño de Ataque)",
+     "text": "Daño por proyectil: 5 / 10 / 15 / 20 / 25 (+ 25% de Daño de Ataque) ⇒ 10 / 15 / 20 / 25 / 30 (+ 30% de Daño de Ataque)",
+     "id": "391cd3918a66",
+     "section": "champions",
+     "tags": [
+      "Marksman",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Smolder",
+      "name": "Smolder"
+     },
+     "part": "R",
+     "partTitle": "R: ¡MAMÁAAA!",
+     "spellKey": "SmolderR",
+     "kind": "stat",
+     "attribute": "Enfriamiento",
+     "before": "120",
+     "after": "120 / 110 / 100 seg",
+     "text": "Enfriamiento: 120 ⇒ 120 / 110 / 100 seg",
+     "id": "ba31139319ba",
+     "section": "champions",
+     "tags": [
+      "Marksman",
+      "Mage"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.S1.2",
+   "publishedAt": "2025-01-22T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Smolder",
+      "name": "Smolder"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "El daño de su Q ahora aumenta al beneficiarse de Filo del Infinito.",
+     "id": "2d8e6a7515e4",
+     "section": "champions",
+     "tags": [
+      "Marksman",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Smolder",
+      "name": "Smolder"
+     },
+     "part": "Q",
+     "partTitle": "Q: Aliento Superabrasador",
+     "spellKey": "SmolderQ",
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "El daño aumenta hasta un multiplicador de golpe crítico según la probabilidad de golpe crítico, lo que permite que la Q de Smolder se beneficie de Filo del Infinito",
+     "id": "981715c48140",
+     "section": "champions",
+     "tags": [
+      "Marksman",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  }
+ ]
+}

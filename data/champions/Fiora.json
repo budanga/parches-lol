@@ -1,0 +1,431 @@
+{
+ "schemaVersion": 1,
+ "id": "Fiora",
+ "name": "Fiora",
+ "tags": [
+  "Fighter",
+  "Assassin"
+ ],
+ "entries": [
+  {
+   "patch": "26.21",
+   "publishedAt": "2026-10-20T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Fiora",
+      "name": "Fiora"
+     },
+     "part": "P",
+     "partTitle": "Pasiva: Baile de Duelista",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Tasa de Daño de Ataque adicional",
+     "before": "3% cada 100 de Daño de Ataque adicional",
+     "after": "2% cada 100 de Daño de Ataque adicional",
+     "text": "Tasa de Daño de Ataque adicional: 3% cada 100 de Daño de Ataque adicional ⇒ 2% cada 100 de Daño de Ataque adicional",
+     "id": "d1dfeeebd620",
+     "section": "modes",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Fiora",
+      "name": "Fiora"
+     },
+     "part": "Q",
+     "partTitle": "Q: Embestida",
+     "spellKey": "FioraQ",
+     "kind": "stat",
+     "attribute": "Tasa de Poder de Habilidad",
+     "before": "0",
+     "after": "25%",
+     "text": "Tasa de Poder de Habilidad: 0 ⇒ 25%",
+     "id": "05868964ed8e",
+     "section": "modes",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "26.20",
+   "publishedAt": "2026-10-06T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "LoL Classic",
+     "sectionId": "patch-classic",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Fiora",
+      "name": "Fiora"
+     },
+     "part": "W",
+     "partTitle": "W: Estocada",
+     "spellKey": "FioraW",
+     "kind": "stat",
+     "attribute": "Daño de Ataque adicional",
+     "before": "15 / 20 / 25 / 30 / 35",
+     "after": "10 / 15 / 20 / 25 / 30",
+     "text": "Daño de Ataque adicional: 15 / 20 / 25 / 30 / 35 ⇒ 10 / 15 / 20 / 25 / 30",
+     "id": "fd0cc4b12ed9",
+     "section": "modes",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "26.19",
+   "publishedAt": "2026-09-22T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Fiora",
+      "name": "Fiora"
+     },
+     "part": "base",
+     "partTitle": "Estadísticas base",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Crecimiento de Vida",
+     "before": "99",
+     "after": "105",
+     "text": "Crecimiento de Vida: 99 ⇒ 105",
+     "id": "acef75723384",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Fiora",
+      "name": "Fiora"
+     },
+     "part": "R",
+     "partTitle": "R: Gran Duelo",
+     "spellKey": "FioraR",
+     "kind": "stat",
+     "attribute": "Alcance de Curación",
+     "before": "550",
+     "after": "600",
+     "text": "Alcance de Curación: 550 ⇒ 600",
+     "id": "481dc1992404",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Fiora",
+      "name": "Fiora"
+     },
+     "part": "R",
+     "partTitle": "R: Gran Duelo",
+     "spellKey": "FioraR",
+     "kind": "stat",
+     "attribute": "Curación por activación",
+     "before": "18.75 / 25 / 31.25 (+15% de Daño de Ataque adicional)",
+     "after": "20 / 26.25 / 32.5 (+17.5% de Daño de Ataque adicional)",
+     "text": "Curación por activación: 18.75 / 25 / 31.25 (+15% de Daño de Ataque adicional) ⇒ 20 / 26.25 / 32.5 (+17.5% de Daño de Ataque adicional)",
+     "id": "69e5699577e2",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Fiora",
+      "name": "Fiora"
+     },
+     "part": "R",
+     "partTitle": "R: Gran Duelo",
+     "spellKey": "FioraR",
+     "kind": "stat",
+     "attribute": "Curación máxima",
+     "before": "375 / 500 / 625 (+300% de Daño de Ataque adicional)",
+     "after": "400 / 525 / 650 (+350% de Daño de Ataque adicional)",
+     "text": "Curación máxima: 375 / 500 / 625 (+300% de Daño de Ataque adicional) ⇒ 400 / 525 / 650 (+350% de Daño de Ataque adicional)",
+     "id": "7741bdf70e15",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "26.18",
+   "publishedAt": "2026-09-09T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Classic",
+     "sectionId": "patch-classic",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Fiora",
+      "name": "Fiora"
+     },
+     "part": "Campeones",
+     "partTitle": "Campeones",
+     "spellKey": null,
+     "kind": "new",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "NUEVO Fiora",
+     "id": "2cd536bd3b6f",
+     "section": "modes",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.14",
+   "publishedAt": "2025-07-15T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Fiora",
+      "name": "Fiora"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Aumentamos la curación por segundo de su R. Implementamos varias correcciones de errores visuales.",
+     "id": "ebe14e9bbaaf",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Fiora",
+      "name": "Fiora"
+     },
+     "part": "R",
+     "partTitle": "R: Gran Duelo",
+     "spellKey": "FioraR",
+     "kind": "stat",
+     "attribute": "Curación por segundo",
+     "before": "40% / 60% / 70% / 80% / 100% según los puntos vitales impactados",
+     "after": "100% siempre",
+     "text": "Curación por segundo: 40% / 60% / 70% / 80% / 100% según los puntos vitales impactados ⇒ 100% siempre",
+     "id": "368457255c0a",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Fiora",
+      "name": "Fiora"
+     },
+     "part": "R",
+     "partTitle": "R: Gran Duelo",
+     "spellKey": "FioraR",
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Curación obvia: Ahora, los efectos de los círculos de curación se mantienen visibles durante 5 seg (este cambio no afecta la jugabilidad)",
+     "id": "23eefad1ec28",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.11",
+   "publishedAt": "2025-05-27T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Pelea",
+     "sectionId": "patch-brawl",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Fiora",
+      "name": "Fiora"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño recibido",
+     "before": "100%",
+     "after": "95%",
+     "text": "Daño recibido: 100% ⇒ 95%",
+     "id": "8096d90d15de",
+     "section": "modes",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.6",
+   "publishedAt": "2025-03-18T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Fiora",
+      "name": "Fiora"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Redujimos el costo de maná de su Q.",
+     "id": "59de85ad936c",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Fiora",
+      "name": "Fiora"
+     },
+     "part": "Q",
+     "partTitle": "Q: Embestida",
+     "spellKey": "FioraQ",
+     "kind": "stat",
+     "attribute": "Costo de Maná",
+     "before": "20/25/30/35/40",
+     "after": "20 en todos los rangos",
+     "text": "Costo de Maná: 20/25/30/35/40 ⇒ 20 en todos los rangos",
+     "id": "1fc3989f0ef5",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  }
+ ]
+}

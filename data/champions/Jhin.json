@@ -1,0 +1,350 @@
+{
+ "schemaVersion": 1,
+ "id": "Jhin",
+ "name": "Jhin",
+ "tags": [
+  "Marksman",
+  "Mage"
+ ],
+ "entries": [
+  {
+   "patch": "26.15",
+   "publishedAt": "2026-07-28T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "ARAM: Caos",
+     "sectionId": "patch-aram:-mayhem",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Jhin",
+      "name": "Jhin"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño recibido",
+     "before": "-5%",
+     "after": "0%",
+     "text": "Daño recibido: -5% ⇒ 0%",
+     "id": "ca6dd1dab9ae",
+     "section": "modes",
+     "tags": [
+      "Marksman",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "26.1",
+   "publishedAt": "2026-01-07T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Jhin",
+      "name": "Jhin"
+     },
+     "part": "base",
+     "partTitle": "Estadísticas básicas",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Modificador multiplicativo de daño de golpe crítico",
+     "before": "86%",
+     "after": "75% (×1.505 ⇒ ×1.5)",
+     "text": "Modificador multiplicativo de daño de golpe crítico: 86% ⇒ 75% (×1.505 ⇒ ×1.5)",
+     "id": "ec7444453c26",
+     "section": "champions",
+     "tags": [
+      "Marksman",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.23",
+   "publishedAt": "2025-11-18T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Jhin",
+      "name": "Jhin"
+     },
+     "part": "base",
+     "partTitle": "Estadísticas básicas",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño de Ataque básico",
+     "before": "59",
+     "after": "61",
+     "text": "Daño de Ataque básico: 59 ⇒ 61",
+     "id": "e0760f7be7ec",
+     "section": "champions",
+     "tags": [
+      "Marksman",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Jhin",
+      "name": "Jhin"
+     },
+     "part": "P",
+     "partTitle": "Pasiva: Murmullo",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Velocidad de Movimiento al asestar golpes críticos",
+     "before": "14% (+ 0.4% de Velocidad de Ataque)",
+     "after": "14% (+ 0.44% de Velocidad de Ataque)",
+     "text": "Velocidad de Movimiento al asestar golpes críticos: 14% (+ 0.4% de Velocidad de Ataque) ⇒ 14% (+ 0.44% de Velocidad de Ataque)",
+     "id": "eb8a4d45ba61",
+     "section": "champions",
+     "tags": [
+      "Marksman",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Jhin",
+      "name": "Jhin"
+     },
+     "part": "W",
+     "partTitle": "W: Brote Mortal",
+     "spellKey": "JhinW",
+     "kind": "stat",
+     "attribute": "Daño",
+     "before": "60 / 95 / 130 / 165 / 200 (+ 50% de Daño de Ataque)",
+     "after": "70 / 105 / 140 / 175 / 210 (+ 50% de Daño de Ataque)",
+     "text": "Daño: 60 / 95 / 130 / 165 / 200 (+ 50% de Daño de Ataque) ⇒ 70 / 105 / 140 / 175 / 210 (+ 50% de Daño de Ataque)",
+     "id": "73221ebe5e0d",
+     "section": "champions",
+     "tags": [
+      "Marksman",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.11",
+   "publishedAt": "2025-05-27T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "ARAM",
+     "sectionId": "patch-aram",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Jhin",
+      "name": "Jhin"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño infligido",
+     "before": "93%",
+     "after": "95%",
+     "text": "Daño infligido: 93% ⇒ 95%",
+     "id": "073cec85f5f8",
+     "section": "modes",
+     "tags": [
+      "Marksman",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Pelea",
+     "sectionId": "patch-brawl",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Jhin",
+      "name": "Jhin"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño infligido",
+     "before": "100%",
+     "after": "95%",
+     "text": "Daño infligido: 100% ⇒ 95%",
+     "id": "7b91fdd66222",
+     "section": "modes",
+     "tags": [
+      "Marksman",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.9",
+   "publishedAt": "2025-04-29T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "ARAM",
+     "sectionId": "patch-aram",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Jhin",
+      "name": "Jhin"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño infligido",
+     "before": "90%",
+     "after": "93%",
+     "text": "Daño infligido: 90% ⇒ 93%",
+     "id": "20b5dc567b1c",
+     "section": "modes",
+     "tags": [
+      "Marksman",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.6",
+   "publishedAt": "2025-03-18T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Jhin",
+      "name": "Jhin"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Aumentamos el progreso de su pasiva.",
+     "id": "c94f263f70ab",
+     "section": "champions",
+     "tags": [
+      "Marksman",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Jhin",
+      "name": "Jhin"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño de Ataque adicional",
+     "before": "4 - 44% (según el nivel) (+ 0.3% por cada 1% de Probabilidad de Golpe Crítico) (+ 0.25% por cada 1% de Velocidad de Ataque adicional)",
+     "after": "4 - 44% (según el nivel) (+ 0.35% por cada 1% de Probabilidad de Golpe Crítico) (+ 0.3% por cada 1% de Velocidad de Ataque adicional)",
+     "text": "Daño de Ataque adicional: 4 - 44% (según el nivel) (+ 0.3% por cada 1% de Probabilidad de Golpe Crítico) (+ 0.25% por cada 1% de Velocidad de Ataque adicional) ⇒ 4 - 44% (según el nivel) (+ 0.35% por cada 1% de Probabilidad de Golpe Crítico) (+ 0.3% por cada 1% de Velocidad de Ataque adicional)",
+     "id": "bac8fd391642",
+     "section": "champions",
+     "tags": [
+      "Marksman",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.4",
+   "publishedAt": "2025-02-19T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "URFAR",
+     "sectionId": "patch-arurf",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Jhin",
+      "name": "Jhin"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño infligido",
+     "before": "105%",
+     "after": "110%",
+     "text": "Daño infligido: 105% ⇒ 110%",
+     "id": "982c3fffc9f7",
+     "section": "modes",
+     "tags": [
+      "Marksman",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  }
+ ]
+}

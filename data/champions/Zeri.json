@@ -1,0 +1,1136 @@
+{
+ "schemaVersion": 1,
+ "id": "Zeri",
+ "name": "Zeri",
+ "tags": [
+  "Marksman"
+ ],
+ "entries": [
+  {
+   "patch": "26.18",
+   "publishedAt": "2026-09-09T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Zeri",
+      "name": "Zeri"
+     },
+     "part": "W",
+     "partTitle": "W: Láser Ultracargado",
+     "spellKey": "ZeriW",
+     "kind": "stat",
+     "attribute": "Daño",
+     "before": "30 / 70 / 110 / 150 / 190 (+120% de Daño de Ataque total)",
+     "after": "30 / 70 / 110 / 150 / 190 (+100% de Daño de Ataque total)",
+     "text": "Daño: 30 / 70 / 110 / 150 / 190 (+120% de Daño de Ataque total) ⇒ 30 / 70 / 110 / 150 / 190 (+100% de Daño de Ataque total)",
+     "id": "f6837ecd8e23",
+     "section": "champions",
+     "tags": [
+      "Marksman"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Zeri",
+      "name": "Zeri"
+     },
+     "part": "W",
+     "partTitle": "W: Láser Ultracargado",
+     "spellKey": "ZeriW",
+     "kind": "stat",
+     "attribute": "Daño de muro",
+     "before": "45 / 105 / 165 / 225 / 285 (+180% de Daño de Ataque total)",
+     "after": "45 / 105 / 165 / 225 / 285 (+150% de Daño de Ataque total)",
+     "text": "Daño de muro: 45 / 105 / 165 / 225 / 285 (+180% de Daño de Ataque total) ⇒ 45 / 105 / 165 / 225 / 285 (+150% de Daño de Ataque total)",
+     "id": "38c53e70d206",
+     "section": "champions",
+     "tags": [
+      "Marksman"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Zeri",
+      "name": "Zeri"
+     },
+     "part": "W",
+     "partTitle": "W: Láser Ultracargado",
+     "spellKey": "ZeriW",
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Golpe crítico 150% (+15% FI)",
+     "id": "dfaf0d81fab4",
+     "section": "champions",
+     "tags": [
+      "Marksman"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "26.13",
+   "publishedAt": "2026-06-23T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Zeri",
+      "name": "Zeri"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": null,
+     "before": "Velocidad de Ataque de la Q a Daño de Ataque por encima del límite: 60%",
+     "after": "80%",
+     "text": "Velocidad de Ataque de la Q a Daño de Ataque por encima del límite: 60% ⇒ 80%",
+     "id": "d48dd025da17",
+     "section": "modes",
+     "tags": [
+      "Marksman"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Zeri",
+      "name": "Zeri"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": null,
+     "before": "Tasa de Poder de Habilidad de la W: 50%",
+     "after": "100%",
+     "text": "Tasa de Poder de Habilidad de la W: 50% ⇒ 100%",
+     "id": "df8ae436be48",
+     "section": "modes",
+     "tags": [
+      "Marksman"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Zeri",
+      "name": "Zeri"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": null,
+     "before": "Reducción de Enfriamiento de la E al impactar con la pasiva o la Q: 0.5",
+     "after": "0.75",
+     "text": "Reducción de Enfriamiento de la E al impactar con la pasiva o la Q: 0.5 ⇒ 0.75",
+     "id": "6cfa0223e802",
+     "section": "modes",
+     "tags": [
+      "Marksman"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Zeri",
+      "name": "Zeri"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": null,
+     "before": "Tasa de Poder de Habilidad de la E: 20%",
+     "after": "30%",
+     "text": "Tasa de Poder de Habilidad de la E: 20% ⇒ 30%",
+     "id": "bbfc3ef48b74",
+     "section": "modes",
+     "tags": [
+      "Marksman"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Zeri",
+      "name": "Zeri"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": null,
+     "before": "Velocidad de Movimiento adicional básica de la R: 15%",
+     "after": "20%",
+     "text": "Velocidad de Movimiento adicional básica de la R: 15% ⇒ 20%",
+     "id": "1e00ae32dfab",
+     "section": "modes",
+     "tags": [
+      "Marksman"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Zeri",
+      "name": "Zeri"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": null,
+     "before": "Velocidad de Movimiento de la R por acumulación: 1.5%",
+     "after": "2%",
+     "text": "Velocidad de Movimiento de la R por acumulación: 1.5% ⇒ 2%",
+     "id": "40b0f3c86fae",
+     "section": "modes",
+     "tags": [
+      "Marksman"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "26.10",
+   "publishedAt": "2026-05-12T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Zeri",
+      "name": "Zeri"
+     },
+     "part": "Q",
+     "partTitle": "Q: Ráfaga de Luz",
+     "spellKey": "ZeriQ",
+     "kind": "stat",
+     "attribute": "Daño base",
+     "before": "21 / 24 / 27 / 30 / 33",
+     "after": "22 / 26 / 30 / 34 / 38",
+     "text": "Daño base: 21 / 24 / 27 / 30 / 33 ⇒ 22 / 26 / 30 / 34 / 38",
+     "id": "ad1818e95aad",
+     "section": "champions",
+     "tags": [
+      "Marksman"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Zeri",
+      "name": "Zeri"
+     },
+     "part": "Q",
+     "partTitle": "Q: Ráfaga de Luz",
+     "spellKey": "ZeriQ",
+     "kind": "stat",
+     "attribute": "Conversión de exceso de velocidad de ataque a daño de ataque",
+     "before": "50%",
+     "after": "60%",
+     "text": "Conversión de exceso de velocidad de ataque a daño de ataque : 50% ⇒ 60%",
+     "id": "7d8bb8a1d1ac",
+     "section": "champions",
+     "tags": [
+      "Marksman"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Zeri",
+      "name": "Zeri"
+     },
+     "part": "R",
+     "partTitle": "R: Estallido Eléctrico",
+     "spellKey": "ZeriR",
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "[BUGFIX] Duración de Sobrecargado: Los ataques durante la R ahora extienden su duración en 1.5 seg. Se cambió a 2.5 seg para que coincida con la nueva duración de acumulación de VM de Hipercargado",
+     "id": "b17cae6fe8a1",
+     "section": "champions",
+     "tags": [
+      "Marksman"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "26.9",
+   "publishedAt": "2026-04-28T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Zeri",
+      "name": "Zeri"
+     },
+     "part": "P: Batería Humana",
+     "partTitle": "P: Batería Humana",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Alcance del clic derecho",
+     "before": "500",
+     "after": "550",
+     "text": "Alcance del clic derecho: 500 ⇒ 550",
+     "id": "ccbf7dd14a3d",
+     "section": "champions",
+     "tags": [
+      "Marksman"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Zeri",
+      "name": "Zeri"
+     },
+     "part": "P: Batería Humana",
+     "partTitle": "P: Batería Humana",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Umbral de ejecución",
+     "before": "60 / 82.5 / 105 / 127.5 / 150 (+18% de Poder de Habilidad)",
+     "after": "70 / 92.5 / 115 / 137.5 / 160 (+20% de Poder de Habilidad)",
+     "text": "Umbral de ejecución: 60 / 82.5 / 105 / 127.5 / 150 (+18% de Poder de Habilidad) ⇒ 70 / 92.5 / 115 / 137.5 / 160 (+20% de Poder de Habilidad)",
+     "id": "daeccad6f0ed",
+     "section": "champions",
+     "tags": [
+      "Marksman"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Zeri",
+      "name": "Zeri"
+     },
+     "part": "Q",
+     "partTitle": "Q: Ráfaga de Luz",
+     "spellKey": "ZeriQ",
+     "kind": "stat",
+     "attribute": "Daño",
+     "before": "15 / 17 / 19 / 21 / 23 (+104 / 108 / 112 / 116 / 120% de Daño de Ataque)",
+     "after": "21 / 24 / 27 / 30 / 33 (+102 / 104 / 106 / 108 / 110% de Daño de Ataque)",
+     "text": "Daño: 15 / 17 / 19 / 21 / 23 (+104 / 108 / 112 / 116 / 120% de Daño de Ataque) ⇒ 21 / 24 / 27 / 30 / 33 (+102 / 104 / 106 / 108 / 110% de Daño de Ataque)",
+     "id": "80fa1cf552ff",
+     "section": "champions",
+     "tags": [
+      "Marksman"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Zeri",
+      "name": "Zeri"
+     },
+     "part": "Q",
+     "partTitle": "Q: Ráfaga de Luz",
+     "spellKey": "ZeriQ",
+     "kind": "stat",
+     "attribute": "Conversión de exceso de Velocidad de Ataque a Daño de Ataque",
+     "before": "70%",
+     "after": "50%",
+     "text": "Conversión de exceso de Velocidad de Ataque a Daño de Ataque: 70% ⇒ 50%",
+     "id": "7c589eeac092",
+     "section": "champions",
+     "tags": [
+      "Marksman"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Zeri",
+      "name": "Zeri"
+     },
+     "part": "Q",
+     "partTitle": "Q: Ráfaga de Luz",
+     "spellKey": "ZeriQ",
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Ahora con lanzamiento rápido forzado",
+     "id": "d6df8b17fa40",
+     "section": "champions",
+     "tags": [
+      "Marksman"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Zeri",
+      "name": "Zeri"
+     },
+     "part": "W",
+     "partTitle": "W: Láser Ultracargado",
+     "spellKey": "ZeriW",
+     "kind": "stat",
+     "attribute": "Multiplicador de golpes críticos en paredes",
+     "before": "175%",
+     "after": "150%",
+     "text": "Multiplicador de golpes críticos en paredes: 175% ⇒ 150%",
+     "id": "2fa2c6ba1c36",
+     "section": "champions",
+     "tags": [
+      "Marksman"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Zeri",
+      "name": "Zeri"
+     },
+     "part": "W",
+     "partTitle": "W: Láser Ultracargado",
+     "spellKey": "ZeriW",
+     "kind": "stat",
+     "attribute": "Tasa de Poder de Habilidad",
+     "before": "25%",
+     "after": "50%",
+     "text": "Tasa de Poder de Habilidad: 25% ⇒ 50%",
+     "id": "6b9ed72fe430",
+     "section": "champions",
+     "tags": [
+      "Marksman"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Zeri",
+      "name": "Zeri"
+     },
+     "part": "E",
+     "partTitle": "E: Chispazo",
+     "spellKey": "ZeriE",
+     "kind": "stat",
+     "attribute": "Daño mágico adicional",
+     "before": "17 / 19 / 21 / 23 / 25 (+10% de Daño de Ataque adicional) (+ 20% de Poder de Habilidad)",
+     "after": "22 / 24 / 26 / 28 / 30 (+ 20% de Daño de Ataque adicional)",
+     "text": "Daño mágico adicional: 17 / 19 / 21 / 23 / 25 (+10% de Daño de Ataque adicional) (+ 20% de Poder de Habilidad) ⇒ 22 / 24 / 26 / 28 / 30 (+ 20% de Daño de Ataque adicional)",
+     "id": "c482494f3f52",
+     "section": "champions",
+     "tags": [
+      "Marksman"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Zeri",
+      "name": "Zeri"
+     },
+     "part": "E",
+     "partTitle": "E: Chispazo",
+     "spellKey": "ZeriE",
+     "kind": "stat",
+     "attribute": "Enfriamiento",
+     "before": "22 / 21 / 20 / 19 / 18",
+     "after": "24 / 22.5 / 21 / 19.5 / 18",
+     "text": "Enfriamiento: 22 / 21 / 20 / 19 / 18 ⇒ 24 / 22.5 / 21 / 19.5 / 18",
+     "id": "f4d216ff814d",
+     "section": "champions",
+     "tags": [
+      "Marksman"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Zeri",
+      "name": "Zeri"
+     },
+     "part": "E",
+     "partTitle": "E: Chispazo",
+     "spellKey": "ZeriE",
+     "kind": "stat",
+     "attribute": "Restablecimiento de enfriamiento",
+     "before": "Aplica en ataques y habilidades contra campeones",
+     "after": "Aplica en ataques contra todo",
+     "text": "Restablecimiento de enfriamiento: Aplica en ataques y habilidades contra campeones ⇒ Aplica en ataques contra todo",
+     "id": "acf1a503d811",
+     "section": "champions",
+     "tags": [
+      "Marksman"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Zeri",
+      "name": "Zeri"
+     },
+     "part": "R",
+     "partTitle": "R: Estallido Eléctrico",
+     "spellKey": "ZeriR",
+     "kind": "stat",
+     "attribute": "Tasa de Daño de Ataque de ráfaga",
+     "before": "100%",
+     "after": "60%",
+     "text": "Tasa de Daño de Ataque de ráfaga: 100% ⇒ 60%",
+     "id": "5f0b0bcde74f",
+     "section": "champions",
+     "tags": [
+      "Marksman"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Zeri",
+      "name": "Zeri"
+     },
+     "part": "R",
+     "partTitle": "R: Estallido Eléctrico",
+     "spellKey": "ZeriR",
+     "kind": "stat",
+     "attribute": "VM por acumulación",
+     "before": "1%",
+     "after": "1.5%",
+     "text": "VM por acumulación: 1% ⇒ 1.5%",
+     "id": "2d3c5409f6de",
+     "section": "champions",
+     "tags": [
+      "Marksman"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Zeri",
+      "name": "Zeri"
+     },
+     "part": "R",
+     "partTitle": "R: Estallido Eléctrico",
+     "spellKey": "ZeriR",
+     "kind": "stat",
+     "attribute": "Duración de las acumulaciones",
+     "before": "1.5",
+     "after": "2.5",
+     "text": "Duración de las acumulaciones: 1.5 ⇒ 2.5",
+     "id": "edb709d53f29",
+     "section": "champions",
+     "tags": [
+      "Marksman"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "26.1",
+   "publishedAt": "2026-01-07T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Zeri",
+      "name": "Zeri"
+     },
+     "part": "W",
+     "partTitle": "W: Láser Ultracargado",
+     "spellKey": "ZeriW",
+     "kind": "stat",
+     "attribute": "Daño",
+     "before": "30 / 70 / 110 / 150 / 190 (+ 130% de Daño de Ataque total)",
+     "after": "30 / 70 / 110 / 150 / 190 (+ 120% de Daño de Ataque total)",
+     "text": "Daño: 30 / 70 / 110 / 150 / 190 (+ 130% de Daño de Ataque total) ⇒ 30 / 70 / 110 / 150 / 190 (+ 120% de Daño de Ataque total)",
+     "id": "26fdfbd6d3fc",
+     "section": "champions",
+     "tags": [
+      "Marksman"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Zeri",
+      "name": "Zeri"
+     },
+     "part": "W",
+     "partTitle": "W: Láser Ultracargado",
+     "spellKey": "ZeriW",
+     "kind": "stat",
+     "attribute": "Daño a través del muro",
+     "before": "×1.75, ×2.15 con Filo del Infinito",
+     "after": "75% de daño de golpe crítico adicional, ×1.75 / ×1.975",
+     "text": "Daño a través del muro: ×1.75, ×2.15 con Filo del Infinito ⇒ 75% de daño de golpe crítico adicional, ×1.75 / ×1.975",
+     "id": "b0be7fd649bb",
+     "section": "champions",
+     "tags": [
+      "Marksman"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Zeri",
+      "name": "Zeri"
+     },
+     "part": "W",
+     "partTitle": "W: Láser Ultracargado",
+     "spellKey": "ZeriW",
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Ahora, la descripción muestra el daño mejorado",
+     "id": "e30bb759e3e1",
+     "section": "champions",
+     "tags": [
+      "Marksman"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Zeri",
+      "name": "Zeri"
+     },
+     "part": "W",
+     "partTitle": "W: Láser Ultracargado",
+     "spellKey": "ZeriW",
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Ahora, aparece un efecto visual cuando el daño asesta un golpe crítico al objetivo tras disparar la habilidad a través de un muro",
+     "id": "10bf00d1dea3",
+     "section": "champions",
+     "tags": [
+      "Marksman"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Zeri",
+      "name": "Zeri"
+     },
+     "part": "E",
+     "partTitle": "E: Chispazo",
+     "spellKey": "ZeriE",
+     "kind": "stat",
+     "attribute": "Daño",
+     "before": "20 / 22 / 24 / 26 / 28 (+ 12% de Daño de Ataque adicional)",
+     "after": "17 / 19 / 21 / 23 / 25 (+ 10% de Daño de Ataque adicional)",
+     "text": "Daño: 20 / 22 / 24 / 26 / 28 (+ 12% de Daño de Ataque adicional) ⇒ 17 / 19 / 21 / 23 / 25 (+ 10% de Daño de Ataque adicional)",
+     "id": "6de9c1ad1b03",
+     "section": "champions",
+     "tags": [
+      "Marksman"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Zeri",
+      "name": "Zeri"
+     },
+     "part": "E",
+     "partTitle": "E: Chispazo",
+     "spellKey": "ZeriE",
+     "kind": "stat",
+     "attribute": "Progresión de daño de golpe crítico",
+     "before": "Hasta ×1.85 con cada impacto",
+     "after": "100% de daño de golpe crítico adicional al asestar un golpe crítico, ×2.0 / ×2.3",
+     "text": "Progresión de daño de golpe crítico: Hasta ×1.85 con cada impacto ⇒ 100% de daño de golpe crítico adicional al asestar un golpe crítico, ×2.0 / ×2.3",
+     "id": "8d606949acf2",
+     "section": "champions",
+     "tags": [
+      "Marksman"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Zeri",
+      "name": "Zeri"
+     },
+     "part": "R",
+     "partTitle": "R: Estallido Eléctrico",
+     "spellKey": "ZeriR",
+     "kind": "stat",
+     "attribute": "Daño de la activa",
+     "before": "200 / 300 / 400 (+ 100% de Daño de Ataque adicional)",
+     "after": "150 / 250 / 350 (+ 100% de Daño de Ataque adicional)",
+     "text": "Daño de la activa: 200 / 300 / 400 (+ 100% de Daño de Ataque adicional) ⇒ 150 / 250 / 350 (+ 100% de Daño de Ataque adicional)",
+     "id": "daa42bcc89e6",
+     "section": "champions",
+     "tags": [
+      "Marksman"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.23",
+   "publishedAt": "2025-11-18T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Zeri",
+      "name": "Zeri"
+     },
+     "part": "R",
+     "partTitle": "R: Estallido Eléctrico",
+     "spellKey": "ZeriR",
+     "kind": "stat",
+     "attribute": "Velocidad de Movimiento por acumulación",
+     "before": "0.5%",
+     "after": "1%",
+     "text": "Velocidad de Movimiento por acumulación: 0.5% ⇒ 1%",
+     "id": "a9d664ae4dc0",
+     "section": "champions",
+     "tags": [
+      "Marksman"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.12",
+   "publishedAt": "2025-06-10T18:05:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Zeri",
+      "name": "Zeri"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Aumentamos el daño de su R y el daño de la cadena de rayos.",
+     "id": "ff711aa7caea",
+     "section": "champions",
+     "tags": [
+      "Marksman"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Zeri",
+      "name": "Zeri"
+     },
+     "part": "R",
+     "partTitle": "R: Estallido Eléctrico",
+     "spellKey": "ZeriR",
+     "kind": "stat",
+     "attribute": "Daño",
+     "before": "175 / 275 / 375 (+ 85% de Daño de Ataque adicional) (+ 110% de Poder de Habilidad)",
+     "after": "200/ 300 / 400 (+ 100% de Daño de Ataque adicional) (+ 110% de Poder de Habilidad)",
+     "text": "Daño: 175 / 275 / 375 (+ 85% de Daño de Ataque adicional) (+ 110% de Poder de Habilidad) ⇒ 200/ 300 / 400 (+ 100% de Daño de Ataque adicional) (+ 110% de Poder de Habilidad)",
+     "id": "2004ae046f72",
+     "section": "champions",
+     "tags": [
+      "Marksman"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Zeri",
+      "name": "Zeri"
+     },
+     "part": "R",
+     "partTitle": "R: Estallido Eléctrico",
+     "spellKey": "ZeriR",
+     "kind": "stat",
+     "attribute": "Daño de la cadena de rayos",
+     "before": "30% de Daño de Ataque",
+     "after": "40% de Daño de Ataque",
+     "text": "Daño de la cadena de rayos: 30% de Daño de Ataque ⇒ 40% de Daño de Ataque",
+     "id": "01737c914367",
+     "section": "champions",
+     "tags": [
+      "Marksman"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.11",
+   "publishedAt": "2025-05-27T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Pelea",
+     "sectionId": "patch-brawl",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Zeri",
+      "name": "Zeri"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño infligido",
+     "before": "100%",
+     "after": "105%",
+     "text": "Daño infligido: 100% ⇒ 105%",
+     "id": "a73dae566d3f",
+     "section": "modes",
+     "tags": [
+      "Marksman"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Pelea",
+     "sectionId": "patch-brawl",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Zeri",
+      "name": "Zeri"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño recibido",
+     "before": "100%",
+     "after": "95%",
+     "text": "Daño recibido: 100% ⇒ 95%",
+     "id": "17a44b1630b6",
+     "section": "modes",
+     "tags": [
+      "Marksman"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.8",
+   "publishedAt": "2025-04-15T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Zeri",
+      "name": "Zeri"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Aumentamos el daño de la cadena de rayos de su R.",
+     "id": "8b77fdf56e3a",
+     "section": "champions",
+     "tags": [
+      "Marksman"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Zeri",
+      "name": "Zeri"
+     },
+     "part": "R",
+     "partTitle": "R: Estallido Eléctrico",
+     "spellKey": "ZeriR",
+     "kind": "stat",
+     "attribute": "Daño de la cadena de rayos",
+     "before": "25% de Daño de Ataque total",
+     "after": "30% de Daño de Ataque total",
+     "text": "Daño de la cadena de rayos: 25% de Daño de Ataque total ⇒ 30% de Daño de Ataque total",
+     "id": "13caed862c6b",
+     "section": "champions",
+     "tags": [
+      "Marksman"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.7",
+   "publishedAt": "2025-04-01T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "ARAM",
+     "sectionId": "patch-aram",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Zeri",
+      "name": "Zeri"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Enfriamiento de E",
+     "before": "22 / 21 / 20 / 19 / 18",
+     "after": "20 / 19 / 18 / 17 / 16",
+     "text": "Enfriamiento de E: 22 / 21 / 20 / 19 / 18 ⇒ 20 / 19 / 18 / 17 / 16",
+     "id": "97e24f23a9b5",
+     "section": "modes",
+     "tags": [
+      "Marksman"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  }
+ ]
+}

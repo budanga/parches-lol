@@ -1,0 +1,436 @@
+{
+ "schemaVersion": 1,
+ "id": "Jax",
+ "name": "Jax",
+ "tags": [
+  "Fighter"
+ ],
+ "entries": [
+  {
+   "patch": "26.23",
+   "publishedAt": "2026-11-17T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "ARAM: Caos",
+     "sectionId": "patch-aram:-mayhem",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Jax",
+      "name": "Jax"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño recibido",
+     "before": "97%",
+     "after": "100%",
+     "text": "Daño recibido: 97% ⇒ 100%",
+     "id": "76a2a7528586",
+     "section": "modes",
+     "tags": [
+      "Fighter"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "ARAM: Caos",
+     "sectionId": "patch-aram:-mayhem",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Jax",
+      "name": "Jax"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño infligido",
+     "before": "105%",
+     "after": "100%",
+     "text": "Daño infligido: 105% ⇒ 100%",
+     "id": "b33c5509ab6f",
+     "section": "modes",
+     "tags": [
+      "Fighter"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "26.12",
+   "publishedAt": "2026-06-09T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Jax",
+      "name": "Jax"
+     },
+     "part": "Q",
+     "partTitle": "Q: Salto Brutal",
+     "spellKey": "JaxQ",
+     "kind": "stat",
+     "attribute": "Costo de Maná",
+     "before": "65",
+     "after": "50",
+     "text": "Costo de Maná: 65 ⇒ 50",
+     "id": "80c4f83de491",
+     "section": "champions",
+     "tags": [
+      "Fighter"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Jax",
+      "name": "Jax"
+     },
+     "part": "E",
+     "partTitle": "E: Contraataque",
+     "spellKey": "JaxE",
+     "kind": "stat",
+     "attribute": "Daño según la Vida Máxima del objetivo",
+     "before": "3.5% de daño mínimo / 7% de daño máximo",
+     "after": "4% de daño mínimo / 8% de daño máximo",
+     "text": "Daño según la Vida Máxima del objetivo: 3.5% de daño mínimo / 7% de daño máximo ⇒ 4% de daño mínimo / 8% de daño máximo",
+     "id": "e0de1f0e2384",
+     "section": "champions",
+     "tags": [
+      "Fighter"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "26.1",
+   "publishedAt": "2026-01-07T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Jax",
+      "name": "Jax"
+     },
+     "part": "P",
+     "partTitle": "Pasiva: Asalto Implacable",
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Ahora, obtiene un 1.5% de Velocidad de Ataque por acumulación al subir al nivel 19",
+     "id": "ca5f98e71369",
+     "section": "champions",
+     "tags": [
+      "Fighter"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.19",
+   "publishedAt": "2025-09-23T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Jax",
+      "name": "Jax"
+     },
+     "part": "base",
+     "partTitle": "Estadísticas básicas",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Vida básica",
+     "before": "665",
+     "after": "650",
+     "text": "Vida básica: 665 ⇒ 650",
+     "id": "031ceff5835a",
+     "section": "champions",
+     "tags": [
+      "Fighter"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Jax",
+      "name": "Jax"
+     },
+     "part": "R",
+     "partTitle": "R: Gran Maestro de Armas",
+     "spellKey": "JaxR",
+     "kind": "stat",
+     "attribute": "Armadura inicial obtenida",
+     "before": "25 / 50 / 75 (+ 40% de Daño de Ataque adicional)",
+     "after": "45 / 60 / 75 (+ 40% de Daño de Ataque adicional)",
+     "text": "Armadura inicial obtenida: 25 / 50 / 75 (+ 40% de Daño de Ataque adicional) ⇒ 45 / 60 / 75 (+ 40% de Daño de Ataque adicional)",
+     "id": "c6ab573cc7c8",
+     "section": "champions",
+     "tags": [
+      "Fighter"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Jax",
+      "name": "Jax"
+     },
+     "part": "R",
+     "partTitle": "R: Gran Maestro de Armas",
+     "spellKey": "JaxR",
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "La cantidad de Resistencia Mágica obtenida aún equivale a un 60% de la Armadura obtenida",
+     "id": "63885cec299e",
+     "section": "champions",
+     "tags": [
+      "Fighter"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Jax",
+      "name": "Jax"
+     },
+     "part": "R",
+     "partTitle": "R: Gran Maestro de Armas",
+     "spellKey": "JaxR",
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "La cantidad de Resistencia Mágica obtenida por cada campeón alcanzado después del primero no sufrió cambios",
+     "id": "93b3ac9d9a1c",
+     "section": "champions",
+     "tags": [
+      "Fighter"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.12",
+   "publishedAt": "2025-06-10T18:05:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Jax",
+      "name": "Jax"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Aumentamos su velocidad de ataque pasiva.",
+     "id": "ef80d3c70947",
+     "section": "champions",
+     "tags": [
+      "Fighter"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Jax",
+      "name": "Jax"
+     },
+     "part": "P",
+     "partTitle": "Pasiva: Asalto Implacable",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Velocidad de Ataque adicional por acumulación",
+     "before": "3.5 / 5 / 6.5 / 8 / 9.5 / 11% (según el nivel)",
+     "after": "5 / 6.5 / 8 / 9.5 / 11 / 12.5% (según el nivel)",
+     "text": "Velocidad de Ataque adicional por acumulación: 3.5 / 5 / 6.5 / 8 / 9.5 / 11% (según el nivel) ⇒ 5 / 6.5 / 8 / 9.5 / 11 / 12.5% (según el nivel)",
+     "id": "4099316744a3",
+     "section": "champions",
+     "tags": [
+      "Fighter"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.S1.3",
+   "publishedAt": "2025-02-04T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Jax",
+      "name": "Jax"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Aumentamos la regeneración de su maná básica y el crecimiento de vida. Aumentamos el daño de su R.",
+     "id": "8ee130af27b8",
+     "section": "champions",
+     "tags": [
+      "Fighter"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Jax",
+      "name": "Jax"
+     },
+     "part": "base",
+     "partTitle": "Estadísticas básicas",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Crecimiento de Vida",
+     "before": "100",
+     "after": "103",
+     "text": "Crecimiento de Vida: 100 ⇒ 103",
+     "id": "eebe38a73b8e",
+     "section": "champions",
+     "tags": [
+      "Fighter"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Jax",
+      "name": "Jax"
+     },
+     "part": "base",
+     "partTitle": "Estadísticas básicas",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Regeneración de Maná Básica",
+     "before": "7.6",
+     "after": "8.2",
+     "text": "Regeneración de Maná Básica: 7.6 ⇒ 8.2",
+     "id": "8f9e1abddad1",
+     "section": "champions",
+     "tags": [
+      "Fighter"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Jax",
+      "name": "Jax"
+     },
+     "part": "R",
+     "partTitle": "R: Gran Maestro de Armas",
+     "spellKey": "JaxR",
+     "kind": "stat",
+     "attribute": "3 Daño al impacto",
+     "before": "70/120/170 (+60% de Poder de Habilidad)",
+     "after": "75/130/185 (+60% de Poder de Habilidad)",
+     "text": "3 Daño al impacto: 70/120/170 (+60% de Poder de Habilidad) ⇒ 75/130/185 (+60% de Poder de Habilidad)",
+     "id": "cbca69060b15",
+     "section": "champions",
+     "tags": [
+      "Fighter"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  }
+ ]
+}

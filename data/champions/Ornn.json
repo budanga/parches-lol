@@ -1,0 +1,158 @@
+{
+ "schemaVersion": 1,
+ "id": "Ornn",
+ "name": "Ornn",
+ "tags": [
+  "Tank"
+ ],
+ "entries": [
+  {
+   "patch": "26.9",
+   "publishedAt": "2026-04-28T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "ARAM: Caos",
+     "sectionId": "patch-aram:-mayhem",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Ornn",
+      "name": "Ornn"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Enfriamiento de la P de Forja Viviente",
+     "before": "120s",
+     "after": "90 a 10s (según el nivel)",
+     "text": "Enfriamiento de la P de Forja Viviente: 120s ⇒ 90 a 10s (según el nivel)",
+     "id": "32a3ae19ed73",
+     "section": "modes",
+     "tags": [
+      "Tank"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "26.7",
+   "publishedAt": "2026-03-31T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Ornn",
+      "name": "Ornn"
+     },
+     "part": "W",
+     "partTitle": "W: Rugido de Fuego",
+     "spellKey": "OrnnW",
+     "kind": "stat",
+     "attribute": "Daño de activación de Fragilidad",
+     "before": "10-18% (niveles 1-18)",
+     "after": "9-17% (niveles 1-18)",
+     "text": "Daño de activación de Fragilidad: 10-18% (niveles 1-18) ⇒ 9-17% (niveles 1-18)",
+     "id": "917367fa344f",
+     "section": "champions",
+     "tags": [
+      "Tank"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.23",
+   "publishedAt": "2025-11-18T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Ornn",
+      "name": "Ornn"
+     },
+     "part": "W",
+     "partTitle": "W: Rugido de Fuego",
+     "spellKey": "OrnnW",
+     "kind": "stat",
+     "attribute": "Límite de daño contra monstruos de la activa",
+     "before": "155 / 180 / 205 / 230 / 255",
+     "after": "260 / 320 / 380 / 440 / 500",
+     "text": "Límite de daño contra monstruos de la activa: 155 / 180 / 205 / 230 / 255 ⇒ 260 / 320 / 380 / 440 / 500",
+     "id": "958d0a1dbd86",
+     "section": "champions",
+     "tags": [
+      "Tank"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Ornn",
+      "name": "Ornn"
+     },
+     "part": "W",
+     "partTitle": "W: Rugido de Fuego",
+     "spellKey": "OrnnW",
+     "kind": "stat",
+     "attribute": "Límite de daño contra monstruos de la pasiva",
+     "before": "250",
+     "after": "260 / 320 / 380 / 440 / 500",
+     "text": "Límite de daño contra monstruos de la pasiva: 250 ⇒ 260 / 320 / 380 / 440 / 500",
+     "id": "3276001000aa",
+     "section": "champions",
+     "tags": [
+      "Tank"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Ornn",
+      "name": "Ornn"
+     },
+     "part": "W",
+     "partTitle": "W: Rugido de Fuego",
+     "spellKey": "OrnnW",
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Ahora, la descripción de subida de nivel muestra el daño mínimo y máximo por rango",
+     "id": "c810923fc73f",
+     "section": "champions",
+     "tags": [
+      "Tank"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  }
+ ]
+}

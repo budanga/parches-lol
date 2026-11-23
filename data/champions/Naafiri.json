@@ -1,0 +1,2030 @@
+{
+ "schemaVersion": 1,
+ "id": "Naafiri",
+ "name": "Naafiri",
+ "tags": [
+  "Assassin",
+  "Fighter"
+ ],
+ "entries": [
+  {
+   "patch": "26.22",
+   "publishedAt": "2026-11-03T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Naafiri",
+      "name": "Naafiri"
+     },
+     "part": "Q",
+     "partTitle": "Q: Dagas Darkin",
+     "spellKey": "NaafiriQ",
+     "kind": "stat",
+     "attribute": "Curación",
+     "before": "45 / 60 / 75 / 90 / 105 (+40% de Daño de Ataque adicional)",
+     "after": "55 / 70 / 85 / 100 / 115 (+45% de Daño de Ataque adicional)",
+     "text": "Curación: 45 / 60 / 75 / 90 / 105 (+40% de Daño de Ataque adicional) ⇒ 55 / 70 / 85 / 100 / 115 (+45% de Daño de Ataque adicional)",
+     "id": "159126fb816d",
+     "section": "champions",
+     "tags": [
+      "Assassin",
+      "Fighter"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Naafiri",
+      "name": "Naafiri"
+     },
+     "part": "W",
+     "partTitle": "W: El Llamado de la Manada",
+     "spellKey": "NaafiriR",
+     "kind": "stat",
+     "attribute": "Daño de Ataque adicional",
+     "before": "20%",
+     "after": "22%",
+     "text": "Daño de Ataque adicional: 20% ⇒ 22%",
+     "id": "36d452b3683d",
+     "section": "champions",
+     "tags": [
+      "Assassin",
+      "Fighter"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "26.15",
+   "publishedAt": "2026-07-28T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Naafiri",
+      "name": "Naafiri"
+     },
+     "part": "R",
+     "partTitle": "R: El Llamado de la Manada",
+     "spellKey": "NaafiriR",
+     "kind": "stat",
+     "attribute": "Daño",
+     "before": "150 / 225 / 300 (+120% de Daño de Ataque)",
+     "after": "125 / 200 / 275 (+100% de Daño de Ataque adicional)",
+     "text": "Daño: 150 / 225 / 300 (+120% de Daño de Ataque) ⇒ 125 / 200 / 275 (+100% de Daño de Ataque adicional)",
+     "id": "ab9db32f5893",
+     "section": "champions",
+     "tags": [
+      "Assassin",
+      "Fighter"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Naafiri",
+      "name": "Naafiri"
+     },
+     "part": "R",
+     "partTitle": "R: El Llamado de la Manada",
+     "spellKey": "NaafiriR",
+     "kind": "stat",
+     "attribute": "Daño por compañero",
+     "before": "15 / 22.5 / 30 (+12% de Daño de Ataque)",
+     "after": "12.5 / 20 / 27.5 (+10% de Daño de Ataque adicional)",
+     "text": "Daño por compañero: 15 / 22.5 / 30 (+12% de Daño de Ataque) ⇒ 12.5 / 20 / 27.5 (+10% de Daño de Ataque adicional)",
+     "id": "1831ba4d38d9",
+     "section": "champions",
+     "tags": [
+      "Assassin",
+      "Fighter"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "26.10",
+   "publishedAt": "2026-05-12T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Naafiri",
+      "name": "Naafiri"
+     },
+     "part": "Q",
+     "partTitle": "Q: Dagas Darkin",
+     "spellKey": "NaafiriQ",
+     "kind": "stat",
+     "attribute": "Daño físico adicional mínimo",
+     "before": "30 / 45 / 60 / 75 / 90 (+ 40% de Daño de Ataque adicional) -",
+     "after": "30 / 42.5 / 55 / 67.5 / 80 (+ 40% de Daño de Ataque adicional)",
+     "text": "Daño físico adicional mínimo: 30 / 45 / 60 / 75 / 90 (+ 40% de Daño de Ataque adicional) -⇒ 30 / 42.5 / 55 / 67.5 / 80 (+ 40% de Daño de Ataque adicional)",
+     "id": "fa154f584d59",
+     "section": "champions",
+     "tags": [
+      "Assassin",
+      "Fighter"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Naafiri",
+      "name": "Naafiri"
+     },
+     "part": "Q",
+     "partTitle": "Q: Dagas Darkin",
+     "spellKey": "NaafiriQ",
+     "kind": "stat",
+     "attribute": "Daño físico adicional máximo",
+     "before": "60 / 90 / 120 / 450 / 180 (+ 140% de Daño de Ataque adicional)",
+     "after": "60 / 85 / 110 / 135 / 160 (+ 140% de Daño de Ataque adicional)",
+     "text": "Daño físico adicional máximo: 60 / 90 / 120 / 450 / 180 (+ 140% de Daño de Ataque adicional) ⇒ 60 / 85 / 110 / 135 / 160 (+ 140% de Daño de Ataque adicional)",
+     "id": "4fbc2b224d19",
+     "section": "champions",
+     "tags": [
+      "Assassin",
+      "Fighter"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Naafiri",
+      "name": "Naafiri"
+     },
+     "part": "R",
+     "partTitle": "R: Presa a la Vista",
+     "spellKey": "NaafiriR",
+     "kind": "stat",
+     "attribute": "Daño físico",
+     "before": "150 / 250 / 350 (120% de Daño de Ataque adicional) + 15 / 25 / 35 (+12% de Daño de Ataque adicional) por cada compañero",
+     "after": "150 / 225 / 300 (120% de Daño de Ataque adicional) + 15 / 22.5 / 30 (+12% de Daño de Ataque adicional) por cada compañero",
+     "text": "Daño físico: 150 / 250 / 350 (120% de Daño de Ataque adicional) + 15 / 25 / 35 (+12% de Daño de Ataque adicional) por cada compañero ⇒ 150 / 225 / 300 (120% de Daño de Ataque adicional) + 15 / 22.5 / 30 (+12% de Daño de Ataque adicional) por cada compañero",
+     "id": "8bedb1756922",
+     "section": "champions",
+     "tags": [
+      "Assassin",
+      "Fighter"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "26.4",
+   "publishedAt": "2026-02-18T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Naafiri",
+      "name": "Naafiri"
+     },
+     "part": "base",
+     "partTitle": "Estadísticas base",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Regeneración de Vida Base",
+     "before": "7.5",
+     "after": "6",
+     "text": "Regeneración de Vida Base: 7.5 ⇒ 6",
+     "id": "07658c20c25e",
+     "section": "champions",
+     "tags": [
+      "Assassin",
+      "Fighter"
+     ],
+     "verification": "mismatch",
+     "gameData": {
+      "before": "7.5",
+      "after": "6.25"
+     },
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Naafiri",
+      "name": "Naafiri"
+     },
+     "part": "base",
+     "partTitle": "Estadísticas base",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Aumento de Regeneración de Vida",
+     "before": "0.7",
+     "after": "0.6",
+     "text": "Aumento de Regeneración de Vida: 0.7 ⇒ 0.6",
+     "id": "d185a8c1863e",
+     "section": "champions",
+     "tags": [
+      "Assassin",
+      "Fighter"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Naafiri",
+      "name": "Naafiri"
+     },
+     "part": "Q",
+     "partTitle": "Q: Dagas Darkin",
+     "spellKey": "NaafiriQ",
+     "kind": "stat",
+     "attribute": "Costo de Maná",
+     "before": "55 / 60 / 65 / 70 / 75",
+     "after": "50 / 60 / 70 / 80 / 90",
+     "text": "Costo de Maná: 55 / 60 / 65 / 70 / 75 ⇒ 50 / 60 / 70 / 80 / 90",
+     "id": "c4a8c0f1a720",
+     "section": "champions",
+     "tags": [
+      "Assassin",
+      "Fighter"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Naafiri",
+      "name": "Naafiri"
+     },
+     "part": "E",
+     "partTitle": "E: Eviscerar",
+     "spellKey": "NaafiriE",
+     "kind": "stat",
+     "attribute": "Costo de Maná",
+     "before": "35",
+     "after": "40",
+     "text": "Costo de Maná: 35 ⇒ 40",
+     "id": "d18edfa0b0fd",
+     "section": "champions",
+     "tags": [
+      "Assassin",
+      "Fighter"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "26.3",
+   "publishedAt": "2026-02-03T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Naafiri",
+      "name": "Naafiri"
+     },
+     "part": "P",
+     "partTitle": "Pasiva: Somos Más",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño máximo de los compañeros contra monstruos",
+     "before": "×1.35",
+     "after": "×1.55",
+     "text": "Daño máximo de los compañeros contra monstruos: ×1.35 ⇒ ×1.55",
+     "id": "5a8fafaba2e8",
+     "section": "champions",
+     "tags": [
+      "Assassin",
+      "Fighter"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.20",
+   "publishedAt": "2025-10-07T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Bots Apocalípticos",
+     "sectionId": "patch-doom-bots",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Naafiri",
+      "name": "Naafiri"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño infligido",
+     "before": "100%",
+     "after": "110%",
+     "text": "Daño infligido: 100% ⇒ 110%",
+     "id": "6d2011428b3f",
+     "section": "modes",
+     "tags": [
+      "Assassin",
+      "Fighter"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Bots Apocalípticos",
+     "sectionId": "patch-doom-bots",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Naafiri",
+      "name": "Naafiri"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño recibido",
+     "before": "100%",
+     "after": "95%",
+     "text": "Daño recibido: 100% ⇒ 95%",
+     "id": "e19be9208419",
+     "section": "modes",
+     "tags": [
+      "Assassin",
+      "Fighter"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.14",
+   "publishedAt": "2025-07-15T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones (Arena)",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Naafiri",
+      "name": "Naafiri"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": null,
+     "before": "Enfriamiento de la pasiva al impactar a un enemigo con una habilidad: 4 seg",
+     "after": "7 seg",
+     "text": "Enfriamiento de la pasiva al impactar a un enemigo con una habilidad: 4 seg ⇒ 7 seg",
+     "id": "897b080b5ceb",
+     "section": "modes",
+     "tags": [
+      "Assassin",
+      "Fighter"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones (Arena)",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Naafiri",
+      "name": "Naafiri"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": null,
+     "before": "Tasa de Daño de Ataque adicional de los compañeros de la pasiva: 4%",
+     "after": "6%",
+     "text": "Tasa de Daño de Ataque adicional de los compañeros de la pasiva: 4% ⇒ 6%",
+     "id": "597ea818436f",
+     "section": "modes",
+     "tags": [
+      "Assassin",
+      "Fighter"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones (Arena)",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Naafiri",
+      "name": "Naafiri"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": null,
+     "before": "Tasa de Daño de Ataque como curación de la Q: 50%",
+     "after": "60%",
+     "text": "Tasa de Daño de Ataque como curación de la Q: 50% ⇒ 60%",
+     "id": "8904236c9e41",
+     "section": "modes",
+     "tags": [
+      "Assassin",
+      "Fighter"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones (Arena)",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Naafiri",
+      "name": "Naafiri"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": null,
+     "before": "Daño básico del primer impacto de la Q: 35 / 40 / 45 / 50 / 55",
+     "after": "40 / 50 / 60 / 70 / 80",
+     "text": "Daño básico del primer impacto de la Q: 35 / 40 / 45 / 50 / 55 ⇒ 40 / 50 / 60 / 70 / 80",
+     "id": "670876a3b10d",
+     "section": "modes",
+     "tags": [
+      "Assassin",
+      "Fighter"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones (Arena)",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Naafiri",
+      "name": "Naafiri"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": null,
+     "before": "Enfriamiento de la W: 18 / 17 / 16 / 15 / 14",
+     "after": "16 / 15 / 14 / 13 / 12",
+     "text": "Enfriamiento de la W: 18 / 17 / 16 / 15 / 14 ⇒ 16 / 15 / 14 / 13 / 12",
+     "id": "784b9e10949c",
+     "section": "modes",
+     "tags": [
+      "Assassin",
+      "Fighter"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones (Arena)",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Naafiri",
+      "name": "Naafiri"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": null,
+     "before": "Tasa de Daño de Ataque del desplazamiento de la E: 40% de Daño de Ataque adicional",
+     "after": "55% de Daño de Ataque adicional",
+     "text": "Tasa de Daño de Ataque del desplazamiento de la E: 40% de Daño de Ataque adicional ⇒ 55% de Daño de Ataque adicional",
+     "id": "b79cd4c7535c",
+     "section": "modes",
+     "tags": [
+      "Assassin",
+      "Fighter"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones (Arena)",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Naafiri",
+      "name": "Naafiri"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": null,
+     "before": "Tasa de Daño de Ataque de la ráfaga de la E: 80% de Daño de Ataque adicional",
+     "after": "100% de Daño de Ataque adicional",
+     "text": "Tasa de Daño de Ataque de la ráfaga de la E: 80% de Daño de Ataque adicional ⇒ 100% de Daño de Ataque adicional",
+     "id": "cf1907a2a765",
+     "section": "modes",
+     "tags": [
+      "Assassin",
+      "Fighter"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.10",
+   "publishedAt": "2025-05-13T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Naafiri",
+      "name": "Naafiri"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Redujimos el daño contra monstruos de su pasiva.",
+     "id": "9e9804cdc43a",
+     "section": "champions",
+     "tags": [
+      "Assassin",
+      "Fighter"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Naafiri",
+      "name": "Naafiri"
+     },
+     "part": "P",
+     "partTitle": "Pasiva: Somos Más",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Multiplicador de daño contra monstruos de los compañeros",
+     "before": "155%",
+     "after": "135%",
+     "text": "Multiplicador de daño contra monstruos de los compañeros: 155% ⇒ 135%",
+     "id": "996768423b14",
+     "section": "champions",
+     "tags": [
+      "Assassin",
+      "Fighter"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.9",
+   "publishedAt": "2025-04-29T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Naafiri",
+      "name": "Naafiri"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Aumentamos el enfriamiento de su W en los rangos iniciales. Redujimos la tasa de daño de ataque de su E.",
+     "id": "eab510aba5a0",
+     "section": "champions",
+     "tags": [
+      "Assassin",
+      "Fighter"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Naafiri",
+      "name": "Naafiri"
+     },
+     "part": "W",
+     "partTitle": "W: El Llamado de la Manada",
+     "spellKey": "NaafiriR",
+     "kind": "stat",
+     "attribute": "Enfriamiento",
+     "before": "22 / 21 / 20 / 19 / 18",
+     "after": "26 / 24 / 22 / 20 / 18 seg",
+     "text": "Enfriamiento: 22 / 21 / 20 / 19 / 18 ⇒ 26 / 24 / 22 / 20 / 18 seg",
+     "id": "1cae77fb7aa4",
+     "section": "champions",
+     "tags": [
+      "Assassin",
+      "Fighter"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Naafiri",
+      "name": "Naafiri"
+     },
+     "part": "E",
+     "partTitle": "E: Eviscerar",
+     "spellKey": "NaafiriE",
+     "kind": "stat",
+     "attribute": "Daño del desplazamiento",
+     "before": "15 / 25 / 35 / 45 / 55 (+ 50% de Daño de Ataque adicional)",
+     "after": "15 / 25 / 35 / 45 / 55 (+ 40% de Daño de Ataque adicional)",
+     "text": "Daño del desplazamiento: 15 / 25 / 35 / 45 / 55 (+ 50% de Daño de Ataque adicional) ⇒ 15 / 25 / 35 / 45 / 55 (+ 40% de Daño de Ataque adicional)",
+     "id": "bd357fed2f6f",
+     "section": "champions",
+     "tags": [
+      "Assassin",
+      "Fighter"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Modos de juego rotativos y cambios en Arena",
+     "sectionId": "patch-rotating-game-modes-and-arena-changes",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Naafiri",
+      "name": "Naafiri"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Curación de la Q",
+     "before": "60 / 82.5 / 105 / 127.5 / 150",
+     "after": "80 / 102.5 / 125 / 147.5 / 170",
+     "text": "Curación de la Q: 60 / 82.5 / 105 / 127.5 / 150 ⇒ 80 / 102.5 / 125 / 147.5 / 170",
+     "id": "1e5386bb0053",
+     "section": "modes",
+     "tags": [
+      "Assassin",
+      "Fighter"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Modos de juego rotativos y cambios en Arena",
+     "sectionId": "patch-rotating-game-modes-and-arena-changes",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Naafiri",
+      "name": "Naafiri"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño de Primer Corte de la E",
+     "before": "15 / 25 / 35 / 45 / 55 (+ 50% de Daño de Ataque adicional)",
+     "after": "30 / 40 / 50 / 60 / 70 (+ 50% de Daño de Ataque adicional)",
+     "text": "Daño de Primer Corte de la E: 15 / 25 / 35 / 45 / 55 (+ 50% de Daño de Ataque adicional) ⇒ 30 / 40 / 50 / 60 / 70 (+ 50% de Daño de Ataque adicional)",
+     "id": "649573e37610",
+     "section": "modes",
+     "tags": [
+      "Assassin",
+      "Fighter"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Modos de juego rotativos y cambios en Arena",
+     "sectionId": "patch-rotating-game-modes-and-arena-changes",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Naafiri",
+      "name": "Naafiri"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño de Segundo Corte de la E",
+     "before": "60 / 85 / 110 / 135 / 160 (+ 80% de Daño de Ataque adicional)",
+     "after": "70 / 95 / 120 / 145 / 170 (+ 80% de Daño de Ataque adicional)",
+     "text": "Daño de Segundo Corte de la E: 60 / 85 / 110 / 135 / 160 (+ 80% de Daño de Ataque adicional) ⇒ 70 / 95 / 120 / 145 / 170 (+ 80% de Daño de Ataque adicional)",
+     "id": "1e094595563d",
+     "section": "modes",
+     "tags": [
+      "Assassin",
+      "Fighter"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.8",
+   "publishedAt": "2025-04-15T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Naafiri",
+      "name": "Naafiri"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Enfriamiento de la W",
+     "before": "22 / 21 / 20 / 19 / 18",
+     "after": "18 / 17 / 16 / 15 / 14",
+     "text": "Enfriamiento de la W: 22 / 21 / 20 / 19 / 18 ⇒ 18 / 17 / 16 / 15 / 14",
+     "id": "0ee65f1eac33",
+     "section": "modes",
+     "tags": [
+      "Assassin",
+      "Fighter"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Naafiri",
+      "name": "Naafiri"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Enfriamiento de la R",
+     "before": "110 / 95 / 80",
+     "after": "70 / 60 / 50",
+     "text": "Enfriamiento de la R: 110 / 95 / 80 ⇒ 70 / 60 / 50",
+     "id": "7d1959dd27f0",
+     "section": "modes",
+     "tags": [
+      "Assassin",
+      "Fighter"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.7",
+   "publishedAt": "2025-04-01T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Actualizaciones dentro de la versión",
+     "sectionId": "patch-midpatch-updates",
+     "midPatch": true,
+     "entity": {
+      "kind": "champion",
+      "id": "Naafiri",
+      "name": "Naafiri"
+     },
+     "part": "Q",
+     "partTitle": "Q: Dagas Darkin",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño del primer lanzamiento",
+     "before": "de 35 a 75",
+     "after": "de 35 a 55",
+     "text": "Daño del primer lanzamiento: de 35 a 75 ⇒ de 35 a 55",
+     "id": "8fab882fad20",
+     "section": "champions",
+     "tags": [
+      "Assassin",
+      "Fighter"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Actualizaciones dentro de la versión",
+     "sectionId": "patch-midpatch-updates",
+     "midPatch": true,
+     "entity": {
+      "kind": "champion",
+      "id": "Naafiri",
+      "name": "Naafiri"
+     },
+     "part": "Q",
+     "partTitle": "Q: Dagas Darkin",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño por sangrado",
+     "before": "de 30 a 150",
+     "after": "de 35 a 135",
+     "text": "Daño por sangrado: de 30 a 150 ⇒ de 35 a 135",
+     "id": "0cbbd83f4574",
+     "section": "champions",
+     "tags": [
+      "Assassin",
+      "Fighter"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Actualizaciones dentro de la versión",
+     "sectionId": "patch-midpatch-updates",
+     "midPatch": true,
+     "entity": {
+      "kind": "champion",
+      "id": "Naafiri",
+      "name": "Naafiri"
+     },
+     "part": "E",
+     "partTitle": "E: Eviscerar",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño del segundo corte",
+     "before": "de 60 a 180",
+     "after": "de 60 a 160",
+     "text": "Daño del segundo corte: de 60 a 180 ⇒ de 60 a 160",
+     "id": "a846f35e0af3",
+     "section": "champions",
+     "tags": [
+      "Assassin",
+      "Fighter"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Actualizaciones dentro de la versión",
+     "sectionId": "patch-midpatch-updates",
+     "midPatch": true,
+     "entity": {
+      "kind": "champion",
+      "id": "Naafiri",
+      "name": "Naafiri"
+     },
+     "part": "E",
+     "partTitle": "E: Eviscerar",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Enfriamiento",
+     "before": "de 9 a 7",
+     "after": "de 11 a 7",
+     "text": "Enfriamiento: de 9 a 7 ⇒ de 11 a 7",
+     "id": "206aed00740d",
+     "section": "champions",
+     "tags": [
+      "Assassin",
+      "Fighter"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Naafiri",
+      "name": "Naafiri"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Redujimos su vida básica. Redujimos el daño a monstruos de su pasiva. Aumentamos el daño de Q a los súbditos. Aumentamos el enfriamiento de su W en los rangos inferiores.",
+     "id": "60aef909d734",
+     "section": "champions",
+     "tags": [
+      "Assassin",
+      "Fighter"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Naafiri",
+      "name": "Naafiri"
+     },
+     "part": "base",
+     "partTitle": "Estadísticas básicas",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Vida",
+     "before": "635",
+     "after": "610",
+     "text": "Vida: 635 ⇒ 610",
+     "id": "7485a931fad9",
+     "section": "champions",
+     "tags": [
+      "Assassin",
+      "Fighter"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Naafiri",
+      "name": "Naafiri"
+     },
+     "part": "base",
+     "partTitle": "Estadísticas básicas",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Armadura",
+     "before": "30",
+     "after": "28",
+     "text": "Armadura: 30 ⇒ 28",
+     "id": "0d6fc510d2ea",
+     "section": "champions",
+     "tags": [
+      "Assassin",
+      "Fighter"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Naafiri",
+      "name": "Naafiri"
+     },
+     "part": "P",
+     "partTitle": "Pasiva: Somos Más",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño contra monstruos",
+     "before": "165%",
+     "after": "155%",
+     "text": "Daño contra monstruos: 165% ⇒ 155%",
+     "id": "473e4867e0ef",
+     "section": "champions",
+     "tags": [
+      "Assassin",
+      "Fighter"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Naafiri",
+      "name": "Naafiri"
+     },
+     "part": "Q",
+     "partTitle": "Q: Dagas Darkin",
+     "spellKey": "NaafiriQ",
+     "kind": "stat",
+     "attribute": "Daño a súbditos",
+     "before": "80%",
+     "after": "100%",
+     "text": "Daño a súbditos: 80% ⇒ 100%",
+     "id": "7dfe01d582c7",
+     "section": "champions",
+     "tags": [
+      "Assassin",
+      "Fighter"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Naafiri",
+      "name": "Naafiri"
+     },
+     "part": "W",
+     "partTitle": "W: El Llamado de la Manada",
+     "spellKey": "NaafiriR",
+     "kind": "stat",
+     "attribute": "Enfriamiento",
+     "before": "20 / 19.5 / 19 / 18.5 / 18",
+     "after": "22 / 21 / 20 / 19 / 18",
+     "text": "Enfriamiento: 20 / 19.5 / 19 / 18.5 / 18 ⇒ 22 / 21 / 20 / 19 / 18",
+     "id": "a2539ab5cc1e",
+     "section": "champions",
+     "tags": [
+      "Assassin",
+      "Fighter"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Naafiri",
+      "name": "Naafiri"
+     },
+     "part": "W",
+     "partTitle": "W: El Llamado de la Manada",
+     "spellKey": "NaafiriR",
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Corregimos un error que causaba que la W no destruyera los disparos a la torre mientras Naafiri fuese inalcanzable",
+     "id": "a22b730adc18",
+     "section": "champions",
+     "tags": [
+      "Assassin",
+      "Fighter"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Naafiri",
+      "name": "Naafiri"
+     },
+     "part": "R - Presa a la Vista",
+     "partTitle": "R - Presa a la Vista",
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Corregimos un error que causaba que si Sylas robaba la definitiva de Naafiri, se volvía inalcanzable durante el lanzamiento",
+     "id": "4bea684f3b90",
+     "section": "champions",
+     "tags": [
+      "Assassin",
+      "Fighter"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.6",
+   "publishedAt": "2025-03-18T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Naafiri",
+      "name": "Naafiri"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Actualización de extensión media.",
+     "id": "879bb0df5389",
+     "section": "champions",
+     "tags": [
+      "Assassin",
+      "Fighter"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Naafiri",
+      "name": "Naafiri"
+     },
+     "part": "base",
+     "partTitle": "Estadísticas básicas",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Crecimiento de Vida",
+     "before": "120",
+     "after": "105",
+     "text": "Crecimiento de Vida: 120 ⇒ 105",
+     "id": "a78a886696f8",
+     "section": "champions",
+     "tags": [
+      "Assassin",
+      "Fighter"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Naafiri",
+      "name": "Naafiri"
+     },
+     "part": "base",
+     "partTitle": "Estadísticas básicas",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Crecimiento de Armadura",
+     "before": "4.7",
+     "after": "4.2",
+     "text": "Crecimiento de Armadura: 4.7 ⇒ 4.2",
+     "id": "b39033e2f5ac",
+     "section": "champions",
+     "tags": [
+      "Assassin",
+      "Fighter"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Naafiri",
+      "name": "Naafiri"
+     },
+     "part": "base",
+     "partTitle": "Estadísticas básicas",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño de Ataque básico",
+     "before": "55",
+     "after": "57",
+     "text": "Daño de Ataque básico: 55 ⇒ 57",
+     "id": "034c78703774",
+     "section": "champions",
+     "tags": [
+      "Assassin",
+      "Fighter"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Naafiri",
+      "name": "Naafiri"
+     },
+     "part": "base",
+     "partTitle": "Estadísticas básicas",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Crecimiento de Daño de Ataque",
+     "before": "2.1",
+     "after": "2",
+     "text": "Crecimiento de Daño de Ataque: 2.1 ⇒ 2",
+     "id": "742daeb2b4a9",
+     "section": "champions",
+     "tags": [
+      "Assassin",
+      "Fighter"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Naafiri",
+      "name": "Naafiri"
+     },
+     "part": "P",
+     "partTitle": "Pasiva: Somos Más",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Máximo de compañeros",
+     "before": "2 / 3 (niveles 1 / 9)",
+     "after": "2 / 3 / 4 / 5 (niveles 1 / 9 / 12 / 15)",
+     "text": "Máximo de compañeros: 2 / 3 (niveles 1 / 9) ⇒ 2 / 3 / 4 / 5 (niveles 1 / 9 / 12 / 15)",
+     "id": "d8721206f850",
+     "section": "champions",
+     "tags": [
+      "Assassin",
+      "Fighter"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Naafiri",
+      "name": "Naafiri"
+     },
+     "part": "P",
+     "partTitle": "Pasiva: Somos Más",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño de compañeros",
+     "before": "12 - 32 (según el nivel) (+ 5% de Daño de Ataque adicional)",
+     "after": "10 - 20 (según el nivel) (+ 4% de Daño de Ataque adicional)",
+     "text": "Daño de compañeros: 12 - 32 (según el nivel) (+ 5% de Daño de Ataque adicional) ⇒ 10 - 20 (según el nivel) (+ 4% de Daño de Ataque adicional)",
+     "id": "f95f58f328c5",
+     "section": "champions",
+     "tags": [
+      "Assassin",
+      "Fighter"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Naafiri",
+      "name": "Naafiri"
+     },
+     "part": "P",
+     "partTitle": "Pasiva: Somos Más",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Crecimiento de Vida de compañeros",
+     "before": "16",
+     "after": "13",
+     "text": "Crecimiento de Vida de compañeros: 16 ⇒ 13",
+     "id": "33c28e43fa9c",
+     "section": "champions",
+     "tags": [
+      "Assassin",
+      "Fighter"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Naafiri",
+      "name": "Naafiri"
+     },
+     "part": "P",
+     "partTitle": "Pasiva: Somos Más",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Crecimiento de Armadura/Resistencia Mágica de compañeros",
+     "before": "2",
+     "after": "1.8",
+     "text": "Crecimiento de Armadura/Resistencia Mágica de compañeros: 2 ⇒ 1.8",
+     "id": "06223a096254",
+     "section": "champions",
+     "tags": [
+      "Assassin",
+      "Fighter"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Naafiri",
+      "name": "Naafiri"
+     },
+     "part": "P",
+     "partTitle": "Pasiva: Somos Más",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Reducción de daño de área de efecto recibido por compañeros",
+     "before": "76 - 50% (niveles 1-14)",
+     "after": "76 - 55% (niveles 1-15)",
+     "text": "Reducción de daño de área de efecto recibido por compañeros: 76 - 50% (niveles 1-14) ⇒ 76 - 55% (niveles 1-15)",
+     "id": "ff518c0a1ca6",
+     "section": "champions",
+     "tags": [
+      "Assassin",
+      "Fighter"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Naafiri",
+      "name": "Naafiri"
+     },
+     "part": "P",
+     "partTitle": "Pasiva: Somos Más",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño de compañeros de la manada a torretas",
+     "before": "25%",
+     "after": "50%",
+     "text": "Daño de compañeros de la manada a torretas: 25% ⇒ 50%",
+     "id": "7649b1bbf726",
+     "section": "champions",
+     "tags": [
+      "Assassin",
+      "Fighter"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Naafiri",
+      "name": "Naafiri"
+     },
+     "part": "P",
+     "partTitle": "Pasiva: Somos Más",
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "¿Quién es el verdadero monstruo?: Los compañeros ahora infligen 165% de daño a los monstruos",
+     "id": "c244a23a4ad7",
+     "section": "champions",
+     "tags": [
+      "Assassin",
+      "Fighter"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Naafiri",
+      "name": "Naafiri"
+     },
+     "part": "P",
+     "partTitle": "Pasiva: Somos Más",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Duración de provocación de compañeros",
+     "before": "3 seg",
+     "after": "2 seg",
+     "text": "Duración de provocación de compañeros: 3 seg ⇒ 2 seg",
+     "id": "f7ff1e4f344f",
+     "section": "champions",
+     "tags": [
+      "Assassin",
+      "Fighter"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Naafiri",
+      "name": "Naafiri"
+     },
+     "part": "Q",
+     "partTitle": "Q: Dagas Darkin",
+     "spellKey": "NaafiriQ",
+     "kind": "stat",
+     "attribute": "Daño a súbditos",
+     "before": "60%",
+     "after": "80%",
+     "text": "Daño a súbditos: 60% ⇒ 80%",
+     "id": "ffd468ea94a6",
+     "section": "champions",
+     "tags": [
+      "Assassin",
+      "Fighter"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Naafiri",
+      "name": "Naafiri"
+     },
+     "part": "W",
+     "partTitle": "W: El Llamado de la Manada",
+     "spellKey": "NaafiriW",
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Entre la manada: Naafiri y sus compañeros obtienen 1 seg de inalcanzabilidad frente a lanzamientos",
+     "id": "0727976103d8",
+     "section": "champions",
+     "tags": [
+      "Assassin",
+      "Fighter"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Naafiri",
+      "name": "Naafiri"
+     },
+     "part": "W",
+     "partTitle": "W: El Llamado de la Manada",
+     "spellKey": "NaafiriW",
+     "kind": "stat",
+     "attribute": "Daño de Ataque adicional",
+     "before": "5/15/25 (+ 8-24% de Daño de Ataque)",
+     "after": "+ 20% de Daño de Ataque (Nota: Esto ahora se otorga al lanzarse)",
+     "text": "Daño de Ataque adicional: 5/15/25 (+ 8-24% de Daño de Ataque) ⇒ + 20% de Daño de Ataque (Nota: Esto ahora se otorga al lanzarse)",
+     "id": "8d100237d96c",
+     "section": "champions",
+     "tags": [
+      "Assassin",
+      "Fighter"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Naafiri",
+      "name": "Naafiri"
+     },
+     "part": "W",
+     "partTitle": "W: El Llamado de la Manada",
+     "spellKey": "NaafiriW",
+     "kind": "stat",
+     "attribute": "Compañeros adicionales",
+     "before": "2/3/4",
+     "after": "2",
+     "text": "Compañeros adicionales: 2/3/4 ⇒ 2",
+     "id": "6ae8fe934779",
+     "section": "champions",
+     "tags": [
+      "Assassin",
+      "Fighter"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Naafiri",
+      "name": "Naafiri"
+     },
+     "part": "W",
+     "partTitle": "W: El Llamado de la Manada",
+     "spellKey": "NaafiriW",
+     "kind": "stat",
+     "attribute": "Duración de la mejora",
+     "before": "15 seg",
+     "after": "5 seg",
+     "text": "Duración de la mejora: 15 seg ⇒ 5 seg",
+     "id": "f3e073b70e2c",
+     "section": "champions",
+     "tags": [
+      "Assassin",
+      "Fighter"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Naafiri",
+      "name": "Naafiri"
+     },
+     "part": "W",
+     "partTitle": "W: El Llamado de la Manada",
+     "spellKey": "NaafiriW",
+     "kind": "stat",
+     "attribute": "Velocidad de Movimiento adicional",
+     "before": "70-100% que decae a lo largo de 4 seg y se reduce recibir daño",
+     "after": "20-30% durante 5 seg (Nota: Esto ahora se otorga al lanzarse)",
+     "text": "Velocidad de Movimiento adicional: 70-100% que decae a lo largo de 4 seg y se reduce recibir daño ⇒ 20-30% durante 5 seg (Nota: Esto ahora se otorga al lanzarse)",
+     "id": "a9a36055babe",
+     "section": "champions",
+     "tags": [
+      "Assassin",
+      "Fighter"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Naafiri",
+      "name": "Naafiri"
+     },
+     "part": "W",
+     "partTitle": "W: El Llamado de la Manada",
+     "spellKey": "NaafiriW",
+     "kind": "stat",
+     "attribute": "Enfriamiento",
+     "before": "120/110/100 seg",
+     "after": "20/19.5/19/18.5/18 seg",
+     "text": "Enfriamiento: 120/110/100 seg ⇒ 20/19.5/19/18.5/18 seg",
+     "id": "9bdaee1c117e",
+     "section": "champions",
+     "tags": [
+      "Assassin",
+      "Fighter"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Naafiri",
+      "name": "Naafiri"
+     },
+     "part": "W",
+     "partTitle": "W: El Llamado de la Manada",
+     "spellKey": "NaafiriW",
+     "kind": "stat",
+     "attribute": "Costo de Maná",
+     "before": "100",
+     "after": "60",
+     "text": "Costo de Maná: 100 ⇒ 60",
+     "id": "33b08b356ab9",
+     "section": "champions",
+     "tags": [
+      "Assassin",
+      "Fighter"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Naafiri",
+      "name": "Naafiri"
+     },
+     "part": "W",
+     "partTitle": "W: El Llamado de la Manada",
+     "spellKey": "NaafiriW",
+     "kind": "removed",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "ELIMINADO: El Llamado de la Manada ya no otorga a Naafiri un escudo, un pulso de visión y ya no reinicia las mejoras de la habilidad tras un derribo. Los compañeros ya no obtendrán vida y enfriamiento adicionales",
+     "id": "1946aecab3f6",
+     "section": "champions",
+     "tags": [
+      "Assassin",
+      "Fighter"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Naafiri",
+      "name": "Naafiri"
+     },
+     "part": "R",
+     "partTitle": "R: Presa a la Vista",
+     "spellKey": "NaafiriR",
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Más sabe el diablo por viejo que por diablo: Si Naafiri logra un derribo en un plazo de 7 seg, revela enemigos cercanos y puede volver a lanzar esta habilidad una vez. El segundo lanzamiento le otorga 100/150/200 (+1.5 de Daño de Ataque adicional) de Escudo durante 3 seg",
+     "id": "197d76a72954",
+     "section": "champions",
+     "tags": [
+      "Assassin",
+      "Fighter"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Naafiri",
+      "name": "Naafiri"
+     },
+     "part": "R",
+     "partTitle": "R: Presa a la Vista",
+     "spellKey": "NaafiriR",
+     "kind": "stat",
+     "attribute": "Enfriamiento",
+     "before": "22 / 20 / 18 / 16 / 14",
+     "after": "110 / 95 / 80 seg",
+     "text": "Enfriamiento: 22 / 20 / 18 / 16 / 14 ⇒ 110 / 95 / 80 seg",
+     "id": "53f2f4a1ded8",
+     "section": "champions",
+     "tags": [
+      "Assassin",
+      "Fighter"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Naafiri",
+      "name": "Naafiri"
+     },
+     "part": "R",
+     "partTitle": "R: Presa a la Vista",
+     "spellKey": "NaafiriR",
+     "kind": "stat",
+     "attribute": "Costo de Maná",
+     "before": "70 / 60 / 50 / 40 / 30",
+     "after": "100",
+     "text": "Costo de Maná: 70 / 60 / 50 / 40 / 30 ⇒ 100",
+     "id": "261ec7ee18a1",
+     "section": "champions",
+     "tags": [
+      "Assassin",
+      "Fighter"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Naafiri",
+      "name": "Naafiri"
+     },
+     "part": "R",
+     "partTitle": "R: Presa a la Vista",
+     "spellKey": "NaafiriR",
+     "kind": "stat",
+     "attribute": "Alcance",
+     "before": "700 / 780 / 860 / 940",
+     "after": "900 unidades",
+     "text": "Alcance: 700 / 780 / 860 / 940 ⇒ 900 unidades",
+     "id": "5a394b1cba3e",
+     "section": "champions",
+     "tags": [
+      "Assassin",
+      "Fighter"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Naafiri",
+      "name": "Naafiri"
+     },
+     "part": "R",
+     "partTitle": "R: Presa a la Vista",
+     "spellKey": "NaafiriR",
+     "kind": "stat",
+     "attribute": "Daño",
+     "before": "30 / 70 / 110 / 150 / 190 (+ 80% de Daño de Ataque adicional) (+ 10% por cada Compañero)",
+     "after": "150 / 250 / 350 (+ 120% de Daño de Ataque adicional) (+ 10% por cada Compañero)",
+     "text": "Daño: 30 / 70 / 110 / 150 / 190 (+ 80% de Daño de Ataque adicional) (+ 10% por cada Compañero) ⇒ 150 / 250 / 350 (+ 120% de Daño de Ataque adicional) (+ 10% por cada Compañero)",
+     "id": "912713356496",
+     "section": "champions",
+     "tags": [
+      "Assassin",
+      "Fighter"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Naafiri",
+      "name": "Naafiri"
+     },
+     "part": "R",
+     "partTitle": "R: Presa a la Vista",
+     "spellKey": "NaafiriR",
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Puedes correr: Esta habilidad ya no se puede bloquear",
+     "id": "db2fafd1b18b",
+     "section": "champions",
+     "tags": [
+      "Assassin",
+      "Fighter"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Naafiri",
+      "name": "Naafiri"
+     },
+     "part": "R",
+     "partTitle": "R: Presa a la Vista",
+     "spellKey": "NaafiriR",
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "SOLO gigantes: Esta habilidad ya no se puede lanzar contra súbditos",
+     "id": "bb46b5eb17c5",
+     "section": "champions",
+     "tags": [
+      "Assassin",
+      "Fighter"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  }
+ ]
+}

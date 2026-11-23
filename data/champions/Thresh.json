@@ -1,0 +1,599 @@
+{
+ "schemaVersion": 1,
+ "id": "Thresh",
+ "name": "Thresh",
+ "tags": [
+  "Support",
+  "Tank"
+ ],
+ "entries": [
+  {
+   "patch": "26.22",
+   "publishedAt": "2026-11-03T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Thresh",
+      "name": "Thresh"
+     },
+     "part": "base",
+     "partTitle": "Estadísticas base",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño de Ataque",
+     "before": "56",
+     "after": "54",
+     "text": "Daño de Ataque: 56 ⇒ 54",
+     "id": "18a9c19cf9b2",
+     "section": "champions",
+     "tags": [
+      "Support",
+      "Tank"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Thresh",
+      "name": "Thresh"
+     },
+     "part": "R",
+     "partTitle": "R: La Caja",
+     "spellKey": "ThreshRPenta",
+     "kind": "stat",
+     "attribute": "Daño",
+     "before": "250 / 400 / 550 (+100% de Poder de Habilidad)",
+     "after": "200 / 350 / 500 (+100% de Poder de Habilidad)",
+     "text": "Daño: 250 / 400 / 550 (+100% de Poder de Habilidad) ⇒ 200 / 350 / 500 (+100% de Poder de Habilidad)",
+     "id": "b0db2f51ae77",
+     "section": "champions",
+     "tags": [
+      "Support",
+      "Tank"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "26.20",
+   "publishedAt": "2026-10-06T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "ARAM: Caos",
+     "sectionId": "patch-aram:-mayhem",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Thresh",
+      "name": "Thresh"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Aparición pasiva de almas",
+     "before": "2",
+     "after": "3",
+     "text": "Aparición pasiva de almas: 2 ⇒ 3",
+     "id": "284705ff9d0d",
+     "section": "modes",
+     "tags": [
+      "Support",
+      "Tank"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "ARAM: Caos",
+     "sectionId": "patch-aram:-mayhem",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Thresh",
+      "name": "Thresh"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Enfriamiento de la W",
+     "before": "21 / 20 / 19 / 18 / 17 seg",
+     "after": "19 / 18 / 17 / 16 / 15 seg",
+     "text": "Enfriamiento de la W: 21 / 20 / 19 / 18 / 17 seg ⇒ 19 / 18 / 17 / 16 / 15 seg",
+     "id": "30b90d9e3540",
+     "section": "modes",
+     "tags": [
+      "Support",
+      "Tank"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "26.19",
+   "publishedAt": "2026-09-22T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Thresh",
+      "name": "Thresh"
+     },
+     "part": "Invitados de Honor",
+     "partTitle": "Invitados de Honor",
+     "spellKey": null,
+     "kind": "new",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "NUEVO Thresh",
+     "id": "1b8d13f024a5",
+     "section": "modes",
+     "tags": [
+      "Support",
+      "Tank"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "26.17",
+   "publishedAt": "2026-08-25T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Thresh",
+      "name": "Thresh"
+     },
+     "part": "E",
+     "partTitle": "E: Despellejar",
+     "spellKey": "ThreshE",
+     "kind": "stat",
+     "attribute": "Daño de activa",
+     "before": "75 / 120 / 165 / 210 / 255 (+70% de Poder de Habilidad)",
+     "after": "65 / 110 / 155 / 200 / 245 (+60% de Poder de Habilidad)",
+     "text": "Daño de activa: 75 / 120 / 165 / 210 / 255 (+70% de Poder de Habilidad) ⇒ 65 / 110 / 155 / 200 / 245 (+60% de Poder de Habilidad)",
+     "id": "d302af50a086",
+     "section": "champions",
+     "tags": [
+      "Support",
+      "Tank"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "26.15",
+   "publishedAt": "2026-07-28T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Thresh",
+      "name": "Thresh"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Pasiva: Condenación",
+     "id": "de471b3d35e9",
+     "section": "modes",
+     "tags": [
+      "Support",
+      "Tank"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Thresh",
+      "name": "Thresh"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Almas obtenidas al recolectar",
+     "before": "1",
+     "after": "3",
+     "text": "Almas obtenidas al recolectar: 1 ⇒ 3",
+     "id": "475d4a65f2d9",
+     "section": "modes",
+     "tags": [
+      "Support",
+      "Tank"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Thresh",
+      "name": "Thresh"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "W: Pasaje Oscuro",
+     "id": "566d982b6b53",
+     "section": "modes",
+     "tags": [
+      "Support",
+      "Tank"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Thresh",
+      "name": "Thresh"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Enfriamiento",
+     "before": "21 / 20 / 19 / 18 / 17",
+     "after": "15 / 14 / 13 / 12 / 11",
+     "text": "Enfriamiento: 21 / 20 / 19 / 18 / 17 ⇒ 15 / 14 / 13 / 12 / 11",
+     "id": "53940cdfae53",
+     "section": "modes",
+     "tags": [
+      "Support",
+      "Tank"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Thresh",
+      "name": "Thresh"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "E: Despellejar",
+     "id": "d3f993665a53",
+     "section": "modes",
+     "tags": [
+      "Support",
+      "Tank"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Thresh",
+      "name": "Thresh"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Tiempo de aumento de daño entre ataques",
+     "before": "10 seg",
+     "after": "5 seg",
+     "text": "Tiempo de aumento de daño entre ataques: 10 seg ⇒ 5 seg",
+     "id": "238de8af5e34",
+     "section": "modes",
+     "tags": [
+      "Support",
+      "Tank"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Thresh",
+      "name": "Thresh"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "R: La Caja",
+     "id": "8a4b83a1792e",
+     "section": "modes",
+     "tags": [
+      "Support",
+      "Tank"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Thresh",
+      "name": "Thresh"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Enfriamiento",
+     "before": "120 / 100 / 80",
+     "after": "90 / 60 / 30",
+     "text": "Enfriamiento: 120 / 100 / 80 ⇒ 90 / 60 / 30",
+     "id": "bb6e6a45381c",
+     "section": "modes",
+     "tags": [
+      "Support",
+      "Tank"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Thresh",
+      "name": "Thresh"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño básico",
+     "before": "250 / 400 / 550",
+     "after": "350 / 500 / 650",
+     "text": "Daño básico: 250 / 400 / 550 ⇒ 350 / 500 / 650",
+     "id": "43734c35513c",
+     "section": "modes",
+     "tags": [
+      "Support",
+      "Tank"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.23",
+   "publishedAt": "2025-11-18T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "ARAM: Caos",
+     "sectionId": "patch-aram-mayhem",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Thresh",
+      "name": "Thresh"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": null,
+     "before": "Daño recibido: 105%",
+     "after": "100%",
+     "text": "Daño recibido: 105% ⇒ 100%",
+     "id": "92f5cb5cfc63",
+     "section": "modes",
+     "tags": [
+      "Support",
+      "Tank"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.20",
+   "publishedAt": "2025-10-07T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Bots Apocalípticos",
+     "sectionId": "patch-doom-bots",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Thresh",
+      "name": "Thresh"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño recibido",
+     "before": "100%",
+     "after": "90%",
+     "text": "Daño recibido: 100% ⇒ 90%",
+     "id": "8dbb6a6d45fe",
+     "section": "modes",
+     "tags": [
+      "Support",
+      "Tank"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.S1.3",
+   "publishedAt": "2025-02-04T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Thresh",
+      "name": "Thresh"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Aumentamos su vida básica. Aumentamos el daño de su E.",
+     "id": "dc94a18c18f9",
+     "section": "champions",
+     "tags": [
+      "Support",
+      "Tank"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Thresh",
+      "name": "Thresh"
+     },
+     "part": "base",
+     "partTitle": "Estadísticas básicas",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Vida",
+     "before": "600",
+     "after": "620",
+     "text": "Vida: 600 ⇒ 620",
+     "id": "556446199c1d",
+     "section": "champions",
+     "tags": [
+      "Support",
+      "Tank"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Thresh",
+      "name": "Thresh"
+     },
+     "part": "E",
+     "partTitle": "E: Despellejar",
+     "spellKey": "ThreshE",
+     "kind": "stat",
+     "attribute": "Daño de ataque básico",
+     "before": "1.5 por alma (+ hasta un 80/110/140/170/200% de Daño de Ataque total)",
+     "after": "1.7 por alma (+ hasta un 90/120/150/180/210% de Daño de Ataque total)",
+     "text": "Daño de ataque básico: 1.5 por alma (+ hasta un 80/110/140/170/200% de Daño de Ataque total) ⇒ 1.7 por alma (+ hasta un 90/120/150/180/210% de Daño de Ataque total)",
+     "id": "745ddc0acccb",
+     "section": "champions",
+     "tags": [
+      "Support",
+      "Tank"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  }
+ ]
+}

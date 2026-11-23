@@ -1,0 +1,836 @@
+{
+ "schemaVersion": 1,
+ "id": "Annie",
+ "name": "Annie",
+ "tags": [
+  "Mage",
+  "Support"
+ ],
+ "entries": [
+  {
+   "patch": "26.23",
+   "publishedAt": "2026-11-17T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Annie",
+      "name": "Annie"
+     },
+     "part": "R",
+     "partTitle": "R: Invocar: Tibbers",
+     "spellKey": "AnnieR",
+     "kind": "stat",
+     "attribute": "Vida de Tibbers",
+     "before": "1150 - 3500 (progresa con el nivel del campeón) (+ 50% de Poder de Habilidad)",
+     "after": "1275 - 4000 (progresa con el nivel del campeón) (+ 50% de Poder de Habilidad) (+150% de la vida adicional)",
+     "text": "Vida de Tibbers: 1150 - 3500 (progresa con el nivel del campeón) (+ 50% de Poder de Habilidad) ⇒ 1275 - 4000 (progresa con el nivel del campeón) (+ 50% de Poder de Habilidad) (+150% de la vida adicional)",
+     "id": "29bc36417d7e",
+     "section": "champions",
+     "tags": [
+      "Mage",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Annie",
+      "name": "Annie"
+     },
+     "part": "R",
+     "partTitle": "R: Invocar: Tibbers",
+     "spellKey": "AnnieR",
+     "kind": "stat",
+     "attribute": "Daño de Aura de Tibbers por seg",
+     "before": "8 / 12 / 16 (+4% de Poder de Habilidad)",
+     "after": "10 / 15 / 20 (+4% de Poder de Habilidad)",
+     "text": "Daño de Aura de Tibbers por seg: 8 / 12 / 16 (+4% de Poder de Habilidad) ⇒ 10 / 15 / 20 (+4% de Poder de Habilidad)",
+     "id": "6dca24d6b5e6",
+     "section": "champions",
+     "tags": [
+      "Mage",
+      "Support"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Annie",
+      "name": "Annie"
+     },
+     "part": "R",
+     "partTitle": "R: Invocar: Tibbers",
+     "spellKey": "AnnieR",
+     "kind": "stat",
+     "attribute": "Daño de ataque de Tibbers",
+     "before": "30 / 45 / 60 (+10% de Poder de Habilidad)",
+     "after": "30 / 50 / 70 (+10% de Poder de Habilidad)",
+     "text": "Daño de ataque de Tibbers: 30 / 45 / 60 (+10% de Poder de Habilidad) ⇒ 30 / 50 / 70 (+10% de Poder de Habilidad)",
+     "id": "e6d9e4e6a163",
+     "section": "champions",
+     "tags": [
+      "Mage",
+      "Support"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Annie",
+      "name": "Annie"
+     },
+     "part": "R",
+     "partTitle": "R: Invocar: Tibbers",
+     "spellKey": "AnnieR",
+     "kind": "stat",
+     "attribute": "Daño base del aura de Tibbers",
+     "before": "15 / 20 / 25",
+     "after": "10 / 15 / 20 (ahora está ajustado para coincidir con los valores de la Grieta del Invocador)",
+     "text": "Daño base del aura de Tibbers: 15 / 20 / 25 ⇒ 10 / 15 / 20 (ahora está ajustado para coincidir con los valores de la Grieta del Invocador)",
+     "id": "b0bf9cd29d11",
+     "section": "modes",
+     "tags": [
+      "Mage",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "26.4",
+   "publishedAt": "2026-02-18T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Annie",
+      "name": "Annie"
+     },
+     "part": "Q",
+     "partTitle": "Q: Desintegrar",
+     "spellKey": "AnnieQ",
+     "kind": "stat",
+     "attribute": "Daño básico",
+     "before": "80 / 120 / 160 / 200 / 240",
+     "after": "80 / 125 / 170 / 215 / 260",
+     "text": "Daño básico: 80 / 120 / 160 / 200 / 240 ⇒ 80 / 125 / 170 / 215 / 260",
+     "id": "1c8ca65c6a30",
+     "section": "champions",
+     "tags": [
+      "Mage",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Annie",
+      "name": "Annie"
+     },
+     "part": "E",
+     "partTitle": "E: Escudo Fundido",
+     "spellKey": "AnnieE",
+     "kind": "stat",
+     "attribute": "Enfriamiento",
+     "before": "12 / 11.5 / 11 / 10.5 / 10 seg",
+     "after": "10 seg",
+     "text": "Enfriamiento: 12 / 11.5 / 11 / 10.5 / 10 seg ⇒ 10 seg",
+     "id": "7bbf034c2c18",
+     "section": "champions",
+     "tags": [
+      "Mage",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.18",
+   "publishedAt": "2025-09-09T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Annie",
+      "name": "Annie"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Redujimos el daño de su W. Redujimos la penetración de magia de su R.",
+     "id": "2c6d7e8c153a",
+     "section": "champions",
+     "tags": [
+      "Mage",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Annie",
+      "name": "Annie"
+     },
+     "part": "W",
+     "partTitle": "W: Incinerar",
+     "spellKey": "AnnieW",
+     "kind": "stat",
+     "attribute": "Daño básico",
+     "before": "70 / 115 / 160 / 205 / 250",
+     "after": "70 / 110 / 150 / 190 / 230",
+     "text": "Daño básico: 70 / 115 / 160 / 205 / 250 ⇒ 70 / 110 / 150 / 190 / 230",
+     "id": "8ac292ea90d2",
+     "section": "champions",
+     "tags": [
+      "Mage",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Annie",
+      "name": "Annie"
+     },
+     "part": "R",
+     "partTitle": "R: Invocar: Tibbers",
+     "spellKey": "AnnieR",
+     "kind": "stat",
+     "attribute": "Penetración de Magia",
+     "before": "15% / 17.5% / 20%",
+     "after": "10% / 15% / 20%",
+     "text": "Penetración de Magia: 15% / 17.5% / 20% ⇒ 10% / 15% / 20%",
+     "id": "43e0740164c8",
+     "section": "champions",
+     "tags": [
+      "Mage",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.15",
+   "publishedAt": "2025-07-29T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "URFAR",
+     "sectionId": "patch-arurf",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Annie",
+      "name": "Annie"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño recibido",
+     "before": "105%",
+     "after": "110%",
+     "text": "Daño recibido: 105% ⇒ 110%",
+     "id": "1739c0b932b4",
+     "section": "modes",
+     "tags": [
+      "Mage",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "URFAR",
+     "sectionId": "patch-arurf",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Annie",
+      "name": "Annie"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Escudo",
+     "before": "100%",
+     "after": "90%",
+     "text": "Escudo: 100% ⇒ 90%",
+     "id": "6ef0919d0592",
+     "section": "modes",
+     "tags": [
+      "Mage",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.11",
+   "publishedAt": "2025-05-27T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Annie",
+      "name": "Annie"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Aumentamos su armadura básica y redujimos su crecimiento de armadura. Redujimos el daño de su W.",
+     "id": "2c28d666ec74",
+     "section": "champions",
+     "tags": [
+      "Mage",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Annie",
+      "name": "Annie"
+     },
+     "part": "base",
+     "partTitle": "Estadísticas básicas",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Armadura básica (nivel 1)",
+     "before": "19",
+     "after": "23",
+     "text": "Armadura básica (nivel 1): 19 ⇒ 23",
+     "id": "86e055823dfd",
+     "section": "champions",
+     "tags": [
+      "Mage",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Annie",
+      "name": "Annie"
+     },
+     "part": "base",
+     "partTitle": "Estadísticas básicas",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Crecimiento de Armadura",
+     "before": "4.7",
+     "after": "4",
+     "text": "Crecimiento de Armadura: 4.7 ⇒ 4",
+     "id": "963da94309b1",
+     "section": "champions",
+     "tags": [
+      "Mage",
+      "Support"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Annie",
+      "name": "Annie"
+     },
+     "part": "W",
+     "partTitle": "W: Incinerar",
+     "spellKey": "AnnieW",
+     "kind": "stat",
+     "attribute": "Daño",
+     "before": "70 / 120 / 170 / 220 / 270 (+ 85% de Poder de Habilidad)",
+     "after": "70 / 115 / 160 / 205 / 250 (+ 80% de Poder de Habilidad)",
+     "text": "Daño: 70 / 120 / 170 / 220 / 270 (+ 85% de Poder de Habilidad) ⇒ 70 / 115 / 160 / 205 / 250 (+ 80% de Poder de Habilidad)",
+     "id": "af28601a5634",
+     "section": "champions",
+     "tags": [
+      "Mage",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Pelea",
+     "sectionId": "patch-brawl",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Annie",
+      "name": "Annie"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño infligido",
+     "before": "100%",
+     "after": "95%",
+     "text": "Daño infligido: 100% ⇒ 95%",
+     "id": "bef761e6d10c",
+     "section": "modes",
+     "tags": [
+      "Mage",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Pelea",
+     "sectionId": "patch-brawl",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Annie",
+      "name": "Annie"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Aceleración de Habilidad",
+     "before": "0",
+     "after": "-10",
+     "text": "Aceleración de Habilidad: 0 ⇒ -10",
+     "id": "b8ba1b9e7c68",
+     "section": "modes",
+     "tags": [
+      "Mage",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.9",
+   "publishedAt": "2025-04-29T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Annie",
+      "name": "Annie"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Aumentamos el daño de su Q. Redujimos el costo de maná de su W. Aumentamos la penetración de magia de su R.",
+     "id": "d9579728aaa7",
+     "section": "champions",
+     "tags": [
+      "Mage",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Annie",
+      "name": "Annie"
+     },
+     "part": "Q",
+     "partTitle": "Q: Desintegrar",
+     "spellKey": "AnnieQ",
+     "kind": "stat",
+     "attribute": "Daño",
+     "before": "70 / 105 / 140 / 175 / 210 (+ 80% de Poder de Habilidad)",
+     "after": "80 / 120 / 160 / 200 / 240 (+ 80% de Poder de Habilidad)",
+     "text": "Daño: 70 / 105 / 140 / 175 / 210 (+ 80% de Poder de Habilidad) ⇒ 80 / 120 / 160 / 200 / 240 (+ 80% de Poder de Habilidad)",
+     "id": "b885573062db",
+     "section": "champions",
+     "tags": [
+      "Mage",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Annie",
+      "name": "Annie"
+     },
+     "part": "W",
+     "partTitle": "W: Incinerar",
+     "spellKey": "AnnieW",
+     "kind": "stat",
+     "attribute": "Costo de Maná",
+     "before": "90 / 95 / 100 / 105 / 110",
+     "after": "70 / 75 / 80 / 85 / 90",
+     "text": "Costo de Maná: 90 / 95 / 100 / 105 / 110 ⇒ 70 / 75 / 80 / 85 / 90",
+     "id": "4ba89e962dae",
+     "section": "champions",
+     "tags": [
+      "Mage",
+      "Support"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Annie",
+      "name": "Annie"
+     },
+     "part": "R",
+     "partTitle": "R: Invocar: Tibbers",
+     "spellKey": "AnnieR",
+     "kind": "stat",
+     "attribute": "Penetración de magia de su pasiva",
+     "before": "10 / 12.5 / 15%",
+     "after": "15 / 17.5 / 20%",
+     "text": "Penetración de magia de su pasiva: 10 / 12.5 / 15% ⇒ 15 / 17.5 / 20%",
+     "id": "7f7d7d6a22db",
+     "section": "champions",
+     "tags": [
+      "Mage",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.8",
+   "publishedAt": "2025-04-15T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Annie",
+      "name": "Annie"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Redujimos su crecimiento de vida. Aumentamos el daño de su Q. Aumentamos el daño de su W y redujimos su enfriamiento. Redujimos el daño de su R y le añadimos una nueva pasiva con penetración de magia.",
+     "id": "d51e13f97c32",
+     "section": "champions",
+     "tags": [
+      "Mage",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Annie",
+      "name": "Annie"
+     },
+     "part": "base",
+     "partTitle": "Estadísticas básicas",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Crecimiento de Vida",
+     "before": "102",
+     "after": "96",
+     "text": "Crecimiento de Vida: 102 ⇒ 96",
+     "id": "06a6f29b8ed3",
+     "section": "champions",
+     "tags": [
+      "Mage",
+      "Support"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Annie",
+      "name": "Annie"
+     },
+     "part": "Q",
+     "partTitle": "Q: Desintegrar",
+     "spellKey": "AnnieQ",
+     "kind": "stat",
+     "attribute": "Daño",
+     "before": "70 / 105 / 140 / 175 / 210 (+ 75% de Poder de Habilidad)",
+     "after": "70 / 105 / 140 / 175 / 210 (+ 80% de Poder de Habilidad)",
+     "text": "Daño: 70 / 105 / 140 / 175 / 210 (+ 75% de Poder de Habilidad) ⇒ 70 / 105 / 140 / 175 / 210 (+ 80% de Poder de Habilidad)",
+     "id": "564db6d075f0",
+     "section": "champions",
+     "tags": [
+      "Mage",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Annie",
+      "name": "Annie"
+     },
+     "part": "W",
+     "partTitle": "W: Incinerar",
+     "spellKey": "AnnieW",
+     "kind": "stat",
+     "attribute": "Daño",
+     "before": "70 / 115 / 160 / 205 / 250 (+ 85% de Poder de Habilidad)",
+     "after": "70 / 120 / 170 / 220 / 270 (+ 85% de Poder de Habilidad)",
+     "text": "Daño: 70 / 115 / 160 / 205 / 250 (+ 85% de Poder de Habilidad) ⇒ 70 / 120 / 170 / 220 / 270 (+ 85% de Poder de Habilidad)",
+     "id": "85da2948e597",
+     "section": "champions",
+     "tags": [
+      "Mage",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Annie",
+      "name": "Annie"
+     },
+     "part": "W",
+     "partTitle": "W: Incinerar",
+     "spellKey": "AnnieW",
+     "kind": "stat",
+     "attribute": "Enfriamiento",
+     "before": "8",
+     "after": "7",
+     "text": "Enfriamiento: 8 ⇒ 7",
+     "id": "bd4fed797705",
+     "section": "champions",
+     "tags": [
+      "Mage",
+      "Support"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Annie",
+      "name": "Annie"
+     },
+     "part": "R",
+     "partTitle": "R: Invocar: Tibbers",
+     "spellKey": "AnnieR",
+     "kind": "new",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "NUEVO Penetración de Magia adicional de la pasiva de su R: 10 / 12.5 / 15%",
+     "id": "da096f9329ec",
+     "section": "champions",
+     "tags": [
+      "Mage",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Annie",
+      "name": "Annie"
+     },
+     "part": "R",
+     "partTitle": "R: Invocar: Tibbers",
+     "spellKey": "AnnieR",
+     "kind": "stat",
+     "attribute": "Aura en llamas",
+     "before": "20/ 30 / 40 (+ 12% de Poder de Habilidad)",
+     "after": "8 / 12 / 16 (+ 4% de Poder de Habilidad)",
+     "text": "Aura en llamas: 20/ 30 / 40 (+ 12% de Poder de Habilidad) ⇒ 8 / 12 / 16 (+ 4% de Poder de Habilidad)",
+     "id": "8030af945ce1",
+     "section": "champions",
+     "tags": [
+      "Mage",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Annie",
+      "name": "Annie"
+     },
+     "part": "R",
+     "partTitle": "R: Invocar: Tibbers",
+     "spellKey": "AnnieR",
+     "kind": "stat",
+     "attribute": "Daño del autoataque de Tibbers",
+     "before": "50 / 75 / 100 (+ 15% de Poder de Habilidad)",
+     "after": "30 / 45 / 60 (+ 10% de Poder de Habilidad)",
+     "text": "Daño del autoataque de Tibbers: 50 / 75 / 100 (+ 15% de Poder de Habilidad) ⇒ 30 / 45 / 60 (+ 10% de Poder de Habilidad)",
+     "id": "fc5089504a65",
+     "section": "champions",
+     "tags": [
+      "Mage",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  }
+ ]
+}

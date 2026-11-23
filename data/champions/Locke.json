@@ -1,0 +1,971 @@
+{
+ "schemaVersion": 1,
+ "id": "Locke",
+ "name": "Locke",
+ "tags": [
+  "Assassin",
+  "Mage"
+ ],
+ "entries": [
+  {
+   "patch": "26.22",
+   "publishedAt": "2026-11-03T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Locke",
+      "name": "Locke"
+     },
+     "part": "Q",
+     "partTitle": "Q: Clavos de la Expiación",
+     "spellKey": "LockeQ",
+     "kind": "stat",
+     "attribute": "Daño adicional por acumulación",
+     "before": "18 / 26 / 34 / 42 / 50",
+     "after": "15 / 22 / 29 / 36 / 43",
+     "text": "Daño adicional por acumulación: 18 / 26 / 34 / 42 / 50 ⇒ 15 / 22 / 29 / 36 / 43",
+     "id": "74609b8874c0",
+     "section": "champions",
+     "tags": [
+      "Assassin",
+      "Mage"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Locke",
+      "name": "Locke"
+     },
+     "part": "Q",
+     "partTitle": "Q: Clavos de la Expiación",
+     "spellKey": "LockeQ",
+     "kind": "stat",
+     "attribute": "Daño máximo por acumulación",
+     "before": "75.6 / 109.2 / 142.8 / 176.4 / 210",
+     "after": "63 / 92.4 / 121.8 / 151.2 / 180.6",
+     "text": "Daño máximo por acumulación: 75.6 / 109.2 / 142.8 / 176.4 / 210 ⇒ 63 / 92.4 / 121.8 / 151.2 / 180.6",
+     "id": "9d65b8370065",
+     "section": "champions",
+     "tags": [
+      "Assassin",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Locke",
+      "name": "Locke"
+     },
+     "part": "W",
+     "partTitle": "W: Incineración del Alma",
+     "spellKey": "LockeW",
+     "kind": "stat",
+     "attribute": "Duración",
+     "before": "6 seg",
+     "after": "5 seg",
+     "text": "Duración: 6 seg ⇒ 5 seg",
+     "id": "3069439d615e",
+     "section": "champions",
+     "tags": [
+      "Assassin",
+      "Mage"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "26.21",
+   "publishedAt": "2026-10-20T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Locke",
+      "name": "Locke"
+     },
+     "part": "Q",
+     "partTitle": "Q: Clavos de la Expiación",
+     "spellKey": "LockeQ",
+     "kind": "stat",
+     "attribute": "Reembolso de carga sin usar",
+     "before": "20 - 35% de reembolso de maná y enfriamiento",
+     "after": "10 - 40% de reembolso de maná y enfriamiento",
+     "text": "Reembolso de carga sin usar: 20 - 35% de reembolso de maná y enfriamiento ⇒ 10 - 40% de reembolso de maná y enfriamiento",
+     "id": "a02bc37a8be8",
+     "section": "champions",
+     "tags": [
+      "Assassin",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Locke",
+      "name": "Locke"
+     },
+     "part": "base",
+     "partTitle": "Estadísticas base",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Crecimiento de maná",
+     "before": "70",
+     "after": "60",
+     "text": "Crecimiento de maná: 70 ⇒ 60",
+     "id": "0203acec6464",
+     "section": "champions",
+     "tags": [
+      "Assassin",
+      "Mage"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Locke",
+      "name": "Locke"
+     },
+     "part": "W",
+     "partTitle": "W: Incineración del Alma",
+     "spellKey": "LockeQ",
+     "kind": "stat",
+     "attribute": "Costo de Maná",
+     "before": "50 / 55 / 60 / 65 / 70",
+     "after": "60 / 65 / 70 / 75 / 80",
+     "text": "Costo de Maná: 50 / 55 / 60 / 65 / 70 ⇒ 60 / 65 / 70 / 75 / 80",
+     "id": "349ad980ade7",
+     "section": "champions",
+     "tags": [
+      "Assassin",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Locke",
+      "name": "Locke"
+     },
+     "part": "W",
+     "partTitle": "W: Incineración del Alma",
+     "spellKey": "LockeQ",
+     "kind": "stat",
+     "attribute": "Almacenamiento de Vida gris según la Vida actual",
+     "before": "40 - 200 (ambos según el nivel)",
+     "after": "20 - 200",
+     "text": "Almacenamiento de Vida gris según la Vida actual: 40 - 200 (ambos según el nivel) ⇒ 20 - 200",
+     "id": "b4587947682a",
+     "section": "champions",
+     "tags": [
+      "Assassin",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Locke",
+      "name": "Locke"
+     },
+     "part": "W",
+     "partTitle": "W: Incineración del Alma",
+     "spellKey": "LockeQ",
+     "kind": "stat",
+     "attribute": "Almacenamiento de Vida actual",
+     "before": "150 - 450 (ambos según el nivel)",
+     "after": "100 - 500 (+60% de Poder de Habilidad)",
+     "text": "Almacenamiento de Vida actual: 150 - 450 (ambos según el nivel) ⇒ 100 - 500 (+60% de Poder de Habilidad)",
+     "id": "040006630af4",
+     "section": "champions",
+     "tags": [
+      "Assassin",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Locke",
+      "name": "Locke"
+     },
+     "part": "E",
+     "partTitle": "E: Salto de Ceniza",
+     "spellKey": "LockeE",
+     "kind": "stat",
+     "attribute": "Daño de salto",
+     "before": "40 / 50 / 60 / 70 / 80 (+40% de Poder de Habilidad)",
+     "after": "40 / 55 / 70 / 85 / 100 (+50% de Poder de Habilidad)",
+     "text": "Daño de salto: 40 / 50 / 60 / 70 / 80 (+40% de Poder de Habilidad) ⇒ 40 / 55 / 70 / 85 / 100 (+50% de Poder de Habilidad)",
+     "id": "99426a736adc",
+     "section": "champions",
+     "tags": [
+      "Assassin",
+      "Mage"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "26.20",
+   "publishedAt": "2026-10-06T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "ARAM",
+     "sectionId": "patch-aram",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Locke",
+      "name": "Locke"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño infligido",
+     "before": "105%",
+     "after": "115%",
+     "text": "Daño infligido: 105% ⇒ 115%",
+     "id": "5275107ba278",
+     "section": "modes",
+     "tags": [
+      "Assassin",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "26.16",
+   "publishedAt": "2026-08-11T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "ARAM: Caos",
+     "sectionId": "patch-aram:-mayhem",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Locke",
+      "name": "Locke"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño infligido",
+     "before": "100%",
+     "after": "105%",
+     "text": "Daño infligido: 100% ⇒ 105%",
+     "id": "bac1191acc70",
+     "section": "modes",
+     "tags": [
+      "Assassin",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "ARAM: Caos",
+     "sectionId": "patch-aram:-mayhem",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Locke",
+      "name": "Locke"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño recibido",
+     "before": "100%",
+     "after": "95%",
+     "text": "Daño recibido: 100% ⇒ 95%",
+     "id": "02161b089c48",
+     "section": "modes",
+     "tags": [
+      "Assassin",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "ARAM: Caos",
+     "sectionId": "patch-aram:-mayhem",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Locke",
+      "name": "Locke"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Tenacidad",
+     "before": "0",
+     "after": "20",
+     "text": "Tenacidad: 0 ⇒ 20",
+     "id": "1839268545b3",
+     "section": "modes",
+     "tags": [
+      "Assassin",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "26.15",
+   "publishedAt": "2026-07-28T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Locke",
+      "name": "Locke"
+     },
+     "part": "base",
+     "partTitle": "Estadísticas base",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Vida",
+     "before": "655",
+     "after": "620",
+     "text": "Vida: 655 ⇒ 620",
+     "id": "d8a9c03c4d72",
+     "section": "champions",
+     "tags": [
+      "Assassin",
+      "Mage"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Locke",
+      "name": "Locke"
+     },
+     "part": "Q",
+     "partTitle": "Q: Clavos de la Expiación",
+     "spellKey": "LockeQ",
+     "kind": "stat",
+     "attribute": "Daño base del Clavo",
+     "before": "50 / 58 / 66 / 74 / 82 (+20% de Poder de Habilidad)",
+     "after": "40 / 48 / 56 / 64 / 72 (+20% de Poder de Habilidad)",
+     "text": "Daño base del Clavo: 50 / 58 / 66 / 74 / 82 (+20% de Poder de Habilidad) ⇒ 40 / 48 / 56 / 64 / 72 (+20% de Poder de Habilidad)",
+     "id": "06454357aae4",
+     "section": "champions",
+     "tags": [
+      "Assassin",
+      "Mage"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Locke",
+      "name": "Locke"
+     },
+     "part": "Q",
+     "partTitle": "Q: Clavos de la Expiación",
+     "spellKey": "LockeQ",
+     "kind": "stat",
+     "attribute": "Daño de Tres Clavos",
+     "before": "150 / 174 / 198 / 222 / 246 (+60% de Poder de Habilidad)",
+     "after": "120 / 144 / 168 / 192 / 216 (+60% de Poder de Habilidad)",
+     "text": "Daño de Tres Clavos: 150 / 174 / 198 / 222 / 246 (+60% de Poder de Habilidad) ⇒ 120 / 144 / 168 / 192 / 216 (+60% de Poder de Habilidad)",
+     "id": "acad670f3a8a",
+     "section": "champions",
+     "tags": [
+      "Assassin",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Locke",
+      "name": "Locke"
+     },
+     "part": "W",
+     "partTitle": "W: Incineración del Alma",
+     "spellKey": "LockeW",
+     "kind": "stat",
+     "attribute": "Velocidad de Movimiento",
+     "before": "40 / 45 / 50 / 55 / 60% (+2% por cada 100 de Poder de Habilidad)",
+     "after": "40% (+2% por cada 100 de Poder de Habilidad)",
+     "text": "Velocidad de Movimiento: 40 / 45 / 50 / 55 / 60% (+2% por cada 100 de Poder de Habilidad) ⇒ 40% (+2% por cada 100 de Poder de Habilidad)",
+     "id": "7bbc8dc7d6b9",
+     "section": "champions",
+     "tags": [
+      "Assassin",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Locke",
+      "name": "Locke"
+     },
+     "part": "W",
+     "partTitle": "W: Incineración del Alma",
+     "spellKey": "LockeW",
+     "kind": "stat",
+     "attribute": "Valor base de Vida gris",
+     "before": "40 / 70 / 100 / 130 / 160 (+120% de Poder de Habilidad)",
+     "after": "40 / 60 / 80 / 100 / 120 (+100% de Poder de Habilidad)",
+     "text": "Valor base de Vida gris: 40 / 70 / 100 / 130 / 160 (+120% de Poder de Habilidad) ⇒ 40 / 60 / 80 / 100 / 120 (+100% de Poder de Habilidad)",
+     "id": "e8a67f273182",
+     "section": "champions",
+     "tags": [
+      "Assassin",
+      "Mage"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Locke",
+      "name": "Locke"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Pasiva: Estaca de Plata",
+     "id": "c4d55c01223e",
+     "section": "modes",
+     "tags": [
+      "Assassin",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Locke",
+      "name": "Locke"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño base mínimo",
+     "before": "5 mínimo / 40 máximo",
+     "after": "7.5 mínimo / 60 máximo",
+     "text": "Daño base mínimo: 5 mínimo / 40 máximo ⇒ 7.5 mínimo / 60 máximo",
+     "id": "b69fbffbe03c",
+     "section": "modes",
+     "tags": [
+      "Assassin",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Locke",
+      "name": "Locke"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño básico máximo",
+     "before": "10 mínimo / 80 máximo",
+     "after": "15 mínimo / 120 máximo",
+     "text": "Daño básico máximo: 10 mínimo / 80 máximo ⇒ 15 mínimo / 120 máximo",
+     "id": "49e801ad0c01",
+     "section": "modes",
+     "tags": [
+      "Assassin",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Locke",
+      "name": "Locke"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "W: Incineración del Alma",
+     "id": "67998d560cf6",
+     "section": "modes",
+     "tags": [
+      "Assassin",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Locke",
+      "name": "Locke"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Vida básica restaurada",
+     "before": "40 / 70 / 100 / 130 / 160",
+     "after": "80 / 140 / 200 / 260 / 320",
+     "text": "Vida básica restaurada: 40 / 70 / 100 / 130 / 160 ⇒ 80 / 140 / 200 / 260 / 320",
+     "id": "58ce42f70c39",
+     "section": "modes",
+     "tags": [
+      "Assassin",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Locke",
+      "name": "Locke"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Vida Máxima restaurada",
+     "before": "150 / 225 / 300 / 375 / 450 (+60% de Poder de Habilidad)",
+     "after": "225 / 337.5 / 450 / 562.5 / 675 (+60% de Poder de Habilidad)",
+     "text": "Vida Máxima restaurada: 150 / 225 / 300 / 375 / 450 (+60% de Poder de Habilidad) ⇒ 225 / 337.5 / 450 / 562.5 / 675 (+60% de Poder de Habilidad)",
+     "id": "fcbb2ee90aeb",
+     "section": "modes",
+     "tags": [
+      "Assassin",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Locke",
+      "name": "Locke"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "R: Purgatorio",
+     "id": "bc5208eea903",
+     "section": "modes",
+     "tags": [
+      "Assassin",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Locke",
+      "name": "Locke"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Reembolso del enfriamiento",
+     "before": "20%",
+     "after": "50%",
+     "text": "Reembolso del enfriamiento: 20% ⇒ 50%",
+     "id": "4e1ddf5e0af3",
+     "section": "modes",
+     "tags": [
+      "Assassin",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "26.14",
+   "publishedAt": "2026-07-14T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Locke",
+      "name": "Locke"
+     },
+     "part": "Q",
+     "partTitle": "Q: Clavos de la Expiación",
+     "spellKey": "LockeQ",
+     "kind": "stat",
+     "attribute": "Tiempo de espera para relanzar Clavos",
+     "before": "5 seg",
+     "after": "4 seg",
+     "text": "Tiempo de espera para relanzar Clavos: 5 seg ⇒ 4 seg",
+     "id": "800fc97e402e",
+     "section": "champions",
+     "tags": [
+      "Assassin",
+      "Mage"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Locke",
+      "name": "Locke"
+     },
+     "part": "Q",
+     "partTitle": "Q: Clavos de la Expiación",
+     "spellKey": "LockeQ",
+     "kind": "stat",
+     "attribute": "Daño de Clavos",
+     "before": "50 / 60 / 70 / 80 / 90",
+     "after": "50 / 58 / 66 / 74 / 82",
+     "text": "Daño de Clavos: 50 / 60 / 70 / 80 / 90 ⇒ 50 / 58 / 66 / 74 / 82",
+     "id": "5749aa57049e",
+     "section": "champions",
+     "tags": [
+      "Assassin",
+      "Mage"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Locke",
+      "name": "Locke"
+     },
+     "part": "Q",
+     "partTitle": "Q: Clavos de la Expiación",
+     "spellKey": "LockeQ",
+     "kind": "stat",
+     "attribute": "Daño adicional básico de la marca",
+     "before": "20 / 30 / 40 / 50 / 60",
+     "after": "18 / 26 / 34 / 42 / 50",
+     "text": "Daño adicional básico de la marca: 20 / 30 / 40 / 50 / 60 ⇒ 18 / 26 / 34 / 42 / 50",
+     "id": "efd4a8ddb25d",
+     "section": "champions",
+     "tags": [
+      "Assassin",
+      "Mage"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Locke",
+      "name": "Locke"
+     },
+     "part": "W",
+     "partTitle": "W: Incineración del Alma",
+     "spellKey": "LockeW",
+     "kind": "stat",
+     "attribute": "Límite de vida gris por daño recibido",
+     "before": "40 / 80 / 120 / 160 / 200",
+     "after": "40 / 70 / 100 / 130 / 160",
+     "text": "Límite de vida gris por daño recibido: 40 / 80 / 120 / 160 / 200 ⇒ 40 / 70 / 100 / 130 / 160",
+     "id": "c53761c85ef1",
+     "section": "champions",
+     "tags": [
+      "Assassin",
+      "Mage"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "26.13",
+   "publishedAt": "2026-06-23T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Locke",
+      "name": "Locke"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "new",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Nuevo Invitado de Honor",
+     "id": "48f02803ea50",
+     "section": "modes",
+     "tags": [
+      "Assassin",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Locke",
+      "name": "Locke"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "En cada selección de Aumentos, aparecerá un Aumento de nivel superior, pero estará quebrantado",
+     "id": "78c9348f79aa",
+     "section": "modes",
+     "tags": [
+      "Assassin",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Locke",
+      "name": "Locke"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Los Aumentos quebrantados se rompen y se convierten en un Yunque de Estadísticas si pierdes dos rondas",
+     "id": "f0aa29b9a404",
+     "section": "modes",
+     "tags": [
+      "Assassin",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Locke",
+      "name": "Locke"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Si ganas tres rondas tras elegir un Aumento quebrantado, el estado quebrantado se elimina",
+     "id": "9b5577b608ec",
+     "section": "modes",
+     "tags": [
+      "Assassin",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  }
+ ]
+}

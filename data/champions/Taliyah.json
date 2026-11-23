@@ -1,0 +1,707 @@
+{
+ "schemaVersion": 1,
+ "id": "Taliyah",
+ "name": "Taliyah",
+ "tags": [
+  "Mage",
+  "Support"
+ ],
+ "entries": [
+  {
+   "patch": "26.21",
+   "publishedAt": "2026-10-20T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Taliyah",
+      "name": "Taliyah"
+     },
+     "part": "E",
+     "partTitle": "E: Tierra Desatada",
+     "spellKey": "TaliyahE",
+     "kind": "stat",
+     "attribute": "Daño",
+     "before": "60 / 105 / 150 / 195 / 240 (+60% de Poder de Habilidad)",
+     "after": "70 / 115 / 160 / 205 / 250 (+70% de Poder de Habilidad)",
+     "text": "Daño: 60 / 105 / 150 / 195 / 240 (+60% de Poder de Habilidad) ⇒ 70 / 115 / 160 / 205 / 250 (+70% de Poder de Habilidad)",
+     "id": "0260fc1dd8d3",
+     "section": "champions",
+     "tags": [
+      "Mage",
+      "Support"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Taliyah",
+      "name": "Taliyah"
+     },
+     "part": "E",
+     "partTitle": "E: Tierra Desatada",
+     "spellKey": "TaliyahE",
+     "kind": "stat",
+     "attribute": "Daño de detonación",
+     "before": "25 / 40 / 55 / 70 / 85 (+30% de Poder de Habilidad)",
+     "after": "30 / 45 / 60 / 75 / 90 (+30% de Poder de Habilidad)",
+     "text": "Daño de detonación: 25 / 40 / 55 / 70 / 85 (+30% de Poder de Habilidad) ⇒ 30 / 45 / 60 / 75 / 90 (+30% de Poder de Habilidad)",
+     "id": "30312b853dfd",
+     "section": "champions",
+     "tags": [
+      "Mage",
+      "Support"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Taliyah",
+      "name": "Taliyah"
+     },
+     "part": "E",
+     "partTitle": "E: Tierra Desatada",
+     "spellKey": "TaliyahE",
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Daño contra monstruos: Inflige un 225% de daño a los monstruos",
+     "id": "ef694453caf9",
+     "section": "champions",
+     "tags": [
+      "Mage",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "26.9",
+   "publishedAt": "2026-04-28T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Taliyah",
+      "name": "Taliyah"
+     },
+     "part": "Q",
+     "partTitle": "Q: Descarga Pétrea",
+     "spellKey": "TaliyahQ",
+     "kind": "stat",
+     "attribute": "Daño base",
+     "before": "50 / 67.5 / 85 / 102.5 / 120",
+     "after": "55 / 72.5 / 90 / 107.5 / 125",
+     "text": "Daño base: 50 / 67.5 / 85 / 102.5 / 120 ⇒ 55 / 72.5 / 90 / 107.5 / 125",
+     "id": "72ce27dffddd",
+     "section": "champions",
+     "tags": [
+      "Mage",
+      "Support"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Taliyah",
+      "name": "Taliyah"
+     },
+     "part": "Q",
+     "partTitle": "Q: Descarga Pétrea",
+     "spellKey": "TaliyahQ",
+     "kind": "stat",
+     "attribute": "Daño adicional contra monstruos",
+     "before": "23 / 28 / 33 / 38 / 43",
+     "after": "20 / 25 / 30 / 35 / 40",
+     "text": "Daño adicional contra monstruos: 23 / 28 / 33 / 38 / 43 ⇒ 20 / 25 / 30 / 35 / 40",
+     "id": "d935e98afe84",
+     "section": "champions",
+     "tags": [
+      "Mage",
+      "Support"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "26.5",
+   "publishedAt": "2026-03-03T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Taliyah",
+      "name": "Taliyah"
+     },
+     "part": "Q",
+     "partTitle": "Q: Descarga Pétrea",
+     "spellKey": "TaliyahQ",
+     "kind": "stat",
+     "attribute": "Daño básico",
+     "before": "55 / 72.5 / 90 / 107.5 / 125",
+     "after": "50 / 67.5 / 85 / 102.5 / 120",
+     "text": "Daño básico: 55 / 72.5 / 90 / 107.5 / 125 ⇒ 50 / 67.5 / 85 / 102.5 / 120",
+     "id": "4fb099f70e54",
+     "section": "champions",
+     "tags": [
+      "Mage",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Taliyah",
+      "name": "Taliyah"
+     },
+     "part": "Q",
+     "partTitle": "Q: Descarga Pétrea",
+     "spellKey": "TaliyahQ",
+     "kind": "stat",
+     "attribute": "Daño adicional contra monstruos",
+     "before": "20 / 25 / 30 / 35 / 40",
+     "after": "23 / 28 / 33 / 38 / 43",
+     "text": "Daño adicional contra monstruos: 20 / 25 / 30 / 35 / 40 ⇒ 23 / 28 / 33 / 38 / 43",
+     "id": "6e78c46343b6",
+     "section": "champions",
+     "tags": [
+      "Mage",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "26.2",
+   "publishedAt": "2026-01-21T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Taliyah",
+      "name": "Taliyah"
+     },
+     "part": "Q",
+     "partTitle": "Q: Descarga Pétrea",
+     "spellKey": "TaliyahQ",
+     "kind": "stat",
+     "attribute": "Daño adicional contra monstruos",
+     "before": "20",
+     "after": "20 / 25 / 30 / 35 / 40 (Nota: el daño potenciado de las rocas aún aumenta un 80% contra el objetivo principal).",
+     "text": "Daño adicional contra monstruos: 20 ⇒ 20 / 25 / 30 / 35 / 40 (Nota: el daño potenciado de las rocas aún aumenta un 80% contra el objetivo principal).",
+     "id": "4932eac410e8",
+     "section": "champions",
+     "tags": [
+      "Mage",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Taliyah",
+      "name": "Taliyah"
+     },
+     "part": "E",
+     "partTitle": "E: Tierra Desatada",
+     "spellKey": "TaliyahE",
+     "kind": "stat",
+     "attribute": "Modificador de daño contra monstruos",
+     "before": "190%",
+     "after": "225%",
+     "text": "Modificador de daño contra monstruos: 190% ⇒ 225%",
+     "id": "ebc2ef2b6b28",
+     "section": "champions",
+     "tags": [
+      "Mage",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.20",
+   "publishedAt": "2025-10-07T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena-",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Taliyah",
+      "name": "Taliyah"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": null,
+     "before": "Daño básico de la Q: De 60 a 132",
+     "after": "De 70 a 150",
+     "text": "Daño básico de la Q: De 60 a 132 ⇒ De 70 a 150",
+     "id": "0d3b35fddf21",
+     "section": "modes",
+     "tags": [
+      "Mage",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena-",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Taliyah",
+      "name": "Taliyah"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": null,
+     "before": "Tasa de Poder de Habilidad de la Q: 55%",
+     "after": "60%",
+     "text": "Tasa de Poder de Habilidad de la Q: 55% ⇒ 60%",
+     "id": "294b35c39a76",
+     "section": "modes",
+     "tags": [
+      "Mage",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena-",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Taliyah",
+      "name": "Taliyah"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": null,
+     "before": "Enfriamiento de la E: 14 seg",
+     "after": "12 seg",
+     "text": "Enfriamiento de la E: 14 seg ⇒ 12 seg",
+     "id": "34573704926f",
+     "section": "modes",
+     "tags": [
+      "Mage",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.18",
+   "publishedAt": "2025-09-09T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Taliyah",
+      "name": "Taliyah"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Redujimos el costo de maná y el daño del primer y el segundo lanzamiento de su Q. Redujimos el costo de maná y el daño de su E.",
+     "id": "68ff0febdf56",
+     "section": "champions",
+     "tags": [
+      "Mage",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Taliyah",
+      "name": "Taliyah"
+     },
+     "part": "Q",
+     "partTitle": "Q: Descarga Pétrea",
+     "spellKey": "TaliyahQ",
+     "kind": "stat",
+     "attribute": "Costo de Maná",
+     "before": "65 / 70 / 75 / 80 / 85",
+     "after": "55 / 60 / 65 / 70 / 75",
+     "text": "Costo de Maná: 65 / 70 / 75 / 80 / 85 ⇒ 55 / 60 / 65 / 70 / 75",
+     "id": "3cc34b2d59a9",
+     "section": "champions",
+     "tags": [
+      "Mage",
+      "Support"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Taliyah",
+      "name": "Taliyah"
+     },
+     "part": "Q",
+     "partTitle": "Q: Descarga Pétrea",
+     "spellKey": "TaliyahQ",
+     "kind": "stat",
+     "attribute": "Costo de Maná del segundo lanzamiento",
+     "before": "20",
+     "after": "10",
+     "text": "Costo de Maná del segundo lanzamiento: 20 ⇒ 10",
+     "id": "1fa485f0c2d6",
+     "section": "champions",
+     "tags": [
+      "Mage",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Taliyah",
+      "name": "Taliyah"
+     },
+     "part": "Q",
+     "partTitle": "Q: Descarga Pétrea",
+     "spellKey": "TaliyahQ",
+     "kind": "stat",
+     "attribute": "Daño básico",
+     "before": "56 / 74.5 / 93 / 111.5 / 130",
+     "after": "55 / 72.5 / 90 / 107.5 / 125",
+     "text": "Daño básico: 56 / 74.5 / 93 / 111.5 / 130 ⇒ 55 / 72.5 / 90 / 107.5 / 125",
+     "id": "b0d58cd5dd86",
+     "section": "champions",
+     "tags": [
+      "Mage",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Taliyah",
+      "name": "Taliyah"
+     },
+     "part": "Q",
+     "partTitle": "Q: Descarga Pétrea",
+     "spellKey": "TaliyahQ",
+     "kind": "stat",
+     "attribute": "Daño fijo de cada roca contra monstruos",
+     "before": "10",
+     "after": "20",
+     "text": "Daño fijo de cada roca contra monstruos: 10 ⇒ 20",
+     "id": "7134c87b9c93",
+     "section": "champions",
+     "tags": [
+      "Mage",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Taliyah",
+      "name": "Taliyah"
+     },
+     "part": "E",
+     "partTitle": "E: Tierra Desatada",
+     "spellKey": "TaliyahE",
+     "kind": "stat",
+     "attribute": "Costo de Maná",
+     "before": "90 / 95 / 100 / 105 / 110",
+     "after": "90 en todos los rangos",
+     "text": "Costo de Maná: 90 / 95 / 100 / 105 / 110 ⇒ 90 en todos los rangos",
+     "id": "52befd16b9a7",
+     "section": "champions",
+     "tags": [
+      "Mage",
+      "Support"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Taliyah",
+      "name": "Taliyah"
+     },
+     "part": "E",
+     "partTitle": "E: Tierra Desatada",
+     "spellKey": "TaliyahE",
+     "kind": "stat",
+     "attribute": "Daño básico de la detonación",
+     "before": "25 / 45 / 65 / 85 / 105",
+     "after": "25 / 40 / 55 / 70 / 85",
+     "text": "Daño básico de la detonación: 25 / 45 / 65 / 85 / 105 ⇒ 25 / 40 / 55 / 70 / 85",
+     "id": "3828c05128bf",
+     "section": "champions",
+     "tags": [
+      "Mage",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Taliyah",
+      "name": "Taliyah"
+     },
+     "part": "E",
+     "partTitle": "E: Tierra Desatada",
+     "spellKey": "TaliyahE",
+     "kind": "stat",
+     "attribute": "Modificador de daño contra monstruos",
+     "before": "175%",
+     "after": "190%",
+     "text": "Modificador de daño contra monstruos: 175% ⇒ 190%",
+     "id": "dee388050fad",
+     "section": "champions",
+     "tags": [
+      "Mage",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.12",
+   "publishedAt": "2025-06-10T18:05:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Taliyah",
+      "name": "Taliyah"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Redujimos su resistencia mágica básica. Redujimos el daño de su Q.",
+     "id": "a254e923ea97",
+     "section": "champions",
+     "tags": [
+      "Mage",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Taliyah",
+      "name": "Taliyah"
+     },
+     "part": "base",
+     "partTitle": "Estadísticas básicas",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Resistencia Mágica básica",
+     "before": "30",
+     "after": "28",
+     "text": "Resistencia Mágica básica: 30 ⇒ 28",
+     "id": "32394bba3751",
+     "section": "champions",
+     "tags": [
+      "Mage",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Taliyah",
+      "name": "Taliyah"
+     },
+     "part": "Q",
+     "partTitle": "Q: Descarga Pétrea",
+     "spellKey": "TaliyahQ",
+     "kind": "stat",
+     "attribute": "Daño potenciado",
+     "before": "190%",
+     "after": "180%",
+     "text": "Daño potenciado: 190% ⇒ 180%",
+     "id": "d51b81836613",
+     "section": "champions",
+     "tags": [
+      "Mage",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.11",
+   "publishedAt": "2025-05-27T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Pelea",
+     "sectionId": "patch-brawl",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Taliyah",
+      "name": "Taliyah"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Enfriamiento de la R",
+     "before": "180 / 150 / 120",
+     "after": "100 / 80 / 60",
+     "text": "Enfriamiento de la R: 180 / 150 / 120 ⇒ 100 / 80 / 60",
+     "id": "dc56d0abb228",
+     "section": "modes",
+     "tags": [
+      "Mage",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  }
+ ]
+}

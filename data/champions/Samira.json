@@ -1,0 +1,698 @@
+{
+ "schemaVersion": 1,
+ "id": "Samira",
+ "name": "Samira",
+ "tags": [
+  "Marksman",
+  "Assassin"
+ ],
+ "entries": [
+  {
+   "patch": "26.15",
+   "publishedAt": "2026-07-28T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Samira",
+      "name": "Samira"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Intercambio de oro de provocación",
+     "before": "Pierdes 1 de oro al provocar",
+     "after": "Eliminado",
+     "text": "Intercambio de oro de provocación: Pierdes 1 de oro al provocar ⇒ Eliminado",
+     "id": "ea6d146533bc",
+     "section": "modes",
+     "tags": [
+      "Marksman",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "26.13",
+   "publishedAt": "2026-06-23T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Samira",
+      "name": "Samira"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": null,
+     "before": "Daño base de la R: 5 / 10 / 15",
+     "after": "10 / 15 / 20",
+     "text": "Daño base de la R: 5 / 10 / 15 ⇒ 10 / 15 / 20",
+     "id": "513a70863e22",
+     "section": "modes",
+     "tags": [
+      "Marksman",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "26.5",
+   "publishedAt": "2026-03-03T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Samira",
+      "name": "Samira"
+     },
+     "part": "Q",
+     "partTitle": "Q: Instinto",
+     "spellKey": "SamiraQ",
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "La herramienta adecuada para el trabajo: La Q de Samira ahora comprobará varias veces si hay unidades tanto a su derecha como a su izquierda. Si las hay, y no hay unidades muy por delante de ella, usará la Q de la espada. Si una unidad está muy por delante de ella, usará la Q de la pistola sin importar que haya unidades a la derecha o a la izquierda",
+     "id": "24c8ff545db1",
+     "section": "champions",
+     "tags": [
+      "Marksman",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Samira",
+      "name": "Samira"
+     },
+     "part": "Q",
+     "partTitle": "Q: Instinto",
+     "spellKey": "SamiraQ",
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "No más lanzamientos perdidos: La Q de Samira ahora se sella correctamente durante su pasiva. Esto resuelve el caso en el que la Q de Samira entraba en enfriamiento aunque no se usara si se presionaba durante la animación de su pasiva. También aplica a una instancia en la que su definitiva se lanzaba después de su W",
+     "id": "4cc282031ab8",
+     "section": "champions",
+     "tags": [
+      "Marksman",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Samira",
+      "name": "Samira"
+     },
+     "part": "Q",
+     "partTitle": "Q: Instinto",
+     "spellKey": "SamiraQ",
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "No podrás escapar: La Q de Samira ahora verifica si el enemigo se está alejando de ella y si se encuentra en el límite del alcance de su Q de la espada. Si es así, usará la Q de la pistola. Esto debería solucionar los casos extremos en los que los campeones con velocidad de movimiento muy baja podían escaparse tranquilamente de su Q (los campeones con velocidad de movimiento más alta aún podrán hacerlo, y con justa razón)",
+     "id": "020e7a479697",
+     "section": "champions",
+     "tags": [
+      "Marksman",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "26.4",
+   "publishedAt": "2026-02-18T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Samira",
+      "name": "Samira"
+     },
+     "part": "Q",
+     "partTitle": "Q: Instinto",
+     "spellKey": "SamiraQ",
+     "kind": "stat",
+     "attribute": "Efectividad del Robo de vida",
+     "before": "80%",
+     "after": "100%",
+     "text": "Efectividad del Robo de vida: 80% ⇒ 100%",
+     "id": "28bb8ebc01af",
+     "section": "champions",
+     "tags": [
+      "Marksman",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Samira",
+      "name": "Samira"
+     },
+     "part": "R",
+     "partTitle": "R: Provocación Infernal",
+     "spellKey": "SamiraR",
+     "kind": "stat",
+     "attribute": "Efectividad del Robo de vida",
+     "before": "80%",
+     "after": "100%",
+     "text": "Efectividad del Robo de vida: 80% ⇒ 100%",
+     "id": "2212506dac9f",
+     "section": "champions",
+     "tags": [
+      "Marksman",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "26.1",
+   "publishedAt": "2026-01-07T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Samira",
+      "name": "Samira"
+     },
+     "part": "Q",
+     "partTitle": "Q: Instinto",
+     "spellKey": "SamiraQ",
+     "kind": "stat",
+     "attribute": "Daño que no sea de golpe crítico de la Q",
+     "before": "5 / 10 / 15 / 20 / 25 (+ 95% / 102.5% / 110% / 117.5% / 125% de Daño de Ataque total)",
+     "after": "0 / 5 / 10 / 15 / 20 (+ 110% de Daño de Ataque total)",
+     "text": "Daño que no sea de golpe crítico de la Q: 5 / 10 / 15 / 20 / 25 (+ 95% / 102.5% / 110% / 117.5% / 125% de Daño de Ataque total) ⇒ 0 / 5 / 10 / 15 / 20 (+ 110% de Daño de Ataque total)",
+     "id": "417debcd9eda",
+     "section": "champions",
+     "tags": [
+      "Marksman",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Samira",
+      "name": "Samira"
+     },
+     "part": "Q",
+     "partTitle": "Q: Instinto",
+     "spellKey": "SamiraQ",
+     "kind": "stat",
+     "attribute": "Daño de golpe crítico de la Q",
+     "before": "×1.25 / ×1.65 con Filo del Infinito",
+     "after": "50% de daño de golpe crítico adicional, ×1.5 / ×1.65 con Filo del Infinito",
+     "text": "Daño de golpe crítico de la Q: ×1.25 / ×1.65 con Filo del Infinito ⇒ 50% de daño de golpe crítico adicional, ×1.5 / ×1.65 con Filo del Infinito",
+     "id": "dcbfd352478c",
+     "section": "champions",
+     "tags": [
+      "Marksman",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Samira",
+      "name": "Samira"
+     },
+     "part": "R",
+     "partTitle": "R: Gatillo Infernal",
+     "spellKey": "SamiraR",
+     "kind": "stat",
+     "attribute": "Daño que no sea de golpe crítico de la R",
+     "before": "5 / 15 / 25 + 45% de Daño de Ataque total",
+     "after": "20 / 40 / 60 + 30% de Daño de Ataque total",
+     "text": "Daño que no sea de golpe crítico de la R: 5 / 15 / 25 + 45% de Daño de Ataque total ⇒ 20 / 40 / 60 + 30% de Daño de Ataque total",
+     "id": "a17cd3c36108",
+     "section": "champions",
+     "tags": [
+      "Marksman",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Samira",
+      "name": "Samira"
+     },
+     "part": "R",
+     "partTitle": "R: Gatillo Infernal",
+     "spellKey": "SamiraR",
+     "kind": "stat",
+     "attribute": "Daño de golpe crítico de la R",
+     "before": "×1.75 / ×2.15 con Filo del Infinito",
+     "after": "100% de daño de golpe crítico adicional, ×2.0 / ×2.3 con Filo del Infinito",
+     "text": "Daño de golpe crítico de la R: ×1.75 / ×2.15 con Filo del Infinito ⇒ 100% de daño de golpe crítico adicional, ×2.0 / ×2.3 con Filo del Infinito",
+     "id": "7956bcbf216b",
+     "section": "champions",
+     "tags": [
+      "Marksman",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.18",
+   "publishedAt": "2025-09-09T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones (Arena)",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Samira",
+      "name": "Samira"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": null,
+     "before": "Condición de activación: Primer impacto",
+     "after": "Primera vez que un oponente queda con menos de un 50% de Vida",
+     "text": "Condición de activación: Primer impacto ⇒ Primera vez que un oponente queda con menos de un 50% de Vida",
+     "id": "5bd3ef3a51ad",
+     "section": "modes",
+     "tags": [
+      "Marksman",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.12",
+   "publishedAt": "2025-06-10T18:05:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Samira",
+      "name": "Samira"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Aumentamos la velocidad de movimiento adicional de su pasiva. Aumentamos el daño de su Q.",
+     "id": "25d0e988588b",
+     "section": "champions",
+     "tags": [
+      "Marksman",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Samira",
+      "name": "Samira"
+     },
+     "part": "P",
+     "partTitle": "Pasiva: Impulso Temerario",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Velocidad de Movimiento adicional por acumulación de Estilo",
+     "before": "2 / 2.5 / 3 / 3.5% (máximo de acumulaciones: 12 / 15 / 18 / 21%)",
+     "after": "2.75 / 3 / 3.25 / 3.5% (máximo de acumulaciones: 16.5 / 18 / 19.5 / 21%)",
+     "text": "Velocidad de Movimiento adicional por acumulación de Estilo: 2 / 2.5 / 3 / 3.5% (máximo de acumulaciones: 12 / 15 / 18 / 21%) ⇒ 2.75 / 3 / 3.25 / 3.5% (máximo de acumulaciones: 16.5 / 18 / 19.5 / 21%)",
+     "id": "0f22f0ee239c",
+     "section": "champions",
+     "tags": [
+      "Marksman",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Samira",
+      "name": "Samira"
+     },
+     "part": "Q",
+     "partTitle": "Q: Instinto",
+     "spellKey": "SamiraQ",
+     "kind": "stat",
+     "attribute": "Daño",
+     "before": "0 / 5 / 10 / 15 / 20 (+95 / 102.5 / 110 / 117.5 / 125% de Daño de Ataque)",
+     "after": "5 / 10 / 15 / 20 / 25 (+95 / 102.5 / 110 / 117.5 / 125% de Daño de Ataque)",
+     "text": "Daño: 0 / 5 / 10 / 15 / 20 (+95 / 102.5 / 110 / 117.5 / 125% de Daño de Ataque) ⇒ 5 / 10 / 15 / 20 / 25 (+95 / 102.5 / 110 / 117.5 / 125% de Daño de Ataque)",
+     "id": "a8cdeaca9030",
+     "section": "champions",
+     "tags": [
+      "Marksman",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.11",
+   "publishedAt": "2025-05-27T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Samira",
+      "name": "Samira"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Aumentamos la efectividad del robo de vida de su Q. Redujimos el daño de su W. Aumentamos la efectividad del robo de vida de su R.",
+     "id": "56e753e566b8",
+     "section": "champions",
+     "tags": [
+      "Marksman",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Samira",
+      "name": "Samira"
+     },
+     "part": "Q",
+     "partTitle": "Q: Instinto",
+     "spellKey": "SamiraQ",
+     "kind": "stat",
+     "attribute": "Efectividad del robo de vida",
+     "before": "66.66%",
+     "after": "80%",
+     "text": "Efectividad del robo de vida: 66.66% ⇒ 80%",
+     "id": "831169f46876",
+     "section": "champions",
+     "tags": [
+      "Marksman",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Samira",
+      "name": "Samira"
+     },
+     "part": "W",
+     "partTitle": "W: Corte Torbellino",
+     "spellKey": "SamiraW",
+     "kind": "stat",
+     "attribute": "Daño por impacto",
+     "before": "20 / 35 / 50 / 65 / 80 (+ 60% de Daño de Ataque adicional)",
+     "after": "20 / 35 / 50 / 65 / 80 (+ 50% de Daño de Ataque adicional)",
+     "text": "Daño por impacto: 20 / 35 / 50 / 65 / 80 (+ 60% de Daño de Ataque adicional) ⇒ 20 / 35 / 50 / 65 / 80 (+ 50% de Daño de Ataque adicional)",
+     "id": "113dba6433e1",
+     "section": "champions",
+     "tags": [
+      "Marksman",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Samira",
+      "name": "Samira"
+     },
+     "part": "R",
+     "partTitle": "R: Gatillo Infernal",
+     "spellKey": "SamiraR",
+     "kind": "stat",
+     "attribute": "Efectividad del robo de vida",
+     "before": "50%",
+     "after": "80%",
+     "text": "Efectividad del robo de vida: 50% ⇒ 80%",
+     "id": "21ea1bbb9e4f",
+     "section": "champions",
+     "tags": [
+      "Marksman",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.9",
+   "publishedAt": "2025-04-29T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "ARAM",
+     "sectionId": "patch-aram",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Samira",
+      "name": "Samira"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño recibido",
+     "before": "105%",
+     "after": "100%",
+     "text": "Daño recibido: 105% ⇒ 100%",
+     "id": "235883970a9d",
+     "section": "modes",
+     "tags": [
+      "Marksman",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.6",
+   "publishedAt": "2025-03-18T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Samira",
+      "name": "Samira"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Ahora otorga 750 de oro si obtienes un juguito y ya los tienes todos",
+     "id": "020e124bf0fe",
+     "section": "modes",
+     "tags": [
+      "Marksman",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.S1.3",
+   "publishedAt": "2025-02-04T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Samira",
+      "name": "Samira"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Aumentamos la duración de la velocidad de ataque de la E.",
+     "id": "69337a6a02b1",
+     "section": "champions",
+     "tags": [
+      "Marksman",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Samira",
+      "name": "Samira"
+     },
+     "part": "E",
+     "partTitle": "E: Carrera Salvaje",
+     "spellKey": "SamiraE",
+     "kind": "stat",
+     "attribute": "Duración de Velocidad de Ataque",
+     "before": "3 seg",
+     "after": "5 seg",
+     "text": "Duración de Velocidad de Ataque: 3 seg ⇒ 5 seg",
+     "id": "72bffd03dddb",
+     "section": "champions",
+     "tags": [
+      "Marksman",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  }
+ ]
+}

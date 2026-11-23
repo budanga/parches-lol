@@ -1,0 +1,638 @@
+{
+ "schemaVersion": 1,
+ "id": "Sion",
+ "name": "Sion",
+ "tags": [
+  "Tank",
+  "Fighter"
+ ],
+ "entries": [
+  {
+   "patch": "26.21",
+   "publishedAt": "2026-10-20T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Sion",
+      "name": "Sion"
+     },
+     "part": "base",
+     "partTitle": "Estadísticas base",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Vida",
+     "before": "655 + 87 por nivel",
+     "after": "655 + 95 por nivel",
+     "text": "Vida: 655 + 87 por nivel ⇒ 655 + 95 por nivel",
+     "id": "324e2c59b337",
+     "section": "champions",
+     "tags": [
+      "Tank",
+      "Fighter"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Sion",
+      "name": "Sion"
+     },
+     "part": "R",
+     "partTitle": "R: Embestida Imparable",
+     "spellKey": "SionR",
+     "kind": "stat",
+     "attribute": "Aumento de daño durante los primeros 3 seg de canalización",
+     "before": "+0 - 166.67% de daño base, 0 - 100% de daño de tasa",
+     "after": "+0 - 200%",
+     "text": "Aumento de daño durante los primeros 3 seg de canalización: +0 - 166.67% de daño base, 0 - 100% de daño de tasa ⇒ +0 - 200%",
+     "id": "94a7641a2cbc",
+     "section": "champions",
+     "tags": [
+      "Tank",
+      "Fighter"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Sion",
+      "name": "Sion"
+     },
+     "part": "R",
+     "partTitle": "R: Embestida Imparable",
+     "spellKey": "SionR",
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Corrección de error: La descripción ahora muestra las tasas mínima y máxima correctas de DA adicional (40-120%). Antes mostraba un escalado de daño de ataque adicional incorrecto (60%-120%). En realidad nunca se cambió en la versión 25.16 más allá de en la descripción",
+     "id": "4d621c606e61",
+     "section": "champions",
+     "tags": [
+      "Tank",
+      "Fighter"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "26.13",
+   "publishedAt": "2026-06-23T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Sion",
+      "name": "Sion"
+     },
+     "part": "Q",
+     "partTitle": "Q: Impacto Aniquilador",
+     "spellKey": "SionQ",
+     "kind": "stat",
+     "attribute": "Daño mínimo",
+     "before": "40 / 60 / 80 / 100 / 120",
+     "after": "30 / 45 / 60 / 75 / 90",
+     "text": "Daño mínimo: 40 / 60 / 80 / 100 / 120 ⇒ 30 / 45 / 60 / 75 / 90",
+     "id": "dcec28a436c4",
+     "section": "champions",
+     "tags": [
+      "Tank",
+      "Fighter"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Sion",
+      "name": "Sion"
+     },
+     "part": "W",
+     "partTitle": "W: Horno del Alma",
+     "spellKey": "SionW",
+     "kind": "stat",
+     "attribute": "Maná",
+     "before": "65 / 70 / 75 / 80 / 85",
+     "after": "75 / 80 / 85 / 90 / 95",
+     "text": "Maná: 65 / 70 / 75 / 80 / 85 ⇒ 75 / 80 / 85 / 90 / 95",
+     "id": "fb78e59ed524",
+     "section": "champions",
+     "tags": [
+      "Tank",
+      "Fighter"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "26.6",
+   "publishedAt": "2026-03-17T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "ARAM: Caos",
+     "sectionId": "patch-aram:-mayhem",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Sion",
+      "name": "Sion"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": null,
+     "before": "Daño recibido: 110%",
+     "after": "100%",
+     "text": "Daño recibido: 110% ⇒ 100%",
+     "id": "6250c221a696",
+     "section": "modes",
+     "tags": [
+      "Tank",
+      "Fighter"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.23",
+   "publishedAt": "2025-11-18T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Sion",
+      "name": "Sion"
+     },
+     "part": "Q",
+     "partTitle": "Q: Impacto Aniquilador",
+     "spellKey": "SionQ",
+     "kind": "stat",
+     "attribute": "Modificador de daño contra monstruos",
+     "before": "150%",
+     "after": "165%",
+     "text": "Modificador de daño contra monstruos: 150% ⇒ 165%",
+     "id": "9873827f7ffb",
+     "section": "champions",
+     "tags": [
+      "Tank",
+      "Fighter"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.19",
+   "publishedAt": "2025-09-23T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Cambios de balance de ARAM",
+     "sectionId": "patch-aram-balance-changes",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Sion",
+      "name": "Sion"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Vida por asesinato de campeón o unidad grande de la W",
+     "before": "5",
+     "after": "8",
+     "text": "Vida por asesinato de campeón o unidad grande de la W: 5 ⇒ 8",
+     "id": "f0f632ebdcdf",
+     "section": "modes",
+     "tags": [
+      "Tank",
+      "Fighter"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Cambios de balance de ARAM",
+     "sectionId": "patch-aram-balance-changes",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Sion",
+      "name": "Sion"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Vida por unidad de la W",
+     "before": "2",
+     "after": "3",
+     "text": "Vida por unidad de la W: 2 ⇒ 3",
+     "id": "be941543ed32",
+     "section": "modes",
+     "tags": [
+      "Tank",
+      "Fighter"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Cambios de balance de ARAM",
+     "sectionId": "patch-aram-balance-changes",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Sion",
+      "name": "Sion"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Tasa de Vida de la W",
+     "before": "6% / 8% / 10% / 12% / 14%",
+     "after": "6% / 7% / 8% / 9% / 10%",
+     "text": "Tasa de Vida de la W: 6% / 8% / 10% / 12% / 14% ⇒ 6% / 7% / 8% / 9% / 10%",
+     "id": "fd3b8bc71ec9",
+     "section": "modes",
+     "tags": [
+      "Tank",
+      "Fighter"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.18",
+   "publishedAt": "2025-09-09T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones (Arena)",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Sion",
+      "name": "Sion"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "El Anillo de Fuego se mueve un poco más rápido y cubre una mayor distancia",
+     "id": "08e339d09eed",
+     "section": "modes",
+     "tags": [
+      "Tank",
+      "Fighter"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.16",
+   "publishedAt": "2025-08-12T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Sion",
+      "name": "Sion"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Redujimos la pérdida de vida de su pasiva. Aumentamos la reducción de armadura de su E. Aumentamos el daño de su R.",
+     "id": "a2c6da496e0d",
+     "section": "champions",
+     "tags": [
+      "Tank",
+      "Fighter"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Sion",
+      "name": "Sion"
+     },
+     "part": "P",
+     "partTitle": "Pasiva: Gloria en la Muerte",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Pérdida de Vida cuando se activa",
+     "before": "De 2.3 a 24.4 (según el nivel)",
+     "after": "De 2 a 19 (según el nivel)",
+     "text": "Pérdida de Vida cuando se activa: De 2.3 a 24.4 (según el nivel) ⇒ De 2 a 19 (según el nivel)",
+     "id": "0f3100984057",
+     "section": "champions",
+     "tags": [
+      "Tank",
+      "Fighter"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Sion",
+      "name": "Sion"
+     },
+     "part": "E",
+     "partTitle": "E: Rugido del Asesino",
+     "spellKey": "SionE",
+     "kind": "stat",
+     "attribute": "Reducción de Armadura",
+     "before": "20%",
+     "after": "25%",
+     "text": "Reducción de Armadura: 20% ⇒ 25%",
+     "id": "a8357ba3852a",
+     "section": "champions",
+     "tags": [
+      "Tank",
+      "Fighter"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Sion",
+      "name": "Sion"
+     },
+     "part": "R",
+     "partTitle": "R: Embestida Imparable",
+     "spellKey": "SionR",
+     "kind": "stat",
+     "attribute": "Tasa de Daño de Ataque adicional (según la cantidad de tiempo que Sion pasa desplazándose)",
+     "before": "De 40% a 80%",
+     "after": "De 60% a 120%",
+     "text": "Tasa de Daño de Ataque adicional (según la cantidad de tiempo que Sion pasa desplazándose): De 40% a 80% ⇒ De 60% a 120%",
+     "id": "e202bc873acc",
+     "section": "champions",
+     "tags": [
+      "Tank",
+      "Fighter"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.12",
+   "publishedAt": "2025-06-10T18:05:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "ARAM",
+     "sectionId": "patch-aram",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Sion",
+      "name": "Sion"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Curación por unidad o derribo de campeón de la W",
+     "before": "8",
+     "after": "5",
+     "text": "Curación por unidad o derribo de campeón de la W: 8 ⇒ 5",
+     "id": "88ab7e130312",
+     "section": "modes",
+     "tags": [
+      "Tank",
+      "Fighter"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.6",
+   "publishedAt": "2025-03-18T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Sion",
+      "name": "Sion"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "El Anillo de Fuego aparece de inmediato y tarda más en cerrarse",
+     "id": "418bdb1157e1",
+     "section": "modes",
+     "tags": [
+      "Tank",
+      "Fighter"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Sion",
+      "name": "Sion"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Cuando el Anillo de Fuego se mueva, ahora evitará los bordes de cada arena",
+     "id": "487eb7755aea",
+     "section": "modes",
+     "tags": [
+      "Tank",
+      "Fighter"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.4",
+   "publishedAt": "2025-02-19T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Sion",
+      "name": "Sion"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Aumentamos la armadura básica y la regeneración de vida.",
+     "id": "58e06f0ee061",
+     "section": "champions",
+     "tags": [
+      "Tank",
+      "Fighter"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Sion",
+      "name": "Sion"
+     },
+     "part": "base",
+     "partTitle": "Estadísticas básicas",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Armadura básica",
+     "before": "32",
+     "after": "36",
+     "text": "Armadura básica: 32 ⇒ 36",
+     "id": "8d8cfe07063c",
+     "section": "champions",
+     "tags": [
+      "Tank",
+      "Fighter"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Sion",
+      "name": "Sion"
+     },
+     "part": "base",
+     "partTitle": "Estadísticas básicas",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Regen. de Vida",
+     "before": "7.5",
+     "after": "9",
+     "text": "Regen. de Vida: 7.5 ⇒ 9",
+     "id": "ffe552d27030",
+     "section": "champions",
+     "tags": [
+      "Tank",
+      "Fighter"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  }
+ ]
+}

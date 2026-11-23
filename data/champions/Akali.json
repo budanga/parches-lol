@@ -1,0 +1,1014 @@
+{
+ "schemaVersion": 1,
+ "id": "Akali",
+ "name": "Akali",
+ "tags": [
+  "Assassin"
+ ],
+ "entries": [
+  {
+   "patch": "26.15",
+   "publishedAt": "2026-07-28T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Akali",
+      "name": "Akali"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Velocidad de Movimiento de la pasiva",
+     "before": "30 / 37.5 / 45 / 52.5 / 60%",
+     "after": "40 / 51.25 / 62.5 / 73.75 / 85%",
+     "text": "Velocidad de Movimiento de la pasiva: 30 / 37.5 / 45 / 52.5 / 60% ⇒ 40 / 51.25 / 62.5 / 73.75 / 85%",
+     "id": "7fcfa09a72f0",
+     "section": "modes",
+     "tags": [
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Akali",
+      "name": "Akali"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "W: Manto Crepuscular",
+     "id": "3d3cf268f25b",
+     "section": "modes",
+     "tags": [
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Akali",
+      "name": "Akali"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Enfriamiento",
+     "before": "15",
+     "after": "15 / 13.75 / 12.5 / 11.25 / 10",
+     "text": "Enfriamiento: 15 ⇒ 15 / 13.75 / 12.5 / 11.25 / 10",
+     "id": "1d7d83e7f81a",
+     "section": "modes",
+     "tags": [
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Akali",
+      "name": "Akali"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Restauración de Energía",
+     "before": "150",
+     "after": "200",
+     "text": "Restauración de Energía: 150 ⇒ 200",
+     "id": "9e9095335b0c",
+     "section": "modes",
+     "tags": [
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "26.12",
+   "publishedAt": "2026-06-09T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Akali",
+      "name": "Akali"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Tasa de Poder de Habilidad de la R",
+     "before": "30%",
+     "after": "40%",
+     "text": "Tasa de Poder de Habilidad de la R: 30% ⇒ 40%",
+     "id": "c05c70cac6dc",
+     "section": "modes",
+     "tags": [
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Akali",
+      "name": "Akali"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Enfriamiento de la R",
+     "before": "120/90/60",
+     "after": "90/75/60",
+     "text": "Enfriamiento de la R: 120/90/60 ⇒ 90/75/60",
+     "id": "9f491dcc9040",
+     "section": "modes",
+     "tags": [
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Akali",
+      "name": "Akali"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Brand",
+     "id": "7d263ae9d520",
+     "section": "modes",
+     "tags": [
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Akali",
+      "name": "Akali"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Duración de aturdimiento de la Q",
+     "before": "1.75 seg",
+     "after": "1.5 seg",
+     "text": "Duración de aturdimiento de la Q: 1.75 seg ⇒ 1.5 seg",
+     "id": "401271fb9288",
+     "section": "modes",
+     "tags": [
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Akali",
+      "name": "Akali"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Enfriamiento de la W",
+     "before": "10-8 seg",
+     "after": "12-10 seg",
+     "text": "Enfriamiento de la W: 10-8 seg ⇒ 12-10 seg",
+     "id": "69043f4c0449",
+     "section": "modes",
+     "tags": [
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Akali",
+      "name": "Akali"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Karthus",
+     "id": "cc21211830d3",
+     "section": "modes",
+     "tags": [
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Akali",
+      "name": "Akali"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño básico de la Q (revertido para que sea igual que en el Grieta del Invocador)",
+     "before": "60-140",
+     "after": "40-116",
+     "text": "Daño básico de la Q (revertido para que sea igual que en el Grieta del Invocador): 60-140 ⇒ 40-116",
+     "id": "f9e315f7827c",
+     "section": "modes",
+     "tags": [
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Akali",
+      "name": "Akali"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Tasa de Poder de Habilidad de la Q",
+     "before": "45%",
+     "after": "35%",
+     "text": "Tasa de Poder de Habilidad de la Q: 45% ⇒ 35%",
+     "id": "42b06a42accc",
+     "section": "modes",
+     "tags": [
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Akali",
+      "name": "Akali"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Lillia",
+     "id": "950283a8178f",
+     "section": "modes",
+     "tags": [
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Akali",
+      "name": "Akali"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Velocidad de Movimiento por acumulación de la Q",
+     "before": "3%-7%",
+     "after": "2%-6%",
+     "text": "Velocidad de Movimiento por acumulación de la Q: 3%-7% ⇒ 2%-6%",
+     "id": "32f4082c51c2",
+     "section": "modes",
+     "tags": [
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Akali",
+      "name": "Akali"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Nocturne",
+     "id": "2cee5632d389",
+     "section": "modes",
+     "tags": [
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Akali",
+      "name": "Akali"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Enfriamiento de la Pasiva",
+     "before": "12",
+     "after": "9 seg",
+     "text": "Enfriamiento de la Pasiva: 12 ⇒ 9 seg",
+     "id": "93284fee2c0e",
+     "section": "modes",
+     "tags": [
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Akali",
+      "name": "Akali"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Enfriamiento de la W",
+     "before": "20-12 seg",
+     "after": "18-10 seg",
+     "text": "Enfriamiento de la W: 20-12 seg ⇒ 18-10 seg",
+     "id": "67ee8f5bbf68",
+     "section": "modes",
+     "tags": [
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Akali",
+      "name": "Akali"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Pyke",
+     "id": "73ba29a9bd50",
+     "section": "modes",
+     "tags": [
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Akali",
+      "name": "Akali"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Enfriamiento de la W",
+     "before": "14-10 seg",
+     "after": "12-8 seg",
+     "text": "Enfriamiento de la W: 14-10 seg ⇒ 12-8 seg",
+     "id": "7cf9c11c519c",
+     "section": "modes",
+     "tags": [
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Akali",
+      "name": "Akali"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Quinn",
+     "id": "2daaa7e3a3ed",
+     "section": "modes",
+     "tags": [
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Akali",
+      "name": "Akali"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Velocidad de Ataque de la W",
+     "before": "30%-70%",
+     "after": "28-80%",
+     "text": "Velocidad de Ataque de la W: 30%-70% ⇒ 28-80%",
+     "id": "12930437b1bf",
+     "section": "modes",
+     "tags": [
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Akali",
+      "name": "Akali"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Enfriamiento de la W",
+     "before": "20-10 seg",
+     "after": "14-10 seg",
+     "text": "Enfriamiento de la W: 20-10 seg ⇒ 14-10 seg",
+     "id": "9ca3ae7419db",
+     "section": "modes",
+     "tags": [
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Akali",
+      "name": "Akali"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Talon",
+     "id": "c3fefdfa1744",
+     "section": "modes",
+     "tags": [
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Akali",
+      "name": "Akali"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Enfriamiento del muro de la E",
+     "before": "26-6 seg",
+     "after": "16-0 seg",
+     "text": "Enfriamiento del muro de la E: 26-6 seg ⇒ 16-0 seg",
+     "id": "cc35bb087dcf",
+     "section": "modes",
+     "tags": [
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "26.5",
+   "publishedAt": "2026-03-03T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Akali",
+      "name": "Akali"
+     },
+     "part": "W",
+     "partTitle": "W: Manto Crepuscular",
+     "spellKey": "AkaliW",
+     "kind": "stat",
+     "attribute": "Temporizador de sigilo",
+     "before": "1 seg / 0.9 seg / 0.825 seg / 0.725 seg / 0.625 seg después de tu último ataque o habilidad (en los minutos 0:00 / 8:00 / 11:00 / 20:00 / 30:00 de la partida)",
+     "after": "1 seg / 0.9 seg / 0.825 seg / 0.725 seg / 0.625 seg (en los niveles 1 / 7 / 10 / 13 / 16)",
+     "text": "Temporizador de sigilo: 1 seg / 0.9 seg / 0.825 seg / 0.725 seg / 0.625 seg después de tu último ataque o habilidad (en los minutos 0:00 / 8:00 / 11:00 / 20:00 / 30:00 de la partida) ⇒ 1 seg / 0.9 seg / 0.825 seg / 0.725 seg / 0.625 seg (en los niveles 1 / 7 / 10 / 13 / 16)",
+     "id": "b41590d30c13",
+     "section": "champions",
+     "tags": [
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.20",
+   "publishedAt": "2025-10-07T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Bots Apocalípticos",
+     "sectionId": "patch-doom-bots",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Akali",
+      "name": "Akali"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño infligido",
+     "before": "100%",
+     "after": "110%",
+     "text": "Daño infligido: 100% ⇒ 110%",
+     "id": "a788a15d6457",
+     "section": "modes",
+     "tags": [
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Bots Apocalípticos",
+     "sectionId": "patch-doom-bots",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Akali",
+      "name": "Akali"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño recibido",
+     "before": "100%",
+     "after": "95%",
+     "text": "Daño recibido: 100% ⇒ 95%",
+     "id": "54a4feb22998",
+     "section": "modes",
+     "tags": [
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.19",
+   "publishedAt": "2025-09-23T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Cambios de balance de ARAM",
+     "sectionId": "patch-aram-balance-changes",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Akali",
+      "name": "Akali"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Enfriamiento de la R",
+     "before": "120 / 90 / 60 seg",
+     "after": "90 / 75 / 60 seg",
+     "text": "Enfriamiento de la R: 120 / 90 / 60 seg ⇒ 90 / 75 / 60 seg",
+     "id": "e18c72e3b1f6",
+     "section": "modes",
+     "tags": [
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.15",
+   "publishedAt": "2025-07-29T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Cambios de balance de ARAM",
+     "sectionId": "patch-aram-balance-changes",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Akali",
+      "name": "Akali"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño infligido",
+     "before": "-5%",
+     "after": "0%",
+     "text": "Daño infligido: -5% ⇒ 0%",
+     "id": "25a1c7878df3",
+     "section": "modes",
+     "tags": [
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Cambios de balance de ARAM",
+     "sectionId": "patch-aram-balance-changes",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Akali",
+      "name": "Akali"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño recibido",
+     "before": "10%",
+     "after": "5%",
+     "text": "Daño recibido: 10% ⇒ 5%",
+     "id": "b678916fa48c",
+     "section": "modes",
+     "tags": [
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Cambios de balance de ARAM",
+     "sectionId": "patch-aram-balance-changes",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Akali",
+      "name": "Akali"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Tasa de Poder de Habilidad de la pasiva",
+     "before": "55%",
+     "after": "65%",
+     "text": "Tasa de Poder de Habilidad de la pasiva: 55% ⇒ 65%",
+     "id": "4e3d6f6b21d9",
+     "section": "modes",
+     "tags": [
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Cambios de balance de ARAM",
+     "sectionId": "patch-aram-balance-changes",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Akali",
+      "name": "Akali"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Tasa de Poder de Habilidad de la Q",
+     "before": "60%",
+     "after": "70%",
+     "text": "Tasa de Poder de Habilidad de la Q: 60% ⇒ 70%",
+     "id": "103a15db9a7d",
+     "section": "modes",
+     "tags": [
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Cambios de balance de ARAM",
+     "sectionId": "patch-aram-balance-changes",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Akali",
+      "name": "Akali"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Tasa de Poder de Habilidad de la R1",
+     "before": "30%",
+     "after": "40%",
+     "text": "Tasa de Poder de Habilidad de la R1: 30% ⇒ 40%",
+     "id": "31c26ba56698",
+     "section": "modes",
+     "tags": [
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Cambios de balance de ARAM",
+     "sectionId": "patch-aram-balance-changes",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Akali",
+      "name": "Akali"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Tasa de Poder de Habilidad de la R2",
+     "before": "30%",
+     "after": "40%",
+     "text": "Tasa de Poder de Habilidad de la R2: 30% ⇒ 40%",
+     "id": "72c09cc9ea95",
+     "section": "modes",
+     "tags": [
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.11",
+   "publishedAt": "2025-05-27T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Pelea",
+     "sectionId": "patch-brawl",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Akali",
+      "name": "Akali"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Enfriamiento de la R",
+     "before": "120 / 90 / 60",
+     "after": "90 / 70 / 50",
+     "text": "Enfriamiento de la R: 120 / 90 / 60 ⇒ 90 / 70 / 50",
+     "id": "8a2e3574782a",
+     "section": "modes",
+     "tags": [
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Pelea",
+     "sectionId": "patch-brawl",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Akali",
+      "name": "Akali"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño recibido",
+     "before": "100%",
+     "after": "95%",
+     "text": "Daño recibido: 100% ⇒ 95%",
+     "id": "5c0d65476692",
+     "section": "modes",
+     "tags": [
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Pelea",
+     "sectionId": "patch-brawl",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Akali",
+      "name": "Akali"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Aceleración de Habilidad",
+     "before": "0",
+     "after": "10",
+     "text": "Aceleración de Habilidad: 0 ⇒ 10",
+     "id": "a47789f0ce7d",
+     "section": "modes",
+     "tags": [
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  }
+ ]
+}

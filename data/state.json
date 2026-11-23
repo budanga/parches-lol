@@ -1,0 +1,193 @@
+{
+ "parserVersion": 4,
+ "patches": {
+  "26.23": {
+   "url": "https://www.leagueoflegends.com/es-mx/news/game-updates/league-of-legends-patch-26-23-notes/",
+   "rev": "pHSm8AweEFyFTPghG7f3NL"
+  },
+  "26.22": {
+   "url": "https://www.leagueoflegends.com/es-mx/news/game-updates/league-of-legends-patch-26-22-notes/",
+   "rev": "XwQu00x8VSJRqtJLR8laej"
+  },
+  "26.21": {
+   "url": "https://www.leagueoflegends.com/es-mx/news/game-updates/league-of-legends-patch-26-21-notes/",
+   "rev": "eYJ2g8xbeZWsHY6DyXzKMB"
+  },
+  "26.20": {
+   "url": "https://www.leagueoflegends.com/es-mx/news/game-updates/league-of-legends-patch-26-20-notes/",
+   "rev": "XZ7idoHNGFc6ilWchGwTc2"
+  },
+  "26.19": {
+   "url": "https://www.leagueoflegends.com/es-mx/news/game-updates/league-of-legends-patch-26-19-notes/",
+   "rev": "5Qqn1BHjpykeOOQTvvZ7W3"
+  },
+  "26.18": {
+   "url": "https://www.leagueoflegends.com/es-mx/news/game-updates/league-of-legends-patch-26-18-notes/",
+   "rev": "Tm7RFznjAhQN8xNJeNeOQo"
+  },
+  "26.17": {
+   "url": "https://www.leagueoflegends.com/es-mx/news/game-updates/league-of-legends-patch-26-17-notes/",
+   "rev": "Z9BeWME1u945Zrm5ymEvPl"
+  },
+  "26.16": {
+   "url": "https://www.leagueoflegends.com/es-mx/news/game-updates/league-of-legends-patch-26-16-notes/",
+   "rev": "IXkUD6YbqhSzZ9MGAPwzpI"
+  },
+  "26.15": {
+   "url": "https://www.leagueoflegends.com/es-mx/news/game-updates/league-of-legends-patch-26-15-notes/",
+   "rev": "xOUhMZ9vc49S6GmzdmM1Oo"
+  },
+  "26.14": {
+   "url": "https://www.leagueoflegends.com/es-mx/news/game-updates/league-of-legends-patch-26-14-notes/",
+   "rev": "6K3bjJFNNhNn3BbFEFSVeH"
+  },
+  "26.13": {
+   "url": "https://www.leagueoflegends.com/es-mx/news/game-updates/league-of-legends-patch-26-13-notes/",
+   "rev": "CwTeWlL4J3e1jBCzpixDf6"
+  },
+  "26.12": {
+   "url": "https://www.leagueoflegends.com/es-mx/news/game-updates/league-of-legends-patch-26-12-notes/",
+   "rev": "CwTeWlL4J3e1jBCzpivxnE"
+  },
+  "26.11": {
+   "url": "https://www.leagueoflegends.com/es-mx/news/game-updates/league-of-legends-patch-26-11-notes/",
+   "rev": "WUkItk3MG6LS0iMWdk6n19"
+  },
+  "26.10": {
+   "url": "https://www.leagueoflegends.com/es-mx/news/game-updates/league-of-legends-patch-26-10-notes/",
+   "rev": "WUkItk3MG6LS0iMWdk3vQp"
+  },
+  "26.9": {
+   "url": "https://www.leagueoflegends.com/es-mx/news/game-updates/league-of-legends-patch-26-9-notes/",
+   "rev": "YcA5WSLAmTmULVpZA42v0k"
+  },
+  "26.8": {
+   "url": "https://www.leagueoflegends.com/es-mx/news/game-updates/league-of-legends-patch-26-8-notes/",
+   "rev": "YcA5WSLAmTmULVpZA48kHP"
+  },
+  "26.7": {
+   "url": "https://www.leagueoflegends.com/es-mx/news/game-updates/league-of-legends-patch-26-7-notes/",
+   "rev": "xCAnvxyRtQHtdJVDMt5FUh"
+  },
+  "26.6": {
+   "url": "https://www.leagueoflegends.com/es-mx/news/game-updates/league-of-legends-patch-26-6-notes/",
+   "rev": "WUkItk3MG6LS0iMWdkBhLJ"
+  },
+  "26.5": {
+   "url": "https://www.leagueoflegends.com/es-mx/news/game-updates/league-of-legends-patch-26-5-notes/",
+   "rev": "WUkItk3MG6LS0iMWdk4b9D"
+  },
+  "26.4": {
+   "url": "https://www.leagueoflegends.com/es-mx/news/game-updates/league-of-legends-patch-26-4-notes/",
+   "rev": "WUkItk3MG6LS0iMWdk3HTV"
+  },
+  "26.3": {
+   "url": "https://www.leagueoflegends.com/es-mx/news/game-updates/patch-26-3-notes/",
+   "rev": "WUkItk3MG6LS0iMWdkDh9N"
+  },
+  "26.2": {
+   "url": "https://www.leagueoflegends.com/es-mx/news/game-updates/patch-26-2-notes/",
+   "rev": "I6kxhdTbzMjOE4Y1tQp0D3"
+  },
+  "26.1": {
+   "url": "https://www.leagueoflegends.com/es-mx/news/game-updates/patch-26-1-notes/",
+   "rev": "YcA5WSLAmTmULVpZA45qXA"
+  },
+  "25.24": {
+   "url": "https://www.leagueoflegends.com/es-mx/news/game-updates/patch-25-24-notes/",
+   "rev": "YcA5WSLAmTmULVpZA4B4cG"
+  },
+  "25.23": {
+   "url": "https://www.leagueoflegends.com/es-mx/news/game-updates/patch-25-23-notes/",
+   "rev": "WUkItk3MG6LS0iMWdk7OIH"
+  },
+  "25.22": {
+   "url": "https://www.leagueoflegends.com/es-mx/news/game-updates/patch-25-22-notes/",
+   "rev": "wcF0J7hsRskGUKiR1THLuf"
+  },
+  "25.21": {
+   "url": "https://www.leagueoflegends.com/es-mx/news/game-updates/patch-25-21-notes/",
+   "rev": "CwTeWlL4J3e1jBCzpivgaO"
+  },
+  "25.20": {
+   "url": "https://www.leagueoflegends.com/es-mx/news/game-updates/patch-25-20-notes/",
+   "rev": "CwTeWlL4J3e1jBCzpiwfTM"
+  },
+  "25.19": {
+   "url": "https://www.leagueoflegends.com/es-mx/news/game-updates/patch-25-19-notes/",
+   "rev": "YcA5WSLAmTmULVpZA4AEon"
+  },
+  "25.18": {
+   "url": "https://www.leagueoflegends.com/es-mx/news/game-updates/patch-25-18-notes/",
+   "rev": "YcA5WSLAmTmULVpZA49vfK"
+  },
+  "25.17": {
+   "url": "https://www.leagueoflegends.com/es-mx/news/game-updates/patch-25-17-notes/",
+   "rev": "CwTeWlL4J3e1jBCzpiukfg"
+  },
+  "25.16": {
+   "url": "https://www.leagueoflegends.com/es-mx/news/game-updates/patch-25-16-notes/",
+   "rev": "CwTeWlL4J3e1jBCzpivgaO"
+  },
+  "25.15": {
+   "url": "https://www.leagueoflegends.com/es-mx/news/game-updates/patch-25-15-notes/",
+   "rev": "TeEIVyKq3Jv5lNABNNckaW"
+  },
+  "25.14": {
+   "url": "https://www.leagueoflegends.com/es-mx/news/game-updates/patch-25-14-notes/",
+   "rev": "CwTeWlL4J3e1jBCzpiuVpw"
+  },
+  "25.13": {
+   "url": "https://www.leagueoflegends.com/es-mx/news/game-updates/patch-25-13-notes/",
+   "rev": "YcA5WSLAmTmULVpZA43B4Q"
+  },
+  "25.12": {
+   "url": "https://www.leagueoflegends.com/es-mx/news/game-updates/patch-25-12-notes/",
+   "rev": "CwTeWlL4J3e1jBCzpivriy"
+  },
+  "25.11": {
+   "url": "https://www.leagueoflegends.com/es-mx/news/game-updates/patch-25-11-notes/",
+   "rev": "YcA5WSLAmTmULVpZA44LP3"
+  },
+  "25.10": {
+   "url": "https://www.leagueoflegends.com/es-mx/news/game-updates/patch-25-10-notes/",
+   "rev": "YcA5WSLAmTmULVpZA43B4Q"
+  },
+  "25.9": {
+   "url": "https://www.leagueoflegends.com/es-mx/news/game-updates/patch-25-09-notes/",
+   "rev": "CwTeWlL4J3e1jBCzpiudmK"
+  },
+  "25.8": {
+   "url": "https://www.leagueoflegends.com/es-mx/news/game-updates/patch-25-08-notes/",
+   "rev": "WUkItk3MG6LS0iMWdkCTG1"
+  },
+  "25.7": {
+   "url": "https://www.leagueoflegends.com/es-mx/news/game-updates/patch-25-07-notes/",
+   "rev": "WUkItk3MG6LS0iMWdkCFgf"
+  },
+  "25.6": {
+   "url": "https://www.leagueoflegends.com/es-mx/news/game-updates/patch-25-06-notes/",
+   "rev": "YcA5WSLAmTmULVpZA45Y2V"
+  },
+  "25.5": {
+   "url": "https://www.leagueoflegends.com/es-mx/news/game-updates/patch-25-05-notes/",
+   "rev": "YcA5WSLAmTmULVpZA46GX1"
+  },
+  "25.4": {
+   "url": "https://www.leagueoflegends.com/es-mx/news/game-updates/patch-25-04-notes/",
+   "rev": "CwTeWlL4J3e1jBCzpivgaO"
+  },
+  "25.S1.3": {
+   "url": "https://www.leagueoflegends.com/es-mx/news/game-updates/patch-2025-s1-3-notes/",
+   "rev": "CwTeWlL4J3e1jBCzpiwvCq"
+  },
+  "25.S1.2": {
+   "url": "https://www.leagueoflegends.com/es-mx/news/game-updates/patch-25-s1-2-notes/",
+   "rev": "WUkItk3MG6LS0iMWdk2iXn"
+  },
+  "25.S1.1": {
+   "url": "https://www.leagueoflegends.com/es-mx/news/game-updates/patch-25-s1-1-notes/",
+   "rev": "YcA5WSLAmTmULVpZA44LP3"
+  }
+ }
+}

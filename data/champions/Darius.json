@@ -1,0 +1,365 @@
+{
+ "schemaVersion": 1,
+ "id": "Darius",
+ "name": "Darius",
+ "tags": [
+  "Fighter",
+  "Tank"
+ ],
+ "entries": [
+  {
+   "patch": "26.21",
+   "publishedAt": "2026-10-20T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Darius",
+      "name": "Darius"
+     },
+     "part": "Q",
+     "partTitle": "Q: Diezmar",
+     "spellKey": "DariusCleave",
+     "kind": "stat",
+     "attribute": "Enfriamiento",
+     "before": "9 / 8 / 7 / 6 / 5 seg",
+     "after": "9 / 8 / 7 / 6 / 4 seg",
+     "text": "Enfriamiento: 9 / 8 / 7 / 6 / 5 seg ⇒ 9 / 8 / 7 / 6 / 4 seg",
+     "id": "836a66ddc08b",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "26.4",
+   "publishedAt": "2026-02-18T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Darius",
+      "name": "Darius"
+     },
+     "part": "P",
+     "partTitle": "Pasiva: Hemorragia",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño contra monstruos",
+     "before": "2x",
+     "after": "2.5x",
+     "text": "Daño contra monstruos: 2x ⇒ 2.5x",
+     "id": "49e93fbe50cc",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.14",
+   "publishedAt": "2025-07-15T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Darius",
+      "name": "Darius"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Aumentamos la curación de su Q.",
+     "id": "66e926d8a06a",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Darius",
+      "name": "Darius"
+     },
+     "part": "Q",
+     "partTitle": "Q: Diezmar",
+     "spellKey": "DariusCleave",
+     "kind": "stat",
+     "attribute": "Vida faltante como curación",
+     "before": "15% / 30% / 45% (1 / 2 / 3 o más objetivos)",
+     "after": "17% / 34% / 51% (1 / 2 / 3 o más objetivos)",
+     "text": "Vida faltante como curación: 15% / 30% / 45% (1 / 2 / 3 o más objetivos) ⇒ 17% / 34% / 51% (1 / 2 / 3 o más objetivos)",
+     "id": "3d8d5ffb203b",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.7",
+   "publishedAt": "2025-04-01T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Darius",
+      "name": "Darius"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Redujimos su armadura básica. Aumentamos el enfriamiento de su E.",
+     "id": "a3a8d884fb9f",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Darius",
+      "name": "Darius"
+     },
+     "part": "base",
+     "partTitle": "Estadísticas básicas",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Armadura",
+     "before": "39",
+     "after": "37",
+     "text": "Armadura: 39 ⇒ 37",
+     "id": "d2ba8d0b4d32",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Darius",
+      "name": "Darius"
+     },
+     "part": "E",
+     "partTitle": "E: Aprehender",
+     "spellKey": "DariusAxeGrabCone",
+     "kind": "stat",
+     "attribute": "Enfriamiento",
+     "before": "24 / 21.5 / 19 / 16.5 / 14",
+     "after": "26 / 23.5 / 21 / 18.5 / 16",
+     "text": "Enfriamiento: 24 / 21.5 / 19 / 16.5 / 14 ⇒ 26 / 23.5 / 21 / 18.5 / 16",
+     "id": "827eb6bc21ab",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.6",
+   "publishedAt": "2025-03-18T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Darius",
+      "name": "Darius"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Redujimos el daño de su pasiva contra monstruos.",
+     "id": "786588c67ebe",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Darius",
+      "name": "Darius"
+     },
+     "part": "P",
+     "partTitle": "Pasiva: Hemorragia",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Modificador de daño contra monstruos",
+     "before": "300%",
+     "after": "200%",
+     "text": "Modificador de daño contra monstruos: 300% ⇒ 200%",
+     "id": "7125f5006370",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Darius",
+      "name": "Darius"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": null,
+     "before": "En la selección: Reduce la Vida de todos en 50",
+     "after": "Reduce la Vida de todos a 50",
+     "text": "En la selección: Reduce la Vida de todos en 50 ⇒ Reduce la Vida de todos a 50",
+     "id": "d80d789ced09",
+     "section": "modes",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Darius",
+      "name": "Darius"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "En la selección: Actualiza el enfriamiento de Destello de un round al activarse",
+     "id": "d58c2181775e",
+     "section": "modes",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Darius",
+      "name": "Darius"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Al eliminar a un equipo: Ahora otorga 500 de oro además de los 5 de Vida obtenidos",
+     "id": "8ee5ac060e26",
+     "section": "modes",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  }
+ ]
+}

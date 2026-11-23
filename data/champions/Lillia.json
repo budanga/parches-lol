@@ -1,0 +1,572 @@
+{
+ "schemaVersion": 1,
+ "id": "Lillia",
+ "name": "Lillia",
+ "tags": [
+  "Fighter",
+  "Mage"
+ ],
+ "entries": [
+  {
+   "patch": "26.20",
+   "publishedAt": "2026-10-06T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Lillia",
+      "name": "Lillia"
+     },
+     "part": "R",
+     "partTitle": "R: Arrullo Rítmico",
+     "spellKey": "LilliaR",
+     "kind": "stat",
+     "attribute": "Duración",
+     "before": "2.5 seg",
+     "after": "2.5 / 2.75 / 3 seg",
+     "text": "Duración: 2.5 seg ⇒ 2.5 / 2.75 / 3 seg",
+     "id": "e502518997f3",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Mage"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "26.19",
+   "publishedAt": "2026-09-22T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Lillia",
+      "name": "Lillia"
+     },
+     "part": "base",
+     "partTitle": "Estadísticas base",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Armadura",
+     "before": "22",
+     "after": "24",
+     "text": "Armadura: 22 ⇒ 24",
+     "id": "ab3a37e3ab1e",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Mage"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Lillia",
+      "name": "Lillia"
+     },
+     "part": "R",
+     "partTitle": "R: Arrullo Rítmico",
+     "spellKey": "LilliaR",
+     "kind": "stat",
+     "attribute": "Duración de campeones dormidos",
+     "before": "2 seg",
+     "after": "2.5 seg",
+     "text": "Duración de campeones dormidos: 2 seg ⇒ 2.5 seg",
+     "id": "c2f49aadc3fa",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Mage"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "26.8",
+   "publishedAt": "2026-04-14T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Lillia",
+      "name": "Lillia"
+     },
+     "part": "P",
+     "partTitle": "Pasiva: Rama de los Sueños",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Límite de daño contra monstruos",
+     "before": "65",
+     "after": "De 70 a 180 (según el nivel)",
+     "text": "Límite de daño contra monstruos: 65 ⇒ De 70 a 180 (según el nivel)",
+     "id": "9331f4f3ddbd",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "26.5",
+   "publishedAt": "2026-03-03T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Lillia",
+      "name": "Lillia"
+     },
+     "part": "P",
+     "partTitle": "Pasiva: Rama de los Sueños",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Tasa de curación adicional de Poder de Habilidad contra monstruos",
+     "before": "9%",
+     "after": "15%",
+     "text": "Tasa de curación adicional de Poder de Habilidad contra monstruos: 9% ⇒ 15%",
+     "id": "160aa9d0329e",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Lillia",
+      "name": "Lillia"
+     },
+     "part": "Q",
+     "partTitle": "Q: Golpes Florecedores",
+     "spellKey": "LilliaQ",
+     "kind": "stat",
+     "attribute": "Tasa de Poder de Habilidad adicional",
+     "before": "30%",
+     "after": "35%",
+     "text": "Tasa de Poder de Habilidad adicional: 30% ⇒ 35%",
+     "id": "249727f6419e",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Lillia",
+      "name": "Lillia"
+     },
+     "part": "R",
+     "partTitle": "R: Arrullo Rítmico",
+     "spellKey": "LilliaR",
+     "kind": "stat",
+     "attribute": "Daño básico",
+     "before": "100 / 150 / 200",
+     "after": "150 / 200 / 250",
+     "text": "Daño básico: 100 / 150 / 200 ⇒ 150 / 200 / 250",
+     "id": "9ee46a385c34",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Lillia",
+      "name": "Lillia"
+     },
+     "part": "R",
+     "partTitle": "R: Arrullo Rítmico",
+     "spellKey": "LilliaR",
+     "kind": "stat",
+     "attribute": "Tasa de Poder de Habilidad",
+     "before": "45%",
+     "after": "40%",
+     "text": "Tasa de Poder de Habilidad: 45% ⇒ 40%",
+     "id": "d6757fe19103",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Mage"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Lillia",
+      "name": "Lillia"
+     },
+     "part": "R",
+     "partTitle": "R: Arrullo Rítmico",
+     "spellKey": "LilliaR",
+     "kind": "stat",
+     "attribute": "Enfriamiento",
+     "before": "150 / 130 / 110",
+     "after": "140 / 120 / 100",
+     "text": "Enfriamiento: 150 / 130 / 110 ⇒ 140 / 120 / 100",
+     "id": "4bb48833865d",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "26.2",
+   "publishedAt": "2026-01-21T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Lillia",
+      "name": "Lillia"
+     },
+     "part": "P",
+     "partTitle": "Pasiva: Rama de los Sueños",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Curación al atacar monstruos grandes",
+     "before": "39 (+ 15% de Poder de Habilidad)",
+     "after": "39 (+ 9% de Poder de Habilidad)",
+     "text": "Curación al atacar monstruos grandes: 39 (+ 15% de Poder de Habilidad) ⇒ 39 (+ 9% de Poder de Habilidad)",
+     "id": "cbb0a07eb68e",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Lillia",
+      "name": "Lillia"
+     },
+     "part": "Q",
+     "partTitle": "Q: Golpes Florecedores",
+     "spellKey": "LilliaQ",
+     "kind": "stat",
+     "attribute": "Tasa de Poder de Habilidad",
+     "before": "35% de Poder de Habilidad",
+     "after": "30% de Poder de Habilidad",
+     "text": "Tasa de Poder de Habilidad: 35% de Poder de Habilidad ⇒ 30% de Poder de Habilidad",
+     "id": "dcf485c98304",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.19",
+   "publishedAt": "2025-09-23T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Lillia",
+      "name": "Lillia"
+     },
+     "part": "R",
+     "partTitle": "R: Arrullo Rítmico",
+     "spellKey": "LilliaR",
+     "kind": "stat",
+     "attribute": "Daño adicional",
+     "before": "100 / 150 / 200 (+ 40% de Poder de Habilidad)",
+     "after": "150 / 200 / 250 (+ 45% de Poder de Habilidad)",
+     "text": "Daño adicional: 100 / 150 / 200 (+ 40% de Poder de Habilidad) ⇒ 150 / 200 / 250 (+ 45% de Poder de Habilidad)",
+     "id": "2d1b2d43f79c",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Lillia",
+      "name": "Lillia"
+     },
+     "part": "R",
+     "partTitle": "R: Arrullo Rítmico",
+     "spellKey": "LilliaR",
+     "kind": "stat",
+     "attribute": "Enfriamiento",
+     "before": "150 / 130 / 110 seg",
+     "after": "140 / 120 / 100 seg",
+     "text": "Enfriamiento: 150 / 130 / 110 seg ⇒ 140 / 120 / 100 seg",
+     "id": "d5408a55302d",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Mage"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.7",
+   "publishedAt": "2025-04-01T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Lillia",
+      "name": "Lillia"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Redujimos el daño de su E.",
+     "id": "fae3f4f22377",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Lillia",
+      "name": "Lillia"
+     },
+     "part": "E",
+     "partTitle": "E: Semilla Remolino",
+     "spellKey": "LilliaE",
+     "kind": "stat",
+     "attribute": "Daño",
+     "before": "60 / 85 / 110 / 135 / 160 (+ 60% de Poder de Habilidad)",
+     "after": "60 / 85 / 110 / 135 / 160 (+ 50% de Poder de Habilidad)",
+     "text": "Daño: 60 / 85 / 110 / 135 / 160 (+ 60% de Poder de Habilidad) ⇒ 60 / 85 / 110 / 135 / 160 (+ 50% de Poder de Habilidad)",
+     "id": "0854d047b75d",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "ARAM",
+     "sectionId": "patch-aram",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Lillia",
+      "name": "Lillia"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Enfriamiento de E",
+     "before": "18",
+     "after": "18 / 17 / 16 / 15 / 14",
+     "text": "Enfriamiento de E: 18 ⇒ 18 / 17 / 16 / 15 / 14",
+     "id": "d810a38515a2",
+     "section": "modes",
+     "tags": [
+      "Fighter",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.6",
+   "publishedAt": "2025-03-18T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Lillia",
+      "name": "Lillia"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Redujimos el enfriamiento de su E y aumentamos su progreso.",
+     "id": "828ef5abdc8d",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Lillia",
+      "name": "Lillia"
+     },
+     "part": "E",
+     "partTitle": "E: Semilla Remolino",
+     "spellKey": "LilliaE",
+     "kind": "stat",
+     "attribute": "Enfriamiento",
+     "before": "14 seg",
+     "after": "12 seg",
+     "text": "Enfriamiento: 14 seg ⇒ 12 seg",
+     "id": "956f3e586093",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Mage"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Lillia",
+      "name": "Lillia"
+     },
+     "part": "E",
+     "partTitle": "E: Semilla Remolino",
+     "spellKey": "LilliaE",
+     "kind": "stat",
+     "attribute": "Daño",
+     "before": "60 / 85 / 110 / 135 / 160 (+ 50% de Poder de Habilidad)",
+     "after": "60 / 85 / 110 / 135 / 160 (+ 60% de Poder de Habilidad)",
+     "text": "Daño: 60 / 85 / 110 / 135 / 160 (+ 50% de Poder de Habilidad) ⇒ 60 / 85 / 110 / 135 / 160 (+ 60% de Poder de Habilidad)",
+     "id": "e8f02b1c6111",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  }
+ ]
+}

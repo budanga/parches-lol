@@ -1,0 +1,908 @@
+{
+ "schemaVersion": 1,
+ "id": "Hwei",
+ "name": "Hwei",
+ "tags": [
+  "Mage",
+  "Support"
+ ],
+ "entries": [
+  {
+   "patch": "26.15",
+   "publishedAt": "2026-07-28T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "ARAM: Caos",
+     "sectionId": "patch-aram:-mayhem",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Hwei",
+      "name": "Hwei"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño infligido a súbditos",
+     "before": "60%",
+     "after": "100%",
+     "text": "Daño infligido a súbditos: 60% ⇒ 100%",
+     "id": "0e65fab22baf",
+     "section": "modes",
+     "tags": [
+      "Mage",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "26.12",
+   "publishedAt": "2026-06-09T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Hwei",
+      "name": "Hwei"
+     },
+     "part": "Q",
+     "partTitle": "Q: Tema: Desastre",
+     "spellKey": "HweiQ",
+     "kind": "stat",
+     "attribute": "Daño de la QQ",
+     "before": "50 / 80 / 110 / 140 / 170 (+70% de Poder de Habilidad) (+3 / 4 / 5 / 6 / 7% de la Vida Máx. del objetivo)",
+     "after": "50 / 80 / 110 / 140 / 170 (+80% de Poder de Habilidad) (+3 / 4 / 5 / 6 / 7% de la Vida Máx. del objetivo)",
+     "text": "Daño de la QQ: 50 / 80 / 110 / 140 / 170 (+70% de Poder de Habilidad) (+3 / 4 / 5 / 6 / 7% de la Vida Máx. del objetivo) ⇒ 50 / 80 / 110 / 140 / 170 (+80% de Poder de Habilidad) (+3 / 4 / 5 / 6 / 7% de la Vida Máx. del objetivo)",
+     "id": "d7b31dbb0d83",
+     "section": "champions",
+     "tags": [
+      "Mage",
+      "Support"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Hwei",
+      "name": "Hwei"
+     },
+     "part": "Q",
+     "partTitle": "Q: Tema: Desastre",
+     "spellKey": "HweiQ",
+     "kind": "stat",
+     "attribute": "Daño de la QW",
+     "before": "60 / 85 / 110 / 135 / 160 (+25% de Poder de Habilidad), aumentado hasta 120 / 201.875 / 302.5 / 421.875 / 560 (+50 / 59.375 / 68.75 / 78.125 / 87.5% de Poder de Habilidad)",
+     "after": "60 / 85 / 110 / 135 / 160 (+30% de Poder de Habilidad), aumentado hasta 120 / 201.875 / 302.5 / 421.875 / 560 (+60 / 71.25 / 82.5 / 93.75 / 105% de Poder de Habilidad)",
+     "text": "Daño de la QW: 60 / 85 / 110 / 135 / 160 (+25% de Poder de Habilidad), aumentado hasta 120 / 201.875 / 302.5 / 421.875 / 560 (+50 / 59.375 / 68.75 / 78.125 / 87.5% de Poder de Habilidad) ⇒ 60 / 85 / 110 / 135 / 160 (+30% de Poder de Habilidad), aumentado hasta 120 / 201.875 / 302.5 / 421.875 / 560 (+60 / 71.25 / 82.5 / 93.75 / 105% de Poder de Habilidad)",
+     "id": "9a6179fb3d88",
+     "section": "champions",
+     "tags": [
+      "Mage",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Hwei",
+      "name": "Hwei"
+     },
+     "part": "Q",
+     "partTitle": "Q: Tema: Desastre",
+     "spellKey": "HweiQ",
+     "kind": "stat",
+     "attribute": "Ralentización de QE",
+     "before": "30%",
+     "after": "35%",
+     "text": "Ralentización de QE: 30% ⇒ 35%",
+     "id": "51a221a515a3",
+     "section": "champions",
+     "tags": [
+      "Mage",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Hwei",
+      "name": "Hwei"
+     },
+     "part": "E",
+     "partTitle": "E: Tema: Tormento",
+     "spellKey": "HweiQ",
+     "kind": "stat",
+     "attribute": "Enfriamiento",
+     "before": "13 / 12.5 / 12 / 11.5 / 11 seg",
+     "after": "12 / 11.5 / 11 / 10.5 / 10 seg",
+     "text": "Enfriamiento: 13 / 12.5 / 12 / 11.5 / 11 seg ⇒ 12 / 11.5 / 11 / 10.5 / 10 seg",
+     "id": "f2493eb09f76",
+     "section": "champions",
+     "tags": [
+      "Mage",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "26.8",
+   "publishedAt": "2026-04-14T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Hwei",
+      "name": "Hwei"
+     },
+     "part": "P",
+     "partTitle": "Pasiva: Firma del Visionario",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño base",
+     "before": "De 35 a 230 (niveles 1 a 18)",
+     "after": "De 40 a 285 (niveles 1 a 18)",
+     "text": "Daño base: De 35 a 230 (niveles 1 a 18) ⇒ De 40 a 285 (niveles 1 a 18)",
+     "id": "37d5dc469867",
+     "section": "champions",
+     "tags": [
+      "Mage",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Hwei",
+      "name": "Hwei"
+     },
+     "part": "P",
+     "partTitle": "Pasiva: Firma del Visionario",
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Combinación de ralentizaciones: Las ralentizaciones de las habilidades de Hwei ahora se acumulan con valores decrecientes.",
+     "id": "7fcf368c7190",
+     "section": "champions",
+     "tags": [
+      "Mage",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Hwei",
+      "name": "Hwei"
+     },
+     "part": "P",
+     "partTitle": "Pasiva: Firma del Visionario",
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Corrección de error: Las ralentizaciones de las habilidades QE y R de Hwei ya no se acumulan con las ralentizaciones de otros campeones u objetos",
+     "id": "6cec207789e4",
+     "section": "champions",
+     "tags": [
+      "Mage",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "26.4",
+   "publishedAt": "2026-02-18T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Hwei",
+      "name": "Hwei"
+     },
+     "part": "WW: Estanque del Reflejo",
+     "partTitle": "WW: Estanque del Reflejo",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Valor máximo del escudo",
+     "before": "100 / 125 / 150 / 175 / 200",
+     "after": "100 / 140 / 180 / 220 / 260",
+     "text": "Valor máximo del escudo: 100 / 125 / 150 / 175 / 200 ⇒ 100 / 140 / 180 / 220 / 260",
+     "id": "976e740142c1",
+     "section": "champions",
+     "tags": [
+      "Mage",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Hwei",
+      "name": "Hwei"
+     },
+     "part": "WW: Estanque del Reflejo",
+     "partTitle": "WW: Estanque del Reflejo",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Modificador de escudo del aliado",
+     "before": "75%",
+     "after": "85%",
+     "text": "Modificador de escudo del aliado: 75% ⇒ 85%",
+     "id": "8c339752be88",
+     "section": "champions",
+     "tags": [
+      "Mage",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Hwei",
+      "name": "Hwei"
+     },
+     "part": "R",
+     "partTitle": "R: Desesperación en Espiral",
+     "spellKey": "HweiR",
+     "kind": "stat",
+     "attribute": "Enfriamiento",
+     "before": "140 / 115 / 80",
+     "after": "120 / 100 / 80",
+     "text": "Enfriamiento: 140 / 115 / 80 ⇒ 120 / 100 / 80",
+     "id": "49e64d5e10f9",
+     "section": "champions",
+     "tags": [
+      "Mage",
+      "Support"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.23",
+   "publishedAt": "2025-11-18T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Hwei",
+      "name": "Hwei"
+     },
+     "part": "QE: Fisura Magma",
+     "partTitle": "QE: Fisura Magma",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño al impacto",
+     "before": "20 / 40 / 60 / 80 / 100 (+ 30% de Poder de Habilidad)",
+     "after": "20 / 35 / 50 / 65 / 80 (+ 30% de Poder de Habilidad)",
+     "text": "Daño al impacto: 20 / 40 / 60 / 80 / 100 (+ 30% de Poder de Habilidad) ⇒ 20 / 35 / 50 / 65 / 80 (+ 30% de Poder de Habilidad)",
+     "id": "dc7ccc1d80b9",
+     "section": "champions",
+     "tags": [
+      "Mage",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Hwei",
+      "name": "Hwei"
+     },
+     "part": "QE: Fisura Magma",
+     "partTitle": "QE: Fisura Magma",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño prolongado",
+     "before": "50 / 100 / 150 / 200 / 250 (+ 50% de Poder de Habilidad)",
+     "after": "50 / 87.5 / 125 / 162.5 / 200 (+ 60% de Poder de Habilidad)",
+     "text": "Daño prolongado: 50 / 100 / 150 / 200 / 250 (+ 50% de Poder de Habilidad) ⇒ 50 / 87.5 / 125 / 162.5 / 200 (+ 60% de Poder de Habilidad)",
+     "id": "539733927924",
+     "section": "champions",
+     "tags": [
+      "Mage",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Hwei",
+      "name": "Hwei"
+     },
+     "part": "QE: Fisura Magma",
+     "partTitle": "QE: Fisura Magma",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño total",
+     "before": "70 / 140 / 210 / 280 / 350 (+ 80% de Poder de Habilidad)",
+     "after": "70 / 122.5 / 175 / 227.5 / 280 (+ 90% de Poder de Habilidad)",
+     "text": "Daño total: 70 / 140 / 210 / 280 / 350 (+ 80% de Poder de Habilidad) ⇒ 70 / 122.5 / 175 / 227.5 / 280 (+ 90% de Poder de Habilidad)",
+     "id": "3c8e8d3520c4",
+     "section": "champions",
+     "tags": [
+      "Mage",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.20",
+   "publishedAt": "2025-10-07T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena-",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Hwei",
+      "name": "Hwei"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": null,
+     "before": "Enfriamiento de la W: De 18 a 16 seg",
+     "after": "De 12 a 10 seg",
+     "text": "Enfriamiento de la W: De 18 a 16 seg ⇒ De 12 a 10 seg",
+     "id": "f880d8270762",
+     "section": "modes",
+     "tags": [
+      "Mage",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena-",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Hwei",
+      "name": "Hwei"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": null,
+     "before": "Enfriamiento de la E: De 13 a 11 seg",
+     "after": "De 12 a 10 seg",
+     "text": "Enfriamiento de la E: De 13 a 11 seg ⇒ De 12 a 10 seg",
+     "id": "8dbea3d26233",
+     "section": "modes",
+     "tags": [
+      "Mage",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.18",
+   "publishedAt": "2025-09-09T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Hwei",
+      "name": "Hwei"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Aumentamos el daño de su pasiva y de su E. Aumentamos la velocidad de movimiento de su W + Q.",
+     "id": "87f1da12c448",
+     "section": "champions",
+     "tags": [
+      "Mage",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Hwei",
+      "name": "Hwei"
+     },
+     "part": "P",
+     "partTitle": "Pasiva: Firma del Visionario",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Tasa de Poder de Habilidad",
+     "before": "30%",
+     "after": "35%",
+     "text": "Tasa de Poder de Habilidad: 30% ⇒ 35%",
+     "id": "dd25db24d142",
+     "section": "champions",
+     "tags": [
+      "Mage",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Hwei",
+      "name": "Hwei"
+     },
+     "part": "W + Q: Serenidad: Corriente Fugaz",
+     "partTitle": "W + Q: Serenidad: Corriente Fugaz",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Velocidad de Movimiento adicional básica",
+     "before": "20% / 22.5% / 25% / 27.5% / 30%",
+     "after": "30% / 32.5% / 35% / 37.5% / 40%",
+     "text": "Velocidad de Movimiento adicional básica: 20% / 22.5% / 25% / 27.5% / 30% ⇒ 30% / 32.5% / 35% / 37.5% / 40%",
+     "id": "7222c705a206",
+     "section": "champions",
+     "tags": [
+      "Mage",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Hwei",
+      "name": "Hwei"
+     },
+     "part": "W + Q: Serenidad: Corriente Fugaz",
+     "partTitle": "W + Q: Serenidad: Corriente Fugaz",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Tasa de Poder de Habilidad como Velocidad de Movimiento adicional",
+     "before": "+2% cada 100 de Poder de Habilidad",
+     "after": "+3% cada 100 de Poder de Habilidad",
+     "text": "Tasa de Poder de Habilidad como Velocidad de Movimiento adicional: +2% cada 100 de Poder de Habilidad ⇒ +3% cada 100 de Poder de Habilidad",
+     "id": "6a6737b82e4b",
+     "section": "champions",
+     "tags": [
+      "Mage",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Hwei",
+      "name": "Hwei"
+     },
+     "part": "E",
+     "partTitle": "E: Tema: Tormento",
+     "spellKey": "HweiE",
+     "kind": "stat",
+     "attribute": "Tasa de Poder de Habilidad de E + Q: Semblante Sombrío",
+     "before": "60%",
+     "after": "65%",
+     "text": "Tasa de Poder de Habilidad de E + Q: Semblante Sombrío: 60% ⇒ 65%",
+     "id": "76369786cc01",
+     "section": "champions",
+     "tags": [
+      "Mage",
+      "Support"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Hwei",
+      "name": "Hwei"
+     },
+     "part": "E",
+     "partTitle": "E: Tema: Tormento",
+     "spellKey": "HweiE",
+     "kind": "stat",
+     "attribute": "Tasa de Poder de Habilidad de E + W: Mirada del Abismo",
+     "before": "60%",
+     "after": "65%",
+     "text": "Tasa de Poder de Habilidad de E + W: Mirada del Abismo: 60% ⇒ 65%",
+     "id": "a93b43fef4e3",
+     "section": "champions",
+     "tags": [
+      "Mage",
+      "Support"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Hwei",
+      "name": "Hwei"
+     },
+     "part": "E",
+     "partTitle": "E: Tema: Tormento",
+     "spellKey": "HweiE",
+     "kind": "stat",
+     "attribute": "Tasa de Poder de Habilidad de E + E: Fauces Trituradoras",
+     "before": "60%",
+     "after": "65%",
+     "text": "Tasa de Poder de Habilidad de E + E: Fauces Trituradoras: 60% ⇒ 65%",
+     "id": "1d444985ab84",
+     "section": "champions",
+     "tags": [
+      "Mage",
+      "Support"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.11",
+   "publishedAt": "2025-05-27T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Pelea",
+     "sectionId": "patch-brawl",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Hwei",
+      "name": "Hwei"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Aceleración de Habilidad",
+     "before": "0",
+     "after": "-10",
+     "text": "Aceleración de Habilidad: 0 ⇒ -10",
+     "id": "a76f8a1851df",
+     "section": "modes",
+     "tags": [
+      "Mage",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.8",
+   "publishedAt": "2025-04-15T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Hwei",
+      "name": "Hwei"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Aumentamos el daño de su pasiva. Aumentamos el daño de su R.",
+     "id": "3e581efe4168",
+     "section": "champions",
+     "tags": [
+      "Mage",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Hwei",
+      "name": "Hwei"
+     },
+     "part": "P",
+     "partTitle": "Pasiva: Firma del Visionario",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño",
+     "before": "de 30 a 180 (según el nivel) (+ 30% de Poder de Habilidad)",
+     "after": "de 35 a 230 (según el nivel) (+ 30% de Poder de Habilidad)",
+     "text": "Daño: de 30 a 180 (según el nivel) (+ 30% de Poder de Habilidad) ⇒ de 35 a 230 (según el nivel) (+ 30% de Poder de Habilidad)",
+     "id": "b721cfb3704b",
+     "section": "champions",
+     "tags": [
+      "Mage",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Hwei",
+      "name": "Hwei"
+     },
+     "part": "R",
+     "partTitle": "R: Desesperación en Espiral",
+     "spellKey": "HweiR",
+     "kind": "stat",
+     "attribute": "Daño de la explosión",
+     "before": "200 / 300 / 400 (+ 80% de Poder de Habilidad)",
+     "after": "200 / 325 / 450 (+ 80% de Poder de Habilidad)",
+     "text": "Daño de la explosión: 200 / 300 / 400 (+ 80% de Poder de Habilidad) ⇒ 200 / 325 / 450 (+ 80% de Poder de Habilidad)",
+     "id": "2e2ba90b40ff",
+     "section": "champions",
+     "tags": [
+      "Mage",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.4",
+   "publishedAt": "2025-02-19T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Hwei",
+      "name": "Hwei"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Redujimos el daño de su pasiva. Redujimos el daño de su QW en el juego temprano. Redujimos el daño de su WE.",
+     "id": "4730b44371fc",
+     "section": "champions",
+     "tags": [
+      "Mage",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Hwei",
+      "name": "Hwei"
+     },
+     "part": "P",
+     "partTitle": "Pasiva: Firma del Visionario",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño",
+     "before": "35�180 (según el nivel) (+35% de Poder de Habilidad)",
+     "after": "35�180 (según el nivel) (+30% de Poder de Habilidad)",
+     "text": "Daño: 35�180 (según el nivel) (+35% de Poder de Habilidad) ⇒ 35�180 (según el nivel) (+30% de Poder de Habilidad)",
+     "id": "fa291330f136",
+     "section": "champions",
+     "tags": [
+      "Mage",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Hwei",
+      "name": "Hwei"
+     },
+     "part": "QW: Rayo Destrozador",
+     "partTitle": "QW: Rayo Destrozador",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño",
+     "before": "80/100/120/140/160 (+25% de Poder de Habilidad)",
+     "after": "60/85/110/135/160 (+25% de Poder de Habilidad)",
+     "text": "Daño: 80/100/120/140/160 (+25% de Poder de Habilidad) ⇒ 60/85/110/135/160 (+25% de Poder de Habilidad)",
+     "id": "f347a8ce118f",
+     "section": "champions",
+     "tags": [
+      "Mage",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Hwei",
+      "name": "Hwei"
+     },
+     "part": "WE: Luces Provocadoras",
+     "partTitle": "WE: Luces Provocadoras",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño",
+     "before": "25/35/45/55/65 (+20% de Poder de Habilidad)",
+     "after": "20/30/40/50/60 (+15% de Poder de Habilidad)",
+     "text": "Daño: 25/35/45/55/65 (+20% de Poder de Habilidad) ⇒ 20/30/40/50/60 (+15% de Poder de Habilidad)",
+     "id": "963efcb27b14",
+     "section": "champions",
+     "tags": [
+      "Mage",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  }
+ ]
+}

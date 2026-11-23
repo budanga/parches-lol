@@ -1,0 +1,476 @@
+{
+ "schemaVersion": 1,
+ "id": "Tristana",
+ "name": "Tristana",
+ "tags": [
+  "Marksman",
+  "Assassin"
+ ],
+ "entries": [
+  {
+   "patch": "26.23",
+   "publishedAt": "2026-11-17T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Tristana",
+      "name": "Tristana"
+     },
+     "part": "W",
+     "partTitle": "W: Salto Cohete",
+     "spellKey": "TristanaW",
+     "kind": "stat",
+     "attribute": "Tasa de Poder de Habilidad",
+     "before": "80%",
+     "after": "120%",
+     "text": "Tasa de Poder de Habilidad: 80% ⇒ 120%",
+     "id": "df62d3b55d47",
+     "section": "modes",
+     "tags": [
+      "Marksman",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "26.21",
+   "publishedAt": "2026-10-20T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Tristana",
+      "name": "Tristana"
+     },
+     "part": "Q",
+     "partTitle": "Q: Fuego Rápido",
+     "spellKey": "TristanaQ",
+     "kind": "stat",
+     "attribute": "Velocidad de Ataque",
+     "before": "60 / 75 / 90 / 105 / 120%",
+     "after": "40 / 60 / 80 / 100 / 120%",
+     "text": "Velocidad de Ataque: 60 / 75 / 90 / 105 / 120% ⇒ 40 / 60 / 80 / 100 / 120%",
+     "id": "501cc2f2d529",
+     "section": "champions",
+     "tags": [
+      "Marksman",
+      "Assassin"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "26.12",
+   "publishedAt": "2026-06-09T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Tristana",
+      "name": "Tristana"
+     },
+     "part": "base",
+     "partTitle": "Estadísticas base",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Crecimiento del Daño de Ataque",
+     "before": "2.9",
+     "after": "3.4",
+     "text": "Crecimiento del Daño de Ataque: 2.9 ⇒ 3.4",
+     "id": "b2c85078b60b",
+     "section": "champions",
+     "tags": [
+      "Marksman",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Tristana",
+      "name": "Tristana"
+     },
+     "part": "Q",
+     "partTitle": "Q: Fuego Rápido",
+     "spellKey": "TristanaQ",
+     "kind": "stat",
+     "attribute": "Maná",
+     "before": "30 / 35 / 40 / 45 / 50",
+     "after": "15 / 20 / 25 / 30 / 35",
+     "text": "Maná: 30 / 35 / 40 / 45 / 50 ⇒ 15 / 20 / 25 / 30 / 35",
+     "id": "99bd3e72b3ec",
+     "section": "champions",
+     "tags": [
+      "Marksman",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "26.1",
+   "publishedAt": "2026-01-07T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Tristana",
+      "name": "Tristana"
+     },
+     "part": "E",
+     "partTitle": "E: Carga Explosiva",
+     "spellKey": "TristanaE",
+     "kind": "stat",
+     "attribute": "Daño que no sea de golpe crítico",
+     "before": "60 / 70 / 80 / 90 / 100 (+ 100% / 110% / 120% / 130% / 140% de Daño de Ataque adicional)",
+     "after": "60 / 85 / 110 / 135 / 160 (+ 80% de Daño de Ataque adicional)",
+     "text": "Daño que no sea de golpe crítico: 60 / 70 / 80 / 90 / 100 (+ 100% / 110% / 120% / 130% / 140% de Daño de Ataque adicional) ⇒ 60 / 85 / 110 / 135 / 160 (+ 80% de Daño de Ataque adicional)",
+     "id": "18c2ffece5fc",
+     "section": "champions",
+     "tags": [
+      "Marksman",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Tristana",
+      "name": "Tristana"
+     },
+     "part": "E",
+     "partTitle": "E: Carga Explosiva",
+     "spellKey": "TristanaE",
+     "kind": "stat",
+     "attribute": "Progresión de daño de golpe crítico",
+     "before": "100%, hasta ×1.75 / ×2.15 con Filo del Infinito",
+     "after": "40% de daño de golpe crítico, ×1.40 / ×1.52 con Filo del Infinito",
+     "text": "Progresión de daño de golpe crítico: 100%, hasta ×1.75 / ×2.15 con Filo del Infinito ⇒ 40% de daño de golpe crítico, ×1.40 / ×1.52 con Filo del Infinito",
+     "id": "5a380f401898",
+     "section": "champions",
+     "tags": [
+      "Marksman",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.23",
+   "publishedAt": "2025-11-18T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Tristana",
+      "name": "Tristana"
+     },
+     "part": "base",
+     "partTitle": "Estadísticas básicas",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Crecimiento de Daño de Ataque",
+     "before": "2.5",
+     "after": "2.9",
+     "text": "Crecimiento de Daño de Ataque: 2.5 ⇒ 2.9",
+     "id": "998eea4e6f60",
+     "section": "champions",
+     "tags": [
+      "Marksman",
+      "Assassin"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.20",
+   "publishedAt": "2025-10-07T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Bots Apocalípticos",
+     "sectionId": "patch-doom-bots",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Tristana",
+      "name": "Tristana"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño infligido",
+     "before": "100%",
+     "after": "105%",
+     "text": "Daño infligido: 100% ⇒ 105%",
+     "id": "e564db2390a0",
+     "section": "modes",
+     "tags": [
+      "Marksman",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.11",
+   "publishedAt": "2025-05-27T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Pelea",
+     "sectionId": "patch-brawl",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Tristana",
+      "name": "Tristana"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño infligido",
+     "before": "100%",
+     "after": "105%",
+     "text": "Daño infligido: 100% ⇒ 105%",
+     "id": "ed12afe78052",
+     "section": "modes",
+     "tags": [
+      "Marksman",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Pelea",
+     "sectionId": "patch-brawl",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Tristana",
+      "name": "Tristana"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño recibido",
+     "before": "100%",
+     "after": "95%",
+     "text": "Daño recibido: 100% ⇒ 95%",
+     "id": "29993d897955",
+     "section": "modes",
+     "tags": [
+      "Marksman",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.8",
+   "publishedAt": "2025-04-15T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Tristana",
+      "name": "Tristana"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Redujimos el daño de su R.",
+     "id": "e0256ca06646",
+     "section": "champions",
+     "tags": [
+      "Marksman",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Tristana",
+      "name": "Tristana"
+     },
+     "part": "R",
+     "partTitle": "R: Tiro Destructor",
+     "spellKey": "TristanaR",
+     "kind": "stat",
+     "attribute": "Daño",
+     "before": "275 / 325 / 375 (+ 70% de Daño de Ataque adicional) (+ 100% de Poder de Habilidad)",
+     "after": "225 / 275 / 325 (+ 70% de Daño de Ataque adicional) (+ 100% de Poder de Habilidad)",
+     "text": "Daño: 275 / 325 / 375 (+ 70% de Daño de Ataque adicional) (+ 100% de Poder de Habilidad) ⇒ 225 / 275 / 325 (+ 70% de Daño de Ataque adicional) (+ 100% de Poder de Habilidad)",
+     "id": "f14606c2e8df",
+     "section": "champions",
+     "tags": [
+      "Marksman",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.4",
+   "publishedAt": "2025-02-19T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "URFAR",
+     "sectionId": "patch-arurf",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Tristana",
+      "name": "Tristana"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño infligido",
+     "before": "95%",
+     "after": "90%",
+     "text": "Daño infligido: 95% ⇒ 90%",
+     "id": "ae64b44c4193",
+     "section": "modes",
+     "tags": [
+      "Marksman",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "URFAR",
+     "sectionId": "patch-arurf",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Tristana",
+      "name": "Tristana"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño recibido",
+     "before": "100%",
+     "after": "105%",
+     "text": "Daño recibido: 100% ⇒ 105%",
+     "id": "dbde720ec8ad",
+     "section": "modes",
+     "tags": [
+      "Marksman",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.S1.3",
+   "publishedAt": "2025-02-04T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Sistemas",
+     "sectionId": "patch-systems",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Tristana",
+      "name": "Tristana"
+     },
+     "part": "Debilitaciones a campeones",
+     "partTitle": "Debilitaciones a campeones",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño infligido",
+     "before": "100%",
+     "after": "95%",
+     "text": "Tristana: Daño infligido: 100% ⇒ 95%",
+     "id": "7ebf3a3ef913",
+     "section": "champions",
+     "tags": [
+      "Marksman",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  }
+ ]
+}

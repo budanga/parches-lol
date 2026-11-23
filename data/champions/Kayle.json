@@ -1,0 +1,584 @@
+{
+ "schemaVersion": 1,
+ "id": "Kayle",
+ "name": "Kayle",
+ "tags": [
+  "Marksman",
+  "Mage"
+ ],
+ "entries": [
+  {
+   "patch": "26.22",
+   "publishedAt": "2026-11-03T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Kayle",
+      "name": "Kayle"
+     },
+     "part": "Q",
+     "partTitle": "Q: Explosión Radiante",
+     "spellKey": "KayleQ",
+     "kind": "stat",
+     "attribute": "Enfriamiento",
+     "before": "12 / 11 / 10 / 9 / 8 seg",
+     "after": "10 / 9.5 / 9 / 8.5 / 8 seg",
+     "text": "Enfriamiento: 12 / 11 / 10 / 9 / 8 seg ⇒ 10 / 9.5 / 9 / 8.5 / 8 seg",
+     "id": "595d164b9282",
+     "section": "champions",
+     "tags": [
+      "Marksman",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Kayle",
+      "name": "Kayle"
+     },
+     "part": "R",
+     "partTitle": "R: Juicio Divino",
+     "spellKey": "KayleR",
+     "kind": "stat",
+     "attribute": "Enfriamiento",
+     "before": "160 / 120 / 80 seg",
+     "after": "140 / 110 / 80 seg",
+     "text": "Enfriamiento: 160 / 120 / 80 seg ⇒ 140 / 110 / 80 seg",
+     "id": "1a64ca70fe40",
+     "section": "champions",
+     "tags": [
+      "Marksman",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "26.17",
+   "publishedAt": "2026-08-25T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Classic",
+     "sectionId": "patch-classic",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Kayle",
+      "name": "Kayle"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "E: Furia Justiciera",
+     "id": "6954f74800d4",
+     "section": "modes",
+     "tags": [
+      "Marksman",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Classic",
+     "sectionId": "patch-classic",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Kayle",
+      "name": "Kayle"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Enfriamiento",
+     "before": "22 / 21 / 20 / 19 / 18 seg",
+     "after": "20 / 19 / 18 / 17 / 16 seg",
+     "text": "Enfriamiento: 22 / 21 / 20 / 19 / 18 seg ⇒ 20 / 19 / 18 / 17 / 16 seg",
+     "id": "61fc370a3cfa",
+     "section": "modes",
+     "tags": [
+      "Marksman",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "26.4",
+   "publishedAt": "2026-02-18T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Kayle",
+      "name": "Kayle"
+     },
+     "part": "Q",
+     "partTitle": "Q: Explosión Radiante",
+     "spellKey": "KayleQ",
+     "kind": "stat",
+     "attribute": "Daño básico",
+     "before": "60 / 100 / 140 / 180 / 220",
+     "after": "60 / 90 / 120 / 150 / 180",
+     "text": "Daño básico: 60 / 100 / 140 / 180 / 220 ⇒ 60 / 90 / 120 / 150 / 180",
+     "id": "859f7f775d63",
+     "section": "champions",
+     "tags": [
+      "Mage",
+      "Marksman"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "26.1",
+   "publishedAt": "2026-01-07T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Actualizaciones dentro de la versión",
+     "sectionId": "patch-large-changes",
+     "midPatch": true,
+     "entity": {
+      "kind": "champion",
+      "id": "Kayle",
+      "name": "Kayle"
+     },
+     "part": "P",
+     "partTitle": "Pasiva: Ascenso Divino",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Velocidad de Ataque por acumulación",
+     "before": "6% (+ 1% por cada 100 de Poder de Habilidad)",
+     "after": "6%",
+     "text": "Velocidad de Ataque por acumulación: 6% (+ 1% por cada 100 de Poder de Habilidad) ⇒ 6%",
+     "id": "bdf03ecad08d",
+     "section": "champions",
+     "tags": [
+      "Mage",
+      "Marksman"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Actualizaciones dentro de la versión",
+     "sectionId": "patch-large-changes",
+     "midPatch": true,
+     "entity": {
+      "kind": "champion",
+      "id": "Kayle",
+      "name": "Kayle"
+     },
+     "part": "Q",
+     "partTitle": "Q: Explosión Radiante",
+     "spellKey": "KayleQ",
+     "kind": "stat",
+     "attribute": "Costo de Maná",
+     "before": "70 / 75 / 80 / 85 / 90",
+     "after": "60 / 70 / 80 / 90 / 100",
+     "text": "Costo de Maná: 70 / 75 / 80 / 85 / 90 ⇒ 60 / 70 / 80 / 90 / 100",
+     "id": "91ecc69976ab",
+     "section": "champions",
+     "tags": [
+      "Mage",
+      "Marksman"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Actualizaciones dentro de la versión",
+     "sectionId": "patch-large-changes",
+     "midPatch": true,
+     "entity": {
+      "kind": "champion",
+      "id": "Kayle",
+      "name": "Kayle"
+     },
+     "part": "Q",
+     "partTitle": "Q: Explosión Radiante",
+     "spellKey": "KayleQ",
+     "kind": "stat",
+     "attribute": "Ralentización",
+     "before": "26% / 32% / 38% / 44% / 50%",
+     "after": "25% / 30% / 35% / 40% / 45%",
+     "text": "Ralentización: 26% / 32% / 38% / 44% / 50% ⇒ 25% / 30% / 35% / 40% / 45%",
+     "id": "aa24b6f55898",
+     "section": "champions",
+     "tags": [
+      "Mage",
+      "Marksman"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.20",
+   "publishedAt": "2025-10-07T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena-",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Kayle",
+      "name": "Kayle"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": null,
+     "before": "Ralentización de la Q: De 15% a 35%",
+     "after": "De 26% a 50%",
+     "text": "Ralentización de la Q: De 15% a 35% ⇒ De 26% a 50%",
+     "id": "770acf6b97b0",
+     "section": "modes",
+     "tags": [
+      "Mage",
+      "Marksman"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena-",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Kayle",
+      "name": "Kayle"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": null,
+     "before": "Velocidad de Movimiento de la W: De 15% a 35%",
+     "after": "De 24% a 40%",
+     "text": "Velocidad de Movimiento de la W: De 15% a 35% ⇒ De 24% a 40%",
+     "id": "fc6370886111",
+     "section": "modes",
+     "tags": [
+      "Mage",
+      "Marksman"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.12",
+   "publishedAt": "2025-06-10T18:05:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Pelea",
+     "sectionId": "patch-brawl",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Kayle",
+      "name": "Kayle"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Ganancia pasiva de XP: Kayle ya no obtendrá experiencia de forma pasiva en el modo Pelea",
+     "id": "b34647c66024",
+     "section": "modes",
+     "tags": [
+      "Mage",
+      "Marksman"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.11",
+   "publishedAt": "2025-05-27T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Pelea",
+     "sectionId": "patch-brawl",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Kayle",
+      "name": "Kayle"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño infligido",
+     "before": "100%",
+     "after": "95%",
+     "text": "Daño infligido: 100% ⇒ 95%",
+     "id": "2c8dab0a37d0",
+     "section": "modes",
+     "tags": [
+      "Mage",
+      "Marksman"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Pelea",
+     "sectionId": "patch-brawl",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Kayle",
+      "name": "Kayle"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Aceleración de Habilidad",
+     "before": "0",
+     "after": "-10",
+     "text": "Aceleración de Habilidad: 0 ⇒ -10",
+     "id": "ac1924eeb54a",
+     "section": "modes",
+     "tags": [
+      "Mage",
+      "Marksman"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.4",
+   "publishedAt": "2025-02-19T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "URFAR",
+     "sectionId": "patch-arurf",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Kayle",
+      "name": "Kayle"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño infligido",
+     "before": "95%",
+     "after": "85%",
+     "text": "Daño infligido: 95% ⇒ 85%",
+     "id": "1e0c5f9463c2",
+     "section": "modes",
+     "tags": [
+      "Mage",
+      "Marksman"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.S1.2",
+   "publishedAt": "2025-01-22T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Partida Casual",
+     "sectionId": "patch-swiftplay",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Kayle",
+      "name": "Kayle"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño de la Q",
+     "before": "60/100/140/180/220",
+     "after": "60/95/130/165/200",
+     "text": "Daño de la Q: 60/100/140/180/220 ⇒ 60/95/130/165/200",
+     "id": "17110d475815",
+     "section": "champions",
+     "tags": [
+      "Mage",
+      "Marksman"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Partida Casual",
+     "sectionId": "patch-swiftplay",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Kayle",
+      "name": "Kayle"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Lento",
+     "before": "26/32/38/44/50%",
+     "after": "26/30/34/38/42%",
+     "text": "Lento: 26/32/38/44/50% ⇒ 26/30/34/38/42%",
+     "id": "0781d24beaf0",
+     "section": "champions",
+     "tags": [
+      "Mage",
+      "Marksman"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.S1.1",
+   "publishedAt": "2025-01-07T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Actualizaciones dentro de la versión",
+     "sectionId": "patch-fearless-draft",
+     "midPatch": true,
+     "entity": {
+      "kind": "champion",
+      "id": "Kayle",
+      "name": "Kayle"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Crecimiento de Velocidad de Ataque",
+     "before": "1.5%",
+     "after": "1%",
+     "text": "Crecimiento de Velocidad de Ataque: 1.5% ⇒ 1%",
+     "id": "44e8c6cb8d79",
+     "section": "champions",
+     "tags": [
+      "Mage",
+      "Marksman"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Actualizaciones dentro de la versión",
+     "sectionId": "patch-fearless-draft",
+     "midPatch": true,
+     "entity": {
+      "kind": "champion",
+      "id": "Kayle",
+      "name": "Kayle"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Crecimiento de Daño de Ataque",
+     "before": "2.5",
+     "after": "2",
+     "text": "Crecimiento de Daño de Ataque: 2.5 ⇒ 2",
+     "id": "44c35b178ada",
+     "section": "champions",
+     "tags": [
+      "Mage",
+      "Marksman"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Actualizaciones dentro de la versión",
+     "sectionId": "patch-fearless-draft",
+     "midPatch": true,
+     "entity": {
+      "kind": "champion",
+      "id": "Kayle",
+      "name": "Kayle"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Velocidad de Movimiento de la W",
+     "before": "24-40% (+ 8% de Poder de Habilidad)",
+     "after": "24-32% (+ 8% de Poder de Habilidad)",
+     "text": "Velocidad de Movimiento de la W: 24-40% (+ 8% de Poder de Habilidad) ⇒ 24-32% (+ 8% de Poder de Habilidad)",
+     "id": "75b75be9cf9d",
+     "section": "champions",
+     "tags": [
+      "Mage",
+      "Marksman"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  }
+ ]
+}

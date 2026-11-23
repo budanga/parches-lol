@@ -1,0 +1,485 @@
+{
+ "schemaVersion": 1,
+ "id": "Nautilus",
+ "name": "Nautilus",
+ "tags": [
+  "Tank",
+  "Support"
+ ],
+ "entries": [
+  {
+   "patch": "26.20",
+   "publishedAt": "2026-10-06T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "LoL Classic",
+     "sectionId": "patch-classic",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Nautilus",
+      "name": "Nautilus"
+     },
+     "part": "P",
+     "partTitle": "Pasiva: Golpe Maestro",
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Corrección de error: Corregimos un error que provocaba que el ataque potenciado infligiera demasiado daño crítico",
+     "id": "683aefa8a6c6",
+     "section": "modes",
+     "tags": [
+      "Tank",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "LoL Classic",
+     "sectionId": "patch-classic",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Nautilus",
+      "name": "Nautilus"
+     },
+     "part": "W",
+     "partTitle": "W: Ira del Titán",
+     "spellKey": "NautilusPiercingGaze",
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Corrección de error: Corregimos un error que provocaba que el escudo no tomara en cuenta la armadura ni la resistencia mágica",
+     "id": "b6ccaa8de2a2",
+     "section": "modes",
+     "tags": [
+      "Tank",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "LoL Classic",
+     "sectionId": "patch-classic",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Nautilus",
+      "name": "Nautilus"
+     },
+     "part": "W",
+     "partTitle": "W: Ira del Titán",
+     "spellKey": "NautilusPiercingGaze",
+     "kind": "stat",
+     "attribute": "Daño prolongado",
+     "before": "40 / 55 / 70 / 85 / 100 + 40% de Poder de Habilidad",
+     "after": "40 / 65 / 90 / 115 / 140 + 40% de Poder de Habilidad",
+     "text": "Daño prolongado: 40 / 55 / 70 / 85 / 100 + 40% de Poder de Habilidad ⇒ 40 / 65 / 90 / 115 / 140 + 40% de Poder de Habilidad",
+     "id": "aeed1699fe01",
+     "section": "modes",
+     "tags": [
+      "Tank",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "LoL Classic",
+     "sectionId": "patch-classic",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Nautilus",
+      "name": "Nautilus"
+     },
+     "part": "W",
+     "partTitle": "W: Ira del Titán",
+     "spellKey": "NautilusPiercingGaze",
+     "kind": "stat",
+     "attribute": "Tasa de Vida adicional del escudo",
+     "before": "10%",
+     "after": "15%",
+     "text": "Tasa de Vida adicional del escudo: 10% ⇒ 15%",
+     "id": "80dd7d864526",
+     "section": "modes",
+     "tags": [
+      "Tank",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "LoL Classic",
+     "sectionId": "patch-classic",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Nautilus",
+      "name": "Nautilus"
+     },
+     "part": "W",
+     "partTitle": "W: Ira del Titán",
+     "spellKey": "NautilusPiercingGaze",
+     "kind": "stat",
+     "attribute": "Duración del escudo",
+     "before": "9.75",
+     "after": "10",
+     "text": "Duración del escudo: 9.75 ⇒ 10",
+     "id": "62a9d6754fe8",
+     "section": "modes",
+     "tags": [
+      "Tank",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "26.19",
+   "publishedAt": "2026-09-22T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "LoL Classic",
+     "sectionId": "patch-classic",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Nautilus",
+      "name": "Nautilus"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "new",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "NUEVO Nautilus",
+     "id": "1307dde64c31",
+     "section": "modes",
+     "tags": [
+      "Tank",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "26.18",
+   "publishedAt": "2026-09-09T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Nautilus",
+      "name": "Nautilus"
+     },
+     "part": "base",
+     "partTitle": "Estadísticas base",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño de Ataque",
+     "before": "61 + 3.3 por nivel",
+     "after": "58 + 3.3 por nivel",
+     "text": "Daño de Ataque: 61 + 3.3 por nivel ⇒ 58 + 3.3 por nivel",
+     "id": "71d54edd8580",
+     "section": "champions",
+     "tags": [
+      "Tank",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Nautilus",
+      "name": "Nautilus"
+     },
+     "part": "Q",
+     "partTitle": "Q: Línea de Dragado",
+     "spellKey": "NautilusAnchorDrag",
+     "kind": "stat",
+     "attribute": "Daño",
+     "before": "85 / 130 / 175 / 220 / 265 (+90% de Poder de Habilidad)",
+     "after": "85 / 125 / 165 / 205 / 245 (+90% de Poder de Habilidad)",
+     "text": "Daño: 85 / 130 / 175 / 220 / 265 (+90% de Poder de Habilidad) ⇒ 85 / 125 / 165 / 205 / 245 (+90% de Poder de Habilidad)",
+     "id": "d8e6f0445262",
+     "section": "champions",
+     "tags": [
+      "Tank",
+      "Support"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.23",
+   "publishedAt": "2025-11-18T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "ARAM: Caos",
+     "sectionId": "patch-aram-mayhem",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Nautilus",
+      "name": "Nautilus"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": null,
+     "before": "Daño recibido: 110%",
+     "after": "100%",
+     "text": "Daño recibido: 110% ⇒ 100%",
+     "id": "2002492f7a55",
+     "section": "modes",
+     "tags": [
+      "Tank",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "ARAM: Caos",
+     "sectionId": "patch-aram-mayhem",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Nautilus",
+      "name": "Nautilus"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": null,
+     "before": "Daño infligido: 95%",
+     "after": "100%",
+     "text": "Daño infligido: 95% ⇒ 100%",
+     "id": "deba6f61bd7e",
+     "section": "modes",
+     "tags": [
+      "Tank",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.20",
+   "publishedAt": "2025-10-07T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Bots Apocalípticos",
+     "sectionId": "patch-doom-bots",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Nautilus",
+      "name": "Nautilus"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño recibido",
+     "before": "100%",
+     "after": "90%",
+     "text": "Daño recibido: 100% ⇒ 90%",
+     "id": "66010f5f4015",
+     "section": "modes",
+     "tags": [
+      "Tank",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Bots Apocalípticos",
+     "sectionId": "patch-doom-bots",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Nautilus",
+      "name": "Nautilus"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Tenacidad",
+     "before": "0",
+     "after": "25",
+     "text": "Tenacidad: 0 ⇒ 25",
+     "id": "8c941259710f",
+     "section": "modes",
+     "tags": [
+      "Tank",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.16",
+   "publishedAt": "2025-08-12T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Nautilus",
+      "name": "Nautilus"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Aumentamos el daño de su E contra monstruos.",
+     "id": "2ab6f4c18c0d",
+     "section": "champions",
+     "tags": [
+      "Tank",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Nautilus",
+      "name": "Nautilus"
+     },
+     "part": "E",
+     "partTitle": "E: Aguas Revueltas",
+     "spellKey": "NautilusSplashZone",
+     "kind": "stat",
+     "attribute": "Modificador de daño contra monstruos",
+     "before": "150%",
+     "after": "El primer golpe de la E infligirá 125 / 165 / 205 / 245 / 285 (+ 50% de Poder de Habilidad) de daño adicional contra monstruos",
+     "text": "Modificador de daño contra monstruos: 150% ⇒ El primer golpe de la E infligirá 125 / 165 / 205 / 245 / 285 (+ 50% de Poder de Habilidad) de daño adicional contra monstruos",
+     "id": "742e1bbdb0dc",
+     "section": "champions",
+     "tags": [
+      "Tank",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.4",
+   "publishedAt": "2025-02-19T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Nautilus",
+      "name": "Nautilus"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Aumentamos el daño de su Q.",
+     "id": "74909ea9c5be",
+     "section": "champions",
+     "tags": [
+      "Tank",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Nautilus",
+      "name": "Nautilus"
+     },
+     "part": "Q",
+     "partTitle": "Q: Línea de Dragado",
+     "spellKey": "NautilusAnchorDrag",
+     "kind": "stat",
+     "attribute": "Daño",
+     "before": "70/115/160/205/250 (+90% de Poder de Habilidad)",
+     "after": "85/130/175/220/265 (+90% de Poder de Habilidad)",
+     "text": "Daño: 70/115/160/205/250 (+90% de Poder de Habilidad) ⇒ 85/130/175/220/265 (+90% de Poder de Habilidad)",
+     "id": "ec8fbcd5aa98",
+     "section": "champions",
+     "tags": [
+      "Tank",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  }
+ ]
+}

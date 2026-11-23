@@ -1,0 +1,512 @@
+{
+ "schemaVersion": 1,
+ "id": "Nilah",
+ "name": "Nilah",
+ "tags": [
+  "Fighter",
+  "Assassin"
+ ],
+ "entries": [
+  {
+   "patch": "26.11",
+   "publishedAt": "2026-05-27T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Nilah",
+      "name": "Nilah"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "new",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "NUEVO Nilah: Deleite Dichoso",
+     "id": "35d414164f8b",
+     "section": "modes",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "26.3",
+   "publishedAt": "2026-02-03T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Nilah",
+      "name": "Nilah"
+     },
+     "part": "base",
+     "partTitle": "Estadísticas básicas",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño de Ataque",
+     "before": "60",
+     "after": "58",
+     "text": "Daño de Ataque: 60 ⇒ 58",
+     "id": "415cddf4a723",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Nilah",
+      "name": "Nilah"
+     },
+     "part": "base",
+     "partTitle": "Estadísticas básicas",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Crecimiento de Armadura",
+     "before": "4.5",
+     "after": "4.2",
+     "text": "Crecimiento de Armadura: 4.5 ⇒ 4.2",
+     "id": "d4c47539f813",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "26.1",
+   "publishedAt": "2026-01-07T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Actualizaciones dentro de la versión",
+     "sectionId": "patch-large-changes",
+     "midPatch": true,
+     "entity": {
+      "kind": "champion",
+      "id": "Nilah",
+      "name": "Nilah"
+     },
+     "part": "base",
+     "partTitle": "Estadísticas básicas",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Crecimiento de Velocidad de Ataque",
+     "before": "2%",
+     "after": "1.25%",
+     "text": "Crecimiento de Velocidad de Ataque: 2% ⇒ 1.25%",
+     "id": "53d9d050acd5",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Actualizaciones dentro de la versión",
+     "sectionId": "patch-large-changes",
+     "midPatch": true,
+     "entity": {
+      "kind": "champion",
+      "id": "Nilah",
+      "name": "Nilah"
+     },
+     "part": "Q",
+     "partTitle": "Q: Filo sin Forma",
+     "spellKey": "NilahQ",
+     "kind": "stat",
+     "attribute": "Multiplicador de la progresión de daño de golpe crítico",
+     "before": "80% de daño de golpe crítico adicional",
+     "after": "70% de daño de golpe crítico adicional",
+     "text": "Multiplicador de la progresión de daño de golpe crítico: 80% de daño de golpe crítico adicional ⇒ 70% de daño de golpe crítico adicional",
+     "id": "012d975a5107",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Nilah",
+      "name": "Nilah"
+     },
+     "part": "base",
+     "partTitle": "Estadísticas básicas",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Crecimiento de Velocidad de Ataque",
+     "before": "2.25%",
+     "after": "2%",
+     "text": "Crecimiento de Velocidad de Ataque: 2.25% ⇒ 2%",
+     "id": "d69f08f05385",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Nilah",
+      "name": "Nilah"
+     },
+     "part": "Q",
+     "partTitle": "Q: Filo sin Forma",
+     "spellKey": "NilahQ",
+     "kind": "stat",
+     "attribute": "Daño de la activa",
+     "before": "5 / 10 / 15 / 20 / 25 (+ 90% / 95% / 100% / 105% / 110% de Daño de Ataque total)",
+     "after": "0 / 10 / 20 / 30 / 40 (+ 100% de Daño de Ataque total)",
+     "text": "Daño de la activa: 5 / 10 / 15 / 20 / 25 (+ 90% / 95% / 100% / 105% / 110% de Daño de Ataque total) ⇒ 0 / 10 / 20 / 30 / 40 (+ 100% de Daño de Ataque total)",
+     "id": "40c87e5a6f53",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Nilah",
+      "name": "Nilah"
+     },
+     "part": "Q",
+     "partTitle": "Q: Filo sin Forma",
+     "spellKey": "NilahQ",
+     "kind": "stat",
+     "attribute": "Progresión de daño de golpe crítico",
+     "before": "Hasta ×2",
+     "after": "80% de daño de golpe crítico adicional, ×1.8 / ×2.04",
+     "text": "Progresión de daño de golpe crítico: Hasta ×2 ⇒ 80% de daño de golpe crítico adicional, ×1.8 / ×2.04",
+     "id": "bea3752af4e4",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Nilah",
+      "name": "Nilah"
+     },
+     "part": "Q",
+     "partTitle": "Q: Filo sin Forma",
+     "spellKey": "NilahQ",
+     "kind": "stat",
+     "attribute": "Progresión de daño de golpe crítico de la Penetración de Armadura",
+     "before": "De un 0% a un 33%",
+     "after": "De un 0% a un 30%",
+     "text": "Progresión de daño de golpe crítico de la Penetración de Armadura: De un 0% a un 33% ⇒ De un 0% a un 30%",
+     "id": "b38ecb7bfef3",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Nilah",
+      "name": "Nilah"
+     },
+     "part": "R",
+     "partTitle": "R: Apoteosis",
+     "spellKey": "NilahR",
+     "kind": "stat",
+     "attribute": "Costo de Maná",
+     "before": "80",
+     "after": "100",
+     "text": "Costo de Maná: 80 ⇒ 100",
+     "id": "98b0cbb3e1ba",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.17",
+   "publishedAt": "2025-08-26T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Nilah",
+      "name": "Nilah"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Aumentamos el daño secundario a monstruos de su Q.",
+     "id": "3019d6da7895",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Nilah",
+      "name": "Nilah"
+     },
+     "part": "Q",
+     "partTitle": "Q: Filo sin Forma",
+     "spellKey": "NilahQ",
+     "kind": "stat",
+     "attribute": "Daño secundario a monstruos",
+     "before": "10% del Daño de Ataque total",
+     "after": "100% del Daño de Ataque total",
+     "text": "Daño secundario a monstruos: 10% del Daño de Ataque total ⇒ 100% del Daño de Ataque total",
+     "id": "9254cd6426a7",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.15",
+   "publishedAt": "2025-07-29T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Nilah",
+      "name": "Nilah"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Aumentamos su daño de ataque básico. Redujimos su crecimiento de velocidad de ataque.",
+     "id": "aa34e3b21494",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Nilah",
+      "name": "Nilah"
+     },
+     "part": "base",
+     "partTitle": "Estadísticas básicas",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño de Ataque básico",
+     "before": "58",
+     "after": "60",
+     "text": "Daño de Ataque básico: 58 ⇒ 60",
+     "id": "890165386c4b",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Nilah",
+      "name": "Nilah"
+     },
+     "part": "base",
+     "partTitle": "Estadísticas básicas",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Crecimiento de Velocidad de Ataque",
+     "before": "3%",
+     "after": "2.25%",
+     "text": "Crecimiento de Velocidad de Ataque: 3% ⇒ 2.25%",
+     "id": "00ca9d42cdb1",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.11",
+   "publishedAt": "2025-05-27T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "ARAM",
+     "sectionId": "patch-aram",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Nilah",
+      "name": "Nilah"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño infligido",
+     "before": "97%",
+     "after": "100%",
+     "text": "Daño infligido: 97% ⇒ 100%",
+     "id": "7a26aa44c07a",
+     "section": "modes",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.S1.2",
+   "publishedAt": "2025-01-22T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Partida Casual",
+     "sectionId": "patch-swiftplay",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Nilah",
+      "name": "Nilah"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Crecimiento de Velocidad de Ataque",
+     "before": "3%",
+     "after": "2.4%",
+     "text": "Crecimiento de Velocidad de Ataque: 3% ⇒ 2.4%",
+     "id": "0afa014173af",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  }
+ ]
+}

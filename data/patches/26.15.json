@@ -1,0 +1,6793 @@
+{
+ "schemaVersion": 1,
+ "patch": "26.15",
+ "title": "Patch 26.15 Notes",
+ "url": "https://www.leagueoflegends.com/es-mx/news/game-updates/league-of-legends-patch-26-15-notes/",
+ "publishedAt": "2026-07-28T18:00:00.000Z",
+ "ddragonVersion": "16.15.1",
+ "changes": [
+  {
+   "sectionTitle": "Lo mejor de la versión",
+   "sectionId": "patch-patch-highlights",
+   "midPatch": false,
+   "entity": {
+    "kind": "none",
+    "id": null,
+    "name": ""
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "text",
+   "attribute": null,
+   "before": null,
+   "after": null,
+   "text": "Jax Cámara de Magma Prestigioso y Veigar Cámara de Magma Prestigioso estarán disponibles el 29 de julio de 2026.",
+   "id": "54e408394c26",
+   "section": "systems",
+   "tags": [],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Inicio de la tercera temporada clasificatoria",
+   "sectionId": "patch-ranked-season-3-start",
+   "midPatch": false,
+   "entity": {
+    "kind": "none",
+    "id": null,
+    "name": ""
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "text",
+   "attribute": null,
+   "before": null,
+   "after": null,
+   "text": "La tercera temporada clasificatoria comenzará el 29 de julio a las 12:00 p. m., hora local del servidor. La Misión de Clasificatoria Victoriosa (15 partidas clasificatorias ganadas) se actualizará con el inicio de la temporada y las recompensas del fin de la T2 se distribuirán poco después del inicio de la T3. El servicio de transferencia de servidor estará desactivado temporalmente hasta que se otorguen las recompensas de la T2.",
+   "id": "4cf31d741f04",
+   "section": "systems",
+   "tags": [],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Égida de Valor",
+   "sectionId": "patch-aegis-of-valor",
+   "midPatch": false,
+   "entity": {
+    "kind": "none",
+    "id": null,
+    "name": ""
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "text",
+   "attribute": null,
+   "before": null,
+   "after": null,
+   "text": "Modificaremos el sistema de Égida para que dependa por completo de la victoria: ya no reducirá las pérdidas de PL si los derrotan y se les otorgará el doble de PL si ganan aunque no tengan la puntuación mínima de maestría",
+   "id": "42165494610b",
+   "section": "systems",
+   "tags": [],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Restricciones para dúos con MMR alto",
+   "sectionId": "patch-apex-duo-restrictions",
+   "midPatch": false,
+   "entity": {
+    "kind": "none",
+    "id": null,
+    "name": ""
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "text",
+   "attribute": null,
+   "before": null,
+   "after": null,
+   "text": "Quienes estén en Maestro ahora podrán jugar en dúo, pero solo con personas que tengan un rango similar al suyo",
+   "id": "a1a9fe4750bd",
+   "section": "systems",
+   "tags": [],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Restricciones para dúos con MMR alto",
+   "sectionId": "patch-apex-duo-restrictions",
+   "midPatch": false,
+   "entity": {
+    "kind": "none",
+    "id": null,
+    "name": ""
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "text",
+   "attribute": null,
+   "before": null,
+   "after": null,
+   "text": "Quienes sean Gran Maestro o Retador, o tengan un MMR de Gran Maestro o Retador, no podrán jugar en dúo",
+   "id": "a0702722ff76",
+   "section": "systems",
+   "tags": [],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Restricciones para dúos con MMR alto",
+   "sectionId": "patch-apex-duo-restrictions",
+   "midPatch": false,
+   "entity": {
+    "kind": "none",
+    "id": null,
+    "name": ""
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "text",
+   "attribute": null,
+   "before": null,
+   "after": null,
+   "text": "Para conocer más detalles sobre las restricciones, consulten este artículo",
+   "id": "e9e1bb431ec5",
+   "section": "systems",
+   "tags": [],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Campeones",
+   "sectionId": "patch-champions",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Alistar",
+    "name": "Alistar"
+   },
+   "part": "base",
+   "partTitle": "Estadísticas base",
+   "spellKey": null,
+   "kind": "stat",
+   "attribute": "Velocidad de Movimiento",
+   "before": "330",
+   "after": "335",
+   "text": "Velocidad de Movimiento: 330 ⇒ 335",
+   "id": "137cdcb81afd",
+   "section": "champions",
+   "tags": [
+    "Tank",
+    "Support"
+   ],
+   "verification": "verified",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Campeones",
+   "sectionId": "patch-champions",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Belveth",
+    "name": "Bel'Veth"
+   },
+   "part": "base",
+   "partTitle": "Estadísticas base",
+   "spellKey": null,
+   "kind": "stat",
+   "attribute": "Velocidad de Ataque",
+   "before": "0.85",
+   "after": "0.67",
+   "text": "Velocidad de Ataque: 0.85 ⇒ 0.67",
+   "id": "5d36d1c11b63",
+   "section": "champions",
+   "tags": [
+    "Fighter"
+   ],
+   "verification": "verified",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Campeones",
+   "sectionId": "patch-champions",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Belveth",
+    "name": "Bel'Veth"
+   },
+   "part": "base",
+   "partTitle": "Estadísticas base",
+   "spellKey": null,
+   "kind": "stat",
+   "attribute": "Tasa de Velocidad de Ataque",
+   "before": "0.85",
+   "after": "0.67",
+   "text": "Tasa de Velocidad de Ataque: 0.85 ⇒ 0.67",
+   "id": "d619d846c491",
+   "section": "champions",
+   "tags": [
+    "Fighter"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Campeones",
+   "sectionId": "patch-champions",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Belveth",
+    "name": "Bel'Veth"
+   },
+   "part": "base",
+   "partTitle": "Estadísticas base",
+   "spellKey": null,
+   "kind": "stat",
+   "attribute": "Daño de Ataque",
+   "before": "60",
+   "after": "55",
+   "text": "Daño de Ataque: 60 ⇒ 55",
+   "id": "f5ffcab0176d",
+   "section": "champions",
+   "tags": [
+    "Fighter"
+   ],
+   "verification": "verified",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Campeones",
+   "sectionId": "patch-champions",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Belveth",
+    "name": "Bel'Veth"
+   },
+   "part": "base",
+   "partTitle": "Estadísticas base",
+   "spellKey": null,
+   "kind": "stat",
+   "attribute": "Modificador de Daño de Ataque básico",
+   "before": "75%",
+   "after": "100%",
+   "text": "Modificador de Daño de Ataque básico: 75% ⇒ 100%",
+   "id": "795c16e2d61e",
+   "section": "champions",
+   "tags": [
+    "Fighter"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Campeones",
+   "sectionId": "patch-champions",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Belveth",
+    "name": "Bel'Veth"
+   },
+   "part": "base",
+   "partTitle": "Estadísticas base",
+   "spellKey": null,
+   "kind": "stat",
+   "attribute": "Tiempo de lanzamiento de ataque",
+   "before": "0.25",
+   "after": "0.22",
+   "text": "Tiempo de lanzamiento de ataque: 0.25 ⇒ 0.22",
+   "id": "66592514b34a",
+   "section": "champions",
+   "tags": [
+    "Fighter"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Campeones",
+   "sectionId": "patch-champions",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Belveth",
+    "name": "Bel'Veth"
+   },
+   "part": "base",
+   "partTitle": "Estadísticas base",
+   "spellKey": null,
+   "kind": "text",
+   "attribute": null,
+   "before": null,
+   "after": null,
+   "text": "Animación total de ataque: Se ajustó para que brinde una mejor sensación con velocidades de ataque más bajas",
+   "id": "39d150f9b759",
+   "section": "champions",
+   "tags": [
+    "Fighter"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Campeones",
+   "sectionId": "patch-champions",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Belveth",
+    "name": "Bel'Veth"
+   },
+   "part": "base",
+   "partTitle": "Estadísticas base",
+   "spellKey": null,
+   "kind": "stat",
+   "attribute": "Armadura",
+   "before": "32",
+   "after": "28",
+   "text": "Armadura: 32 ⇒ 28",
+   "id": "a457f7e093f7",
+   "section": "champions",
+   "tags": [
+    "Fighter"
+   ],
+   "verification": "verified",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Campeones",
+   "sectionId": "patch-champions",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Belveth",
+    "name": "Bel'Veth"
+   },
+   "part": "base",
+   "partTitle": "Estadísticas base",
+   "spellKey": null,
+   "kind": "stat",
+   "attribute": "Crecimiento de Armadura",
+   "before": "4.7",
+   "after": "5",
+   "text": "Crecimiento de Armadura: 4.7 ⇒ 5",
+   "id": "fd215c34cf6e",
+   "section": "champions",
+   "tags": [
+    "Fighter"
+   ],
+   "verification": "verified",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Campeones",
+   "sectionId": "patch-champions",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Belveth",
+    "name": "Bel'Veth"
+   },
+   "part": "base",
+   "partTitle": "Estadísticas base",
+   "spellKey": null,
+   "kind": "stat",
+   "attribute": "Vida",
+   "before": "610",
+   "after": "580",
+   "text": "Vida: 610 ⇒ 580",
+   "id": "5f10dfb980a8",
+   "section": "champions",
+   "tags": [
+    "Fighter"
+   ],
+   "verification": "verified",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Campeones",
+   "sectionId": "patch-champions",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Belveth",
+    "name": "Bel'Veth"
+   },
+   "part": "base",
+   "partTitle": "Estadísticas base",
+   "spellKey": null,
+   "kind": "stat",
+   "attribute": "Crecimiento de Vida",
+   "before": "105",
+   "after": "110",
+   "text": "Crecimiento de Vida: 105 ⇒ 110",
+   "id": "97f129864cdb",
+   "section": "champions",
+   "tags": [
+    "Fighter"
+   ],
+   "verification": "verified",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Campeones",
+   "sectionId": "patch-champions",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Belveth",
+    "name": "Bel'Veth"
+   },
+   "part": "base",
+   "partTitle": "Estadísticas base",
+   "spellKey": null,
+   "kind": "stat",
+   "attribute": "Tamaño del modelo",
+   "before": "100%",
+   "after": "95%",
+   "text": "Tamaño del modelo: 100% ⇒ 95%",
+   "id": "55a39eca4b9b",
+   "section": "champions",
+   "tags": [
+    "Fighter"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Campeones",
+   "sectionId": "patch-champions",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Belveth",
+    "name": "Bel'Veth"
+   },
+   "part": "P",
+   "partTitle": "Pasiva: Muerte Lavanda",
+   "spellKey": null,
+   "kind": "stat",
+   "attribute": "Velocidad de Ataque adicional tras lanzar el hechizo",
+   "before": "20% mínimo / 40% máximo durante 2 ataques",
+   "after": "20% durante 3 seg",
+   "text": "Velocidad de Ataque adicional tras lanzar el hechizo: 20% mínimo / 40% máximo durante 2 ataques ⇒ 20% durante 3 seg",
+   "id": "7b1059430afa",
+   "section": "champions",
+   "tags": [
+    "Fighter"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Campeones",
+   "sectionId": "patch-champions",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Belveth",
+    "name": "Bel'Veth"
+   },
+   "part": "P",
+   "partTitle": "Pasiva: Muerte Lavanda",
+   "spellKey": null,
+   "kind": "stat",
+   "attribute": "Velocidad de Ataque por acumulación",
+   "before": "0.28% mínimo / 1.1% máximo",
+   "after": "0.1% mínimo / 2% máximo",
+   "text": "Velocidad de Ataque por acumulación: 0.28% mínimo / 1.1% máximo ⇒ 0.1% mínimo / 2% máximo",
+   "id": "0fd19ca3e708",
+   "section": "champions",
+   "tags": [
+    "Fighter"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Campeones",
+   "sectionId": "patch-champions",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Belveth",
+    "name": "Bel'Veth"
+   },
+   "part": "Q",
+   "partTitle": "Q: Embate del Vacío",
+   "spellKey": "BelvethQ",
+   "kind": "stat",
+   "attribute": "Velocidad",
+   "before": "800 / 850 / 900 / 950 / 1000",
+   "after": "850",
+   "text": "Velocidad: 800 / 850 / 900 / 950 / 1000 ⇒ 850",
+   "id": "5ff08d5cc395",
+   "section": "champions",
+   "tags": [
+    "Fighter"
+   ],
+   "verification": "verified",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Campeones",
+   "sectionId": "patch-champions",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Belveth",
+    "name": "Bel'Veth"
+   },
+   "part": "Q",
+   "partTitle": "Q: Embate del Vacío",
+   "spellKey": "BelvethQ",
+   "kind": "stat",
+   "attribute": "Tiempo entre lanzamientos",
+   "before": "1",
+   "after": "4 / 3.25 / 2.5 / 1.75 / 1",
+   "text": "Tiempo entre lanzamientos: 1 ⇒ 4 / 3.25 / 2.5 / 1.75 / 1",
+   "id": "1b0cd4d47773",
+   "section": "champions",
+   "tags": [
+    "Fighter"
+   ],
+   "verification": "verified",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Campeones",
+   "sectionId": "patch-champions",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Belveth",
+    "name": "Bel'Veth"
+   },
+   "part": "Q",
+   "partTitle": "Q: Embate del Vacío",
+   "spellKey": "BelvethQ",
+   "kind": "stat",
+   "attribute": "Modificador de daño a monstruos",
+   "before": "55 / 65 / 75 / 85 / 95",
+   "after": "70",
+   "text": "Modificador de daño a monstruos: 55 / 65 / 75 / 85 / 95 ⇒ 70",
+   "id": "862194686c98",
+   "section": "champions",
+   "tags": [
+    "Fighter"
+   ],
+   "verification": "verified",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Campeones",
+   "sectionId": "patch-champions",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Belveth",
+    "name": "Bel'Veth"
+   },
+   "part": "Q",
+   "partTitle": "Q: Embate del Vacío",
+   "spellKey": "BelvethQ",
+   "kind": "stat",
+   "attribute": "Modificador de daño a súbditos",
+   "before": "60 / 70 / 80 / 90 / 100%",
+   "after": "Eliminado",
+   "text": "Modificador de daño a súbditos: 60 / 70 / 80 / 90 / 100% ⇒ Eliminado",
+   "id": "0b8dbaef7755",
+   "section": "champions",
+   "tags": [
+    "Fighter"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Campeones",
+   "sectionId": "patch-champions",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Belveth",
+    "name": "Bel'Veth"
+   },
+   "part": "Q",
+   "partTitle": "Q: Embate del Vacío",
+   "spellKey": "BelvethQ",
+   "kind": "stat",
+   "attribute": "Daño",
+   "before": "0 / 5 / 10 / 15 / 20 (+100% de Daño de Ataque)",
+   "after": "12 / 14 / 16 / 18 / 20 (+105% de Daño de Ataque)",
+   "text": "Daño: 0 / 5 / 10 / 15 / 20 (+100% de Daño de Ataque) ⇒ 12 / 14 / 16 / 18 / 20 (+105% de Daño de Ataque)",
+   "id": "f53ed2b0c737",
+   "section": "champions",
+   "tags": [
+    "Fighter"
+   ],
+   "verification": "verified",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Campeones",
+   "sectionId": "patch-champions",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Belveth",
+    "name": "Bel'Veth"
+   },
+   "part": "Q",
+   "partTitle": "Q: Embate del Vacío",
+   "spellKey": "BelvethQ",
+   "kind": "stat",
+   "attribute": "Conversión de Velocidad de Ataque a Aceleración de Habilidad",
+   "before": "0.25",
+   "after": "0.2",
+   "text": "Conversión de Velocidad de Ataque a Aceleración de Habilidad: 0.25 ⇒ 0.2",
+   "id": "7238b5513f5e",
+   "section": "champions",
+   "tags": [
+    "Fighter"
+   ],
+   "verification": "verified",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Campeones",
+   "sectionId": "patch-champions",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Belveth",
+    "name": "Bel'Veth"
+   },
+   "part": "W",
+   "partTitle": "W: Ascenso y Descenso",
+   "spellKey": "BelvethW",
+   "kind": "stat",
+   "attribute": "Daño",
+   "before": "70 / 110 / 150 / 190 / 230 (+100% de Daño de Ataque adicional) (+125% de Poder de Habilidad)",
+   "after": "80 / 140 / 200 / 260 / 320 (+150% de Poder de Habilidad)",
+   "text": "Daño: 70 / 110 / 150 / 190 / 230 (+100% de Daño de Ataque adicional) (+125% de Poder de Habilidad) ⇒ 80 / 140 / 200 / 260 / 320 (+150% de Poder de Habilidad)",
+   "id": "8a262a79e6d8",
+   "section": "champions",
+   "tags": [
+    "Fighter"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Campeones",
+   "sectionId": "patch-champions",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Belveth",
+    "name": "Bel'Veth"
+   },
+   "part": "W",
+   "partTitle": "W: Ascenso y Descenso",
+   "spellKey": "BelvethW",
+   "kind": "stat",
+   "attribute": "Duración de ralentización",
+   "before": "1.25 / 1.5 / 1.75 / 2 / 2.25 seg con 50% de ralentización",
+   "after": "2 seg con 30% de ralentización",
+   "text": "Duración de ralentización: 1.25 / 1.5 / 1.75 / 2 / 2.25 seg con 50% de ralentización ⇒ 2 seg con 30% de ralentización",
+   "id": "d81d39a341c3",
+   "section": "champions",
+   "tags": [
+    "Fighter"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Campeones",
+   "sectionId": "patch-champions",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Belveth",
+    "name": "Bel'Veth"
+   },
+   "part": "W",
+   "partTitle": "W: Ascenso y Descenso",
+   "spellKey": "BelvethW",
+   "kind": "stat",
+   "attribute": "Duración de lanzamiento en el aire",
+   "before": "0.75 seg",
+   "after": "0.6 / 0.7 / 0.8 / 0.9 / 1 seg",
+   "text": "Duración de lanzamiento en el aire: 0.75 seg ⇒ 0.6 / 0.7 / 0.8 / 0.9 / 1 seg",
+   "id": "c55304b988ec",
+   "section": "champions",
+   "tags": [
+    "Fighter"
+   ],
+   "verification": "verified",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Campeones",
+   "sectionId": "patch-champions",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Belveth",
+    "name": "Bel'Veth"
+   },
+   "part": "E",
+   "partTitle": "E: Vorágine Imperial",
+   "spellKey": "BelvethE",
+   "kind": "stat",
+   "attribute": "Daño por golpe",
+   "before": "6 / 7 / 8 / 9 / 10 (+8% de Daño de Ataque) (+8% de efectos al impacto), aumentado hasta un 300% según la Vida faltante",
+   "after": "10 / 12 / 14 / 16 / 18 (+12% de Daño de Ataque) (+12% de efectos al impacto), aumentado hasta un 100% según la Vida faltante",
+   "text": "Daño por golpe: 6 / 7 / 8 / 9 / 10 (+8% de Daño de Ataque) (+8% de efectos al impacto), aumentado hasta un 300% según la Vida faltante ⇒ 10 / 12 / 14 / 16 / 18 (+12% de Daño de Ataque) (+12% de efectos al impacto), aumentado hasta un 100% según la Vida faltante",
+   "id": "7f81d68a638c",
+   "section": "champions",
+   "tags": [
+    "Fighter"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Campeones",
+   "sectionId": "patch-champions",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Belveth",
+    "name": "Bel'Veth"
+   },
+   "part": "E",
+   "partTitle": "E: Vorágine Imperial",
+   "spellKey": "BelvethE",
+   "kind": "stat",
+   "attribute": "Número de golpes",
+   "before": "6 + 1 por cada 33% de Velocidad de Ataque adicional",
+   "after": "6 + 1 por cada 40% de Velocidad de Ataque adicional",
+   "text": "Número de golpes: 6 + 1 por cada 33% de Velocidad de Ataque adicional ⇒ 6 + 1 por cada 40% de Velocidad de Ataque adicional",
+   "id": "fb4ef83db8ff",
+   "section": "champions",
+   "tags": [
+    "Fighter"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Campeones",
+   "sectionId": "patch-champions",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Belveth",
+    "name": "Bel'Veth"
+   },
+   "part": "E",
+   "partTitle": "E: Vorágine Imperial",
+   "spellKey": "BelvethE",
+   "kind": "stat",
+   "attribute": "Reducción de daño",
+   "before": "35 / 40 / 45 / 50 / 55%",
+   "after": "20 / 30 / 40 / 50 / 60%",
+   "text": "Reducción de daño: 35 / 40 / 45 / 50 / 55% ⇒ 20 / 30 / 40 / 50 / 60%",
+   "id": "d1e7081bc82b",
+   "section": "champions",
+   "tags": [
+    "Fighter"
+   ],
+   "verification": "verified",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Campeones",
+   "sectionId": "patch-champions",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Belveth",
+    "name": "Bel'Veth"
+   },
+   "part": "E",
+   "partTitle": "E: Vorágine Imperial",
+   "spellKey": "BelvethE",
+   "kind": "stat",
+   "attribute": "Robo de Vida",
+   "before": "20%",
+   "after": "20 / 25 / 30 / 35 / 40%",
+   "text": "Robo de Vida: 20% ⇒ 20 / 25 / 30 / 35 / 40%",
+   "id": "efc0e3d89f06",
+   "section": "champions",
+   "tags": [
+    "Fighter"
+   ],
+   "verification": "verified",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Campeones",
+   "sectionId": "patch-champions",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Belveth",
+    "name": "Bel'Veth"
+   },
+   "part": "E",
+   "partTitle": "E: Vorágine Imperial",
+   "spellKey": "BelvethE",
+   "kind": "stat",
+   "attribute": "Progresión de Robo de Vida",
+   "before": "100%",
+   "after": "Eliminado",
+   "text": "Progresión de Robo de Vida: 100% ⇒ Eliminado",
+   "id": "a32a2e23e953",
+   "section": "champions",
+   "tags": [
+    "Fighter"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Campeones",
+   "sectionId": "patch-champions",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Belveth",
+    "name": "Bel'Veth"
+   },
+   "part": "E",
+   "partTitle": "E: Vorágine Imperial",
+   "spellKey": "BelvethE",
+   "kind": "stat",
+   "attribute": "Enfriamiento",
+   "before": "20 / 19 / 18 / 17 / 16",
+   "after": "24 / 21 / 18 / 15 / 12",
+   "text": "Enfriamiento: 20 / 19 / 18 / 17 / 16 ⇒ 24 / 21 / 18 / 15 / 12",
+   "id": "3c71f64ba872",
+   "section": "champions",
+   "tags": [
+    "Fighter"
+   ],
+   "verification": "verified",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Campeones",
+   "sectionId": "patch-champions",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Belveth",
+    "name": "Bel'Veth"
+   },
+   "part": "E",
+   "partTitle": "E: Vorágine Imperial",
+   "spellKey": "BelvethE",
+   "kind": "stat",
+   "attribute": "Modificador de daño a monstruos",
+   "before": "150%",
+   "after": "200%",
+   "text": "Modificador de daño a monstruos: 150% ⇒ 200%",
+   "id": "5012c8c5aa19",
+   "section": "champions",
+   "tags": [
+    "Fighter"
+   ],
+   "verification": "verified",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Campeones",
+   "sectionId": "patch-champions",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Belveth",
+    "name": "Bel'Veth"
+   },
+   "part": "R",
+   "partTitle": "R: Banquete Infinito",
+   "spellKey": "BelvethR",
+   "kind": "stat",
+   "attribute": "Aplicación de efectos al impacto de la pasiva",
+   "before": "Cada dos ataques",
+   "after": "Cada ataque",
+   "text": "Aplicación de efectos al impacto de la pasiva: Cada dos ataques ⇒ Cada ataque",
+   "id": "796ca21cf7cf",
+   "section": "champions",
+   "tags": [
+    "Fighter"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Campeones",
+   "sectionId": "patch-champions",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Belveth",
+    "name": "Bel'Veth"
+   },
+   "part": "R",
+   "partTitle": "R: Banquete Infinito",
+   "spellKey": "BelvethR",
+   "kind": "stat",
+   "attribute": "Daño verdadero de la pasiva",
+   "before": "6 / 10 / 14 (+12% de Daño de Ataque adicional)",
+   "after": "2 / 4 / 6 (+3% de Daño de Ataque adicional)",
+   "text": "Daño verdadero de la pasiva: 6 / 10 / 14 (+12% de Daño de Ataque adicional) ⇒ 2 / 4 / 6 (+3% de Daño de Ataque adicional)",
+   "id": "4446dba4ad19",
+   "section": "champions",
+   "tags": [
+    "Fighter"
+   ],
+   "verification": "verified",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Campeones",
+   "sectionId": "patch-champions",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Belveth",
+    "name": "Bel'Veth"
+   },
+   "part": "R",
+   "partTitle": "R: Banquete Infinito",
+   "spellKey": "BelvethR",
+   "kind": "stat",
+   "attribute": "Cambio de objetivo",
+   "before": "La pasiva se eliminaba al cambiar de objetivo",
+   "after": "La pasiva ya no se elimina al cambiar de objetivo",
+   "text": "Cambio de objetivo: La pasiva se eliminaba al cambiar de objetivo ⇒ La pasiva ya no se elimina al cambiar de objetivo",
+   "id": "a5593fb90f9c",
+   "section": "champions",
+   "tags": [
+    "Fighter"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Campeones",
+   "sectionId": "patch-champions",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Belveth",
+    "name": "Bel'Veth"
+   },
+   "part": "R",
+   "partTitle": "R: Banquete Infinito",
+   "spellKey": "BelvethR",
+   "kind": "stat",
+   "attribute": "Acumulaciones máximas de monstruos épicos",
+   "before": "10",
+   "after": "8",
+   "text": "Acumulaciones máximas de monstruos épicos: 10 ⇒ 8",
+   "id": "796820447899",
+   "section": "champions",
+   "tags": [
+    "Fighter"
+   ],
+   "verification": "verified",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Campeones",
+   "sectionId": "patch-champions",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Belveth",
+    "name": "Bel'Veth"
+   },
+   "part": "R",
+   "partTitle": "R: Banquete Infinito",
+   "spellKey": "BelvethR",
+   "kind": "stat",
+   "attribute": "Requisito de aplicación de la pasiva",
+   "before": "La E y la Q requerían que Bel'Veth atacara al objetivo primero",
+   "after": "La E y la Q ya no requieren que Bel'Veth ataque al objetivo primero",
+   "text": "Requisito de aplicación de la pasiva: La E y la Q requerían que Bel'Veth atacara al objetivo primero ⇒ La E y la Q ya no requieren que Bel'Veth ataque al objetivo primero",
+   "id": "91175e041c95",
+   "section": "champions",
+   "tags": [
+    "Fighter"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Campeones",
+   "sectionId": "patch-champions",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Belveth",
+    "name": "Bel'Veth"
+   },
+   "part": "R",
+   "partTitle": "R: Banquete Infinito",
+   "spellKey": "BelvethR",
+   "kind": "stat",
+   "attribute": "Daño de explosión",
+   "before": "150 / 200 / 250 (+100% de Poder de Habilidad) (+25% de Vida faltante)",
+   "after": "150 / 200 / 250 (+150% de Poder de Habilidad) (+20% de Vida faltante)",
+   "text": "Daño de explosión: 150 / 200 / 250 (+100% de Poder de Habilidad) (+25% de Vida faltante) ⇒ 150 / 200 / 250 (+150% de Poder de Habilidad) (+20% de Vida faltante)",
+   "id": "436631ff4a6c",
+   "section": "champions",
+   "tags": [
+    "Fighter"
+   ],
+   "verification": "verified",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Campeones",
+   "sectionId": "patch-champions",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Belveth",
+    "name": "Bel'Veth"
+   },
+   "part": "R",
+   "partTitle": "R: Banquete Infinito",
+   "spellKey": "BelvethR",
+   "kind": "stat",
+   "attribute": "Curación por Vida adicional",
+   "before": "100 / 150 / 200 (+120% de Daño de Ataque adicional) (+90% de Poder de Habilidad)",
+   "after": "100 / 250 / 400 (+150% de Daño de Ataque adicional) (+150% de Poder de Habilidad)",
+   "text": "Curación por Vida adicional: 100 / 150 / 200 (+120% de Daño de Ataque adicional) (+90% de Poder de Habilidad) ⇒ 100 / 250 / 400 (+150% de Daño de Ataque adicional) (+150% de Poder de Habilidad)",
+   "id": "0f6320e1f100",
+   "section": "champions",
+   "tags": [
+    "Fighter"
+   ],
+   "verification": "verified",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Campeones",
+   "sectionId": "patch-champions",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Belveth",
+    "name": "Bel'Veth"
+   },
+   "part": "R",
+   "partTitle": "R: Banquete Infinito",
+   "spellKey": "BelvethR",
+   "kind": "stat",
+   "attribute": "Alcance de ataque básico adicional",
+   "before": "75",
+   "after": "25 / 75 / 125",
+   "text": "Alcance de ataque básico adicional: 75 ⇒ 25 / 75 / 125",
+   "id": "500031cf9668",
+   "section": "champions",
+   "tags": [
+    "Fighter"
+   ],
+   "verification": "verified",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Campeones",
+   "sectionId": "patch-champions",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Belveth",
+    "name": "Bel'Veth"
+   },
+   "part": "R",
+   "partTitle": "R: Banquete Infinito",
+   "spellKey": "BelvethR",
+   "kind": "stat",
+   "attribute": "Velocidad de Ataque total",
+   "before": "10 / 15 / 20%",
+   "after": "5 / 15 / 25%",
+   "text": "Velocidad de Ataque total: 10 / 15 / 20% ⇒ 5 / 15 / 25%",
+   "id": "f769988922a9",
+   "section": "champions",
+   "tags": [
+    "Fighter"
+   ],
+   "verification": "verified",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Campeones",
+   "sectionId": "patch-champions",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Belveth",
+    "name": "Bel'Veth"
+   },
+   "part": "R",
+   "partTitle": "R: Banquete Infinito",
+   "spellKey": "BelvethR",
+   "kind": "stat",
+   "attribute": "Tamaño",
+   "before": "10%",
+   "after": "10 / 15 / 20%",
+   "text": "Tamaño: 10% ⇒ 10 / 15 / 20%",
+   "id": "da593c6cb896",
+   "section": "champions",
+   "tags": [
+    "Fighter"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Campeones",
+   "sectionId": "patch-champions",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Belveth",
+    "name": "Bel'Veth"
+   },
+   "part": "R",
+   "partTitle": "R: Banquete Infinito",
+   "spellKey": "BelvethR",
+   "kind": "stat",
+   "attribute": "Duración de mejora sin potenciar",
+   "before": "60",
+   "after": "45 / 90 / infinito con 0 / 40 / 80 acumulaciones",
+   "text": "Duración de mejora sin potenciar: 60 ⇒ 45 / 90 / infinito con 0 / 40 / 80 acumulaciones",
+   "id": "29b901121d70",
+   "section": "champions",
+   "tags": [
+    "Fighter"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Campeones",
+   "sectionId": "patch-champions",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Belveth",
+    "name": "Bel'Veth"
+   },
+   "part": "R",
+   "partTitle": "R: Banquete Infinito",
+   "spellKey": "BelvethR",
+   "kind": "stat",
+   "attribute": "Duración de la mejora potenciada",
+   "before": "180",
+   "after": "45 / 90 / infinito con 0 / 40 / 80 acumulaciones",
+   "text": "Duración de la mejora potenciada: 180 ⇒ 45 / 90 / infinito con 0 / 40 / 80 acumulaciones",
+   "id": "d18c17118c13",
+   "section": "champions",
+   "tags": [
+    "Fighter"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Campeones",
+   "sectionId": "patch-champions",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Belveth",
+    "name": "Bel'Veth"
+   },
+   "part": "R",
+   "partTitle": "R: Banquete Infinito",
+   "spellKey": "BelvethR",
+   "kind": "stat",
+   "attribute": "Bloqueo tras lanzamiento",
+   "before": "0.5 seg",
+   "after": "0.25 seg",
+   "text": "Bloqueo tras lanzamiento: 0.5 seg ⇒ 0.25 seg",
+   "id": "51fc2faa4dcd",
+   "section": "champions",
+   "tags": [
+    "Fighter"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Campeones",
+   "sectionId": "patch-champions",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Belveth",
+    "name": "Bel'Veth"
+   },
+   "part": "R",
+   "partTitle": "R: Banquete Infinito",
+   "spellKey": "BelvethR",
+   "kind": "text",
+   "attribute": null,
+   "before": null,
+   "after": null,
+   "text": "Velocidad de Movimiento al estar fuera de combate: Eliminado",
+   "id": "f5d087e0b114",
+   "section": "champions",
+   "tags": [
+    "Fighter"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Campeones",
+   "sectionId": "patch-champions",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Kaisa",
+    "name": "Kai'Sa"
+   },
+   "part": "P",
+   "partTitle": "Pasiva: Segunda Piel",
+   "spellKey": null,
+   "kind": "stat",
+   "attribute": "Heridas Corrosivas",
+   "before": "4 - 24 (nivel del campeón) (+12% de Poder de Habilidad), +1 - 6 (nivel del campeón) (+3% de Poder de Habilidad) por acumulación previa",
+   "after": "4 - 30 (nivel del campeón) (+12% de Poder de Habilidad), +1 - 8 (nivel del campeón) (+3% de Poder de Habilidad) por acumulación previa",
+   "text": "Heridas Corrosivas: 4 - 24 (nivel del campeón) (+12% de Poder de Habilidad), +1 - 6 (nivel del campeón) (+3% de Poder de Habilidad) por acumulación previa ⇒ 4 - 30 (nivel del campeón) (+12% de Poder de Habilidad), +1 - 8 (nivel del campeón) (+3% de Poder de Habilidad) por acumulación previa",
+   "id": "b24c5bce5e2c",
+   "section": "champions",
+   "tags": [
+    "Marksman",
+    "Mage"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Campeones",
+   "sectionId": "patch-champions",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Locke",
+    "name": "Locke"
+   },
+   "part": "base",
+   "partTitle": "Estadísticas base",
+   "spellKey": null,
+   "kind": "stat",
+   "attribute": "Vida",
+   "before": "655",
+   "after": "620",
+   "text": "Vida: 655 ⇒ 620",
+   "id": "d8a9c03c4d72",
+   "section": "champions",
+   "tags": [
+    "Assassin",
+    "Mage"
+   ],
+   "verification": "verified",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Campeones",
+   "sectionId": "patch-champions",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Locke",
+    "name": "Locke"
+   },
+   "part": "Q",
+   "partTitle": "Q: Clavos de la Expiación",
+   "spellKey": "LockeQ",
+   "kind": "stat",
+   "attribute": "Daño base del Clavo",
+   "before": "50 / 58 / 66 / 74 / 82 (+20% de Poder de Habilidad)",
+   "after": "40 / 48 / 56 / 64 / 72 (+20% de Poder de Habilidad)",
+   "text": "Daño base del Clavo: 50 / 58 / 66 / 74 / 82 (+20% de Poder de Habilidad) ⇒ 40 / 48 / 56 / 64 / 72 (+20% de Poder de Habilidad)",
+   "id": "06454357aae4",
+   "section": "champions",
+   "tags": [
+    "Assassin",
+    "Mage"
+   ],
+   "verification": "verified",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Campeones",
+   "sectionId": "patch-champions",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Locke",
+    "name": "Locke"
+   },
+   "part": "Q",
+   "partTitle": "Q: Clavos de la Expiación",
+   "spellKey": "LockeQ",
+   "kind": "stat",
+   "attribute": "Daño de Tres Clavos",
+   "before": "150 / 174 / 198 / 222 / 246 (+60% de Poder de Habilidad)",
+   "after": "120 / 144 / 168 / 192 / 216 (+60% de Poder de Habilidad)",
+   "text": "Daño de Tres Clavos: 150 / 174 / 198 / 222 / 246 (+60% de Poder de Habilidad) ⇒ 120 / 144 / 168 / 192 / 216 (+60% de Poder de Habilidad)",
+   "id": "acad670f3a8a",
+   "section": "champions",
+   "tags": [
+    "Assassin",
+    "Mage"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Campeones",
+   "sectionId": "patch-champions",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Locke",
+    "name": "Locke"
+   },
+   "part": "W",
+   "partTitle": "W: Incineración del Alma",
+   "spellKey": "LockeW",
+   "kind": "stat",
+   "attribute": "Velocidad de Movimiento",
+   "before": "40 / 45 / 50 / 55 / 60% (+2% por cada 100 de Poder de Habilidad)",
+   "after": "40% (+2% por cada 100 de Poder de Habilidad)",
+   "text": "Velocidad de Movimiento: 40 / 45 / 50 / 55 / 60% (+2% por cada 100 de Poder de Habilidad) ⇒ 40% (+2% por cada 100 de Poder de Habilidad)",
+   "id": "7bbc8dc7d6b9",
+   "section": "champions",
+   "tags": [
+    "Assassin",
+    "Mage"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Campeones",
+   "sectionId": "patch-champions",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Locke",
+    "name": "Locke"
+   },
+   "part": "W",
+   "partTitle": "W: Incineración del Alma",
+   "spellKey": "LockeW",
+   "kind": "stat",
+   "attribute": "Valor base de Vida gris",
+   "before": "40 / 70 / 100 / 130 / 160 (+120% de Poder de Habilidad)",
+   "after": "40 / 60 / 80 / 100 / 120 (+100% de Poder de Habilidad)",
+   "text": "Valor base de Vida gris: 40 / 70 / 100 / 130 / 160 (+120% de Poder de Habilidad) ⇒ 40 / 60 / 80 / 100 / 120 (+100% de Poder de Habilidad)",
+   "id": "e8a67f273182",
+   "section": "champions",
+   "tags": [
+    "Assassin",
+    "Mage"
+   ],
+   "verification": "verified",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Campeones",
+   "sectionId": "patch-champions",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Maokai",
+    "name": "Maokai"
+   },
+   "part": "Q",
+   "partTitle": "Q: Aplastamiento Espinoso",
+   "spellKey": "MaokaiQ",
+   "kind": "stat",
+   "attribute": "Modificador de daño a monstruos",
+   "before": "140 / 150 / 160 / 170 / 180",
+   "after": "150 / 160 / 170 / 180 / 190",
+   "text": "Modificador de daño a monstruos: 140 / 150 / 160 / 170 / 180 ⇒ 150 / 160 / 170 / 180 / 190",
+   "id": "df64f8019afd",
+   "section": "champions",
+   "tags": [
+    "Tank",
+    "Support"
+   ],
+   "verification": "verified",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Campeones",
+   "sectionId": "patch-champions",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Maokai",
+    "name": "Maokai"
+   },
+   "part": "Q",
+   "partTitle": "Q: Aplastamiento Espinoso",
+   "spellKey": "MaokaiQ",
+   "kind": "stat",
+   "attribute": "Tasa de Poder de Habilidad",
+   "before": "40%",
+   "after": "50%",
+   "text": "Tasa de Poder de Habilidad: 40% ⇒ 50%",
+   "id": "9fc37ae44e8a",
+   "section": "champions",
+   "tags": [
+    "Tank",
+    "Support"
+   ],
+   "verification": "verified",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Campeones",
+   "sectionId": "patch-champions",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Mordekaiser",
+    "name": "Mordekaiser"
+   },
+   "part": "E",
+   "partTitle": "E: Garra del Inframundo",
+   "spellKey": "MordekaiserE",
+   "kind": "stat",
+   "attribute": "Enfriamiento",
+   "before": "18 / 16 / 14 / 12 / 10",
+   "after": "16 / 14 / 12 / 10 / 8",
+   "text": "Enfriamiento: 18 / 16 / 14 / 12 / 10 ⇒ 16 / 14 / 12 / 10 / 8",
+   "id": "34ad4cc73c15",
+   "section": "champions",
+   "tags": [
+    "Fighter",
+    "Mage"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Campeones",
+   "sectionId": "patch-champions",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Mordekaiser",
+    "name": "Mordekaiser"
+   },
+   "part": "R",
+   "partTitle": "R: Reino de la Muerte",
+   "spellKey": "MordekaiserR",
+   "kind": "stat",
+   "attribute": "Estadísticas robadas",
+   "before": "13%",
+   "after": "10%",
+   "text": "Estadísticas robadas: 13% ⇒ 10%",
+   "id": "520d918cac14",
+   "section": "champions",
+   "tags": [
+    "Fighter",
+    "Mage"
+   ],
+   "verification": "verified",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Campeones",
+   "sectionId": "patch-champions",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Mordekaiser",
+    "name": "Mordekaiser"
+   },
+   "part": "R",
+   "partTitle": "R: Reino de la Muerte",
+   "spellKey": "MordekaiserR",
+   "kind": "text",
+   "attribute": null,
+   "before": null,
+   "after": null,
+   "text": "Corrección de error: Corregimos un error que causaba que Mordekaiser obtuviera un aumento de daño (hasta el doble) al lanzar la definitiva a un objetivo con una cantidad de vida superior a la que le quedaría tras la reducción de vida máxima",
+   "id": "717d5868526f",
+   "section": "champions",
+   "tags": [
+    "Fighter",
+    "Mage"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Campeones",
+   "sectionId": "patch-champions",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Naafiri",
+    "name": "Naafiri"
+   },
+   "part": "R",
+   "partTitle": "R: El Llamado de la Manada",
+   "spellKey": "NaafiriR",
+   "kind": "stat",
+   "attribute": "Daño",
+   "before": "150 / 225 / 300 (+120% de Daño de Ataque)",
+   "after": "125 / 200 / 275 (+100% de Daño de Ataque adicional)",
+   "text": "Daño: 150 / 225 / 300 (+120% de Daño de Ataque) ⇒ 125 / 200 / 275 (+100% de Daño de Ataque adicional)",
+   "id": "ab9db32f5893",
+   "section": "champions",
+   "tags": [
+    "Assassin",
+    "Fighter"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Campeones",
+   "sectionId": "patch-champions",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Naafiri",
+    "name": "Naafiri"
+   },
+   "part": "R",
+   "partTitle": "R: El Llamado de la Manada",
+   "spellKey": "NaafiriR",
+   "kind": "stat",
+   "attribute": "Daño por compañero",
+   "before": "15 / 22.5 / 30 (+12% de Daño de Ataque)",
+   "after": "12.5 / 20 / 27.5 (+10% de Daño de Ataque adicional)",
+   "text": "Daño por compañero: 15 / 22.5 / 30 (+12% de Daño de Ataque) ⇒ 12.5 / 20 / 27.5 (+10% de Daño de Ataque adicional)",
+   "id": "1831ba4d38d9",
+   "section": "champions",
+   "tags": [
+    "Assassin",
+    "Fighter"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Campeones",
+   "sectionId": "patch-champions",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Riven",
+    "name": "Riven"
+   },
+   "part": "R",
+   "partTitle": "R: Espada del Exilio",
+   "spellKey": "RivenFengShuiEngine",
+   "kind": "stat",
+   "attribute": "Tasa de Daño de Ataque adicional",
+   "before": "25%",
+   "after": "20%",
+   "text": "Tasa de Daño de Ataque adicional: 25% ⇒ 20%",
+   "id": "11fc1f8546de",
+   "section": "champions",
+   "tags": [
+    "Fighter",
+    "Assassin"
+   ],
+   "verification": "verified",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Campeones",
+   "sectionId": "patch-champions",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Riven",
+    "name": "Riven"
+   },
+   "part": "R",
+   "partTitle": "R: Corte de Viento",
+   "spellKey": null,
+   "kind": "stat",
+   "attribute": "Tasa de Daño de Ataque adicional",
+   "before": "60% mínimo / 180% máximo",
+   "after": "55% mínimo / 165% máximo",
+   "text": "Tasa de Daño de Ataque adicional: 60% mínimo / 180% máximo ⇒ 55% mínimo / 165% máximo",
+   "id": "3f97912b7b9d",
+   "section": "champions",
+   "tags": [
+    "Fighter",
+    "Assassin"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Campeones",
+   "sectionId": "patch-champions",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Sylas",
+    "name": "Sylas"
+   },
+   "part": "Q",
+   "partTitle": "Q: Azote de Cadenas",
+   "spellKey": "SylasQ",
+   "kind": "stat",
+   "attribute": "Daño del primer azote",
+   "before": "40 / 65 / 90 / 115 / 140 (+45% de Poder de Habilidad)",
+   "after": "40 / 60 / 80 / 100 / 120 (+40% de Poder de Habilidad)",
+   "text": "Daño del primer azote: 40 / 65 / 90 / 115 / 140 (+45% de Poder de Habilidad) ⇒ 40 / 60 / 80 / 100 / 120 (+40% de Poder de Habilidad)",
+   "id": "b4910f17f5c1",
+   "section": "champions",
+   "tags": [
+    "Mage",
+    "Assassin"
+   ],
+   "verification": "verified",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Campeones",
+   "sectionId": "patch-champions",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Volibear",
+    "name": "Volibear"
+   },
+   "part": "Q",
+   "partTitle": "Q: Choque Estruendoso",
+   "spellKey": "VolibearQ",
+   "kind": "stat",
+   "attribute": "Enfriamiento",
+   "before": "14 / 13 / 12 / 11 / 10",
+   "after": "12 / 11.5 / 11 / 10.5 / 10",
+   "text": "Enfriamiento: 14 / 13 / 12 / 11 / 10 ⇒ 12 / 11.5 / 11 / 10.5 / 10",
+   "id": "b1d0132720a7",
+   "section": "champions",
+   "tags": [
+    "Fighter",
+    "Tank"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Campeones",
+   "sectionId": "patch-champions",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Zac",
+    "name": "Zac"
+   },
+   "part": "base",
+   "partTitle": "Estadísticas base",
+   "spellKey": null,
+   "kind": "stat",
+   "attribute": "Crecimiento de Armadura",
+   "before": "4.7",
+   "after": "5.2",
+   "text": "Crecimiento de Armadura: 4.7 ⇒ 5.2",
+   "id": "48d86c1926a4",
+   "section": "champions",
+   "tags": [
+    "Tank",
+    "Fighter"
+   ],
+   "verification": "verified",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Campeones",
+   "sectionId": "patch-champions",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Zac",
+    "name": "Zac"
+   },
+   "part": "E",
+   "partTitle": "E: Honda Elástica",
+   "spellKey": "ZacE",
+   "kind": "stat",
+   "attribute": "Enfriamiento",
+   "before": "22 / 19 / 16 / 13 / 10",
+   "after": "21 / 18 / 15 / 12 / 9",
+   "text": "Enfriamiento: 22 / 19 / 16 / 13 / 10 ⇒ 21 / 18 / 15 / 12 / 9",
+   "id": "520c99f3eeb8",
+   "section": "champions",
+   "tags": [
+    "Tank",
+    "Fighter"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Objetos",
+   "sectionId": "patch-items",
+   "midPatch": false,
+   "entity": {
+    "kind": "item",
+    "id": "2520",
+    "name": "Rompebastiones"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "stat",
+   "attribute": "Costo",
+   "before": "3200 de oro",
+   "after": "3000 de oro",
+   "text": "Costo: 3200 de oro ⇒ 3000 de oro",
+   "id": "dcec8653edba",
+   "section": "items",
+   "tags": [
+    "Damage",
+    "ArmorPenetration",
+    "AbilityHaste"
+   ],
+   "verification": "verified",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Objetos",
+   "sectionId": "patch-items",
+   "midPatch": false,
+   "entity": {
+    "kind": "item",
+    "id": "2520",
+    "name": "Rompebastiones"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "stat",
+   "attribute": "Daño de Carga Hueca",
+   "before": "(30 + 150% de letalidad) de daño verdadero",
+   "after": "(50 + 150% de letalidad) de daño verdadero",
+   "text": "Daño de Carga Hueca: (30 + 150% de letalidad) de daño verdadero ⇒ (50 + 150% de letalidad) de daño verdadero",
+   "id": "0c69434008f9",
+   "section": "items",
+   "tags": [
+    "Damage",
+    "ArmorPenetration",
+    "AbilityHaste"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Objetos",
+   "sectionId": "patch-items",
+   "midPatch": false,
+   "entity": {
+    "kind": "item",
+    "id": "3302",
+    "name": "Terminus"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "stat",
+   "attribute": "Único - Sombra",
+   "before": "30 de daño mágico al impacto",
+   "after": "30 (+10% de Daño de Ataque adicional) (+10% de Poder de Habilidad)",
+   "text": "Único - Sombra: 30 de daño mágico al impacto ⇒ 30 (+10% de Daño de Ataque adicional) (+10% de Poder de Habilidad)",
+   "id": "840b9a6cb784",
+   "section": "items",
+   "tags": [
+    "Damage",
+    "AttackSpeed",
+    "OnHit",
+    "MagicPenetration",
+    "ArmorPenetration"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Objetos",
+   "sectionId": "patch-items",
+   "midPatch": false,
+   "entity": {
+    "kind": "item",
+    "id": "3032",
+    "name": "Flechas Salvajes de Yun Tal"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "stat",
+   "attribute": "Costo",
+   "before": "850 de oro",
+   "after": "750 de oro",
+   "text": "Costo: 850 de oro ⇒ 750 de oro",
+   "id": "2d266bb5daf6",
+   "section": "items",
+   "tags": [
+    "Damage",
+    "CriticalStrike",
+    "AttackSpeed"
+   ],
+   "verification": "verified",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Objetos",
+   "sectionId": "patch-items",
+   "midPatch": false,
+   "entity": {
+    "kind": "item",
+    "id": "3032",
+    "name": "Flechas Salvajes de Yun Tal"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "stat",
+   "attribute": "Velocidad de Ataque",
+   "before": "40%",
+   "after": "45%",
+   "text": "Velocidad de Ataque: 40% ⇒ 45%",
+   "id": "1814f9268e69",
+   "section": "items",
+   "tags": [
+    "Damage",
+    "CriticalStrike",
+    "AttackSpeed"
+   ],
+   "verification": "verified",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Runas",
+   "sectionId": "patch-runes",
+   "midPatch": false,
+   "entity": {
+    "kind": "rune",
+    "id": "8316",
+    "name": "Comodín"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "stat",
+   "attribute": "Fuerza adaptable en los puntos de activación de estadísticas de 5 / 10",
+   "before": "10 / 25",
+   "after": "8 / 20",
+   "text": "Fuerza adaptable en los puntos de activación de estadísticas de 5 / 10: 10 / 25 ⇒ 8 / 20",
+   "id": "6b127446e89f",
+   "section": "runes",
+   "tags": [],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "ARAM: Caos",
+   "sectionId": "patch-aram:-mayhem",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Jade_Ahri",
+    "name": "Ahri"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "stat",
+   "attribute": "Curación",
+   "before": "90%",
+   "after": "100%",
+   "text": "Curación: 90% ⇒ 100%",
+   "id": "9dc27851d605",
+   "section": "modes",
+   "tags": [
+    "Mage",
+    "Assassin"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "ARAM: Caos",
+   "sectionId": "patch-aram:-mayhem",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Akshan",
+    "name": "Akshan"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "stat",
+   "attribute": "Daño infligido",
+   "before": "105%",
+   "after": "100%",
+   "text": "Daño infligido: 105% ⇒ 100%",
+   "id": "9859671347f7",
+   "section": "modes",
+   "tags": [
+    "Marksman",
+    "Assassin"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "ARAM: Caos",
+   "sectionId": "patch-aram:-mayhem",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Akshan",
+    "name": "Akshan"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "stat",
+   "attribute": "Daño recibido",
+   "before": "5%",
+   "after": "0%",
+   "text": "Daño recibido: 5% ⇒ 0%",
+   "id": "3ca0052d7dff",
+   "section": "modes",
+   "tags": [
+    "Marksman",
+    "Assassin"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "ARAM: Caos",
+   "sectionId": "patch-aram:-mayhem",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Jade_Alistar",
+    "name": "Alistar"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "stat",
+   "attribute": "Curación",
+   "before": "80%",
+   "after": "100%",
+   "text": "Curación: 80% ⇒ 100%",
+   "id": "d5e966151e93",
+   "section": "modes",
+   "tags": [
+    "Tank",
+    "Support"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "ARAM: Caos",
+   "sectionId": "patch-aram:-mayhem",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Jade_Alistar",
+    "name": "Alistar"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "stat",
+   "attribute": "Modificador de daño",
+   "before": "95%",
+   "after": "100%",
+   "text": "Modificador de daño: 95% ⇒ 100%",
+   "id": "6cdbdad224e8",
+   "section": "modes",
+   "tags": [
+    "Tank",
+    "Support"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "ARAM: Caos",
+   "sectionId": "patch-aram:-mayhem",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Ambessa",
+    "name": "Ambessa"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "stat",
+   "attribute": "Daño recibido",
+   "before": "-5%",
+   "after": "0%",
+   "text": "Daño recibido: -5% ⇒ 0%",
+   "id": "a3525edc3a61",
+   "section": "modes",
+   "tags": [
+    "Fighter",
+    "Assassin"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "ARAM: Caos",
+   "sectionId": "patch-aram:-mayhem",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Jade_Annie",
+    "name": "Annie"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "stat",
+   "attribute": "Escudos",
+   "before": "90%",
+   "after": "100%",
+   "text": "Escudos: 90% ⇒ 100%",
+   "id": "52ba603e23a1",
+   "section": "modes",
+   "tags": [
+    "Mage",
+    "Support"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "ARAM: Caos",
+   "sectionId": "patch-aram:-mayhem",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Jade_Annie",
+    "name": "Annie"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "stat",
+   "attribute": "Daño recibido",
+   "before": "-5%",
+   "after": "0%",
+   "text": "Daño recibido: -5% ⇒ 0%",
+   "id": "d149bee38ad2",
+   "section": "modes",
+   "tags": [
+    "Mage",
+    "Support"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "ARAM: Caos",
+   "sectionId": "patch-aram:-mayhem",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Jade_Ashe",
+    "name": "Ashe"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "stat",
+   "attribute": "Daño infligido",
+   "before": "105%",
+   "after": "100%",
+   "text": "Daño infligido: 105% ⇒ 100%",
+   "id": "30700d6a0a9d",
+   "section": "modes",
+   "tags": [
+    "Marksman",
+    "Support"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "ARAM: Caos",
+   "sectionId": "patch-aram:-mayhem",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Jade_Corki",
+    "name": "Corki"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "stat",
+   "attribute": "Daño recibido",
+   "before": "10%",
+   "after": "5%",
+   "text": "Daño recibido: 10% ⇒ 5%",
+   "id": "e3e931002195",
+   "section": "modes",
+   "tags": [
+    "Marksman",
+    "Mage"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "ARAM: Caos",
+   "sectionId": "patch-aram:-mayhem",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Ekko",
+    "name": "Ekko"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "stat",
+   "attribute": "Daño infligido",
+   "before": "110%",
+   "after": "105%",
+   "text": "Daño infligido: 110% ⇒ 105%",
+   "id": "2738c7e2f9ff",
+   "section": "modes",
+   "tags": [
+    "Assassin",
+    "Mage"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "ARAM: Caos",
+   "sectionId": "patch-aram:-mayhem",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Hwei",
+    "name": "Hwei"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "stat",
+   "attribute": "Daño infligido a súbditos",
+   "before": "60%",
+   "after": "100%",
+   "text": "Daño infligido a súbditos: 60% ⇒ 100%",
+   "id": "0e65fab22baf",
+   "section": "modes",
+   "tags": [
+    "Mage",
+    "Support"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "ARAM: Caos",
+   "sectionId": "patch-aram:-mayhem",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Jhin",
+    "name": "Jhin"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "stat",
+   "attribute": "Daño recibido",
+   "before": "-5%",
+   "after": "0%",
+   "text": "Daño recibido: -5% ⇒ 0%",
+   "id": "ca6dd1dab9ae",
+   "section": "modes",
+   "tags": [
+    "Marksman",
+    "Mage"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "ARAM: Caos",
+   "sectionId": "patch-aram:-mayhem",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Kaisa",
+    "name": "Kai'Sa"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "stat",
+   "attribute": "Daño recibido",
+   "before": "10%",
+   "after": "0%",
+   "text": "Daño recibido: 10% ⇒ 0%",
+   "id": "c482def630cc",
+   "section": "modes",
+   "tags": [
+    "Marksman",
+    "Mage"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "ARAM: Caos",
+   "sectionId": "patch-aram:-mayhem",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Kindred",
+    "name": "Kindred"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "stat",
+   "attribute": "Daño infligido",
+   "before": "110%",
+   "after": "100%",
+   "text": "Daño infligido: 110% ⇒ 100%",
+   "id": "1a5e0870adfb",
+   "section": "modes",
+   "tags": [
+    "Marksman"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "ARAM: Caos",
+   "sectionId": "patch-aram:-mayhem",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "KogMaw",
+    "name": "Kog'Maw"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "stat",
+   "attribute": "Daño infligido",
+   "before": "88%",
+   "after": "90%",
+   "text": "Daño infligido: 88% ⇒ 90%",
+   "id": "3e14d2abb8c6",
+   "section": "modes",
+   "tags": [
+    "Marksman",
+    "Mage"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "ARAM: Caos",
+   "sectionId": "patch-aram:-mayhem",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Lucian",
+    "name": "Lucian"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "stat",
+   "attribute": "Daño infligido",
+   "before": "105%",
+   "after": "100%",
+   "text": "Daño infligido: 105% ⇒ 100%",
+   "id": "5e9af4b29f47",
+   "section": "modes",
+   "tags": [
+    "Marksman",
+    "Assassin"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "ARAM: Caos",
+   "sectionId": "patch-aram:-mayhem",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Malzahar",
+    "name": "Malzahar"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "stat",
+   "attribute": "Daño infligido a súbditos",
+   "before": "60%",
+   "after": "100%",
+   "text": "Daño infligido a súbditos: 60% ⇒ 100%",
+   "id": "b44a028000ca",
+   "section": "modes",
+   "tags": [
+    "Mage"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "ARAM: Caos",
+   "sectionId": "patch-aram:-mayhem",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "MissFortune",
+    "name": "Miss Fortune"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "stat",
+   "attribute": "Daño recibido",
+   "before": "-5%",
+   "after": "0%",
+   "text": "Daño recibido: -5% ⇒ 0%",
+   "id": "99ed0472047a",
+   "section": "modes",
+   "tags": [
+    "Marksman",
+    "Mage"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "ARAM: Caos",
+   "sectionId": "patch-aram:-mayhem",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Mordekaiser",
+    "name": "Mordekaiser"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "stat",
+   "attribute": "Daño recibido",
+   "before": "-2%",
+   "after": "0%",
+   "text": "Daño recibido: -2% ⇒ 0%",
+   "id": "9733491e48d8",
+   "section": "modes",
+   "tags": [
+    "Fighter",
+    "Mage"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "ARAM: Caos",
+   "sectionId": "patch-aram:-mayhem",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Morgana",
+    "name": "Morgana"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "stat",
+   "attribute": "Daño recibido",
+   "before": "-10%",
+   "after": "0%",
+   "text": "Daño recibido: -10% ⇒ 0%",
+   "id": "f33882bb6144",
+   "section": "modes",
+   "tags": [
+    "Support",
+    "Mage"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "ARAM: Caos",
+   "sectionId": "patch-aram:-mayhem",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Nasus",
+    "name": "Nasus"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "stat",
+   "attribute": "Daño recibido",
+   "before": "-5%",
+   "after": "0%",
+   "text": "Daño recibido: -5% ⇒ 0%",
+   "id": "ff6c0bd49e44",
+   "section": "modes",
+   "tags": [
+    "Fighter",
+    "Tank"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "ARAM: Caos",
+   "sectionId": "patch-aram:-mayhem",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Qiyana",
+    "name": "Qiyana"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "stat",
+   "attribute": "Daño infligido",
+   "before": "115%",
+   "after": "110%",
+   "text": "Daño infligido: 115% ⇒ 110%",
+   "id": "3aaa8ef02389",
+   "section": "modes",
+   "tags": [
+    "Assassin"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "ARAM: Caos",
+   "sectionId": "patch-aram:-mayhem",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Ryze",
+    "name": "Ryze"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "stat",
+   "attribute": "Daño infligido",
+   "before": "105%",
+   "after": "100%",
+   "text": "Daño infligido: 105% ⇒ 100%",
+   "id": "f72613706b79",
+   "section": "modes",
+   "tags": [
+    "Mage"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "ARAM: Caos",
+   "sectionId": "patch-aram:-mayhem",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Ryze",
+    "name": "Ryze"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "stat",
+   "attribute": "Daño recibido",
+   "before": "5%",
+   "after": "0%",
+   "text": "Daño recibido: 5% ⇒ 0%",
+   "id": "652ef4566697",
+   "section": "modes",
+   "tags": [
+    "Mage"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "ARAM: Caos",
+   "sectionId": "patch-aram:-mayhem",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Senna",
+    "name": "Senna"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "stat",
+   "attribute": "Daño infligido",
+   "before": "97%",
+   "after": "100%",
+   "text": "Daño infligido: 97% ⇒ 100%",
+   "id": "d20891f646f3",
+   "section": "modes",
+   "tags": [
+    "Support",
+    "Marksman"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "ARAM: Caos",
+   "sectionId": "patch-aram:-mayhem",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Singed",
+    "name": "Singed"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "stat",
+   "attribute": "Daño recibido",
+   "before": "-8%",
+   "after": "0%",
+   "text": "Daño recibido: -8% ⇒ 0%",
+   "id": "5d0576d8ba42",
+   "section": "modes",
+   "tags": [
+    "Tank",
+    "Mage"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "ARAM: Caos",
+   "sectionId": "patch-aram:-mayhem",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Smolder",
+    "name": "Smolder"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "stat",
+   "attribute": "Aceleración de Habilidad",
+   "before": "-10",
+   "after": "0",
+   "text": "Aceleración de Habilidad: -10 ⇒ 0",
+   "id": "d1b7aec24030",
+   "section": "modes",
+   "tags": [
+    "Marksman",
+    "Mage"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "ARAM: Caos",
+   "sectionId": "patch-aram:-mayhem",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Soraka",
+    "name": "Soraka"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "stat",
+   "attribute": "Curación",
+   "before": "105%",
+   "after": "100%",
+   "text": "Curación: 105% ⇒ 100%",
+   "id": "27304eadbbf4",
+   "section": "modes",
+   "tags": [
+    "Support",
+    "Mage"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "ARAM: Caos",
+   "sectionId": "patch-aram:-mayhem",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Teemo",
+    "name": "Teemo"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "stat",
+   "attribute": "Aceleración de Habilidad",
+   "before": "-10",
+   "after": "0",
+   "text": "Aceleración de Habilidad: -10 ⇒ 0",
+   "id": "7b15afed3b8c",
+   "section": "modes",
+   "tags": [
+    "Marksman",
+    "Mage"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "ARAM: Caos",
+   "sectionId": "patch-aram:-mayhem",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Teemo",
+    "name": "Teemo"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "stat",
+   "attribute": "Daño infligido a súbditos",
+   "before": "60%",
+   "after": "100%",
+   "text": "Daño infligido a súbditos: 60% ⇒ 100%",
+   "id": "8227d9b0a1b5",
+   "section": "modes",
+   "tags": [
+    "Marksman",
+    "Mage"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "ARAM: Caos",
+   "sectionId": "patch-aram:-mayhem",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Trundle",
+    "name": "Trundle"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "stat",
+   "attribute": "Daño recibido",
+   "before": "-5%",
+   "after": "0%",
+   "text": "Daño recibido: -5% ⇒ 0%",
+   "id": "e43d3e8fc9b8",
+   "section": "modes",
+   "tags": [
+    "Fighter",
+    "Tank"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "ARAM: Caos",
+   "sectionId": "patch-aram:-mayhem",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "XinZhao",
+    "name": "Xin Zhao"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "stat",
+   "attribute": "Daño infligido",
+   "before": "95%",
+   "after": "100%",
+   "text": "Daño infligido: 95% ⇒ 100%",
+   "id": "f4cbe1f6341b",
+   "section": "modes",
+   "tags": [
+    "Fighter",
+    "Tank"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "ARAM: Caos",
+   "sectionId": "patch-aram:-mayhem",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Zilean",
+    "name": "Zilean"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "stat",
+   "attribute": "Daño infligido",
+   "before": "105%",
+   "after": "100%",
+   "text": "Daño infligido: 105% ⇒ 100%",
+   "id": "73f6280255a6",
+   "section": "modes",
+   "tags": [
+    "Support",
+    "Mage"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "ARAM: Caos",
+   "sectionId": "patch-aram:-mayhem",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Zilean",
+    "name": "Zilean"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "stat",
+   "attribute": "Daño recibido",
+   "before": "5%",
+   "after": "0%",
+   "text": "Daño recibido: 5% ⇒ 0%",
+   "id": "7d9d05612a9f",
+   "section": "modes",
+   "tags": [
+    "Support",
+    "Mage"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "ARAM: Caos",
+   "sectionId": "patch-aram:-mayhem",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Ziggs",
+    "name": "Ziggs"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "stat",
+   "attribute": "Daño infligido",
+   "before": "87%",
+   "after": "90%",
+   "text": "Daño infligido: 87% ⇒ 90%",
+   "id": "6ea585c88265",
+   "section": "modes",
+   "tags": [
+    "Mage"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "ARAM: Caos",
+   "sectionId": "patch-aram:-mayhem",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Ziggs",
+    "name": "Ziggs"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "stat",
+   "attribute": "Daño infligido a súbditos",
+   "before": "60%",
+   "after": "100%",
+   "text": "Daño infligido a súbditos: 60% ⇒ 100%",
+   "id": "fefc21fdbd72",
+   "section": "modes",
+   "tags": [
+    "Mage"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "ARAM: Caos",
+   "sectionId": "patch-aram:-mayhem",
+   "midPatch": false,
+   "entity": {
+    "kind": "none",
+    "id": null,
+    "name": "Arma de Centinela"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "text",
+   "attribute": null,
+   "before": null,
+   "after": null,
+   "text": "Arma de Centinela",
+   "id": "a3bf6645d580",
+   "section": "modes",
+   "tags": [],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "ARAM: Caos",
+   "sectionId": "patch-aram:-mayhem",
+   "midPatch": false,
+   "entity": {
+    "kind": "none",
+    "id": null,
+    "name": "Arma de Centinela"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "stat",
+   "attribute": "Resistencia por acumulación",
+   "before": "5 / 6.25 / 7.5 / 8.75 / 10",
+   "after": "7 / 8.25 / 9.5 / 10.75 / 12",
+   "text": "Resistencia por acumulación: 5 / 6.25 / 7.5 / 8.75 / 10 ⇒ 7 / 8.25 / 9.5 / 10.75 / 12",
+   "id": "db8fc39e5630",
+   "section": "modes",
+   "tags": [],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "ARAM: Caos",
+   "sectionId": "patch-aram:-mayhem",
+   "midPatch": false,
+   "entity": {
+    "kind": "none",
+    "id": null,
+    "name": "Manotazo Pegajoso"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "text",
+   "attribute": null,
+   "before": null,
+   "after": null,
+   "text": "Manotazo Pegajoso",
+   "id": "248e1ad2ec8a",
+   "section": "modes",
+   "tags": [],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "ARAM: Caos",
+   "sectionId": "patch-aram:-mayhem",
+   "midPatch": false,
+   "entity": {
+    "kind": "none",
+    "id": null,
+    "name": "Manotazo Pegajoso"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "stat",
+   "attribute": "Enfriamiento",
+   "before": "45",
+   "after": "35",
+   "text": "Enfriamiento: 45 ⇒ 35",
+   "id": "3f5729de9c62",
+   "section": "modes",
+   "tags": [],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "ARAM: Caos",
+   "sectionId": "patch-aram:-mayhem",
+   "midPatch": false,
+   "entity": {
+    "kind": "none",
+    "id": null,
+    "name": "Valor del Titán"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "text",
+   "attribute": null,
+   "before": null,
+   "after": null,
+   "text": "Valor del Titán",
+   "id": "5be15284ac92",
+   "section": "modes",
+   "tags": [],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "ARAM: Caos",
+   "sectionId": "patch-aram:-mayhem",
+   "midPatch": false,
+   "entity": {
+    "kind": "none",
+    "id": null,
+    "name": "Valor del Titán"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "stat",
+   "attribute": "Fuerza adaptable",
+   "before": "25 / 31.25 / 37.5 / 43.75 / 50",
+   "after": "25 / 37.5 / 50 / 62.5 / 75",
+   "text": "Fuerza adaptable: 25 / 31.25 / 37.5 / 43.75 / 50 ⇒ 25 / 37.5 / 50 / 62.5 / 75",
+   "id": "08041912c6f4",
+   "section": "modes",
+   "tags": [],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "ARAM: Caos",
+   "sectionId": "patch-aram:-mayhem",
+   "midPatch": false,
+   "entity": {
+    "kind": "none",
+    "id": null,
+    "name": "Valor del Titán"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "stat",
+   "attribute": "Armadura y Resistencia Mágica por 10 acumulaciones",
+   "before": "4 / 5 / 6 / 7 / 8",
+   "after": "5 / 6.25 / 7.5 / 8.75 / 10",
+   "text": "Armadura y Resistencia Mágica por 10 acumulaciones: 4 / 5 / 6 / 7 / 8 ⇒ 5 / 6.25 / 7.5 / 8.75 / 10",
+   "id": "20662f455b3f",
+   "section": "modes",
+   "tags": [],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "ARAM: Caos",
+   "sectionId": "patch-aram:-mayhem",
+   "midPatch": false,
+   "entity": {
+    "kind": "none",
+    "id": null,
+    "name": "Endemoniado"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "text",
+   "attribute": null,
+   "before": null,
+   "after": null,
+   "text": "Endemoniado",
+   "id": "9b86ba0fd91d",
+   "section": "modes",
+   "tags": [],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "ARAM: Caos",
+   "sectionId": "patch-aram:-mayhem",
+   "midPatch": false,
+   "entity": {
+    "kind": "none",
+    "id": null,
+    "name": "Endemoniado"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "stat",
+   "attribute": "Enfriamiento",
+   "before": "120",
+   "after": "90",
+   "text": "Enfriamiento: 120 ⇒ 90",
+   "id": "e98f55626cad",
+   "section": "modes",
+   "tags": [],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "ARAM: Caos",
+   "sectionId": "patch-aram:-mayhem",
+   "midPatch": false,
+   "entity": {
+    "kind": "none",
+    "id": null,
+    "name": "Estela Terrestre"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "text",
+   "attribute": null,
+   "before": null,
+   "after": null,
+   "text": "Estela Terrestre",
+   "id": "7f5e7f128153",
+   "section": "modes",
+   "tags": [],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "ARAM: Caos",
+   "sectionId": "patch-aram:-mayhem",
+   "midPatch": false,
+   "entity": {
+    "kind": "none",
+    "id": null,
+    "name": "Estela Terrestre"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "stat",
+   "attribute": "Daño base",
+   "before": "70 / 105 / 140 / 175 / 210",
+   "after": "90 / 130 / 170 / 210 / 250",
+   "text": "Daño base: 70 / 105 / 140 / 175 / 210 ⇒ 90 / 130 / 170 / 210 / 250",
+   "id": "8a70893965fb",
+   "section": "modes",
+   "tags": [],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "ARAM: Caos",
+   "sectionId": "patch-aram:-mayhem",
+   "midPatch": false,
+   "entity": {
+    "kind": "none",
+    "id": null,
+    "name": "Diezmo Eterno"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "text",
+   "attribute": null,
+   "before": null,
+   "after": null,
+   "text": "Diezmo Eterno",
+   "id": "2676f65b3681",
+   "section": "modes",
+   "tags": [],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "ARAM: Caos",
+   "sectionId": "patch-aram:-mayhem",
+   "midPatch": false,
+   "entity": {
+    "kind": "none",
+    "id": null,
+    "name": "Diezmo Eterno"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "stat",
+   "attribute": "Curación por vida faltante",
+   "before": "15%",
+   "after": "18%",
+   "text": "Curación por vida faltante: 15% ⇒ 18%",
+   "id": "231fefa6d8f0",
+   "section": "modes",
+   "tags": [],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "ARAM: Caos",
+   "sectionId": "patch-aram:-mayhem",
+   "midPatch": false,
+   "entity": {
+    "kind": "none",
+    "id": null,
+    "name": "Reacción en Cadena"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "text",
+   "attribute": null,
+   "before": null,
+   "after": null,
+   "text": "Reacción en Cadena",
+   "id": "d4e64ac96822",
+   "section": "modes",
+   "tags": [],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "ARAM: Caos",
+   "sectionId": "patch-aram:-mayhem",
+   "midPatch": false,
+   "entity": {
+    "kind": "none",
+    "id": null,
+    "name": "Reacción en Cadena"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "new",
+   "attribute": null,
+   "before": null,
+   "after": null,
+   "text": "NUEVO Aumento de daño de la definitiva: Daño aumentado a 250% para las habilidades definitivas",
+   "id": "7937dc6fdaac",
+   "section": "modes",
+   "tags": [],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "ARAM: Caos",
+   "sectionId": "patch-aram:-mayhem",
+   "midPatch": false,
+   "entity": {
+    "kind": "none",
+    "id": null,
+    "name": "Misil Crítico"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "text",
+   "attribute": null,
+   "before": null,
+   "after": null,
+   "text": "Misil Crítico",
+   "id": "9037502be851",
+   "section": "modes",
+   "tags": [],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "ARAM: Caos",
+   "sectionId": "patch-aram:-mayhem",
+   "midPatch": false,
+   "entity": {
+    "kind": "none",
+    "id": null,
+    "name": "Misil Crítico"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "stat",
+   "attribute": "Daño por misil",
+   "before": "20 / 40 / 60 / 80 / 100",
+   "after": "15 / 32.5 / 50 / 67.5 / 85",
+   "text": "Daño por misil: 20 / 40 / 60 / 80 / 100 ⇒ 15 / 32.5 / 50 / 67.5 / 85",
+   "id": "35b31bdcef20",
+   "section": "modes",
+   "tags": [],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "ARAM: Caos",
+   "sectionId": "patch-aram:-mayhem",
+   "midPatch": false,
+   "entity": {
+    "kind": "none",
+    "id": null,
+    "name": "RencorOso"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "text",
+   "attribute": null,
+   "before": null,
+   "after": null,
+   "text": "RencorOso",
+   "id": "8bff94bb85cb",
+   "section": "modes",
+   "tags": [],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "ARAM: Caos",
+   "sectionId": "patch-aram:-mayhem",
+   "midPatch": false,
+   "entity": {
+    "kind": "none",
+    "id": null,
+    "name": "RencorOso"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "stat",
+   "attribute": "Duración de aturdimiento",
+   "before": "1.5 seg",
+   "after": "0.5 seg",
+   "text": "Duración de aturdimiento: 1.5 seg ⇒ 0.5 seg",
+   "id": "fb0135274ed8",
+   "section": "modes",
+   "tags": [],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "ARAM: Caos",
+   "sectionId": "patch-aram:-mayhem",
+   "midPatch": false,
+   "entity": {
+    "kind": "none",
+    "id": null,
+    "name": "RencorOso"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "stat",
+   "attribute": "Vida adicional de Tibbers",
+   "before": "0 / 1125 / 2250 / 3375 / 4500",
+   "after": "1000 / 2375 / 3750 / 5125 / 6500",
+   "text": "Vida adicional de Tibbers: 0 / 1125 / 2250 / 3375 / 4500 ⇒ 1000 / 2375 / 3750 / 5125 / 6500",
+   "id": "7ea1b5dd4396",
+   "section": "modes",
+   "tags": [],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "ARAM: Caos",
+   "sectionId": "patch-aram:-mayhem",
+   "midPatch": false,
+   "entity": {
+    "kind": "none",
+    "id": null,
+    "name": "Palmadita en la Espalda"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "text",
+   "attribute": null,
+   "before": null,
+   "after": null,
+   "text": "Palmadita en la Espalda",
+   "id": "661c214d7d3f",
+   "section": "modes",
+   "tags": [],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "ARAM: Caos",
+   "sectionId": "patch-aram:-mayhem",
+   "midPatch": false,
+   "entity": {
+    "kind": "none",
+    "id": null,
+    "name": "Palmadita en la Espalda"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "new",
+   "attribute": null,
+   "before": null,
+   "after": null,
+   "text": "NUEVO Disponibilidad de acumulaciones: Ahora varios jugadores del mismo equipo pueden aprovecharla",
+   "id": "8c5512c966a7",
+   "section": "modes",
+   "tags": [],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "ARAM: Caos",
+   "sectionId": "patch-aram:-mayhem",
+   "midPatch": false,
+   "entity": {
+    "kind": "none",
+    "id": null,
+    "name": "Golpe Piadoso"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "text",
+   "attribute": null,
+   "before": null,
+   "after": null,
+   "text": "Golpe Piadoso",
+   "id": "2346175d000f",
+   "section": "modes",
+   "tags": [],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "ARAM: Caos",
+   "sectionId": "patch-aram:-mayhem",
+   "midPatch": false,
+   "entity": {
+    "kind": "none",
+    "id": null,
+    "name": "Golpe Piadoso"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "text",
+   "attribute": null,
+   "before": null,
+   "after": null,
+   "text": "NUEVA Interacción de torreta: La mejora de Golpe Piadoso se consumirá al atacar torretas",
+   "id": "96a431091cf9",
+   "section": "modes",
+   "tags": [],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "ARAM: Caos",
+   "sectionId": "patch-aram:-mayhem",
+   "midPatch": false,
+   "entity": {
+    "kind": "none",
+    "id": null,
+    "name": "Golpe Piadoso"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "new",
+   "attribute": null,
+   "before": null,
+   "after": null,
+   "text": "NUEVO Daño de torreta: Las torretas reciben un 2.5% de su Vida Máxima como daño",
+   "id": "6384606eed56",
+   "section": "modes",
+   "tags": [],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "ARAM: Caos",
+   "sectionId": "patch-aram:-mayhem",
+   "midPatch": false,
+   "entity": {
+    "kind": "none",
+    "id": null,
+    "name": ""
+   },
+   "part": "Corrección de errores",
+   "partTitle": "Corrección de errores",
+   "spellKey": null,
+   "kind": "text",
+   "attribute": null,
+   "before": null,
+   "after": null,
+   "text": "Corregimos un error que impedía que el primer impacto de la (Q) de Vel'Koz activara el efecto de Francotirador Experto",
+   "id": "95a3f63889ff",
+   "section": "modes",
+   "tags": [],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "ARAM: Caos",
+   "sectionId": "patch-aram:-mayhem",
+   "midPatch": false,
+   "entity": {
+    "kind": "none",
+    "id": null,
+    "name": ""
+   },
+   "part": "Corrección de errores",
+   "partTitle": "Corrección de errores",
+   "spellKey": null,
+   "kind": "text",
+   "attribute": null,
+   "before": null,
+   "after": null,
+   "text": "Corregimos un error que impedía que la (Q) de Anivia activara el efecto de Francotirador Experto si atravesaba unidades",
+   "id": "94da07057600",
+   "section": "modes",
+   "tags": [],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "ARAM: Caos",
+   "sectionId": "patch-aram:-mayhem",
+   "midPatch": false,
+   "entity": {
+    "kind": "none",
+    "id": null,
+    "name": ""
+   },
+   "part": "Corrección de errores",
+   "partTitle": "Corrección de errores",
+   "spellKey": null,
+   "kind": "text",
+   "attribute": null,
+   "before": null,
+   "after": null,
+   "text": "Corregimos un error que hacía que la (Q) de Locke recibiera un reembolso de Francotirador Experto entre cargas",
+   "id": "84c47d294f17",
+   "section": "modes",
+   "tags": [],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "ARAM: Caos",
+   "sectionId": "patch-aram:-mayhem",
+   "midPatch": false,
+   "entity": {
+    "kind": "none",
+    "id": null,
+    "name": ""
+   },
+   "part": "Corrección de errores",
+   "partTitle": "Corrección de errores",
+   "spellKey": null,
+   "kind": "text",
+   "attribute": null,
+   "before": null,
+   "after": null,
+   "text": "Corregimos un error que impedía atacar durante el tiempo de posesión de Rito de Ascensión",
+   "id": "642a0c03abe3",
+   "section": "modes",
+   "tags": [],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "ARAM: Caos",
+   "sectionId": "patch-aram:-mayhem",
+   "midPatch": false,
+   "entity": {
+    "kind": "none",
+    "id": null,
+    "name": ""
+   },
+   "part": "Corrección de errores",
+   "partTitle": "Corrección de errores",
+   "spellKey": null,
+   "kind": "text",
+   "attribute": null,
+   "before": null,
+   "after": null,
+   "text": "Corregimos un error que ocasionaba que la réplica de la (R) de Morgana siempre lanzara la copia hacia la parte inferior de la pantalla",
+   "id": "1e48b37904fc",
+   "section": "modes",
+   "tags": [],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "ARAM: Caos",
+   "sectionId": "patch-aram:-mayhem",
+   "midPatch": false,
+   "entity": {
+    "kind": "none",
+    "id": null,
+    "name": ""
+   },
+   "part": "Corrección de errores",
+   "partTitle": "Corrección de errores",
+   "spellKey": null,
+   "kind": "text",
+   "attribute": null,
+   "before": null,
+   "after": null,
+   "text": "Corregimos un error que provocaba que Inventor Supremo no redujera el enfriamiento de Sombrero de Wooglet",
+   "id": "98d8721e0c39",
+   "section": "modes",
+   "tags": [],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "ARAM: Caos",
+   "sectionId": "patch-aram:-mayhem",
+   "midPatch": false,
+   "entity": {
+    "kind": "none",
+    "id": null,
+    "name": ""
+   },
+   "part": "Corrección de errores",
+   "partTitle": "Corrección de errores",
+   "spellKey": null,
+   "kind": "text",
+   "attribute": null,
+   "before": null,
+   "after": null,
+   "text": "Corregimos un error que causaba que los proyectiles de la (R) de Twitch desaparecieran al volver a lanzar Lluvia de Proyectiles (R) antes de que terminara la habilidad",
+   "id": "9fa42af799db",
+   "section": "modes",
+   "tags": [],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "ARAM: Caos",
+   "sectionId": "patch-aram:-mayhem",
+   "midPatch": false,
+   "entity": {
+    "kind": "none",
+    "id": null,
+    "name": ""
+   },
+   "part": "Corrección de errores",
+   "partTitle": "Corrección de errores",
+   "spellKey": null,
+   "kind": "text",
+   "attribute": null,
+   "before": null,
+   "after": null,
+   "text": "Corregimos un error que hacía que la (Q) de Ekko no se dividiera al final de la trayectoria del proyectil cuando tenía Hechizo Dividido",
+   "id": "73f846bd9a66",
+   "section": "modes",
+   "tags": [],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "ARAM: Caos",
+   "sectionId": "patch-aram:-mayhem",
+   "midPatch": false,
+   "entity": {
+    "kind": "none",
+    "id": null,
+    "name": ""
+   },
+   "part": "Corrección de errores",
+   "partTitle": "Corrección de errores",
+   "spellKey": null,
+   "kind": "text",
+   "attribute": null,
+   "before": null,
+   "after": null,
+   "text": "Corregimos un error que impedía que Interés en Llamas generara oro al tener objetos o Aumentos de quemadura",
+   "id": "0729b1cc2032",
+   "section": "modes",
+   "tags": [],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "ARAM: Caos",
+   "sectionId": "patch-aram:-mayhem",
+   "midPatch": false,
+   "entity": {
+    "kind": "none",
+    "id": null,
+    "name": ""
+   },
+   "part": "Corrección de errores",
+   "partTitle": "Corrección de errores",
+   "spellKey": null,
+   "kind": "text",
+   "attribute": null,
+   "before": null,
+   "after": null,
+   "text": "Corregimos un error que ocasionaba que Diadema Musical no apareciera en la tienda ni en la sección de armado",
+   "id": "9178d243ac6f",
+   "section": "modes",
+   "tags": [],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "ARAM: Caos",
+   "sectionId": "patch-aram:-mayhem",
+   "midPatch": false,
+   "entity": {
+    "kind": "none",
+    "id": null,
+    "name": ""
+   },
+   "part": "Corrección de errores",
+   "partTitle": "Corrección de errores",
+   "spellKey": null,
+   "kind": "text",
+   "attribute": null,
+   "before": null,
+   "after": null,
+   "text": "Corregimos un error que impedía que la (W) de Milio otorgara progreso para la misión principal de Main Soporte en ARAM: Caos cuando se curaba o restauraba vida a los aliados",
+   "id": "a42e3d6f262a",
+   "section": "modes",
+   "tags": [],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "ARAM: Caos",
+   "sectionId": "patch-aram:-mayhem",
+   "midPatch": false,
+   "entity": {
+    "kind": "none",
+    "id": null,
+    "name": ""
+   },
+   "part": "Corrección de errores",
+   "partTitle": "Corrección de errores",
+   "spellKey": null,
+   "kind": "text",
+   "attribute": null,
+   "before": null,
+   "after": null,
+   "text": "Corregimos un error que provocaba que el segundo desplazamiento de la (E) de Locke no otorgara progreso para las misiones de Buscando el Poder o Buscando la Aceleración en ARAM: Caos",
+   "id": "1b136cd9836d",
+   "section": "modes",
+   "tags": [],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "ARAM: Caos",
+   "sectionId": "patch-aram:-mayhem",
+   "midPatch": false,
+   "entity": {
+    "kind": "none",
+    "id": null,
+    "name": ""
+   },
+   "part": "Corrección de errores",
+   "partTitle": "Corrección de errores",
+   "spellKey": null,
+   "kind": "text",
+   "attribute": null,
+   "before": null,
+   "after": null,
+   "text": "Corregimos un error que permitía que la (Q) de Maestro Yi y la (R) de Viego conservaran la aceleración de habilidad de Destellante en ARAM: Caos tras obtener Caja de Pandora",
+   "id": "1d330cb2564e",
+   "section": "modes",
+   "tags": [],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "ARAM: Caos",
+   "sectionId": "patch-aram:-mayhem",
+   "midPatch": false,
+   "entity": {
+    "kind": "none",
+    "id": null,
+    "name": ""
+   },
+   "part": "Corrección de errores",
+   "partTitle": "Corrección de errores",
+   "spellKey": null,
+   "kind": "text",
+   "attribute": null,
+   "before": null,
+   "after": null,
+   "text": "Corregimos un error que permitía que Sobrecargado se ofreciera para la (E) de Katarina y la (E) de Shaco",
+   "id": "f453f9a87ff4",
+   "section": "modes",
+   "tags": [],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "ARAM: Caos",
+   "sectionId": "patch-aram:-mayhem",
+   "midPatch": false,
+   "entity": {
+    "kind": "none",
+    "id": null,
+    "name": ""
+   },
+   "part": "Corrección de errores",
+   "partTitle": "Corrección de errores",
+   "spellKey": null,
+   "kind": "text",
+   "attribute": null,
+   "before": null,
+   "after": null,
+   "text": "Corregimos un error que causaba que Un Poco de Ayuda eliminara los efectos visuales de Armas con Mira, De Largo Alcance y De Más Largo Alcance al terminar el efecto",
+   "id": "a752c0350252",
+   "section": "modes",
+   "tags": [],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "ARAM: Caos",
+   "sectionId": "patch-aram:-mayhem",
+   "midPatch": false,
+   "entity": {
+    "kind": "none",
+    "id": null,
+    "name": ""
+   },
+   "part": "Corrección de errores",
+   "partTitle": "Corrección de errores",
+   "spellKey": null,
+   "kind": "text",
+   "attribute": null,
+   "before": null,
+   "after": null,
+   "text": "Corregimos un error que hacía que la Jabalina (Q) de Nidalee en la forma humana no activara el efecto de Proyectil Dividido en ARAM: Caos si el Aumento se seleccionaba mientras la campeona estaba en la forma de puma",
+   "id": "5d7dd4ed1dcc",
+   "section": "modes",
+   "tags": [],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "ARAM: Caos",
+   "sectionId": "patch-aram:-mayhem",
+   "midPatch": false,
+   "entity": {
+    "kind": "none",
+    "id": null,
+    "name": ""
+   },
+   "part": "Corrección de errores",
+   "partTitle": "Corrección de errores",
+   "spellKey": null,
+   "kind": "text",
+   "attribute": null,
+   "before": null,
+   "after": null,
+   "text": "Corregimos un error que ocasionaba que Buscando el Poder y Buscando la Aceleración se ofrecieran para la (E) de Akshan",
+   "id": "1ca532f9c097",
+   "section": "modes",
+   "tags": [],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "ARAM: Caos",
+   "sectionId": "patch-aram:-mayhem",
+   "midPatch": false,
+   "entity": {
+    "kind": "none",
+    "id": null,
+    "name": ""
+   },
+   "part": "Corrección de errores",
+   "partTitle": "Corrección de errores",
+   "spellKey": null,
+   "kind": "text",
+   "attribute": null,
+   "before": null,
+   "after": null,
+   "text": "Corregimos un error que provocaba que Golpe Piadoso se les ofreciera a campeones que no son soportes, como Vladimir, en ARAM: Caos",
+   "id": "3c0b3d705b79",
+   "section": "modes",
+   "tags": [],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "ARAM: Caos",
+   "sectionId": "patch-aram:-mayhem",
+   "midPatch": false,
+   "entity": {
+    "kind": "none",
+    "id": null,
+    "name": ""
+   },
+   "part": "Corrección de errores",
+   "partTitle": "Corrección de errores",
+   "spellKey": null,
+   "kind": "text",
+   "attribute": null,
+   "before": null,
+   "after": null,
+   "text": "Corregimos un error que causaba que Arma de Centinela aún se ofreciera para la (E) de Akshan en ARAM: Caos",
+   "id": "92c52c150253",
+   "section": "modes",
+   "tags": [],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "ARAM: Caos",
+   "sectionId": "patch-aram:-mayhem",
+   "midPatch": false,
+   "entity": {
+    "kind": "none",
+    "id": null,
+    "name": ""
+   },
+   "part": "Corrección de errores",
+   "partTitle": "Corrección de errores",
+   "spellKey": null,
+   "kind": "text",
+   "attribute": null,
+   "before": null,
+   "after": null,
+   "text": "Corregimos un error que hacía que Buscando el Poder se ofreciera para la (E) de Akshan, la (Q) de Draven, la (E) de Illaoi y la (W) de Malphite",
+   "id": "91ee979bb1ef",
+   "section": "modes",
+   "tags": [],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "ARAM: Caos",
+   "sectionId": "patch-aram:-mayhem",
+   "midPatch": false,
+   "entity": {
+    "kind": "none",
+    "id": null,
+    "name": ""
+   },
+   "part": "Corrección de errores",
+   "partTitle": "Corrección de errores",
+   "spellKey": null,
+   "kind": "text",
+   "attribute": null,
+   "before": null,
+   "after": null,
+   "text": "Corregimos un error que ocasionaba que Arma Confiable aún se ofreciera para la (E) de Akshan en ARAM: Caos",
+   "id": "eed1387cc432",
+   "section": "modes",
+   "tags": [],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Arena",
+   "sectionId": "patch-arena",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Akali",
+    "name": "Akali"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "stat",
+   "attribute": "Velocidad de Movimiento de la pasiva",
+   "before": "30 / 37.5 / 45 / 52.5 / 60%",
+   "after": "40 / 51.25 / 62.5 / 73.75 / 85%",
+   "text": "Velocidad de Movimiento de la pasiva: 30 / 37.5 / 45 / 52.5 / 60% ⇒ 40 / 51.25 / 62.5 / 73.75 / 85%",
+   "id": "7fcfa09a72f0",
+   "section": "modes",
+   "tags": [
+    "Assassin"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Arena",
+   "sectionId": "patch-arena",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Akali",
+    "name": "Akali"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "text",
+   "attribute": null,
+   "before": null,
+   "after": null,
+   "text": "W: Manto Crepuscular",
+   "id": "3d3cf268f25b",
+   "section": "modes",
+   "tags": [
+    "Assassin"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Arena",
+   "sectionId": "patch-arena",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Akali",
+    "name": "Akali"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "stat",
+   "attribute": "Enfriamiento",
+   "before": "15",
+   "after": "15 / 13.75 / 12.5 / 11.25 / 10",
+   "text": "Enfriamiento: 15 ⇒ 15 / 13.75 / 12.5 / 11.25 / 10",
+   "id": "1d7d83e7f81a",
+   "section": "modes",
+   "tags": [
+    "Assassin"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Arena",
+   "sectionId": "patch-arena",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Akali",
+    "name": "Akali"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "stat",
+   "attribute": "Restauración de Energía",
+   "before": "150",
+   "after": "200",
+   "text": "Restauración de Energía: 150 ⇒ 200",
+   "id": "9e9095335b0c",
+   "section": "modes",
+   "tags": [
+    "Assassin"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Arena",
+   "sectionId": "patch-arena",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Bard",
+    "name": "Bardo"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "text",
+   "attribute": null,
+   "before": null,
+   "after": null,
+   "text": "W: Altar del Guardián",
+   "id": "c7578cdd205c",
+   "section": "modes",
+   "tags": [
+    "Support",
+    "Mage"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Arena",
+   "sectionId": "patch-arena",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Bard",
+    "name": "Bardo"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "stat",
+   "attribute": "Tiempo de carga",
+   "before": "5 seg",
+   "after": "2.5 seg",
+   "text": "Tiempo de carga: 5 seg ⇒ 2.5 seg",
+   "id": "068aa13abafc",
+   "section": "modes",
+   "tags": [
+    "Support",
+    "Mage"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Arena",
+   "sectionId": "patch-arena",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Bard",
+    "name": "Bardo"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "stat",
+   "attribute": "Tasa de Poder de Habilidad como Velocidad de Movimiento",
+   "before": "0.06%",
+   "after": "0.08%",
+   "text": "Tasa de Poder de Habilidad como Velocidad de Movimiento: 0.06% ⇒ 0.08%",
+   "id": "db51fa8489bf",
+   "section": "modes",
+   "tags": [
+    "Support",
+    "Mage"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Arena",
+   "sectionId": "patch-arena",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Elise",
+    "name": "Elise"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "text",
+   "attribute": null,
+   "before": null,
+   "after": null,
+   "text": "W: Raudo Frenesí",
+   "id": "b3232cf7d629",
+   "section": "modes",
+   "tags": [
+    "Assassin",
+    "Mage"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Arena",
+   "sectionId": "patch-arena",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Elise",
+    "name": "Elise"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "stat",
+   "attribute": "Enfriamiento",
+   "before": "22 / 21 / 20 / 19 / 18",
+   "after": "17 / 16 / 15 / 14 / 13",
+   "text": "Enfriamiento: 22 / 21 / 20 / 19 / 18 ⇒ 17 / 16 / 15 / 14 / 13",
+   "id": "5e5dc20dc8b5",
+   "section": "modes",
+   "tags": [
+    "Assassin",
+    "Mage"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Arena",
+   "sectionId": "patch-arena",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Kaisa",
+    "name": "Kai'Sa"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "text",
+   "attribute": null,
+   "before": null,
+   "after": null,
+   "text": "Pasiva: Segunda Piel",
+   "id": "dd3ebead9e6d",
+   "section": "modes",
+   "tags": [
+    "Marksman",
+    "Mage"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Arena",
+   "sectionId": "patch-arena",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Kaisa",
+    "name": "Kai'Sa"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "stat",
+   "attribute": "Modificador de daño al impacto en Arena",
+   "before": "50%",
+   "after": "100%",
+   "text": "Modificador de daño al impacto en Arena: 50% ⇒ 100%",
+   "id": "1b16c5250d3b",
+   "section": "modes",
+   "tags": [
+    "Marksman",
+    "Mage"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Arena",
+   "sectionId": "patch-arena",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Kaisa",
+    "name": "Kai'Sa"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "stat",
+   "attribute": "Daño de detonación",
+   "before": "10% de la Vida faltante",
+   "after": "15% de la Vida faltante",
+   "text": "Daño de detonación: 10% de la Vida faltante ⇒ 15% de la Vida faltante",
+   "id": "f0aca093aa00",
+   "section": "modes",
+   "tags": [
+    "Marksman",
+    "Mage"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Arena",
+   "sectionId": "patch-arena",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Kaisa",
+    "name": "Kai'Sa"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "stat",
+   "attribute": "Tasa de Poder de Habilidad",
+   "before": "30%",
+   "after": "12%",
+   "text": "Tasa de Poder de Habilidad: 30% ⇒ 12%",
+   "id": "e08cd9e888c8",
+   "section": "modes",
+   "tags": [
+    "Marksman",
+    "Mage"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Arena",
+   "sectionId": "patch-arena",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Kaisa",
+    "name": "Kai'Sa"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "stat",
+   "attribute": "Tasa de Poder de Habilidad por acumulación",
+   "before": "5%",
+   "after": "3%",
+   "text": "Tasa de Poder de Habilidad por acumulación: 5% ⇒ 3%",
+   "id": "24a297ac172f",
+   "section": "modes",
+   "tags": [
+    "Marksman",
+    "Mage"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Arena",
+   "sectionId": "patch-arena",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Kaisa",
+    "name": "Kai'Sa"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "text",
+   "attribute": null,
+   "before": null,
+   "after": null,
+   "text": "Q: Lluvia de Icathia",
+   "id": "21d739431778",
+   "section": "modes",
+   "tags": [
+    "Marksman",
+    "Mage"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Arena",
+   "sectionId": "patch-arena",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Kaisa",
+    "name": "Kai'Sa"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "stat",
+   "attribute": "Tasa de Poder de Habilidad",
+   "before": "15%",
+   "after": "20%",
+   "text": "Tasa de Poder de Habilidad: 15% ⇒ 20%",
+   "id": "63a884ac040b",
+   "section": "modes",
+   "tags": [
+    "Marksman",
+    "Mage"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Arena",
+   "sectionId": "patch-arena",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Locke",
+    "name": "Locke"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "text",
+   "attribute": null,
+   "before": null,
+   "after": null,
+   "text": "Pasiva: Estaca de Plata",
+   "id": "c4d55c01223e",
+   "section": "modes",
+   "tags": [
+    "Assassin",
+    "Mage"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Arena",
+   "sectionId": "patch-arena",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Locke",
+    "name": "Locke"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "stat",
+   "attribute": "Daño base mínimo",
+   "before": "5 mínimo / 40 máximo",
+   "after": "7.5 mínimo / 60 máximo",
+   "text": "Daño base mínimo: 5 mínimo / 40 máximo ⇒ 7.5 mínimo / 60 máximo",
+   "id": "b69fbffbe03c",
+   "section": "modes",
+   "tags": [
+    "Assassin",
+    "Mage"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Arena",
+   "sectionId": "patch-arena",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Locke",
+    "name": "Locke"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "stat",
+   "attribute": "Daño básico máximo",
+   "before": "10 mínimo / 80 máximo",
+   "after": "15 mínimo / 120 máximo",
+   "text": "Daño básico máximo: 10 mínimo / 80 máximo ⇒ 15 mínimo / 120 máximo",
+   "id": "49e801ad0c01",
+   "section": "modes",
+   "tags": [
+    "Assassin",
+    "Mage"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Arena",
+   "sectionId": "patch-arena",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Locke",
+    "name": "Locke"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "text",
+   "attribute": null,
+   "before": null,
+   "after": null,
+   "text": "W: Incineración del Alma",
+   "id": "67998d560cf6",
+   "section": "modes",
+   "tags": [
+    "Assassin",
+    "Mage"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Arena",
+   "sectionId": "patch-arena",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Locke",
+    "name": "Locke"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "stat",
+   "attribute": "Vida básica restaurada",
+   "before": "40 / 70 / 100 / 130 / 160",
+   "after": "80 / 140 / 200 / 260 / 320",
+   "text": "Vida básica restaurada: 40 / 70 / 100 / 130 / 160 ⇒ 80 / 140 / 200 / 260 / 320",
+   "id": "58ce42f70c39",
+   "section": "modes",
+   "tags": [
+    "Assassin",
+    "Mage"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Arena",
+   "sectionId": "patch-arena",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Locke",
+    "name": "Locke"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "stat",
+   "attribute": "Vida Máxima restaurada",
+   "before": "150 / 225 / 300 / 375 / 450 (+60% de Poder de Habilidad)",
+   "after": "225 / 337.5 / 450 / 562.5 / 675 (+60% de Poder de Habilidad)",
+   "text": "Vida Máxima restaurada: 150 / 225 / 300 / 375 / 450 (+60% de Poder de Habilidad) ⇒ 225 / 337.5 / 450 / 562.5 / 675 (+60% de Poder de Habilidad)",
+   "id": "fcbb2ee90aeb",
+   "section": "modes",
+   "tags": [
+    "Assassin",
+    "Mage"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Arena",
+   "sectionId": "patch-arena",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Locke",
+    "name": "Locke"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "text",
+   "attribute": null,
+   "before": null,
+   "after": null,
+   "text": "R: Purgatorio",
+   "id": "bc5208eea903",
+   "section": "modes",
+   "tags": [
+    "Assassin",
+    "Mage"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Arena",
+   "sectionId": "patch-arena",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Locke",
+    "name": "Locke"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "stat",
+   "attribute": "Reembolso del enfriamiento",
+   "before": "20%",
+   "after": "50%",
+   "text": "Reembolso del enfriamiento: 20% ⇒ 50%",
+   "id": "4e1ddf5e0af3",
+   "section": "modes",
+   "tags": [
+    "Assassin",
+    "Mage"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Arena",
+   "sectionId": "patch-arena",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Nocturne",
+    "name": "Nocturne"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "text",
+   "attribute": null,
+   "before": null,
+   "after": null,
+   "text": "Pasiva: Navajas de la Penumbra",
+   "id": "3f7c451ccfe8",
+   "section": "modes",
+   "tags": [
+    "Fighter",
+    "Assassin"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Arena",
+   "sectionId": "patch-arena",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Nocturne",
+    "name": "Nocturne"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "stat",
+   "attribute": "Curación básica",
+   "before": "13 mínimo / 32 máximo",
+   "after": "15 mínimo / 50 máximo",
+   "text": "Curación básica: 13 mínimo / 32 máximo ⇒ 15 mínimo / 50 máximo",
+   "id": "2079eac54b51",
+   "section": "modes",
+   "tags": [
+    "Fighter",
+    "Assassin"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Arena",
+   "sectionId": "patch-arena",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Nocturne",
+    "name": "Nocturne"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "stat",
+   "attribute": "Tasa de Daño de Ataque",
+   "before": "120%",
+   "after": "130%",
+   "text": "Tasa de Daño de Ataque: 120% ⇒ 130%",
+   "id": "1d446c234fba",
+   "section": "modes",
+   "tags": [
+    "Fighter",
+    "Assassin"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Arena",
+   "sectionId": "patch-arena",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Nocturne",
+    "name": "Nocturne"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "stat",
+   "attribute": "Tasa de Daño de Ataque de Golpe Crítico",
+   "before": "110%",
+   "after": "120%",
+   "text": "Tasa de Daño de Ataque de Golpe Crítico: 110% ⇒ 120%",
+   "id": "a36ad424ac80",
+   "section": "modes",
+   "tags": [
+    "Fighter",
+    "Assassin"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Arena",
+   "sectionId": "patch-arena",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Nocturne",
+    "name": "Nocturne"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "text",
+   "attribute": null,
+   "before": null,
+   "after": null,
+   "text": "R: Paranoia",
+   "id": "2a6b2368aaa4",
+   "section": "modes",
+   "tags": [
+    "Fighter",
+    "Assassin"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Arena",
+   "sectionId": "patch-arena",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Nocturne",
+    "name": "Nocturne"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "stat",
+   "attribute": "Enfriamiento",
+   "before": "140 / 115 / 90",
+   "after": "100 / 70 / 40",
+   "text": "Enfriamiento: 140 / 115 / 90 ⇒ 100 / 70 / 40",
+   "id": "8cd58cc08d7d",
+   "section": "modes",
+   "tags": [
+    "Fighter",
+    "Assassin"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Arena",
+   "sectionId": "patch-arena",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Samira",
+    "name": "Samira"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "stat",
+   "attribute": "Intercambio de oro de provocación",
+   "before": "Pierdes 1 de oro al provocar",
+   "after": "Eliminado",
+   "text": "Intercambio de oro de provocación: Pierdes 1 de oro al provocar ⇒ Eliminado",
+   "id": "ea6d146533bc",
+   "section": "modes",
+   "tags": [
+    "Marksman",
+    "Assassin"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Arena",
+   "sectionId": "patch-arena",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Seraphine",
+    "name": "Seraphine"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "text",
+   "attribute": null,
+   "before": null,
+   "after": null,
+   "text": "Q: Nota Alta",
+   "id": "cc38f828b003",
+   "section": "modes",
+   "tags": [
+    "Support",
+    "Mage"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Arena",
+   "sectionId": "patch-arena",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Seraphine",
+    "name": "Seraphine"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "stat",
+   "attribute": "Tasa de Poder de Habilidad",
+   "before": "65%",
+   "after": "40%",
+   "text": "Tasa de Poder de Habilidad: 65% ⇒ 40%",
+   "id": "308b5f398521",
+   "section": "modes",
+   "tags": [
+    "Support",
+    "Mage"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Arena",
+   "sectionId": "patch-arena",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "TahmKench",
+    "name": "Tahm Kench"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "text",
+   "attribute": null,
+   "before": null,
+   "after": null,
+   "text": "E: Piel Dura",
+   "id": "06b37822d4e6",
+   "section": "modes",
+   "tags": [
+    "Tank",
+    "Support"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Arena",
+   "sectionId": "patch-arena",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "TahmKench",
+    "name": "Tahm Kench"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "stat",
+   "attribute": "Daño a la Vida Gris",
+   "before": "15% mínimo / 47% máximo",
+   "after": "23% mínimo / 47% máximo",
+   "text": "Daño a la Vida Gris: 15% mínimo / 47% máximo ⇒ 23% mínimo / 47% máximo",
+   "id": "f998965d825b",
+   "section": "modes",
+   "tags": [
+    "Tank",
+    "Support"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Arena",
+   "sectionId": "patch-arena",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Thresh",
+    "name": "Thresh"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "text",
+   "attribute": null,
+   "before": null,
+   "after": null,
+   "text": "Pasiva: Condenación",
+   "id": "de471b3d35e9",
+   "section": "modes",
+   "tags": [
+    "Support",
+    "Tank"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Arena",
+   "sectionId": "patch-arena",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Thresh",
+    "name": "Thresh"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "stat",
+   "attribute": "Almas obtenidas al recolectar",
+   "before": "1",
+   "after": "3",
+   "text": "Almas obtenidas al recolectar: 1 ⇒ 3",
+   "id": "475d4a65f2d9",
+   "section": "modes",
+   "tags": [
+    "Support",
+    "Tank"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Arena",
+   "sectionId": "patch-arena",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Thresh",
+    "name": "Thresh"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "text",
+   "attribute": null,
+   "before": null,
+   "after": null,
+   "text": "W: Pasaje Oscuro",
+   "id": "566d982b6b53",
+   "section": "modes",
+   "tags": [
+    "Support",
+    "Tank"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Arena",
+   "sectionId": "patch-arena",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Thresh",
+    "name": "Thresh"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "stat",
+   "attribute": "Enfriamiento",
+   "before": "21 / 20 / 19 / 18 / 17",
+   "after": "15 / 14 / 13 / 12 / 11",
+   "text": "Enfriamiento: 21 / 20 / 19 / 18 / 17 ⇒ 15 / 14 / 13 / 12 / 11",
+   "id": "53940cdfae53",
+   "section": "modes",
+   "tags": [
+    "Support",
+    "Tank"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Arena",
+   "sectionId": "patch-arena",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Thresh",
+    "name": "Thresh"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "text",
+   "attribute": null,
+   "before": null,
+   "after": null,
+   "text": "E: Despellejar",
+   "id": "d3f993665a53",
+   "section": "modes",
+   "tags": [
+    "Support",
+    "Tank"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Arena",
+   "sectionId": "patch-arena",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Thresh",
+    "name": "Thresh"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "stat",
+   "attribute": "Tiempo de aumento de daño entre ataques",
+   "before": "10 seg",
+   "after": "5 seg",
+   "text": "Tiempo de aumento de daño entre ataques: 10 seg ⇒ 5 seg",
+   "id": "238de8af5e34",
+   "section": "modes",
+   "tags": [
+    "Support",
+    "Tank"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Arena",
+   "sectionId": "patch-arena",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Thresh",
+    "name": "Thresh"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "text",
+   "attribute": null,
+   "before": null,
+   "after": null,
+   "text": "R: La Caja",
+   "id": "8a4b83a1792e",
+   "section": "modes",
+   "tags": [
+    "Support",
+    "Tank"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Arena",
+   "sectionId": "patch-arena",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Thresh",
+    "name": "Thresh"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "stat",
+   "attribute": "Enfriamiento",
+   "before": "120 / 100 / 80",
+   "after": "90 / 60 / 30",
+   "text": "Enfriamiento: 120 / 100 / 80 ⇒ 90 / 60 / 30",
+   "id": "bb6e6a45381c",
+   "section": "modes",
+   "tags": [
+    "Support",
+    "Tank"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Arena",
+   "sectionId": "patch-arena",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Thresh",
+    "name": "Thresh"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "stat",
+   "attribute": "Daño básico",
+   "before": "250 / 400 / 550",
+   "after": "350 / 500 / 650",
+   "text": "Daño básico: 250 / 400 / 550 ⇒ 350 / 500 / 650",
+   "id": "43734c35513c",
+   "section": "modes",
+   "tags": [
+    "Support",
+    "Tank"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Arena",
+   "sectionId": "patch-arena",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "TwistedFate",
+    "name": "Twisted Fate"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "text",
+   "attribute": null,
+   "before": null,
+   "after": null,
+   "text": "R: Destino",
+   "id": "18dd1acf7409",
+   "section": "modes",
+   "tags": [
+    "Mage",
+    "Marksman"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Arena",
+   "sectionId": "patch-arena",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "TwistedFate",
+    "name": "Twisted Fate"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "stat",
+   "attribute": "Enfriamiento",
+   "before": "170 / 140 / 110",
+   "after": "40 / 30 / 20",
+   "text": "Enfriamiento: 170 / 140 / 110 ⇒ 40 / 30 / 20",
+   "id": "8a4366c76ef7",
+   "section": "modes",
+   "tags": [
+    "Mage",
+    "Marksman"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Arena",
+   "sectionId": "patch-arena",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "TwistedFate",
+    "name": "Twisted Fate"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "stat",
+   "attribute": "Duración",
+   "before": "3 / 4 / 5 seg",
+   "after": "3 / 4 / 5 seg",
+   "text": "Duración: 3 / 4 / 5 seg ⇒ 3 / 4 / 5 seg",
+   "id": "1fbc1f66bc78",
+   "section": "modes",
+   "tags": [
+    "Mage",
+    "Marksman"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Arena",
+   "sectionId": "patch-arena",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Warwick",
+    "name": "Warwick"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "text",
+   "attribute": null,
+   "before": null,
+   "after": null,
+   "text": "Pasiva: Sed Insaciable",
+   "id": "2048d06f03a4",
+   "section": "modes",
+   "tags": [
+    "Fighter",
+    "Tank"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Arena",
+   "sectionId": "patch-arena",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Warwick",
+    "name": "Warwick"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "stat",
+   "attribute": "Amplificación de curación de La Última Batalla",
+   "before": "250%",
+   "after": "300%",
+   "text": "Amplificación de curación de La Última Batalla: 250% ⇒ 300%",
+   "id": "e221ca6360a2",
+   "section": "modes",
+   "tags": [
+    "Fighter",
+    "Tank"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Arena",
+   "sectionId": "patch-arena",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Warwick",
+    "name": "Warwick"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "text",
+   "attribute": null,
+   "before": null,
+   "after": null,
+   "text": "W: Cacería de Sangre",
+   "id": "77c90c0f151a",
+   "section": "modes",
+   "tags": [
+    "Fighter",
+    "Tank"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Arena",
+   "sectionId": "patch-arena",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Warwick",
+    "name": "Warwick"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "stat",
+   "attribute": "Enfriamiento",
+   "before": "80 / 70 / 60 / 50 / 40",
+   "after": "40 / 35 / 30 / 25 / 20",
+   "text": "Enfriamiento: 80 / 70 / 60 / 50 / 40 ⇒ 40 / 35 / 30 / 25 / 20",
+   "id": "c9240761d68f",
+   "section": "modes",
+   "tags": [
+    "Fighter",
+    "Tank"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Arena",
+   "sectionId": "patch-arena",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Warwick",
+    "name": "Warwick"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "text",
+   "attribute": null,
+   "before": null,
+   "after": null,
+   "text": "E: Aullido Primigenio",
+   "id": "875a0e90a9b9",
+   "section": "modes",
+   "tags": [
+    "Fighter",
+    "Tank"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Arena",
+   "sectionId": "patch-arena",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Warwick",
+    "name": "Warwick"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "stat",
+   "attribute": "Reducción de daño",
+   "before": "35 / 40 / 45 / 50 / 55%",
+   "after": "40 / 45 / 50 / 55 / 60%",
+   "text": "Reducción de daño: 35 / 40 / 45 / 50 / 55% ⇒ 40 / 45 / 50 / 55 / 60%",
+   "id": "69c29ae57f3e",
+   "section": "modes",
+   "tags": [
+    "Fighter",
+    "Tank"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Arena",
+   "sectionId": "patch-arena",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Zac",
+    "name": "Zac"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "text",
+   "attribute": null,
+   "before": null,
+   "after": null,
+   "text": "W: Materia Inestable",
+   "id": "52112881576e",
+   "section": "modes",
+   "tags": [
+    "Tank",
+    "Fighter"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Arena",
+   "sectionId": "patch-arena",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Zac",
+    "name": "Zac"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "stat",
+   "attribute": "Enfriamiento de Arena",
+   "before": "6",
+   "after": "5",
+   "text": "Enfriamiento de Arena: 6 ⇒ 5",
+   "id": "13f7104620d5",
+   "section": "modes",
+   "tags": [
+    "Tank",
+    "Fighter"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Arena",
+   "sectionId": "patch-arena",
+   "midPatch": false,
+   "entity": {
+    "kind": "item",
+    "id": "3100",
+    "name": "Maldición del Liche"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "stat",
+   "attribute": "Tasa de Poder de Habilidad del aumento de Velocidad de Ataque",
+   "before": "66%",
+   "after": "70%",
+   "text": "Tasa de Poder de Habilidad del aumento de Velocidad de Ataque: 66% ⇒ 70%",
+   "id": "2f1191287531",
+   "section": "modes",
+   "tags": [
+    "SpellDamage",
+    "OnHit",
+    "NonbootsMovement",
+    "AbilityHaste"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Arena",
+   "sectionId": "patch-arena",
+   "midPatch": false,
+   "entity": {
+    "kind": "item",
+    "id": "4637",
+    "name": "Abrazo Demoniaco"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "stat",
+   "attribute": "Nivel máximo",
+   "before": "3",
+   "after": "2",
+   "text": "Nivel máximo: 3 ⇒ 2",
+   "id": "f5a199773021",
+   "section": "modes",
+   "tags": [
+    "Health",
+    "SpellDamage"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Arena",
+   "sectionId": "patch-arena",
+   "midPatch": false,
+   "entity": {
+    "kind": "item",
+    "id": "4637",
+    "name": "Abrazo Demoniaco"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "stat",
+   "attribute": "Daño básico",
+   "before": "100 mínimo / 200 máximo",
+   "after": "100 mínimo / 300 máximo",
+   "text": "Daño básico: 100 mínimo / 200 máximo ⇒ 100 mínimo / 300 máximo",
+   "id": "a42421679887",
+   "section": "modes",
+   "tags": [
+    "Health",
+    "SpellDamage"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Arena",
+   "sectionId": "patch-arena",
+   "midPatch": false,
+   "entity": {
+    "kind": "item",
+    "id": "4637",
+    "name": "Abrazo Demoniaco"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "stat",
+   "attribute": "Enfriamiento",
+   "before": "18",
+   "after": "12",
+   "text": "Enfriamiento: 18 ⇒ 12",
+   "id": "a86e67a1250e",
+   "section": "modes",
+   "tags": [
+    "Health",
+    "SpellDamage"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Arena",
+   "sectionId": "patch-arena",
+   "midPatch": false,
+   "entity": {
+    "kind": "none",
+    "id": null,
+    "name": "Ritmo Crítico"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "text",
+   "attribute": null,
+   "before": null,
+   "after": null,
+   "text": "Ritmo Crítico",
+   "id": "10d1b6aac3f4",
+   "section": "modes",
+   "tags": [],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Arena",
+   "sectionId": "patch-arena",
+   "midPatch": false,
+   "entity": {
+    "kind": "none",
+    "id": null,
+    "name": "Ritmo Crítico"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "stat",
+   "attribute": "Nivel máximo",
+   "before": "3",
+   "after": "2",
+   "text": "Nivel máximo: 3 ⇒ 2",
+   "id": "adc0c5675145",
+   "section": "modes",
+   "tags": [],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Arena",
+   "sectionId": "patch-arena",
+   "midPatch": false,
+   "entity": {
+    "kind": "none",
+    "id": null,
+    "name": "Mente de Colmena"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "text",
+   "attribute": null,
+   "before": null,
+   "after": null,
+   "text": "Mente de Colmena",
+   "id": "7bc7853606e8",
+   "section": "modes",
+   "tags": [],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Arena",
+   "sectionId": "patch-arena",
+   "midPatch": false,
+   "entity": {
+    "kind": "none",
+    "id": null,
+    "name": "Mente de Colmena"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "stat",
+   "attribute": "Abejas iniciales",
+   "before": "1 / 2 / 3",
+   "after": "2 / 4 / 6",
+   "text": "Abejas iniciales 1 / 2 / 3 ⇒ 2 / 4 / 6",
+   "id": "9eff14cbf36b",
+   "section": "modes",
+   "tags": [],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Arena",
+   "sectionId": "patch-arena",
+   "midPatch": false,
+   "entity": {
+    "kind": "none",
+    "id": null,
+    "name": "Mente de Colmena"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "stat",
+   "attribute": "Tasa de Daño de Ataque",
+   "before": "20% de Daño de Ataque adicional",
+   "after": "25% de Daño de Ataque total",
+   "text": "Tasa de Daño de Ataque: 20% de Daño de Ataque adicional ⇒ 25% de Daño de Ataque total",
+   "id": "473da7a4ba53",
+   "section": "modes",
+   "tags": [],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Arena",
+   "sectionId": "patch-arena",
+   "midPatch": false,
+   "entity": {
+    "kind": "none",
+    "id": null,
+    "name": "Ojos Láser"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "text",
+   "attribute": null,
+   "before": null,
+   "after": null,
+   "text": "Ojos Láser",
+   "id": "ad42b62754a2",
+   "section": "modes",
+   "tags": [],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Arena",
+   "sectionId": "patch-arena",
+   "midPatch": false,
+   "entity": {
+    "kind": "none",
+    "id": null,
+    "name": "Ojos Láser"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "stat",
+   "attribute": "Nivel máximo",
+   "before": "3",
+   "after": "2",
+   "text": "Nivel máximo: 3 ⇒ 2",
+   "id": "04f45c0a283b",
+   "section": "modes",
+   "tags": [],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Arena",
+   "sectionId": "patch-arena",
+   "midPatch": false,
+   "entity": {
+    "kind": "none",
+    "id": null,
+    "name": "Ojos Láser"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "stat",
+   "attribute": "Longitud del láser",
+   "before": "600 / 800 / 1000",
+   "after": "600 / 1000",
+   "text": "Longitud del láser 600 / 800 / 1000 ⇒ 600 / 1000",
+   "id": "5132730077d6",
+   "section": "modes",
+   "tags": [],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Arena",
+   "sectionId": "patch-arena",
+   "midPatch": false,
+   "entity": {
+    "kind": "none",
+    "id": null,
+    "name": "Ok, Bumerán"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "text",
+   "attribute": null,
+   "before": null,
+   "after": null,
+   "text": "Ok, Bumerán",
+   "id": "2181e3a4d72c",
+   "section": "modes",
+   "tags": [],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Arena",
+   "sectionId": "patch-arena",
+   "midPatch": false,
+   "entity": {
+    "kind": "none",
+    "id": null,
+    "name": "Ok, Bumerán"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "new",
+   "attribute": null,
+   "before": null,
+   "after": null,
+   "text": "NUEVO Cantidad de bumeranes de nivel 2: El nivel 2 ahora lanza un segundo búmeran",
+   "id": "662586429d75",
+   "section": "modes",
+   "tags": [],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Arena",
+   "sectionId": "patch-arena",
+   "midPatch": false,
+   "entity": {
+    "kind": "none",
+    "id": null,
+    "name": "Pacto Ominoso"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "text",
+   "attribute": null,
+   "before": null,
+   "after": null,
+   "text": "Pacto Ominoso",
+   "id": "5fa6e36432a1",
+   "section": "modes",
+   "tags": [],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Arena",
+   "sectionId": "patch-arena",
+   "midPatch": false,
+   "entity": {
+    "kind": "none",
+    "id": null,
+    "name": "Pacto Ominoso"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "stat",
+   "attribute": "Omnivampirismo",
+   "before": "15% / 25%",
+   "after": "20% / 35%",
+   "text": "Omnivampirismo: 15% / 25% ⇒ 20% / 35%",
+   "id": "5e536199512e",
+   "section": "modes",
+   "tags": [],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Arena",
+   "sectionId": "patch-arena",
+   "midPatch": false,
+   "entity": {
+    "kind": "none",
+    "id": null,
+    "name": "Pacto Ominoso"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "stat",
+   "attribute": "Velocidad de Movimiento",
+   "before": "50% / 75%",
+   "after": "50% / 100%",
+   "text": "Velocidad de Movimiento: 50% / 75% ⇒ 50% / 100%",
+   "id": "a812dd11bc7d",
+   "section": "modes",
+   "tags": [],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Arena",
+   "sectionId": "patch-arena",
+   "midPatch": false,
+   "entity": {
+    "kind": "none",
+    "id": null,
+    "name": "Estela de Hechizos"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "text",
+   "attribute": null,
+   "before": null,
+   "after": null,
+   "text": "Estela de Hechizos",
+   "id": "d55d3cdf51e8",
+   "section": "modes",
+   "tags": [],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Arena",
+   "sectionId": "patch-arena",
+   "midPatch": false,
+   "entity": {
+    "kind": "none",
+    "id": null,
+    "name": "Estela de Hechizos"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "stat",
+   "attribute": "Nivel máximo",
+   "before": "3",
+   "after": "2",
+   "text": "Nivel máximo: 3 ⇒ 2",
+   "id": "379c32f30c6a",
+   "section": "modes",
+   "tags": [],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Arena",
+   "sectionId": "patch-arena",
+   "midPatch": false,
+   "entity": {
+    "kind": "none",
+    "id": null,
+    "name": "Estela de Hechizos"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "stat",
+   "attribute": "Tasa de Poder de Habilidad de nivel 1",
+   "before": "20%",
+   "after": "30%",
+   "text": "Tasa de Poder de Habilidad de nivel 1: 20% ⇒ 30%",
+   "id": "b7ecc801e64a",
+   "section": "modes",
+   "tags": [],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Arena",
+   "sectionId": "patch-arena",
+   "midPatch": false,
+   "entity": {
+    "kind": "none",
+    "id": null,
+    "name": "Estela de Hechizos"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "stat",
+   "attribute": "Tasa de Daño de Ataque adicional de nivel 1",
+   "before": "145%",
+   "after": "165%",
+   "text": "Tasa de Daño de Ataque adicional de nivel 1: 145% ⇒ 165%",
+   "id": "2785a295107f",
+   "section": "modes",
+   "tags": [],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Arena",
+   "sectionId": "patch-arena",
+   "midPatch": false,
+   "entity": {
+    "kind": "none",
+    "id": null,
+    "name": "Estela de Hechizos"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "stat",
+   "attribute": "Tasa de Poder de Habilidad de nivel 2",
+   "before": "20%",
+   "after": "30%",
+   "text": "Tasa de Poder de Habilidad de nivel 2: 20% ⇒ 30%",
+   "id": "c5891690652a",
+   "section": "modes",
+   "tags": [],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Arena",
+   "sectionId": "patch-arena",
+   "midPatch": false,
+   "entity": {
+    "kind": "none",
+    "id": null,
+    "name": "Estela de Hechizos"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "stat",
+   "attribute": "Tasa de Daño de Ataque adicional de nivel 2",
+   "before": "165%",
+   "after": "185%",
+   "text": "Tasa de Daño de Ataque adicional de nivel 2: 165% ⇒ 185%",
+   "id": "fc710022d094",
+   "section": "modes",
+   "tags": [],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Arena",
+   "sectionId": "patch-arena",
+   "midPatch": false,
+   "entity": {
+    "kind": "none",
+    "id": null,
+    "name": "Estela Terrestre"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "text",
+   "attribute": null,
+   "before": null,
+   "after": null,
+   "text": "Estela Terrestre",
+   "id": "ff2ae48c6900",
+   "section": "modes",
+   "tags": [],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Arena",
+   "sectionId": "patch-arena",
+   "midPatch": false,
+   "entity": {
+    "kind": "none",
+    "id": null,
+    "name": "Estela Terrestre"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "stat",
+   "attribute": "Nivel máximo",
+   "before": "3",
+   "after": "2",
+   "text": "Nivel máximo: 3 ⇒ 2",
+   "id": "931d2acd9bee",
+   "section": "modes",
+   "tags": [],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Arena",
+   "sectionId": "patch-arena",
+   "midPatch": false,
+   "entity": {
+    "kind": "none",
+    "id": null,
+    "name": "Bailarín de Tap"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "text",
+   "attribute": null,
+   "before": null,
+   "after": null,
+   "text": "Bailarín de Tap",
+   "id": "545d8c091a87",
+   "section": "modes",
+   "tags": [],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Arena",
+   "sectionId": "patch-arena",
+   "midPatch": false,
+   "entity": {
+    "kind": "none",
+    "id": null,
+    "name": "Bailarín de Tap"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "stat",
+   "attribute": "Nivel máximo",
+   "before": "3",
+   "after": "2",
+   "text": "Nivel máximo: 3 ⇒ 2",
+   "id": "2af607795417",
+   "section": "modes",
+   "tags": [],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Arena",
+   "sectionId": "patch-arena",
+   "midPatch": false,
+   "entity": {
+    "kind": "none",
+    "id": null,
+    "name": "Prodigio de Tiros Certeros"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "text",
+   "attribute": null,
+   "before": null,
+   "after": null,
+   "text": "Prodigio de Tiros Certeros",
+   "id": "efce52a3c34d",
+   "section": "modes",
+   "tags": [],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Arena",
+   "sectionId": "patch-arena",
+   "midPatch": false,
+   "entity": {
+    "kind": "none",
+    "id": null,
+    "name": "Prodigio de Tiros Certeros"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "stat",
+   "attribute": "Condición de activación del misil",
+   "before": "Se activaba con su propio misil",
+   "after": "Ya no se activa con su propio misil",
+   "text": "Condición de activación del misil: Se activaba con su propio misil ⇒ Ya no se activa con su propio misil",
+   "id": "396b5a5ef3ff",
+   "section": "modes",
+   "tags": [],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Arena",
+   "sectionId": "patch-arena",
+   "midPatch": false,
+   "entity": {
+    "kind": "none",
+    "id": null,
+    "name": "Lento pero Seguro"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "text",
+   "attribute": null,
+   "before": null,
+   "after": null,
+   "text": "Lento pero Seguro",
+   "id": "cf09eb81b781",
+   "section": "modes",
+   "tags": [],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Arena",
+   "sectionId": "patch-arena",
+   "midPatch": false,
+   "entity": {
+    "kind": "none",
+    "id": null,
+    "name": "Lento pero Seguro"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "removed",
+   "attribute": null,
+   "before": null,
+   "after": null,
+   "text": "ELIMINADO Estado: Eliminado",
+   "id": "05eb556234df",
+   "section": "modes",
+   "tags": [],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Arena",
+   "sectionId": "patch-arena",
+   "midPatch": false,
+   "entity": {
+    "kind": "none",
+    "id": null,
+    "name": "Conversión de Golpe Crítico a fuerza adaptable"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "text",
+   "attribute": null,
+   "before": null,
+   "after": null,
+   "text": "Conversión de Golpe Crítico a fuerza adaptable",
+   "id": "4ccf6b454e4e",
+   "section": "modes",
+   "tags": [],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Arena",
+   "sectionId": "patch-arena",
+   "midPatch": false,
+   "entity": {
+    "kind": "none",
+    "id": null,
+    "name": "Conversión de Golpe Crítico a fuerza adaptable"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "stat",
+   "attribute": "Tasa",
+   "before": "0.68:1",
+   "after": "1:1",
+   "text": "Tasa: 0.68:1 ⇒ 1:1",
+   "id": "5c6cf2bf4f06",
+   "section": "modes",
+   "tags": [],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Corrección de errores y cambios de funcionalidad",
+   "sectionId": "patch-bugfixes-and-qol-changes",
+   "midPatch": false,
+   "entity": {
+    "kind": "none",
+    "id": null,
+    "name": ""
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "text",
+   "attribute": null,
+   "before": null,
+   "after": null,
+   "text": "Corregimos un error que impedía que Neeko adoptara la forma del Cangrejo Escurridizo Vacuonato",
+   "id": "d6ed635330bb",
+   "section": "systems",
+   "tags": [],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Corrección de errores y cambios de funcionalidad",
+   "sectionId": "patch-bugfixes-and-qol-changes",
+   "midPatch": false,
+   "entity": {
+    "kind": "none",
+    "id": null,
+    "name": ""
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "text",
+   "attribute": null,
+   "before": null,
+   "after": null,
+   "text": "Corregimos un error que causaba que Pix siempre apareciera con su aspecto básico cuando Neeko adoptaba la forma de Lulu",
+   "id": "76e3b4dcd32c",
+   "section": "systems",
+   "tags": [],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Corrección de errores y cambios de funcionalidad",
+   "sectionId": "patch-bugfixes-and-qol-changes",
+   "midPatch": false,
+   "entity": {
+    "kind": "none",
+    "id": null,
+    "name": ""
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "text",
+   "attribute": null,
+   "before": null,
+   "after": null,
+   "text": "Corregimos un error que impedía que Neeko adoptara la forma de puma de Nidalee o la forma arácnida de Elise",
+   "id": "16817979a656",
+   "section": "systems",
+   "tags": [],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Corrección de errores y cambios de funcionalidad",
+   "sectionId": "patch-bugfixes-and-qol-changes",
+   "midPatch": false,
+   "entity": {
+    "kind": "none",
+    "id": null,
+    "name": ""
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "text",
+   "attribute": null,
+   "before": null,
+   "after": null,
+   "text": "Corregimos un error que impedía que Neeko adoptara las formas Impactante y Etérea de DJ Sona",
+   "id": "7dd3c9bdf8dc",
+   "section": "systems",
+   "tags": [],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Corrección de errores y cambios de funcionalidad",
+   "sectionId": "patch-bugfixes-and-qol-changes",
+   "midPatch": false,
+   "entity": {
+    "kind": "none",
+    "id": null,
+    "name": ""
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "text",
+   "attribute": null,
+   "before": null,
+   "after": null,
+   "text": "Corregimos un error que hacía que, cuando Neeko adoptaba la forma Cinética de DJ Sona, le faltara el cabello",
+   "id": "0dd37babbf04",
+   "section": "systems",
+   "tags": [],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Corrección de errores y cambios de funcionalidad",
+   "sectionId": "patch-bugfixes-and-qol-changes",
+   "midPatch": false,
+   "entity": {
+    "kind": "none",
+    "id": null,
+    "name": ""
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "text",
+   "attribute": null,
+   "before": null,
+   "after": null,
+   "text": "Corregimos un error que ocasionaba que, cuando Neeko adoptaba la forma de Smolder, los cuernos se vieran dentro de la cabeza",
+   "id": "780d275f3937",
+   "section": "systems",
+   "tags": [],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Corrección de errores y cambios de funcionalidad",
+   "sectionId": "patch-bugfixes-and-qol-changes",
+   "midPatch": false,
+   "entity": {
+    "kind": "none",
+    "id": null,
+    "name": ""
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "text",
+   "attribute": null,
+   "before": null,
+   "after": null,
+   "text": "Corregimos un error que provocaba que la E de Diana no se desplazara sobre el terreno",
+   "id": "8a9b9279b42d",
+   "section": "systems",
+   "tags": [],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Corrección de errores y cambios de funcionalidad",
+   "sectionId": "patch-bugfixes-and-qol-changes",
+   "midPatch": false,
+   "entity": {
+    "kind": "none",
+    "id": null,
+    "name": ""
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "text",
+   "attribute": null,
+   "before": null,
+   "after": null,
+   "text": "Corregimos un error que causaba que los efectos visuales de la R de Cassiopeia no coincidieran con el área de impacto de la habilidad",
+   "id": "86fbc587b2da",
+   "section": "systems",
+   "tags": [],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Corrección de errores y cambios de funcionalidad",
+   "sectionId": "patch-bugfixes-and-qol-changes",
+   "midPatch": false,
+   "entity": {
+    "kind": "none",
+    "id": null,
+    "name": ""
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "text",
+   "attribute": null,
+   "before": null,
+   "after": null,
+   "text": "Corregimos un error que impedía reembolsar las botas de nivel 3 de la misión del carril central con el botón de deshacer",
+   "id": "45345a221777",
+   "section": "systems",
+   "tags": [],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Corrección de errores y cambios de funcionalidad",
+   "sectionId": "patch-bugfixes-and-qol-changes",
+   "midPatch": false,
+   "entity": {
+    "kind": "none",
+    "id": null,
+    "name": ""
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "text",
+   "attribute": null,
+   "before": null,
+   "after": null,
+   "text": "Corregimos un error que impedía que los ataques de Nilah tras lanzar la Q o la E activaran Lluvia de Espadas",
+   "id": "2ce113babf4c",
+   "section": "systems",
+   "tags": [],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Corrección de errores y cambios de funcionalidad",
+   "sectionId": "patch-bugfixes-and-qol-changes",
+   "midPatch": false,
+   "entity": {
+    "kind": "none",
+    "id": null,
+    "name": ""
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "text",
+   "attribute": null,
+   "before": null,
+   "after": null,
+   "text": "Corregimos un error que permitía que la duración de la quemadura de Toque de la Muerte Ígnea se sobrescribiera al impactar al objetivo con un hechizo de menor duración",
+   "id": "4b5d3817a84b",
+   "section": "systems",
+   "tags": [],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Corrección de errores y cambios de funcionalidad",
+   "sectionId": "patch-bugfixes-and-qol-changes",
+   "midPatch": false,
+   "entity": {
+    "kind": "none",
+    "id": null,
+    "name": ""
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "text",
+   "attribute": null,
+   "before": null,
+   "after": null,
+   "text": "Corregimos un error que hacía que la ventana de recapitulación de muerte no apareciera cuando alguien moría",
+   "id": "ca3712709fb7",
+   "section": "systems",
+   "tags": [],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Corrección de errores y cambios de funcionalidad",
+   "sectionId": "patch-bugfixes-and-qol-changes",
+   "midPatch": false,
+   "entity": {
+    "kind": "none",
+    "id": null,
+    "name": ""
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "text",
+   "attribute": null,
+   "before": null,
+   "after": null,
+   "text": "Corregimos un error que impedía recuperar el artefacto de la R de Locke si el objetivo era invulnerable al momento del impacto de la habilidad",
+   "id": "d84c8ff2e86b",
+   "section": "systems",
+   "tags": [],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Corrección de errores y cambios de funcionalidad",
+   "sectionId": "patch-bugfixes-and-qol-changes",
+   "midPatch": false,
+   "entity": {
+    "kind": "none",
+    "id": null,
+    "name": ""
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "text",
+   "attribute": null,
+   "before": null,
+   "after": null,
+   "text": "Corregimos un error que impedía que el efecto activo de Convergencia de Zeke infligiera daño a los monstruos",
+   "id": "88767fc700d5",
+   "section": "systems",
+   "tags": [],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Corrección de errores y cambios de funcionalidad",
+   "sectionId": "patch-bugfixes-and-qol-changes",
+   "midPatch": false,
+   "entity": {
+    "kind": "none",
+    "id": null,
+    "name": ""
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "text",
+   "attribute": null,
+   "before": null,
+   "after": null,
+   "text": "Corregimos un error que ocasionaba que la R de Locke no cambiara de color cuando la W de Mel reflejaba el artefacto",
+   "id": "a14a71993781",
+   "section": "systems",
+   "tags": [],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Próximos aspectos y chromas",
+   "sectionId": "patch-upcoming-skins-and-chromas",
+   "midPatch": false,
+   "entity": {
+    "kind": "none",
+    "id": null,
+    "name": ""
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "text",
+   "attribute": null,
+   "before": null,
+   "after": null,
+   "text": "Lanzaremos los siguientes aspectos en esta versión:",
+   "id": "1773370fa97d",
+   "section": "cosmetics",
+   "tags": [],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Próximos aspectos y chromas",
+   "sectionId": "patch-upcoming-skins-and-chromas",
+   "midPatch": false,
+   "entity": {
+    "kind": "none",
+    "id": null,
+    "name": ""
+   },
+   "part": "Veigar Cámara de Magma Prestigioso",
+   "partTitle": "Veigar Cámara de Magma Prestigioso",
+   "spellKey": null,
+   "kind": "text",
+   "attribute": null,
+   "before": null,
+   "after": null,
+   "text": "Darius Rey Divino y Garen Rey Divino Caído regresan al Santuario hasta la versión 26.19.",
+   "id": "5e13582e09db",
+   "section": "cosmetics",
+   "tags": [],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Próximos aspectos y chromas",
+   "sectionId": "patch-upcoming-skins-and-chromas",
+   "midPatch": false,
+   "entity": {
+    "kind": "none",
+    "id": null,
+    "name": ""
+   },
+   "part": "Veigar Cámara de Magma Prestigioso",
+   "partTitle": "Veigar Cámara de Magma Prestigioso",
+   "spellKey": null,
+   "kind": "text",
+   "attribute": null,
+   "before": null,
+   "after": null,
+   "text": "Lanzaremos los siguientes chromas en esta versión:",
+   "id": "2b0bcfc98fdf",
+   "section": "cosmetics",
+   "tags": [],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  }
+ ]
+}

@@ -1,0 +1,2708 @@
+{
+ "schemaVersion": 1,
+ "id": "Mel",
+ "name": "Mel",
+ "tags": [
+  "Mage",
+  "Support"
+ ],
+ "entries": [
+  {
+   "patch": "26.23",
+   "publishedAt": "2026-11-17T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Mel",
+      "name": "Mel"
+     },
+     "part": "Q",
+     "partTitle": "Q: Descarga Radiante",
+     "spellKey": "MelQ",
+     "kind": "stat",
+     "attribute": "Daño de rayo subsecuente",
+     "before": "5 / 10 / 15 / 20 / 25 (+8% de Poder de Habilidad)",
+     "after": "6 / 11 / 16 / 21 / 26 (+9% de Poder de Habilidad)",
+     "text": "Daño de rayo subsecuente: 5 / 10 / 15 / 20 / 25 (+8% de Poder de Habilidad) ⇒ 6 / 11 / 16 / 21 / 26 (+9% de Poder de Habilidad)",
+     "id": "b280404bf498",
+     "section": "champions",
+     "tags": [
+      "Mage",
+      "Support"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Mel",
+      "name": "Mel"
+     },
+     "part": "Q",
+     "partTitle": "Q: Descarga Radiante",
+     "spellKey": "MelQ",
+     "kind": "stat",
+     "attribute": "Daño máximo",
+     "before": "85 / 120 / 165 / 220 / 285 (+ 65 / 73 / 81 / 89 / 97% de Poder de Habilidad)",
+     "after": "90 / 126 / 172 / 228 / 294 (+ 70 / 79 / 88 / 97 / 106% de Poder de Habilidad)",
+     "text": "Daño máximo: 85 / 120 / 165 / 220 / 285 (+ 65 / 73 / 81 / 89 / 97% de Poder de Habilidad) ⇒ 90 / 126 / 172 / 228 / 294 (+ 70 / 79 / 88 / 97 / 106% de Poder de Habilidad)",
+     "id": "04fe97612ca9",
+     "section": "champions",
+     "tags": [
+      "Mage",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Mel",
+      "name": "Mel"
+     },
+     "part": "W",
+     "partTitle": "W: Refutar",
+     "spellKey": "MelW",
+     "kind": "stat",
+     "attribute": "Escudo",
+     "before": "50 / 80 / 110 / 140 / 170 (+50% de Poder de Habilidad)",
+     "after": "50 / 90 / 130 / 170 / 210 (+50% de Poder de Habilidad)",
+     "text": "Escudo: 50 / 80 / 110 / 140 / 170 (+50% de Poder de Habilidad) ⇒ 50 / 90 / 130 / 170 / 210 (+50% de Poder de Habilidad)",
+     "id": "4105227e51ff",
+     "section": "champions",
+     "tags": [
+      "Mage",
+      "Support"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Mel",
+      "name": "Mel"
+     },
+     "part": "W",
+     "partTitle": "W: Refutar",
+     "spellKey": "MelW",
+     "kind": "stat",
+     "attribute": "Represalias",
+     "before": "35 / 40 / 45 / 50 / 55 (+10% de Poder de Habilidad)",
+     "after": "35 / 45 / 55 / 65 / 75 (+10% de Poder de Habilidad)",
+     "text": "Represalias: 35 / 40 / 45 / 50 / 55 (+10% de Poder de Habilidad) ⇒ 35 / 45 / 55 / 65 / 75 (+10% de Poder de Habilidad)",
+     "id": "1514553dd4f0",
+     "section": "champions",
+     "tags": [
+      "Mage",
+      "Support"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "26.22",
+   "publishedAt": "2026-11-03T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Mel",
+      "name": "Mel"
+     },
+     "part": "base",
+     "partTitle": "Estadísticas base",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Vida",
+     "before": "640 + 99 por nivel",
+     "after": "590 + 107 por nivel",
+     "text": "Vida: 640 + 99 por nivel ⇒ 590 + 107 por nivel",
+     "id": "1b8c653d0ecf",
+     "section": "champions",
+     "tags": [
+      "Mage",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Mel",
+      "name": "Mel"
+     },
+     "part": "base",
+     "partTitle": "Estadísticas base",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Maná",
+     "before": "480 + 28 por nivel",
+     "after": "455 + 38 por nivel",
+     "text": "Maná: 480 + 28 por nivel ⇒ 455 + 38 por nivel",
+     "id": "05d408f5bdcf",
+     "section": "champions",
+     "tags": [
+      "Mage",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Mel",
+      "name": "Mel"
+     },
+     "part": "base",
+     "partTitle": "Estadísticas base",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Armadura",
+     "before": "+5.2 por nivel",
+     "after": "+5.4 por nivel",
+     "text": "Armadura: +5.2 por nivel ⇒ +5.4 por nivel",
+     "id": "0172d15c5f70",
+     "section": "champions",
+     "tags": [
+      "Mage",
+      "Support"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Mel",
+      "name": "Mel"
+     },
+     "part": "base",
+     "partTitle": "Estadísticas base",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño de Ataque",
+     "before": "54 + 3.3 por nivel",
+     "after": "52 + 3.3 por nivel",
+     "text": "Daño de Ataque: 54 + 3.3 por nivel ⇒ 52 + 3.3 por nivel",
+     "id": "e781807a2ee4",
+     "section": "champions",
+     "tags": [
+      "Mage",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Mel",
+      "name": "Mel"
+     },
+     "part": "base",
+     "partTitle": "Estadísticas base",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Velocidad de Ataque",
+     "before": "2.5% por nivel",
+     "after": "2.75% por nivel",
+     "text": "Velocidad de Ataque: 2.5% por nivel ⇒ 2.75% por nivel",
+     "id": "b1c657c90e12",
+     "section": "champions",
+     "tags": [
+      "Mage",
+      "Support"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Mel",
+      "name": "Mel"
+     },
+     "part": "P",
+     "partTitle": "Pasiva: Fulgor Ardiente",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño adicional por proyectil",
+     "before": "8 - 30 (+4% de Poder de Habilidad)",
+     "after": "4 - 30 (+4% de Poder de Habilidad)",
+     "text": "Daño adicional por proyectil: 8 - 30 (+4% de Poder de Habilidad) ⇒ 4 - 30 (+4% de Poder de Habilidad)",
+     "id": "be40fec807b9",
+     "section": "champions",
+     "tags": [
+      "Mage",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Mel",
+      "name": "Mel"
+     },
+     "part": "P",
+     "partTitle": "Pasiva: Fulgor Ardiente",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño de la primera acumulación contra súbditos",
+     "before": "50% menos",
+     "after": "45% menos",
+     "text": "Daño de la primera acumulación contra súbditos: 50% menos ⇒ 45% menos",
+     "id": "8a6f700c4d78",
+     "section": "champions",
+     "tags": [
+      "Mage",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Mel",
+      "name": "Mel"
+     },
+     "part": "Q",
+     "partTitle": "Q: Ráfaga Radiante",
+     "spellKey": "MelQ",
+     "kind": "stat",
+     "attribute": "Daño del primer impacto",
+     "before": "60 / 85 / 110 / 135 / 160 (+55% de Poder de Habilidad)",
+     "after": "60 (+25% de Poder de Habilidad)",
+     "text": "Daño del primer impacto: 60 / 85 / 110 / 135 / 160 (+55% de Poder de Habilidad) ⇒ 60 (+25% de Poder de Habilidad)",
+     "id": "9837f3532ae9",
+     "section": "champions",
+     "tags": [
+      "Mage",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Mel",
+      "name": "Mel"
+     },
+     "part": "Q",
+     "partTitle": "Q: Ráfaga Radiante",
+     "spellKey": "MelQ",
+     "kind": "stat",
+     "attribute": "Daño de golpes múltiples",
+     "before": "5 / 7 / 9 / 11 / 13 (+5% de Poder de Habilidad)",
+     "after": "5 / 10 / 15 / 20 / 25 (+8% de Poder de Habilidad)",
+     "text": "Daño de golpes múltiples: 5 / 7 / 9 / 11 / 13 (+5% de Poder de Habilidad) ⇒ 5 / 10 / 15 / 20 / 25 (+8% de Poder de Habilidad)",
+     "id": "40df252c0423",
+     "section": "champions",
+     "tags": [
+      "Mage",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Mel",
+      "name": "Mel"
+     },
+     "part": "Q",
+     "partTitle": "Q: Ráfaga Radiante",
+     "spellKey": "MelQ",
+     "kind": "stat",
+     "attribute": "Daño total",
+     "before": "85 - 277 (+80 - 100% de Poder de Habilidad)",
+     "after": "85 - 285 (+65 - 97% de Poder de Habilidad)",
+     "text": "Daño total: 85 - 277 (+80 - 100% de Poder de Habilidad) ⇒ 85 - 285 (+65 - 97% de Poder de Habilidad)",
+     "id": "475f74d2317f",
+     "section": "champions",
+     "tags": [
+      "Mage",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Mel",
+      "name": "Mel"
+     },
+     "part": "Q",
+     "partTitle": "Q: Ráfaga Radiante",
+     "spellKey": "MelQ",
+     "kind": "new",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Nuevo - Ahora reembolsa enfriamiento si impacta a un campeón enemigo al menos una vez: Reembolso de 0.5 seg - 1.0 seg (progresa con el nivel del campeón)",
+     "id": "1f873895b604",
+     "section": "champions",
+     "tags": [
+      "Mage",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Mel",
+      "name": "Mel"
+     },
+     "part": "Q",
+     "partTitle": "Q: Ráfaga Radiante",
+     "spellKey": "MelQ",
+     "kind": "stat",
+     "attribute": "Costo de Maná",
+     "before": "70 / 75 / 80 / 85 / 90",
+     "after": "60 / 65 / 70 / 75 / 80",
+     "text": "Costo de Maná: 70 / 75 / 80 / 85 / 90 ⇒ 60 / 65 / 70 / 75 / 80",
+     "id": "373f006f24fb",
+     "section": "champions",
+     "tags": [
+      "Mage",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Mel",
+      "name": "Mel"
+     },
+     "part": "Q",
+     "partTitle": "Q: Ráfaga Radiante",
+     "spellKey": "MelQ",
+     "kind": "stat",
+     "attribute": "Velocidad del proyectil",
+     "before": "3800",
+     "after": "3200 (tarda .047 seg más en llegar al alcance máx.)",
+     "text": "Velocidad del proyectil: 3800 ⇒ 3200 (tarda .047 seg más en llegar al alcance máx.)",
+     "id": "213820aff772",
+     "section": "champions",
+     "tags": [
+      "Mage",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Mel",
+      "name": "Mel"
+     },
+     "part": "W",
+     "partTitle": "W: Refutar (Rediseñada)",
+     "spellKey": "MelW",
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Desata una nova que se expande a un radio de 400 unidades durante 0.75 seg. La nova destruye los proyectiles y escudos enemigos y otorga velocidad de movimiento a Mel y a los aliados en su interior. Los misiles destruidos reciben represalias al final de la nova",
+     "id": "c1a8a87a1329",
+     "section": "champions",
+     "tags": [
+      "Mage",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Mel",
+      "name": "Mel"
+     },
+     "part": "W",
+     "partTitle": "W: Refutar (Rediseñada)",
+     "spellKey": "MelW",
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Daño de detonación: 35 / 40 / 45 / 50 / 55 (+10% de Poder de Habilidad), reducido a 5 / 10 / 15 / 20 / 25 (+5% de Poder de Habilidad) en los impactos posteriores contra el mismo enemigo, hasta 7 represalias por enemigo para un total de 65 - 205 (+40% de Poder de Habilidad)",
+     "id": "09fc6afa8325",
+     "section": "champions",
+     "tags": [
+      "Mage",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Mel",
+      "name": "Mel"
+     },
+     "part": "W",
+     "partTitle": "W: Refutar (Rediseñada)",
+     "spellKey": "MelW",
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Escudo: 80 / 110 / 140 / 170 / 200 (+70% de Poder de Habilidad) durante 2 seg",
+     "id": "e014ce4a0589",
+     "section": "champions",
+     "tags": [
+      "Mage",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Mel",
+      "name": "Mel"
+     },
+     "part": "W",
+     "partTitle": "W: Refutar (Rediseñada)",
+     "spellKey": "MelW",
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Velocidad de Movimiento: 10 - 30% (según el nivel del campeón) durante 2 seg",
+     "id": "376273c6c00e",
+     "section": "champions",
+     "tags": [
+      "Mage",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Mel",
+      "name": "Mel"
+     },
+     "part": "W",
+     "partTitle": "W: Refutar (Rediseñada)",
+     "spellKey": "MelW",
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Costo de Maná: 100 / 80 / 60 / 40 / 0",
+     "id": "1653a4047eeb",
+     "section": "champions",
+     "tags": [
+      "Mage",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Mel",
+      "name": "Mel"
+     },
+     "part": "W",
+     "partTitle": "W: Refutar (Rediseñada)",
+     "spellKey": "MelW",
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Enfriamiento: 30 / 28.5 / 27 / 25.5 / 24",
+     "id": "3009131c2958",
+     "section": "champions",
+     "tags": [
+      "Mage",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Mel",
+      "name": "Mel"
+     },
+     "part": "E",
+     "partTitle": "E: Ofuscador Solar",
+     "spellKey": "MelE",
+     "kind": "stat",
+     "attribute": "Duración de la inmovilización",
+     "before": "1.5 seg",
+     "after": "[0.8 - 1.6] / [0.85 - 1.75] / [0.9 - 1.9] / [0.95 - 2.05] / [1.0 - 2.2] seg, que aumentan con la distancia",
+     "text": "Duración de la inmovilización: 1.5 seg ⇒ [0.8 - 1.6] / [0.85 - 1.75] / [0.9 - 1.9] / [0.95 - 2.05] / [1.0 - 2.2] seg, que aumentan con la distancia",
+     "id": "8063eab6e06c",
+     "section": "champions",
+     "tags": [
+      "Mage",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Mel",
+      "name": "Mel"
+     },
+     "part": "E",
+     "partTitle": "E: Ofuscador Solar",
+     "spellKey": "MelE",
+     "kind": "stat",
+     "attribute": "Valor de la ralentización",
+     "before": "30%",
+     "after": "20 / 25 / 30 / 35 / 40%",
+     "text": "Valor de la ralentización: 30% ⇒ 20 / 25 / 30 / 35 / 40%",
+     "id": "9345786e1919",
+     "section": "champions",
+     "tags": [
+      "Mage",
+      "Support"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Mel",
+      "name": "Mel"
+     },
+     "part": "E",
+     "partTitle": "E: Ofuscador Solar",
+     "spellKey": "MelE",
+     "kind": "stat",
+     "attribute": "Costo de Maná",
+     "before": "50 / 60 / 70 / 80 / 90",
+     "after": "40 / 50 / 60 / 70 / 80",
+     "text": "Costo de Maná: 50 / 60 / 70 / 80 / 90 ⇒ 40 / 50 / 60 / 70 / 80",
+     "id": "3abca5fa5c63",
+     "section": "champions",
+     "tags": [
+      "Mage",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Mel",
+      "name": "Mel"
+     },
+     "part": "R",
+     "partTitle": "R: Eclipse Dorado",
+     "spellKey": "MelR",
+     "kind": "stat",
+     "attribute": "Enfriamiento",
+     "before": "120 / 100 / 80 seg",
+     "after": "120 / 90 / 60 seg",
+     "text": "Enfriamiento: 120 / 100 / 80 seg ⇒ 120 / 90 / 60 seg",
+     "id": "8e2cdfd75136",
+     "section": "champions",
+     "tags": [
+      "Mage",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "26.8",
+   "publishedAt": "2026-04-14T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Mel",
+      "name": "Mel"
+     },
+     "part": "Q",
+     "partTitle": "Q: Ráfaga Radiante",
+     "spellKey": "MelQ",
+     "kind": "stat",
+     "attribute": "Daño de explosión inicial",
+     "before": "60 / 90 / 120 / 150 / 180 (+ 60% de Poder de Habilidad)",
+     "after": "60 / 85 / 110 / 135 / 160 (+ 55% de Poder de Habilidad)",
+     "text": "Daño de explosión inicial: 60 / 90 / 120 / 150 / 180 (+ 60% de Poder de Habilidad) ⇒ 60 / 85 / 110 / 135 / 160 (+ 55% de Poder de Habilidad)",
+     "id": "6cb70775706f",
+     "section": "champions",
+     "tags": [
+      "Mage",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Mel",
+      "name": "Mel"
+     },
+     "part": "W",
+     "partTitle": "W: Refutar",
+     "spellKey": "MelW",
+     "kind": "stat",
+     "attribute": "Enfriamiento",
+     "before": "35 / 32 / 29 / 26 / 23",
+     "after": "38 / 35 / 32 / 29 / 26 seg",
+     "text": "Enfriamiento: 35 / 32 / 29 / 26 / 23 ⇒ 38 / 35 / 32 / 29 / 26 seg",
+     "id": "e1bb0896d507",
+     "section": "champions",
+     "tags": [
+      "Mage",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Mel",
+      "name": "Mel"
+     },
+     "part": "W",
+     "partTitle": "W: Refutar",
+     "spellKey": "MelW",
+     "kind": "stat",
+     "attribute": "Duración de la Velocidad de Movimiento adicional",
+     "before": "1.5 seg",
+     "after": "0.75 seg",
+     "text": "Duración de la Velocidad de Movimiento adicional: 1.5 seg ⇒ 0.75 seg",
+     "id": "e71db37c288c",
+     "section": "champions",
+     "tags": [
+      "Mage",
+      "Support"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "ARAM: Caos",
+     "sectionId": "patch-aram:-mayhem",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Mel",
+      "name": "Mel"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Enfriamiento de Refutar (W)",
+     "before": "35 / 32 / 29 / 26 / 23",
+     "after": "45 / 44 / 43 / 42 / 41",
+     "text": "Enfriamiento de Refutar (W): 35 / 32 / 29 / 26 / 23 ⇒ 45 / 44 / 43 / 42 / 41",
+     "id": "4e79572b9828",
+     "section": "modes",
+     "tags": [
+      "Mage",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "26.5",
+   "publishedAt": "2026-03-03T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Mel",
+      "name": "Mel"
+     },
+     "part": "P",
+     "partTitle": "Pasiva: Fulgor Ardiente",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Modificador de daño a súbditos",
+     "before": "×0.6",
+     "after": "×0.5",
+     "text": "Modificador de daño a súbditos: ×0.6 ⇒ ×0.5",
+     "id": "7dc86f43d861",
+     "section": "champions",
+     "tags": [
+      "Mage",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Mel",
+      "name": "Mel"
+     },
+     "part": "Q",
+     "partTitle": "Q: Ráfaga Radiante",
+     "spellKey": "MelQ",
+     "kind": "stat",
+     "attribute": "Daño básico por proyectil",
+     "before": "5 / 6 / 7 / 8 / 9",
+     "after": "5 / 7 / 9 / 11 / 13",
+     "text": "Daño básico por proyectil: 5 / 6 / 7 / 8 / 9 ⇒ 5 / 7 / 9 / 11 / 13",
+     "id": "3f7384dfb841",
+     "section": "champions",
+     "tags": [
+      "Mage",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Mel",
+      "name": "Mel"
+     },
+     "part": "Q",
+     "partTitle": "Q: Ráfaga Radiante",
+     "spellKey": "MelQ",
+     "kind": "stat",
+     "attribute": "Daño básico total de la Q",
+     "before": "90 / 132 / 176 / 222 / 270",
+     "after": "90 / 145 / 200 / 255 / 310",
+     "text": "Daño básico total de la Q: 90 / 132 / 176 / 222 / 270 ⇒ 90 / 145 / 200 / 255 / 310",
+     "id": "cad4dadd0002",
+     "section": "champions",
+     "tags": [
+      "Mage",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Mel",
+      "name": "Mel"
+     },
+     "part": "R",
+     "partTitle": "R: Eclipse Dorado",
+     "spellKey": "MelR",
+     "kind": "stat",
+     "attribute": "Daño básico inicial",
+     "before": "100 / 150 / 200",
+     "after": "125 / 200 / 275",
+     "text": "Daño básico inicial: 100 / 150 / 200 ⇒ 125 / 200 / 275",
+     "id": "c8e96759371e",
+     "section": "champions",
+     "tags": [
+      "Mage",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "26.3",
+   "publishedAt": "2026-02-03T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "",
+     "sectionId": "patch-top",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Mel",
+      "name": "Mel"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": null,
+     "before": "Vida por nivel: 93",
+     "after": "99",
+     "text": "Vida por nivel: 93 ⇒ 99",
+     "id": "735de768a4d1",
+     "section": "champions",
+     "tags": [
+      "Mage",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "",
+     "sectionId": "patch-top",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Mel",
+      "name": "Mel"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": null,
+     "before": "Daño de la pasiva por proyectil: De 8 a 25 + 3% de Poder de Habilidad",
+     "after": "De 8 a 30 + 4% de Poder de Habilidad",
+     "text": "Daño de la pasiva por proyectil: De 8 a 25 + 3% de Poder de Habilidad ⇒ De 8 a 30 + 4% de Poder de Habilidad",
+     "id": "b215cc11a15a",
+     "section": "champions",
+     "tags": [
+      "Mage",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "",
+     "sectionId": "patch-top",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Mel",
+      "name": "Mel"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": null,
+     "before": "Valor del escudo de la W: 60% de Poder de Habilidad",
+     "after": "70% de Poder de Habilidad",
+     "text": "Valor del escudo de la W: 60% de Poder de Habilidad ⇒ 70% de Poder de Habilidad",
+     "id": "a46740c23014",
+     "section": "champions",
+     "tags": [
+      "Mage",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "",
+     "sectionId": "patch-top",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Mel",
+      "name": "Mel"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": null,
+     "before": "Daño de la inmovilización de la E: 60% de Poder de Habilidad",
+     "after": "70% de Poder de Habilidad",
+     "text": "Daño de la inmovilización de la E: 60% de Poder de Habilidad ⇒ 70% de Poder de Habilidad",
+     "id": "adeca0857c9e",
+     "section": "champions",
+     "tags": [
+      "Mage",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Mel",
+      "name": "Mel"
+     },
+     "part": "base",
+     "partTitle": "Estadísticas básicas",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Tasa de Velocidad de Ataque",
+     "before": "0.4",
+     "after": "0.625",
+     "text": "Tasa de Velocidad de Ataque: 0.4 ⇒ 0.625",
+     "id": "9d56954ce974",
+     "section": "champions",
+     "tags": [
+      "Mage",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Mel",
+      "name": "Mel"
+     },
+     "part": "P",
+     "partTitle": "Pasiva: Fulgor Ardiente",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño del proyectil",
+     "before": "De 8 a 50 (según el nivel) (+ 5% de Poder de Habilidad)",
+     "after": "De 8 a 25 (según el nivel) (+ 3% de Poder de Habilidad)",
+     "text": "Daño del proyectil: De 8 a 50 (según el nivel) (+ 5% de Poder de Habilidad) ⇒ De 8 a 25 (según el nivel) (+ 3% de Poder de Habilidad)",
+     "id": "f23d68ac065f",
+     "section": "champions",
+     "tags": [
+      "Mage",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Mel",
+      "name": "Mel"
+     },
+     "part": "P",
+     "partTitle": "Pasiva: Fulgor Ardiente",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño total del proyectil",
+     "before": "De 24 a 150 (según el nivel) (+ 15% de Poder de Habilidad)",
+     "after": "De 24 a 75 (según el nivel) (+ 9% de Poder de Habilidad)",
+     "text": "Daño total del proyectil: De 24 a 150 (según el nivel) (+ 15% de Poder de Habilidad) ⇒ De 24 a 75 (según el nivel) (+ 9% de Poder de Habilidad)",
+     "id": "934cba23df7b",
+     "section": "champions",
+     "tags": [
+      "Mage",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Mel",
+      "name": "Mel"
+     },
+     "part": "P",
+     "partTitle": "Pasiva: Fulgor Ardiente",
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Quitamos la marca de la pasiva que aparecía sobre los enemigos que no eran campeones para reducir la contaminación visual",
+     "id": "738902297802",
+     "section": "champions",
+     "tags": [
+      "Mage",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Mel",
+      "name": "Mel"
+     },
+     "part": "P",
+     "partTitle": "Pasiva: Fulgor Ardiente",
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Corregimos un error que causaba que las unidades que creaban ciertos campeones murieran por culpa del efecto de Abrumar al recibir el impacto de un ataque básico sin potenciar",
+     "id": "922eb15ea8b6",
+     "section": "champions",
+     "tags": [
+      "Mage",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Mel",
+      "name": "Mel"
+     },
+     "part": "Q",
+     "partTitle": "Q: Ráfaga Radiante",
+     "spellKey": "MelQ",
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Ahora, el primer impacto de la explosión inflige más daño que los impactos posteriores",
+     "id": "5905d313473c",
+     "section": "champions",
+     "tags": [
+      "Mage",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Mel",
+      "name": "Mel"
+     },
+     "part": "Q",
+     "partTitle": "Q: Ráfaga Radiante",
+     "spellKey": "MelQ",
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Daño del primer impacto: 60 / 90 / 120 / 150 / 180 (+ 60% de Poder de Habilidad)",
+     "id": "ef1f73211629",
+     "section": "champions",
+     "tags": [
+      "Mage",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Mel",
+      "name": "Mel"
+     },
+     "part": "Q",
+     "partTitle": "Q: Ráfaga Radiante",
+     "spellKey": "MelQ",
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Daño de los impactos posteriores: 5 / 6 / 7 / 8 / 9 (+ 5% de Poder de Habilidad)",
+     "id": "f70944216f52",
+     "section": "champions",
+     "tags": [
+      "Mage",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Mel",
+      "name": "Mel"
+     },
+     "part": "Q",
+     "partTitle": "Q: Ráfaga Radiante",
+     "spellKey": "MelQ",
+     "kind": "stat",
+     "attribute": "Daño total",
+     "before": "78 / 109 / 144 / 185 / 230 (+ de un 51% a un 85% de Poder de Habilidad)",
+     "after": "85 / 126 / 169 / 214 / 261 (+ de un 85% a un 105% de Poder de Habilidad)",
+     "text": "Daño total: 78 / 109 / 144 / 185 / 230 (+ de un 51% a un 85% de Poder de Habilidad) ⇒ 85 / 126 / 169 / 214 / 261 (+ de un 85% a un 105% de Poder de Habilidad)",
+     "id": "6875ebcf9f27",
+     "section": "champions",
+     "tags": [
+      "Mage",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Mel",
+      "name": "Mel"
+     },
+     "part": "Q",
+     "partTitle": "Q: Ráfaga Radiante",
+     "spellKey": "MelQ",
+     "kind": "stat",
+     "attribute": "Costo de Maná",
+     "before": "70 / 80 / 90 / 100 / 110",
+     "after": "70 / 75 / 80 / 85 / 90",
+     "text": "Costo de Maná: 70 / 80 / 90 / 100 / 110 ⇒ 70 / 75 / 80 / 85 / 90",
+     "id": "5c0b6292df77",
+     "section": "champions",
+     "tags": [
+      "Mage",
+      "Support"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Mel",
+      "name": "Mel"
+     },
+     "part": "Q",
+     "partTitle": "Q: Ráfaga Radiante",
+     "spellKey": "MelQ",
+     "kind": "stat",
+     "attribute": "Daño contra súbditos",
+     "before": "75%",
+     "after": "100%",
+     "text": "Daño contra súbditos: 75% ⇒ 100%",
+     "id": "ed28ea3cb7e8",
+     "section": "champions",
+     "tags": [
+      "Mage",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Mel",
+      "name": "Mel"
+     },
+     "part": "Q",
+     "partTitle": "Q: Ráfaga Radiante",
+     "spellKey": "MelQ",
+     "kind": "stat",
+     "attribute": "Tiempo de lanzamiento",
+     "before": "0.25 seg",
+     "after": "0.35 seg",
+     "text": "Tiempo de lanzamiento: 0.25 seg ⇒ 0.35 seg",
+     "id": "1f112f96922f",
+     "section": "champions",
+     "tags": [
+      "Mage",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Mel",
+      "name": "Mel"
+     },
+     "part": "Q",
+     "partTitle": "Q: Ráfaga Radiante",
+     "spellKey": "MelQ",
+     "kind": "stat",
+     "attribute": "Velocidad del proyectil",
+     "before": "4500",
+     "after": "3800",
+     "text": "Velocidad del proyectil: 4500 ⇒ 3800",
+     "id": "e237e3a680cb",
+     "section": "champions",
+     "tags": [
+      "Mage",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Mel",
+      "name": "Mel"
+     },
+     "part": "Q",
+     "partTitle": "Q: Ráfaga Radiante",
+     "spellKey": "MelQ",
+     "kind": "stat",
+     "attribute": "Radio de la explosión",
+     "before": "230",
+     "after": "200",
+     "text": "Radio de la explosión: 230 ⇒ 200",
+     "id": "18f1699cc260",
+     "section": "champions",
+     "tags": [
+      "Mage",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Mel",
+      "name": "Mel"
+     },
+     "part": "Q",
+     "partTitle": "Q: Ráfaga Radiante",
+     "spellKey": "MelQ",
+     "kind": "stat",
+     "attribute": "Área de propagación",
+     "before": "30",
+     "after": "25",
+     "text": "Área de propagación: 30 ⇒ 25",
+     "id": "43ad1d8eb5c8",
+     "section": "champions",
+     "tags": [
+      "Mage",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Mel",
+      "name": "Mel"
+     },
+     "part": "Q",
+     "partTitle": "Q: Ráfaga Radiante",
+     "spellKey": "MelQ",
+     "kind": "stat",
+     "attribute": "Tiempo de canalización",
+     "before": "0.75 seg",
+     "after": "0.5 seg",
+     "text": "Tiempo de canalización: 0.75 seg ⇒ 0.5 seg",
+     "id": "ac5974e580a7",
+     "section": "champions",
+     "tags": [
+      "Mage",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Mel",
+      "name": "Mel"
+     },
+     "part": "Q",
+     "partTitle": "Q: Ráfaga Radiante",
+     "spellKey": "MelQ",
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Ahora, inflige daño prolongado de área de efecto (lo que significa que contribuye menos a reducir el enfriamiento de Cometa Arcano)",
+     "id": "b39999c35b18",
+     "section": "champions",
+     "tags": [
+      "Mage",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Mel",
+      "name": "Mel"
+     },
+     "part": "Q",
+     "partTitle": "Q: Ráfaga Radiante",
+     "spellKey": "MelQ",
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Mejoramos los efectos visuales del área de la trayectoria del proyectil",
+     "id": "6be2da847a6a",
+     "section": "champions",
+     "tags": [
+      "Mage",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Mel",
+      "name": "Mel"
+     },
+     "part": "W",
+     "partTitle": "W: Refutar",
+     "spellKey": "MelW",
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Ya no otorga inmunidad al daño",
+     "id": "5679d8a08fe5",
+     "section": "champions",
+     "tags": [
+      "Mage",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Mel",
+      "name": "Mel"
+     },
+     "part": "W",
+     "partTitle": "W: Refutar",
+     "spellKey": "MelW",
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Valor del escudo: 80 / 110 / 140 / 170 / 200 (+ 60% de Poder de Habilidad)",
+     "id": "ec5b8a2c9382",
+     "section": "champions",
+     "tags": [
+      "Mage",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Mel",
+      "name": "Mel"
+     },
+     "part": "W",
+     "partTitle": "W: Refutar",
+     "spellKey": "MelW",
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Redujimos el daño físico reflejado en un 30% antes de la conversión a daño mágico",
+     "id": "69e1f0e05cd0",
+     "section": "champions",
+     "tags": [
+      "Mage",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Mel",
+      "name": "Mel"
+     },
+     "part": "W",
+     "partTitle": "W: Refutar",
+     "spellKey": "MelW",
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Ahora, destruye los proyectiles dirigidos a las distintas unidades en un área en vez de reflejarlos si Mel no es su objetivo principal (p. ej.: la E de Ryze, la E de Brand, la R de Katarina, la R de Samira, la Q de Yunara, etc.)",
+     "id": "08876395061a",
+     "section": "champions",
+     "tags": [
+      "Mage",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Mel",
+      "name": "Mel"
+     },
+     "part": "W",
+     "partTitle": "W: Refutar",
+     "spellKey": "MelW",
+     "kind": "stat",
+     "attribute": "Velocidad de Movimiento que decae",
+     "before": "30% a lo largo de 0.75 seg",
+     "after": "40% a lo largo de 1.5 seg",
+     "text": "Velocidad de Movimiento que decae: 30% a lo largo de 0.75 seg ⇒ 40% a lo largo de 1.5 seg",
+     "id": "338af08679d5",
+     "section": "champions",
+     "tags": [
+      "Mage",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Mel",
+      "name": "Mel"
+     },
+     "part": "E",
+     "partTitle": "E: Ofuscador Solar",
+     "spellKey": "MelE",
+     "kind": "stat",
+     "attribute": "Radio de la inmovilización del proyectil",
+     "before": "80",
+     "after": "70",
+     "text": "Radio de la inmovilización del proyectil: 80 ⇒ 70",
+     "id": "647c8b3000c7",
+     "section": "champions",
+     "tags": [
+      "Mage",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Mel",
+      "name": "Mel"
+     },
+     "part": "E",
+     "partTitle": "E: Ofuscador Solar",
+     "spellKey": "MelE",
+     "kind": "stat",
+     "attribute": "Duración del efecto al final de la trayectoria",
+     "before": "0.5 seg",
+     "after": "0.25 seg",
+     "text": "Duración del efecto al final de la trayectoria: 0.5 seg ⇒ 0.25 seg",
+     "id": "3869fd10f27d",
+     "section": "champions",
+     "tags": [
+      "Mage",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Mel",
+      "name": "Mel"
+     },
+     "part": "E",
+     "partTitle": "E: Ofuscador Solar",
+     "spellKey": "MelE",
+     "kind": "stat",
+     "attribute": "Radio del daño prolongado",
+     "before": "260",
+     "after": "230",
+     "text": "Radio del daño prolongado: 260 ⇒ 230",
+     "id": "d3bcfe1bc13c",
+     "section": "champions",
+     "tags": [
+      "Mage",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Mel",
+      "name": "Mel"
+     },
+     "part": "E",
+     "partTitle": "E: Ofuscador Solar",
+     "spellKey": "MelE",
+     "kind": "stat",
+     "attribute": "Alcance de lanzamiento",
+     "before": "1050",
+     "after": "1000",
+     "text": "Alcance de lanzamiento: 1050 ⇒ 1000",
+     "id": "a9c8b3fd5ef0",
+     "section": "champions",
+     "tags": [
+      "Mage",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Mel",
+      "name": "Mel"
+     },
+     "part": "E",
+     "partTitle": "E: Ofuscador Solar",
+     "spellKey": "MelE",
+     "kind": "stat",
+     "attribute": "Velocidad del proyectil",
+     "before": "1000",
+     "after": "1100",
+     "text": "Velocidad del proyectil: 1000 ⇒ 1100",
+     "id": "d6557be788f9",
+     "section": "champions",
+     "tags": [
+      "Mage",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Mel",
+      "name": "Mel"
+     },
+     "part": "E",
+     "partTitle": "E: Ofuscador Solar",
+     "spellKey": "MelE",
+     "kind": "stat",
+     "attribute": "Enfriamiento",
+     "before": "12 / 11.5 / 11 / 10.5 / 10 seg",
+     "after": "11 / 10.5 / 10 / 9.5 / 9 seg",
+     "text": "Enfriamiento: 12 / 11.5 / 11 / 10.5 / 10 seg ⇒ 11 / 10.5 / 10 / 9.5 / 9 seg",
+     "id": "bd371dac114a",
+     "section": "champions",
+     "tags": [
+      "Mage",
+      "Support"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Mel",
+      "name": "Mel"
+     },
+     "part": "E",
+     "partTitle": "E: Ofuscador Solar",
+     "spellKey": "MelE",
+     "kind": "stat",
+     "attribute": "Duración de la inmovilización",
+     "before": "1.1 / 1.2 / 1.3 / 1.4 / 1.5 seg",
+     "after": "1.5 seg",
+     "text": "Duración de la inmovilización: 1.1 / 1.2 / 1.3 / 1.4 / 1.5 seg ⇒ 1.5 seg",
+     "id": "4a97a9284b45",
+     "section": "champions",
+     "tags": [
+      "Mage",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Mel",
+      "name": "Mel"
+     },
+     "part": "E",
+     "partTitle": "E: Ofuscador Solar",
+     "spellKey": "MelE",
+     "kind": "stat",
+     "attribute": "Daño",
+     "before": "60 / 100 / 140 / 180 / 220",
+     "after": "60 / 105 / 150 / 195 / 240",
+     "text": "Daño: 60 / 100 / 140 / 180 / 220 ⇒ 60 / 105 / 150 / 195 / 240",
+     "id": "5d87b22158be",
+     "section": "champions",
+     "tags": [
+      "Mage",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Mel",
+      "name": "Mel"
+     },
+     "part": "E",
+     "partTitle": "E: Ofuscador Solar",
+     "spellKey": "MelE",
+     "kind": "stat",
+     "attribute": "Daño por segundo",
+     "before": "16 / 26 / 36 / 46 / 56",
+     "after": "16 / 28 / 40 / 52 / 64",
+     "text": "Daño por segundo: 16 / 26 / 36 / 46 / 56 ⇒ 16 / 28 / 40 / 52 / 64",
+     "id": "8b20ab42cc1f",
+     "section": "champions",
+     "tags": [
+      "Mage",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Mel",
+      "name": "Mel"
+     },
+     "part": "E",
+     "partTitle": "E: Ofuscador Solar",
+     "spellKey": "MelE",
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Ya no se destaca visualmente al final de la trayectoria cuando baja sobre el terreno",
+     "id": "bce7b7d0dd68",
+     "section": "champions",
+     "tags": [
+      "Mage",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Mel",
+      "name": "Mel"
+     },
+     "part": "R",
+     "partTitle": "R: Eclipse Dorado",
+     "spellKey": "MelR",
+     "kind": "stat",
+     "attribute": "Daño por acumulación",
+     "before": "4 / 7 / 10 (+ 3.5% de Poder de Habilidad)",
+     "after": "4 / 7 / 10 (+ 4% de Poder de Habilidad)",
+     "text": "Daño por acumulación: 4 / 7 / 10 (+ 3.5% de Poder de Habilidad) ⇒ 4 / 7 / 10 (+ 4% de Poder de Habilidad)",
+     "id": "8e802fd65cd8",
+     "section": "champions",
+     "tags": [
+      "Mage",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.24",
+   "publishedAt": "2025-12-02T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Mel",
+      "name": "Mel"
+     },
+     "part": "E",
+     "partTitle": "E: Ofuscador Solar",
+     "spellKey": "MelE",
+     "kind": "stat",
+     "attribute": "Daño mágico del orbe",
+     "before": "60 / 105 / 150 / 195 / 240",
+     "after": "60 / 100 / 140 / 180 / 220",
+     "text": "Daño mágico del orbe: 60 / 105 / 150 / 195 / 240 ⇒ 60 / 100 / 140 / 180 / 220",
+     "id": "6753c2975bc1",
+     "section": "champions",
+     "tags": [
+      "Mage",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Mel",
+      "name": "Mel"
+     },
+     "part": "E",
+     "partTitle": "E: Ofuscador Solar",
+     "spellKey": "MelE",
+     "kind": "stat",
+     "attribute": "Daño mágico por segundo",
+     "before": "16 / 32 / 48 / 64 / 80",
+     "after": "16 / 26 / 36 / 46 / 56",
+     "text": "Daño mágico por segundo: 16 / 32 / 48 / 64 / 80 ⇒ 16 / 26 / 36 / 46 / 56",
+     "id": "f2dccd0c76ec",
+     "section": "champions",
+     "tags": [
+      "Mage",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Mel",
+      "name": "Mel"
+     },
+     "part": "E",
+     "partTitle": "E: Ofuscador Solar",
+     "spellKey": "MelE",
+     "kind": "stat",
+     "attribute": "Duración de la debilitación prolongada",
+     "before": "0.75 seg",
+     "after": "0.5 seg",
+     "text": "Duración de la debilitación prolongada: 0.75 seg ⇒ 0.5 seg",
+     "id": "e30449129748",
+     "section": "champions",
+     "tags": [
+      "Mage",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Mel",
+      "name": "Mel"
+     },
+     "part": "E",
+     "partTitle": "E: Ofuscador Solar",
+     "spellKey": "MelE",
+     "kind": "stat",
+     "attribute": "Costo de Maná",
+     "before": "50 / 55 / 60 / 65 / 70",
+     "after": "50 / 60 / 70 / 80 / 90",
+     "text": "Costo de Maná: 50 / 55 / 60 / 65 / 70 ⇒ 50 / 60 / 70 / 80 / 90",
+     "id": "443344dad2a9",
+     "section": "champions",
+     "tags": [
+      "Mage",
+      "Support"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.23",
+   "publishedAt": "2025-11-18T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Mel",
+      "name": "Mel"
+     },
+     "part": "P",
+     "partTitle": "Pasiva: Fulgor Ardiente",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño por hechizo",
+     "before": "De 24 a 99 (según el nivel) (+ 9% de Poder de Habilidad)",
+     "after": "De 24 a 150 (según el nivel) (+ 15% de Poder de Habilidad)",
+     "text": "Daño por hechizo: De 24 a 99 (según el nivel) (+ 9% de Poder de Habilidad) ⇒ De 24 a 150 (según el nivel) (+ 15% de Poder de Habilidad)",
+     "id": "7422499a32d4",
+     "section": "champions",
+     "tags": [
+      "Mage",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Mel",
+      "name": "Mel"
+     },
+     "part": "E",
+     "partTitle": "E: Ofuscador Solar",
+     "spellKey": "MelE",
+     "kind": "stat",
+     "attribute": "Duración de la inmovilización",
+     "before": "1.25 / 1.5 / 1.75 / 2 / 2.25 seg",
+     "after": "1.2 / 1.3 / 1.4 / 1.5 / 1.6 seg",
+     "text": "Duración de la inmovilización: 1.25 / 1.5 / 1.75 / 2 / 2.25 seg ⇒ 1.2 / 1.3 / 1.4 / 1.5 / 1.6 seg",
+     "id": "7258ef36bd93",
+     "section": "champions",
+     "tags": [
+      "Mage",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.19",
+   "publishedAt": "2025-09-23T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Mel",
+      "name": "Mel"
+     },
+     "part": "P",
+     "partTitle": "Pasiva: Fulgor Ardiente",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño adicional por hechizo al atacar",
+     "before": "De 24 a 75 (según el nivel) (+ 3% de Poder de Habilidad)",
+     "after": "De 24 a 99 (según el nivel) (+ 9% de Poder de Habilidad)",
+     "text": "Daño adicional por hechizo al atacar: De 24 a 75 (según el nivel) (+ 3% de Poder de Habilidad) ⇒ De 24 a 99 (según el nivel) (+ 9% de Poder de Habilidad)",
+     "id": "8c07890ad245",
+     "section": "champions",
+     "tags": [
+      "Mage",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Mel",
+      "name": "Mel"
+     },
+     "part": "P",
+     "partTitle": "Pasiva: Fulgor Ardiente",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño adicional máximo al atacar",
+     "before": "De 75 a 225 (según el nivel) (+ 9% de Poder de Habilidad)",
+     "after": "De 72 a 297 (+ 27% de Poder de Habilidad)",
+     "text": "Daño adicional máximo al atacar: De 75 a 225 (según el nivel) (+ 9% de Poder de Habilidad) ⇒ De 72 a 297 (+ 27% de Poder de Habilidad)",
+     "id": "d209a877209c",
+     "section": "champions",
+     "tags": [
+      "Mage",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.13",
+   "publishedAt": "2025-06-24T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Cambios de balance de ARAM",
+     "sectionId": "patch-aram-balance-changes",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Mel",
+      "name": "Mel"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Aceleración de Habilidad",
+     "before": "0",
+     "after": "-10",
+     "text": "Aceleración de Habilidad: 0 ⇒ -10",
+     "id": "0066233ada98",
+     "section": "modes",
+     "tags": [
+      "Mage",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.11",
+   "publishedAt": "2025-05-27T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Pelea",
+     "sectionId": "patch-brawl",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Mel",
+      "name": "Mel"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño infligido",
+     "before": "100%",
+     "after": "95%",
+     "text": "Daño infligido: 100% ⇒ 95%",
+     "id": "32e72ebd75fa",
+     "section": "modes",
+     "tags": [
+      "Mage",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Pelea",
+     "sectionId": "patch-brawl",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Mel",
+      "name": "Mel"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Aceleración de Habilidad",
+     "before": "0",
+     "after": "-10",
+     "text": "Aceleración de Habilidad: 0 ⇒ -10",
+     "id": "7a823a0f72b2",
+     "section": "modes",
+     "tags": [
+      "Mage",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.8",
+   "publishedAt": "2025-04-15T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Mel",
+      "name": "Mel"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Aumentamos su velocidad de ataque y su vida básica.",
+     "id": "35fcb2b1f28c",
+     "section": "champions",
+     "tags": [
+      "Mage",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Mel",
+      "name": "Mel"
+     },
+     "part": "base",
+     "partTitle": "Estadísticas básicas",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Vida",
+     "before": "600",
+     "after": "630",
+     "text": "Vida: 600 ⇒ 630",
+     "id": "68f2c93f9428",
+     "section": "champions",
+     "tags": [
+      "Mage",
+      "Support"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Mel",
+      "name": "Mel"
+     },
+     "part": "P",
+     "partTitle": "Pasiva: Fulgor Ardiente",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño por acumulación",
+     "before": "de 5 a 20 (según el nivel) (+1% de Poder de Habilidad)",
+     "after": "de 8 a 25 (según el nivel) (+ 1% de Poder de Habilidad)",
+     "text": "Daño por acumulación: de 5 a 20 (según el nivel) (+1% de Poder de Habilidad) ⇒ de 8 a 25 (según el nivel) (+ 1% de Poder de Habilidad)",
+     "id": "d579b541a8a1",
+     "section": "champions",
+     "tags": [
+      "Mage",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.4",
+   "publishedAt": "2025-02-19T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Mel",
+      "name": "Mel"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Varios cambios, redujimos la seguridad general; aumentamos la escala de daño.",
+     "id": "205f85e0732f",
+     "section": "champions",
+     "tags": [
+      "Mage",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Mel",
+      "name": "Mel"
+     },
+     "part": "Q",
+     "partTitle": "Q: Ráfaga Radiante",
+     "spellKey": "MelQ",
+     "kind": "stat",
+     "attribute": "Alcance de lanzamiento",
+     "before": "1000",
+     "after": "950",
+     "text": "Alcance de lanzamiento: 1000 ⇒ 950",
+     "id": "a645ae4f59b5",
+     "section": "champions",
+     "tags": [
+      "Mage",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Mel",
+      "name": "Mel"
+     },
+     "part": "Q",
+     "partTitle": "Q: Ráfaga Radiante",
+     "spellKey": "MelQ",
+     "kind": "stat",
+     "attribute": "Velocidad del proyectil",
+     "before": "5000",
+     "after": "4500",
+     "text": "Velocidad del proyectil: 5000 ⇒ 4500",
+     "id": "fcf9e827bc5b",
+     "section": "champions",
+     "tags": [
+      "Mage",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Mel",
+      "name": "Mel"
+     },
+     "part": "W",
+     "partTitle": "W: Refutar",
+     "spellKey": "MelW",
+     "kind": "stat",
+     "attribute": "Duración",
+     "before": "1",
+     "after": "0.75 seg",
+     "text": "Duración: 1 ⇒ 0.75 seg",
+     "id": "84513db60d4d",
+     "section": "champions",
+     "tags": [
+      "Mage",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Mel",
+      "name": "Mel"
+     },
+     "part": "W",
+     "partTitle": "W: Refutar",
+     "spellKey": "MelW",
+     "kind": "stat",
+     "attribute": "Costo de maná",
+     "before": "60/45/30/15/0",
+     "after": "80/60/40/20/0",
+     "text": "Costo de maná: 60/45/30/15/0 ⇒ 80/60/40/20/0",
+     "id": "8d84052837cb",
+     "section": "champions",
+     "tags": [
+      "Mage",
+      "Support"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Mel",
+      "name": "Mel"
+     },
+     "part": "W",
+     "partTitle": "W: Refutar",
+     "spellKey": "MelW",
+     "kind": "stat",
+     "attribute": "Daño reflejado",
+     "before": "40/47.5/55/62.5/70%",
+     "after": "40/45/50/55/60%",
+     "text": "Daño reflejado: 40/47.5/55/62.5/70% ⇒ 40/45/50/55/60%",
+     "id": "6451f305e875",
+     "section": "champions",
+     "tags": [
+      "Mage",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Mel",
+      "name": "Mel"
+     },
+     "part": "E",
+     "partTitle": "E: Ofuscador Solar",
+     "spellKey": "MelE",
+     "kind": "stat",
+     "attribute": "Duración de inmovilización",
+     "before": "1.75/1.88/2/2.13/2.25",
+     "after": "1.25/1.5/1.75/2/2.25 seg",
+     "text": "Duración de inmovilización: 1.75/1.88/2/2.13/2.25 ⇒ 1.25/1.5/1.75/2/2.25 seg",
+     "id": "ab9096a836fb",
+     "section": "champions",
+     "tags": [
+      "Mage",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Mel",
+      "name": "Mel"
+     },
+     "part": "E",
+     "partTitle": "E: Ofuscador Solar",
+     "spellKey": "MelE",
+     "kind": "stat",
+     "attribute": "Daño al impacto directo",
+     "before": "60/100/140/180/220 (+50% de Poder de Habilidad",
+     "after": "60/105/150/195/240 (+60% de Poder de Habilidad)",
+     "text": "Daño al impacto directo: 60/100/140/180/220 (+50% de Poder de Habilidad ⇒ 60/105/150/195/240 (+60% de Poder de Habilidad)",
+     "id": "7484783132af",
+     "section": "champions",
+     "tags": [
+      "Mage",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Mel",
+      "name": "Mel"
+     },
+     "part": "R",
+     "partTitle": "R: Eclipse Dorado",
+     "spellKey": "MelR",
+     "kind": "stat",
+     "attribute": "Daño por acumulación de Abrumar",
+     "before": "4/7/10 (+2.5% de Poder de Habilidad)",
+     "after": "4/7/10 (+3.5% de Poder de Habilidad)",
+     "text": "Daño por acumulación de Abrumar: 4/7/10 (+2.5% de Poder de Habilidad) ⇒ 4/7/10 (+3.5% de Poder de Habilidad)",
+     "id": "53a66263b1ad",
+     "section": "champions",
+     "tags": [
+      "Mage",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.S1.3",
+   "publishedAt": "2025-02-04T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Sistemas",
+     "sectionId": "patch-systems",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Mel",
+      "name": "Mel"
+     },
+     "part": "Debilitaciones a campeones",
+     "partTitle": "Debilitaciones a campeones",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño infligido",
+     "before": "100%",
+     "after": "90%",
+     "text": "Mel: Daño infligido: 100% ⇒ 90%",
+     "id": "124db1d2e0a4",
+     "section": "champions",
+     "tags": [
+      "Mage",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  }
+ ]
+}

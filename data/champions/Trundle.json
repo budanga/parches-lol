@@ -1,0 +1,470 @@
+{
+ "schemaVersion": 1,
+ "id": "Trundle",
+ "name": "Trundle",
+ "tags": [
+  "Fighter",
+  "Tank"
+ ],
+ "entries": [
+  {
+   "patch": "26.17",
+   "publishedAt": "2026-08-25T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Trundle",
+      "name": "Trundle"
+     },
+     "part": "W",
+     "partTitle": "W: Reino Congelado",
+     "spellKey": "trundledesecrate",
+     "kind": "stat",
+     "attribute": "Velocidad de Ataque",
+     "before": "30 / 45 / 60 / 75 / 90%",
+     "after": "30 / 50 / 70 / 90 / 110%",
+     "text": "Velocidad de Ataque: 30 / 45 / 60 / 75 / 90% ⇒ 30 / 50 / 70 / 90 / 110%",
+     "id": "50b2a3244be8",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "26.15",
+   "publishedAt": "2026-07-28T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "ARAM: Caos",
+     "sectionId": "patch-aram:-mayhem",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Trundle",
+      "name": "Trundle"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño recibido",
+     "before": "-5%",
+     "after": "0%",
+     "text": "Daño recibido: -5% ⇒ 0%",
+     "id": "e43d3e8fc9b8",
+     "section": "modes",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "26.3",
+   "publishedAt": "2026-02-03T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Trundle",
+      "name": "Trundle"
+     },
+     "part": "base",
+     "partTitle": "Estadísticas básicas",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Crecimiento de Armadura",
+     "before": "3.9",
+     "after": "4.5",
+     "text": "Crecimiento de Armadura: 3.9 ⇒ 4.5",
+     "id": "308415136fef",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Trundle",
+      "name": "Trundle"
+     },
+     "part": "base",
+     "partTitle": "Estadísticas básicas",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Crecimiento de Daño de Ataque",
+     "before": "4",
+     "after": "4.5",
+     "text": "Crecimiento de Daño de Ataque: 4 ⇒ 4.5",
+     "id": "7f0d0e983b0e",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.24",
+   "publishedAt": "2025-12-02T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Trundle",
+      "name": "Trundle"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Eliminamos los modificadores de la Q que implementamos para Arena",
+     "id": "2f0fe2f42d46",
+     "section": "modes",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Trundle",
+      "name": "Trundle"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Eliminamos los modificadores de reducción de resistencia mágica de la R que implementamos para Arena",
+     "id": "12d86b720027",
+     "section": "modes",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.18",
+   "publishedAt": "2025-09-09T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones (Arena)",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Trundle",
+      "name": "Trundle"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Ahora, otorga un rerroleo adicional cada tres rondas además de los efectos anteriores",
+     "id": "378a459da045",
+     "section": "modes",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.16",
+   "publishedAt": "2025-08-12T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Trundle",
+      "name": "Trundle"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Disminuimos la velocidad de ataque en los últimos rangos y aumentamos el enfriamiento de su W.",
+     "id": "b4a72f76635a",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Trundle",
+      "name": "Trundle"
+     },
+     "part": "W",
+     "partTitle": "W: Reino Congelado",
+     "spellKey": "trundledesecrate",
+     "kind": "stat",
+     "attribute": "Velocidad de Ataque adicional",
+     "before": "30% / 50% / 70% / 90% / 110%",
+     "after": "30% / 45% / 60% / 75% / 90%",
+     "text": "Velocidad de Ataque adicional: 30% / 50% / 70% / 90% / 110% ⇒ 30% / 45% / 60% / 75% / 90%",
+     "id": "20bb431e67ed",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Trundle",
+      "name": "Trundle"
+     },
+     "part": "W",
+     "partTitle": "W: Reino Congelado",
+     "spellKey": "trundledesecrate",
+     "kind": "stat",
+     "attribute": "Enfriamiento",
+     "before": "16 / 15 / 14 / 13 / 12 seg",
+     "after": "18 / 17 / 16 / 15 / 14 seg",
+     "text": "Enfriamiento: 16 / 15 / 14 / 13 / 12 seg ⇒ 18 / 17 / 16 / 15 / 14 seg",
+     "id": "a75a30aecb2b",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.7",
+   "publishedAt": "2025-04-01T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Trundle",
+      "name": "Trundle"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Aumentamos la ralentización de su·E y redujimos el enfriamiento.",
+     "id": "a0650e48b7fb",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Trundle",
+      "name": "Trundle"
+     },
+     "part": "E",
+     "partTitle": "E: Pilar de Hielo",
+     "spellKey": "TrundleCircle",
+     "kind": "stat",
+     "attribute": "Ralentización",
+     "before": "30 / 34 / 38 / 42 / 46%",
+     "after": "34 / 38 / 42 / 46 / 50%",
+     "text": "Ralentización: 30 / 34 / 38 / 42 / 46% ⇒ 34 / 38 / 42 / 46 / 50%",
+     "id": "d9e736e36c02",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Trundle",
+      "name": "Trundle"
+     },
+     "part": "E",
+     "partTitle": "E: Pilar de Hielo",
+     "spellKey": "TrundleCircle",
+     "kind": "stat",
+     "attribute": "Enfriamiento",
+     "before": "24 / 22 / 20 / 18 / 16",
+     "after": "21 / 19.5 / 18 / 16.5 / 15",
+     "text": "Enfriamiento: 24 / 22 / 20 / 18 / 16 ⇒ 21 / 19.5 / 18 / 16.5 / 15",
+     "id": "45d96f7a867a",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.S1.3",
+   "publishedAt": "2025-02-04T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Sistemas",
+     "sectionId": "patch-systems",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Trundle",
+      "name": "Trundle"
+     },
+     "part": "Debilitaciones a campeones",
+     "partTitle": "Debilitaciones a campeones",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño recibido",
+     "before": "100%",
+     "after": "95%",
+     "text": "Trundle: Daño recibido: 100% ⇒ 95%",
+     "id": "fe762fde180f",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.S1.2",
+   "publishedAt": "2025-01-22T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Partida Casual",
+     "sectionId": "patch-swiftplay",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Trundle",
+      "name": "Trundle"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Crecimiento de Velocidad de Ataque",
+     "before": "2.9%",
+     "after": "2.2%",
+     "text": "Crecimiento de Velocidad de Ataque: 2.9% ⇒ 2.2%",
+     "id": "54d4ce7de3ac",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  }
+ ]
+}

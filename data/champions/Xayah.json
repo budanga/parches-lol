@@ -1,0 +1,184 @@
+{
+ "schemaVersion": 1,
+ "id": "Xayah",
+ "name": "Xayah",
+ "tags": [
+  "Marksman"
+ ],
+ "entries": [
+  {
+   "patch": "26.4",
+   "publishedAt": "2026-02-18T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Xayah",
+      "name": "Xayah"
+     },
+     "part": "Q",
+     "partTitle": "Q: Dagas Dobles",
+     "spellKey": "XayahQ",
+     "kind": "stat",
+     "attribute": "Costo de Maná",
+     "before": "50",
+     "after": "35",
+     "text": "Costo de Maná: 50 ⇒ 35",
+     "id": "9fc515bed3c9",
+     "section": "champions",
+     "tags": [
+      "Marksman"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Xayah",
+      "name": "Xayah"
+     },
+     "part": "W",
+     "partTitle": "W: Plumaje Letal",
+     "spellKey": "XayahW",
+     "kind": "stat",
+     "attribute": "Enfriamiento",
+     "before": "20 / 19 / 18 / 17 / 16",
+     "after": "18 / 17 / 16 / 15 / 14 seg",
+     "text": "Enfriamiento: 20 / 19 / 18 / 17 / 16 ⇒ 18 / 17 / 16 / 15 / 14 seg",
+     "id": "7a43c9f66e75",
+     "section": "champions",
+     "tags": [
+      "Marksman"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Xayah",
+      "name": "Xayah"
+     },
+     "part": "E",
+     "partTitle": "E: Invocadora de Cuchillas",
+     "spellKey": "XayahE",
+     "kind": "stat",
+     "attribute": "Costo de Maná",
+     "before": "30",
+     "after": "20",
+     "text": "Costo de Maná: 30 ⇒ 20",
+     "id": "e0fb7007d161",
+     "section": "champions",
+     "tags": [
+      "Marksman"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "26.1",
+   "publishedAt": "2026-01-07T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Xayah",
+      "name": "Xayah"
+     },
+     "part": "E",
+     "partTitle": "E: Invocadora de Cuchillas",
+     "spellKey": "XayahE",
+     "kind": "stat",
+     "attribute": "Daño",
+     "before": "55 / 65 / 75 / 85 / 95 (+ 60% de Daño de Ataque adicional)",
+     "after": "50 / 65 / 80 / 95 / 110 (+ 40% de Daño de Ataque adicional)",
+     "text": "Daño: 55 / 65 / 75 / 85 / 95 (+ 60% de Daño de Ataque adicional) ⇒ 50 / 65 / 80 / 95 / 110 (+ 40% de Daño de Ataque adicional)",
+     "id": "e5617e84df45",
+     "section": "champions",
+     "tags": [
+      "Marksman"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Xayah",
+      "name": "Xayah"
+     },
+     "part": "E",
+     "partTitle": "E: Invocadora de Cuchillas",
+     "spellKey": "XayahE",
+     "kind": "stat",
+     "attribute": "Progresión de daño de golpe crítico",
+     "before": "Hasta un 75%",
+     "after": "Hasta un 50% de daño de golpe crítico adicional, ×1.5 / ×1.65",
+     "text": "Progresión de daño de golpe crítico: Hasta un 75% ⇒ Hasta un 50% de daño de golpe crítico adicional, ×1.5 / ×1.65",
+     "id": "2f38d54a784c",
+     "section": "champions",
+     "tags": [
+      "Marksman"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.23",
+   "publishedAt": "2025-11-18T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Xayah",
+      "name": "Xayah"
+     },
+     "part": "P",
+     "partTitle": "Pasiva: Cortes Limpios",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño",
+     "before": "30% / 40% / 50% de Daño de Ataque",
+     "after": "35% / 45% / 55% de Daño de Ataque contra objetivos secundarios",
+     "text": "Daño: 30% / 40% / 50% de Daño de Ataque ⇒ 35% / 45% / 55% de Daño de Ataque contra objetivos secundarios",
+     "id": "0670e02eb752",
+     "section": "champions",
+     "tags": [
+      "Marksman"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  }
+ ]
+}

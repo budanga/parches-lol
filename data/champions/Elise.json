@@ -1,0 +1,926 @@
+{
+ "schemaVersion": 1,
+ "id": "Elise",
+ "name": "Elise",
+ "tags": [
+  "Assassin",
+  "Mage"
+ ],
+ "entries": [
+  {
+   "patch": "26.22",
+   "publishedAt": "2026-11-03T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Classic",
+     "sectionId": "patch-classic",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Elise",
+      "name": "Elise"
+     },
+     "part": "Campeones",
+     "partTitle": "Campeones",
+     "spellKey": null,
+     "kind": "new",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "NUEVO Elise",
+     "id": "599450611aea",
+     "section": "modes",
+     "tags": [
+      "Assassin",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "26.21",
+   "publishedAt": "2026-10-20T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Elise",
+      "name": "Elise"
+     },
+     "part": "E",
+     "partTitle": "E: Capullo",
+     "spellKey": "EliseHumanE",
+     "kind": "stat",
+     "attribute": "Enfriamiento",
+     "before": "8 / 7.5 / 7 / 6.5 / 6 seg",
+     "after": "10 seg",
+     "text": "Enfriamiento: 8 / 7.5 / 7 / 6.5 / 6 seg ⇒ 10 seg",
+     "id": "a6a41c373534",
+     "section": "modes",
+     "tags": [
+      "Assassin",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Elise",
+      "name": "Elise"
+     },
+     "part": "W",
+     "partTitle": "W: Raudo Frenesí",
+     "spellKey": "EliseHumanW",
+     "kind": "stat",
+     "attribute": "Arañitas",
+     "before": "2 / 3 / 4 / 5",
+     "after": "4 / 6 / 8 / 10",
+     "text": "Arañitas: 2 / 3 / 4 / 5 ⇒ 4 / 6 / 8 / 10",
+     "id": "d711c21db0b3",
+     "section": "modes",
+     "tags": [
+      "Assassin",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Elise",
+      "name": "Elise"
+     },
+     "part": "W",
+     "partTitle": "W: Raudo Frenesí",
+     "spellKey": "EliseHumanW",
+     "kind": "removed",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "ELIMINADO Mejora de daño de araña antigua: Eliminada",
+     "id": "f03d356736a4",
+     "section": "modes",
+     "tags": [
+      "Assassin",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "26.19",
+   "publishedAt": "2026-09-22T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Elise",
+      "name": "Elise"
+     },
+     "part": "P",
+     "partTitle": "Pasiva: Reina de las Arañas",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño mágico al impacto de la pasiva",
+     "before": "12 / 22 / 32 / 42",
+     "after": "14 / 24 / 34 / 44",
+     "text": "Daño mágico al impacto de la pasiva: 12 / 22 / 32 / 42 ⇒ 14 / 24 / 34 / 44",
+     "id": "2a6c64906cfa",
+     "section": "champions",
+     "tags": [
+      "Assassin",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Elise",
+      "name": "Elise"
+     },
+     "part": "W",
+     "partTitle": "W: Raudo Frenesí",
+     "spellKey": "EliseHumanW",
+     "kind": "stat",
+     "attribute": "Velocidad de Ataque adicional",
+     "before": "60 / 75 / 90 / 105 / 120%",
+     "after": "70 / 85 / 100 / 115 / 130%",
+     "text": "Velocidad de Ataque adicional: 60 / 75 / 90 / 105 / 120% ⇒ 70 / 85 / 100 / 115 / 130%",
+     "id": "d3c90344cce9",
+     "section": "champions",
+     "tags": [
+      "Assassin",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "26.15",
+   "publishedAt": "2026-07-28T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Elise",
+      "name": "Elise"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "W: Raudo Frenesí",
+     "id": "b3232cf7d629",
+     "section": "modes",
+     "tags": [
+      "Assassin",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Elise",
+      "name": "Elise"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Enfriamiento",
+     "before": "22 / 21 / 20 / 19 / 18",
+     "after": "17 / 16 / 15 / 14 / 13",
+     "text": "Enfriamiento: 22 / 21 / 20 / 19 / 18 ⇒ 17 / 16 / 15 / 14 / 13",
+     "id": "5e5dc20dc8b5",
+     "section": "modes",
+     "tags": [
+      "Assassin",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "26.13",
+   "publishedAt": "2026-06-23T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Elise",
+      "name": "Elise"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": null,
+     "before": "Daño de la pasiva: De 12 a 42",
+     "after": "De 15 a 45",
+     "text": "Daño de la pasiva: De 12 a 42 ⇒ De 15 a 45",
+     "id": "0b69bee7cad1",
+     "section": "modes",
+     "tags": [
+      "Assassin",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Elise",
+      "name": "Elise"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": null,
+     "before": "Vida de la pasiva al impacto: De 6 a 12",
+     "after": "De 10 a 25",
+     "text": "Vida de la pasiva al impacto: De 6 a 12 ⇒ De 10 a 25",
+     "id": "7d07ed782d78",
+     "section": "modes",
+     "tags": [
+      "Assassin",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Elise",
+      "name": "Elise"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": null,
+     "before": "Duración de aturdimiento de la E en forma de humana: De 1.6 a 2.4",
+     "after": "De 1.9 a 2.5",
+     "text": "Duración de aturdimiento de la E en forma de humana: De 1.6 a 2.4 ⇒ De 1.9 a 2.5",
+     "id": "788770a303ed",
+     "section": "modes",
+     "tags": [
+      "Assassin",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Elise",
+      "name": "Elise"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": null,
+     "before": "Daño y Amplificación de curaciones de la E en la forma de araña: De 40% a 100%",
+     "after": "De 60% a 120%",
+     "text": "Daño y Amplificación de curaciones de la E en la forma de araña: De 40% a 100% ⇒ De 60% a 120%",
+     "id": "7a3369671057",
+     "section": "modes",
+     "tags": [
+      "Assassin",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "26.1",
+   "publishedAt": "2026-01-07T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Elise",
+      "name": "Elise"
+     },
+     "part": "Q",
+     "partTitle": "Q: Neurotoxina / Mordida Venenosa",
+     "spellKey": "EliseHumanQ",
+     "kind": "stat",
+     "attribute": "Límite de daño contra monstruos",
+     "before": "75 / 100 / 125 / 150 / 175",
+     "after": "65 / 85 / 105 / 125 / 145 (+ 90% de Poder de Habilidad)",
+     "text": "Límite de daño contra monstruos: 75 / 100 / 125 / 150 / 175 ⇒ 65 / 85 / 105 / 125 / 145 (+ 90% de Poder de Habilidad)",
+     "id": "420a970780fd",
+     "section": "champions",
+     "tags": [
+      "Assassin",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Elise",
+      "name": "Elise"
+     },
+     "part": "Q",
+     "partTitle": "Q: Neurotoxina / Mordida Venenosa",
+     "spellKey": "EliseHumanQ",
+     "kind": "stat",
+     "attribute": "Daño máximo contra monstruos",
+     "before": "115 / 170 / 225 / 280 / 335",
+     "after": "105 / 155 / 205 / 255 / 305 (+ 90% de Poder de Habilidad)",
+     "text": "Daño máximo contra monstruos: 115 / 170 / 225 / 280 / 335 ⇒ 105 / 155 / 205 / 255 / 305 (+ 90% de Poder de Habilidad)",
+     "id": "8b50f6b89a40",
+     "section": "champions",
+     "tags": [
+      "Assassin",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.18",
+   "publishedAt": "2025-09-09T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones (Arena)",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Elise",
+      "name": "Elise"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Ahora, otorga una reanimación adicional además de los efectos anteriores",
+     "id": "47aa59ba66c7",
+     "section": "modes",
+     "tags": [
+      "Assassin",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones (Arena)",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Elise",
+      "name": "Elise"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Aumentamos el tamaño del capullo",
+     "id": "26084522bc8d",
+     "section": "modes",
+     "tags": [
+      "Assassin",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.11",
+   "publishedAt": "2025-05-27T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Elise",
+      "name": "Elise"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Redujimos el daño adicional de su pasiva.",
+     "id": "bddcb6b4af70",
+     "section": "champions",
+     "tags": [
+      "Assassin",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Elise",
+      "name": "Elise"
+     },
+     "part": "P",
+     "partTitle": "Pasiva: Reina de las Arañas",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño adicional del ataque básico de la Forma Arácnida",
+     "before": "12/ 22 / 32 / 42 (según el nivel de la Forma Arácnida) (+ 20% de Poder de habilidad)",
+     "after": "12/ 22 / 32 / 42 (según el nivel de la Forma Arácnida) (+ 15% de Poder de Habilidad)",
+     "text": "Daño adicional del ataque básico de la Forma Arácnida: 12/ 22 / 32 / 42 (según el nivel de la Forma Arácnida) (+ 20% de Poder de habilidad) ⇒ 12/ 22 / 32 / 42 (según el nivel de la Forma Arácnida) (+ 15% de Poder de Habilidad)",
+     "id": "f02f78409a06",
+     "section": "champions",
+     "tags": [
+      "Assassin",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.7",
+   "publishedAt": "2025-04-01T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Elise",
+      "name": "Elise"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Los jugadores dentro de los capullos de Elise Invitada de Honor luchan por liberarse, lo que hace que el capullo pierda 1 de vida cada 1,5 seg; este daño no puede romper el capullo",
+     "id": "2de7cc4b9748",
+     "section": "modes",
+     "tags": [
+      "Assassin",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Elise",
+      "name": "Elise"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Los capullos de Elise engendrados en el Reino de la Muerte volverán ahora al Reino de los Vivos",
+     "id": "9c4f19f0fe7d",
+     "section": "modes",
+     "tags": [
+      "Assassin",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.6",
+   "publishedAt": "2025-03-18T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Elise",
+      "name": "Elise"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": null,
+     "before": "Redujimos la Vida de Capullo de 20",
+     "after": "12",
+     "text": "Redujimos la Vida de Capullo de 20 ⇒ 12",
+     "id": "deb35be1b36b",
+     "section": "modes",
+     "tags": [
+      "Assassin",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Elise",
+      "name": "Elise"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Los Capullos son un 50% más grandes",
+     "id": "ee2665e2c3ac",
+     "section": "modes",
+     "tags": [
+      "Assassin",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.5",
+   "publishedAt": "2025-03-04T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Elise",
+      "name": "Elise"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Redujimos el daño de su Q en ambas formas.",
+     "id": "d158a04c1f56",
+     "section": "champions",
+     "tags": [
+      "Assassin",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Elise",
+      "name": "Elise"
+     },
+     "part": "Q de la forma humana: Neurotoxina",
+     "partTitle": "Q de la forma humana: Neurotoxina",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño",
+     "before": "40/75/110/145/180 (+4% de la Vida del objetivo) (+3% cada 100 de Poder de Habilidad)",
+     "after": "40/70/100/130/160 (+4% de la Vida del objetivo) (+3% cada 100 de Poder de Habilidad)",
+     "text": "Daño: 40/75/110/145/180 (+4% de la Vida del objetivo) (+3% cada 100 de Poder de Habilidad) ⇒ 40/70/100/130/160 (+4% de la Vida del objetivo) (+3% cada 100 de Poder de Habilidad)",
+     "id": "869333dbd584",
+     "section": "champions",
+     "tags": [
+      "Assassin",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Elise",
+      "name": "Elise"
+     },
+     "part": "Q de la forma arácnida: Mordida Venenosa",
+     "partTitle": "Q de la forma arácnida: Mordida Venenosa",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño",
+     "before": "60/90/120/150/180 (+8 de la Vida faltante del objetivo (+3% cada 100 de Poder de Habilidad))",
+     "after": "50/80/110/140/180 (+8 de la Vida faltante del objetivo (+3% cada 100 de Poder de Habilidad))",
+     "text": "Daño: 60/90/120/150/180 (+8 de la Vida faltante del objetivo (+3% cada 100 de Poder de Habilidad)) ⇒ 50/80/110/140/180 (+8 de la Vida faltante del objetivo (+3% cada 100 de Poder de Habilidad))",
+     "id": "a23f03776327",
+     "section": "champions",
+     "tags": [
+      "Assassin",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.4",
+   "publishedAt": "2025-02-19T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Elise",
+      "name": "Elise"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Reducimos el daño de W (forma humana), el Enfriamiento de W (forma arácnida) y aumentamos la Velocidad de ataque adicional. Aumentamos el daño de la R de araña.",
+     "id": "6878aec60b9e",
+     "section": "champions",
+     "tags": [
+      "Assassin",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Elise",
+      "name": "Elise"
+     },
+     "part": "W",
+     "partTitle": "W: Araña Volátil",
+     "spellKey": "EliseHumanW",
+     "kind": "stat",
+     "attribute": "Daño",
+     "before": "60/105/150/195/240 (+95% de Poder de Habilidad)",
+     "after": "60/100/140/180/220 (+75% de Poder de Habilidad)",
+     "text": "Daño: 60/105/150/195/240 (+95% de Poder de Habilidad) ⇒ 60/100/140/180/220 (+75% de Poder de Habilidad)",
+     "id": "e85df1078fa3",
+     "section": "champions",
+     "tags": [
+      "Assassin",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Elise",
+      "name": "Elise"
+     },
+     "part": "W",
+     "partTitle": "W: Raudo Frenesí",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Enfriamiento",
+     "before": "10 seg",
+     "after": "6 seg",
+     "text": "Enfriamiento: 10 seg ⇒ 6 seg",
+     "id": "e4bf97b89662",
+     "section": "champions",
+     "tags": [
+      "Assassin",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Elise",
+      "name": "Elise"
+     },
+     "part": "W",
+     "partTitle": "W: Raudo Frenesí",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Velocidad de ataque adicional",
+     "before": "60/70/80/90/100%",
+     "after": "60/75/90/105/120%",
+     "text": "Velocidad de ataque adicional: 60/70/80/90/100% ⇒ 60/75/90/105/120%",
+     "id": "df6913536c1b",
+     "section": "champions",
+     "tags": [
+      "Assassin",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Elise",
+      "name": "Elise"
+     },
+     "part": "R",
+     "partTitle": "R: Forma Arácnida",
+     "spellKey": "EliseR",
+     "kind": "stat",
+     "attribute": "Daño de Araña",
+     "before": "8/14/20/26 (+15% de Poder de Habilidad)",
+     "after": "10/20/30/40 (+15% de Poder de Habilidad)",
+     "text": "Daño de Araña: 8/14/20/26 (+15% de Poder de Habilidad) ⇒ 10/20/30/40 (+15% de Poder de Habilidad)",
+     "id": "cedf0aa0528a",
+     "section": "champions",
+     "tags": [
+      "Assassin",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.S1.1",
+   "publishedAt": "2025-01-07T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "ARAM",
+     "sectionId": "patch-aram",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Elise",
+      "name": "Elise"
+     },
+     "part": "Debilitaciones a campeones",
+     "partTitle": "Debilitaciones a campeones",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Tenacidad",
+     "before": "20",
+     "after": "10",
+     "text": "Elise: Tenacidad: 20 ⇒ 10",
+     "id": "b6f7b64274e8",
+     "section": "modes",
+     "tags": [
+      "Assassin",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  }
+ ]
+}

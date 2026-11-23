@@ -1,0 +1,359 @@
+{
+ "schemaVersion": 1,
+ "id": "Sona",
+ "name": "Sona",
+ "tags": [
+  "Support",
+  "Mage"
+ ],
+ "entries": [
+  {
+   "patch": "26.23",
+   "publishedAt": "2026-11-17T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Sona",
+      "name": "Sona"
+     },
+     "part": "W",
+     "partTitle": "W: Aria de la Perseverancia",
+     "spellKey": "SonaW",
+     "kind": "stat",
+     "attribute": "Tasa de Poder de Habilidad de Curación",
+     "before": "30%",
+     "after": "20%",
+     "text": "Tasa de Poder de Habilidad de Curación: 30% ⇒ 20%",
+     "id": "7527d307ad9a",
+     "section": "modes",
+     "tags": [
+      "Support",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "26.1",
+   "publishedAt": "2026-01-07T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "ARAM: Caos",
+     "sectionId": "patch-aram-mayhem",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Sona",
+      "name": "Sona"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": null,
+     "before": "Tasa de curación de la W: 20%",
+     "after": "30%",
+     "text": "Tasa de curación de la W: 20% ⇒ 30%",
+     "id": "bafdf729cdfe",
+     "section": "modes",
+     "tags": [
+      "Support",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "ARAM: Caos",
+     "sectionId": "patch-aram-mayhem",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Sona",
+      "name": "Sona"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": null,
+     "before": "Tasa de escudo de la W: 20%",
+     "after": "25%",
+     "text": "Tasa de escudo de la W: 20% ⇒ 25%",
+     "id": "3aba7dca6715",
+     "section": "modes",
+     "tags": [
+      "Support",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "ARAM: Caos",
+     "sectionId": "patch-aram-mayhem",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Sona",
+      "name": "Sona"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": null,
+     "before": "Enfriamiento de la Q: 10 seg",
+     "after": "8 seg",
+     "text": "Enfriamiento de la Q: 10 seg ⇒ 8 seg",
+     "id": "9579e8588591",
+     "section": "modes",
+     "tags": [
+      "Support",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.8",
+   "publishedAt": "2025-04-15T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Sona",
+      "name": "Sona"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Aumentamos el daño del rayo de su Q en los niveles superiores.",
+     "id": "8dfb951ae281",
+     "section": "champions",
+     "tags": [
+      "Support",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Sona",
+      "name": "Sona"
+     },
+     "part": "Q",
+     "partTitle": "Q: Himno del Valor",
+     "spellKey": "SonaQ",
+     "kind": "stat",
+     "attribute": "Daño del rayo",
+     "before": "50 / 80 / 110 / 140 / 170 (+ 40% de Poder de Habilidad)",
+     "after": "50 / 85 / 120 / 155 / 190 (+ 40% de Poder de Habilidad)",
+     "text": "Daño del rayo: 50 / 80 / 110 / 140 / 170 (+ 40% de Poder de Habilidad) ⇒ 50 / 85 / 120 / 155 / 190 (+ 40% de Poder de Habilidad)",
+     "id": "7ab9743451bd",
+     "section": "champions",
+     "tags": [
+      "Support",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.S1.2",
+   "publishedAt": "2025-01-22T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "ARAM",
+     "sectionId": "patch-aram",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Sona",
+      "name": "Sona"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": null,
+     "before": "Aceleración de Habilidad (máximo de acumulaciones de pasiva): 60",
+     "after": "30",
+     "text": "Aceleración de Habilidad (máximo de acumulaciones de pasiva): 60 ⇒ 30",
+     "id": "f106dc7b5d85",
+     "section": "modes",
+     "tags": [
+      "Support",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "ARAM",
+     "sectionId": "patch-aram",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Sona",
+      "name": "Sona"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": null,
+     "before": "Enfriamiento de la Q: 8",
+     "after": "10",
+     "text": "Enfriamiento de la Q: 8 ⇒ 10",
+     "id": "9a002ae9d7b3",
+     "section": "modes",
+     "tags": [
+      "Support",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "ARAM",
+     "sectionId": "patch-aram",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Sona",
+      "name": "Sona"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": null,
+     "before": "Enfriamiento de la W: 10",
+     "after": "13",
+     "text": "Enfriamiento de la W: 10 ⇒ 13",
+     "id": "d106bd5b8399",
+     "section": "modes",
+     "tags": [
+      "Support",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "ARAM",
+     "sectionId": "patch-aram",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Sona",
+      "name": "Sona"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": null,
+     "before": "Curación de la W: 30/45/60/75/90 (+30% de Poder de Habilidad)",
+     "after": "45/60/70/80/90 (+20% de Poder de Habilidad)",
+     "text": "Curación de la W: 30/45/60/75/90 (+30% de Poder de Habilidad) ⇒ 45/60/70/80/90 (+20% de Poder de Habilidad)",
+     "id": "82c3ebc6c682",
+     "section": "modes",
+     "tags": [
+      "Support",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "ARAM",
+     "sectionId": "patch-aram",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Sona",
+      "name": "Sona"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": null,
+     "before": "Escudo de la W: 25/45/65/85/105 (+25% de Poder de Habilidad)",
+     "after": "65/75/85/95/105 (+20% de Poder de Habilidad)",
+     "text": "Escudo de la W: 25/45/65/85/105 (+25% de Poder de Habilidad) ⇒ 65/75/85/95/105 (+20% de Poder de Habilidad)",
+     "id": "88ca25e2bab1",
+     "section": "modes",
+     "tags": [
+      "Support",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "ARAM",
+     "sectionId": "patch-aram",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Sona",
+      "name": "Sona"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Eliminamos las debilitaciones al daño, daño recibido, curación, escudo y aceleración de habilidad",
+     "id": "8d8ee2a2c583",
+     "section": "modes",
+     "tags": [
+      "Support",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  }
+ ]
+}

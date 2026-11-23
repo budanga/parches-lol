@@ -1,0 +1,1049 @@
+{
+ "schemaVersion": 1,
+ "id": "Garen",
+ "name": "Garen",
+ "tags": [
+  "Fighter",
+  "Tank"
+ ],
+ "entries": [
+  {
+   "patch": "26.20",
+   "publishedAt": "2026-10-06T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "ARAM: Caos",
+     "sectionId": "patch-aram:-mayhem",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Garen",
+      "name": "Garen"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Regeneración pasiva",
+     "before": "De 1.5% a 1.01%",
+     "after": "De 2% a 12%",
+     "text": "Regeneración pasiva: De 1.5% a 1.01% ⇒ De 2% a 12%",
+     "id": "6ed7706c820b",
+     "section": "modes",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "ARAM: Caos",
+     "sectionId": "patch-aram:-mayhem",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Garen",
+      "name": "Garen"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Enfriamiento de la W",
+     "before": "De 22 a 12",
+     "after": "De 18 a 12",
+     "text": "Enfriamiento de la W: De 22 a 12 ⇒ De 18 a 12",
+     "id": "3bea3e75e3f5",
+     "section": "modes",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "ARAM: Caos",
+     "sectionId": "patch-aram:-mayhem",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Garen",
+      "name": "Garen"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Potencia del escudo de la W",
+     "before": "18% de Vida adicional",
+     "after": "20% de Vida adicional",
+     "text": "Potencia del escudo de la W: 18% de Vida adicional ⇒ 20% de Vida adicional",
+     "id": "88c2ca804a56",
+     "section": "modes",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "ARAM: Caos",
+     "sectionId": "patch-aram:-mayhem",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Garen",
+      "name": "Garen"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Acumulaciones de la pasiva de la W",
+     "before": "0.4 por súbdito asesinado",
+     "after": "0.75 por súbdito asesinado",
+     "text": "Acumulaciones de la pasiva de la W: 0.4 por súbdito asesinado ⇒ 0.75 por súbdito asesinado",
+     "id": "31043068f2de",
+     "section": "modes",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "26.14",
+   "publishedAt": "2026-07-14T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Garen",
+      "name": "Garen"
+     },
+     "part": "R",
+     "partTitle": "R: Justicia Demaciana",
+     "spellKey": "GarenR",
+     "kind": "stat",
+     "attribute": "Daño verdadero",
+     "before": "150 / 250 / 350 (+ 25 / 30 / 35% de la Vida faltante del objetivo)",
+     "after": "125 / 200 / 275 (+ 25 / 30 / 35% de la Vida faltante del objetivo)",
+     "text": "Daño verdadero: 150 / 250 / 350 (+ 25 / 30 / 35% de la Vida faltante del objetivo) ⇒ 125 / 200 / 275 (+ 25 / 30 / 35% de la Vida faltante del objetivo)",
+     "id": "953ce1b9f3de",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "26.5",
+   "publishedAt": "2026-03-03T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Garen",
+      "name": "Garen"
+     },
+     "part": "Q",
+     "partTitle": "Q: Golpe Decisivo",
+     "spellKey": "GarenQ",
+     "kind": "stat",
+     "attribute": "Duración de Velocidad de Movimiento",
+     "before": "1 / 1.65 / 2.3 / 2.95 / 3.6 seg",
+     "after": "1.4 / 1.95 / 2.5 / 3.05 / 3.6 seg",
+     "text": "Duración de Velocidad de Movimiento: 1 / 1.65 / 2.3 / 2.95 / 3.6 seg ⇒ 1.4 / 1.95 / 2.5 / 3.05 / 3.6 seg",
+     "id": "f63224261622",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Garen",
+      "name": "Garen"
+     },
+     "part": "E",
+     "partTitle": "E: Juicio",
+     "spellKey": "GarenE",
+     "kind": "stat",
+     "attribute": "Daño por giro",
+     "before": "4 / 7 / 10 / 13 / 16 (+ 38% / 41% / 44% / 47% / 50% DE DAÑO DE ATAQUE)",
+     "after": "4 / 7 / 10 / 13 / 16 (+ 40% / 43% / 46% / 49% / 52%) DE DAÑO DE ATAQUE",
+     "text": "Daño por giro: 4 / 7 / 10 / 13 / 16 (+ 38% / 41% / 44% / 47% / 50% DE DAÑO DE ATAQUE) ⇒ 4 / 7 / 10 / 13 / 16 (+ 40% / 43% / 46% / 49% / 52%) DE DAÑO DE ATAQUE",
+     "id": "bc5febe9db26",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "26.1",
+   "publishedAt": "2026-01-07T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Garen",
+      "name": "Garen"
+     },
+     "part": "E",
+     "partTitle": "E: Juicio",
+     "spellKey": "GarenE",
+     "kind": "stat",
+     "attribute": "Tasa de daño de golpe crítico de la E",
+     "before": "80% del total (×1.4 / ×1.72)",
+     "after": "30% adicional (×1.3 / ×1.39)",
+     "text": "Tasa de daño de golpe crítico de la E: 80% del total (×1.4 / ×1.72) ⇒ 30% adicional (×1.3 / ×1.39)",
+     "id": "1fa29d149c23",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.18",
+   "publishedAt": "2025-09-09T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Garen",
+      "name": "Garen"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Aumentamos el daño de su E.",
+     "id": "1cd6a764b88d",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Garen",
+      "name": "Garen"
+     },
+     "part": "E",
+     "partTitle": "E: Juicio",
+     "spellKey": "GarenE",
+     "kind": "stat",
+     "attribute": "Tasa de Daño de Ataque por giro",
+     "before": "36% / 39% / 42% / 45% / 48% de Daño de Ataque",
+     "after": "38% / 41% / 44% / 47% / 50% de Daño de Ataque",
+     "text": "Tasa de Daño de Ataque por giro: 36% / 39% / 42% / 45% / 48% de Daño de Ataque ⇒ 38% / 41% / 44% / 47% / 50% de Daño de Ataque",
+     "id": "23a753e53ccb",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.14",
+   "publishedAt": "2025-07-15T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones (Arena)",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Garen",
+      "name": "Garen"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": null,
+     "before": "Cambio a la duración de la W para Arena revertido: 3",
+     "after": "4",
+     "text": "Cambio a la duración de la W para Arena revertido: 3 ⇒ 4",
+     "id": "905a08a8cadf",
+     "section": "modes",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones (Arena)",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Garen",
+      "name": "Garen"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": null,
+     "before": "Cambio a la tasa de Daño de Ataque de la E para Arena revertido: 33% / 34% / 35% / 36% / 37%",
+     "after": "36% / 39% / 42% / 45% / 48%",
+     "text": "Cambio a la tasa de Daño de Ataque de la E para Arena revertido: 33% / 34% / 35% / 36% / 37% ⇒ 36% / 39% / 42% / 45% / 48%",
+     "id": "85be7c6b5d16",
+     "section": "modes",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.12",
+   "publishedAt": "2025-06-10T18:05:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Garen",
+      "name": "Garen"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Aumentamos la progresión de daño de su pasiva.",
+     "id": "e7756f50ea49",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Garen",
+      "name": "Garen"
+     },
+     "part": "E",
+     "partTitle": "E: Juicio",
+     "spellKey": "GarenE",
+     "kind": "stat",
+     "attribute": "Daño",
+     "before": "4 / 8 / 12 / 16 / 20 (+ 36 / 38 / 40 / 42 / 44% de Daño de Ataque)",
+     "after": "4 / 7 / 10 / 13 / 16 (+ 36 / 39 / 42 / 45 /48% de Daño de Ataque). (Nota: Esta mejora comenzará a funcionar después de alcanzar 100 de Daño de Ataque en total)",
+     "text": "Daño: 4 / 8 / 12 / 16 / 20 (+ 36 / 38 / 40 / 42 / 44% de Daño de Ataque) ⇒ 4 / 7 / 10 / 13 / 16 (+ 36 / 39 / 42 / 45 /48% de Daño de Ataque). (Nota: Esta mejora comenzará a funcionar después de alcanzar 100 de Daño de Ataque en total)",
+     "id": "d4f88d9f1d63",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Garen",
+      "name": "Garen"
+     },
+     "part": "E",
+     "partTitle": "E: Juicio",
+     "spellKey": "GarenE",
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Corrección de error: Ahora, la reducción de armadura se extiende correctamente con los giros adicionales en vez de no acumularse cuando la duración restante es corta",
+     "id": "16f756ad69a4",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.11",
+   "publishedAt": "2025-05-27T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Garen",
+      "name": "Garen"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Ajustamos su W y su E. Redujimos el daño de su R.",
+     "id": "f73cbc926c76",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Garen",
+      "name": "Garen"
+     },
+     "part": "W",
+     "partTitle": "W: Coraje",
+     "spellKey": "GarenW",
+     "kind": "stat",
+     "attribute": "Enfriamiento",
+     "before": "23 / 21 / 19 / 17 / 15",
+     "after": "22 / 19.5 / 17 / 14.5 / 12",
+     "text": "Enfriamiento: 23 / 21 / 19 / 17 / 15 ⇒ 22 / 19.5 / 17 / 14.5 / 12",
+     "id": "e71142fd1a15",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Garen",
+      "name": "Garen"
+     },
+     "part": "W",
+     "partTitle": "W: Coraje",
+     "spellKey": "GarenW",
+     "kind": "stat",
+     "attribute": "Reducción de daño",
+     "before": "30%",
+     "after": "25 / 29 / 33 / 37 / 41%",
+     "text": "Reducción de daño: 30% ⇒ 25 / 29 / 33 / 37 / 41%",
+     "id": "c9f4782ef576",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Garen",
+      "name": "Garen"
+     },
+     "part": "W",
+     "partTitle": "W: Coraje",
+     "spellKey": "GarenW",
+     "kind": "removed",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Eliminado: Obtiene un 10% de resistencias adicionales tras completar la misión",
+     "id": "249e1758810d",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Garen",
+      "name": "Garen"
+     },
+     "part": "W",
+     "partTitle": "W: Coraje",
+     "spellKey": "GarenW",
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Corregimos un error que provocaba que las partículas no se reprodujeran al mitigar con éxito el control de masas gracias a la cantidad de tenacidad acumulada",
+     "id": "69636d2aa33d",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Garen",
+      "name": "Garen"
+     },
+     "part": "W",
+     "partTitle": "W: Coraje",
+     "spellKey": "GarenW",
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Actualizamos la descripción para que sea más clara",
+     "id": "c465b4b13daf",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Garen",
+      "name": "Garen"
+     },
+     "part": "E",
+     "partTitle": "E: Juicio",
+     "spellKey": "GarenE",
+     "kind": "stat",
+     "attribute": "Enfriamiento",
+     "before": "9",
+     "after": "9 / 8.25 / 7.5 / 6.75 / 6 (el enfriamiento aún comienza al final del giro)",
+     "text": "Enfriamiento: 9 ⇒ 9 / 8.25 / 7.5 / 6.75 / 6 (el enfriamiento aún comienza al final del giro)",
+     "id": "98037b0302a4",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Garen",
+      "name": "Garen"
+     },
+     "part": "E",
+     "partTitle": "E: Juicio",
+     "spellKey": "GarenE",
+     "kind": "stat",
+     "attribute": "Daño",
+     "before": "4 / 8 / 12 / 16 / 20 (+ 0 - 8.2 (según el nivel)) (+ 36 / 37 / 38 / 39 / 40% de Daño de Ataque)",
+     "after": "4 / 8 / 12 / 16 / 20 (+ 36 / 38 / 40 / 42 / 44% de Daño de Ataque)",
+     "text": "Daño: 4 / 8 / 12 / 16 / 20 (+ 0 - 8.2 (según el nivel)) (+ 36 / 37 / 38 / 39 / 40% de Daño de Ataque) ⇒ 4 / 8 / 12 / 16 / 20 (+ 36 / 38 / 40 / 42 / 44% de Daño de Ataque)",
+     "id": "99b5c017975d",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Garen",
+      "name": "Garen"
+     },
+     "part": "E",
+     "partTitle": "E: Juicio",
+     "spellKey": "GarenE",
+     "kind": "stat",
+     "attribute": "Modificador de daño crítico",
+     "before": "150% (190% con Filo del Infinito)",
+     "after": "140% (172% con Filo del Infinito)",
+     "text": "Modificador de daño crítico: 150% (190% con Filo del Infinito) ⇒ 140% (172% con Filo del Infinito)",
+     "id": "0a531e2c55dd",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Garen",
+      "name": "Garen"
+     },
+     "part": "E",
+     "partTitle": "E: Juicio",
+     "spellKey": "GarenE",
+     "kind": "removed",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Eliminado: Inflige un 150% de daño a monstruos",
+     "id": "bedee753cd62",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Garen",
+      "name": "Garen"
+     },
+     "part": "E",
+     "partTitle": "E: Juicio",
+     "spellKey": "GarenE",
+     "kind": "removed",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Eliminado: Según la duración restante, el enfriamiento de la habilidad se reestablece de forma parcial",
+     "id": "15208402014b",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Garen",
+      "name": "Garen"
+     },
+     "part": "E",
+     "partTitle": "E: Juicio",
+     "spellKey": "GarenE",
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Corregimos un error que hacía que el enfriamiento de Juicio fuese un poco mayor al previsto si la habilidad se lanzaba tras canalizarla al máximo",
+     "id": "b5b1b9ee36ba",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Garen",
+      "name": "Garen"
+     },
+     "part": "E",
+     "partTitle": "E: Juicio",
+     "spellKey": "GarenE",
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Actualizamos la descripción para que sea más clara",
+     "id": "b5e9c26ad548",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Garen",
+      "name": "Garen"
+     },
+     "part": "R",
+     "partTitle": "R: Justicia Demaciana",
+     "spellKey": "GarenR",
+     "kind": "stat",
+     "attribute": "Daño",
+     "before": "150 / 300 / 450 (+ 25 / 30 / 35% de la Vida faltante)",
+     "after": "150 / 250 / 350 (+ 25/ 30 / 35% de la Vida faltante)",
+     "text": "Daño: 150 / 300 / 450 (+ 25 / 30 / 35% de la Vida faltante) ⇒ 150 / 250 / 350 (+ 25/ 30 / 35% de la Vida faltante)",
+     "id": "fdfe8a6ab029",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Pelea",
+     "sectionId": "patch-brawl",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Garen",
+      "name": "Garen"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño recibido",
+     "before": "100%",
+     "after": "90%",
+     "text": "Daño recibido: 100% ⇒ 90%",
+     "id": "f58e5ad24149",
+     "section": "modes",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Pelea",
+     "sectionId": "patch-brawl",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Garen",
+      "name": "Garen"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Aceleración de Habilidad",
+     "before": "0",
+     "after": "10",
+     "text": "Aceleración de Habilidad: 0 ⇒ 10",
+     "id": "5aac517605e5",
+     "section": "modes",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.8",
+   "publishedAt": "2025-04-15T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Garen",
+      "name": "Garen"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Duración del silencio de la Q",
+     "before": "1 seg",
+     "after": "1.5 seg",
+     "text": "Duración del silencio de la Q: 1 seg ⇒ 1.5 seg",
+     "id": "4c36e330cb6b",
+     "section": "modes",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Garen",
+      "name": "Garen"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Reducción de daño de la W",
+     "before": "20%",
+     "after": "30%",
+     "text": "Reducción de daño de la W: 20% ⇒ 30%",
+     "id": "c8e47efe9643",
+     "section": "modes",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.6",
+   "publishedAt": "2025-03-18T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Garen",
+      "name": "Garen"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Disminuimos el daño de su E al infligir golpes críticos.",
+     "id": "f5aa70472c3b",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Garen",
+      "name": "Garen"
+     },
+     "part": "E",
+     "partTitle": "E: Juicio",
+     "spellKey": "GarenE",
+     "kind": "stat",
+     "attribute": "Daño al infligir Golpes Críticos",
+     "before": "175%",
+     "after": "150%",
+     "text": "Daño al infligir Golpes Críticos: 175% ⇒ 150%",
+     "id": "1620f4148d33",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.S1.3",
+   "publishedAt": "2025-02-04T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Sistemas",
+     "sectionId": "patch-systems",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Garen",
+      "name": "Garen"
+     },
+     "part": "Debilitaciones a campeones",
+     "partTitle": "Debilitaciones a campeones",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño recibido",
+     "before": "90%",
+     "after": "95%",
+     "text": "Garen: Daño recibido: 90% ⇒ 95%",
+     "id": "2c2fabec43f0",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  }
+ ]
+}

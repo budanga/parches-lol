@@ -1,0 +1,497 @@
+{
+ "schemaVersion": 1,
+ "id": "Diana",
+ "name": "Diana",
+ "tags": [
+  "Fighter",
+  "Assassin"
+ ],
+ "entries": [
+  {
+   "patch": "26.20",
+   "publishedAt": "2026-10-06T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Diana",
+      "name": "Diana"
+     },
+     "part": "W",
+     "partTitle": "W: Cascada Pálida",
+     "spellKey": "DianaOrbs",
+     "kind": "stat",
+     "attribute": "Tasa de Vida adicional del escudo",
+     "before": "11%",
+     "after": "14%",
+     "text": "Tasa de Vida adicional del escudo: 11% ⇒ 14%",
+     "id": "a81f6d863c5a",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "26.11",
+   "publishedAt": "2026-05-27T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Diana",
+      "name": "Diana"
+     },
+     "part": "base",
+     "partTitle": "Estadísticas base",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño contra monstruos",
+     "before": "230%",
+     "after": "270%",
+     "text": "Daño contra monstruos: 230% ⇒ 270%",
+     "id": "e1845b5f70ae",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Diana",
+      "name": "Diana"
+     },
+     "part": "W",
+     "partTitle": "W: Cascada Pálida",
+     "spellKey": "DianaOrbs",
+     "kind": "stat",
+     "attribute": "Vida adicional",
+     "before": "9%",
+     "after": "11%",
+     "text": "Vida adicional: 9% ⇒ 11%",
+     "id": "a9c28aa18e98",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "26.3",
+   "publishedAt": "2026-02-03T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Diana",
+      "name": "Diana"
+     },
+     "part": "P",
+     "partTitle": "Pasiva: Navaja de Lunaplata",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño contra monstruos",
+     "before": "280%",
+     "after": "230%",
+     "text": "Daño contra monstruos: 280% ⇒ 230%",
+     "id": "6577074c8df5",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.21",
+   "publishedAt": "2025-10-21T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Diana",
+      "name": "Diana"
+     },
+     "part": "P",
+     "partTitle": "Pasiva: Navaja de Lunaplata",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño contra monstruos",
+     "before": "300%",
+     "after": "280%",
+     "text": "Daño contra monstruos: 300% ⇒ 280%",
+     "id": "4b6b94288eb2",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.20",
+   "publishedAt": "2025-10-07T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Bots Apocalípticos",
+     "sectionId": "patch-doom-bots",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Diana",
+      "name": "Diana"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño infligido",
+     "before": "100%",
+     "after": "105%",
+     "text": "Daño infligido: 100% ⇒ 105%",
+     "id": "0c3d3fcb89ca",
+     "section": "modes",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Bots Apocalípticos",
+     "sectionId": "patch-doom-bots",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Diana",
+      "name": "Diana"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño recibido",
+     "before": "100%",
+     "after": "95%",
+     "text": "Daño recibido: 100% ⇒ 95%",
+     "id": "36499923e3bd",
+     "section": "modes",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Bots Apocalípticos",
+     "sectionId": "patch-doom-bots",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Diana",
+      "name": "Diana"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Tenacidad",
+     "before": "0",
+     "after": "25",
+     "text": "Tenacidad: 0 ⇒ 25",
+     "id": "47b1fea25fd6",
+     "section": "modes",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.19",
+   "publishedAt": "2025-09-23T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Diana",
+      "name": "Diana"
+     },
+     "part": "P",
+     "partTitle": "Pasiva: Navaja de Lunaplata",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Modificador de daño contra monstruos",
+     "before": "×2.6",
+     "after": "×3",
+     "text": "Modificador de daño contra monstruos: ×2.6 ⇒ ×3",
+     "id": "04a7b47a2ab1",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.11",
+   "publishedAt": "2025-05-27T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Diana",
+      "name": "Diana"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Aumentamos el daño a monstruos de su pasiva.",
+     "id": "dcef0e68bd9a",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Diana",
+      "name": "Diana"
+     },
+     "part": "P",
+     "partTitle": "Pasiva: Navaja de Lunaplata",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño a monstruos",
+     "before": "225%",
+     "after": "260%",
+     "text": "Daño a monstruos: 225% ⇒ 260%",
+     "id": "4b40b3353d0f",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.4",
+   "publishedAt": "2025-02-19T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Diana",
+      "name": "Diana"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Redujimos el daño de su pasiva contra monstruos. Aumentamos el daño de su W y su Q.",
+     "id": "d8f4e9fa42c2",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Diana",
+      "name": "Diana"
+     },
+     "part": "P",
+     "partTitle": "Pasiva: Navaja de Lunaplata",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño a monstruos",
+     "before": "300%",
+     "after": "225%",
+     "text": "Daño a monstruos: 300% ⇒ 225%",
+     "id": "d80264c4a9f4",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Diana",
+      "name": "Diana"
+     },
+     "part": "Q",
+     "partTitle": "Q: Golpe Creciente",
+     "spellKey": "DianaQ",
+     "kind": "stat",
+     "attribute": "Daño",
+     "before": "60/95/130/165/200 (+70% de Poder de Habilidad)",
+     "after": "70/105/140/175/210 (+70% de Poder de Habilidad)",
+     "text": "Daño: 60/95/130/165/200 (+70% de Poder de Habilidad) ⇒ 70/105/140/175/210 (+70% de Poder de Habilidad)",
+     "id": "75eb57d027f9",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Diana",
+      "name": "Diana"
+     },
+     "part": "W",
+     "partTitle": "W: Cascada Pálida",
+     "spellKey": "DianaOrbs",
+     "kind": "stat",
+     "attribute": "Daño máximo",
+     "before": "54/90/126/162/198 (+54% de Poder de Habilidad)",
+     "after": "60/96/132/168/204 (+54% de Poder de Habilidad)",
+     "text": "Daño máximo: 54/90/126/162/198 (+54% de Poder de Habilidad) ⇒ 60/96/132/168/204 (+54% de Poder de Habilidad)",
+     "id": "069f4a8fd864",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.S1.1",
+   "publishedAt": "2025-01-07T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "ARAM",
+     "sectionId": "patch-aram",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Diana",
+      "name": "Diana"
+     },
+     "part": "Debilitaciones a campeones",
+     "partTitle": "Debilitaciones a campeones",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño infligido",
+     "before": "102%",
+     "after": "100%, daño recibido: 98% ⇒ 100%",
+     "text": "Diana: Daño infligido: 102% ⇒ 100%, daño recibido: 98% ⇒ 100%",
+     "id": "5e1133add14a",
+     "section": "modes",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  }
+ ]
+}

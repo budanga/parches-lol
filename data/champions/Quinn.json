@@ -1,0 +1,545 @@
+{
+ "schemaVersion": 1,
+ "id": "Quinn",
+ "name": "Quinn",
+ "tags": [
+  "Marksman",
+  "Assassin"
+ ],
+ "entries": [
+  {
+   "patch": "26.11",
+   "publishedAt": "2026-05-27T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Quinn",
+      "name": "Quinn"
+     },
+     "part": "P",
+     "partTitle": "Pasiva: Hostigador",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño contra monstruos",
+     "before": "50",
+     "after": "75",
+     "text": "Daño contra monstruos: 50 ⇒ 75",
+     "id": "ef8ac492688a",
+     "section": "champions",
+     "tags": [
+      "Marksman",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Quinn",
+      "name": "Quinn"
+     },
+     "part": "Q",
+     "partTitle": "Q: Ataque Cegador",
+     "spellKey": "QuinnQ",
+     "kind": "stat",
+     "attribute": "Daño contra monstruos",
+     "before": "150%",
+     "after": "200%",
+     "text": "Daño contra monstruos: 150% ⇒ 200%",
+     "id": "7e1a13dbbbc8",
+     "section": "champions",
+     "tags": [
+      "Marksman",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "26.10",
+   "publishedAt": "2026-05-12T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Quinn",
+      "name": "Quinn"
+     },
+     "part": "P: Hostigador",
+     "partTitle": "P: Hostigador",
+     "spellKey": null,
+     "kind": "new",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "NUEVO Daño adicional a monstruos: 50",
+     "id": "6f2fa941df68",
+     "section": "champions",
+     "tags": [
+      "Marksman",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Quinn",
+      "name": "Quinn"
+     },
+     "part": "Q",
+     "partTitle": "Q: Ataque Cegador",
+     "spellKey": "QuinnQ",
+     "kind": "new",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "NUEVO Daño adicional a monstruos: Ahora inflige un 50% de daño a monstruos",
+     "id": "c491d3459dab",
+     "section": "champions",
+     "tags": [
+      "Marksman",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Quinn",
+      "name": "Quinn"
+     },
+     "part": "R",
+     "partTitle": "R: Detrás de las Líneas Enemigas",
+     "spellKey": "QuinnR",
+     "kind": "stat",
+     "attribute": "Costo de Maná",
+     "before": "100 / 50 / 0",
+     "after": "50 / 25 / 0",
+     "text": "Costo de Maná: 100 / 50 / 0 ⇒ 50 / 25 / 0",
+     "id": "4f817e5944a5",
+     "section": "champions",
+     "tags": [
+      "Marksman",
+      "Assassin"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "26.1",
+   "publishedAt": "2026-01-07T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Actualizaciones dentro de la versión",
+     "sectionId": "patch-large-changes",
+     "midPatch": true,
+     "entity": {
+      "kind": "champion",
+      "id": "Quinn",
+      "name": "Quinn"
+     },
+     "part": "base",
+     "partTitle": "Estadísticas básicas",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Crecimiento de Daño de Ataque",
+     "before": "2.7",
+     "after": "3.2",
+     "text": "Crecimiento de Daño de Ataque: 2.7 ⇒ 3.2",
+     "id": "59d4f4d00702",
+     "section": "champions",
+     "tags": [
+      "Marksman",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Actualizaciones dentro de la versión",
+     "sectionId": "patch-large-changes",
+     "midPatch": true,
+     "entity": {
+      "kind": "champion",
+      "id": "Quinn",
+      "name": "Quinn"
+     },
+     "part": "P",
+     "partTitle": "Pasiva: Hostigador",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Enfriamiento básico",
+     "before": "8 seg",
+     "after": "7 seg",
+     "text": "Enfriamiento básico: 8 seg ⇒ 7 seg",
+     "id": "89d773447a88",
+     "section": "champions",
+     "tags": [
+      "Marksman",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Quinn",
+      "name": "Quinn"
+     },
+     "part": "P",
+     "partTitle": "Pasiva: Hostigador",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño",
+     "before": "De 10 a 95 (según el nivel) (+ de 16% a 50% (según el nivel) de Daño de Ataque total)",
+     "after": "De 15 a 120 (según el nivel) (+ 40% de Daño de Ataque adicional)",
+     "text": "Daño: De 10 a 95 (según el nivel) (+ de 16% a 50% (según el nivel) de Daño de Ataque total) ⇒ De 15 a 120 (según el nivel) (+ 40% de Daño de Ataque adicional)",
+     "id": "0deef49292f5",
+     "section": "champions",
+     "tags": [
+      "Marksman",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.21",
+   "publishedAt": "2025-10-21T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Quinn",
+      "name": "Quinn"
+     },
+     "part": "Q",
+     "partTitle": "Q: Ataque Cegador",
+     "spellKey": "QuinnQ",
+     "kind": "stat",
+     "attribute": "Daño secundario",
+     "before": "65 / 100 / 135 / 170 / 205 (+ 80% / 90% / 100% / 110% / 120% de Daño de Ataque adicional)",
+     "after": "65 / 100 / 135 / 170 / 205 (+ 80% / 85% / 90% / 95% / 100% de Daño de Ataque adicional)",
+     "text": "Daño secundario: 65 / 100 / 135 / 170 / 205 (+ 80% / 90% / 100% / 110% / 120% de Daño de Ataque adicional) ⇒ 65 / 100 / 135 / 170 / 205 (+ 80% / 85% / 90% / 95% / 100% de Daño de Ataque adicional)",
+     "id": "5a4d5ad2421b",
+     "section": "champions",
+     "tags": [
+      "Marksman",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Quinn",
+      "name": "Quinn"
+     },
+     "part": "R",
+     "partTitle": "R: Golpe en el Cielo",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño",
+     "before": "70% de Daño de Ataque total",
+     "after": "60 / 90 / 120 (+ 35% de Daño de Ataque adicional)",
+     "text": "Daño: 70% de Daño de Ataque total ⇒ 60 / 90 / 120 (+ 35% de Daño de Ataque adicional)",
+     "id": "ea43d171920a",
+     "section": "champions",
+     "tags": [
+      "Marksman",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.20",
+   "publishedAt": "2025-10-07T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Bots Apocalípticos",
+     "sectionId": "patch-doom-bots",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Quinn",
+      "name": "Quinn"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño infligido",
+     "before": "100%",
+     "after": "110%",
+     "text": "Daño infligido: 100% ⇒ 110%",
+     "id": "43590975b47a",
+     "section": "modes",
+     "tags": [
+      "Marksman",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.15",
+   "publishedAt": "2025-07-29T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Quinn",
+      "name": "Quinn"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Redujimos el daño de su Q.",
+     "id": "ce9240d1f350",
+     "section": "champions",
+     "tags": [
+      "Marksman",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Quinn",
+      "name": "Quinn"
+     },
+     "part": "Q",
+     "partTitle": "Q: Ataque Cegador",
+     "spellKey": "QuinnQ",
+     "kind": "stat",
+     "attribute": "Daño",
+     "before": "20 / 40 / 60 / 80 / 100 (+ 80% / 90% / 100% / 110% / 120% de Daño de Ataque total)",
+     "after": "65 / 100 / 135 / 170 / 205 (+ 80% / 90% / 100% / 110% / 120% de Daño de Ataque adicional)",
+     "text": "Daño: 20 / 40 / 60 / 80 / 100 (+ 80% / 90% / 100% / 110% / 120% de Daño de Ataque total) ⇒ 65 / 100 / 135 / 170 / 205 (+ 80% / 90% / 100% / 110% / 120% de Daño de Ataque adicional)",
+     "id": "54a16b454d0c",
+     "section": "champions",
+     "tags": [
+      "Marksman",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Cambios de balance de ARAM",
+     "sectionId": "patch-aram-balance-changes",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Quinn",
+      "name": "Quinn"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Ahora, la R funciona correctamente en el mapa de Flor Espiritual",
+     "id": "99387b6f8e7d",
+     "section": "modes",
+     "tags": [
+      "Marksman",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Cambios de balance de ARAM",
+     "sectionId": "patch-aram-balance-changes",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Quinn",
+      "name": "Quinn"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Cuando consigas la R, Quinn ahora reaparecerá con la R activada",
+     "id": "f86d8c70603b",
+     "section": "modes",
+     "tags": [
+      "Marksman",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.11",
+   "publishedAt": "2025-05-27T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Pelea",
+     "sectionId": "patch-brawl",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Quinn",
+      "name": "Quinn"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño infligido",
+     "before": "100%",
+     "after": "105%",
+     "text": "Daño infligido: 100% ⇒ 105%",
+     "id": "f415dbd86116",
+     "section": "modes",
+     "tags": [
+      "Marksman",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.S1.3",
+   "publishedAt": "2025-02-04T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Quinn",
+      "name": "Quinn"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Aumentamos la velocidad de ataque de su W.",
+     "id": "2f79a9f74673",
+     "section": "champions",
+     "tags": [
+      "Marksman",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Quinn",
+      "name": "Quinn"
+     },
+     "part": "W",
+     "partTitle": "W: Sentidos Aguzados",
+     "spellKey": "QuinnW",
+     "kind": "stat",
+     "attribute": "Velocidad de Ataque",
+     "before": "28/36/44/52/60%",
+     "after": "28/41/54/67/80%",
+     "text": "Velocidad de Ataque: 28/36/44/52/60% ⇒ 28/41/54/67/80%",
+     "id": "676ca5c3966f",
+     "section": "champions",
+     "tags": [
+      "Marksman",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  }
+ ]
+}

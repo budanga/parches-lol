@@ -1,0 +1,311 @@
+{
+ "schemaVersion": 1,
+ "id": "Nunu",
+ "name": "Nunu y Willump",
+ "tags": [
+  "Tank",
+  "Mage"
+ ],
+ "entries": [
+  {
+   "patch": "26.21",
+   "publishedAt": "2026-10-20T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Nunu",
+      "name": "Nunu y Willump"
+     },
+     "part": "R",
+     "partTitle": "R: Cero Absoluto",
+     "spellKey": "NunuR",
+     "kind": "stat",
+     "attribute": "Daño máximo",
+     "before": "625 / 925 / 1275 (+300% de Poder de Habilidad)",
+     "after": "750 / 1100 / 1450 (+300% de Poder de Habilidad)",
+     "text": "Daño máximo: 625 / 925 / 1275 (+300% de Poder de Habilidad) ⇒ 750 / 1100 / 1450 (+300% de Poder de Habilidad)",
+     "id": "0049de770ba7",
+     "section": "champions",
+     "tags": [
+      "Tank",
+      "Mage"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "26.3",
+   "publishedAt": "2026-02-03T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Nunu",
+      "name": "Nunu y Willump"
+     },
+     "part": "W",
+     "partTitle": "W: ¡Gigantobola de Nieve!",
+     "spellKey": "NunuW",
+     "kind": "stat",
+     "attribute": "Daño máximo",
+     "before": "150 / 195 / 240 / 285 / 330",
+     "after": "180 / 225 / 270 / 315 / 360",
+     "text": "Daño máximo: 150 / 195 / 240 / 285 / 330 ⇒ 180 / 225 / 270 / 315 / 360",
+     "id": "446b539ba48c",
+     "section": "champions",
+     "tags": [
+      "Tank",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Nunu",
+      "name": "Nunu y Willump"
+     },
+     "part": "E",
+     "partTitle": "E: ¡Come Nieve!",
+     "spellKey": "NunuE",
+     "kind": "stat",
+     "attribute": "Daño básico por impacto",
+     "before": "14 / 21 / 28 / 35 / 42",
+     "after": "15 / 22.5 / 30 / 37.5 / 45",
+     "text": "Daño básico por impacto:: 14 / 21 / 28 / 35 / 42 ⇒ 15 / 22.5 / 30 / 37.5 / 45",
+     "id": "9e891e47d162",
+     "section": "champions",
+     "tags": [
+      "Tank",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "26.2",
+   "publishedAt": "2026-01-21T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Nunu",
+      "name": "Nunu y Willump"
+     },
+     "part": "Q",
+     "partTitle": "Q: Voracidad",
+     "spellKey": "NunuQ",
+     "kind": "stat",
+     "attribute": "Enfriamiento",
+     "before": "12 / 11 / 10 / 9 / 8 seg",
+     "after": "13 / 12 / 11 / 10 / 9 seg",
+     "text": "Enfriamiento: 12 / 11 / 10 / 9 / 8 seg ⇒ 13 / 12 / 11 / 10 / 9 seg",
+     "id": "b82b3ebf09e3",
+     "section": "champions",
+     "tags": [
+      "Tank",
+      "Mage"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Nunu",
+      "name": "Nunu y Willump"
+     },
+     "part": "W",
+     "partTitle": "W: ¡Gigantobola de Nieve!",
+     "spellKey": "NunuW",
+     "kind": "stat",
+     "attribute": "Daño máximo",
+     "before": "180 / 225 / 270 / 315 / 360 (+ 150% de Poder de Habilidad)",
+     "after": "150 / 195 / 240 / 285 / 330 (+ 150% de Poder de Habilidad)",
+     "text": "Daño máximo: 180 / 225 / 270 / 315 / 360 (+ 150% de Poder de Habilidad) ⇒ 150 / 195 / 240 / 285 / 330 (+ 150% de Poder de Habilidad)",
+     "id": "b91cbb86eca5",
+     "section": "champions",
+     "tags": [
+      "Tank",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Nunu",
+      "name": "Nunu y Willump"
+     },
+     "part": "E",
+     "partTitle": "E: ¡Come Nieve!",
+     "spellKey": "NunuE",
+     "kind": "stat",
+     "attribute": "Daño por golpe",
+     "before": "16 / 24 / 32 / 40 / 48 (+ 15% de Poder de Habilidad)",
+     "after": "14 / 21 / 28 / 35 / 42",
+     "text": "Daño por golpe: 16 / 24 / 32 / 40 / 48 (+ 15% de Poder de Habilidad) ⇒ 14 / 21 / 28 / 35 / 42",
+     "id": "40a4dfc8c563",
+     "section": "champions",
+     "tags": [
+      "Tank",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.20",
+   "publishedAt": "2025-10-07T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Bots Apocalípticos",
+     "sectionId": "patch-doom-bots",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Nunu",
+      "name": "Nunu y Willump"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño infligido",
+     "before": "100%",
+     "after": "105%",
+     "text": "Daño infligido: 100% ⇒ 105%",
+     "id": "0325aebcd9bc",
+     "section": "modes",
+     "tags": [
+      "Tank",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Bots Apocalípticos",
+     "sectionId": "patch-doom-bots",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Nunu",
+      "name": "Nunu y Willump"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño recibido",
+     "before": "100%",
+     "after": "95%",
+     "text": "Daño recibido: 100% ⇒ 95%",
+     "id": "8dece13b6404",
+     "section": "modes",
+     "tags": [
+      "Tank",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Bots Apocalípticos",
+     "sectionId": "patch-doom-bots",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Nunu",
+      "name": "Nunu y Willump"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Tenacidad",
+     "before": "0",
+     "after": "25",
+     "text": "Tenacidad: 0 ⇒ 25",
+     "id": "aefa5f2a98c3",
+     "section": "modes",
+     "tags": [
+      "Tank",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.11",
+   "publishedAt": "2025-05-27T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Pelea",
+     "sectionId": "patch-brawl",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Nunu",
+      "name": "Nunu y Willump"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño recibido",
+     "before": "100%",
+     "after": "95%",
+     "text": "Daño recibido: 100% ⇒ 95%",
+     "id": "b2fd6180da0e",
+     "section": "modes",
+     "tags": [
+      "Tank",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  }
+ ]
+}

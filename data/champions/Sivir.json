@@ -1,0 +1,402 @@
+{
+ "schemaVersion": 1,
+ "id": "Sivir",
+ "name": "Sivir",
+ "tags": [
+  "Marksman"
+ ],
+ "entries": [
+  {
+   "patch": "26.23",
+   "publishedAt": "2026-11-17T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "ARAM: Caos",
+     "sectionId": "patch-aram:-mayhem",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Sivir",
+      "name": "Sivir"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño infligido",
+     "before": "93%",
+     "after": "95%",
+     "text": "Daño infligido: 93% ⇒ 95%",
+     "id": "38f7e150004e",
+     "section": "modes",
+     "tags": [
+      "Marksman"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "ARAM: Caos",
+     "sectionId": "patch-aram:-mayhem",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Sivir",
+      "name": "Sivir"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño recibido",
+     "before": "105%",
+     "after": "100%",
+     "text": "Daño recibido: 105% ⇒ 100%",
+     "id": "0d1593b86b16",
+     "section": "modes",
+     "tags": [
+      "Marksman"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "26.2",
+   "publishedAt": "2026-01-21T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Sivir",
+      "name": "Sivir"
+     },
+     "part": "base",
+     "partTitle": "Estadísticas básicas",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Crecimiento de Velocidad de Ataque",
+     "before": "2%",
+     "after": "1.6%",
+     "text": "Crecimiento de Velocidad de Ataque: 2% ⇒ 1.6%",
+     "id": "7ed9841c511d",
+     "section": "champions",
+     "tags": [
+      "Marksman"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Sivir",
+      "name": "Sivir"
+     },
+     "part": "base",
+     "partTitle": "Estadísticas básicas",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Crecimiento de Armadura",
+     "before": "4.45",
+     "after": "4.0",
+     "text": "Crecimiento de Armadura: 4.45 ⇒ 4.0",
+     "id": "290545d5a2c2",
+     "section": "champions",
+     "tags": [
+      "Marksman"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "26.1",
+   "publishedAt": "2026-01-07T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Sivir",
+      "name": "Sivir"
+     },
+     "part": "Q",
+     "partTitle": "Q: Cuchilla Bumerán",
+     "spellKey": "SivirQ",
+     "kind": "stat",
+     "attribute": "Daño",
+     "before": "60 / 85 / 110 / 135 / 160 (+ 85% de Daño de Ataque adicional)",
+     "after": "60 / 85 / 110 / 135 / 160 (+ 70% de Daño de Ataque adicional)",
+     "text": "Daño: 60 / 85 / 110 / 135 / 160 (+ 85% de Daño de Ataque adicional) ⇒ 60 / 85 / 110 / 135 / 160 (+ 70% de Daño de Ataque adicional)",
+     "id": "3d28b4115bc6",
+     "section": "champions",
+     "tags": [
+      "Marksman"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Sivir",
+      "name": "Sivir"
+     },
+     "part": "Q",
+     "partTitle": "Q: Cuchilla Bumerán",
+     "spellKey": "SivirQ",
+     "kind": "stat",
+     "attribute": "Progresión de daño de golpe crítico",
+     "before": "Hasta ×1.5",
+     "after": "40%, ×1.4 / ×1.52",
+     "text": "Progresión de daño de golpe crítico: Hasta ×1.5 ⇒ 40%, ×1.4 / ×1.52",
+     "id": "90b1151f2565",
+     "section": "champions",
+     "tags": [
+      "Marksman"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.19",
+   "publishedAt": "2025-09-23T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Sivir",
+      "name": "Sivir"
+     },
+     "part": "Q",
+     "partTitle": "Q: Cuchilla Bumerán",
+     "spellKey": "SivirQ",
+     "kind": "stat",
+     "attribute": "Daño inicial",
+     "before": "60 / 85 / 110 / 135 / 160 (+ 100% de Daño de Ataque adicional)",
+     "after": "60 / 85 / 110 / 135 / 160 (+ 85% de Daño de Ataque adicional)",
+     "text": "Daño inicial: 60 / 85 / 110 / 135 / 160 (+ 100% de Daño de Ataque adicional) ⇒ 60 / 85 / 110 / 135 / 160 (+ 85% de Daño de Ataque adicional)",
+     "id": "4724e2df84ba",
+     "section": "champions",
+     "tags": [
+      "Marksman"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.11",
+   "publishedAt": "2025-05-27T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Sivir",
+      "name": "Sivir"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Aumentamos el daño del rebote de su W en los niveles inferiores.",
+     "id": "2c5767109806",
+     "section": "champions",
+     "tags": [
+      "Marksman"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Sivir",
+      "name": "Sivir"
+     },
+     "part": "W",
+     "partTitle": "W: Rebote",
+     "spellKey": "SivirW",
+     "kind": "stat",
+     "attribute": "Daño del rebote",
+     "before": "30 / 35 / 40 / 45 / 50% de Daño de Ataque",
+     "after": "40 / 42.5 / 45 / 47.5 / 50% de Daño de Ataque",
+     "text": "Daño del rebote: 30 / 35 / 40 / 45 / 50% de Daño de Ataque ⇒ 40 / 42.5 / 45 / 47.5 / 50% de Daño de Ataque",
+     "id": "a35b035a8670",
+     "section": "champions",
+     "tags": [
+      "Marksman"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.8",
+   "publishedAt": "2025-04-15T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "ARAM",
+     "sectionId": "patch-aram",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Sivir",
+      "name": "Sivir"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño infligido",
+     "before": "90%",
+     "after": "93%",
+     "text": "Daño infligido: 90% ⇒ 93%",
+     "id": "4e1e2ede2d9c",
+     "section": "modes",
+     "tags": [
+      "Marksman"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.4",
+   "publishedAt": "2025-02-19T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "URFAR",
+     "sectionId": "patch-arurf",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Sivir",
+      "name": "Sivir"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño recibido",
+     "before": "100%",
+     "after": "105%",
+     "text": "Daño recibido: 100% ⇒ 105%",
+     "id": "b6d64cc729c5",
+     "section": "modes",
+     "tags": [
+      "Marksman"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.S1.3",
+   "publishedAt": "2025-02-04T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Sistemas",
+     "sectionId": "patch-systems",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Sivir",
+      "name": "Sivir"
+     },
+     "part": "Debilitaciones a campeones",
+     "partTitle": "Debilitaciones a campeones",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño Infligido",
+     "before": "90%",
+     "after": "85%",
+     "text": "Sivir: Daño Infligido: 90% ⇒ 85%",
+     "id": "0f65877822a7",
+     "section": "champions",
+     "tags": [
+      "Marksman"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.S1.2",
+   "publishedAt": "2025-01-22T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Partida Casual",
+     "sectionId": "patch-swiftplay",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Sivir",
+      "name": "Sivir"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Crecimiento de Velocidad de Ataque",
+     "before": "2%",
+     "after": "2.5%",
+     "text": "Crecimiento de Velocidad de Ataque: 2% ⇒ 2.5%",
+     "id": "e61fc9bc4a24",
+     "section": "champions",
+     "tags": [
+      "Marksman"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  }
+ ]
+}

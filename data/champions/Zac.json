@@ -1,0 +1,332 @@
+{
+ "schemaVersion": 1,
+ "id": "Zac",
+ "name": "Zac",
+ "tags": [
+  "Tank",
+  "Fighter"
+ ],
+ "entries": [
+  {
+   "patch": "26.15",
+   "publishedAt": "2026-07-28T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Zac",
+      "name": "Zac"
+     },
+     "part": "base",
+     "partTitle": "Estadísticas base",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Crecimiento de Armadura",
+     "before": "4.7",
+     "after": "5.2",
+     "text": "Crecimiento de Armadura: 4.7 ⇒ 5.2",
+     "id": "48d86c1926a4",
+     "section": "champions",
+     "tags": [
+      "Tank",
+      "Fighter"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Zac",
+      "name": "Zac"
+     },
+     "part": "E",
+     "partTitle": "E: Honda Elástica",
+     "spellKey": "ZacE",
+     "kind": "stat",
+     "attribute": "Enfriamiento",
+     "before": "22 / 19 / 16 / 13 / 10",
+     "after": "21 / 18 / 15 / 12 / 9",
+     "text": "Enfriamiento: 22 / 19 / 16 / 13 / 10 ⇒ 21 / 18 / 15 / 12 / 9",
+     "id": "520c99f3eeb8",
+     "section": "champions",
+     "tags": [
+      "Tank",
+      "Fighter"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Zac",
+      "name": "Zac"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "W: Materia Inestable",
+     "id": "52112881576e",
+     "section": "modes",
+     "tags": [
+      "Tank",
+      "Fighter"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Zac",
+      "name": "Zac"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Enfriamiento de Arena",
+     "before": "6",
+     "after": "5",
+     "text": "Enfriamiento de Arena: 6 ⇒ 5",
+     "id": "13f7104620d5",
+     "section": "modes",
+     "tags": [
+      "Tank",
+      "Fighter"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "26.4",
+   "publishedAt": "2026-02-18T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Zac",
+      "name": "Zac"
+     },
+     "part": "Q",
+     "partTitle": "Q: Golpes de Estiramiento",
+     "spellKey": "ZacQ",
+     "kind": "stat",
+     "attribute": "Daño por impacto",
+     "before": "40 / 55 / 70 / 85 / 100 (+ 30% de PH) (+ 3% de la Vida Máxima de Zac)",
+     "after": "60 / 90 / 120 / 150 / 180 (+ 30% de PH) (+ 3% de la Vida adicional de Zac)",
+     "text": "Daño por impacto: 40 / 55 / 70 / 85 / 100 (+ 30% de PH) (+ 3% de la Vida Máxima de Zac) ⇒ 60 / 90 / 120 / 150 / 180 (+ 30% de PH) (+ 3% de la Vida adicional de Zac)",
+     "id": "63c264da7a86",
+     "section": "champions",
+     "tags": [
+      "Tank",
+      "Fighter"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Zac",
+      "name": "Zac"
+     },
+     "part": "R",
+     "partTitle": "R: ¡Rebotemos!",
+     "spellKey": "ZacR",
+     "kind": "stat",
+     "attribute": "Daño básico inicial",
+     "before": "140 / 210 / 280",
+     "after": "120 / 190 / 260",
+     "text": "Daño básico inicial: 140 / 210 / 280 ⇒ 120 / 190 / 260",
+     "id": "a72cbda42db9",
+     "section": "champions",
+     "tags": [
+      "Tank",
+      "Fighter"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Zac",
+      "name": "Zac"
+     },
+     "part": "R",
+     "partTitle": "R: ¡Rebotemos!",
+     "spellKey": "ZacR",
+     "kind": "stat",
+     "attribute": "Daño básico máximo",
+     "before": "350 / 525 / 700",
+     "after": "300 / 475 / 650",
+     "text": "Daño básico máximo: 350 / 525 / 700 ⇒ 300 / 475 / 650",
+     "id": "126698f1ca1d",
+     "section": "champions",
+     "tags": [
+      "Tank",
+      "Fighter"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.18",
+   "publishedAt": "2025-09-09T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Zac",
+      "name": "Zac"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Añadimos el efecto Fantasma a su R.",
+     "id": "3ca8a2f79147",
+     "section": "champions",
+     "tags": [
+      "Tank",
+      "Fighter"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Zac",
+      "name": "Zac"
+     },
+     "part": "R",
+     "partTitle": "R: ¡Rebotemos!",
+     "spellKey": "ZacR",
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Fantasmagórico: Ahora, Zac se vuelve Fantasma durante su definitiva",
+     "id": "4addbf788ba0",
+     "section": "champions",
+     "tags": [
+      "Tank",
+      "Fighter"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.11",
+   "publishedAt": "2025-05-27T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Pelea",
+     "sectionId": "patch-brawl",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Zac",
+      "name": "Zac"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño recibido",
+     "before": "100%",
+     "after": "95%",
+     "text": "Daño recibido: 100% ⇒ 95%",
+     "id": "7d3fff23bda1",
+     "section": "modes",
+     "tags": [
+      "Tank",
+      "Fighter"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Pelea",
+     "sectionId": "patch-brawl",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Zac",
+      "name": "Zac"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Aceleración de Habilidad",
+     "before": "0",
+     "after": "10",
+     "text": "Aceleración de Habilidad: 0 ⇒ 10",
+     "id": "5a117b0d4fe5",
+     "section": "modes",
+     "tags": [
+      "Tank",
+      "Fighter"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  }
+ ]
+}

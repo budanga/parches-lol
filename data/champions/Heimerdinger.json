@@ -1,0 +1,212 @@
+{
+ "schemaVersion": 1,
+ "id": "Heimerdinger",
+ "name": "Heimerdinger",
+ "tags": [
+  "Mage",
+  "Support"
+ ],
+ "entries": [
+  {
+   "patch": "26.11",
+   "publishedAt": "2026-05-27T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Heimerdinger",
+      "name": "Heimerdinger"
+     },
+     "part": "Q",
+     "partTitle": "Q: Torreta Evolutiva H-28 G",
+     "spellKey": "HeimerdingerQ",
+     "kind": "stat",
+     "attribute": "Alcance de ataque de las torretas",
+     "before": "530",
+     "after": "550",
+     "text": "Alcance de ataque de las torretas: 530 ⇒ 550",
+     "id": "8dc6fbf78def",
+     "section": "champions",
+     "tags": [
+      "Mage",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Heimerdinger",
+      "name": "Heimerdinger"
+     },
+     "part": "Q",
+     "partTitle": "Q: Torreta Evolutiva H-28 G",
+     "spellKey": "HeimerdingerQ",
+     "kind": "stat",
+     "attribute": "Alcance de visión de las torretas",
+     "before": "585",
+     "after": "650",
+     "text": "Alcance de visión de las torretas: 585 ⇒ 650",
+     "id": "7565d89fe5ae",
+     "section": "champions",
+     "tags": [
+      "Mage",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Heimerdinger",
+      "name": "Heimerdinger"
+     },
+     "part": "Q",
+     "partTitle": "Q: Torreta Evolutiva H-28 G",
+     "spellKey": "HeimerdingerQ",
+     "kind": "new",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "NUEVO Alcance de la torreta: Las torretas ahora obtienen 50 de alcance adicional contra súbditos si no tienen otros objetivos en su alcance",
+     "id": "45ff075ed315",
+     "section": "champions",
+     "tags": [
+      "Mage",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Heimerdinger",
+      "name": "Heimerdinger"
+     },
+     "part": "E",
+     "partTitle": "E: Granada de Tormenta de Electrones CH-2",
+     "spellKey": "HeimerdingerE",
+     "kind": "stat",
+     "attribute": "Visión de la ubicación del objetivo",
+     "before": "1 seg",
+     "after": "1.25 seg",
+     "text": "Visión de la ubicación del objetivo: 1 seg ⇒ 1.25 seg",
+     "id": "9b8234fa7933",
+     "section": "champions",
+     "tags": [
+      "Mage",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "26.3",
+   "publishedAt": "2026-02-03T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Heimerdinger",
+      "name": "Heimerdinger"
+     },
+     "part": "base",
+     "partTitle": "Estadísticas básicas",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Crecimiento de Vida",
+     "before": "101",
+     "after": "105",
+     "text": "Crecimiento de Vida: 101 ⇒ 105",
+     "id": "2d08bb5a0857",
+     "section": "champions",
+     "tags": [
+      "Mage",
+      "Support"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Heimerdinger",
+      "name": "Heimerdinger"
+     },
+     "part": "W",
+     "partTitle": "W: Microcohetes Hextech",
+     "spellKey": "HeimerdingerW",
+     "kind": "stat",
+     "attribute": "Daño del primer impacto",
+     "before": "40 / 65 / 90 / 115 / 140 (+ 55% de Poder de Habilidad)",
+     "after": "50 / 75 / 100 / 125 / 150 (+ 55% de Poder de Habilidad)",
+     "text": "Daño del primer impacto: 40 / 65 / 90 / 115 / 140 (+ 55% de Poder de Habilidad) ⇒ 50 / 75 / 100 / 125 / 150 (+ 55% de Poder de Habilidad)",
+     "id": "ddbb2bc4d631",
+     "section": "champions",
+     "tags": [
+      "Mage",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Heimerdinger",
+      "name": "Heimerdinger"
+     },
+     "part": "W",
+     "partTitle": "W: Microcohetes Hextech",
+     "spellKey": "HeimerdingerW",
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Daño de los impactos posteriores: Sin cambios",
+     "id": "adae12b5fa16",
+     "section": "champions",
+     "tags": [
+      "Mage",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  }
+ ]
+}

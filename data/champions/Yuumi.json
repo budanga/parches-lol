@@ -1,0 +1,860 @@
+{
+ "schemaVersion": 1,
+ "id": "Yuumi",
+ "name": "Yuumi",
+ "tags": [
+  "Support",
+  "Mage"
+ ],
+ "entries": [
+  {
+   "patch": "26.21",
+   "publishedAt": "2026-10-20T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Yuumi",
+      "name": "Yuumi"
+     },
+     "part": "W",
+     "partTitle": "W: ¡Tú y yo!",
+     "spellKey": "YuumiW",
+     "kind": "stat",
+     "attribute": "Poder de curaciones y escudos",
+     "before": "10 - 25%",
+     "after": "4 - 8%",
+     "text": "Poder de curaciones y escudos: 10 - 25% ⇒ 4 - 8%",
+     "id": "af27e52064f6",
+     "section": "modes",
+     "tags": [
+      "Support",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "26.12",
+   "publishedAt": "2026-06-09T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Yuumi",
+      "name": "Yuumi"
+     },
+     "part": "P",
+     "partTitle": "Pasiva: Amistad Felina",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Cantidad de Curación",
+     "before": "20 - 110 (+25% de Poder de Habilidad) (Niveles 1 - 18)",
+     "after": "20 - 110 (+30% de Poder de Habilidad) (Niveles 1 - 18)",
+     "text": "Cantidad de Curación: 20 - 110 (+25% de Poder de Habilidad) (Niveles 1 - 18) ⇒ 20 - 110 (+30% de Poder de Habilidad) (Niveles 1 - 18)",
+     "id": "4dae829fd9ed",
+     "section": "champions",
+     "tags": [
+      "Support",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Yuumi",
+      "name": "Yuumi"
+     },
+     "part": "E",
+     "partTitle": "E: Zoomies",
+     "spellKey": "YuumiE",
+     "kind": "stat",
+     "attribute": "Cantidad de escudo",
+     "before": "65 / 90 / 115 / 140 / 165 (+30% de Poder de Habilidad)",
+     "after": "65 / 90 / 115 / 140 / 165 (+40% de Poder de Habilidad)",
+     "text": "Cantidad de escudo: 65 / 90 / 115 / 140 / 165 (+30% de Poder de Habilidad) ⇒ 65 / 90 / 115 / 140 / 165 (+40% de Poder de Habilidad)",
+     "id": "c53ff50c80fa",
+     "section": "champions",
+     "tags": [
+      "Support",
+      "Mage"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "26.8",
+   "publishedAt": "2026-04-14T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Yuumi",
+      "name": "Yuumi"
+     },
+     "part": "R",
+     "partTitle": "R: Últimas Páginas",
+     "spellKey": "YuumiR",
+     "kind": "stat",
+     "attribute": "Curación por oleada",
+     "before": "30 / 40 / 50 (+ 10% de Poder de Habilidad)",
+     "after": "30 / 50 / 70 (+ 12% de Poder de Habilidad)",
+     "text": "Curación por oleada: 30 / 40 / 50 (+ 10% de Poder de Habilidad) ⇒ 30 / 50 / 70 (+ 12% de Poder de Habilidad)",
+     "id": "9436f3b7f4e5",
+     "section": "champions",
+     "tags": [
+      "Support",
+      "Mage"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Yuumi",
+      "name": "Yuumi"
+     },
+     "part": "R",
+     "partTitle": "R: Últimas Páginas",
+     "spellKey": "YuumiR",
+     "kind": "stat",
+     "attribute": "Curación mejorada de Mejor Amigui",
+     "before": "30% más de curación",
+     "after": "De 30 a 60% más de curación (niveles 6 a 12)",
+     "text": "Curación mejorada de Mejor Amigui: 30% más de curación ⇒ De 30 a 60% más de curación (niveles 6 a 12)",
+     "id": "c07de7d2abf9",
+     "section": "champions",
+     "tags": [
+      "Support",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Yuumi",
+      "name": "Yuumi"
+     },
+     "part": "R",
+     "partTitle": "R: Últimas Páginas",
+     "spellKey": "YuumiR",
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Corrección de error: el aliado vinculado ya no recibe una curación adicional cada vez que se cura a otro aliado con Últimas Páginas",
+     "id": "6d7e7da353f4",
+     "section": "champions",
+     "tags": [
+      "Support",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Yuumi",
+      "name": "Yuumi"
+     },
+     "part": "R",
+     "partTitle": "R: Últimas Páginas",
+     "spellKey": "YuumiR",
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Corrección de error: el escudo de sobrecuración que otorga Últimas Páginas ahora toma en cuenta el poder de Curación y Escudo, así como las Heridas Graves",
+     "id": "dd211c43042b",
+     "section": "champions",
+     "tags": [
+      "Support",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.16",
+   "publishedAt": "2025-08-12T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Yuumi",
+      "name": "Yuumi"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Redujimos el daño de su Q. Redujimos tanto el poder de curaciones y escudos como la curación al impacto de su W.",
+     "id": "01d75167eb24",
+     "section": "champions",
+     "tags": [
+      "Support",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Yuumi",
+      "name": "Yuumi"
+     },
+     "part": "Q",
+     "partTitle": "Q: Proyectil Acechador",
+     "spellKey": "YuumiQ",
+     "kind": "stat",
+     "attribute": "Daño básico potenciado",
+     "before": "80 / 140 / 200 / 260 / 320 / 380",
+     "after": "80 / 135 / 190 / 245 / 300 / 355",
+     "text": "Daño básico potenciado: 80 / 140 / 200 / 260 / 320 / 380 ⇒ 80 / 135 / 190 / 245 / 300 / 355",
+     "id": "69527f167181",
+     "section": "champions",
+     "tags": [
+      "Support",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Yuumi",
+      "name": "Yuumi"
+     },
+     "part": "W",
+     "partTitle": "W: ¡Tú y Yo!",
+     "spellKey": "YuumiW",
+     "kind": "stat",
+     "attribute": "Poder de curaciones y escudos",
+     "before": "5% / 7.5% / 10% / 12.5% / 15%",
+     "after": "4% / 5% /6% / 7% / 8%",
+     "text": "Poder de curaciones y escudos: 5% / 7.5% / 10% / 12.5% / 15% ⇒ 4% / 5% /6% / 7% / 8%",
+     "id": "b72245dd2d6b",
+     "section": "champions",
+     "tags": [
+      "Support",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Yuumi",
+      "name": "Yuumi"
+     },
+     "part": "W",
+     "partTitle": "W: ¡Tú y Yo!",
+     "spellKey": "YuumiW",
+     "kind": "stat",
+     "attribute": "Curación al impacto",
+     "before": "3 / 5 / 7 / 9 / 11 (+ 4% de Poder de Habilidad)",
+     "after": "3 / 4 / 5 / 6 / 7 (+ 3% de Poder de Habilidad)",
+     "text": "Curación al impacto: 3 / 5 / 7 / 9 / 11 (+ 4% de Poder de Habilidad) ⇒ 3 / 4 / 5 / 6 / 7 (+ 3% de Poder de Habilidad)",
+     "id": "4319573ad4ad",
+     "section": "champions",
+     "tags": [
+      "Support",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.14",
+   "publishedAt": "2025-07-15T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Yuumi",
+      "name": "Yuumi"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Redujimos la curación de su R por impacto.",
+     "id": "e31ddfbd81b3",
+     "section": "champions",
+     "tags": [
+      "Support",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Yuumi",
+      "name": "Yuumi"
+     },
+     "part": "R",
+     "partTitle": "R: Últimas Páginas",
+     "spellKey": "YuumiR",
+     "kind": "stat",
+     "attribute": "Curación por impacto",
+     "before": "30 / 40 / 50 (+ 15% de Poder de Habilidad)",
+     "after": "30 / 40 / 50 (+ 10% de Poder de Habilidad)",
+     "text": "Curación por impacto: 30 / 40 / 50 (+ 15% de Poder de Habilidad) ⇒ 30 / 40 / 50 (+ 10% de Poder de Habilidad)",
+     "id": "c47eb5c5cb54",
+     "section": "champions",
+     "tags": [
+      "Support",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.10",
+   "publishedAt": "2025-05-13T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Yuumi",
+      "name": "Yuumi"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Redujimos la curación de su R.",
+     "id": "d12c983b0858",
+     "section": "champions",
+     "tags": [
+      "Support",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Yuumi",
+      "name": "Yuumi"
+     },
+     "part": "R",
+     "partTitle": "R: Últimas Páginas",
+     "spellKey": "YuumiR",
+     "kind": "stat",
+     "attribute": "Curación básica por golpe",
+     "before": "35 / 50 / 65",
+     "after": "30 / 40 / 50",
+     "text": "Curación básica por golpe: 35 / 50 / 65 ⇒ 30 / 40 / 50",
+     "id": "9db7f27b3d0a",
+     "section": "champions",
+     "tags": [
+      "Support",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.8",
+   "publishedAt": "2025-04-15T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Yuumi",
+      "name": "Yuumi"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Redujimos la curación de su pasiva en los niveles bajos. Redujimos el escudo de su E.",
+     "id": "c977a885dcdc",
+     "section": "champions",
+     "tags": [
+      "Support",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Yuumi",
+      "name": "Yuumi"
+     },
+     "part": "P",
+     "partTitle": "Pasiva: Amistad Felina",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Curación",
+     "before": "de 25 a 110 (según el nivel) (+ 25% de Poder de Habilidad)",
+     "after": "de 20 a 110 (según el nivel) (+ 25% de Poder de Habilidad)",
+     "text": "Curación: de 25 a 110 (según el nivel) (+ 25% de Poder de Habilidad) ⇒ de 20 a 110 (según el nivel) (+ 25% de Poder de Habilidad)",
+     "id": "9ad3d98af305",
+     "section": "champions",
+     "tags": [
+      "Support",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Yuumi",
+      "name": "Yuumi"
+     },
+     "part": "E",
+     "partTitle": "E: Zoomies",
+     "spellKey": "YuumiE",
+     "kind": "stat",
+     "attribute": "Escudo",
+     "before": "80 / 105 / 130 / 155 / 180 (+ 30% de Poder de Habilidad)",
+     "after": "65 / 90 / 115 / 140 / 165 (+ 30% de Poder de Habilidad)",
+     "text": "Escudo: 80 / 105 / 130 / 155 / 180 (+ 30% de Poder de Habilidad) ⇒ 65 / 90 / 115 / 140 / 165 (+ 30% de Poder de Habilidad)",
+     "id": "cf034d40a36b",
+     "section": "champions",
+     "tags": [
+      "Support",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.7",
+   "publishedAt": "2025-04-01T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "ARAM",
+     "sectionId": "patch-aram",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Yuumi",
+      "name": "Yuumi"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño infligido",
+     "before": "105%",
+     "after": "100%",
+     "text": "Daño infligido: 105% ⇒ 100%",
+     "id": "64661b1cb7f8",
+     "section": "modes",
+     "tags": [
+      "Support",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.6",
+   "publishedAt": "2025-03-18T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Yuumi",
+      "name": "Yuumi"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": null,
+     "before": "Q: Proyectil Acechador: Tasa de Poder de Habilidad de la Q normal: 0.25 de Poder de Habilidad",
+     "after": "0.40 de Poder de Habilidad",
+     "text": "Q: Proyectil Acechador: Tasa de Poder de Habilidad de la Q normal: 0.25 de Poder de Habilidad ⇒ 0.40 de Poder de Habilidad",
+     "id": "949b7ee04d26",
+     "section": "modes",
+     "tags": [
+      "Support",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Yuumi",
+      "name": "Yuumi"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": null,
+     "before": "Q: Proyectil Acechador: Daño cargado: 80-380 (+0.35 de Poder de Habilidad)",
+     "after": "100-400 (0.60 de Poder de Habilidad)",
+     "text": "Q: Proyectil Acechador: Daño cargado: 80-380 (+0.35 de Poder de Habilidad) ⇒ 100-400 (0.60 de Poder de Habilidad)",
+     "id": "28db854ab2bc",
+     "section": "modes",
+     "tags": [
+      "Support",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Yuumi",
+      "name": "Yuumi"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": null,
+     "before": "Q: Proyectil Acechador: Enfriamiento: 6.5 seg",
+     "after": "5 seg",
+     "text": "Q: Proyectil Acechador: Enfriamiento: 6.5 seg ⇒ 5 seg",
+     "id": "cd664ecf4e3b",
+     "section": "modes",
+     "tags": [
+      "Support",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.S1.3",
+   "publishedAt": "2025-02-04T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Sistemas",
+     "sectionId": "patch-systems",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Yuumi",
+      "name": "Yuumi"
+     },
+     "part": "Mejoras a campeones",
+     "partTitle": "Mejoras a campeones",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño infligido",
+     "before": "65%",
+     "after": "75%",
+     "text": "Yuumi: Daño infligido: 65% ⇒ 75%",
+     "id": "6b9ca527f409",
+     "section": "champions",
+     "tags": [
+      "Support",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Sistemas",
+     "sectionId": "patch-systems",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Yuumi",
+      "name": "Yuumi"
+     },
+     "part": "Mejoras a campeones",
+     "partTitle": "Mejoras a campeones",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño recibido",
+     "before": "120%",
+     "after": "90%",
+     "text": "Yuumi: Daño recibido: 120% ⇒ 90%",
+     "id": "ee868bbcb031",
+     "section": "champions",
+     "tags": [
+      "Support",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.S1.2",
+   "publishedAt": "2025-01-22T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Yuumi",
+      "name": "Yuumi"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Aumentamos la curación de su pasiva; redujimos su enfriamiento en los niveles más altos. Aumentamos el daño de su R.",
+     "id": "d80a6c8cf21b",
+     "section": "champions",
+     "tags": [
+      "Support",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Yuumi",
+      "name": "Yuumi"
+     },
+     "part": "P",
+     "partTitle": "Pasiva: Amistad Felina",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Curación",
+     "before": "25 a 110 (según el nivel) (+15% de Poder de Habilidad)",
+     "after": "25 a 110 (según el nivel) (+25% de Poder de Habilidad)",
+     "text": "Curación: 25 a 110 (según el nivel) (+15% de Poder de Habilidad) ⇒ 25 a 110 (según el nivel) (+25% de Poder de Habilidad)",
+     "id": "ec58a0a5b05d",
+     "section": "champions",
+     "tags": [
+      "Support",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Yuumi",
+      "name": "Yuumi"
+     },
+     "part": "P",
+     "partTitle": "Pasiva: Amistad Felina",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Enfriamiento",
+     "before": "20 a 10 (según el nivel) (al nivel 11)",
+     "after": "20 a 8 (según el nivel) (al nivel 13)",
+     "text": "Enfriamiento: 20 a 10 (según el nivel) (al nivel 11) ⇒ 20 a 8 (según el nivel) (al nivel 13)",
+     "id": "6838ae698e0d",
+     "section": "champions",
+     "tags": [
+      "Support",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Yuumi",
+      "name": "Yuumi"
+     },
+     "part": "R",
+     "partTitle": "R: Últimas Páginas",
+     "spellKey": "YuumiR",
+     "kind": "stat",
+     "attribute": "Daño",
+     "before": "75/100/125 (+20% de Poder de Habilidad)",
+     "after": "75/125/175 (+25% de Poder de Habilidad)",
+     "text": "Daño: 75/100/125 (+20% de Poder de Habilidad) ⇒ 75/125/175 (+25% de Poder de Habilidad)",
+     "id": "92aa6f2301b2",
+     "section": "champions",
+     "tags": [
+      "Support",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Yuumi",
+      "name": "Yuumi"
+     },
+     "part": "R",
+     "partTitle": "R: Últimas Páginas",
+     "spellKey": "YuumiR",
+     "kind": "stat",
+     "attribute": "Daño prolongado a lo largo de 5 oleadas",
+     "before": "75 a 250 (+40% de Poder de Habilidad)",
+     "after": "75 a 350 (+50% de Poder de Habilidad)",
+     "text": "Daño prolongado a lo largo de 5 oleadas: 75 a 250 (+40% de Poder de Habilidad) ⇒ 75 a 350 (+50% de Poder de Habilidad)",
+     "id": "14fab00cfdbe",
+     "section": "champions",
+     "tags": [
+      "Support",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  }
+ ]
+}

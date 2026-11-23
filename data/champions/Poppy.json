@@ -1,0 +1,566 @@
+{
+ "schemaVersion": 1,
+ "id": "Poppy",
+ "name": "Poppy",
+ "tags": [
+  "Tank",
+  "Fighter"
+ ],
+ "entries": [
+  {
+   "patch": "26.19",
+   "publishedAt": "2026-09-22T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Poppy",
+      "name": "Poppy"
+     },
+     "part": "Q",
+     "partTitle": "Q: Impacto de Martillo",
+     "spellKey": "PoppyQ",
+     "kind": "stat",
+     "attribute": "Límite de Vida Máxima de súbdito o monstruo",
+     "before": "85 / 120 / 155 / 190 / 225",
+     "after": "70 / 105 / 140 / 175 / 210",
+     "text": "Límite de Vida Máxima de súbdito o monstruo: 85 / 120 / 155 / 190 / 225 ⇒ 70 / 105 / 140 / 175 / 210",
+     "id": "a22dd4ade38c",
+     "section": "champions",
+     "tags": [
+      "Tank",
+      "Fighter"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "26.18",
+   "publishedAt": "2026-09-09T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Classic",
+     "sectionId": "patch-classic",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Poppy",
+      "name": "Poppy"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "new",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "NUEVO Poppy",
+     "id": "b4fc2147d9f9",
+     "section": "modes",
+     "tags": [
+      "Tank",
+      "Fighter"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "26.16",
+   "publishedAt": "2026-08-11T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Poppy",
+      "name": "Poppy"
+     },
+     "part": "base",
+     "partTitle": "Estadísticas base",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño de Ataque",
+     "before": "60",
+     "after": "56",
+     "text": "Daño de Ataque: 60 ⇒ 56",
+     "id": "4b5711c30e2f",
+     "section": "champions",
+     "tags": [
+      "Tank",
+      "Fighter"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Poppy",
+      "name": "Poppy"
+     },
+     "part": "base",
+     "partTitle": "Estadísticas base",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Regeneración de Vida",
+     "before": "8",
+     "after": "9",
+     "text": "Regeneración de Vida: 8 ⇒ 9",
+     "id": "eeb24e5b7833",
+     "section": "champions",
+     "tags": [
+      "Tank",
+      "Fighter"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Poppy",
+      "name": "Poppy"
+     },
+     "part": "base",
+     "partTitle": "Estadísticas base",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Maná",
+     "before": "280 + 40 por nivel",
+     "after": "300 + 45 por nivel",
+     "text": "Maná: 280 + 40 por nivel ⇒ 300 + 45 por nivel",
+     "id": "e98eaaacb5cd",
+     "section": "champions",
+     "tags": [
+      "Tank",
+      "Fighter"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Poppy",
+      "name": "Poppy"
+     },
+     "part": "Q",
+     "partTitle": "Q: Impacto de Martillo",
+     "spellKey": "PoppyQ",
+     "kind": "stat",
+     "attribute": "Daño",
+     "before": "30 / 55 / 80 / 105 / 130 (+ 100% de Daño de Ataque adicional) (+ 9% de la Vida Máxima del objetivo), dos veces",
+     "after": "30 / 55 / 80 / 105 / 130 (+ 75% de Daño de Ataque adicional) (+ 7 / 7.5 / 8 / 8.5 / 9% de la Vida Máxima del objetivo), dos veces",
+     "text": "Daño: 30 / 55 / 80 / 105 / 130 (+ 100% de Daño de Ataque adicional) (+ 9% de la Vida Máxima del objetivo), dos veces ⇒ 30 / 55 / 80 / 105 / 130 (+ 75% de Daño de Ataque adicional) (+ 7 / 7.5 / 8 / 8.5 / 9% de la Vida Máxima del objetivo), dos veces",
+     "id": "130a935317bd",
+     "section": "champions",
+     "tags": [
+      "Tank",
+      "Fighter"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Poppy",
+      "name": "Poppy"
+     },
+     "part": "Q",
+     "partTitle": "Q: Impacto de Martillo",
+     "spellKey": "PoppyQ",
+     "kind": "stat",
+     "attribute": "Límite de Vida Máxima del objetivo contra monstruos",
+     "before": "75 / 105 / 135 / 165 / 195",
+     "after": "85 / 120 / 155 / 190 / 225",
+     "text": "Límite de Vida Máxima del objetivo contra monstruos: 75 / 105 / 135 / 165 / 195 ⇒ 85 / 120 / 155 / 190 / 225",
+     "id": "3510487b4982",
+     "section": "champions",
+     "tags": [
+      "Tank",
+      "Fighter"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Poppy",
+      "name": "Poppy"
+     },
+     "part": "Q",
+     "partTitle": "Q: Impacto de Martillo",
+     "spellKey": "PoppyQ",
+     "kind": "stat",
+     "attribute": "Valor de la ralentización",
+     "before": "20 / 25 / 30 / 35 / 40%",
+     "after": "20 / 23 / 26 / 29 / 32% (+ 8% por cada 1000 de Vida adicional)",
+     "text": "Valor de la ralentización: 20 / 25 / 30 / 35 / 40% ⇒ 20 / 23 / 26 / 29 / 32% (+ 8% por cada 1000 de Vida adicional)",
+     "id": "2518d1c029b0",
+     "section": "champions",
+     "tags": [
+      "Tank",
+      "Fighter"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Poppy",
+      "name": "Poppy"
+     },
+     "part": "W",
+     "partTitle": "W: Presencia Inalterable",
+     "spellKey": "PoppyW",
+     "kind": "stat",
+     "attribute": "Armadura y Resistencia Mágica total",
+     "before": "12%, se duplica por debajo del 40% de Vida Máxima",
+     "after": "16%, se duplica por debajo del 40% de Vida Máxima",
+     "text": "Armadura y Resistencia Mágica total: 12%, se duplica por debajo del 40% de Vida Máxima ⇒ 16%, se duplica por debajo del 40% de Vida Máxima",
+     "id": "c0763d2f7669",
+     "section": "champions",
+     "tags": [
+      "Tank",
+      "Fighter"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "26.13",
+   "publishedAt": "2026-06-23T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Poppy",
+      "name": "Poppy"
+     },
+     "part": "Q",
+     "partTitle": "Q: Impacto de Martillo",
+     "spellKey": "PoppyQ",
+     "kind": "stat",
+     "attribute": "Límite de daño contra monstruos",
+     "before": "50 / 80 / 110 / 140 / 170",
+     "after": "75 / 105 / 135 / 165 / 195",
+     "text": "Límite de daño contra monstruos: 50 / 80 / 110 / 140 / 170 ⇒ 75 / 105 / 135 / 165 / 195",
+     "id": "4822ac27ed76",
+     "section": "champions",
+     "tags": [
+      "Tank",
+      "Fighter"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.19",
+   "publishedAt": "2025-09-23T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Poppy",
+      "name": "Poppy"
+     },
+     "part": "Q",
+     "partTitle": "Q: Impacto de Martillo",
+     "spellKey": "PoppyQ",
+     "kind": "stat",
+     "attribute": "Límite de Vida Máxima como daño contra súbditos y monstruos",
+     "before": "75 / 105 / 135 / 165 / 195",
+     "after": "50 / 80 / 110 / 140 / 170",
+     "text": "Límite de Vida Máxima como daño contra súbditos y monstruos: 75 / 105 / 135 / 165 / 195 ⇒ 50 / 80 / 110 / 140 / 170",
+     "id": "73bd06c1dc43",
+     "section": "champions",
+     "tags": [
+      "Tank",
+      "Fighter"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Poppy",
+      "name": "Poppy"
+     },
+     "part": "R",
+     "partTitle": "R: Veredicto de la Guardiana",
+     "spellKey": "PoppyR",
+     "kind": "stat",
+     "attribute": "Enfriamiento si se interrumpe la canalización",
+     "before": "15 seg",
+     "after": "30 seg",
+     "text": "Enfriamiento si se interrumpe la canalización: 15 seg ⇒ 30 seg",
+     "id": "a5f560a75a12",
+     "section": "champions",
+     "tags": [
+      "Tank",
+      "Fighter"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.6",
+   "publishedAt": "2025-03-18T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Poppy",
+      "name": "Poppy"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Aumentamos el daño de su Q contra monstruos.",
+     "id": "ee67e9395471",
+     "section": "champions",
+     "tags": [
+      "Tank",
+      "Fighter"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Poppy",
+      "name": "Poppy"
+     },
+     "part": "Q",
+     "partTitle": "Q: Impacto de Martillo",
+     "spellKey": "PoppyQ",
+     "kind": "stat",
+     "attribute": "Límite de vida como daño contra monstruos",
+     "before": "50 / 80 / 110 / 140 / 170",
+     "after": "75 / 105 / 135 / 165 / 195",
+     "text": "Límite de vida como daño contra monstruos: 50 / 80 / 110 / 140 / 170 ⇒ 75 / 105 / 135 / 165 / 195",
+     "id": "d0ef7b4299a5",
+     "section": "champions",
+     "tags": [
+      "Tank",
+      "Fighter"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Poppy",
+      "name": "Poppy"
+     },
+     "part": "Q",
+     "partTitle": "Q: Impacto de Martillo",
+     "spellKey": "PoppyQ",
+     "kind": "stat",
+     "attribute": "Daño máximo contra monstruos",
+     "before": "80 / 135 / 190 / 245 / 300 (+ 100% de Daño de Ataque adicional)",
+     "after": "105 / 160 / 215 / 270 / 325 (+ 100% de Daño de Ataque adicional)",
+     "text": "Daño máximo contra monstruos: 80 / 135 / 190 / 245 / 300 (+ 100% de Daño de Ataque adicional) ⇒ 105 / 160 / 215 / 270 / 325 (+ 100% de Daño de Ataque adicional)",
+     "id": "756ac88c03e5",
+     "section": "champions",
+     "tags": [
+      "Tank",
+      "Fighter"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.5",
+   "publishedAt": "2025-03-04T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Poppy",
+      "name": "Poppy"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Aumentamos el crecimiento de su daño de ataque. Rediseñamos la fórmula del escudo de su pasiva. Redujimos el daño de su E.",
+     "id": "c2563a187c79",
+     "section": "champions",
+     "tags": [
+      "Tank",
+      "Fighter"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Poppy",
+      "name": "Poppy"
+     },
+     "part": "base",
+     "partTitle": "Estadísticas básicas",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Crecimiento de Vida",
+     "before": "104",
+     "after": "110",
+     "text": "Crecimiento de Vida: 104 ⇒ 110",
+     "id": "092ee9551f08",
+     "section": "champions",
+     "tags": [
+      "Tank",
+      "Fighter"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Poppy",
+      "name": "Poppy"
+     },
+     "part": "P",
+     "partTitle": "Pasiva: Embajadora de Hierro",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Escudo",
+     "before": "13/15.5/18% de la Vida Máxima al nivel 1/7/13",
+     "after": "de 11 a 20% de la Vida Máxima (según el nivel)",
+     "text": "Escudo: 13/15.5/18% de la Vida Máxima al nivel 1/7/13 ⇒ de 11 a 20% de la Vida Máxima (según el nivel)",
+     "id": "eff7f185eaa0",
+     "section": "champions",
+     "tags": [
+      "Tank",
+      "Fighter"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Poppy",
+      "name": "Poppy"
+     },
+     "part": "E",
+     "partTitle": "E: Carga Heroica",
+     "spellKey": "PoppyE",
+     "kind": "stat",
+     "attribute": "Daño máximo",
+     "before": "100/140/180/220/260 (+100% de Daño de Ataque adicional)",
+     "after": "80/120/160/200/240 (+120% de Daño de Ataque adicional)",
+     "text": "Daño máximo: 100/140/180/220/260 (+100% de Daño de Ataque adicional) ⇒ 80/120/160/200/240 (+120% de Daño de Ataque adicional)",
+     "id": "6ed50cd9a7f6",
+     "section": "champions",
+     "tags": [
+      "Tank",
+      "Fighter"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  }
+ ]
+}

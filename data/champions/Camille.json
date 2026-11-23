@@ -1,0 +1,392 @@
+{
+ "schemaVersion": 1,
+ "id": "Camille",
+ "name": "Camille",
+ "tags": [
+  "Fighter",
+  "Assassin"
+ ],
+ "entries": [
+  {
+   "patch": "26.16",
+   "publishedAt": "2026-08-11T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Camille",
+      "name": "Camille"
+     },
+     "part": "base",
+     "partTitle": "Estadísticas base",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Maná",
+     "before": "339",
+     "after": "375",
+     "text": "Maná: 339 ⇒ 375",
+     "id": "73f0e4801bff",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Camille",
+      "name": "Camille"
+     },
+     "part": "P",
+     "partTitle": "Pasiva: Defensas Flexibles",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Escudo",
+     "before": "20% de Vida Máxima",
+     "after": "10 / 15 / 20 / 25% de Vida Máxima (niveles 1 / 7 / 13 / 19)",
+     "text": "Escudo: 20% de Vida Máxima ⇒ 10 / 15 / 20 / 25% de Vida Máxima (niveles 1 / 7 / 13 / 19)",
+     "id": "d1c162d51b41",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Camille",
+      "name": "Camille"
+     },
+     "part": "P",
+     "partTitle": "Pasiva: Defensas Flexibles",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Enfriamiento",
+     "before": "18 / 14 / 10 / 6 seg (niveles 1 / 7 / 13 / 19)",
+     "after": "14 / 11 / 8 seg (niveles 1 / 7 / 13)",
+     "text": "Enfriamiento: 18 / 14 / 10 / 6 seg (niveles 1 / 7 / 13 / 19) ⇒ 14 / 11 / 8 seg (niveles 1 / 7 / 13)",
+     "id": "69c4f7f128b1",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Camille",
+      "name": "Camille"
+     },
+     "part": "W",
+     "partTitle": "W: Barrido Táctico",
+     "spellKey": "CamilleW",
+     "kind": "stat",
+     "attribute": "Enfriamiento",
+     "before": "15 / 14 / 13 / 12 / 11 seg",
+     "after": "12 / 11.5 / 11 / 10.5 / 10 seg",
+     "text": "Enfriamiento: 15 / 14 / 13 / 12 / 11 seg ⇒ 12 / 11.5 / 11 / 10.5 / 10 seg",
+     "id": "5c60f7d1a46c",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Camille",
+      "name": "Camille"
+     },
+     "part": "W",
+     "partTitle": "W: Barrido Táctico",
+     "spellKey": "CamilleW",
+     "kind": "stat",
+     "attribute": "Daño adicional del cono exterior",
+     "before": "6 / 6.5 / 7 / 7.5 / 8% (+ 2.5% por cada 100 de Daño de Ataque adicional) de la Vida Máxima del objetivo",
+     "after": "7 / 7.5 / 8 / 8.5 / 9% (+ 2.5% por cada 100 de Daño de Ataque adicional) de la Vida Máxima del objetivo",
+     "text": "Daño adicional del cono exterior: 6 / 6.5 / 7 / 7.5 / 8% (+ 2.5% por cada 100 de Daño de Ataque adicional) de la Vida Máxima del objetivo ⇒ 7 / 7.5 / 8 / 8.5 / 9% (+ 2.5% por cada 100 de Daño de Ataque adicional) de la Vida Máxima del objetivo",
+     "id": "4a0cc39cf9fa",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "26.8",
+   "publishedAt": "2026-04-14T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Camille",
+      "name": "Camille"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": null,
+     "before": "Barrido Táctico: daño: 2.5% por cada 100 de Daño de Ataque adicional",
+     "after": "3% por cada 100 de Daño de Ataque adicional",
+     "text": "Barrido Táctico: daño: 2.5% por cada 100 de Daño de Ataque adicional ⇒ 3% por cada 100 de Daño de Ataque adicional",
+     "id": "d9c08d82c3ba",
+     "section": "modes",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Camille",
+      "name": "Camille"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": null,
+     "before": "Gancho: enfriamiento: 16/15/14/13/12",
+     "after": "14/13/12/11/10",
+     "text": "Gancho: enfriamiento: 16/15/14/13/12 ⇒ 14/13/12/11/10",
+     "id": "d9bd8cb3df0d",
+     "section": "modes",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "26.4",
+   "publishedAt": "2026-02-18T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Camille",
+      "name": "Camille"
+     },
+     "part": "E",
+     "partTitle": "E: Gancho",
+     "spellKey": "CamilleE",
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Impecable: Camille ahora obtiene velocidad de ataque al desplazarse desde un muro, sin importar si impacta o no a un campeón enemigo.",
+     "id": "e305064f673a",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.20",
+   "publishedAt": "2025-10-07T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Camille",
+      "name": "Camille"
+     },
+     "part": "base",
+     "partTitle": "Estadísticas básicas",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Crecimiento de Armadura",
+     "before": "5",
+     "after": "4.5",
+     "text": "Crecimiento de Armadura: 5 ⇒ 4.5",
+     "id": "904504d88f01",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Camille",
+      "name": "Camille"
+     },
+     "part": "W",
+     "partTitle": "W: Barrido Táctico",
+     "spellKey": "CamilleW",
+     "kind": "stat",
+     "attribute": "Enfriamiento",
+     "before": "17 / 15.5 / 14 / 12.5 / 11 seg",
+     "after": "15 / 14 / 13 / 12 / 11 seg",
+     "text": "Enfriamiento: 17 / 15.5 / 14 / 12.5 / 11 seg ⇒ 15 / 14 / 13 / 12 / 11 seg",
+     "id": "0d0e5e489ea1",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Camille",
+      "name": "Camille"
+     },
+     "part": "W",
+     "partTitle": "W: Barrido Táctico",
+     "spellKey": "CamilleW",
+     "kind": "stat",
+     "attribute": "Daño básico",
+     "before": "50 / 75 / 100 / 125 / 150",
+     "after": "60 / 85 / 110 / 135 / 160",
+     "text": "Daño básico: 50 / 75 / 100 / 125 / 150 ⇒ 60 / 85 / 110 / 135 / 160",
+     "id": "0e00d815a354",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.11",
+   "publishedAt": "2025-05-27T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Pelea",
+     "sectionId": "patch-brawl",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Camille",
+      "name": "Camille"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño recibido",
+     "before": "100%",
+     "after": "95%",
+     "text": "Daño recibido: 100% ⇒ 95%",
+     "id": "7de7503b0dc7",
+     "section": "modes",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Pelea",
+     "sectionId": "patch-brawl",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Camille",
+      "name": "Camille"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Enfriamiento de la R",
+     "before": "140 / 115 / 90",
+     "after": "120 / 100 / 80",
+     "text": "Enfriamiento de la R: 140 / 115 / 90 ⇒ 120 / 100 / 80",
+     "id": "b3fcb5578f9d",
+     "section": "modes",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  }
+ ]
+}

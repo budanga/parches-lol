@@ -1,0 +1,545 @@
+{
+ "schemaVersion": 1,
+ "id": "Lucian",
+ "name": "Lucian",
+ "tags": [
+  "Marksman",
+  "Assassin"
+ ],
+ "entries": [
+  {
+   "patch": "26.21",
+   "publishedAt": "2026-10-20T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Classic",
+     "sectionId": "patch-classic",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Lucian",
+      "name": "Lucian"
+     },
+     "part": "R",
+     "partTitle": "R: Avalancha de Sombras",
+     "spellKey": null,
+     "kind": "new",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "NUEVO Lucian",
+     "id": "d154e85efb5d",
+     "section": "modes",
+     "tags": [
+      "Marksman",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "26.20",
+   "publishedAt": "2026-10-06T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Lucian",
+      "name": "Lucian"
+     },
+     "part": "base",
+     "partTitle": "Estadísticas base",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño de Ataque",
+     "before": "60 + 2.5 por nivel",
+     "after": "60 + 2.9 por nivel",
+     "text": "Daño de Ataque: 60 + 2.5 por nivel ⇒ 60 + 2.9 por nivel",
+     "id": "f7b35a88bfaa",
+     "section": "champions",
+     "tags": [
+      "Marksman",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "26.19",
+   "publishedAt": "2026-09-22T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Lucian",
+      "name": "Lucian"
+     },
+     "part": "P",
+     "partTitle": "Pasiva: Vigilancia",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño al impacto potenciado",
+     "before": "15 (+20% de Daño de Ataque)",
+     "after": "5 (+15% de Daño de Ataque)",
+     "text": "Daño al impacto potenciado: 15 (+20% de Daño de Ataque) ⇒ 5 (+15% de Daño de Ataque)",
+     "id": "d0fc92e9ab40",
+     "section": "champions",
+     "tags": [
+      "Marksman",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Lucian",
+      "name": "Lucian"
+     },
+     "part": "Q",
+     "partTitle": "Q: Luz Lacerante",
+     "spellKey": "LucianQ",
+     "kind": "stat",
+     "attribute": "Daño base",
+     "before": "80 / 115 / 150 / 185 / 220 (+100% de Daño de Ataque adicional)",
+     "after": "90 / 130 / 170 / 210 / 250 (+100% de Daño de Ataque adicional)",
+     "text": "Daño base: 80 / 115 / 150 / 185 / 220 (+100% de Daño de Ataque adicional) ⇒ 90 / 130 / 170 / 210 / 250 (+100% de Daño de Ataque adicional)",
+     "id": "79975dc4a673",
+     "section": "champions",
+     "tags": [
+      "Marksman",
+      "Assassin"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "26.15",
+   "publishedAt": "2026-07-28T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "ARAM: Caos",
+     "sectionId": "patch-aram:-mayhem",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Lucian",
+      "name": "Lucian"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño infligido",
+     "before": "105%",
+     "after": "100%",
+     "text": "Daño infligido: 105% ⇒ 100%",
+     "id": "5e9af4b29f47",
+     "section": "modes",
+     "tags": [
+      "Marksman",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "26.8",
+   "publishedAt": "2026-04-14T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Lucian",
+      "name": "Lucian"
+     },
+     "part": "E",
+     "partTitle": "E: Persecución Implacable",
+     "spellKey": "LucianE",
+     "kind": "stat",
+     "attribute": "Enfriamiento",
+     "before": "18 / 17 / 16 / 15 / 14",
+     "after": "16 / 15.5 / 15 / 14.5 / 14",
+     "text": "Enfriamiento: 18 / 17 / 16 / 15 / 14 ⇒ 16 / 15.5 / 15 / 14.5 / 14",
+     "id": "cf797bb06741",
+     "section": "champions",
+     "tags": [
+      "Marksman",
+      "Assassin"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Lucian",
+      "name": "Lucian"
+     },
+     "part": "E",
+     "partTitle": "E: Persecución Implacable",
+     "spellKey": "LucianE",
+     "kind": "stat",
+     "attribute": "Costo de Maná",
+     "before": "40 / 30 / 20 / 10 / 0",
+     "after": "32 / 24 / 16 / 8 / 0",
+     "text": "Costo de Maná: 40 / 30 / 20 / 10 / 0 ⇒ 32 / 24 / 16 / 8 / 0",
+     "id": "d6682128466c",
+     "section": "champions",
+     "tags": [
+      "Marksman",
+      "Assassin"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "26.1",
+   "publishedAt": "2026-01-07T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Lucian",
+      "name": "Lucian"
+     },
+     "part": "base",
+     "partTitle": "Estadísticas básicas",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Crecimiento de Daño de Ataque",
+     "before": "2.9",
+     "after": "2.5",
+     "text": "Crecimiento de Daño de Ataque: 2.9 ⇒ 2.5",
+     "id": "58f97bc99bf1",
+     "section": "champions",
+     "tags": [
+      "Marksman",
+      "Assassin"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Lucian",
+      "name": "Lucian"
+     },
+     "part": "base",
+     "partTitle": "Estadísticas básicas",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Crecimiento de Velocidad de Ataque",
+     "before": "3.3%",
+     "after": "2.5%",
+     "text": "Crecimiento de Velocidad de Ataque: 3.3% ⇒ 2.5%",
+     "id": "bbc4fdc784ee",
+     "section": "champions",
+     "tags": [
+      "Marksman",
+      "Assassin"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Lucian",
+      "name": "Lucian"
+     },
+     "part": "Q",
+     "partTitle": "Q: Luz Lacerante",
+     "spellKey": "LucianQ",
+     "kind": "stat",
+     "attribute": "Daño",
+     "before": "85 / 115 / 145 / 175 / 205 (+ 60% / 75% / 90% / 105% / 120% de Daño de Ataque adicional)",
+     "after": "80 / 115 / 150 / 185 / 220 (+ 100% de Daño de Ataque adicional)",
+     "text": "Daño: 85 / 115 / 145 / 175 / 205 (+ 60% / 75% / 90% / 105% / 120% de Daño de Ataque adicional) ⇒ 80 / 115 / 150 / 185 / 220 (+ 100% de Daño de Ataque adicional)",
+     "id": "a277d6a93823",
+     "section": "champions",
+     "tags": [
+      "Marksman",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Lucian",
+      "name": "Lucian"
+     },
+     "part": "R",
+     "partTitle": "R: El Sacrificio",
+     "spellKey": "LucianR",
+     "kind": "stat",
+     "attribute": "Probabilidad de Golpe Crítico de los proyectiles adicionales de la R",
+     "before": "Hasta 25",
+     "after": "100% de daño de golpe crítico adicional, hasta 22 / 28",
+     "text": "Probabilidad de Golpe Crítico de los proyectiles adicionales de la R: Hasta 25 ⇒ 100% de daño de golpe crítico adicional, hasta 22 / 28",
+     "id": "8a6fc4f335a5",
+     "section": "champions",
+     "tags": [
+      "Marksman",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Lucian",
+      "name": "Lucian"
+     },
+     "part": "R",
+     "partTitle": "R: El Sacrificio",
+     "spellKey": "LucianR",
+     "kind": "stat",
+     "attribute": "Cantidad total de proyectiles de la R",
+     "before": "De 22 a 47 (según la probabilidad de golpe crítico)",
+     "after": "De 22 a 44 / 50 (según el daño y la probabilidad de golpe crítico)",
+     "text": "Cantidad total de proyectiles de la R: De 22 a 47 (según la probabilidad de golpe crítico) ⇒ De 22 a 44 / 50 (según el daño y la probabilidad de golpe crítico)",
+     "id": "3fa7b0e8bd88",
+     "section": "champions",
+     "tags": [
+      "Marksman",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.11",
+   "publishedAt": "2025-05-27T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Lucian",
+      "name": "Lucian"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Aumentamos el enfriamiento de su E.",
+     "id": "861998faf83a",
+     "section": "champions",
+     "tags": [
+      "Marksman",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Lucian",
+      "name": "Lucian"
+     },
+     "part": "E",
+     "partTitle": "E: Persecución Implacable",
+     "spellKey": "LucianE",
+     "kind": "stat",
+     "attribute": "Enfriamiento",
+     "before": "16 / 15.5 / 15 / 14.5 / 14",
+     "after": "18 / 17 / 16 / 15 / 14",
+     "text": "Enfriamiento: 16 / 15.5 / 15 / 14.5 / 14 ⇒ 18 / 17 / 16 / 15 / 14",
+     "id": "b3eb815d5eff",
+     "section": "champions",
+     "tags": [
+      "Marksman",
+      "Assassin"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Pelea",
+     "sectionId": "patch-brawl",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Lucian",
+      "name": "Lucian"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño infligido",
+     "before": "100%",
+     "after": "105%",
+     "text": "Daño infligido: 100% ⇒ 105%",
+     "id": "1a82258da72d",
+     "section": "modes",
+     "tags": [
+      "Marksman",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Pelea",
+     "sectionId": "patch-brawl",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Lucian",
+      "name": "Lucian"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Aceleración de Habilidad",
+     "before": "0",
+     "after": "10",
+     "text": "Aceleración de Habilidad: 0 ⇒ 10",
+     "id": "c414103d68c7",
+     "section": "modes",
+     "tags": [
+      "Marksman",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.6",
+   "publishedAt": "2025-03-18T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Lucian",
+      "name": "Lucian"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Redujimos el enfriamiento de su E.",
+     "id": "e7388b475e81",
+     "section": "champions",
+     "tags": [
+      "Marksman",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Lucian",
+      "name": "Lucian"
+     },
+     "part": "E",
+     "partTitle": "E: Persecución Implacable",
+     "spellKey": "LucianE",
+     "kind": "stat",
+     "attribute": "Enfriamiento",
+     "before": "19 / 17.75 / 16.5 / 15.25 / 14",
+     "after": "16 / 15.5 / 15 / 14.5 / 14 seg",
+     "text": "Enfriamiento: 19 / 17.75 / 16.5 / 15.25 / 14 ⇒ 16 / 15.5 / 15 / 14.5 / 14 seg",
+     "id": "84a8cde92808",
+     "section": "champions",
+     "tags": [
+      "Marksman",
+      "Assassin"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  }
+ ]
+}

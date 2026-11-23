@@ -1,0 +1,311 @@
+{
+ "schemaVersion": 1,
+ "id": "Rell",
+ "name": "Rell",
+ "tags": [
+  "Tank",
+  "Support"
+ ],
+ "entries": [
+  {
+   "patch": "26.7",
+   "publishedAt": "2026-03-31T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Rell",
+      "name": "Rell"
+     },
+     "part": "E",
+     "partTitle": "E: Tilteo Total",
+     "spellKey": "RellE",
+     "kind": "stat",
+     "attribute": "Velocidad de Movimiento",
+     "before": "3 seg de un 10%, que aumenta a un 25% al estar de cara al aliado potenciado o a un campeón enemigo visible",
+     "after": "un 15%, que aumenta a un 30%",
+     "text": "Velocidad de Movimiento: 3 seg de un 10%, que aumenta a un 25% al estar de cara al aliado potenciado o a un campeón enemigo visible ⇒ un 15%, que aumenta a un 30%",
+     "id": "802374fe07b3",
+     "section": "champions",
+     "tags": [
+      "Tank",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Rell",
+      "name": "Rell"
+     },
+     "part": "R",
+     "partTitle": "R: Tormenta Magnética",
+     "spellKey": "RellR",
+     "kind": "stat",
+     "attribute": "Daño",
+     "before": "120 / 200 / 280 (+ 110% DE PODER DE HABILIDAD)",
+     "after": "150 / 200 / 350 (+ 110% DE PODER DE HABILIDAD)",
+     "text": "Daño: 120 / 200 / 280 (+ 110% DE PODER DE HABILIDAD) ⇒ 150 / 200 / 350 (+ 110% DE PODER DE HABILIDAD)",
+     "id": "4ade13e329be",
+     "section": "champions",
+     "tags": [
+      "Tank",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.16",
+   "publishedAt": "2025-08-12T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Rell",
+      "name": "Rell"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Redujimos el escudo de su W.",
+     "id": "aaebd59e9813",
+     "section": "champions",
+     "tags": [
+      "Tank",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Rell",
+      "name": "Rell"
+     },
+     "part": "W",
+     "partTitle": "W: Ferromancia: Desplome",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Escudo",
+     "before": "20 / 40 / 60 / 80 / 100 (+ 13% de la Vida Máxima)",
+     "after": "20 / 40 / 60 / 80 / 100 (+ 11% de la Vida Máxima)",
+     "text": "Escudo: 20 / 40 / 60 / 80 / 100 (+ 13% de la Vida Máxima) ⇒ 20 / 40 / 60 / 80 / 100 (+ 11% de la Vida Máxima)",
+     "id": "7d9923870339",
+     "section": "champions",
+     "tags": [
+      "Tank",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.15",
+   "publishedAt": "2025-07-29T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Rell",
+      "name": "Rell"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Redujimos el escudo de su W.",
+     "id": "aaebd59e9813",
+     "section": "champions",
+     "tags": [
+      "Tank",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Rell",
+      "name": "Rell"
+     },
+     "part": "W",
+     "partTitle": "W: Desplome",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Escudo",
+     "before": "25 / 50 / 75 / 100 / 125 (+ 13% de la Vida máxima)",
+     "after": "20 / 40 / 60 / 80 / 100 (+ 13% de la Vida máxima)",
+     "text": "Escudo: 25 / 50 / 75 / 100 / 125 (+ 13% de la Vida máxima) ⇒ 20 / 40 / 60 / 80 / 100 (+ 13% de la Vida máxima)",
+     "id": "82d2abded8db",
+     "section": "champions",
+     "tags": [
+      "Tank",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.7",
+   "publishedAt": "2025-04-01T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "ARAM",
+     "sectionId": "patch-aram",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Rell",
+      "name": "Rell"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Curación realizada",
+     "before": "90%",
+     "after": "100%",
+     "text": "Curación realizada: 90% ⇒ 100%",
+     "id": "5fe84b05956b",
+     "section": "modes",
+     "tags": [
+      "Tank",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.S1.3",
+   "publishedAt": "2025-02-04T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Rell",
+      "name": "Rell"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Redujimos su vida máxima y crecimiento de armadura.",
+     "id": "2dea0a973042",
+     "section": "champions",
+     "tags": [
+      "Tank",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Rell",
+      "name": "Rell"
+     },
+     "part": "base",
+     "partTitle": "Estadísticas básicas",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Vida",
+     "before": "640",
+     "after": "620",
+     "text": "Vida:: 640 ⇒ 620",
+     "id": "0d5336a252f5",
+     "section": "champions",
+     "tags": [
+      "Tank",
+      "Support"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Rell",
+      "name": "Rell"
+     },
+     "part": "base",
+     "partTitle": "Estadísticas básicas",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Crecimiento de Armadura",
+     "before": "4.3",
+     "after": "4",
+     "text": "Crecimiento de Armadura: 4.3 ⇒ 4",
+     "id": "0d46733a6f4f",
+     "section": "champions",
+     "tags": [
+      "Tank",
+      "Support"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,431 @@
+{
+ "schemaVersion": 1,
+ "id": "Katarina",
+ "name": "Katarina",
+ "tags": [
+  "Assassin",
+  "Mage"
+ ],
+ "entries": [
+  {
+   "patch": "26.21",
+   "publishedAt": "2026-10-20T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Katarina",
+      "name": "Katarina"
+     },
+     "part": "R",
+     "partTitle": "R: Loto Mortal",
+     "spellKey": "KatarinaR",
+     "kind": "stat",
+     "attribute": "Tasa al impacto",
+     "before": "20 / 25 / 30%",
+     "after": "25% fijo",
+     "text": "Tasa al impacto: 20 / 25 / 30% ⇒ 25% fijo",
+     "id": "2390aa4b8a05",
+     "section": "modes",
+     "tags": [
+      "Assassin",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Katarina",
+      "name": "Katarina"
+     },
+     "part": "R",
+     "partTitle": "R: Loto Mortal",
+     "spellKey": "KatarinaR",
+     "kind": "stat",
+     "attribute": "Tasa de Poder de Habilidad por daga",
+     "before": "26%",
+     "after": "35%",
+     "text": "Tasa de Poder de Habilidad por daga: 26% ⇒ 35%",
+     "id": "9a2e610eda5a",
+     "section": "modes",
+     "tags": [
+      "Assassin",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "26.10",
+   "publishedAt": "2026-05-12T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Katarina",
+      "name": "Katarina"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": null,
+     "before": "El enfriamiento de la pasiva por derribo se reduce de 75 seg",
+     "after": "15 seg",
+     "text": "El enfriamiento de la pasiva por derribo se reduce de 75 seg ⇒ 15 seg",
+     "id": "624ad4dcdfd3",
+     "section": "modes",
+     "tags": [
+      "Assassin",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.20",
+   "publishedAt": "2025-10-07T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Katarina",
+      "name": "Katarina"
+     },
+     "part": "base",
+     "partTitle": "Estadísticas básicas",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Armadura",
+     "before": "28",
+     "after": "32",
+     "text": "Armadura: 28 ⇒ 32",
+     "id": "58241d4e7c47",
+     "section": "champions",
+     "tags": [
+      "Assassin",
+      "Mage"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Bots Apocalípticos",
+     "sectionId": "patch-doom-bots",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Katarina",
+      "name": "Katarina"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño infligido",
+     "before": "100%",
+     "after": "110%",
+     "text": "Daño infligido: 100% ⇒ 110%",
+     "id": "d4df9b109ccb",
+     "section": "modes",
+     "tags": [
+      "Assassin",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Bots Apocalípticos",
+     "sectionId": "patch-doom-bots",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Katarina",
+      "name": "Katarina"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño recibido",
+     "before": "100%",
+     "after": "95%",
+     "text": "Daño recibido: 100% ⇒ 95%",
+     "id": "57a5883dfa0b",
+     "section": "modes",
+     "tags": [
+      "Assassin",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.18",
+   "publishedAt": "2025-09-09T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones (Arena)",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Katarina",
+      "name": "Katarina"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": null,
+     "before": "Reducción de enfriamiento de la pasiva: 30 seg",
+     "after": "75 seg",
+     "text": "Reducción de enfriamiento de la pasiva: 30 seg ⇒ 75 seg",
+     "id": "d0440469e3a8",
+     "section": "modes",
+     "tags": [
+      "Assassin",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones (Arena)",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Katarina",
+      "name": "Katarina"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": null,
+     "before": "Daño de la Q: De 80 a 220 (+ 40% de Poder de Habilidad)",
+     "after": "De 80 a 300 (+ 65% de Poder de Habilidad)",
+     "text": "Daño de la Q: De 80 a 220 (+ 40% de Poder de Habilidad) ⇒ De 80 a 300 (+ 65% de Poder de Habilidad)",
+     "id": "fa6c9b8691cf",
+     "section": "modes",
+     "tags": [
+      "Assassin",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones (Arena)",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Katarina",
+      "name": "Katarina"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": null,
+     "before": "Daño de la E: De 20 a 60 (+ 0.25% de Poder de Habilidad) (+ 0.40 de Daño de Ataque total)",
+     "after": "40 a 120 (+ 0.40% de Poder de Habilidad) (+ 0.40 de Daño de Ataque total)",
+     "text": "Daño de la E: De 20 a 60 (+ 0.25% de Poder de Habilidad) (+ 0.40 de Daño de Ataque total) ⇒ 40 a 120 (+ 0.40% de Poder de Habilidad) (+ 0.40 de Daño de Ataque total)",
+     "id": "a2584182f345",
+     "section": "modes",
+     "tags": [
+      "Assassin",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.15",
+   "publishedAt": "2025-07-29T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "URFAR",
+     "sectionId": "patch-arurf",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Katarina",
+      "name": "Katarina"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño infligido",
+     "before": "105%",
+     "after": "110%",
+     "text": "Daño infligido: 105% ⇒ 110%",
+     "id": "7b0d349a7775",
+     "section": "modes",
+     "tags": [
+      "Assassin",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.9",
+   "publishedAt": "2025-04-29T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Modos de juego rotativos y cambios en Arena",
+     "sectionId": "patch-rotating-game-modes-and-arena-changes",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Katarina",
+      "name": "Katarina"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Restablecimiento de enfriamiento de la pasiva",
+     "before": "20",
+     "after": "30",
+     "text": "Restablecimiento de enfriamiento de la pasiva: 20 ⇒ 30",
+     "id": "cfd82fab5063",
+     "section": "modes",
+     "tags": [
+      "Assassin",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Modos de juego rotativos y cambios en Arena",
+     "sectionId": "patch-rotating-game-modes-and-arena-changes",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Katarina",
+      "name": "Katarina"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Tasa de Daño de Ataque adicional de la pasiva",
+     "before": "80%",
+     "after": "100%",
+     "text": "Tasa de Daño de Ataque adicional de la pasiva 80% ⇒ 100%",
+     "id": "66ac6ea74738",
+     "section": "modes",
+     "tags": [
+      "Assassin",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Modos de juego rotativos y cambios en Arena",
+     "sectionId": "patch-rotating-game-modes-and-arena-changes",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Katarina",
+      "name": "Katarina"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Tasa de Poder de Habilidad de la Q",
+     "before": "50%",
+     "after": "60%",
+     "text": "Tasa de Poder de Habilidad de la Q: 50% ⇒ 60%",
+     "id": "6641fcfef3d2",
+     "section": "modes",
+     "tags": [
+      "Assassin",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.7",
+   "publishedAt": "2025-04-01T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Katarina",
+      "name": "Katarina"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Obtienes 5 rerroleos",
+     "id": "b5213f3a97f0",
+     "section": "modes",
+     "tags": [
+      "Assassin",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  }
+ ]
+}

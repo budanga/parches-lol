@@ -1,0 +1,2752 @@
+{
+ "schemaVersion": 1,
+ "patch": "25.10",
+ "title": "Notas de la versión 25.10",
+ "url": "https://www.leagueoflegends.com/es-mx/news/game-updates/patch-25-10-notes/",
+ "publishedAt": "2025-05-13T18:00:00.000Z",
+ "ddragonVersion": "15.10.1",
+ "changes": [
+  {
+   "sectionTitle": "Versión en breve",
+   "sectionId": "patch-patch-highlights",
+   "midPatch": false,
+   "entity": {
+    "kind": "none",
+    "id": null,
+    "name": ""
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "text",
+   "attribute": null,
+   "before": null,
+   "after": null,
+   "text": "Vex Astromante, Yorick Forajido y Ryze Luna de Sangre estarán disponibles a partir del 14 de mayo de 2025 a las 12:00 (MX) / 13:00 (CO/PE) / 14:00 (CL) / 15:00 (AR).",
+   "id": "288085777b8a",
+   "section": "systems",
+   "tags": [],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Nuevo modo de juego: Pelea",
+   "sectionId": "patch-new-game-mode:-brawl!",
+   "midPatch": false,
+   "entity": {
+    "kind": "none",
+    "id": null,
+    "name": ""
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "text",
+   "attribute": null,
+   "before": null,
+   "after": null,
+   "text": "Derribar a los campeones enemigos, lo que inflige 5 de daño a la vida del equipo enemigo",
+   "id": "78d273139ada",
+   "section": "modes",
+   "tags": [],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Nuevo modo de juego: Pelea",
+   "sectionId": "patch-new-game-mode:-brawl!",
+   "midPatch": false,
+   "entity": {
+    "kind": "none",
+    "id": null,
+    "name": ""
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "text",
+   "attribute": null,
+   "before": null,
+   "after": null,
+   "text": "Derribar a los súbditos enemigos, lo que inflige 1 de daño siempre que el equipo enemigo no tenga poca vida",
+   "id": "0b5976b16ac8",
+   "section": "modes",
+   "tags": [],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Nuevo modo de juego: Pelea",
+   "sectionId": "patch-new-game-mode:-brawl!",
+   "midPatch": false,
+   "entity": {
+    "kind": "none",
+    "id": null,
+    "name": ""
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "text",
+   "attribute": null,
+   "before": null,
+   "after": null,
+   "text": "Llevar a los súbditos de su equipo al portal de Bandle del oponente, lo que inflige 1 de daño por cada súbdito que lo atraviese",
+   "id": "1427c70aff95",
+   "section": "modes",
+   "tags": [],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Nuevo modo de juego: Pelea",
+   "sectionId": "patch-new-game-mode:-brawl!",
+   "midPatch": false,
+   "entity": {
+    "kind": "none",
+    "id": null,
+    "name": ""
+   },
+   "part": "Calendario de activación de Pelea:",
+   "partTitle": "Calendario de activación de Pelea:",
+   "spellKey": null,
+   "kind": "text",
+   "attribute": null,
+   "before": null,
+   "after": null,
+   "text": "EUW, EUN, RU, TR y ME1: 14 de mayo a las 9:00 (MX) / 10:00 (CO/PE) / 11:00 (CL) / 12:00 (AR)",
+   "id": "32334ad91f1e",
+   "section": "modes",
+   "tags": [],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Nuevo modo de juego: Pelea",
+   "sectionId": "patch-new-game-mode:-brawl!",
+   "midPatch": false,
+   "entity": {
+    "kind": "none",
+    "id": null,
+    "name": ""
+   },
+   "part": "Calendario de activación de Pelea:",
+   "partTitle": "Calendario de activación de Pelea:",
+   "spellKey": null,
+   "kind": "text",
+   "attribute": null,
+   "before": null,
+   "after": null,
+   "text": "Resto de las regiones de Riot: 14 de mayo a las 12:00 (MX) / 13:00 (CO/PE) / 14:00 (CL) / 15:00 (AR)",
+   "id": "7593cb42fa03",
+   "section": "modes",
+   "tags": [],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Campeones",
+   "sectionId": "patch-champions",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Chogath",
+    "name": "Cho'Gath"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "text",
+   "attribute": null,
+   "before": null,
+   "after": null,
+   "text": "Aumentamos su velocidad de ataque básica. Redujimos el daño de su Q. Aumentamos el daño de su E.",
+   "id": "9528422a75a8",
+   "section": "champions",
+   "tags": [
+    "Tank",
+    "Mage"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Campeones",
+   "sectionId": "patch-champions",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Chogath",
+    "name": "Cho'Gath"
+   },
+   "part": "base",
+   "partTitle": "Estadísticas básicas",
+   "spellKey": null,
+   "kind": "stat",
+   "attribute": "Velocidad de Ataque en el nivel 1",
+   "before": "0.625",
+   "after": "0.658",
+   "text": "Velocidad de Ataque en el nivel 1: 0.625 ⇒ 0.658",
+   "id": "f70eea561b45",
+   "section": "champions",
+   "tags": [
+    "Tank",
+    "Mage"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Campeones",
+   "sectionId": "patch-champions",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Chogath",
+    "name": "Cho'Gath"
+   },
+   "part": "Q",
+   "partTitle": "Q: Ruptura",
+   "spellKey": "Rupture",
+   "kind": "stat",
+   "attribute": "Daño",
+   "before": "80 / 140 / 200 / 260 / 320 (+ 100% de Poder de Habilidad)",
+   "after": "80 / 135 / 190 / 245 / 300 (+ 100% de Poder de Habilidad)",
+   "text": "Daño: 80 / 140 / 200 / 260 / 320 (+ 100% de Poder de Habilidad) ⇒ 80 / 135 / 190 / 245 / 300 (+ 100% de Poder de Habilidad)",
+   "id": "c62b27d969bf",
+   "section": "champions",
+   "tags": [
+    "Tank",
+    "Mage"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Campeones",
+   "sectionId": "patch-champions",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Chogath",
+    "name": "Cho'Gath"
+   },
+   "part": "E",
+   "partTitle": "E: Clavos Vorpalinos",
+   "spellKey": "VorpalSpikes",
+   "kind": "stat",
+   "attribute": "Daño",
+   "before": "20 / 40 / 60 / 80 / 100 (+ 30% de Poder de Habilidad) (+ 2.5 / 2.75 / 3 / 3.25 / 3.5% (+ 0.5% por cada acumulación de Festín) de la Vida Máxima del objetivo)",
+   "after": "20 / 40 / 60 / 80 / 100 (+ 30% de Poder de Habilidad) (+ 2.5 / 2.85 / 3.2 / 3.55 / 3.9% (+ 0.5% por cada acumulación de Festín) de la Vida Máxima del objetivo)",
+   "text": "Daño: 20 / 40 / 60 / 80 / 100 (+ 30% de Poder de Habilidad) (+ 2.5 / 2.75 / 3 / 3.25 / 3.5% (+ 0.5% por cada acumulación de Festín) de la Vida Máxima del objetivo) ⇒ 20 / 40 / 60 / 80 / 100 (+ 30% de Poder de Habilidad) (+ 2.5 / 2.85 / 3.2 / 3.55 / 3.9% (+ 0.5% por cada acumulación de Festín) de la Vida Máxima del objetivo)",
+   "id": "81b2ca2f4a5f",
+   "section": "champions",
+   "tags": [
+    "Tank",
+    "Mage"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Campeones",
+   "sectionId": "patch-champions",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Kayn",
+    "name": "Kayn"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "text",
+   "attribute": null,
+   "before": null,
+   "after": null,
+   "text": "Redujimos su crecimiento de vida.",
+   "id": "4c88fb286b29",
+   "section": "champions",
+   "tags": [
+    "Fighter",
+    "Assassin"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Campeones",
+   "sectionId": "patch-champions",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Kayn",
+    "name": "Kayn"
+   },
+   "part": "base",
+   "partTitle": "Estadísticas básicas",
+   "spellKey": null,
+   "kind": "stat",
+   "attribute": "Crecimiento de Vida",
+   "before": "109",
+   "after": "103",
+   "text": "Crecimiento de Vida: 109 ⇒ 103",
+   "id": "0456e95eea99",
+   "section": "champions",
+   "tags": [
+    "Fighter",
+    "Assassin"
+   ],
+   "verification": "verified",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Campeones",
+   "sectionId": "patch-champions",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Lulu",
+    "name": "Lulu"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "text",
+   "attribute": null,
+   "before": null,
+   "after": null,
+   "text": "Redujimos el crecimiento de su armadura. Aumentamos el enfriamiento de su R.",
+   "id": "beb87e6c4dae",
+   "section": "champions",
+   "tags": [
+    "Support",
+    "Mage"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Campeones",
+   "sectionId": "patch-champions",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Lulu",
+    "name": "Lulu"
+   },
+   "part": "base",
+   "partTitle": "Estadísticas básicas",
+   "spellKey": null,
+   "kind": "stat",
+   "attribute": "Crecimiento de Armadura",
+   "before": "4.9",
+   "after": "4.6",
+   "text": "Crecimiento de Armadura: 4.9 ⇒ 4.6",
+   "id": "36e03035b190",
+   "section": "champions",
+   "tags": [
+    "Support",
+    "Mage"
+   ],
+   "verification": "verified",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Campeones",
+   "sectionId": "patch-champions",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Lulu",
+    "name": "Lulu"
+   },
+   "part": "R",
+   "partTitle": "R: Enormamiento",
+   "spellKey": "LuluR",
+   "kind": "stat",
+   "attribute": "Enfriamiento",
+   "before": "100 / 90 / 80",
+   "after": "120 / 100 / 80",
+   "text": "Enfriamiento: 100 / 90 / 80 ⇒ 120 / 100 / 80",
+   "id": "aba2a119041d",
+   "section": "champions",
+   "tags": [
+    "Support",
+    "Mage"
+   ],
+   "verification": "verified",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Campeones",
+   "sectionId": "patch-champions",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Fiddlesticks",
+    "name": "Fiddlesticks"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "text",
+   "attribute": null,
+   "before": null,
+   "after": null,
+   "text": "Redujimos la duración del efecto de miedo y ajustamos el daño de su Q. Aumentamos el daño de su W.",
+   "id": "5efe67501384",
+   "section": "champions",
+   "tags": [
+    "Mage",
+    "Support"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Campeones",
+   "sectionId": "patch-champions",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Fiddlesticks",
+    "name": "Fiddlesticks"
+   },
+   "part": "Q",
+   "partTitle": "Q: Aterrorizar",
+   "spellKey": "FiddleSticksQ",
+   "kind": "stat",
+   "attribute": "Duración del efecto de miedo",
+   "before": "1.25 / 1.5 / 1.75 / 2 / 2.25",
+   "after": "1.2 / 1.4 / 1.6 / 1.8 / 2",
+   "text": "Duración del efecto de miedo: 1.25 / 1.5 / 1.75 / 2 / 2.25 ⇒ 1.2 / 1.4 / 1.6 / 1.8 / 2",
+   "id": "fb46b8b81f62",
+   "section": "champions",
+   "tags": [
+    "Mage",
+    "Support"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Campeones",
+   "sectionId": "patch-champions",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Fiddlesticks",
+    "name": "Fiddlesticks"
+   },
+   "part": "Q",
+   "partTitle": "Q: Aterrorizar",
+   "spellKey": "FiddleSticksQ",
+   "kind": "stat",
+   "attribute": "Daño",
+   "before": "5 / 6 / 7 / 8 / 9% (+ 2% por cada 100 de Poder de Habilidad) de la Vida actual del objetivo",
+   "after": "4 / 4.5 / 5 / 5.5 / 6% (+ 3% por cada 100 de Poder de Habilidad) de la Vida actual del objetivo",
+   "text": "Daño: 5 / 6 / 7 / 8 / 9% (+ 2% por cada 100 de Poder de Habilidad) de la Vida actual del objetivo ⇒ 4 / 4.5 / 5 / 5.5 / 6% (+ 3% por cada 100 de Poder de Habilidad) de la Vida actual del objetivo",
+   "id": "0a45f491fa89",
+   "section": "champions",
+   "tags": [
+    "Mage",
+    "Support"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Campeones",
+   "sectionId": "patch-champions",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Fiddlesticks",
+    "name": "Fiddlesticks"
+   },
+   "part": "Q",
+   "partTitle": "Q: Aterrorizar",
+   "spellKey": "FiddleSticksQ",
+   "kind": "stat",
+   "attribute": "Daño potenciado",
+   "before": "10 / 12 / 14 / 16 / 18% (+ 4% por cada 100 de Poder de Habilidad) de la Vida actual del objetivo",
+   "after": "8 / 9 / 10 / 11 / 12% (+ 6% por cada 100 de Poder de Habilidad) de la Vida actual del objetivo",
+   "text": "Daño potenciado: 10 / 12 / 14 / 16 / 18% (+ 4% por cada 100 de Poder de Habilidad) de la Vida actual del objetivo ⇒ 8 / 9 / 10 / 11 / 12% (+ 6% por cada 100 de Poder de Habilidad) de la Vida actual del objetivo",
+   "id": "65ff7c514515",
+   "section": "champions",
+   "tags": [
+    "Mage",
+    "Support"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Campeones",
+   "sectionId": "patch-champions",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Fiddlesticks",
+    "name": "Fiddlesticks"
+   },
+   "part": "W",
+   "partTitle": "W: Extracción Abundante",
+   "spellKey": "FiddleSticksW",
+   "kind": "stat",
+   "attribute": "Daño por segundo",
+   "before": "60 / 90 / 120 / 150 / 180 (+ 35% de Poder de Habilidad)",
+   "after": "60 / 90 / 120 / 150 / 180 (+ 40% de Poder de Habilidad)",
+   "text": "Daño por segundo: 60 / 90 / 120 / 150 / 180 (+ 35% de Poder de Habilidad) ⇒ 60 / 90 / 120 / 150 / 180 (+ 40% de Poder de Habilidad)",
+   "id": "64ed7fc07729",
+   "section": "champions",
+   "tags": [
+    "Mage",
+    "Support"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Campeones",
+   "sectionId": "patch-champions",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Naafiri",
+    "name": "Naafiri"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "text",
+   "attribute": null,
+   "before": null,
+   "after": null,
+   "text": "Redujimos el daño contra monstruos de su pasiva.",
+   "id": "9e9804cdc43a",
+   "section": "champions",
+   "tags": [
+    "Assassin",
+    "Fighter"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Campeones",
+   "sectionId": "patch-champions",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Naafiri",
+    "name": "Naafiri"
+   },
+   "part": "P",
+   "partTitle": "Pasiva: Somos Más",
+   "spellKey": null,
+   "kind": "stat",
+   "attribute": "Multiplicador de daño contra monstruos de los compañeros",
+   "before": "155%",
+   "after": "135%",
+   "text": "Multiplicador de daño contra monstruos de los compañeros: 155% ⇒ 135%",
+   "id": "996768423b14",
+   "section": "champions",
+   "tags": [
+    "Assassin",
+    "Fighter"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Campeones",
+   "sectionId": "patch-champions",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Senna",
+    "name": "Senna"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "text",
+   "attribute": null,
+   "before": null,
+   "after": null,
+   "text": "Aumentamos la probabilidad de golpe crítico y la tasa de aparición de almas de su pasiva. Redujimos la curación de su Q.",
+   "id": "0b1aef42b265",
+   "section": "champions",
+   "tags": [
+    "Support",
+    "Marksman"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Campeones",
+   "sectionId": "patch-champions",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Senna",
+    "name": "Senna"
+   },
+   "part": "P",
+   "partTitle": "Pasiva: Absolución",
+   "spellKey": null,
+   "kind": "stat",
+   "attribute": "Probabilidad de Golpe Crítico por cada 20 acumulaciones",
+   "before": "8%",
+   "after": "10%",
+   "text": "Probabilidad de Golpe Crítico por cada 20 acumulaciones: 8% ⇒ 10%",
+   "id": "2a84ca2259e6",
+   "section": "champions",
+   "tags": [
+    "Support",
+    "Marksman"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Campeones",
+   "sectionId": "patch-champions",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Senna",
+    "name": "Senna"
+   },
+   "part": "P",
+   "partTitle": "Pasiva: Absolución",
+   "spellKey": null,
+   "kind": "stat",
+   "attribute": "Tasa de aparición de almas al matar un súbdito o monstruo",
+   "before": "8.4%",
+   "after": "14%",
+   "text": "Tasa de aparición de almas al matar un súbdito o monstruo: 8.4% ⇒ 14%",
+   "id": "2ba5568a177c",
+   "section": "champions",
+   "tags": [
+    "Support",
+    "Marksman"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Campeones",
+   "sectionId": "patch-champions",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Senna",
+    "name": "Senna"
+   },
+   "part": "Q",
+   "partTitle": "Q: Oscuridad Lacerante",
+   "spellKey": "SennaQ",
+   "kind": "stat",
+   "attribute": "Curación",
+   "before": "40 / 55 / 70 / 85 / 100 (+ 40% de Daño de Ataque adicional) (+ 60% de Poder de Habilidad)",
+   "after": "40 / 55 / 70 / 85 / 100 (+ 40% de Daño de Ataque adicional) (+ 50% de Poder de Habilidad)",
+   "text": "Curación: 40 / 55 / 70 / 85 / 100 (+ 40% de Daño de Ataque adicional) (+ 60% de Poder de Habilidad) ⇒ 40 / 55 / 70 / 85 / 100 (+ 40% de Daño de Ataque adicional) (+ 50% de Poder de Habilidad)",
+   "id": "5716c1d3dd68",
+   "section": "champions",
+   "tags": [
+    "Support",
+    "Marksman"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Campeones",
+   "sectionId": "patch-champions",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Smolder",
+    "name": "Smolder"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "text",
+   "attribute": null,
+   "before": null,
+   "after": null,
+   "text": "Aumentamos el daño y la quemadura de su Q y el daño por cada acumulación que otorga la pasiva de su E.",
+   "id": "ae1ebb98c1ab",
+   "section": "champions",
+   "tags": [
+    "Marksman",
+    "Mage"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Campeones",
+   "sectionId": "patch-champions",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Smolder",
+    "name": "Smolder"
+   },
+   "part": "P",
+   "partTitle": "Pasiva: Dragón Entrenando",
+   "spellKey": null,
+   "kind": "stat",
+   "attribute": "Daño por acumulación de la Q",
+   "before": "0.3",
+   "after": "0.4",
+   "text": "Daño por acumulación de la Q: 0.3 ⇒ 0.4",
+   "id": "04bc1a114790",
+   "section": "champions",
+   "tags": [
+    "Marksman",
+    "Mage"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Campeones",
+   "sectionId": "patch-champions",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Smolder",
+    "name": "Smolder"
+   },
+   "part": "P",
+   "partTitle": "Pasiva: Dragón Entrenando",
+   "spellKey": null,
+   "kind": "stat",
+   "attribute": "Daño de quemadura por cada 100 acumulaciones de la Q",
+   "before": "0.4%",
+   "after": "0.5%",
+   "text": "Daño de quemadura por cada 100 acumulaciones de la Q: 0.4% ⇒ 0.5%",
+   "id": "793e29601c22",
+   "section": "champions",
+   "tags": [
+    "Marksman",
+    "Mage"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Campeones",
+   "sectionId": "patch-champions",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Smolder",
+    "name": "Smolder"
+   },
+   "part": "P",
+   "partTitle": "Pasiva: Dragón Entrenando",
+   "spellKey": null,
+   "kind": "stat",
+   "attribute": "Daño de impacto por acumulación de la E",
+   "before": "0.1",
+   "after": "0.12",
+   "text": "Daño de impacto por acumulación de la E: 0.1 ⇒ 0.12",
+   "id": "8a56b031c76d",
+   "section": "champions",
+   "tags": [
+    "Marksman",
+    "Mage"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Campeones",
+   "sectionId": "patch-champions",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Vi",
+    "name": "Vi"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "text",
+   "attribute": null,
+   "before": null,
+   "after": null,
+   "text": "Redujimos el daño mínimo y aumentamos el daño máximo de su Q. Redujimos el costo de maná y el daño de su R.",
+   "id": "4c3b74a1a6ed",
+   "section": "champions",
+   "tags": [
+    "Fighter",
+    "Assassin"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Campeones",
+   "sectionId": "patch-champions",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Vi",
+    "name": "Vi"
+   },
+   "part": "Q",
+   "partTitle": "Q: Rompebóvedas",
+   "spellKey": "ViQ",
+   "kind": "stat",
+   "attribute": "Daño Mínimo",
+   "before": "45 / 70 / 95 / 120 / 145 (+ 80% de Daño de Ataque adicional)",
+   "after": "40 / 60 / 80 / 100 / 120 (+ 60% de Daño de Ataque adicional)",
+   "text": "Daño Mínimo: 45 / 70 / 95 / 120 / 145 (+ 80% de Daño de Ataque adicional) ⇒ 40 / 60 / 80 / 100 / 120 (+ 60% de Daño de Ataque adicional)",
+   "id": "b5fe29e74daf",
+   "section": "champions",
+   "tags": [
+    "Fighter",
+    "Assassin"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Campeones",
+   "sectionId": "patch-champions",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Vi",
+    "name": "Vi"
+   },
+   "part": "Q",
+   "partTitle": "Q: Rompebóvedas",
+   "spellKey": "ViQ",
+   "kind": "stat",
+   "attribute": "Daño Máximo",
+   "before": "90 / 140 / 190 / 240 / 290 (+ 160% de Daño de Ataque adicional)",
+   "after": "100 / 150 / 200 / 250 / 300 (+ 150% de Daño de Ataque adicional)",
+   "text": "Daño Máximo: 90 / 140 / 190 / 240 / 290 (+ 160% de Daño de Ataque adicional) ⇒ 100 / 150 / 200 / 250 / 300 (+ 150% de Daño de Ataque adicional)",
+   "id": "d9d788ec2344",
+   "section": "champions",
+   "tags": [
+    "Fighter",
+    "Assassin"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Campeones",
+   "sectionId": "patch-champions",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Vi",
+    "name": "Vi"
+   },
+   "part": "Q",
+   "partTitle": "Q: Rompebóvedas",
+   "spellKey": "ViQ",
+   "kind": "text",
+   "attribute": null,
+   "before": null,
+   "after": null,
+   "text": "Ahora, el reembolso de enfriamiento al cancelar el ataque responde mejor",
+   "id": "62539b789482",
+   "section": "champions",
+   "tags": [
+    "Fighter",
+    "Assassin"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Campeones",
+   "sectionId": "patch-champions",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Vi",
+    "name": "Vi"
+   },
+   "part": "E",
+   "partTitle": "E: Fuerza Implacable",
+   "spellKey": "ViE",
+   "kind": "text",
+   "attribute": null,
+   "before": null,
+   "after": null,
+   "text": "Corregimos un error que causaba que su E infligiera daño crítico equivalente a +100% del Daño de Ataque total y no +75% del Daño de Ataque total como corresponde",
+   "id": "c8a77069c78b",
+   "section": "champions",
+   "tags": [
+    "Fighter",
+    "Assassin"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Campeones",
+   "sectionId": "patch-champions",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Vi",
+    "name": "Vi"
+   },
+   "part": "R",
+   "partTitle": "R: Cesar y Desistir",
+   "spellKey": "ViR",
+   "kind": "stat",
+   "attribute": "Maná",
+   "before": "100 / 125 / 150",
+   "after": "100",
+   "text": "Maná: 100 / 125 / 150 ⇒ 100",
+   "id": "2749e42cf9e3",
+   "section": "champions",
+   "tags": [
+    "Fighter",
+    "Assassin"
+   ],
+   "verification": "verified",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Campeones",
+   "sectionId": "patch-champions",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Vi",
+    "name": "Vi"
+   },
+   "part": "R",
+   "partTitle": "R: Cesar y Desistir",
+   "spellKey": "ViR",
+   "kind": "stat",
+   "attribute": "Daño",
+   "before": "150 / 275 / 400 (+ 90% de Daño de Ataque adicional)",
+   "after": "150 / 250 / 350 (+ 90% de Daño de Ataque adicional)",
+   "text": "Daño: 150 / 275 / 400 (+ 90% de Daño de Ataque adicional) ⇒ 150 / 250 / 350 (+ 90% de Daño de Ataque adicional)",
+   "id": "bd7226bf4d67",
+   "section": "champions",
+   "tags": [
+    "Fighter",
+    "Assassin"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Campeones",
+   "sectionId": "patch-champions",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "XinZhao",
+    "name": "Xin Zhao"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "text",
+   "attribute": null,
+   "before": null,
+   "after": null,
+   "text": "Redujimos el crecimiento de su armadura.",
+   "id": "0a98fb0c7010",
+   "section": "champions",
+   "tags": [
+    "Fighter",
+    "Tank"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Campeones",
+   "sectionId": "patch-champions",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "XinZhao",
+    "name": "Xin Zhao"
+   },
+   "part": "base",
+   "partTitle": "Estadísticas básicas",
+   "spellKey": null,
+   "kind": "stat",
+   "attribute": "Crecimiento de Armadura",
+   "before": "5",
+   "after": "4.4",
+   "text": "Crecimiento de Armadura: 5 ⇒ 4.4",
+   "id": "c7b6af9795b5",
+   "section": "champions",
+   "tags": [
+    "Fighter",
+    "Tank"
+   ],
+   "verification": "verified",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Campeones",
+   "sectionId": "patch-champions",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Yuumi",
+    "name": "Yuumi"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "text",
+   "attribute": null,
+   "before": null,
+   "after": null,
+   "text": "Redujimos la curación de su R.",
+   "id": "d12c983b0858",
+   "section": "champions",
+   "tags": [
+    "Support",
+    "Mage"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Campeones",
+   "sectionId": "patch-champions",
+   "midPatch": false,
+   "entity": {
+    "kind": "champion",
+    "id": "Yuumi",
+    "name": "Yuumi"
+   },
+   "part": "R",
+   "partTitle": "R: Últimas Páginas",
+   "spellKey": "YuumiR",
+   "kind": "stat",
+   "attribute": "Curación básica por golpe",
+   "before": "35 / 50 / 65",
+   "after": "30 / 40 / 50",
+   "text": "Curación básica por golpe: 35 / 50 / 65 ⇒ 30 / 40 / 50",
+   "id": "9db7f27b3d0a",
+   "section": "champions",
+   "tags": [
+    "Support",
+    "Mage"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Objetos",
+   "sectionId": "patch-items",
+   "midPatch": false,
+   "entity": {
+    "kind": "item",
+    "id": "8010",
+    "name": "Maldición de la Vampiresa"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "stat",
+   "attribute": "Poder de Habilidad",
+   "before": "60",
+   "after": "65",
+   "text": "Poder de Habilidad: 60 ⇒ 65",
+   "id": "3d5967b19acc",
+   "section": "items",
+   "tags": [
+    "Health",
+    "SpellDamage",
+    "CooldownReduction",
+    "MagicPenetration"
+   ],
+   "verification": "verified",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Objetos",
+   "sectionId": "patch-items",
+   "midPatch": false,
+   "entity": {
+    "kind": "item",
+    "id": "8010",
+    "name": "Maldición de la Vampiresa"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "stat",
+   "attribute": "Vida",
+   "before": "350",
+   "after": "400",
+   "text": "Vida: 350 ⇒ 400",
+   "id": "51616a361b7c",
+   "section": "items",
+   "tags": [
+    "Health",
+    "SpellDamage",
+    "CooldownReduction",
+    "MagicPenetration"
+   ],
+   "verification": "verified",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Objetos",
+   "sectionId": "patch-items",
+   "midPatch": false,
+   "entity": {
+    "kind": "item",
+    "id": "8010",
+    "name": "Maldición de la Vampiresa"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "stat",
+   "attribute": "Reducción de Resistencia Mágica por acumulación",
+   "before": "5%",
+   "after": "7.5%",
+   "text": "Reducción de Resistencia Mágica por acumulación: 5% ⇒ 7.5%",
+   "id": "503c8c5c65a9",
+   "section": "items",
+   "tags": [
+    "Health",
+    "SpellDamage",
+    "CooldownReduction",
+    "MagicPenetration"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Objetos",
+   "sectionId": "patch-items",
+   "midPatch": false,
+   "entity": {
+    "kind": "item",
+    "id": "8010",
+    "name": "Maldición de la Vampiresa"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "text",
+   "attribute": null,
+   "before": null,
+   "after": null,
+   "text": "Reducción máxima: 30% (sin cambios)",
+   "id": "29ad1223ba44",
+   "section": "items",
+   "tags": [
+    "Health",
+    "SpellDamage",
+    "CooldownReduction",
+    "MagicPenetration"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Objetos",
+   "sectionId": "patch-items",
+   "midPatch": false,
+   "entity": {
+    "kind": "item",
+    "id": "3137",
+    "name": "Criptorretoño"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "stat",
+   "attribute": "Poder de Habilidad",
+   "before": "60",
+   "after": "75",
+   "text": "Poder de Habilidad: 60 ⇒ 75",
+   "id": "17a6da88329b",
+   "section": "items",
+   "tags": [
+    "SpellDamage",
+    "MagicPenetration",
+    "AbilityHaste"
+   ],
+   "verification": "verified",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Objetos",
+   "sectionId": "patch-items",
+   "midPatch": false,
+   "entity": {
+    "kind": "item",
+    "id": "3137",
+    "name": "Criptorretoño"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "stat",
+   "attribute": "Curación de Vida en la Muerte",
+   "before": "100 (+ 25% de Poder de Habilidad)",
+   "after": "100 (+ 20% de Poder de Habilidad)",
+   "text": "Curación de Vida en la Muerte: 100 (+ 25% de Poder de Habilidad) ⇒ 100 (+ 20% de Poder de Habilidad)",
+   "id": "5d937f4fee36",
+   "section": "items",
+   "tags": [
+    "SpellDamage",
+    "MagicPenetration",
+    "AbilityHaste"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Objetos",
+   "sectionId": "patch-items",
+   "midPatch": false,
+   "entity": {
+    "kind": "item",
+    "id": "3137",
+    "name": "Criptorretoño"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "stat",
+   "attribute": "Ruta de armado",
+   "before": "Joya Maldita + Códice Diabólico + 900 de oro",
+   "after": "Joya Maldita + Códice Diabólico + Códice Diabólico + 200 de oro",
+   "text": "Ruta de armado: Joya Maldita + Códice Diabólico + 900 de oro ⇒ Joya Maldita + Códice Diabólico + Códice Diabólico + 200 de oro",
+   "id": "96676f427d9d",
+   "section": "items",
+   "tags": [
+    "SpellDamage",
+    "MagicPenetration",
+    "AbilityHaste"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Objetos",
+   "sectionId": "patch-items",
+   "midPatch": false,
+   "entity": {
+    "kind": "item",
+    "id": "3137",
+    "name": "Criptorretoño"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "stat",
+   "attribute": "Costo total de oro",
+   "before": "2850",
+   "after": "3000",
+   "text": "Costo total de oro: 2850 ⇒ 3000",
+   "id": "24c386bdeccf",
+   "section": "items",
+   "tags": [
+    "SpellDamage",
+    "MagicPenetration",
+    "AbilityHaste"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Objetos",
+   "sectionId": "patch-items",
+   "midPatch": false,
+   "entity": {
+    "kind": "item",
+    "id": "3152",
+    "name": "Cinturón Cohete Hextech"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "stat",
+   "attribute": "Poder de Habilidad",
+   "before": "60",
+   "after": "70",
+   "text": "Poder de Habilidad: 60 ⇒ 70",
+   "id": "c7eca89b496a",
+   "section": "items",
+   "tags": [
+    "Health",
+    "SpellDamage",
+    "Active",
+    "CooldownReduction",
+    "NonbootsMovement",
+    "AbilityHaste"
+   ],
+   "verification": "verified",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Objetos",
+   "sectionId": "patch-items",
+   "midPatch": false,
+   "entity": {
+    "kind": "item",
+    "id": "3152",
+    "name": "Cinturón Cohete Hextech"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "stat",
+   "attribute": "Vida",
+   "before": "350",
+   "after": "300",
+   "text": "Vida: 350 ⇒ 300",
+   "id": "c99609f37245",
+   "section": "items",
+   "tags": [
+    "Health",
+    "SpellDamage",
+    "Active",
+    "CooldownReduction",
+    "NonbootsMovement",
+    "AbilityHaste"
+   ],
+   "verification": "verified",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Objetos",
+   "sectionId": "patch-items",
+   "midPatch": false,
+   "entity": {
+    "kind": "item",
+    "id": "3152",
+    "name": "Cinturón Cohete Hextech"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "stat",
+   "attribute": "Aceleración de Habilidad",
+   "before": "15",
+   "after": "20",
+   "text": "Aceleración de Habilidad: 15 ⇒ 20",
+   "id": "dae86761bde9",
+   "section": "items",
+   "tags": [
+    "Health",
+    "SpellDamage",
+    "Active",
+    "CooldownReduction",
+    "NonbootsMovement",
+    "AbilityHaste"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Objetos",
+   "sectionId": "patch-items",
+   "midPatch": false,
+   "entity": {
+    "kind": "item",
+    "id": "3152",
+    "name": "Cinturón Cohete Hextech"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "stat",
+   "attribute": "Ruta de armado",
+   "before": "Alternador + Gemaluz + 700 de oro",
+   "after": "Alternador + Códice Diabólico + Cristal de Rubí + 300 de oro",
+   "text": "Ruta de armado: Alternador + Gemaluz + 700 de oro ⇒ Alternador + Códice Diabólico + Cristal de Rubí + 300 de oro",
+   "id": "edd7e194ad2d",
+   "section": "items",
+   "tags": [
+    "Health",
+    "SpellDamage",
+    "Active",
+    "CooldownReduction",
+    "NonbootsMovement",
+    "AbilityHaste"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Objetos",
+   "sectionId": "patch-items",
+   "midPatch": false,
+   "entity": {
+    "kind": "item",
+    "id": "3152",
+    "name": "Cinturón Cohete Hextech"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "stat",
+   "attribute": "Costo total de oro",
+   "before": "2600",
+   "after": "2650",
+   "text": "Costo total de oro: 2600 ⇒ 2650",
+   "id": "779286bb872a",
+   "section": "items",
+   "tags": [
+    "Health",
+    "SpellDamage",
+    "Active",
+    "CooldownReduction",
+    "NonbootsMovement",
+    "AbilityHaste"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Objetos",
+   "sectionId": "patch-items",
+   "midPatch": false,
+   "entity": {
+    "kind": "item",
+    "id": "3152",
+    "name": "Cinturón Cohete Hextech"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "text",
+   "attribute": null,
+   "before": null,
+   "after": null,
+   "text": "Actualizamos el indicador de lanzamiento para señalar con más precisión los ángulos y alcances de los proyectiles",
+   "id": "a4b158b4f685",
+   "section": "items",
+   "tags": [
+    "Health",
+    "SpellDamage",
+    "Active",
+    "CooldownReduction",
+    "NonbootsMovement",
+    "AbilityHaste"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Objetos",
+   "sectionId": "patch-items",
+   "midPatch": false,
+   "entity": {
+    "kind": "item",
+    "id": "3152",
+    "name": "Cinturón Cohete Hextech"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "text",
+   "attribute": null,
+   "before": null,
+   "after": null,
+   "text": "Ahora, el objeto puede usarse manualmente haciendo clic para confirmar su lanzamiento",
+   "id": "06d76903b1e5",
+   "section": "items",
+   "tags": [
+    "Health",
+    "SpellDamage",
+    "Active",
+    "CooldownReduction",
+    "NonbootsMovement",
+    "AbilityHaste"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Objetos",
+   "sectionId": "patch-items",
+   "midPatch": false,
+   "entity": {
+    "kind": "item",
+    "id": "4628",
+    "name": "Enfoque al Horizonte"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "stat",
+   "attribute": "Poder de Habilidad",
+   "before": "75",
+   "after": "110",
+   "text": "Poder de Habilidad: 75 ⇒ 110",
+   "id": "7275432811b3",
+   "section": "items",
+   "tags": [
+    "SpellDamage",
+    "AbilityHaste"
+   ],
+   "verification": "verified",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Objetos",
+   "sectionId": "patch-items",
+   "midPatch": false,
+   "entity": {
+    "kind": "item",
+    "id": "4628",
+    "name": "Enfoque al Horizonte"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "text",
+   "attribute": null,
+   "before": null,
+   "after": null,
+   "text": "Amplificación de daño de Hiperdisparo: Eliminado",
+   "id": "b35cd9bc9228",
+   "section": "items",
+   "tags": [
+    "SpellDamage",
+    "AbilityHaste"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Objetos",
+   "sectionId": "patch-items",
+   "midPatch": false,
+   "entity": {
+    "kind": "item",
+    "id": "4628",
+    "name": "Enfoque al Horizonte"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "stat",
+   "attribute": "Ruta de armado",
+   "before": "Códice Diabólico + Códice Diabólico + Libro Amplificador + 600 de oro",
+   "after": "Códice Diabólico + Códice Diabólico + Varita Explosiva + 350 de oro",
+   "text": "Ruta de armado: Códice Diabólico + Códice Diabólico + Libro Amplificador + 600 de oro ⇒ Códice Diabólico + Códice Diabólico + Varita Explosiva + 350 de oro",
+   "id": "ec5c65e53766",
+   "section": "items",
+   "tags": [
+    "SpellDamage",
+    "AbilityHaste"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Objetos",
+   "sectionId": "patch-items",
+   "midPatch": false,
+   "entity": {
+    "kind": "item",
+    "id": "4628",
+    "name": "Enfoque al Horizonte"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "stat",
+   "attribute": "Costo total de oro",
+   "before": "2700",
+   "after": "2900",
+   "text": "Costo total de oro: 2700 ⇒ 2900",
+   "id": "76267cbd28ea",
+   "section": "items",
+   "tags": [
+    "SpellDamage",
+    "AbilityHaste"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Objetos",
+   "sectionId": "patch-items",
+   "midPatch": false,
+   "entity": {
+    "kind": "item",
+    "id": "6653",
+    "name": "El Tormento de Liandry"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "stat",
+   "attribute": "Poder de Habilidad",
+   "before": "70",
+   "after": "60",
+   "text": "Poder de Habilidad: 70 ⇒ 60",
+   "id": "dfb74b8a1036",
+   "section": "items",
+   "tags": [
+    "Health",
+    "SpellDamage"
+   ],
+   "verification": "verified",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Objetos",
+   "sectionId": "patch-items",
+   "midPatch": false,
+   "entity": {
+    "kind": "item",
+    "id": "3100",
+    "name": "Maldición del Liche"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "stat",
+   "attribute": "Poder de Habilidad",
+   "before": "115",
+   "after": "100",
+   "text": "Poder de Habilidad: 115 ⇒ 100",
+   "id": "4d2afcd0f979",
+   "section": "items",
+   "tags": [
+    "SpellDamage",
+    "OnHit",
+    "NonbootsMovement",
+    "AbilityHaste"
+   ],
+   "verification": "verified",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Objetos",
+   "sectionId": "patch-items",
+   "midPatch": false,
+   "entity": {
+    "kind": "item",
+    "id": "3100",
+    "name": "Maldición del Liche"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "stat",
+   "attribute": "Ruta de armado",
+   "before": "Brillo + Brisa de Éter + Vara Innecesariamente Grande + 200 de oro",
+   "after": "Brillo + Brisa de Éter + Varita Explosiva + 250 de oro",
+   "text": "Ruta de armado: Brillo + Brisa de Éter + Vara Innecesariamente Grande + 200 de oro ⇒ Brillo + Brisa de Éter + Varita Explosiva + 250 de oro",
+   "id": "8b14ff03f206",
+   "section": "items",
+   "tags": [
+    "SpellDamage",
+    "OnHit",
+    "NonbootsMovement",
+    "AbilityHaste"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Objetos",
+   "sectionId": "patch-items",
+   "midPatch": false,
+   "entity": {
+    "kind": "item",
+    "id": "3100",
+    "name": "Maldición del Liche"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "stat",
+   "attribute": "Costo total de oro",
+   "before": "3200",
+   "after": "2900",
+   "text": "Costo total de oro: 3200 ⇒ 2900",
+   "id": "cd42b5fa5bc0",
+   "section": "items",
+   "tags": [
+    "SpellDamage",
+    "OnHit",
+    "NonbootsMovement",
+    "AbilityHaste"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Objetos",
+   "sectionId": "patch-items",
+   "midPatch": false,
+   "entity": {
+    "kind": "item",
+    "id": "6655",
+    "name": "Acompañante de Luden"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "stat",
+   "attribute": "Costo total de oro",
+   "before": "2850",
+   "after": "2750",
+   "text": "Costo total de oro: 2850 ⇒ 2750",
+   "id": "1f184d5f93dc",
+   "section": "items",
+   "tags": [
+    "SpellDamage",
+    "Mana",
+    "CooldownReduction",
+    "AbilityHaste"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Objetos",
+   "sectionId": "patch-items",
+   "midPatch": false,
+   "entity": {
+    "kind": "item",
+    "id": "6655",
+    "name": "Acompañante de Luden"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "text",
+   "attribute": null,
+   "before": null,
+   "after": null,
+   "text": "Ahora, la descripción muestra el daño máximo a un solo objetivo",
+   "id": "1a0b6e11ce1b",
+   "section": "items",
+   "tags": [
+    "SpellDamage",
+    "Mana",
+    "CooldownReduction",
+    "AbilityHaste"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Objetos",
+   "sectionId": "patch-items",
+   "midPatch": false,
+   "entity": {
+    "kind": "item",
+    "id": "3118",
+    "name": "Maldad"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "stat",
+   "attribute": "Poder de Habilidad",
+   "before": "85",
+   "after": "90",
+   "text": "Poder de Habilidad: 85 ⇒ 90",
+   "id": "0b0302b650d2",
+   "section": "items",
+   "tags": [
+    "SpellDamage",
+    "Mana",
+    "AbilityHaste"
+   ],
+   "verification": "verified",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Objetos",
+   "sectionId": "patch-items",
+   "midPatch": false,
+   "entity": {
+    "kind": "item",
+    "id": "3165",
+    "name": "Morellonomicón"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "stat",
+   "attribute": "Costo total de oro",
+   "before": "2950",
+   "after": "2850",
+   "text": "Costo total de oro: 2950 ⇒ 2850",
+   "id": "5392685d15f6",
+   "section": "items",
+   "tags": [
+    "Health",
+    "SpellDamage",
+    "CooldownReduction",
+    "AbilityHaste"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Objetos",
+   "sectionId": "patch-items",
+   "midPatch": false,
+   "entity": {
+    "kind": "item",
+    "id": "3115",
+    "name": "Diente de Nashor"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "stat",
+   "attribute": "Costo total de oro",
+   "before": "3000",
+   "after": "2900",
+   "text": "Costo total de oro: 3000 ⇒ 2900",
+   "id": "d5a8b9ce4f6a",
+   "section": "items",
+   "tags": [
+    "AttackSpeed",
+    "SpellDamage",
+    "OnHit",
+    "AbilityHaste"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Objetos",
+   "sectionId": "patch-items",
+   "midPatch": false,
+   "entity": {
+    "kind": "item",
+    "id": "3089",
+    "name": "Sombrero Mortífero de Rabadon"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "stat",
+   "attribute": "Costo total de oro",
+   "before": "3600",
+   "after": "3500",
+   "text": "Costo total de oro: 3600 ⇒ 3500",
+   "id": "e5d72a277f3f",
+   "section": "items",
+   "tags": [
+    "SpellDamage"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Objetos",
+   "sectionId": "patch-items",
+   "midPatch": false,
+   "entity": {
+    "kind": "item",
+    "id": "3040",
+    "name": "Abrazo del Serafín"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "stat",
+   "attribute": "Escudo de Salvavidas",
+   "before": "200 (+ 20% del Maná actual)",
+   "after": "18% del Maná Máximo",
+   "text": "Escudo de Salvavidas: 200 (+ 20% del Maná actual) ⇒ 18% del Maná Máximo",
+   "id": "2470913251b2",
+   "section": "items",
+   "tags": [
+    "SpellDamage",
+    "Mana",
+    "AbilityHaste"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Objetos",
+   "sectionId": "patch-items",
+   "midPatch": false,
+   "entity": {
+    "kind": "item",
+    "id": "4646",
+    "name": "Descarga Tormentosa"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "stat",
+   "attribute": "Costo total de oro",
+   "before": "2900",
+   "after": "2800",
+   "text": "Costo total de oro: 2900 ⇒ 2800",
+   "id": "d2d9ef713076",
+   "section": "items",
+   "tags": [
+    "SpellDamage",
+    "GoldPer",
+    "NonbootsMovement",
+    "MagicPenetration"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Objetos",
+   "sectionId": "patch-items",
+   "midPatch": false,
+   "entity": {
+    "kind": "item",
+    "id": "4646",
+    "name": "Descarga Tormentosa"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "stat",
+   "attribute": "Velocidad de Movimiento",
+   "before": "4%",
+   "after": "6%",
+   "text": "Velocidad de Movimiento: 4% ⇒ 6%",
+   "id": "a2b7a6c3a5c4",
+   "section": "items",
+   "tags": [
+    "SpellDamage",
+    "GoldPer",
+    "NonbootsMovement",
+    "MagicPenetration"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Objetos",
+   "sectionId": "patch-items",
+   "midPatch": false,
+   "entity": {
+    "kind": "item",
+    "id": "4646",
+    "name": "Descarga Tormentosa"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "text",
+   "attribute": null,
+   "before": null,
+   "after": null,
+   "text": "Oro obtenido al derribar preventivamente: Eliminado",
+   "id": "d8d1f6d13854",
+   "section": "items",
+   "tags": [
+    "SpellDamage",
+    "GoldPer",
+    "NonbootsMovement",
+    "MagicPenetration"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Objetos",
+   "sectionId": "patch-items",
+   "midPatch": false,
+   "entity": {
+    "kind": "item",
+    "id": "4646",
+    "name": "Descarga Tormentosa"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "text",
+   "attribute": null,
+   "before": null,
+   "after": null,
+   "text": "Velocidad de Movimiento con Aguacero: Eliminado",
+   "id": "ba3525fdecbb",
+   "section": "items",
+   "tags": [
+    "SpellDamage",
+    "GoldPer",
+    "NonbootsMovement",
+    "MagicPenetration"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Runas",
+   "sectionId": "patch-runes",
+   "midPatch": false,
+   "entity": {
+    "kind": "rune",
+    "id": "8360",
+    "name": "Libro de Hechizos Abierto"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "stat",
+   "attribute": "Enfriamiento de la recarga básica",
+   "before": "5 min",
+   "after": "4 min",
+   "text": "Enfriamiento de la recarga básica: 5 min ⇒ 4 min",
+   "id": "c9fca8404f60",
+   "section": "runes",
+   "tags": [],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Runas",
+   "sectionId": "patch-runes",
+   "midPatch": false,
+   "entity": {
+    "kind": "rune",
+    "id": "8360",
+    "name": "Libro de Hechizos Abierto"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "stat",
+   "attribute": "Enfriamiento de la recarga al lograr la cantidad máxima de cambios",
+   "before": "2.5 min",
+   "after": "1.5 min",
+   "text": "Enfriamiento de la recarga al lograr la cantidad máxima de cambios: 2.5 min ⇒ 1.5 min",
+   "id": "73a18416a896",
+   "section": "runes",
+   "tags": [],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Corrección de errores y ajustes de funcionalidad",
+   "sectionId": "patch-bugfixes-and-qol-changes",
+   "midPatch": false,
+   "entity": {
+    "kind": "none",
+    "id": null,
+    "name": ""
+   },
+   "part": "Ajustes de funcionalidad",
+   "partTitle": "Ajustes de funcionalidad",
+   "spellKey": null,
+   "kind": "text",
+   "attribute": null,
+   "before": null,
+   "after": null,
+   "text": "En esta versión, introdujimos algunos cambios al portal social y a la lista de amigos con el objetivo de allanar el terreno para algunas novedades que llegarán pronto. Debido a eso, puede que noten algunos bugs, pero no se preocupen: estaremos atentos a los errores que puedan aparecer y los corregiremos a medida que surjan",
+   "id": "d6634f82245d",
+   "section": "systems",
+   "tags": [],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Corrección de errores y ajustes de funcionalidad",
+   "sectionId": "patch-bugfixes-and-qol-changes",
+   "midPatch": false,
+   "entity": {
+    "kind": "none",
+    "id": null,
+    "name": ""
+   },
+   "part": "Ajustes de funcionalidad",
+   "partTitle": "Ajustes de funcionalidad",
+   "spellKey": null,
+   "kind": "text",
+   "attribute": null,
+   "before": null,
+   "after": null,
+   "text": "Ahora, la W de Irelia suspende la duración de su pasiva en vez de dejarla bajar hasta los 0.5 seg y mantenerla ahí. Si el enfriamiento de la pasiva es menor a 1 seg al presionar la W, aumentará a 1 seg tras soltar la W. Además, corregimos un error poco común que no permitía que se actualizaran las acumulaciones de la pasiva cuando la W impactaba a un enemigo",
+   "id": "2a0ee0b97edb",
+   "section": "systems",
+   "tags": [],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Corrección de errores y ajustes de funcionalidad",
+   "sectionId": "patch-bugfixes-and-qol-changes",
+   "midPatch": false,
+   "entity": {
+    "kind": "none",
+    "id": null,
+    "name": ""
+   },
+   "part": "Ajustes de funcionalidad",
+   "partTitle": "Ajustes de funcionalidad",
+   "spellKey": null,
+   "kind": "text",
+   "attribute": null,
+   "before": null,
+   "after": null,
+   "text": "Ahora, la Arañita que genera la W de la Forma Humana de Elise buscará objetivos de inmediato al lanzarla en vez de hacerlo tras llegar a la ubicación a la que se lanzó",
+   "id": "421484b65f52",
+   "section": "systems",
+   "tags": [],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Corrección de errores y ajustes de funcionalidad",
+   "sectionId": "patch-bugfixes-and-qol-changes",
+   "midPatch": false,
+   "entity": {
+    "kind": "none",
+    "id": null,
+    "name": ""
+   },
+   "part": "Ajustes de funcionalidad",
+   "partTitle": "Ajustes de funcionalidad",
+   "spellKey": null,
+   "kind": "text",
+   "attribute": null,
+   "before": null,
+   "after": null,
+   "text": "Ahora, la interfaz del modo espectador de la pantalla de muerte se puede mover de lugar, al igual que la recapitulación de muerte",
+   "id": "1181f70212d6",
+   "section": "systems",
+   "tags": [],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Corrección de errores y ajustes de funcionalidad",
+   "sectionId": "patch-bugfixes-and-qol-changes",
+   "midPatch": false,
+   "entity": {
+    "kind": "none",
+    "id": null,
+    "name": ""
+   },
+   "part": "Corrección de errores",
+   "partTitle": "Corrección de errores",
+   "spellKey": null,
+   "kind": "text",
+   "attribute": null,
+   "before": null,
+   "after": null,
+   "text": "Corregimos un error que les permitía a los jugadores vender sus retiradas. Lo sentimos, pero los comerciantes de la tienda no tenían a quién revendérselas",
+   "id": "0523788480a3",
+   "section": "systems",
+   "tags": [],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Corrección de errores y ajustes de funcionalidad",
+   "sectionId": "patch-bugfixes-and-qol-changes",
+   "midPatch": false,
+   "entity": {
+    "kind": "none",
+    "id": null,
+    "name": ""
+   },
+   "part": "Corrección de errores",
+   "partTitle": "Corrección de errores",
+   "spellKey": null,
+   "kind": "text",
+   "attribute": null,
+   "before": null,
+   "after": null,
+   "text": "Corregimos un error que hacía que Mordekaiser lanzara su Q en dirección al puntero del mouse y no en la dirección a la que estaba mirando tras ser desplazado o usar Destello. Estábamos seguros de que habíamos solucionado este error en la versión 25.07, así que esperamos haberlo corregido de verdad esta vez",
+   "id": "efa9a32b87a8",
+   "section": "systems",
+   "tags": [],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Corrección de errores y ajustes de funcionalidad",
+   "sectionId": "patch-bugfixes-and-qol-changes",
+   "midPatch": false,
+   "entity": {
+    "kind": "none",
+    "id": null,
+    "name": ""
+   },
+   "part": "Corrección de errores",
+   "partTitle": "Corrección de errores",
+   "spellKey": null,
+   "kind": "text",
+   "attribute": null,
+   "before": null,
+   "after": null,
+   "text": "Corregimos un error en la Herramienta de Práctica que causaba que la maleza pequeña del río dejara de funcionar al reiniciar una partida tras la aparición de Atakhan",
+   "id": "ea73375fa89a",
+   "section": "systems",
+   "tags": [],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Corrección de errores y ajustes de funcionalidad",
+   "sectionId": "patch-bugfixes-and-qol-changes",
+   "midPatch": false,
+   "entity": {
+    "kind": "none",
+    "id": null,
+    "name": ""
+   },
+   "part": "Corrección de errores",
+   "partTitle": "Corrección de errores",
+   "spellKey": null,
+   "kind": "text",
+   "attribute": null,
+   "before": null,
+   "after": null,
+   "text": "Corregimos un error en la Herramienta de Práctica que provocaba que las mejoras a súbditos relacionadas con la ventaja del equipo (daño, resistencia, velocidad de movimiento) no se restablecieran tras usar la función ''Reiniciar partida''",
+   "id": "ce55326c1b46",
+   "section": "systems",
+   "tags": [],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Corrección de errores y ajustes de funcionalidad",
+   "sectionId": "patch-bugfixes-and-qol-changes",
+   "midPatch": false,
+   "entity": {
+    "kind": "none",
+    "id": null,
+    "name": ""
+   },
+   "part": "Corrección de errores",
+   "partTitle": "Corrección de errores",
+   "spellKey": null,
+   "kind": "text",
+   "attribute": null,
+   "before": null,
+   "after": null,
+   "text": "Corregimos un error que ocasionaba que la cámara se centrara en el campeón del jugador y no en los campeones aliados al mantener presionadas varias teclas de función al mismo tiempo. Ahora, la cámara se enfocará en el aliado asociado a la primera tecla de función que se presione",
+   "id": "ae801e81eee8",
+   "section": "systems",
+   "tags": [],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Corrección de errores y ajustes de funcionalidad",
+   "sectionId": "patch-bugfixes-and-qol-changes",
+   "midPatch": false,
+   "entity": {
+    "kind": "none",
+    "id": null,
+    "name": ""
+   },
+   "part": "Corrección de errores",
+   "partTitle": "Corrección de errores",
+   "spellKey": null,
+   "kind": "text",
+   "attribute": null,
+   "before": null,
+   "after": null,
+   "text": "Corregimos un error que hacía que los valores de enfriamiento que aparecían en la descripción de la pasiva de Zac, en la de Gangplank y en la de Nocturne no funcionarán correctamente",
+   "id": "4b9edf509b5d",
+   "section": "systems",
+   "tags": [],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Corrección de errores y ajustes de funcionalidad",
+   "sectionId": "patch-bugfixes-and-qol-changes",
+   "midPatch": false,
+   "entity": {
+    "kind": "none",
+    "id": null,
+    "name": ""
+   },
+   "part": "Corrección de errores",
+   "partTitle": "Corrección de errores",
+   "spellKey": null,
+   "kind": "text",
+   "attribute": null,
+   "before": null,
+   "after": null,
+   "text": "Corregimos un error que causaba que obtener la mejora de Barón tras haber adquirido Suelas Simbióticas otorgara retiradas potenciadas infinitas",
+   "id": "87206f468249",
+   "section": "systems",
+   "tags": [],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Corrección de errores y ajustes de funcionalidad",
+   "sectionId": "patch-bugfixes-and-qol-changes",
+   "midPatch": false,
+   "entity": {
+    "kind": "none",
+    "id": null,
+    "name": ""
+   },
+   "part": "Corrección de errores",
+   "partTitle": "Corrección de errores",
+   "spellKey": null,
+   "kind": "text",
+   "attribute": null,
+   "before": null,
+   "after": null,
+   "text": "Corregimos un error que ocasionaba que el Heraldo de la Grieta no obtuviera una segunda carga luego de que se destruyera el inhibidor contra el que se había usado la primera carga",
+   "id": "a5876c1dcd42",
+   "section": "systems",
+   "tags": [],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Corrección de errores y ajustes de funcionalidad",
+   "sectionId": "patch-bugfixes-and-qol-changes",
+   "midPatch": false,
+   "entity": {
+    "kind": "none",
+    "id": null,
+    "name": ""
+   },
+   "part": "Corrección de errores",
+   "partTitle": "Corrección de errores",
+   "spellKey": null,
+   "kind": "text",
+   "attribute": null,
+   "before": null,
+   "after": null,
+   "text": "Corregimos un error que provocaba que los efectos visuales de la E de Ashe (tanto si la campeona tenía equipado un aspecto como si no) desaparecieran si el jugador no los seguía con la cámara",
+   "id": "8153d5cf22dc",
+   "section": "systems",
+   "tags": [],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Corrección de errores y ajustes de funcionalidad",
+   "sectionId": "patch-bugfixes-and-qol-changes",
+   "midPatch": false,
+   "entity": {
+    "kind": "none",
+    "id": null,
+    "name": ""
+   },
+   "part": "Corrección de errores",
+   "partTitle": "Corrección de errores",
+   "spellKey": null,
+   "kind": "text",
+   "attribute": null,
+   "before": null,
+   "after": null,
+   "text": "Corregimos un error que hacía que la E de Elise revelara centinelas cercanos si el campeón impactado por la habilidad estaba parado cerca de uno",
+   "id": "3c59dcb6abda",
+   "section": "systems",
+   "tags": [],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Corrección de errores y ajustes de funcionalidad",
+   "sectionId": "patch-bugfixes-and-qol-changes",
+   "midPatch": false,
+   "entity": {
+    "kind": "none",
+    "id": null,
+    "name": ""
+   },
+   "part": "Corrección de errores",
+   "partTitle": "Corrección de errores",
+   "spellKey": null,
+   "kind": "text",
+   "attribute": null,
+   "before": null,
+   "after": null,
+   "text": "Corregimos un error que causaba que la pasiva de Mel no aplicara acumulaciones a Dr. Mundo si la pasiva de este campeón estaba activa",
+   "id": "2ab7976dcf0d",
+   "section": "systems",
+   "tags": [],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Corrección de errores y ajustes de funcionalidad",
+   "sectionId": "patch-bugfixes-and-qol-changes",
+   "midPatch": false,
+   "entity": {
+    "kind": "none",
+    "id": null,
+    "name": ""
+   },
+   "part": "Corrección de errores",
+   "partTitle": "Corrección de errores",
+   "spellKey": null,
+   "kind": "text",
+   "attribute": null,
+   "before": null,
+   "after": null,
+   "text": "Corregimos un error que ocasionaba que Brote del Vidente no revelara las Vacuolarvas",
+   "id": "36a36fae84a1",
+   "section": "systems",
+   "tags": [],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Corrección de errores y ajustes de funcionalidad",
+   "sectionId": "patch-bugfixes-and-qol-changes",
+   "midPatch": false,
+   "entity": {
+    "kind": "none",
+    "id": null,
+    "name": ""
+   },
+   "part": "Corrección de errores",
+   "partTitle": "Corrección de errores",
+   "spellKey": null,
+   "kind": "text",
+   "attribute": null,
+   "before": null,
+   "after": null,
+   "text": "Corregimos un error que provocaba que el oro que obtenía Veigar Jefe Final al matar súbditos con su Q apareciera sobre la cabeza del campeón",
+   "id": "15f309b15004",
+   "section": "systems",
+   "tags": [],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Corrección de errores y ajustes de funcionalidad",
+   "sectionId": "patch-bugfixes-and-qol-changes",
+   "midPatch": false,
+   "entity": {
+    "kind": "none",
+    "id": null,
+    "name": ""
+   },
+   "part": "Corrección de errores",
+   "partTitle": "Corrección de errores",
+   "spellKey": null,
+   "kind": "text",
+   "attribute": null,
+   "before": null,
+   "after": null,
+   "text": "Corregimos un error que hacía que, si Sylas usurpaba la R de Olaf, el daño de la definitiva no se convirtiera en poder de habilidad",
+   "id": "d4486f384294",
+   "section": "systems",
+   "tags": [],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Corrección de errores y ajustes de funcionalidad",
+   "sectionId": "patch-bugfixes-and-qol-changes",
+   "midPatch": false,
+   "entity": {
+    "kind": "none",
+    "id": null,
+    "name": ""
+   },
+   "part": "Corrección de errores",
+   "partTitle": "Corrección de errores",
+   "spellKey": null,
+   "kind": "text",
+   "attribute": null,
+   "before": null,
+   "after": null,
+   "text": "Corregimos un error que causaba que no se activara la pasiva de la E de Nocturne si el campeón se movía hacia un enemigo aterrorizado",
+   "id": "91dfb0cf5bb1",
+   "section": "systems",
+   "tags": [],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Corrección de errores y ajustes de funcionalidad",
+   "sectionId": "patch-bugfixes-and-qol-changes",
+   "midPatch": false,
+   "entity": {
+    "kind": "none",
+    "id": null,
+    "name": ""
+   },
+   "part": "Corrección de errores",
+   "partTitle": "Corrección de errores",
+   "spellKey": null,
+   "kind": "text",
+   "attribute": null,
+   "before": null,
+   "after": null,
+   "text": "Corregimos un error que ocasionaba que los Trotanieblas de Yorick no infligieran un daño uniforme contra los monstruos de la jungla",
+   "id": "ac3b56b8f6d8",
+   "section": "systems",
+   "tags": [],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Corrección de errores y ajustes de funcionalidad",
+   "sectionId": "patch-bugfixes-and-qol-changes",
+   "midPatch": false,
+   "entity": {
+    "kind": "none",
+    "id": null,
+    "name": ""
+   },
+   "part": "Corrección de errores",
+   "partTitle": "Corrección de errores",
+   "spellKey": null,
+   "kind": "text",
+   "attribute": null,
+   "before": null,
+   "after": null,
+   "text": "Corregimos un error que provocaba que, si LeBlanc lanzaba su W y su combo R + W rápidamente, el combo R + W no infligiera la cantidad de daño correcta",
+   "id": "50363107bd75",
+   "section": "systems",
+   "tags": [],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Corrección de errores y ajustes de funcionalidad",
+   "sectionId": "patch-bugfixes-and-qol-changes",
+   "midPatch": false,
+   "entity": {
+    "kind": "none",
+    "id": null,
+    "name": ""
+   },
+   "part": "Corrección de errores",
+   "partTitle": "Corrección de errores",
+   "spellKey": null,
+   "kind": "text",
+   "attribute": null,
+   "before": null,
+   "after": null,
+   "text": "Corregimos un error que hacía que los súbditos bloquearan los hechizos de Hwei",
+   "id": "14f76122da5c",
+   "section": "systems",
+   "tags": [],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Corrección de errores y ajustes de funcionalidad",
+   "sectionId": "patch-bugfixes-and-qol-changes",
+   "midPatch": false,
+   "entity": {
+    "kind": "none",
+    "id": null,
+    "name": ""
+   },
+   "part": "Corrección de errores",
+   "partTitle": "Corrección de errores",
+   "spellKey": null,
+   "kind": "text",
+   "attribute": null,
+   "before": null,
+   "after": null,
+   "text": "Corregimos un error que causaba que Mordekaiser lanzara su Q en dirección al puntero del mouse y no en la dirección a la que estaba mirando",
+   "id": "6e4ddd773c98",
+   "section": "systems",
+   "tags": [],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Corrección de errores y ajustes de funcionalidad",
+   "sectionId": "patch-bugfixes-and-qol-changes",
+   "midPatch": false,
+   "entity": {
+    "kind": "none",
+    "id": null,
+    "name": ""
+   },
+   "part": "Corrección de errores",
+   "partTitle": "Corrección de errores",
+   "spellKey": null,
+   "kind": "text",
+   "attribute": null,
+   "before": null,
+   "after": null,
+   "text": "Corregimos un error que ocasionaba que no se activara Enfoque al Horizonte si Aurora relanzaba su Q o lanzaba su E",
+   "id": "f3651fd9a8e2",
+   "section": "systems",
+   "tags": [],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Próximos aspectos y chromas",
+   "sectionId": "patch-upcoming-skins-and-chromas",
+   "midPatch": false,
+   "entity": {
+    "kind": "none",
+    "id": null,
+    "name": ""
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "text",
+   "attribute": null,
+   "before": null,
+   "after": null,
+   "text": "Lanzaremos los siguientes aspectos en esta versión:",
+   "id": "1773370fa97d",
+   "section": "cosmetics",
+   "tags": [],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Próximos aspectos y chromas",
+   "sectionId": "patch-upcoming-skins-and-chromas",
+   "midPatch": false,
+   "entity": {
+    "kind": "none",
+    "id": null,
+    "name": ""
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "kind": "text",
+   "attribute": null,
+   "before": null,
+   "after": null,
+   "text": "Lanzaremos los siguientes chromas en esta versión:",
+   "id": "69091fa7a4fb",
+   "section": "cosmetics",
+   "tags": [],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  }
+ ]
+}

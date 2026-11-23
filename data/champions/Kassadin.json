@@ -1,0 +1,686 @@
+{
+ "schemaVersion": 1,
+ "id": "Kassadin",
+ "name": "Kassadin",
+ "tags": [
+  "Assassin",
+  "Mage"
+ ],
+ "entries": [
+  {
+   "patch": "26.21",
+   "publishedAt": "2026-10-20T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Classic",
+     "sectionId": "patch-classic",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Kassadin",
+      "name": "Kassadin"
+     },
+     "part": "Q",
+     "partTitle": "Q: Esfera Nula",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño base",
+     "before": "60 / 105 / 150 / 195 / 240",
+     "after": "80 / 130 / 180 / 230 / 280",
+     "text": "Daño base: 60 / 105 / 150 / 195 / 240 ⇒ 80 / 130 / 180 / 230 / 280",
+     "id": "5dd18e5c73b8",
+     "section": "modes",
+     "tags": [
+      "Assassin",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Classic",
+     "sectionId": "patch-classic",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Kassadin",
+      "name": "Kassadin"
+     },
+     "part": "Q",
+     "partTitle": "Q: Esfera Nula",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Duración de silencio",
+     "before": "1 / 1.25 / 1.5 / 1.75 / 2 seg",
+     "after": "1 / 1.4 / 1.8 / 2.2 / 2.6 seg",
+     "text": "Duración de silencio: 1 / 1.25 / 1.5 / 1.75 / 2 seg ⇒ 1 / 1.4 / 1.8 / 2.2 / 2.6 seg",
+     "id": "5cb1b802d428",
+     "section": "modes",
+     "tags": [
+      "Assassin",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Classic",
+     "sectionId": "patch-classic",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Kassadin",
+      "name": "Kassadin"
+     },
+     "part": "R",
+     "partTitle": "R: Ruptura en el Camino",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Tasa de Poder de Habilidad",
+     "before": "70%",
+     "after": "80%",
+     "text": "Tasa de Poder de Habilidad: 70% ⇒ 80%",
+     "id": "fcc8a01b236b",
+     "section": "modes",
+     "tags": [
+      "Assassin",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "26.18",
+   "publishedAt": "2026-09-09T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Kassadin",
+      "name": "Kassadin"
+     },
+     "part": "Q",
+     "partTitle": "Q: Esfera Nula",
+     "spellKey": "NullLance",
+     "kind": "stat",
+     "attribute": "Tasa de Poder de Habilidad",
+     "before": "70% de Poder de Habilidad",
+     "after": "80% de Poder de Habilidad",
+     "text": "Tasa de Poder de Habilidad: 70% de Poder de Habilidad ⇒ 80% de Poder de Habilidad",
+     "id": "b989a307edcd",
+     "section": "champions",
+     "tags": [
+      "Assassin",
+      "Mage"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Kassadin",
+      "name": "Kassadin"
+     },
+     "part": "R",
+     "partTitle": "R: Ruptura en el Camino",
+     "spellKey": "RiftWalk",
+     "kind": "stat",
+     "attribute": "Daño base",
+     "before": "70 / 90 / 110",
+     "after": "80 / 95 / 110",
+     "text": "Daño base: 70 / 90 / 110 ⇒ 80 / 95 / 110",
+     "id": "5b2299c075a6",
+     "section": "champions",
+     "tags": [
+      "Assassin",
+      "Mage"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "26.11",
+   "publishedAt": "2026-05-27T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Kassadin",
+      "name": "Kassadin"
+     },
+     "part": "Q",
+     "partTitle": "Q: Esfera Nula",
+     "spellKey": "NullLance",
+     "kind": "stat",
+     "attribute": "Enfriamiento",
+     "before": "10 / 9.5 / 9 / 8.5 / 8 seg",
+     "after": "9 / 8.5 / 8 / 7.5 / 7 seg",
+     "text": "Enfriamiento: 10 / 9.5 / 9 / 8.5 / 8 seg ⇒ 9 / 8.5 / 8 / 7.5 / 7 seg",
+     "id": "708c142eaf88",
+     "section": "champions",
+     "tags": [
+      "Assassin",
+      "Mage"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Kassadin",
+      "name": "Kassadin"
+     },
+     "part": "W",
+     "partTitle": "W: Cuchilla Infernal",
+     "spellKey": "NetherBlade",
+     "kind": "stat",
+     "attribute": "Daño mágico básico",
+     "before": "20 (+ 10% de Poder de Habilidad)",
+     "after": "25 (+ 10% de Poder de Habilidad)",
+     "text": "Daño mágico básico: 20 (+ 10% de Poder de Habilidad) ⇒ 25 (+ 10% de Poder de Habilidad)",
+     "id": "b4aed3b9c266",
+     "section": "champions",
+     "tags": [
+      "Assassin",
+      "Mage"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "26.4",
+   "publishedAt": "2026-02-18T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Kassadin",
+      "name": "Kassadin"
+     },
+     "part": "base",
+     "partTitle": "Estadísticas básicas",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Crecimiento de Vida",
+     "before": "119",
+     "after": "113",
+     "text": "Crecimiento de Vida: 119 ⇒ 113",
+     "id": "1904aed41d14",
+     "section": "champions",
+     "tags": [
+      "Assassin",
+      "Mage"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Kassadin",
+      "name": "Kassadin"
+     },
+     "part": "E",
+     "partTitle": "E: Pulso de Fuerza",
+     "spellKey": "ForcePulse",
+     "kind": "stat",
+     "attribute": "Ralentización",
+     "before": "50 / 60 / 70 / 80 / 90%",
+     "after": "50 / 55 / 60 / 65 / 70%",
+     "text": "Ralentización: 50 / 60 / 70 / 80 / 90% ⇒ 50 / 55 / 60 / 65 / 70%",
+     "id": "5bef5576c06e",
+     "section": "champions",
+     "tags": [
+      "Assassin",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.20",
+   "publishedAt": "2025-10-07T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Bots Apocalípticos",
+     "sectionId": "patch-doom-bots",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Kassadin",
+      "name": "Kassadin"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño infligido",
+     "before": "100%",
+     "after": "105%",
+     "text": "Daño infligido: 100% ⇒ 105%",
+     "id": "e36554a37f26",
+     "section": "modes",
+     "tags": [
+      "Assassin",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Bots Apocalípticos",
+     "sectionId": "patch-doom-bots",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Kassadin",
+      "name": "Kassadin"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño recibido",
+     "before": "100%",
+     "after": "90%",
+     "text": "Daño recibido: 100% ⇒ 90%",
+     "id": "43472d228714",
+     "section": "modes",
+     "tags": [
+      "Assassin",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.17",
+   "publishedAt": "2025-08-26T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Kassadin",
+      "name": "Kassadin"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Aumentamos el daño de su Q. Aumentamos el daño de su E.",
+     "id": "93951fa4431b",
+     "section": "champions",
+     "tags": [
+      "Assassin",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Kassadin",
+      "name": "Kassadin"
+     },
+     "part": "Q",
+     "partTitle": "Q: Esfera Nula",
+     "spellKey": "NullLance",
+     "kind": "stat",
+     "attribute": "Daño",
+     "before": "65 / 95 / 125 / 155 / 185 (+ 60% de Poder de Habilidad)",
+     "after": "65 / 95 / 125 / 155 / 185 (+ 70% de Poder de Habilidad)",
+     "text": "Daño: 65 / 95 / 125 / 155 / 185 (+ 60% de Poder de Habilidad) ⇒ 65 / 95 / 125 / 155 / 185 (+ 70% de Poder de Habilidad)",
+     "id": "846a2730a1a7",
+     "section": "champions",
+     "tags": [
+      "Assassin",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Kassadin",
+      "name": "Kassadin"
+     },
+     "part": "E",
+     "partTitle": "E: Pulso de Fuerza",
+     "spellKey": "ForcePulse",
+     "kind": "stat",
+     "attribute": "Daño",
+     "before": "70 / 100 / 130 / 160 / 190 (+ 65% de Poder de Habilidad)",
+     "after": "70 / 100 / 130 / 160 / 190 (+ 70% de Poder de Habilidad)",
+     "text": "Daño: 70 / 100 / 130 / 160 / 190 (+ 65% de Poder de Habilidad) ⇒ 70 / 100 / 130 / 160 / 190 (+ 70% de Poder de Habilidad)",
+     "id": "680a15889734",
+     "section": "champions",
+     "tags": [
+      "Assassin",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.15",
+   "publishedAt": "2025-07-29T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Cambios de balance de ARAM",
+     "sectionId": "patch-aram-balance-changes",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Kassadin",
+      "name": "Kassadin"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño de la E",
+     "before": "70 / 100 / 130 / 160 / 190 (+ 65% de Poder de Habilidad)",
+     "after": "80 / 115 / 150 / 185 / 220 (+ 75% de Poder de Habilidad)",
+     "text": "Daño de la E: 70 / 100 / 130 / 160 / 190 (+ 65% de Poder de Habilidad) ⇒ 80 / 115 / 150 / 185 / 220 (+ 75% de Poder de Habilidad)",
+     "id": "24d00c851549",
+     "section": "modes",
+     "tags": [
+      "Assassin",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.11",
+   "publishedAt": "2025-05-27T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Kassadin",
+      "name": "Kassadin"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Aumentamos su armadura básica. Aumentamos el daño de su E. Redujimos el daño de su R.",
+     "id": "584ae24cd2a0",
+     "section": "champions",
+     "tags": [
+      "Assassin",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Kassadin",
+      "name": "Kassadin"
+     },
+     "part": "base",
+     "partTitle": "Estadísticas básicas",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Armadura básica (nivel 1)",
+     "before": "19",
+     "after": "21",
+     "text": "Armadura básica (nivel 1): 19 ⇒ 21",
+     "id": "7abbe4732ccc",
+     "section": "champions",
+     "tags": [
+      "Assassin",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Kassadin",
+      "name": "Kassadin"
+     },
+     "part": "E",
+     "partTitle": "E: Pulso de Fuerza",
+     "spellKey": "ForcePulse",
+     "kind": "stat",
+     "attribute": "Daño",
+     "before": "60 / 90 / 120 / 150 / 180 (+ 65% de Poder de Habilidad)",
+     "after": "70 / 100 / 130 / 160 / 190 (+ 65% de Poder de Habilidad)",
+     "text": "Daño: 60 / 90 / 120 / 150 / 180 (+ 65% de Poder de Habilidad) ⇒ 70 / 100 / 130 / 160 / 190 (+ 65% de Poder de Habilidad)",
+     "id": "8d008da6252e",
+     "section": "champions",
+     "tags": [
+      "Assassin",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Kassadin",
+      "name": "Kassadin"
+     },
+     "part": "R",
+     "partTitle": "R: Ruptura en el Camino",
+     "spellKey": "RiftWalk",
+     "kind": "stat",
+     "attribute": "Daño adicional por acumulación",
+     "before": "35 / 45 / 55 (+ 10% de Poder de Habilidad) (+ 1% de Maná Máximo)",
+     "after": "35 / 45 / 55 (+ 7% de Poder de Habilidad) (+ 1% de Maná Máximo)",
+     "text": "Daño adicional por acumulación: 35 / 45 / 55 (+ 10% de Poder de Habilidad) (+ 1% de Maná Máximo) ⇒ 35 / 45 / 55 (+ 7% de Poder de Habilidad) (+ 1% de Maná Máximo)",
+     "id": "10897975c8ed",
+     "section": "champions",
+     "tags": [
+      "Assassin",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Kassadin",
+      "name": "Kassadin"
+     },
+     "part": "R",
+     "partTitle": "R: Ruptura en el Camino",
+     "spellKey": "RiftWalk",
+     "kind": "stat",
+     "attribute": "Daño máximo",
+     "before": "210 / 270 / 330 (+ 90% de Poder de Habilidad) (+ 6% de Maná Máximo)",
+     "after": "210 / 270 / 330 (+ 78% de Poder de Habilidad) (+ 6% de Maná Máximo)",
+     "text": "Daño máximo: 210 / 270 / 330 (+ 90% de Poder de Habilidad) (+ 6% de Maná Máximo) ⇒ 210 / 270 / 330 (+ 78% de Poder de Habilidad) (+ 6% de Maná Máximo)",
+     "id": "e8cfedb78a02",
+     "section": "champions",
+     "tags": [
+      "Assassin",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.8",
+   "publishedAt": "2025-04-15T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Kassadin",
+      "name": "Kassadin"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Crecimiento de Vida",
+     "before": "128",
+     "after": "119.5",
+     "text": "Crecimiento de Vida: 128 ⇒ 119.5",
+     "id": "cce1961ae40c",
+     "section": "modes",
+     "tags": [
+      "Assassin",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Kassadin",
+      "name": "Kassadin"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Tasa de Poder de Habilidad de la E",
+     "before": "80%",
+     "after": "65%",
+     "text": "Tasa de Poder de Habilidad de la E: 80% ⇒ 65%",
+     "id": "caebc692b779",
+     "section": "modes",
+     "tags": [
+      "Assassin",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Kassadin",
+      "name": "Kassadin"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño adicional por acumulación de la R",
+     "before": "45 / 55 / 65",
+     "after": "35 / 45 / 55",
+     "text": "Daño adicional por acumulación de la R: 45 / 55 / 65 ⇒ 35 / 45 / 55",
+     "id": "0772190a1cb9",
+     "section": "modes",
+     "tags": [
+      "Assassin",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  }
+ ]
+}

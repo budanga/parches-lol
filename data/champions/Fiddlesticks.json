@@ -1,0 +1,365 @@
+{
+ "schemaVersion": 1,
+ "id": "Fiddlesticks",
+ "name": "Fiddlesticks",
+ "tags": [
+  "Mage",
+  "Support"
+ ],
+ "entries": [
+  {
+   "patch": "26.22",
+   "publishedAt": "2026-11-03T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Classic",
+     "sectionId": "patch-classic",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Fiddlesticks",
+      "name": "Fiddlesticks"
+     },
+     "part": "E",
+     "partTitle": "E: Viento Siniestro",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño por rebote",
+     "before": "65 / 85 / 105 / 125 / 145 + 45% de Poder de Habilidad",
+     "after": "50 / 75 / 100 / 125 / 150 + 45% de Poder de Habilidad",
+     "text": "Daño por rebote: 65 / 85 / 105 / 125 / 145 + 45% de Poder de Habilidad ⇒ 50 / 75 / 100 / 125 / 150 + 45% de Poder de Habilidad",
+     "id": "d3d74c243e76",
+     "section": "modes",
+     "tags": [
+      "Mage",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.13",
+   "publishedAt": "2025-06-24T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Fiddlesticks",
+      "name": "Fiddlesticks"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Aumentamos el daño de su W.",
+     "id": "dc3806fecab1",
+     "section": "champions",
+     "tags": [
+      "Mage",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Fiddlesticks",
+      "name": "Fiddlesticks"
+     },
+     "part": "W",
+     "partTitle": "W: Extracción Abundante",
+     "spellKey": "FiddleSticksW",
+     "kind": "stat",
+     "attribute": "Daño por segundo",
+     "before": "60 / 90 / 120 / 150 / 180 (+ 40% de Poder de Habilidad)",
+     "after": "60 / 90 / 120 / 150 / 180 (+ 45% de Poder de Habilidad)",
+     "text": "Daño por segundo: 60 / 90 / 120 / 150 / 180 (+ 40% de Poder de Habilidad) ⇒ 60 / 90 / 120 / 150 / 180 (+ 45% de Poder de Habilidad)",
+     "id": "288da7d2ae31",
+     "section": "champions",
+     "tags": [
+      "Mage",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.11",
+   "publishedAt": "2025-05-27T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Pelea",
+     "sectionId": "patch-brawl",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Fiddlesticks",
+      "name": "Fiddlesticks"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño infligido",
+     "before": "100%",
+     "after": "95%",
+     "text": "Daño infligido: 100% ⇒ 95%",
+     "id": "4fd15e7cae1d",
+     "section": "modes",
+     "tags": [
+      "Mage",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Pelea",
+     "sectionId": "patch-brawl",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Fiddlesticks",
+      "name": "Fiddlesticks"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Enfriamiento de la R",
+     "before": "140 / 110 / 80",
+     "after": "140 / 130 / 120",
+     "text": "Enfriamiento de la R: 140 / 110 / 80 ⇒ 140 / 130 / 120",
+     "id": "79286518aef8",
+     "section": "modes",
+     "tags": [
+      "Mage",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.10",
+   "publishedAt": "2025-05-13T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Fiddlesticks",
+      "name": "Fiddlesticks"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Redujimos la duración del efecto de miedo y ajustamos el daño de su Q. Aumentamos el daño de su W.",
+     "id": "5efe67501384",
+     "section": "champions",
+     "tags": [
+      "Mage",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Fiddlesticks",
+      "name": "Fiddlesticks"
+     },
+     "part": "Q",
+     "partTitle": "Q: Aterrorizar",
+     "spellKey": "FiddleSticksQ",
+     "kind": "stat",
+     "attribute": "Duración del efecto de miedo",
+     "before": "1.25 / 1.5 / 1.75 / 2 / 2.25",
+     "after": "1.2 / 1.4 / 1.6 / 1.8 / 2",
+     "text": "Duración del efecto de miedo: 1.25 / 1.5 / 1.75 / 2 / 2.25 ⇒ 1.2 / 1.4 / 1.6 / 1.8 / 2",
+     "id": "fb46b8b81f62",
+     "section": "champions",
+     "tags": [
+      "Mage",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Fiddlesticks",
+      "name": "Fiddlesticks"
+     },
+     "part": "Q",
+     "partTitle": "Q: Aterrorizar",
+     "spellKey": "FiddleSticksQ",
+     "kind": "stat",
+     "attribute": "Daño",
+     "before": "5 / 6 / 7 / 8 / 9% (+ 2% por cada 100 de Poder de Habilidad) de la Vida actual del objetivo",
+     "after": "4 / 4.5 / 5 / 5.5 / 6% (+ 3% por cada 100 de Poder de Habilidad) de la Vida actual del objetivo",
+     "text": "Daño: 5 / 6 / 7 / 8 / 9% (+ 2% por cada 100 de Poder de Habilidad) de la Vida actual del objetivo ⇒ 4 / 4.5 / 5 / 5.5 / 6% (+ 3% por cada 100 de Poder de Habilidad) de la Vida actual del objetivo",
+     "id": "0a45f491fa89",
+     "section": "champions",
+     "tags": [
+      "Mage",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Fiddlesticks",
+      "name": "Fiddlesticks"
+     },
+     "part": "Q",
+     "partTitle": "Q: Aterrorizar",
+     "spellKey": "FiddleSticksQ",
+     "kind": "stat",
+     "attribute": "Daño potenciado",
+     "before": "10 / 12 / 14 / 16 / 18% (+ 4% por cada 100 de Poder de Habilidad) de la Vida actual del objetivo",
+     "after": "8 / 9 / 10 / 11 / 12% (+ 6% por cada 100 de Poder de Habilidad) de la Vida actual del objetivo",
+     "text": "Daño potenciado: 10 / 12 / 14 / 16 / 18% (+ 4% por cada 100 de Poder de Habilidad) de la Vida actual del objetivo ⇒ 8 / 9 / 10 / 11 / 12% (+ 6% por cada 100 de Poder de Habilidad) de la Vida actual del objetivo",
+     "id": "65ff7c514515",
+     "section": "champions",
+     "tags": [
+      "Mage",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Fiddlesticks",
+      "name": "Fiddlesticks"
+     },
+     "part": "W",
+     "partTitle": "W: Extracción Abundante",
+     "spellKey": "FiddleSticksW",
+     "kind": "stat",
+     "attribute": "Daño por segundo",
+     "before": "60 / 90 / 120 / 150 / 180 (+ 35% de Poder de Habilidad)",
+     "after": "60 / 90 / 120 / 150 / 180 (+ 40% de Poder de Habilidad)",
+     "text": "Daño por segundo: 60 / 90 / 120 / 150 / 180 (+ 35% de Poder de Habilidad) ⇒ 60 / 90 / 120 / 150 / 180 (+ 40% de Poder de Habilidad)",
+     "id": "64ed7fc07729",
+     "section": "champions",
+     "tags": [
+      "Mage",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.S1.3",
+   "publishedAt": "2025-02-04T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-swiftplay",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Fiddlesticks",
+      "name": "Fiddlesticks"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Curación de W",
+     "before": "25/32.5/40/47.5/55%",
+     "after": "35/42.5/50/57.5/65%",
+     "text": "Curación de W: 25/32.5/40/47.5/55% ⇒ 35/42.5/50/57.5/65%",
+     "id": "723153b4dbf0",
+     "section": "champions",
+     "tags": [
+      "Mage",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-swiftplay",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Fiddlesticks",
+      "name": "Fiddlesticks"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Ralentización de la E",
+     "before": "30/35/40/45/50%",
+     "after": "40/45/50/55/60%",
+     "text": "Ralentización de la E: 30/35/40/45/50% ⇒ 40/45/50/55/60%",
+     "id": "52b76a8cf0c0",
+     "section": "champions",
+     "tags": [
+      "Mage",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  }
+ ]
+}

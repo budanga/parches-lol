@@ -1,0 +1,533 @@
+{
+ "schemaVersion": 1,
+ "id": "Vi",
+ "name": "Vi",
+ "tags": [
+  "Fighter",
+  "Assassin"
+ ],
+ "entries": [
+  {
+   "patch": "26.23",
+   "publishedAt": "2026-11-17T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Vi",
+      "name": "Vi"
+     },
+     "part": "E",
+     "partTitle": "E: Fuerza Implacable",
+     "spellKey": "ViE",
+     "kind": "stat",
+     "attribute": "Daño",
+     "before": "10 / 30 / 50 / 70 / 90 (+110% de Daño de Ataque) (+100% de Poder de Habilidad)",
+     "after": "10 / 35 / 60 / 85 / 110 (+110% de Daño de Ataque) (+100% de Poder de Habilidad)",
+     "text": "Daño: 10 / 30 / 50 / 70 / 90 (+110% de Daño de Ataque) (+100% de Poder de Habilidad) ⇒ 10 / 35 / 60 / 85 / 110 (+110% de Daño de Ataque) (+100% de Poder de Habilidad)",
+     "id": "0aacf0e8a41d",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "26.19",
+   "publishedAt": "2026-09-22T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Vi",
+      "name": "Vi"
+     },
+     "part": "base",
+     "partTitle": "Estadísticas base",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño de Ataque",
+     "before": "63 + 3.5 por nivel",
+     "after": "61 + 3.9 por nivel",
+     "text": "Daño de Ataque: 63 + 3.5 por nivel ⇒ 61 + 3.9 por nivel",
+     "id": "26435f518f0e",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Vi",
+      "name": "Vi"
+     },
+     "part": "P",
+     "partTitle": "Pasiva: Escudo Explosivo",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Escudo",
+     "before": "12% de la Vida Máxima",
+     "after": "10% de la Vida Máxima",
+     "text": "Escudo: 12% de la Vida Máxima ⇒ 10% de la Vida Máxima",
+     "id": "d08ab08e6499",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "26.3",
+   "publishedAt": "2026-02-03T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Vi",
+      "name": "Vi"
+     },
+     "part": "base",
+     "partTitle": "Estadísticas básicas",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Crecimiento de Vida",
+     "before": "99",
+     "after": "105",
+     "text": "Crecimiento de Vida: 99 ⇒ 105",
+     "id": "9ed558e58db3",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Vi",
+      "name": "Vi"
+     },
+     "part": "base",
+     "partTitle": "Estadísticas básicas",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Crecimiento de Daño de Ataque",
+     "before": "3",
+     "after": "3.5",
+     "text": "Crecimiento de Daño de Ataque: 3 ⇒ 3.5",
+     "id": "7355b5d7e9f6",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.13",
+   "publishedAt": "2025-06-24T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Vi",
+      "name": "Vi"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Redujimos el escudo de su pasiva.",
+     "id": "9f43297406ad",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Vi",
+      "name": "Vi"
+     },
+     "part": "P",
+     "partTitle": "Pasiva: Escudo Explosivo",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Escudo",
+     "before": "14% de la Vida Máxima",
+     "after": "12% de la Vida Máxima",
+     "text": "Escudo: 14% de la Vida Máxima ⇒ 12% de la Vida Máxima",
+     "id": "55d5e4839d51",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.12",
+   "publishedAt": "2025-06-10T18:05:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Vi",
+      "name": "Vi"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Ajustamos el daño y redujimos la velocidad de ataque adicional de su W. Ajustamos el daño de su E.",
+     "id": "fd258f51f52b",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Vi",
+      "name": "Vi"
+     },
+     "part": "W",
+     "partTitle": "W: Golpes Abollantes",
+     "spellKey": "ViW",
+     "kind": "stat",
+     "attribute": "Vida Máxima del objetivo como daño",
+     "before": "4 / 5.5 / 7 / 8.5 / 10% (+ 2.857% de Daño de Ataque adicional)",
+     "after": "4 / 5 / 6 / 7 / 8 (+ 3.5% de Daño de Ataque adicional)",
+     "text": "Vida Máxima del objetivo como daño: 4 / 5.5 / 7 / 8.5 / 10% (+ 2.857% de Daño de Ataque adicional) ⇒ 4 / 5 / 6 / 7 / 8 (+ 3.5% de Daño de Ataque adicional)",
+     "id": "d43d772eea91",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Vi",
+      "name": "Vi"
+     },
+     "part": "W",
+     "partTitle": "W: Golpes Abollantes",
+     "spellKey": "ViW",
+     "kind": "stat",
+     "attribute": "Velocidad de Ataque adicional",
+     "before": "30 / 37.5 / 45 / 52.5 / 60%",
+     "after": "30 / 35 / 40 / 45 /50%",
+     "text": "Velocidad de Ataque adicional: 30 / 37.5 / 45 / 52.5 / 60% ⇒ 30 / 35 / 40 / 45 /50%",
+     "id": "2fe749ab4e4d",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Vi",
+      "name": "Vi"
+     },
+     "part": "E",
+     "partTitle": "E: Fuerza Implacable",
+     "spellKey": "ViE",
+     "kind": "stat",
+     "attribute": "Daño adicional",
+     "before": "0 / 15 / 30 / 45 / 60 (+ 120% de Daño de Ataque) (+ 100% de Poder de Habilidad)",
+     "after": "10 / 30 / 50 / 70 / 90 (+ 110% de Daño de Ataque) (+ 100% de Poder de Habilidad)",
+     "text": "Daño adicional: 0 / 15 / 30 / 45 / 60 (+ 120% de Daño de Ataque) (+ 100% de Poder de Habilidad) ⇒ 10 / 30 / 50 / 70 / 90 (+ 110% de Daño de Ataque) (+ 100% de Poder de Habilidad)",
+     "id": "27e665fb5e49",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.10",
+   "publishedAt": "2025-05-13T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Vi",
+      "name": "Vi"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Redujimos el daño mínimo y aumentamos el daño máximo de su Q. Redujimos el costo de maná y el daño de su R.",
+     "id": "4c3b74a1a6ed",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Vi",
+      "name": "Vi"
+     },
+     "part": "Q",
+     "partTitle": "Q: Rompebóvedas",
+     "spellKey": "ViQ",
+     "kind": "stat",
+     "attribute": "Daño Mínimo",
+     "before": "45 / 70 / 95 / 120 / 145 (+ 80% de Daño de Ataque adicional)",
+     "after": "40 / 60 / 80 / 100 / 120 (+ 60% de Daño de Ataque adicional)",
+     "text": "Daño Mínimo: 45 / 70 / 95 / 120 / 145 (+ 80% de Daño de Ataque adicional) ⇒ 40 / 60 / 80 / 100 / 120 (+ 60% de Daño de Ataque adicional)",
+     "id": "b5fe29e74daf",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Vi",
+      "name": "Vi"
+     },
+     "part": "Q",
+     "partTitle": "Q: Rompebóvedas",
+     "spellKey": "ViQ",
+     "kind": "stat",
+     "attribute": "Daño Máximo",
+     "before": "90 / 140 / 190 / 240 / 290 (+ 160% de Daño de Ataque adicional)",
+     "after": "100 / 150 / 200 / 250 / 300 (+ 150% de Daño de Ataque adicional)",
+     "text": "Daño Máximo: 90 / 140 / 190 / 240 / 290 (+ 160% de Daño de Ataque adicional) ⇒ 100 / 150 / 200 / 250 / 300 (+ 150% de Daño de Ataque adicional)",
+     "id": "d9d788ec2344",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Vi",
+      "name": "Vi"
+     },
+     "part": "Q",
+     "partTitle": "Q: Rompebóvedas",
+     "spellKey": "ViQ",
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Ahora, el reembolso de enfriamiento al cancelar el ataque responde mejor",
+     "id": "62539b789482",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Vi",
+      "name": "Vi"
+     },
+     "part": "E",
+     "partTitle": "E: Fuerza Implacable",
+     "spellKey": "ViE",
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Corregimos un error que causaba que su E infligiera daño crítico equivalente a +100% del Daño de Ataque total y no +75% del Daño de Ataque total como corresponde",
+     "id": "c8a77069c78b",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Vi",
+      "name": "Vi"
+     },
+     "part": "R",
+     "partTitle": "R: Cesar y Desistir",
+     "spellKey": "ViR",
+     "kind": "stat",
+     "attribute": "Maná",
+     "before": "100 / 125 / 150",
+     "after": "100",
+     "text": "Maná: 100 / 125 / 150 ⇒ 100",
+     "id": "2749e42cf9e3",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Vi",
+      "name": "Vi"
+     },
+     "part": "R",
+     "partTitle": "R: Cesar y Desistir",
+     "spellKey": "ViR",
+     "kind": "stat",
+     "attribute": "Daño",
+     "before": "150 / 275 / 400 (+ 90% de Daño de Ataque adicional)",
+     "after": "150 / 250 / 350 (+ 90% de Daño de Ataque adicional)",
+     "text": "Daño: 150 / 275 / 400 (+ 90% de Daño de Ataque adicional) ⇒ 150 / 250 / 350 (+ 90% de Daño de Ataque adicional)",
+     "id": "bd7226bf4d67",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  }
+ ]
+}

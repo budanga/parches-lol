@@ -1,0 +1,670 @@
+{
+ "schemaVersion": 1,
+ "id": "Viktor",
+ "name": "Viktor",
+ "tags": [
+  "Mage"
+ ],
+ "entries": [
+  {
+   "patch": "26.22",
+   "publishedAt": "2026-11-03T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Viktor",
+      "name": "Viktor"
+     },
+     "part": "base",
+     "partTitle": "Estadísticas base",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Crecimiento de Vida",
+     "before": "100 por nivel",
+     "after": "105 por nivel",
+     "text": "Crecimiento de Vida: 100 por nivel ⇒ 105 por nivel",
+     "id": "3ac252bb28c8",
+     "section": "champions",
+     "tags": [
+      "Mage"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Viktor",
+      "name": "Viktor"
+     },
+     "part": "R",
+     "partTitle": "R: Tormenta Arcana",
+     "spellKey": "ViktorR",
+     "kind": "stat",
+     "attribute": "Daño del conjuro",
+     "before": "100 / 175 / 250 (+50% de Poder de Habilidad)",
+     "after": "100 / 175 / 250 (+60% de Poder de Habilidad)",
+     "text": "Daño del conjuro: 100 / 175 / 250 (+50% de Poder de Habilidad) ⇒ 100 / 175 / 250 (+60% de Poder de Habilidad)",
+     "id": "e90cba8f3a3f",
+     "section": "champions",
+     "tags": [
+      "Mage"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "26.21",
+   "publishedAt": "2026-10-20T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Viktor",
+      "name": "Viktor"
+     },
+     "part": "base",
+     "partTitle": "Estadísticas base",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Velocidad de Movimiento",
+     "before": "335",
+     "after": "330",
+     "text": "Velocidad de Movimiento: 335 ⇒ 330",
+     "id": "083f261f0aa5",
+     "section": "champions",
+     "tags": [
+      "Mage"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Viktor",
+      "name": "Viktor"
+     },
+     "part": "Q",
+     "partTitle": "Q: Transferencia de Potencia",
+     "spellKey": "ViktorQ",
+     "kind": "stat",
+     "attribute": "Escudo",
+     "before": "40 - 140 (según el nivel) (+25% de Poder de Habilidad)",
+     "after": "30 - 130 (+20% de Poder de Habilidad)",
+     "text": "Escudo: 40 - 140 (según el nivel) (+25% de Poder de Habilidad) ⇒ 30 - 130 (+20% de Poder de Habilidad)",
+     "id": "b60289488f2d",
+     "section": "champions",
+     "tags": [
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "26.10",
+   "publishedAt": "2026-05-12T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "ARAM",
+     "sectionId": "patch-aram",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Viktor",
+      "name": "Viktor"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño infligido",
+     "before": "95%",
+     "after": "100%",
+     "text": "Daño infligido: 95% ⇒ 100%",
+     "id": "9f557c3506d5",
+     "section": "modes",
+     "tags": [
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "ARAM",
+     "sectionId": "patch-aram",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Viktor",
+      "name": "Viktor"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño recibido",
+     "before": "105%",
+     "after": "100%",
+     "text": "Daño recibido: 105% ⇒ 100%",
+     "id": "f9d80cf27096",
+     "section": "modes",
+     "tags": [
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "ARAM",
+     "sectionId": "patch-aram",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Viktor",
+      "name": "Viktor"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Acumulaciones de pasiva por asesinato",
+     "id": "a3c5fb7adf14",
+     "section": "modes",
+     "tags": [
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "ARAM",
+     "sectionId": "patch-aram",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Viktor",
+      "name": "Viktor"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": null,
+     "before": "Campeón: 20",
+     "after": "8",
+     "text": "Campeón: 20 ⇒ 8",
+     "id": "649c65c24e02",
+     "section": "modes",
+     "tags": [
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "ARAM",
+     "sectionId": "patch-aram",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Viktor",
+      "name": "Viktor"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": null,
+     "before": "Cañón: 10",
+     "after": "5",
+     "text": "Cañón: 10 ⇒ 5",
+     "id": "e762d6ad9416",
+     "section": "modes",
+     "tags": [
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "ARAM",
+     "sectionId": "patch-aram",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Viktor",
+      "name": "Viktor"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "new",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "NUEVO En los mapas de ARAM, Viktor obtiene 1 acumulación cada 5 segundos",
+     "id": "1f9500ff8425",
+     "section": "modes",
+     "tags": [
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "ARAM: Caos",
+     "sectionId": "patch-aram:-mayhem",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Viktor",
+      "name": "Viktor"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño infligido",
+     "before": "95%",
+     "after": "100%",
+     "text": "Daño infligido: 95% ⇒ 100%",
+     "id": "aaa3d1083df3",
+     "section": "modes",
+     "tags": [
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "ARAM: Caos",
+     "sectionId": "patch-aram:-mayhem",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Viktor",
+      "name": "Viktor"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño recibido",
+     "before": "105%",
+     "after": "100%",
+     "text": "Daño recibido: 105% ⇒ 100%",
+     "id": "9ecef9f9f72b",
+     "section": "modes",
+     "tags": [
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "ARAM: Caos",
+     "sectionId": "patch-aram:-mayhem",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Viktor",
+      "name": "Viktor"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Acumulaciones de pasiva por asesinato",
+     "id": "e508de57352b",
+     "section": "modes",
+     "tags": [
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "ARAM: Caos",
+     "sectionId": "patch-aram:-mayhem",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Viktor",
+      "name": "Viktor"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": null,
+     "before": "Campeón: 20",
+     "after": "8",
+     "text": "Campeón: 20 ⇒ 8",
+     "id": "ac8bad14364d",
+     "section": "modes",
+     "tags": [
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "ARAM: Caos",
+     "sectionId": "patch-aram:-mayhem",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Viktor",
+      "name": "Viktor"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": null,
+     "before": "Cañón: 10",
+     "after": "5",
+     "text": "Cañón: 10 ⇒ 5",
+     "id": "4af3b697300c",
+     "section": "modes",
+     "tags": [
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "ARAM: Caos",
+     "sectionId": "patch-aram:-mayhem",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Viktor",
+      "name": "Viktor"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "new",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "NUEVO En los mapas de ARAM, Viktor obtiene 1 acumulación cada 5 segundos",
+     "id": "f707cc3f03ae",
+     "section": "modes",
+     "tags": [
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.24",
+   "publishedAt": "2025-12-02T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Viktor",
+      "name": "Viktor"
+     },
+     "part": "Q",
+     "partTitle": "Q: Transferencia de Potencia",
+     "spellKey": "ViktorQ",
+     "kind": "stat",
+     "attribute": "Escudo",
+     "before": "De 40 a 115 (según el nivel) (+ 18% de Poder de Habilidad)",
+     "after": "De 40 a 140 (según el nivel) (+ 25% de Poder de Habilidad)",
+     "text": "Escudo: De 40 a 115 (según el nivel) (+ 18% de Poder de Habilidad) ⇒ De 40 a 140 (según el nivel) (+ 25% de Poder de Habilidad)",
+     "id": "d6ba6ac331e8",
+     "section": "champions",
+     "tags": [
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Viktor",
+      "name": "Viktor"
+     },
+     "part": "Q",
+     "partTitle": "Q: Transferencia de Potencia",
+     "spellKey": "ViktorQ",
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Corrección de error: Corregimos un error que causaba que el escudo de Viktor se calculara de forma incorrecta cuando estaba en el carril inferior",
+     "id": "31f3d8ddf48e",
+     "section": "champions",
+     "tags": [
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Viktor",
+      "name": "Viktor"
+     },
+     "part": "Q",
+     "partTitle": "Q: Transferencia de Potencia",
+     "spellKey": "ViktorQ",
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Corrección de error: Corregimos un error que hacía que la descripción de la tasa del poder de habilidad de la Q fuera inexacta",
+     "id": "bc8611f8808a",
+     "section": "champions",
+     "tags": [
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.S1.2",
+   "publishedAt": "2025-01-22T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Viktor",
+      "name": "Viktor"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Redujimos el daño de su Q. Redujimos el daño de su R.",
+     "id": "ab7ce73c21a7",
+     "section": "champions",
+     "tags": [
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Viktor",
+      "name": "Viktor"
+     },
+     "part": "Q - Transferencia de Potencia",
+     "partTitle": "Q - Transferencia de Potencia",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño adicional del ataque potenciado",
+     "before": "20/45/70/95/120 (+100% de Daño de Ataque) (+60% de Poder de Habilidad)",
+     "after": "20/45/70/95/120 (+100% de Daño de Ataque) (+50% de Poder de Habilidad)",
+     "text": "Daño adicional del ataque potenciado: 20/45/70/95/120 (+100% de Daño de Ataque) (+60% de Poder de Habilidad) ⇒ 20/45/70/95/120 (+100% de Daño de Ataque) (+50% de Poder de Habilidad)",
+     "id": "1209286cbb37",
+     "section": "champions",
+     "tags": [
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Viktor",
+      "name": "Viktor"
+     },
+     "part": "R",
+     "partTitle": "R: Tormenta Arcana",
+     "spellKey": "ViktorR",
+     "kind": "stat",
+     "attribute": "Daño por activación",
+     "before": "65/105/145 (+45% de Poder de Habilidad)",
+     "after": "65/105/145 (+35% de Poder de Habilidad)",
+     "text": "Daño por activación: 65/105/145 (+45% de Poder de Habilidad) ⇒ 65/105/145 (+35% de Poder de Habilidad)",
+     "id": "54857dc7b6d3",
+     "section": "champions",
+     "tags": [
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.S1.1",
+   "publishedAt": "2025-01-07T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Actualizaciones dentro de la versión",
+     "sectionId": "patch-fearless-draft",
+     "midPatch": true,
+     "entity": {
+      "kind": "champion",
+      "id": "Viktor",
+      "name": "Viktor"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Crecimiento de Vida",
+     "before": "100",
+     "after": "92",
+     "text": "Crecimiento de Vida: 100 ⇒ 92",
+     "id": "7e3697bb9b67",
+     "section": "champions",
+     "tags": [
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Actualizaciones dentro de la versión",
+     "sectionId": "patch-fearless-draft",
+     "midPatch": true,
+     "entity": {
+      "kind": "champion",
+      "id": "Viktor",
+      "name": "Viktor"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño de la R por activación",
+     "before": "65/105/145 (+ 45% de Poder de Habilidad)",
+     "after": "60/100/140 (+ 40% de Poder de Habilidad)",
+     "text": "Daño de la R por activación: 65/105/145 (+ 45% de Poder de Habilidad) ⇒ 60/100/140 (+ 40% de Poder de Habilidad)",
+     "id": "d9dc87c3498a",
+     "section": "champions",
+     "tags": [
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  }
+ ]
+}

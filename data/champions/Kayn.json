@@ -1,0 +1,497 @@
+{
+ "schemaVersion": 1,
+ "id": "Kayn",
+ "name": "Kayn",
+ "tags": [
+  "Fighter",
+  "Assassin"
+ ],
+ "entries": [
+  {
+   "patch": "26.21",
+   "publishedAt": "2026-10-20T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Kayn",
+      "name": "Kayn"
+     },
+     "part": "P",
+     "partTitle": "Pasiva: La Guadaña Darkin",
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Progreso de transformación: Tasa aumentada",
+     "id": "6184a5cfd570",
+     "section": "modes",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "26.3",
+   "publishedAt": "2026-02-03T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Kayn",
+      "name": "Kayn"
+     },
+     "part": "Q",
+     "partTitle": "Q: Corte Segador",
+     "spellKey": "KaynQ",
+     "kind": "stat",
+     "attribute": "Daño",
+     "before": "75 / 100 / 125 / 150 / 175 (+ 85% de Daño de Ataque adicional)",
+     "after": "75 / 105 / 135 / 165 / 195 (+ 85% de Daño de Ataque adicional)",
+     "text": "Daño: 75 / 100 / 125 / 150 / 175 (+ 85% de Daño de Ataque adicional) ⇒ 75 / 105 / 135 / 165 / 195 (+ 85% de Daño de Ataque adicional)",
+     "id": "8ce942ccca6b",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.24",
+   "publishedAt": "2025-12-02T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Kayn",
+      "name": "Kayn"
+     },
+     "part": "P",
+     "partTitle": "Pasiva: La Guadaña Darkin",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño mágico adicional después de la mitigación",
+     "before": "Del 25% al 45%",
+     "after": "Del 20% al 40%",
+     "text": "Daño mágico adicional después de la mitigación: Del 25% al 45% ⇒ Del 20% al 40%",
+     "id": "bf5326b46967",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.17",
+   "publishedAt": "2025-08-26T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Kayn",
+      "name": "Kayn"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Redujimos el costo de maná de su W y de su Q.",
+     "id": "d6bfeba97c72",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Kayn",
+      "name": "Kayn"
+     },
+     "part": "Q",
+     "partTitle": "Q: Corte Segador",
+     "spellKey": "KaynQ",
+     "kind": "stat",
+     "attribute": "Costo de Maná",
+     "before": "50",
+     "after": "40",
+     "text": "Costo de Maná: 50 ⇒ 40",
+     "id": "30cf10dd2afa",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Kayn",
+      "name": "Kayn"
+     },
+     "part": "W",
+     "partTitle": "W: Alcance de Cuchilla",
+     "spellKey": "KaynW",
+     "kind": "stat",
+     "attribute": "Costo de Maná",
+     "before": "60 / 65 / 70 / 75 /80",
+     "after": "40 / 45 / 50 / 55 / 60",
+     "text": "Costo de Maná: 60 / 65 / 70 / 75 /80 ⇒ 40 / 45 / 50 / 55 / 60",
+     "id": "140c0d2a075f",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.12",
+   "publishedAt": "2025-06-10T18:05:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "ARAM",
+     "sectionId": "patch-aram",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Kayn",
+      "name": "Kayn"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Tasa de Daño de Ataque adicional de la Q",
+     "before": "85%",
+     "after": "95%",
+     "text": "Tasa de Daño de Ataque adicional de la Q: 85% ⇒ 95%",
+     "id": "91f972dd3315",
+     "section": "modes",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "ARAM",
+     "sectionId": "patch-aram",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Kayn",
+      "name": "Kayn"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Enfriamiento de la E (Asesino Sombrío)",
+     "before": "10 seg",
+     "after": "7 seg",
+     "text": "Enfriamiento de la E (Asesino Sombrío): 10 seg ⇒ 7 seg",
+     "id": "facf50a839b0",
+     "section": "modes",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.11",
+   "publishedAt": "2025-05-27T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Pelea",
+     "sectionId": "patch-brawl",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Kayn",
+      "name": "Kayn"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño recibido del Asesino Sombrío",
+     "before": "100%",
+     "after": "95%",
+     "text": "Daño recibido del Asesino Sombrío: 100% ⇒ 95%",
+     "id": "2773dfb36e08",
+     "section": "modes",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Pelea",
+     "sectionId": "patch-brawl",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Kayn",
+      "name": "Kayn"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Aceleración de Habilidad del Asesino Sombrío",
+     "before": "0",
+     "after": "10",
+     "text": "Aceleración de Habilidad del Asesino Sombrío: 0 ⇒ 10",
+     "id": "36f1fa5bb760",
+     "section": "modes",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.10",
+   "publishedAt": "2025-05-13T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Kayn",
+      "name": "Kayn"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Redujimos su crecimiento de vida.",
+     "id": "4c88fb286b29",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Kayn",
+      "name": "Kayn"
+     },
+     "part": "base",
+     "partTitle": "Estadísticas básicas",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Crecimiento de Vida",
+     "before": "109",
+     "after": "103",
+     "text": "Crecimiento de Vida: 109 ⇒ 103",
+     "id": "0456e95eea99",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.S1.3",
+   "publishedAt": "2025-02-04T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Kayn",
+      "name": "Kayn"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Aumentamos el daño de su Q.",
+     "id": "e6a58458bb98",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Kayn",
+      "name": "Kayn"
+     },
+     "part": "Q",
+     "partTitle": "Q: Corte Segador",
+     "spellKey": "KaynQ",
+     "kind": "stat",
+     "attribute": "Daño",
+     "before": "75/95/115/135/155 (+85% de Daño de Ataque adicional)",
+     "after": "75/100/125/150/175 (+85% de Daño de Ataque adicional)",
+     "text": "Daño: 75/95/115/135/155 (+85% de Daño de Ataque adicional) ⇒ 75/100/125/150/175 (+85% de Daño de Ataque adicional)",
+     "id": "b52e76a634a0",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.S1.2",
+   "publishedAt": "2025-01-22T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Kayn",
+      "name": "Kayn"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Aumentamos el daño de su pasiva en los niveles inferiores.",
+     "id": "34af8aee6da6",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Kayn",
+      "name": "Kayn"
+     },
+     "part": "P",
+     "partTitle": "Pasiva: La Guadaña Darkin",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño mágico adicional de Asesino Sombrío",
+     "before": "15 a 45% (según el nivel)",
+     "after": "25 a 45% (según el nivel)",
+     "text": "Daño mágico adicional de Asesino Sombrío: 15 a 45% (según el nivel) ⇒ 25 a 45% (según el nivel)",
+     "id": "b00b57bc8093",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  }
+ ]
+}

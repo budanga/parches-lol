@@ -1,0 +1,350 @@
+{
+ "schemaVersion": 1,
+ "id": "Sylas",
+ "name": "Sylas",
+ "tags": [
+  "Mage",
+  "Assassin"
+ ],
+ "entries": [
+  {
+   "patch": "26.15",
+   "publishedAt": "2026-07-28T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Sylas",
+      "name": "Sylas"
+     },
+     "part": "Q",
+     "partTitle": "Q: Azote de Cadenas",
+     "spellKey": "SylasQ",
+     "kind": "stat",
+     "attribute": "Daño del primer azote",
+     "before": "40 / 65 / 90 / 115 / 140 (+45% de Poder de Habilidad)",
+     "after": "40 / 60 / 80 / 100 / 120 (+40% de Poder de Habilidad)",
+     "text": "Daño del primer azote: 40 / 65 / 90 / 115 / 140 (+45% de Poder de Habilidad) ⇒ 40 / 60 / 80 / 100 / 120 (+40% de Poder de Habilidad)",
+     "id": "b4910f17f5c1",
+     "section": "champions",
+     "tags": [
+      "Mage",
+      "Assassin"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "26.12",
+   "publishedAt": "2026-06-09T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Sylas",
+      "name": "Sylas"
+     },
+     "part": "Q",
+     "partTitle": "Q: Azote de Cadenas",
+     "spellKey": "SylasQ",
+     "kind": "stat",
+     "attribute": "Daño inicial",
+     "before": "40 / 60 / 80 / 100 / 120 (+40% de Poder de Habilidad)",
+     "after": "40 / 65 / 90 / 115 / 140 (+45% de Poder de Habilidad)",
+     "text": "Daño inicial: 40 / 60 / 80 / 100 / 120 (+40% de Poder de Habilidad) ⇒ 40 / 65 / 90 / 115 / 140 (+45% de Poder de Habilidad)",
+     "id": "9ffce93d5c80",
+     "section": "champions",
+     "tags": [
+      "Mage",
+      "Assassin"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Sylas",
+      "name": "Sylas"
+     },
+     "part": "W",
+     "partTitle": "W: Matarreyes",
+     "spellKey": "SylasW",
+     "kind": "stat",
+     "attribute": "Cantidad de Curación",
+     "before": "20 / 40 / 60 / 80 / 100 (+20% de Poder de Habilidad) (+5% de la Vida adicional de Sylas), aumenta hasta un 100% según la Vida faltante de Sylas",
+     "after": "20 / 40 / 60 / 80 / 100 (+30% de Poder de Habilidad) (+5% de la Vida adicional de Sylas), aumenta hasta un 100% según la Vida faltante de Sylas",
+     "text": "Cantidad de Curación: 20 / 40 / 60 / 80 / 100 (+20% de Poder de Habilidad) (+5% de la Vida adicional de Sylas), aumenta hasta un 100% según la Vida faltante de Sylas ⇒ 20 / 40 / 60 / 80 / 100 (+30% de Poder de Habilidad) (+5% de la Vida adicional de Sylas), aumenta hasta un 100% según la Vida faltante de Sylas",
+     "id": "398e20a84fa1",
+     "section": "champions",
+     "tags": [
+      "Mage",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.24",
+   "publishedAt": "2025-12-02T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Actualizaciones dentro de la versión, 16 de diciembre de 2025",
+     "sectionId": "patch-season-3-ranked-ending-soon",
+     "midPatch": true,
+     "entity": {
+      "kind": "champion",
+      "id": "Sylas",
+      "name": "Sylas"
+     },
+     "part": "P",
+     "partTitle": "Pasiva: Ráfaga de Petricita",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño contra monstruos",
+     "before": "×1.3",
+     "after": "×1.15",
+     "text": "Daño contra monstruos: ×1.3 ⇒ ×1.15",
+     "id": "71a8fb2cab97",
+     "section": "champions",
+     "tags": [
+      "Mage",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.20",
+   "publishedAt": "2025-10-07T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena-",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Sylas",
+      "name": "Sylas"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": null,
+     "before": "Tasa de Poder de Habilidad como daño de la W: 65%",
+     "after": "60%",
+     "text": "Tasa de Poder de Habilidad como daño de la W: 65% ⇒ 60%",
+     "id": "aeaeea02b591",
+     "section": "modes",
+     "tags": [
+      "Mage",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.18",
+   "publishedAt": "2025-09-09T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Sylas",
+      "name": "Sylas"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Redujimos el daño de su pasiva contra monstruos.",
+     "id": "84f955a50d76",
+     "section": "champions",
+     "tags": [
+      "Mage",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Sylas",
+      "name": "Sylas"
+     },
+     "part": "P",
+     "partTitle": "Pasiva: Ráfaga de Petricita",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño adicional contra monstruos",
+     "before": "150%",
+     "after": "130%",
+     "text": "Daño adicional contra monstruos: 150% ⇒ 130%",
+     "id": "93159a0b954d",
+     "section": "champions",
+     "tags": [
+      "Mage",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.16",
+   "publishedAt": "2025-08-12T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Sylas",
+      "name": "Sylas"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "La pasiva ahora inflige daño adicional contra monstruos.",
+     "id": "7189dbae3cda",
+     "section": "champions",
+     "tags": [
+      "Mage",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Sylas",
+      "name": "Sylas"
+     },
+     "part": "P",
+     "partTitle": "Pasiva: Ráfaga de Petricita",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Modificador de daño contra monstruos",
+     "before": "100%",
+     "after": "150%",
+     "text": "Modificador de daño contra monstruos: 100% ⇒ 150%",
+     "id": "9375b2bfbfee",
+     "section": "champions",
+     "tags": [
+      "Mage",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.11",
+   "publishedAt": "2025-05-27T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Pelea",
+     "sectionId": "patch-brawl",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Sylas",
+      "name": "Sylas"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño infligido",
+     "before": "100%",
+     "after": "105%",
+     "text": "Daño infligido: 100% ⇒ 105%",
+     "id": "ebfb44aa9d97",
+     "section": "modes",
+     "tags": [
+      "Mage",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Pelea",
+     "sectionId": "patch-brawl",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Sylas",
+      "name": "Sylas"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño recibido",
+     "before": "100%",
+     "after": "95%",
+     "text": "Daño recibido: 100% ⇒ 95%",
+     "id": "04d27171a7a5",
+     "section": "modes",
+     "tags": [
+      "Mage",
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  }
+ ]
+}

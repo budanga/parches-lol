@@ -1,0 +1,702 @@
+{
+ "schemaVersion": 1,
+ "id": "Yunara",
+ "name": "Yunara",
+ "tags": [
+  "Marksman"
+ ],
+ "entries": [
+  {
+   "patch": "26.20",
+   "publishedAt": "2026-10-06T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Yunara",
+      "name": "Yunara"
+     },
+     "part": "Q",
+     "partTitle": "Q: Cultivo de Espíritu",
+     "spellKey": "YunaraQ",
+     "kind": "stat",
+     "attribute": "Daño al impacto de la pasiva",
+     "before": "5 / 10 / 15 / 20 / 25 (+20% de Poder de Habilidad)",
+     "after": "3 / 8 / 13 / 18 / 23 (+20% de Poder de Habilidad)",
+     "text": "Daño al impacto de la pasiva: 5 / 10 / 15 / 20 / 25 (+20% de Poder de Habilidad) ⇒ 3 / 8 / 13 / 18 / 23 (+20% de Poder de Habilidad)",
+     "id": "6e62cea5c622",
+     "section": "champions",
+     "tags": [
+      "Marksman"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Yunara",
+      "name": "Yunara"
+     },
+     "part": "Q",
+     "partTitle": "Q: Cultivo de Espíritu",
+     "spellKey": "YunaraQ",
+     "kind": "stat",
+     "attribute": "Daño al impacto de la activa",
+     "before": "5 / 10 / 15 / 20 / 25 (+20% de Poder de Habilidad)",
+     "after": "3 / 8 / 13 / 18 / 23 (+20% de Poder de Habilidad)",
+     "text": "Daño al impacto de la activa: 5 / 10 / 15 / 20 / 25 (+20% de Poder de Habilidad) ⇒ 3 / 8 / 13 / 18 / 23 (+20% de Poder de Habilidad)",
+     "id": "356a1a5b0924",
+     "section": "champions",
+     "tags": [
+      "Marksman"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Yunara",
+      "name": "Yunara"
+     },
+     "part": "W",
+     "partTitle": "W: Rendición de Cuentas",
+     "spellKey": "YunaraW",
+     "kind": "stat",
+     "attribute": "Acumulación de ralentización",
+     "before": "Se acumula con otros efectos de ralentización",
+     "after": "Ya no se acumula con otros efectos de ralentización",
+     "text": "Acumulación de ralentización: Se acumula con otros efectos de ralentización ⇒ Ya no se acumula con otros efectos de ralentización",
+     "id": "c0782076f53e",
+     "section": "champions",
+     "tags": [
+      "Marksman"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "26.14",
+   "publishedAt": "2026-07-14T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Yunara",
+      "name": "Yunara"
+     },
+     "part": "base",
+     "partTitle": "Estadísticas base",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Crecimiento de Daño de Ataque",
+     "before": "2.5",
+     "after": "3",
+     "text": "Crecimiento de Daño de Ataque: 2.5 ⇒ 3",
+     "id": "ebfe6f69f819",
+     "section": "champions",
+     "tags": [
+      "Marksman"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "26.1",
+   "publishedAt": "2026-01-07T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Yunara",
+      "name": "Yunara"
+     },
+     "part": "Q",
+     "partTitle": "Q: Cultivo de Espíritu",
+     "spellKey": "YunaraQ",
+     "kind": "stat",
+     "attribute": "Velocidad de Ataque",
+     "before": "25% / 35% / 45% / 55% / 65%",
+     "after": "20% / 30% / 40% / 50% / 60%",
+     "text": "Velocidad de Ataque: 25% / 35% / 45% / 55% / 65% ⇒ 20% / 30% / 40% / 50% / 60%",
+     "id": "84a53c7d4334",
+     "section": "champions",
+     "tags": [
+      "Marksman"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Yunara",
+      "name": "Yunara"
+     },
+     "part": "R + W: Cuentas de la Ruina",
+     "partTitle": "R + W: Cuentas de la Ruina",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño",
+     "before": "175 / 350 / 525 (+ 150% de Daño de Ataque adicional)",
+     "after": "160 / 320 / 480 (+ 120% de Daño de Ataque adicional)",
+     "text": "Daño: 175 / 350 / 525 (+ 150% de Daño de Ataque adicional) ⇒ 160 / 320 / 480 (+ 120% de Daño de Ataque adicional)",
+     "id": "b5f9e4a02139",
+     "section": "champions",
+     "tags": [
+      "Marksman"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.21",
+   "publishedAt": "2025-10-21T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Yunara",
+      "name": "Yunara"
+     },
+     "part": "W",
+     "partTitle": "W: Rendición de Cuentas",
+     "spellKey": "YunaraW",
+     "kind": "stat",
+     "attribute": "Daño inicial",
+     "before": "5 / 30 / 55 / 80 / 105 (+ 85% de Daño de Ataque total)",
+     "after": "55 / 95 / 135 / 175 / 215 (+ 85% de Daño de Ataque total)",
+     "text": "Daño inicial: 5 / 30 / 55 / 80 / 105 (+ 85% de Daño de Ataque total) ⇒ 55 / 95 / 135 / 175 / 215 (+ 85% de Daño de Ataque total)",
+     "id": "23f01bf63395",
+     "section": "champions",
+     "tags": [
+      "Marksman"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Yunara",
+      "name": "Yunara"
+     },
+     "part": "W",
+     "partTitle": "W: Rendición de Cuentas",
+     "spellKey": "YunaraW",
+     "kind": "stat",
+     "attribute": "Daño por segundo",
+     "before": "5 / 20 / 35 / 50 / 65 (+ 40% de Daño de Ataque total)",
+     "after": "33 / 57 / 81 / 105 / 129 (+ 51% de Daño de Ataque adicional)",
+     "text": "Daño por segundo: 5 / 20 / 35 / 50 / 65 (+ 40% de Daño de Ataque total) ⇒ 33 / 57 / 81 / 105 / 129 (+ 51% de Daño de Ataque adicional)",
+     "id": "d572b060613f",
+     "section": "champions",
+     "tags": [
+      "Marksman"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Yunara",
+      "name": "Yunara"
+     },
+     "part": "W",
+     "partTitle": "W: Cuentas de la Ruina (Estado de Trascendencia)",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño",
+     "before": "50 / 200 / 350 (+ 175% de Daño de Ataque total)",
+     "after": "175 / 350 / 525 (+ 150% de Daño de Ataque adicional)",
+     "text": "Daño: 50 / 200 / 350 (+ 175% de Daño de Ataque total) ⇒ 175 / 350 / 525 (+ 150% de Daño de Ataque adicional)",
+     "id": "864edd26f43a",
+     "section": "champions",
+     "tags": [
+      "Marksman"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Yunara",
+      "name": "Yunara"
+     },
+     "part": "E",
+     "partTitle": "E: Andar Kanmei",
+     "spellKey": "YunaraE",
+     "kind": "stat",
+     "attribute": "Velocidad de Movimiento",
+     "before": "30% / 35% / 40% / 45% / 50% que decae a lo largo de 1.5 seg",
+     "after": "30% / 35% / 40% / 45% / 50% que decae a lo largo de 1.5 seg",
+     "text": "Velocidad de Movimiento: 30% / 35% / 40% / 45% / 50% que decae a lo largo de 1.5 seg ⇒ 30% / 35% / 40% / 45% / 50% que decae a lo largo de 1.5 seg",
+     "id": "b8dfa40866b4",
+     "section": "champions",
+     "tags": [
+      "Marksman"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Yunara",
+      "name": "Yunara"
+     },
+     "part": "E",
+     "partTitle": "E: Andar Kanmei",
+     "spellKey": "YunaraE",
+     "kind": "stat",
+     "attribute": "Velocidad de Movimiento al moverse hacia los enemigos",
+     "before": "45% / 52.5% / 60% / 67.5% / 75% que decae a lo largo de 1.5 seg",
+     "after": "45% / 52.5% / 60% / 67.5% / 75% que decae a lo largo de 1.5 seg",
+     "text": "Velocidad de Movimiento al moverse hacia los enemigos: 45% / 52.5% / 60% / 67.5% / 75% que decae a lo largo de 1.5 seg ⇒ 45% / 52.5% / 60% / 67.5% / 75% que decae a lo largo de 1.5 seg",
+     "id": "e9ab99727489",
+     "section": "champions",
+     "tags": [
+      "Marksman"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Yunara",
+      "name": "Yunara"
+     },
+     "part": "E",
+     "partTitle": "E: Andar Kanmei",
+     "spellKey": "YunaraE",
+     "kind": "stat",
+     "attribute": "Enfriamiento",
+     "before": "7.5 seg",
+     "after": "9 seg",
+     "text": "Enfriamiento: 7.5 seg ⇒ 9 seg",
+     "id": "d79d158c268e",
+     "section": "champions",
+     "tags": [
+      "Marksman"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Yunara",
+      "name": "Yunara"
+     },
+     "part": "E",
+     "partTitle": "E: Andar Kanmei",
+     "spellKey": "YunaraE",
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Paso firme: Corregimos un error que permitía que Yunara conservara la velocidad de movimiento mejorada incluso cuando no se desplazaba en dirección a campeones enemigos",
+     "id": "54b7e143d380",
+     "section": "champions",
+     "tags": [
+      "Marksman"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.19",
+   "publishedAt": "2025-09-23T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Cambios de balance de ARAM",
+     "sectionId": "patch-aram-balance-changes",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Yunara",
+      "name": "Yunara"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Enfriamiento de la R",
+     "before": "100 / 90 / 80 seg",
+     "after": "80 / 70 / 60 seg",
+     "text": "Enfriamiento de la R: 100 / 90 / 80 seg ⇒ 80 / 70 / 60 seg",
+     "id": "2298d1763cf6",
+     "section": "modes",
+     "tags": [
+      "Marksman"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Cambios de balance de ARAM",
+     "sectionId": "patch-aram-balance-changes",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Yunara",
+      "name": "Yunara"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Velocidad de Movimiento de la E",
+     "before": "30% / 35% / 40% / 45% / 50%",
+     "after": "40% / 45% / 50% / 55% / 60%",
+     "text": "Velocidad de Movimiento de la E: 30% / 35% / 40% / 45% / 50% ⇒ 40% / 45% / 50% / 55% / 60%",
+     "id": "0feae77a47d7",
+     "section": "modes",
+     "tags": [
+      "Marksman"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.18",
+   "publishedAt": "2025-09-09T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Yunara",
+      "name": "Yunara"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Redujimos su vida y su daño de ataque básico. Redujimos la velocidad de movimiento adicional y la duración de su E.",
+     "id": "168a41715a80",
+     "section": "champions",
+     "tags": [
+      "Marksman"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Yunara",
+      "name": "Yunara"
+     },
+     "part": "base",
+     "partTitle": "Estadísticas básicas",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Vida básica",
+     "before": "600",
+     "after": "575",
+     "text": "Vida básica: 600 ⇒ 575",
+     "id": "698065a52a02",
+     "section": "champions",
+     "tags": [
+      "Marksman"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Yunara",
+      "name": "Yunara"
+     },
+     "part": "base",
+     "partTitle": "Estadísticas básicas",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño de Ataque básico",
+     "before": "56",
+     "after": "53",
+     "text": "Daño de Ataque básico: 56 ⇒ 53",
+     "id": "f4d6e60a6f38",
+     "section": "champions",
+     "tags": [
+      "Marksman"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Yunara",
+      "name": "Yunara"
+     },
+     "part": "E",
+     "partTitle": "E: Andar Kanmei",
+     "spellKey": "YunaraE",
+     "kind": "stat",
+     "attribute": "Velocidad de Movimiento adicional",
+     "before": "50% / 55% / 60% / 65% / 70%",
+     "after": "30% / 35% / 40% / 45% / 50%",
+     "text": "Velocidad de Movimiento adicional: 50% / 55% / 60% / 65% / 70% ⇒ 30% / 35% / 40% / 45% / 50%",
+     "id": "8979a75c1ddf",
+     "section": "champions",
+     "tags": [
+      "Marksman"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Yunara",
+      "name": "Yunara"
+     },
+     "part": "E",
+     "partTitle": "E: Andar Kanmei",
+     "spellKey": "YunaraE",
+     "kind": "stat",
+     "attribute": "Duración de la Velocidad de Movimiento",
+     "before": "1.5 / 1.75 / 2 / 2.25 / 2.5 seg",
+     "after": "1.5 seg en todos los rangos",
+     "text": "Duración de la Velocidad de Movimiento: 1.5 / 1.75 / 2 / 2.25 / 2.5 seg ⇒ 1.5 seg en todos los rangos",
+     "id": "2f142d639bb4",
+     "section": "champions",
+     "tags": [
+      "Marksman"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.17",
+   "publishedAt": "2025-08-26T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Yunara",
+      "name": "Yunara"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Corregimos varios errores que causaban que Yunara infligiera más o menos daño con efectos al impacto.",
+     "id": "5b35fcfd3830",
+     "section": "champions",
+     "tags": [
+      "Marksman"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Yunara",
+      "name": "Yunara"
+     },
+     "part": "Q",
+     "partTitle": "Q: Cultivo de Espíritu",
+     "spellKey": "YunaraQ",
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Corregimos un error que causaba que los rebotes a veces otorgaran varias acumulaciones para algunos objetos. Diseñamos a Yunara para que obtenga una sola acumulación por rebote",
+     "id": "0a6987fc8d36",
+     "section": "champions",
+     "tags": [
+      "Marksman"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Yunara",
+      "name": "Yunara"
+     },
+     "part": "Q",
+     "partTitle": "Q: Cultivo de Espíritu",
+     "spellKey": "YunaraQ",
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Corregimos un error que provocaba que los objetos no siempre infligieran daño con los rebotes de la Q si ocurrían muchos rebotes a la vez. (Los poros que sacan las cuentas detrás de escena ya están listos para lidiar con tantos cálculos)",
+     "id": "2c4df3ecc51a",
+     "section": "champions",
+     "tags": [
+      "Marksman"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Yunara",
+      "name": "Yunara"
+     },
+     "part": "Q",
+     "partTitle": "Q: Cultivo de Espíritu",
+     "spellKey": "YunaraQ",
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Corregimos un error que causaba que algunos objetos, como Huracán de Runaan, infligieran la cantidad total de daño al impacto cuando rebotaban del objetivo secundario al principal. Esto aplicaba el valor total de daño al impacto varias veces con un solo autoataque",
+     "id": "f7819d1baef7",
+     "section": "champions",
+     "tags": [
+      "Marksman"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Yunara",
+      "name": "Yunara"
+     },
+     "part": "Q",
+     "partTitle": "Q: Cultivo de Espíritu",
+     "spellKey": "YunaraQ",
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Corregimos un error que hacía que la reducción de daño al impacto de los proyectiles de Huracán de Runaan fuera incorrecta. De ahora en adelante, el objeto infligirá la cantidad total de daño al impacto de forma correcta",
+     "id": "d0ec57c74a44",
+     "section": "champions",
+     "tags": [
+      "Marksman"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  }
+ ]
+}

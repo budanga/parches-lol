@@ -1,0 +1,326 @@
+{
+ "schemaVersion": 1,
+ "id": "Khazix",
+ "name": "Kha'Zix",
+ "tags": [
+  "Assassin"
+ ],
+ "entries": [
+  {
+   "patch": "26.19",
+   "publishedAt": "2026-09-22T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Khazix",
+      "name": "Kha'Zix"
+     },
+     "part": "P",
+     "partTitle": "Pasiva: Amenaza Invisible",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño",
+     "before": "De 17 a 136 (+50% de Daño de Ataque adicional)",
+     "after": "De 22 a 141 (+50% de Daño de Ataque adicional)",
+     "text": "Daño: De 17 a 136 (+50% de Daño de Ataque adicional) ⇒ De 22 a 141 (+50% de Daño de Ataque adicional)",
+     "id": "b938ff80aec8",
+     "section": "champions",
+     "tags": [
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Khazix",
+      "name": "Kha'Zix"
+     },
+     "part": "W",
+     "partTitle": "W: Púas del Vacío",
+     "spellKey": "KhazixW",
+     "kind": "stat",
+     "attribute": "(Evolucionadas) Duración de ralentización",
+     "before": "2 seg",
+     "after": "2.25 seg",
+     "text": "(Evolucionadas) Duración de ralentización: 2 seg ⇒ 2.25 seg",
+     "id": "f0f1854189a7",
+     "section": "champions",
+     "tags": [
+      "Assassin"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Khazix",
+      "name": "Kha'Zix"
+     },
+     "part": "E",
+     "partTitle": "E: Salto",
+     "spellKey": "KhazixE",
+     "kind": "stat",
+     "attribute": "(Evolucionado) Bonificación de alcance",
+     "before": "+200",
+     "after": "+300",
+     "text": "(Evolucionado) Bonificación de alcance: +200 ⇒ +300",
+     "id": "f0f33da5baee",
+     "section": "champions",
+     "tags": [
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "26.5",
+   "publishedAt": "2026-03-03T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Khazix",
+      "name": "Kha'Zix"
+     },
+     "part": "base",
+     "partTitle": "Estadísticas básicas",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Velocidad de Movimiento",
+     "before": "350",
+     "after": "345",
+     "text": "Velocidad de Movimiento: 350 ⇒ 345",
+     "id": "c4006528e089",
+     "section": "champions",
+     "tags": [
+      "Assassin"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Khazix",
+      "name": "Kha'Zix"
+     },
+     "part": "Q",
+     "partTitle": "Q: Saborea su Miedo",
+     "spellKey": "KhazixQ",
+     "kind": "stat",
+     "attribute": "Daño de Ataque adicional",
+     "before": "+110% (231% de bonificación aislada)",
+     "after": "+105% (220.5% de bonificación aislada)",
+     "text": "Daño de Ataque adicional: +110% (231% de bonificación aislada) ⇒ +105% (220.5% de bonificación aislada)",
+     "id": "3080aedd59ba",
+     "section": "champions",
+     "tags": [
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.24",
+   "publishedAt": "2025-12-02T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Khazix",
+      "name": "Kha'Zix"
+     },
+     "part": "W",
+     "partTitle": "W: Púas del Vacío",
+     "spellKey": "KhazixW",
+     "kind": "stat",
+     "attribute": "Daño básico",
+     "before": "85 / 115 / 145 / 175 / 205",
+     "after": "75 / 105 / 135 / 165 / 195",
+     "text": "Daño básico: 85 / 115 / 145 / 175 / 205 ⇒ 75 / 105 / 135 / 165 / 195",
+     "id": "76247c724e4f",
+     "section": "champions",
+     "tags": [
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.20",
+   "publishedAt": "2025-10-07T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Bots Apocalípticos",
+     "sectionId": "patch-doom-bots",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Khazix",
+      "name": "Kha'Zix"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño infligido",
+     "before": "100%",
+     "after": "110%",
+     "text": "Daño infligido: 100% ⇒ 110%",
+     "id": "ad3ba7066d49",
+     "section": "modes",
+     "tags": [
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Bots Apocalípticos",
+     "sectionId": "patch-doom-bots",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Khazix",
+      "name": "Kha'Zix"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Tenacidad",
+     "before": "0",
+     "after": "25",
+     "text": "Tenacidad: 0 ⇒ 25",
+     "id": "54d1725e45d3",
+     "section": "modes",
+     "tags": [
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.6",
+   "publishedAt": "2025-03-18T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Khazix",
+      "name": "Kha'Zix"
+     },
+     "part": "Aumentamos el daño de su pasiva y de su E. Actualmente, Kha'Zix no está en su mejor momento, así que vamos a mejorar su poder PvP en esta versión, dándole más razones para jugar alrededor tanto de su pasiva como de su Salto, al hacer que ambos duelan un poco más.",
+     "partTitle": "Aumentamos el daño de su pasiva y de su E. Actualmente, Kha'Zix no está en su mejor momento, así que vamos a mejorar su poder PvP en esta versión, dándole más razones para jugar alrededor tanto de su pasiva como de su Salto, al hacer que ambos duelan un poco más.",
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Aumentamos el daño de su pasiva y de su E.",
+     "id": "41e00b763664",
+     "section": "champions",
+     "tags": [
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Khazix",
+      "name": "Kha'Zix"
+     },
+     "part": "P",
+     "partTitle": "Pasiva: Amenaza Invisible",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño adicional",
+     "before": "14 - 116 (según el nivel) (+ 40% de Daño de Ataque adicional)",
+     "after": "17 - 136 (según el nivel) (+ 50% de Daño de Ataque adicional)",
+     "text": "Daño adicional: 14 - 116 (según el nivel) (+ 40% de Daño de Ataque adicional) ⇒ 17 - 136 (según el nivel) (+ 50% de Daño de Ataque adicional)",
+     "id": "dd9bcfb31016",
+     "section": "champions",
+     "tags": [
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Khazix",
+      "name": "Kha'Zix"
+     },
+     "part": "E",
+     "partTitle": "E: Salto",
+     "spellKey": "KhazixE",
+     "kind": "stat",
+     "attribute": "Daño",
+     "before": "65 / 100 / 135 / 170 / 205 (+ 20% de Daño de Ataque adicional)",
+     "after": "65 / 100 / 135 / 170 / 205 (+ 40% de Daño de Ataque adicional)",
+     "text": "Daño: 65 / 100 / 135 / 170 / 205 (+ 20% de Daño de Ataque adicional) ⇒ 65 / 100 / 135 / 170 / 205 (+ 40% de Daño de Ataque adicional)",
+     "id": "368761edf704",
+     "section": "champions",
+     "tags": [
+      "Assassin"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,1649 @@
+{
+ "schemaVersion": 1,
+ "id": "Yorick",
+ "name": "Yorick",
+ "tags": [
+  "Fighter",
+  "Tank"
+ ],
+ "entries": [
+  {
+   "patch": "26.23",
+   "publishedAt": "2026-11-17T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Yorick",
+      "name": "Yorick"
+     },
+     "part": "P",
+     "partTitle": "Pasiva: El Pastor de Almas",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Tasa de Daño de Ataque de Redentora",
+     "before": "15%",
+     "after": "20%",
+     "text": "Tasa de Daño de Ataque de Redentora: 15% ⇒ 20%",
+     "id": "482c696c944a",
+     "section": "modes",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Arena",
+     "sectionId": "patch-arena",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Yorick",
+      "name": "Yorick"
+     },
+     "part": "P",
+     "partTitle": "Pasiva: El Pastor de Almas",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Reducción de Vida en Arena de Redentora",
+     "before": "30%",
+     "after": "20%",
+     "text": "Reducción de Vida en Arena de Redentora: 30% ⇒ 20%",
+     "id": "85fdf5d85745",
+     "section": "modes",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "26.21",
+   "publishedAt": "2026-10-20T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Classic",
+     "sectionId": "patch-classic",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Yorick",
+      "name": "Yorick"
+     },
+     "part": "R",
+     "partTitle": "R: Hijos de la Tumba",
+     "spellKey": null,
+     "kind": "new",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "NUEVO Yorick",
+     "id": "2371c9fca15d",
+     "section": "modes",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.13",
+   "publishedAt": "2025-06-24T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Yorick",
+      "name": "Yorick"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Redujimos su armadura básica.",
+     "id": "df685b0d0323",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Yorick",
+      "name": "Yorick"
+     },
+     "part": "base",
+     "partTitle": "Estadísticas básicas",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Armadura",
+     "before": "39",
+     "after": "36",
+     "text": "Armadura: 39 ⇒ 36",
+     "id": "b109faf51c15",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.12",
+   "publishedAt": "2025-06-10T18:05:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Yorick",
+      "name": "Yorick"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Ajustamos la velocidad de ataque adicional de los Trotanieblas. Redujimos el daño de su Q.",
+     "id": "bada1c005721",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Yorick",
+      "name": "Yorick"
+     },
+     "part": "P",
+     "partTitle": "Pasiva: Pastor de Almas",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Velocidad de Ataque de los Trotanieblas",
+     "before": "0.5 (+ 100% de la Velocidad de Ataque adicional de Yorick)",
+     "after": "0.5 (+ de 8 a 80% de Velocidad de Ataque)",
+     "text": "Velocidad de Ataque de los Trotanieblas: 0.5 (+ 100% de la Velocidad de Ataque adicional de Yorick) ⇒ 0.5 (+ de 8 a 80% de Velocidad de Ataque)",
+     "id": "ce365481ed21",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Yorick",
+      "name": "Yorick"
+     },
+     "part": "Q",
+     "partTitle": "Q: Extremaunción",
+     "spellKey": "YorickQ",
+     "kind": "stat",
+     "attribute": "Daño",
+     "before": "30 / 55 / 80 / 105 / 130 (+ 50% de Daño de Ataque)",
+     "after": "30 / 50 / 70 / 90 / 110 (+ 50% de Daño de Ataque)",
+     "text": "Daño: 30 / 55 / 80 / 105 / 130 (+ 50% de Daño de Ataque) ⇒ 30 / 50 / 70 / 90 / 110 (+ 50% de Daño de Ataque)",
+     "id": "076a085ee96e",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.11",
+   "publishedAt": "2025-05-27T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Pelea",
+     "sectionId": "patch-brawl",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Yorick",
+      "name": "Yorick"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Enfriamiento de la R",
+     "before": "160 / 130 / 100",
+     "after": "80 / 60 / 40",
+     "text": "Enfriamiento de la R: 160 / 130 / 100 ⇒ 80 / 60 / 40",
+     "id": "157957a7b632",
+     "section": "modes",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.9",
+   "publishedAt": "2025-04-29T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Yorick",
+      "name": "Yorick"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Redujimos el daño de los Trotanieblas contra monstruos.",
+     "id": "74b8ad06d93e",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Yorick",
+      "name": "Yorick"
+     },
+     "part": "P",
+     "partTitle": "Pasiva: Pastor de Almas",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño de los Trotanieblas contra monstruos",
+     "before": "70%",
+     "after": "60%",
+     "text": "Daño de los Trotanieblas contra monstruos: 70% ⇒ 60%",
+     "id": "52332c4622a4",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "ARAM",
+     "sectionId": "patch-aram",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Yorick",
+      "name": "Yorick"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Tasa de curación de la Q",
+     "before": "De 3 a 5% de su Vida faltante",
+     "after": "De 4 a 8% de su Vida faltante",
+     "text": "Tasa de curación de la Q: De 3 a 5% de su Vida faltante ⇒ De 4 a 8% de su Vida faltante",
+     "id": "7b74a58cf0d7",
+     "section": "modes",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.8",
+   "publishedAt": "2025-04-15T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Yorick",
+      "name": "Yorick"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Aumentamos el daño recibido de monstruos de su pasiva. Ajustamos la fórmula de daño de su E. La marca de su R solo afecta a campeones.",
+     "id": "625a6d91f085",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Yorick",
+      "name": "Yorick"
+     },
+     "part": "P",
+     "partTitle": "Pasiva: Pastor de Almas",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño recibido de monstruos",
+     "before": "60%",
+     "after": "100%",
+     "text": "Daño recibido de monstruos: 60% ⇒ 100%",
+     "id": "22a7e0d46ff0",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Yorick",
+      "name": "Yorick"
+     },
+     "part": "P",
+     "partTitle": "Pasiva: Pastor de Almas",
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Daño recibido de súbditos: sin cambios",
+     "id": "9e917993e49e",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Yorick",
+      "name": "Yorick"
+     },
+     "part": "E",
+     "partTitle": "E: Niebla del Lamento",
+     "spellKey": "YorickE",
+     "kind": "stat",
+     "attribute": "Daño",
+     "before": "70 / 105 / 140 / 175 / 210 (+ 100% de Poder de Habilidad)",
+     "after": "6 / 6.5 / 7 / 7.5 / 8% de la Vida Máxima del objetivo (+ 3% por cada 100 de Poder de Habilidad)",
+     "text": "Daño: 70 / 105 / 140 / 175 / 210 (+ 100% de Poder de Habilidad) ⇒ 6 / 6.5 / 7 / 7.5 / 8% de la Vida Máxima del objetivo (+ 3% por cada 100 de Poder de Habilidad)",
+     "id": "71d64bb9efb3",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Yorick",
+      "name": "Yorick"
+     },
+     "part": "E",
+     "partTitle": "E: Niebla del Lamento",
+     "spellKey": "YorickE",
+     "kind": "new",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "NUEVO Límite de daño contra monstruos: 50 / 75 / 100 / 125 / 150 (+ 100% de Poder de Habilidad)",
+     "id": "90bb3f6520c7",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Yorick",
+      "name": "Yorick"
+     },
+     "part": "E",
+     "partTitle": "E: Niebla del Lamento",
+     "spellKey": "YorickE",
+     "kind": "new",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "NUEVO Daño mínimo contra súbditos del carril: 70 / 105 / 140 / 175 / 210 (+ 100% de Poder de Habilidad)",
+     "id": "f96685d0d1fa",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Yorick",
+      "name": "Yorick"
+     },
+     "part": "R",
+     "partTitle": "R: Elegía de las Islas",
+     "spellKey": "YorickR",
+     "kind": "new",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "NUEVO La marca solo afecta a campeones",
+     "id": "4ce57cb6a19a",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.7",
+   "publishedAt": "2025-04-01T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Actualizaciones dentro de la versión",
+     "sectionId": "patch-midpatch-updates",
+     "midPatch": true,
+     "entity": {
+      "kind": "champion",
+      "id": "Yorick",
+      "name": "Yorick"
+     },
+     "part": "P",
+     "partTitle": "Pasiva: Pastor de Almas",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño recibido de súbditos y monstruos",
+     "before": "40%",
+     "after": "70%",
+     "text": "Daño recibido de súbditos y monstruos: 40% ⇒ 70%",
+     "id": "b774ad8e60e9",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Actualizaciones dentro de la versión",
+     "sectionId": "patch-midpatch-updates",
+     "midPatch": true,
+     "entity": {
+      "kind": "champion",
+      "id": "Yorick",
+      "name": "Yorick"
+     },
+     "part": "P",
+     "partTitle": "Pasiva: Pastor de Almas",
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Corregimos un error que causaba que los trotanieblas no infligieran un 60% de daño a monstruos con el salto",
+     "id": "16c158544888",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Actualizaciones dentro de la versión",
+     "sectionId": "patch-midpatch-updates",
+     "midPatch": true,
+     "entity": {
+      "kind": "champion",
+      "id": "Yorick",
+      "name": "Yorick"
+     },
+     "part": "E",
+     "partTitle": "E: Niebla del Lamento",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Ralentización",
+     "before": "30% durante 2 seg",
+     "after": "30% durante 1.5 seg",
+     "text": "Ralentización: 30% durante 2 seg ⇒ 30% durante 1.5 seg",
+     "id": "fe9a1e3f7e82",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Actualizaciones dentro de la versión",
+     "sectionId": "patch-midpatch-updates",
+     "midPatch": true,
+     "entity": {
+      "kind": "champion",
+      "id": "Yorick",
+      "name": "Yorick"
+     },
+     "part": "E",
+     "partTitle": "E: Niebla del Lamento",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Velocidad de Movimiento",
+     "before": "30% durante 4 seg",
+     "after": "18 / 21 / 24 / 27 / 30% durante 4 seg",
+     "text": "Velocidad de Movimiento: 30% durante 4 seg ⇒ 18 / 21 / 24 / 27 / 30% durante 4 seg",
+     "id": "dcbb6a76f5f6",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Actualizaciones dentro de la versión",
+     "sectionId": "patch-midpatch-updates",
+     "midPatch": true,
+     "entity": {
+      "kind": "champion",
+      "id": "Yorick",
+      "name": "Yorick"
+     },
+     "part": "E",
+     "partTitle": "E: Niebla del Lamento",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Reducción de Armadura",
+     "before": "18 / 21 / 24 / 27 / 30%",
+     "after": "13 / 16 / 19 / 22 / 25%",
+     "text": "Reducción de Armadura: 18 / 21 / 24 / 27 / 30% ⇒ 13 / 16 / 19 / 22 / 25%",
+     "id": "f72cae46fff8",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Actualizaciones dentro de la versión",
+     "sectionId": "patch-midpatch-updates",
+     "midPatch": true,
+     "entity": {
+      "kind": "champion",
+      "id": "Yorick",
+      "name": "Yorick"
+     },
+     "part": "R",
+     "partTitle": "R: Dama de la Niebla",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Límite del daño contra monstruos",
+     "before": "50",
+     "after": "30",
+     "text": "Límite del daño contra monstruos: 50 ⇒ 30",
+     "id": "d5887ac54839",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Actualizaciones dentro de la versión",
+     "sectionId": "patch-midpatch-updates",
+     "midPatch": true,
+     "entity": {
+      "kind": "champion",
+      "id": "Yorick",
+      "name": "Yorick"
+     },
+     "part": "P",
+     "partTitle": "Pasiva: Pastor de Almas",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño de Ataque de Trotanieblas",
+     "before": "de 15 a 75 + 20% de Daño de Ataque adicional",
+     "after": "de 15 a 100 + 20% de Daño de Ataque adicional",
+     "text": "Daño de Ataque de Trotanieblas: de 15 a 75 + 20% de Daño de Ataque adicional ⇒ de 15 a 100 + 20% de Daño de Ataque adicional",
+     "id": "d0348655f876",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Actualizaciones dentro de la versión",
+     "sectionId": "patch-midpatch-updates",
+     "midPatch": true,
+     "entity": {
+      "kind": "champion",
+      "id": "Yorick",
+      "name": "Yorick"
+     },
+     "part": "P",
+     "partTitle": "Pasiva: Pastor de Almas",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño de Ataque básico contra monstruos",
+     "before": "100%",
+     "after": "60%",
+     "text": "Daño de Ataque básico contra monstruos: 100% ⇒ 60%",
+     "id": "c35e0241c345",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Actualizaciones dentro de la versión",
+     "sectionId": "patch-midpatch-updates",
+     "midPatch": true,
+     "entity": {
+      "kind": "champion",
+      "id": "Yorick",
+      "name": "Yorick"
+     },
+     "part": "Q",
+     "partTitle": "Q: Extremaunción",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Curación",
+     "before": "de 10 a 68 + de 4 a 8% de la Vida faltante",
+     "after": "de 10 a 68 + de 6 a 10% de la Vida faltante",
+     "text": "Curación: de 10 a 68 + de 4 a 8% de la Vida faltante ⇒ de 10 a 68 + de 6 a 10% de la Vida faltante",
+     "id": "caa39b8d69e6",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Yorick",
+      "name": "Yorick"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Realizamos ajustes importantes a Yorick.",
+     "id": "de4b77f6c6b0",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Yorick",
+      "name": "Yorick"
+     },
+     "part": "base",
+     "partTitle": "Estadísticas básicas",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Crecimiento de Armadura",
+     "before": "5.2",
+     "after": "4.5",
+     "text": "Crecimiento de Armadura: 5.2 ⇒ 4.5",
+     "id": "06f83e78e82a",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Yorick",
+      "name": "Yorick"
+     },
+     "part": "P",
+     "partTitle": "Pasiva: Pastor de Almas",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Muertes cercanas por tumba",
+     "before": "12 / 6 / 2 (en los niveles 1/7/13)",
+     "after": "8/7/6/5/4/3/2 (en los niveles 1/3/5/7/9/11/13)",
+     "text": "Muertes cercanas por tumba: 12 / 6 / 2 (en los niveles 1/7/13) ⇒ 8/7/6/5/4/3/2 (en los niveles 1/3/5/7/9/11/13)",
+     "id": "ff120583bc6f",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Yorick",
+      "name": "Yorick"
+     },
+     "part": "P",
+     "partTitle": "Pasiva: Pastor de Almas",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño de Ataque",
+     "before": "4-90 (según el nivel) (+ 20% de Daño de Ataque total)",
+     "after": "15-75 (según el nivel) (+ 20% de Daño de Ataque adicional)",
+     "text": "Daño de Ataque: 4-90 (según el nivel) (+ 20% de Daño de Ataque total) ⇒ 15-75 (según el nivel) (+ 20% de Daño de Ataque adicional)",
+     "id": "ca90ad691c5d",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Yorick",
+      "name": "Yorick"
+     },
+     "part": "P",
+     "partTitle": "Pasiva: Pastor de Almas",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Velocidad de ataque adicional",
+     "before": "8% (por nivel)",
+     "after": "Velocidad de ataque adicional de Yorick",
+     "text": "Velocidad de ataque adicional: 8% (por nivel) ⇒ Velocidad de ataque adicional de Yorick",
+     "id": "7a1cbff0af55",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Yorick",
+      "name": "Yorick"
+     },
+     "part": "P",
+     "partTitle": "Pasiva: Pastor de Almas",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Vida",
+     "before": "110-212 (según el nivel) (+ 20% de Vida máxima)",
+     "after": "100-300 (según el nivel) (+ 15% de vida adicional)",
+     "text": "Vida: 110-212 (según el nivel) (+ 20% de Vida máxima) ⇒ 100-300 (según el nivel) (+ 15% de vida adicional)",
+     "id": "b292fdf740cc",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Yorick",
+      "name": "Yorick"
+     },
+     "part": "P",
+     "partTitle": "Pasiva: Pastor de Almas",
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Las estadísticas de Trotanieblas ahora se actualizan dinámicamente a medida que Yorick sube de nivel o si obtiene estadísticas, en vez de requerir nuevas invocaciones",
+     "id": "ca4d2ab17b4f",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Yorick",
+      "name": "Yorick"
+     },
+     "part": "P",
+     "partTitle": "Pasiva: Pastor de Almas",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño de ataque básico de campeón contra Trotanieblas",
+     "before": "Asesinatos al instante",
+     "after": "100% del daño aumentado de ataques cuerpo a cuerpo",
+     "text": "Daño de ataque básico de campeón contra Trotanieblas: Asesinatos al instante ⇒ 100% del daño aumentado de ataques cuerpo a cuerpo",
+     "id": "f6114d93c89f",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Yorick",
+      "name": "Yorick"
+     },
+     "part": "P",
+     "partTitle": "Pasiva: Pastor de Almas",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño a un solo objetivo hacia Trotanieblas",
+     "before": "Asesinatos al instante",
+     "after": "Daño normal",
+     "text": "Daño a un solo objetivo hacia Trotanieblas: Asesinatos al instante ⇒ Daño normal",
+     "id": "b2b0f0b28c09",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Yorick",
+      "name": "Yorick"
+     },
+     "part": "P",
+     "partTitle": "Pasiva: Pastor de Almas",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño de área de efecto hacia Trotanieblas",
+     "before": "50%",
+     "after": "66-40% (según el nivel 1-14)",
+     "text": "Daño de área de efecto hacia Trotanieblas: 50% ⇒ 66-40% (según el nivel 1-14)",
+     "id": "7a123d4c0ee0",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Yorick",
+      "name": "Yorick"
+     },
+     "part": "P",
+     "partTitle": "Pasiva: Pastor de Almas",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño que no sea de campeón hacia Trotanieblas",
+     "before": "50% de todos los monstruos",
+     "after": "40% de daño de súbditos y monstruos no épicos",
+     "text": "Daño que no sea de campeón hacia Trotanieblas: 50% de todos los monstruos ⇒ 40% de daño de súbditos y monstruos no épicos",
+     "id": "d7682f04bbec",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Yorick",
+      "name": "Yorick"
+     },
+     "part": "P",
+     "partTitle": "Pasiva: Pastor de Almas",
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Los Trotanieblas ya no seguirán la retirada de Yorick mientras luchan contra monstruos de la jungla",
+     "id": "6b18938048f5",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Yorick",
+      "name": "Yorick"
+     },
+     "part": "P",
+     "partTitle": "Pasiva: Pastor de Almas",
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Ahora, Yorick puede marcar su pasiva para compartir su conteo de Trotanieblas cercanos y a nivel general",
+     "id": "1cfe9eb7f96a",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Yorick",
+      "name": "Yorick"
+     },
+     "part": "Q",
+     "partTitle": "Q: Extremaunción",
+     "spellKey": "YorickQ",
+     "kind": "stat",
+     "attribute": "Enfriamiento",
+     "before": "7 / 6.25 / 5.5 / 4.75 / 4",
+     "after": "6 / 5.5 / 5 / 4.5 / 4",
+     "text": "Enfriamiento: 7 / 6.25 / 5.5 / 4.75 / 4 ⇒ 6 / 5.5 / 5 / 4.5 / 4",
+     "id": "c47e1291b64a",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Yorick",
+      "name": "Yorick"
+     },
+     "part": "Q",
+     "partTitle": "Q: Extremaunción",
+     "spellKey": "YorickQ",
+     "kind": "stat",
+     "attribute": "Daño",
+     "before": "30 / 55 / 80 / 105 / 130 (+ 40% de Daño de Ataque total)",
+     "after": "30 / 55 / 80 / 105 / 130(+ 50% de Daño de Ataque total)",
+     "text": "Daño: 30 / 55 / 80 / 105 / 130 (+ 40% de Daño de Ataque total) ⇒ 30 / 55 / 80 / 105 / 130(+ 50% de Daño de Ataque total)",
+     "id": "07f8b14e6e53",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Yorick",
+      "name": "Yorick"
+     },
+     "part": "Q",
+     "partTitle": "Q: Extremaunción",
+     "spellKey": "YorickQ",
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "[NUEVO]Invoca una tumba en campeones y monstruos épicos/grandes impactados",
+     "id": "745d91434702",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Yorick",
+      "name": "Yorick"
+     },
+     "part": "E",
+     "partTitle": "E: Niebla del Lamento",
+     "spellKey": "YorickE",
+     "kind": "stat",
+     "attribute": "Daño",
+     "before": "15% de la vida actual, hasta el umbral mínimo de 70 / 105 / 140 / 175 / 210 (+ 70% de Poder de Habilidad)",
+     "after": "Daño fijo de 70 / 105 / 140 / 175 / 210 (+ 100% de Poder de Habilidad)",
+     "text": "Daño: 15% de la vida actual, hasta el umbral mínimo de 70 / 105 / 140 / 175 / 210 (+ 70% de Poder de Habilidad) ⇒ Daño fijo de 70 / 105 / 140 / 175 / 210 (+ 100% de Poder de Habilidad)",
+     "id": "e2875f0ad808",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Yorick",
+      "name": "Yorick"
+     },
+     "part": "E",
+     "partTitle": "E: Niebla del Lamento",
+     "spellKey": "YorickE",
+     "kind": "stat",
+     "attribute": "Velocidad de movimiento para Yorick y las invocaciones",
+     "before": "20%",
+     "after": "30%",
+     "text": "Velocidad de movimiento para Yorick y las invocaciones: 20% ⇒ 30%",
+     "id": "37d6138804d4",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Yorick",
+      "name": "Yorick"
+     },
+     "part": "E",
+     "partTitle": "E: Niebla del Lamento",
+     "spellKey": "YorickE",
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "[NUEVO]Ahora reduce un 18 / 21 / 24 / 27 / 30% de armadura durante 4 segundos",
+     "id": "311d24ddb7fb",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Yorick",
+      "name": "Yorick"
+     },
+     "part": "E",
+     "partTitle": "E: Niebla del Lamento",
+     "spellKey": "YorickE",
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "[Eliminado] Ya no aumenta el daño de Trotanieblas en un 20% durante 8 ataques",
+     "id": "9464527066f7",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Yorick",
+      "name": "Yorick"
+     },
+     "part": "E",
+     "partTitle": "E: Niebla del Lamento",
+     "spellKey": "YorickE",
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Corregimos un error que causaba que los Trotanieblas no pudieran saltar al objetivo al cruzar el terreno",
+     "id": "bd53ecf2ad48",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Yorick",
+      "name": "Yorick"
+     },
+     "part": "R - Dama de la Niebla",
+     "partTitle": "R - Dama de la Niebla",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño",
+     "before": "0 / 10 / 40 (+ 50% del Daño de Ataque total)",
+     "after": "50 / 75 / 100 (+ 30% del Daño de Ataque adicional)",
+     "text": "Daño: 0 / 10 / 40 (+ 50% del Daño de Ataque total) ⇒ 50 / 75 / 100 (+ 30% del Daño de Ataque adicional)",
+     "id": "870dae526107",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Yorick",
+      "name": "Yorick"
+     },
+     "part": "R - Dama de la Niebla",
+     "partTitle": "R - Dama de la Niebla",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Vida",
+     "before": "400-1650 (según el nivel) (+ 60% de vida total)",
+     "after": "1050-3200 (según el nivel) (+ 60% de Vida adicional)",
+     "text": "Vida: 400-1650 (según el nivel) (+ 60% de vida total) ⇒ 1050-3200 (según el nivel) (+ 60% de Vida adicional)",
+     "id": "78e1d43e8f26",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.6",
+   "publishedAt": "2025-03-18T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Yorick",
+      "name": "Yorick"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Redujimos el daño de su E contra monstruos.",
+     "id": "b73e69002884",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Yorick",
+      "name": "Yorick"
+     },
+     "part": "E",
+     "partTitle": "E: Niebla del Lamento",
+     "spellKey": "YorickE",
+     "kind": "stat",
+     "attribute": "Límite de vida como daño contra monstruos",
+     "before": "300",
+     "after": "70 / 105 / 140 / 175 / 210",
+     "text": "Límite de vida como daño contra monstruos: 300 ⇒ 70 / 105 / 140 / 175 / 210",
+     "id": "fe6b7be6e961",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.5",
+   "publishedAt": "2025-03-04T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Yorick",
+      "name": "Yorick"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Redujimos el límite de daño contra monstruos de su R.",
+     "id": "7cd8491a8d0e",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Yorick",
+      "name": "Yorick"
+     },
+     "part": "R",
+     "partTitle": "R: Elegía de las Islas",
+     "spellKey": "YorickR",
+     "kind": "stat",
+     "attribute": "Límite de daño contra monstruos de la marca de la Dama",
+     "before": "100",
+     "after": "50",
+     "text": "Límite de daño contra monstruos de la marca de la Dama: 100 ⇒ 50",
+     "id": "a73a98abdbf2",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.S1.3",
+   "publishedAt": "2025-02-04T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-swiftplay",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Yorick",
+      "name": "Yorick"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Reducción de daño del Necrófago contra las estructuras",
+     "before": "50%",
+     "after": "70%",
+     "text": "Reducción de daño del Necrófago contra las estructuras: 50% ⇒ 70%",
+     "id": "05339ef274a8",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.S1.2",
+   "publishedAt": "2025-01-22T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Partida Casual",
+     "sectionId": "patch-swiftplay",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Yorick",
+      "name": "Yorick"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Armadura",
+     "before": "39",
+     "after": "35",
+     "text": "Armadura: 39 ⇒ 35",
+     "id": "de5d3343afed",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Partida Casual",
+     "sectionId": "patch-swiftplay",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Yorick",
+      "name": "Yorick"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Amplificación del daño de 8 impactos de la E",
+     "before": "20%",
+     "after": "15%",
+     "text": "Amplificación del daño de 8 impactos de la E: 20% ⇒ 15%",
+     "id": "f9affad8c03d",
+     "section": "champions",
+     "tags": [
+      "Fighter",
+      "Tank"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  }
+ ]
+}

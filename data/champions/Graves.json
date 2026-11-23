@@ -1,0 +1,682 @@
+{
+ "schemaVersion": 1,
+ "id": "Graves",
+ "name": "Graves",
+ "tags": [
+  "Marksman"
+ ],
+ "entries": [
+  {
+   "patch": "26.20",
+   "publishedAt": "2026-10-06T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "LoL Classic",
+     "sectionId": "patch-classic",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Graves",
+      "name": "Graves"
+     },
+     "part": "base",
+     "partTitle": "Estadísticas base",
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Animaciones de ataque básico y ataque crítico: Las aceleramos",
+     "id": "935ac9fbb003",
+     "section": "modes",
+     "tags": [
+      "Marksman"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "LoL Classic",
+     "sectionId": "patch-classic",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Graves",
+      "name": "Graves"
+     },
+     "part": "base",
+     "partTitle": "Estadísticas base",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño de Ataque básico",
+     "before": "54.1",
+     "after": "50",
+     "text": "Daño de Ataque básico: 54.1 ⇒ 50",
+     "id": "f16d8bc77c47",
+     "section": "modes",
+     "tags": [
+      "Marksman"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "LoL Classic",
+     "sectionId": "patch-classic",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Graves",
+      "name": "Graves"
+     },
+     "part": "base",
+     "partTitle": "Estadísticas base",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño de Ataque por nivel",
+     "before": "3.1",
+     "after": "2.5",
+     "text": "Daño de Ataque por nivel: 3.1 ⇒ 2.5",
+     "id": "ba9dfa838eef",
+     "section": "modes",
+     "tags": [
+      "Marksman"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "LoL Classic",
+     "sectionId": "patch-classic",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Graves",
+      "name": "Graves"
+     },
+     "part": "base",
+     "partTitle": "Estadísticas base",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Velocidad de Ataque por nivel",
+     "before": "2.9%",
+     "after": "2.5%",
+     "text": "Velocidad de Ataque por nivel: 2.9% ⇒ 2.5%",
+     "id": "1ff1913057d1",
+     "section": "modes",
+     "tags": [
+      "Marksman"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "LoL Classic",
+     "sectionId": "patch-classic",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Graves",
+      "name": "Graves"
+     },
+     "part": "R",
+     "partTitle": "R: Daño Colateral",
+     "spellKey": "GravesChargeShot",
+     "kind": "stat",
+     "attribute": "Daño de cono",
+     "before": "140 / 250 / 360 + 120% de Daño de Ataque adicional",
+     "after": "140 / 230 / 320 + 100% de Daño de Ataque adicional",
+     "text": "Daño de cono: 140 / 250 / 360 + 120% de Daño de Ataque adicional ⇒ 140 / 230 / 320 + 100% de Daño de Ataque adicional",
+     "id": "583f68ae0256",
+     "section": "modes",
+     "tags": [
+      "Marksman"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "LoL Classic",
+     "sectionId": "patch-classic",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Graves",
+      "name": "Graves"
+     },
+     "part": "R",
+     "partTitle": "R: Daño Colateral",
+     "spellKey": "GravesChargeShot",
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Daño de proyectil: Sin cambios",
+     "id": "fe80c4d1be1f",
+     "section": "modes",
+     "tags": [
+      "Marksman"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "26.19",
+   "publishedAt": "2026-09-22T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "LoL Classic",
+     "sectionId": "patch-classic",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Graves",
+      "name": "Graves"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "new",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "NUEVO Graves",
+     "id": "e1dd30c64cea",
+     "section": "modes",
+     "tags": [
+      "Marksman"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "26.17",
+   "publishedAt": "2026-08-25T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Graves",
+      "name": "Graves"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño inicial",
+     "before": "50 / 75 / 100 / 125 / 150 (+65% de Daño de Ataque adicional)",
+     "after": "50 / 75 / 100 / 125 / 150 (+55% de Daño de Ataque adicional)",
+     "text": "Daño inicial: 50 / 75 / 100 / 125 / 150 (+65% de Daño de Ataque adicional) ⇒ 50 / 75 / 100 / 125 / 150 (+55% de Daño de Ataque adicional)",
+     "id": "38b2630f04d0",
+     "section": "champions",
+     "tags": [
+      "Marksman"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Graves",
+      "name": "Graves"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño de Retorno",
+     "before": "80 / 125 / 170 / 215 / 260 (+55 / 70 / 85 / 100 / 115% de Daño de Ataque adicional)",
+     "after": "80 / 125 / 170 / 215 / 260 (+45 / 60 / 75 / 90 / 105% de Daño de Ataque adicional)",
+     "text": "Daño de Retorno: 80 / 125 / 170 / 215 / 260 (+55 / 70 / 85 / 100 / 115% de Daño de Ataque adicional) ⇒ 80 / 125 / 170 / 215 / 260 (+45 / 60 / 75 / 90 / 105% de Daño de Ataque adicional)",
+     "id": "8227431acd2c",
+     "section": "champions",
+     "tags": [
+      "Marksman"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "26.7",
+   "publishedAt": "2026-03-31T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Graves",
+      "name": "Graves"
+     },
+     "part": "base",
+     "partTitle": "Estadísticas base",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño de ataque básico",
+     "before": "68",
+     "after": "66",
+     "text": "Daño de ataque básico: 68⇒ 66",
+     "id": "ebd5a7373d94",
+     "section": "champions",
+     "tags": [
+      "Marksman"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "26.4",
+   "publishedAt": "2026-02-18T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Graves",
+      "name": "Graves"
+     },
+     "part": "E",
+     "partTitle": "E: Disparo Veloz",
+     "spellKey": "GravesMove",
+     "kind": "stat",
+     "attribute": "Armadura por acumulación",
+     "before": "4 / 7 / 10 / 13 / 16",
+     "after": "7 / 10 / 13 / 16 / 19",
+     "text": "Armadura por acumulación: 4 / 7 / 10 / 13 / 16 ⇒ 7 / 10 / 13 / 16 / 19",
+     "id": "f177c6f98aeb",
+     "section": "champions",
+     "tags": [
+      "Marksman"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Graves",
+      "name": "Graves"
+     },
+     "part": "E",
+     "partTitle": "E: Disparo Veloz",
+     "spellKey": "GravesMove",
+     "kind": "stat",
+     "attribute": "Resistencia mágica por acumulación",
+     "before": "2 / 3.5 / 5 / 6.5 / 8",
+     "after": "3.5 / 5 / 6.5 / 8 / 9.5",
+     "text": "Resistencia mágica por acumulación: 2 / 3.5 / 5 / 6.5 / 8 ⇒ 3.5 / 5 / 6.5 / 8 / 9.5",
+     "id": "131d1d1f1d67",
+     "section": "champions",
+     "tags": [
+      "Marksman"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "26.1",
+   "publishedAt": "2026-01-07T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Actualizaciones dentro de la versión",
+     "sectionId": "patch-large-changes",
+     "midPatch": true,
+     "entity": {
+      "kind": "champion",
+      "id": "Graves",
+      "name": "Graves"
+     },
+     "part": "P",
+     "partTitle": "Pasiva: Nuevo Destino",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Progresión de daño de golpe crítico",
+     "before": "35% de daño de golpe crítico adicional",
+     "after": "50% de daño de golpe crítico adicional",
+     "text": "Progresión de daño de golpe crítico: 35% de daño de golpe crítico adicional ⇒ 50% de daño de golpe crítico adicional",
+     "id": "5823fa6d2db2",
+     "section": "champions",
+     "tags": [
+      "Marksman"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Actualizaciones dentro de la versión",
+     "sectionId": "patch-large-changes",
+     "midPatch": true,
+     "entity": {
+      "kind": "champion",
+      "id": "Graves",
+      "name": "Graves"
+     },
+     "part": "P",
+     "partTitle": "Pasiva: Nuevo Destino",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño máximo al asestar un golpe crítico en comparación con un golpe estándar",
+     "before": "×1.8",
+     "after": "×2",
+     "text": "Daño máximo al asestar un golpe crítico en comparación con un golpe estándar: ×1.8 ⇒ ×2",
+     "id": "71d5b850434f",
+     "section": "champions",
+     "tags": [
+      "Marksman"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Graves",
+      "name": "Graves"
+     },
+     "part": "base",
+     "partTitle": "Estadísticas básicas",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño de golpe crítico",
+     "before": "45% adicional (33.75% / 51.75%)",
+     "after": "35% adicional (35% / 45.5%)",
+     "text": "Daño de golpe crítico: 45% adicional (33.75% / 51.75%) ⇒ 35% adicional (35% / 45.5%)",
+     "id": "1e4ab4550b4d",
+     "section": "champions",
+     "tags": [
+      "Marksman"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Graves",
+      "name": "Graves"
+     },
+     "part": "base",
+     "partTitle": "Estadísticas básicas",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño total al asestar un golpe crítico",
+     "before": "De un 250% a un 357% de Daño de Ataque total",
+     "after": "De un 252% a un 360% de Daño de Ataque total",
+     "text": "Daño total al asestar un golpe crítico: De un 250% a un 357% de Daño de Ataque total ⇒ De un 252% a un 360% de Daño de Ataque total",
+     "id": "c256da7f4afe",
+     "section": "champions",
+     "tags": [
+      "Marksman"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.21",
+   "publishedAt": "2025-10-21T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Graves",
+      "name": "Graves"
+     },
+     "part": "base",
+     "partTitle": "Estadísticas básicas",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Resistencia Mágica",
+     "before": "32",
+     "after": "30",
+     "text": "Resistencia Mágica: 32 ⇒ 30",
+     "id": "734b30a6cd42",
+     "section": "champions",
+     "tags": [
+      "Marksman"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Graves",
+      "name": "Graves"
+     },
+     "part": "base",
+     "partTitle": "Estadísticas básicas",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Crecimiento de Resistencia Mágica",
+     "before": "2.05",
+     "after": "1.3",
+     "text": "Crecimiento de Resistencia Mágica: 2.05 ⇒ 1.3",
+     "id": "50a24e3b4900",
+     "section": "champions",
+     "tags": [
+      "Marksman"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Graves",
+      "name": "Graves"
+     },
+     "part": "E",
+     "partTitle": "E: Disparo Veloz",
+     "spellKey": "GravesMove",
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Ahora, otorga un 50% de la Armadura como Resistencia Mágica adicional",
+     "id": "42dd2dbf7f64",
+     "section": "champions",
+     "tags": [
+      "Marksman"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Graves",
+      "name": "Graves"
+     },
+     "part": "E",
+     "partTitle": "E: Disparo Veloz",
+     "spellKey": "GravesMove",
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Resistencia Mágica por acumulación: 2 / 3.5 / 5 / 6.5 / 8",
+     "id": "2e102af6a418",
+     "section": "champions",
+     "tags": [
+      "Marksman"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Graves",
+      "name": "Graves"
+     },
+     "part": "E",
+     "partTitle": "E: Disparo Veloz",
+     "spellKey": "GravesMove",
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Resistencia Mágica máxima: 16 / 28 / 40 / 52 / 64",
+     "id": "4234e598a5cb",
+     "section": "champions",
+     "tags": [
+      "Marksman"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.20",
+   "publishedAt": "2025-10-07T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Graves",
+      "name": "Graves"
+     },
+     "part": "Q",
+     "partTitle": "Q: Fin del Trayecto",
+     "spellKey": "GravesQLineSpell",
+     "kind": "stat",
+     "attribute": "Daño inicial",
+     "before": "45 / 65 / 85 / 105 / 125 (+ 80% de Daño de Ataque adicional)",
+     "after": "50 / 75 / 100 / 125 / 150 (+ 65% de Daño de Ataque adicional)",
+     "text": "Daño inicial: 45 / 65 / 85 / 105 / 125 (+ 80% de Daño de Ataque adicional) ⇒ 50 / 75 / 100 / 125 / 150 (+ 65% de Daño de Ataque adicional)",
+     "id": "9e28e4345de7",
+     "section": "champions",
+     "tags": [
+      "Marksman"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Graves",
+      "name": "Graves"
+     },
+     "part": "Q",
+     "partTitle": "Q: Fin del Trayecto",
+     "spellKey": "GravesQLineSpell",
+     "kind": "stat",
+     "attribute": "Daño secundario",
+     "before": "85 / 120 / 155 / 190 / 225 (+ 40% / 65% / 90% / 115% / 140% de Daño de Ataque adicional)",
+     "after": "80 / 125 / 170 / 215 / 260 (+ 55% / 70% / 85% / 100% / 115% de Daño de Ataque adicional)",
+     "text": "Daño secundario: 85 / 120 / 155 / 190 / 225 (+ 40% / 65% / 90% / 115% / 140% de Daño de Ataque adicional) ⇒ 80 / 125 / 170 / 215 / 260 (+ 55% / 70% / 85% / 100% / 115% de Daño de Ataque adicional)",
+     "id": "18e9d565db35",
+     "section": "champions",
+     "tags": [
+      "Marksman"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Graves",
+      "name": "Graves"
+     },
+     "part": "Q",
+     "partTitle": "Q: Fin del Trayecto",
+     "spellKey": "GravesQLineSpell",
+     "kind": "stat",
+     "attribute": "Daño combinado",
+     "before": "130 / 185 / 240 / 295 / 350 (+ 120% / 145% / 170% / 195% / 220% de Daño de Ataque adicional)",
+     "after": "130 / 200 / 270 / 340 / 410 (+ 120% / 135% / 150% / 165% / 180 % de Daño de Ataque adicional)",
+     "text": "Daño combinado: 130 / 185 / 240 / 295 / 350 (+ 120% / 145% / 170% / 195% / 220% de Daño de Ataque adicional) ⇒ 130 / 200 / 270 / 340 / 410 (+ 120% / 135% / 150% / 165% / 180 % de Daño de Ataque adicional)",
+     "id": "8d11477daaff",
+     "section": "champions",
+     "tags": [
+      "Marksman"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  }
+ ]
+}

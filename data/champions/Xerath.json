@@ -1,0 +1,425 @@
+{
+ "schemaVersion": 1,
+ "id": "Xerath",
+ "name": "Xerath",
+ "tags": [
+  "Mage",
+  "Support"
+ ],
+ "entries": [
+  {
+   "patch": "26.23",
+   "publishedAt": "2026-11-17T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Classic",
+     "sectionId": "patch-classic",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Xerath",
+      "name": "Xerath"
+     },
+     "part": "Campeones",
+     "partTitle": "Campeones",
+     "spellKey": null,
+     "kind": "new",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "NUEVO : Xerath",
+     "id": "6f563df190a2",
+     "section": "modes",
+     "tags": [
+      "Mage",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "26.17",
+   "publishedAt": "2026-08-25T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Xerath",
+      "name": "Xerath"
+     },
+     "part": "base",
+     "partTitle": "Estadísticas base",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Vida",
+     "before": "596",
+     "after": "575",
+     "text": "Vida: 596 ⇒ 575",
+     "id": "d5a67419558b",
+     "section": "champions",
+     "tags": [
+      "Mage",
+      "Support"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Xerath",
+      "name": "Xerath"
+     },
+     "part": "Q",
+     "partTitle": "Q: Pulso Arcano",
+     "spellKey": "XerathArcanopulseChargeUp",
+     "kind": "stat",
+     "attribute": "Daño",
+     "before": "75 / 115 / 155 / 195 / 235 (+90% de Poder de Habilidad)",
+     "after": "70 / 110 / 150 / 190 / 230 (+90% de Poder de Habilidad)",
+     "text": "Daño: 75 / 115 / 155 / 195 / 235 (+90% de Poder de Habilidad) ⇒ 70 / 110 / 150 / 190 / 230 (+90% de Poder de Habilidad)",
+     "id": "d491807089ee",
+     "section": "champions",
+     "tags": [
+      "Mage",
+      "Support"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.20",
+   "publishedAt": "2025-10-07T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Bots Apocalípticos",
+     "sectionId": "patch-doom-bots",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Xerath",
+      "name": "Xerath"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño infligido",
+     "before": "100%",
+     "after": "105%",
+     "text": "Daño infligido: 100% ⇒ 105%",
+     "id": "fa4599e619cd",
+     "section": "modes",
+     "tags": [
+      "Mage",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.11",
+   "publishedAt": "2025-05-27T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Pelea",
+     "sectionId": "patch-brawl",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Xerath",
+      "name": "Xerath"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño infligido",
+     "before": "100%",
+     "after": "95%",
+     "text": "Daño infligido: 100% ⇒ 95%",
+     "id": "8832051b3ed4",
+     "section": "modes",
+     "tags": [
+      "Mage",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Pelea",
+     "sectionId": "patch-brawl",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Xerath",
+      "name": "Xerath"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Aceleración de Habilidad",
+     "before": "0",
+     "after": "-10",
+     "text": "Aceleración de Habilidad: 0 ⇒ -10",
+     "id": "2d6363d3c6a2",
+     "section": "modes",
+     "tags": [
+      "Mage",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.8",
+   "publishedAt": "2025-04-15T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Xerath",
+      "name": "Xerath"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Aumentamos el reembolso del enfriamiento de su pasiva. Aumentamos el daño de su Q.",
+     "id": "d5699bcf386a",
+     "section": "champions",
+     "tags": [
+      "Mage",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Xerath",
+      "name": "Xerath"
+     },
+     "part": "P",
+     "partTitle": "Pasiva: Sobrecarga de Maná",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Reducción de enfriamiento por asesinato",
+     "before": "2.5 seg",
+     "after": "3.5 seg",
+     "text": "Reducción de enfriamiento por asesinato: 2.5 seg ⇒ 3.5 seg",
+     "id": "730aea648412",
+     "section": "champions",
+     "tags": [
+      "Mage",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Xerath",
+      "name": "Xerath"
+     },
+     "part": "Q",
+     "partTitle": "Q: Pulso Arcano",
+     "spellKey": "XerathArcanopulseChargeUp",
+     "kind": "stat",
+     "attribute": "Daño",
+     "before": "70 / 110 / 150 / 190 / 230 (+ 90% de Poder de Habilidad)",
+     "after": "75 / 115 / 155 / 195 / 235 (+ 90% de Poder de Habilidad)",
+     "text": "Daño: 70 / 110 / 150 / 190 / 230 (+ 90% de Poder de Habilidad) ⇒ 75 / 115 / 155 / 195 / 235 (+ 90% de Poder de Habilidad)",
+     "id": "4f9094f6356d",
+     "section": "champions",
+     "tags": [
+      "Mage",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.7",
+   "publishedAt": "2025-04-01T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Xerath",
+      "name": "Xerath"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Aumentamos el daño de su Q. Ajustamos el daño de su W. Redujimos el daño de su E. Ajustamos el daño de su R.",
+     "id": "9ce4ae39f7ab",
+     "section": "champions",
+     "tags": [
+      "Mage",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Xerath",
+      "name": "Xerath"
+     },
+     "part": "Q",
+     "partTitle": "Q: Pulso Arcano",
+     "spellKey": "XerathArcanopulseChargeUp",
+     "kind": "stat",
+     "attribute": "Daño",
+     "before": "70 / 110 / 150 / 190 / 230 (+ 85% de Poder de Habilidad)",
+     "after": "70 / 110 / 150 / 190 / 230 (+ 90% de Poder de Habilidad)",
+     "text": "Daño: 70 / 110 / 150 / 190 / 230 (+ 85% de Poder de Habilidad) ⇒ 70 / 110 / 150 / 190 / 230 (+ 90% de Poder de Habilidad)",
+     "id": "4e59aadf4f80",
+     "section": "champions",
+     "tags": [
+      "Mage",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Xerath",
+      "name": "Xerath"
+     },
+     "part": "W",
+     "partTitle": "W: Ojo de la Destrucción",
+     "spellKey": "XerathArcaneBarrage2",
+     "kind": "stat",
+     "attribute": "Daño",
+     "before": "60 / 95 / 130 / 165 / 200 (+ 60 % de Poder de Habilidad)",
+     "after": "50 / 85 / 120 / 155 / 190 (+ 65% de Poder de Habilidad adicional)",
+     "text": "Daño: 60 / 95 / 130 / 165 / 200 (+ 60 % de Poder de Habilidad) ⇒ 50 / 85 / 120 / 155 / 190 (+ 65% de Poder de Habilidad adicional)",
+     "id": "b14102b61b85",
+     "section": "champions",
+     "tags": [
+      "Mage",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Xerath",
+      "name": "Xerath"
+     },
+     "part": "E",
+     "partTitle": "E: Impacto Orbital",
+     "spellKey": "XerathMageSpear",
+     "kind": "stat",
+     "attribute": "Daño",
+     "before": "80 / 110 / 140 / 170 / 200 (+ 45% de Poder de Habilidad)",
+     "after": "70 / 100 / 130 / 160 / 190 (+ 45% de Poder de Habilidad)",
+     "text": "Daño: 80 / 110 / 140 / 170 / 200 (+ 45% de Poder de Habilidad) ⇒ 70 / 100 / 130 / 160 / 190 (+ 45% de Poder de Habilidad)",
+     "id": "6bb664a43f42",
+     "section": "champions",
+     "tags": [
+      "Mage",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Xerath",
+      "name": "Xerath"
+     },
+     "part": "R",
+     "partTitle": "R: Rito del Arcano",
+     "spellKey": "XerathLocusOfPower2",
+     "kind": "stat",
+     "attribute": "Daño",
+     "before": "180 / 230 /280 (+ 40% de Poder de Habilidad)",
+     "after": "170 / 220 / 270 (+ 45% de Poder de Habilidad)",
+     "text": "Daño: 180 / 230 /280 (+ 40% de Poder de Habilidad) ⇒ 170 / 220 / 270 (+ 45% de Poder de Habilidad)",
+     "id": "08357e8c7acd",
+     "section": "champions",
+     "tags": [
+      "Mage",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  }
+ ]
+}

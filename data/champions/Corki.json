@@ -1,0 +1,377 @@
+{
+ "schemaVersion": 1,
+ "id": "Corki",
+ "name": "Corki",
+ "tags": [
+  "Marksman",
+  "Mage"
+ ],
+ "entries": [
+  {
+   "patch": "26.22",
+   "publishedAt": "2026-11-03T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Corki",
+      "name": "Corki"
+     },
+     "part": "R",
+     "partTitle": "R: Descarga de Misiles",
+     "spellKey": "MissileBarrage",
+     "kind": "stat",
+     "attribute": "Daño",
+     "before": "90 / 170 / 250 (+85% de Daño de Ataque adicional)",
+     "after": "100 / 190 / 280 (+90% de Daño de Ataque adicional)",
+     "text": "Daño: 90 / 170 / 250 (+85% de Daño de Ataque adicional) ⇒ 100 / 190 / 280 (+90% de Daño de Ataque adicional)",
+     "id": "a641b233e245",
+     "section": "champions",
+     "tags": [
+      "Marksman",
+      "Mage"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Corki",
+      "name": "Corki"
+     },
+     "part": "R",
+     "partTitle": "R: Descarga de Misiles",
+     "spellKey": "MissileBarrage",
+     "kind": "stat",
+     "attribute": "Daño del misil grande",
+     "before": "180 / 340 / 500 (+170% de Daño de Ataque adicional)",
+     "after": "200 / 380 / 560 (+180% de Daño de Ataque adicional)",
+     "text": "Daño del misil grande: 180 / 340 / 500 (+170% de Daño de Ataque adicional) ⇒ 200 / 380 / 560 (+180% de Daño de Ataque adicional)",
+     "id": "e57394c8d1dc",
+     "section": "champions",
+     "tags": [
+      "Marksman",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "26.14",
+   "publishedAt": "2026-07-14T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Corki",
+      "name": "Corki"
+     },
+     "part": "base",
+     "partTitle": "Estadísticas base",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Crecimiento de Daño de Ataque",
+     "before": "2",
+     "after": "2.5",
+     "text": "Crecimiento de Daño de Ataque: 2 ⇒ 2.5",
+     "id": "7e40dff6c1e9",
+     "section": "champions",
+     "tags": [
+      "Marksman",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Corki",
+      "name": "Corki"
+     },
+     "part": "R",
+     "partTitle": "R: Descarga de Misiles",
+     "spellKey": "MissileBarrage",
+     "kind": "stat",
+     "attribute": "Reducción del tiempo de recarga restante con ataques básicos",
+     "before": "2 a 4 seg (según la probabilidad de crítico)",
+     "after": "2 a 6 seg",
+     "text": "Reducción del tiempo de recarga restante con ataques básicos: 2 a 4 seg (según la probabilidad de crítico) ⇒ 2 a 6 seg",
+     "id": "3ee2a6f3e005",
+     "section": "champions",
+     "tags": [
+      "Marksman",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "26.1",
+   "publishedAt": "2026-01-07T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Corki",
+      "name": "Corki"
+     },
+     "part": "W",
+     "partTitle": "W: Valquiria",
+     "spellKey": "CarpetBomb",
+     "kind": "stat",
+     "attribute": "Daño por segundo",
+     "before": "40 / 55 / 70 / 85 / 100 (+ 40% de Daño de Ataque adicional) (+ 30% de Poder de Habilidad)",
+     "after": "30 / 45 / 60 / 75 / 90 (+ 40% de Daño de Ataque adicional) (+ 30% de Poder de Habilidad)",
+     "text": "Daño por segundo: 40 / 55 / 70 / 85 / 100 (+ 40% de Daño de Ataque adicional) (+ 30% de Poder de Habilidad) ⇒ 30 / 45 / 60 / 75 / 90 (+ 40% de Daño de Ataque adicional) (+ 30% de Poder de Habilidad)",
+     "id": "b2b9cd3fb49c",
+     "section": "champions",
+     "tags": [
+      "Marksman",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.19",
+   "publishedAt": "2025-09-23T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Corki",
+      "name": "Corki"
+     },
+     "part": "Q",
+     "partTitle": "Q: Bomba Fosfórica",
+     "spellKey": "PhosphorusBomb",
+     "kind": "stat",
+     "attribute": "Daño",
+     "before": "70 / 115 / 160 / 205 / 250 (+ 130% de Daño de Ataque)",
+     "after": "60 / 105 / 150 / 195 / 240 (+ 125% de Daño de Ataque)",
+     "text": "Daño: 70 / 115 / 160 / 205 / 250 (+ 130% de Daño de Ataque) ⇒ 60 / 105 / 150 / 195 / 240 (+ 125% de Daño de Ataque)",
+     "id": "e41fa9f018a3",
+     "section": "champions",
+     "tags": [
+      "Marksman",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.15",
+   "publishedAt": "2025-07-29T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Corki",
+      "name": "Corki"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Ajustamos la fórmula de daño de su Q. Aumentamos el daño de su R.",
+     "id": "034ef9d91379",
+     "section": "champions",
+     "tags": [
+      "Marksman",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Corki",
+      "name": "Corki"
+     },
+     "part": "Q",
+     "partTitle": "Q: Bomba Fosfórica",
+     "spellKey": "PhosphorusBomb",
+     "kind": "stat",
+     "attribute": "Daño",
+     "before": "70 / 120 / 170 / 220 / 270 (+ 120% de Daño de Ataque adicional) (+ 100% de Poder de Habilidad)",
+     "after": "70 / 115 / 160 / 205 / 250 (+ 130% de Daño de Ataque adicional) (+ 100% de Poder de Habilidad)",
+     "text": "Daño: 70 / 120 / 170 / 220 / 270 (+ 120% de Daño de Ataque adicional) (+ 100% de Poder de Habilidad) ⇒ 70 / 115 / 160 / 205 / 250 (+ 130% de Daño de Ataque adicional) (+ 100% de Poder de Habilidad)",
+     "id": "8a2ce8e2e59b",
+     "section": "champions",
+     "tags": [
+      "Marksman",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Corki",
+      "name": "Corki"
+     },
+     "part": "R",
+     "partTitle": "R: Descarga de Misiles",
+     "spellKey": "MissileBarrage",
+     "kind": "stat",
+     "attribute": "Daño",
+     "before": "90 / 170 / 250 (+ 80% de Daño de Ataque adicional)",
+     "after": "90 / 170 / 250 (+ 85% de Daño de Ataque adicional)",
+     "text": "Daño: 90 / 170 / 250 (+ 80% de Daño de Ataque adicional) ⇒ 90 / 170 / 250 (+ 85% de Daño de Ataque adicional)",
+     "id": "88a0a38f9ef3",
+     "section": "champions",
+     "tags": [
+      "Marksman",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.11",
+   "publishedAt": "2025-05-27T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Pelea",
+     "sectionId": "patch-brawl",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Corki",
+      "name": "Corki"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño infligido",
+     "before": "100%",
+     "after": "105%",
+     "text": "Daño infligido: 100% ⇒ 105%",
+     "id": "fa537d11fb77",
+     "section": "modes",
+     "tags": [
+      "Marksman",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.6",
+   "publishedAt": "2025-03-18T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Corki",
+      "name": "Corki"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Redujimos su armadura básica.",
+     "id": "1a191d308a59",
+     "section": "champions",
+     "tags": [
+      "Marksman",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Corki",
+      "name": "Corki"
+     },
+     "part": "base",
+     "partTitle": "Estadísticas básicas",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Armadura básica",
+     "before": "30",
+     "after": "27",
+     "text": "Armadura básica: 30 ⇒ 27",
+     "id": "c1620e9407ca",
+     "section": "champions",
+     "tags": [
+      "Marksman",
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  }
+ ]
+}

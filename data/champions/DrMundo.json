@@ -1,0 +1,284 @@
+{
+ "schemaVersion": 1,
+ "id": "DrMundo",
+ "name": "Dr. Mundo",
+ "tags": [
+  "Tank",
+  "Fighter"
+ ],
+ "entries": [
+  {
+   "patch": "26.8",
+   "publishedAt": "2026-04-14T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "DrMundo",
+      "name": "Dr. Mundo"
+     },
+     "part": "Q",
+     "partTitle": "Q: Sierra Infectada",
+     "spellKey": "DrMundoQ",
+     "kind": "stat",
+     "attribute": "Límite de daño contra monstruos",
+     "before": "300 / 375 / 450 / 525 / 600",
+     "after": "250 / 325 / 400 / 475 / 550",
+     "text": "Límite de daño contra monstruos: 300 / 375 / 450 / 525 / 600 ⇒ 250 / 325 / 400 / 475 / 550",
+     "id": "beefd2b23396",
+     "section": "champions",
+     "tags": [
+      "Tank",
+      "Fighter"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "DrMundo",
+      "name": "Dr. Mundo"
+     },
+     "part": "E",
+     "partTitle": "E: Trauma Contundente",
+     "spellKey": "DrMundoE",
+     "kind": "stat",
+     "attribute": "Límite de daño contra monstruos",
+     "before": "200%",
+     "after": "140%",
+     "text": "Límite de daño contra monstruos: 200% ⇒ 140%",
+     "id": "d1aca38a809c",
+     "section": "champions",
+     "tags": [
+      "Tank",
+      "Fighter"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.24",
+   "publishedAt": "2025-12-02T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "DrMundo",
+      "name": "Dr. Mundo"
+     },
+     "part": "Q",
+     "partTitle": "Q: Sierra Infectada",
+     "spellKey": "DrMundoQ",
+     "kind": "stat",
+     "attribute": "Límite de daño contra monstruos",
+     "before": "350 / 425 / 500 / 575 / 650",
+     "after": "300 / 375 / 450 / 525 / 600",
+     "text": "Límite de daño contra monstruos: 350 / 425 / 500 / 575 / 650 ⇒ 300 / 375 / 450 / 525 / 600",
+     "id": "60169783a9ff",
+     "section": "champions",
+     "tags": [
+      "Tank",
+      "Fighter"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.23",
+   "publishedAt": "2025-11-18T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "DrMundo",
+      "name": "Dr. Mundo"
+     },
+     "part": "E",
+     "partTitle": "E: Trauma Contundente",
+     "spellKey": "DrMundoE",
+     "kind": "stat",
+     "attribute": "Daño de Ataque adicional según la Vida Máxima",
+     "before": "2% / 2.2% / 2.4% / 2.6% / 2.8%",
+     "after": "2% / 2.3% / 2.6% / 2.9% / 3.2%",
+     "text": "Daño de Ataque adicional según la Vida Máxima: 2% / 2.2% / 2.4% / 2.6% / 2.8% ⇒ 2% / 2.3% / 2.6% / 2.9% / 3.2%",
+     "id": "df32d5ec230d",
+     "section": "champions",
+     "tags": [
+      "Tank",
+      "Fighter"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "DrMundo",
+      "name": "Dr. Mundo"
+     },
+     "part": "E",
+     "partTitle": "E: Trauma Contundente",
+     "spellKey": "DrMundoE",
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Corregimos un error que provocaba que Dr. Mundo obtuviera el daño máximo al tener un 30% de Vida en vez de un 70%",
+     "id": "d30faf220820",
+     "section": "champions",
+     "tags": [
+      "Tank",
+      "Fighter"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.21",
+   "publishedAt": "2025-10-21T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "DrMundo",
+      "name": "Dr. Mundo"
+     },
+     "part": "base",
+     "partTitle": "Estadísticas básicas",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Crecimiento de Armadura",
+     "before": "3.7",
+     "after": "4.5",
+     "text": "Crecimiento de Armadura: 3.7 ⇒ 4.5",
+     "id": "332006b1cae1",
+     "section": "champions",
+     "tags": [
+      "Tank",
+      "Fighter"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "DrMundo",
+      "name": "Dr. Mundo"
+     },
+     "part": "E",
+     "partTitle": "E: Trauma Contundente",
+     "spellKey": "DrMundoE",
+     "kind": "stat",
+     "attribute": "Daño mínimo de la activa",
+     "before": "5 / 15 / 25 / 35 / 45 (+ 7% de la Vida adicional)",
+     "after": "5 / 15 / 25 / 35 / 45 (+ 5% de la Vida adicional)",
+     "text": "Daño mínimo de la activa:: 5 / 15 / 25 / 35 / 45 (+ 7% de la Vida adicional) ⇒ 5 / 15 / 25 / 35 / 45 (+ 5% de la Vida adicional)",
+     "id": "8547076d2453",
+     "section": "champions",
+     "tags": [
+      "Tank",
+      "Fighter"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.5",
+   "publishedAt": "2025-03-04T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "DrMundo",
+      "name": "Dr. Mundo"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Aumentamos su vida básica.",
+     "id": "96933637c144",
+     "section": "champions",
+     "tags": [
+      "Tank",
+      "Fighter"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "DrMundo",
+      "name": "Dr. Mundo"
+     },
+     "part": "base",
+     "partTitle": "Estadísticas básicas",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Vida",
+     "before": "613",
+     "after": "640",
+     "text": "Vida: 613 ⇒ 640",
+     "id": "0203e2b450fa",
+     "section": "champions",
+     "tags": [
+      "Tank",
+      "Fighter"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  }
+ ]
+}

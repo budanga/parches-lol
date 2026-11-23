@@ -1,0 +1,212 @@
+{
+ "schemaVersion": 1,
+ "id": "Leona",
+ "name": "Leona",
+ "tags": [
+  "Tank",
+  "Support"
+ ],
+ "entries": [
+  {
+   "patch": "25.18",
+   "publishedAt": "2025-09-09T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones (Arena)",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Leona",
+      "name": "Leona"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": null,
+     "before": "Enfriamiento de la Q: 6 seg",
+     "after": "5 seg",
+     "text": "Enfriamiento de la Q: 6 seg ⇒ 5 seg",
+     "id": "773e842d9fee",
+     "section": "modes",
+     "tags": [
+      "Tank",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones (Arena)",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Leona",
+      "name": "Leona"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": null,
+     "before": "Tasa de Poder de Habilidad de la W: 70%",
+     "after": "40%",
+     "text": "Tasa de Poder de Habilidad de la W: 70% ⇒ 40%",
+     "id": "9ef791706cff",
+     "section": "modes",
+     "tags": [
+      "Tank",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones (Arena)",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Leona",
+      "name": "Leona"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": null,
+     "before": "Enfriamiento de la W: De 14 / 13.5 / 13 / 12.5 / 12 seg",
+     "after": "14 / 13 / 12 / 11 / 10 seg",
+     "text": "Enfriamiento de la W: De 14 / 13.5 / 13 / 12.5 / 12 seg ⇒ 14 / 13 / 12 / 11 / 10 seg",
+     "id": "d2ac8eb00264",
+     "section": "modes",
+     "tags": [
+      "Tank",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.9",
+   "publishedAt": "2025-04-29T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Leona",
+      "name": "Leona"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "text",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "Aumentamos la duración de la pasiva. Redujimos el costo de maná de su Q. Redujimos el costo de maná de su E.",
+     "id": "1d00dd227486",
+     "section": "champions",
+     "tags": [
+      "Tank",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Leona",
+      "name": "Leona"
+     },
+     "part": "P",
+     "partTitle": "Pasiva: Luz Solar",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Duración",
+     "before": "1.5 seg",
+     "after": "2.5 seg",
+     "text": "Duración: 1.5 seg ⇒ 2.5 seg",
+     "id": "41b22f38e2f6",
+     "section": "champions",
+     "tags": [
+      "Tank",
+      "Support"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Leona",
+      "name": "Leona"
+     },
+     "part": "Q",
+     "partTitle": "Q: Escudo del Amanecer",
+     "spellKey": "LeonaShieldOfDaybreak",
+     "kind": "stat",
+     "attribute": "Costo de maná",
+     "before": "35 / 40 / 45 / 50 / 55",
+     "after": "30 / 35 / 40 / 45 / 50",
+     "text": "Costo de maná: 35 / 40 / 45 / 50 / 55 ⇒ 30 / 35 / 40 / 45 / 50",
+     "id": "1080cc035b66",
+     "section": "champions",
+     "tags": [
+      "Tank",
+      "Support"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Leona",
+      "name": "Leona"
+     },
+     "part": "E",
+     "partTitle": "E: Espada del Cénit",
+     "spellKey": "LeonaZenithBlade",
+     "kind": "stat",
+     "attribute": "Costo de maná",
+     "before": "60",
+     "after": "40 / 45 / 50 / 55 / 60",
+     "text": "Costo de maná: 60 ⇒ 40 / 45 / 50 / 55 / 60",
+     "id": "5da49b3a3d61",
+     "section": "champions",
+     "tags": [
+      "Tank",
+      "Support"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  }
+ ]
+}

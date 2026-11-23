@@ -1,0 +1,100 @@
+{
+ "schemaVersion": 1,
+ "id": "Lissandra",
+ "name": "Lissandra",
+ "tags": [
+  "Mage"
+ ],
+ "entries": [
+  {
+   "patch": "26.6",
+   "publishedAt": "2026-03-17T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Lissandra",
+      "name": "Lissandra"
+     },
+     "part": "base",
+     "partTitle": "Estadísticas básicas",
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Crecimiento de Armadura",
+     "before": "4.9",
+     "after": "4.2",
+     "text": "Crecimiento de Armadura: 4.9 ⇒ 4.2",
+     "id": "ca780602c4b4",
+     "section": "champions",
+     "tags": [
+      "Mage"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Campeones",
+     "sectionId": "patch-champions",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Lissandra",
+      "name": "Lissandra"
+     },
+     "part": "Q",
+     "partTitle": "Q: Fragmento de Hielo",
+     "spellKey": "LissandraQ",
+     "kind": "stat",
+     "attribute": "Enfriamiento",
+     "before": "8 / 7 / 6 / 5 / 4 seg",
+     "after": "7 / 6 / 5 / 4 / 3 seg",
+     "text": "Enfriamiento: 8 / 7 / 6 / 5 / 4 seg ⇒ 7 / 6 / 5 / 4 / 3 seg",
+     "id": "a3b702901b4a",
+     "section": "champions",
+     "tags": [
+      "Mage"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.20",
+   "publishedAt": "2025-10-07T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Bots Apocalípticos",
+     "sectionId": "patch-doom-bots",
+     "midPatch": false,
+     "entity": {
+      "kind": "champion",
+      "id": "Lissandra",
+      "name": "Lissandra"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "kind": "stat",
+     "attribute": "Daño infligido",
+     "before": "100%",
+     "after": "105%",
+     "text": "Daño infligido: 100% ⇒ 105%",
+     "id": "b464d3716fe7",
+     "section": "modes",
+     "tags": [
+      "Mage"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  }
+ ]
+}
