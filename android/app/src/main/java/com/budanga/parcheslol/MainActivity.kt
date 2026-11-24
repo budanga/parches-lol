@@ -135,6 +135,8 @@ fun AppRoot(repo: Repository, prefs: Prefs, pendingRoute: androidx.compose.runti
     val cover = remember { Animatable(0f) }
     var transitioning by remember { mutableStateOf(false) }
     val transitionOn by prefs.animTransition.collectAsState(initial = true)
+    // Every portrait into the cache in the background, once the first screen has drawn.
+    LaunchedEffect(Unit) { delay(500); com.budanga.parcheslol.ui.prefetchPortraits(context, repo, prefs) }
     LaunchedEffect(pendingRoute.value) {
         pendingRoute.value?.let { nav.navigate(it); pendingRoute.value = null }
     }
