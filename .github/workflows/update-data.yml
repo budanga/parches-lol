@@ -2,7 +2,10 @@ name: update-data
 
 on:
   schedule:
-    - cron: "17 */3 * * *"
+    # Riot publishes every two weeks, Tuesday or Wednesday between 18 and 20 UTC (seen in 47 patches):
+    # every 15 minutes in that window, every 6 hours otherwise (news and mid-patch updates).
+    - cron: "*/15 18-23 * * 2,3"
+    - cron: "17 */6 * * *"
   workflow_dispatch:
 
 permissions:

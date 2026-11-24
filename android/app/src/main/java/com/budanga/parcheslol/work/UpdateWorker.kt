@@ -15,6 +15,11 @@ import androidx.core.content.ContextCompat
 import androidx.work.Constraints
 import androidx.work.CoroutineWorker
 import androidx.work.ExistingPeriodicWorkPolicy
+import androidx.work.ExistingWorkPolicy
+import androidx.work.OneTimeWorkRequestBuilder
+import androidx.work.workDataOf
+import com.budanga.parcheslol.domain.patchWindowDelay
+import java.time.Instant
 import androidx.work.NetworkType
 import androidx.work.PeriodicWorkRequestBuilder
 import androidx.work.WorkManager
@@ -39,10 +44,18 @@ import androidx.glance.appwidget.updateAll
 
 private const val CHANNEL_PATCHES = "patches"
 private const val CHANNEL_NEWS = "news"
+private const val KEY_WINDOW = "window"
 
 /** Every ~3 h: announce new patches (with how many changes touch your ADCs) and, if enabled, new news. */
 class UpdateWorker(context: Context, params: WorkerParameters) : CoroutineWorker(context, params) {
     override suspend fun doWork(): Result {
+        val result = check()
+        // Patch-day checks chain themselves: every 30 min in the window, then wait for the next one.
+        if (inputData.getBoolean(KEY_WINDOW, false) && result !is Result.Retry) scheduleWindow(applicationContext, ExistingWorkPolicy.APPEND_OR_REPLACE)
+        return result
+    }
+
+    private suspend fun check(): Result {
         val repo = Repository(DATA_BASE_URL, File(applicationContext.filesDir, "data"))
         val prefs = Prefs(applicationContext)
         val index = (repo.index() as? Loaded.Fresh)?.value ?: return Result.retry()
@@ -105,6 +118,18 @@ class UpdateWorker(context: Context, params: WorkerParameters) : CoroutineWorker
                 .setConstraints(Constraints.Builder().setRequiredNetworkType(NetworkType.CONNECTED).build())
                 .build()
             WorkManager.getInstance(context).enqueueUniquePeriodicWork("update", ExistingPeriodicWorkPolicy.KEEP, request)
+            scheduleWindow(context, ExistingWorkPolicy.KEEP)
+        }
+
+        /** Next patch-day check (Tuesday/Wednesday afternoons), on top of the 3-hour one. */
+        fun scheduleWindow(context: Context, policy: ExistingWorkPolicy) {
+            val delay = patchWindowDelay(Instant.now())
+            val request = OneTimeWorkRequestBuilder<UpdateWorker>()
+                .setInitialDelay(delay.toMinutes(), TimeUnit.MINUTES)
+                .setInputData(workDataOf(KEY_WINDOW to true))
+                .setConstraints(Constraints.Builder().setRequiredNetworkType(NetworkType.CONNECTED).build())
+                .build()
+            WorkManager.getInstance(context).enqueueUniqueWork("update-window", policy, request)
         }
     }
 }
