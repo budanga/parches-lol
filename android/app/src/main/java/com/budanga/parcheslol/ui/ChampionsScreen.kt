@@ -94,6 +94,9 @@ fun ChampionsScreen(repo: Repository, prefs: Prefs, onOpen: (String) -> Unit, on
     val myAdcs by prefs.myAdcs.collectAsState(initial = DEFAULT_ADCS)
     var query by rememberSaveable { mutableStateOf("") }
     var showItems by rememberSaveable { mutableStateOf(false) }
+    // Campeones and Objetos each keep their own place in the list.
+    val championsState = rememberSaveable(saver = androidx.compose.foundation.lazy.LazyListState.Saver) { androidx.compose.foundation.lazy.LazyListState() }
+    val itemsState = rememberSaveable(saver = androidx.compose.foundation.lazy.LazyListState.Saver) { androidx.compose.foundation.lazy.LazyListState() }
     val myItems by prefs.myItems.collectAsState(initial = null)
 
     Column(Modifier.fillMaxSize().padding(horizontal = 16.dp)) {
@@ -113,7 +116,7 @@ fun ChampionsScreen(repo: Repository, prefs: Prefs, onOpen: (String) -> Unit, on
                     .filter { normalizeForSearch(it.name).contains(q) }
                     .partition(mine)
                 val kind = if (showItems) "item" else "champion"
-                LazyColumn(Modifier.fillMaxSize().padding(top = 8.dp)) {
+                LazyColumn(Modifier.fillMaxSize().padding(top = 8.dp), state = if (showItems) itemsState else championsState) {
                     // "Favoritos" and "Todos", each with its ink rule; a heading only shows when it has rows.
                     for ((title, rows) in listOf(R.string.my_adcs to favorites, R.string.everyone to others)) {
                         if (rows.isEmpty()) continue
