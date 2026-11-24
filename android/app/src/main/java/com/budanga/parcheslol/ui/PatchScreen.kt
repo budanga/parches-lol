@@ -115,7 +115,9 @@ fun PatchScreen(
     var expanded by rememberSaveable { mutableStateOf(emptySet<String>()) }
     val once = remember(patchId) { PlayOnce() }
     // Kept while you look at a champion and come back; another patch starts at the top.
-    val listState = rememberSaveable(patchId, saver = LazyListState.Saver) { LazyListState() }
+    // Favoritos and Todo each keep their own place: Todo starts at the top the first time you open it.
+    val favoritesState = rememberSaveable(patchId, saver = LazyListState.Saver) { LazyListState() }
+    val allState = rememberSaveable(patchId, saver = LazyListState.Saver) { LazyListState() }
     val patch = state?.valueOrNull
     val ready = patch != null && myAdcs != null && itemsPref != null && catalogRead
 
@@ -142,7 +144,7 @@ fun PatchScreen(
                 // Same picture version as the home screen, so portraits already loaded there are reused.
                 val portraits = catalog?.ddragonVersion ?: patch.ddragonVersion
                 val groups = filterGroups(base, query)
-                LazyColumn(Modifier.fillMaxSize(), state = listState) {
+                LazyColumn(Modifier.fillMaxSize(), state = if (showAll) allState else favoritesState) {
                     if (query.isNotBlank() && groups.isEmpty()) {
                         item { Text(stringResource(R.string.no_results), style = Type.BodyMuted, modifier = Modifier.padding(vertical = 16.dp)) }
                     } else if (query.isBlank() && !showAll && groups.none { it.entity != null }) {
