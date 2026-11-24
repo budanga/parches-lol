@@ -23,6 +23,7 @@
     <string name="no_history">Sin cambios registrados desde 2025.</string>
     <string name="my_adcs">Favoritos</string>
     <string name="my_items">Objetos favoritos</string>
+    <string name="everyone">Todos</string>
     <string name="add_champion">Agregar campeón…</string>
     <string name="add_item">Agregar objeto…</string>
     <string name="no_favorites">Todavía no elegiste ninguno. Escribí arriba para agregar.</string>

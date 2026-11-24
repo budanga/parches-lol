@@ -109,21 +109,26 @@ fun ChampionsScreen(repo: Repository, prefs: Prefs, onOpen: (String) -> Unit, on
                 val q = normalizeForSearch(query)
                 // Your ADCs (or your ADC items) first, then the rest by name.
                 val mine: (CatalogEntry) -> Boolean = if (showItems) { e -> myItems?.contains(e.id) ?: isDefaultAdcItem(e.tags) } else { e -> e.id in myAdcs }
-                val shown = (if (showItems) data.items else data.champions)
+                val (favorites, others) = (if (showItems) data.items else data.champions)
                     .filter { normalizeForSearch(it.name).contains(q) }
-                    .sortedBy { if (mine(it)) 0 else 1 }
+                    .partition(mine)
                 val kind = if (showItems) "item" else "champion"
                 LazyColumn(Modifier.fillMaxSize().padding(top = 8.dp)) {
-                    items(shown, key = { kind + it.id }) { c ->
-                        Row(
-                            Modifier.fillMaxWidth().clickable { if (showItems) onOpenItem(c.id) else onOpen(c.id) }.padding(vertical = 9.dp),
-                            verticalAlignment = Alignment.CenterVertically,
-                            horizontalArrangement = Arrangement.spacedBy(10.dp),
-                        ) {
-                            Avatar(Entity(kind, c.id, c.name), c.name, data.ddragonVersion, 28.dp)
-                            Text(c.name, style = Type.Body)
+                    // "Favoritos" and "Todos", each with its ink rule; a heading only shows when it has rows.
+                    for ((title, rows) in listOf(R.string.my_adcs to favorites, R.string.everyone to others)) {
+                        if (rows.isEmpty()) continue
+                        item(key = "h$title") { EntityHeader(null, stringResource(title), "") }
+                        items(rows, key = { kind + it.id }) { c ->
+                            Row(
+                                Modifier.fillMaxWidth().clickable { if (showItems) onOpenItem(c.id) else onOpen(c.id) }.padding(vertical = 9.dp),
+                                verticalAlignment = Alignment.CenterVertically,
+                                horizontalArrangement = Arrangement.spacedBy(10.dp),
+                            ) {
+                                Avatar(Entity(kind, c.id, c.name), c.name, data.ddragonVersion, 28.dp)
+                                Text(c.name, style = Type.Body)
+                            }
+                            RowDivider()
                         }
-                        RowDivider()
                     }
                 }
             }
