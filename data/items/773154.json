@@ -1,0 +1,121 @@
+{
+ "schemaVersion": 1,
+ "id": "773154",
+ "name": "Linterna de Wriggle",
+ "tags": [
+  "Armor",
+  "Damage",
+  "LifeSteal",
+  "Vision",
+  "Active",
+  "OnHit",
+  "Jungle"
+ ],
+ "entries": [
+  {
+   "patch": "26.17",
+   "publishedAt": "2026-08-25T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Classic",
+     "sectionId": "patch-classic",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "773154",
+      "name": "Linterna de Wriggle"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "tag": null,
+     "kind": "stat",
+     "attribute": "Ruta de armado",
+     "before": "Navajas de Madred + Cetro Vampírico",
+     "after": "Navajas de Madred + Arco Recurvado. Costo total: (2000 de oro) (sin cambios)",
+     "text": "Ruta de armado: Navajas de Madred + Cetro Vampírico ⇒ Navajas de Madred + Arco Recurvado. Costo total: (2000 de oro) (sin cambios)",
+     "id": "d1edfc96813f",
+     "section": "modes",
+     "tags": [
+      "Armor",
+      "Damage",
+      "LifeSteal",
+      "Vision",
+      "Active",
+      "OnHit",
+      "Jungle"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Classic",
+     "sectionId": "patch-classic",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "773154",
+      "name": "Linterna de Wriggle"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "tag": null,
+     "kind": "stat",
+     "attribute": "Daño de Ataque",
+     "before": "25",
+     "after": "0",
+     "text": "Daño de Ataque: 25 ⇒ 0",
+     "id": "3b750f404322",
+     "section": "modes",
+     "tags": [
+      "Armor",
+      "Damage",
+      "LifeSteal",
+      "Vision",
+      "Active",
+      "OnHit",
+      "Jungle"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Classic",
+     "sectionId": "patch-classic",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "773154",
+      "name": "Linterna de Wriggle"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "tag": null,
+     "kind": "stat",
+     "attribute": "Velocidad de Ataque",
+     "before": "0%",
+     "after": "30%",
+     "text": "Velocidad de Ataque: 0% ⇒ 30%",
+     "id": "da1a3b357247",
+     "section": "modes",
+     "tags": [
+      "Armor",
+      "Damage",
+      "LifeSteal",
+      "Vision",
+      "Active",
+      "OnHit",
+      "Jungle"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  }
+ ]
+}

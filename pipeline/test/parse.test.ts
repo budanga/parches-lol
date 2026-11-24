@@ -115,3 +115,24 @@ test("etiquetas de los títulos ([NUEVO], [REDISEÑADO]) se conservan en cada l�
   assert.equal(c269.find(c => c.text === "Resistencia Mágica: 10")!.tag, "NUEVO");
   assert.equal(c2623.find(c => c.entity.id === "Azir" && c.part === "base")!.tag, null);
 });
+
+const itemsPage = (block: string) =>
+  `<main><h2 id="patch-items">Objetos</h2><div class="patch-change-block">${block}</div></main>`;
+
+test("objetos con otro nombre en las notas se enlazan (Suelas Simbióticas, Trituradoras de Malla)", () => {
+  const c = parsePatchNotes(itemsPage(
+    `<div><h3 class="change-title"><a>Suelas Simbióticas</a></h3><ul><li>Velocidad de Movimiento: 45 ⇒ 50</li></ul></div>`), names);
+  assert.equal(c[0].entity.id, "3010");
+  const t = parsePatchNotes(itemsPage(
+    `<div><h3 class="change-title"><a>Trituradoras de Malla</a></h3><ul><li>Costo total: 1200 ⇒ 1250</li></ul></div>`), names);
+  assert.equal(t[0].entity.id, "3173");
+});
+
+test("un título con dos objetos lleva el cambio a los dos", () => {
+  const c = parsePatchNotes(itemsPage(
+    `<div><h3 class="change-title"><a>Grebas Glotonas / Camino Inmortal</a></h3><ul><li>Costo total: 950 de oro ⇒ 1000 de oro</li></ul></div>`), names);
+  assert.deepEqual(c.map(x => x.entity.id), ["3008", "3168"]);
+  const m = parsePatchNotes(itemsPage(
+    `<div><h4 class="change-detail-title">Mapamundi y Brújula Rúnica</h4><ul><li>Vida: 30 ⇒ 0</li></ul></div>`), names);
+  assert.deepEqual(m.map(x => x.entity.name), ["Mapamundi", "Brújula Rúnica"]);
+});

@@ -112,6 +112,8 @@ class MainActivity : ComponentActivity() {
                 else SystemBarStyle.light(android.graphics.Color.TRANSPARENT, android.graphics.Color.TRANSPARENT)
                 enableEdgeToEdge(statusBarStyle = style, navigationBarStyle = style)
             }
+            // The widget follows the same theme setting.
+            LaunchedEffect(mode) { runCatching { PatchWidget().updateAll(this@MainActivity) } }
             ArchiveTheme(dark) { AppRoot(repo, prefs, pendingRoute) }
         }
     }

@@ -43,8 +43,22 @@ export function parsePatchNotes(html: string, names: NameIndex): RawChange[] {
   const blockOf = (el: Element): Element | null => ($(el).closest(".patch-change-block").get(0) as Element | undefined) ?? null;
   const imgSrc = (el: Element): string => $(el).find("img").attr("src") ?? "";
 
+  /** Further items of a shared heading ("Grebas Glotonas / Camino Inmortal"): each line is copied to them. */
+  const alsoItems = new WeakMap<Entity, Entity[]>();
   const resolve = (nameOrImg: string, kinds: EntityKind[]): Entity | null => {
     nameOrImg = stripTag(nameOrImg);
+    const one = resolveOne(nameOrImg, kinds);
+    if (one || !kinds.includes("item")) return one;
+    // Only when every part is an item, so a name that merely contains "y" is never split.
+    const parts = nameOrImg.split(/\s+(?:\/|y)\s+/);
+    if (parts.length < 2) return null;
+    const found = parts.map(p => names.item(p));
+    if (found.some(n => !n)) return null;
+    const [first, ...rest] = found.map(n => ({ kind: "item" as const, id: n!.id, name: n!.name }));
+    alsoItems.set(first, rest);
+    return first;
+  };
+  const resolveOne = (nameOrImg: string, kinds: EntityKind[]): Entity | null => {
     for (const kind of kinds) {
       let n: Named | null = null;
       if (kind === "champion") n = names.champion(nameOrImg);
@@ -62,7 +76,8 @@ export function parsePatchNotes(html: string, names: NameIndex): RawChange[] {
   };
 
   const emit = (fields: Pick<RawChange, "kind" | "attribute" | "before" | "after" | "text">, ent: Entity = entity) => {
-    out.push({ sectionTitle, sectionId, midPatch, entity: ent, part, partTitle, spellKey, tag: entityTag, ...fields });
+    for (const e of [ent, ...(alsoItems.get(ent) ?? [])])
+      out.push({ sectionTitle, sectionId, midPatch, entity: e, part, partTitle, spellKey, tag: entityTag, ...fields });
   };
 
   $("h2, h3, h4, li, p, strong").each((_, el) => {

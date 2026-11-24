@@ -1,0 +1,82 @@
+{
+ "schemaVersion": 1,
+ "id": "3866",
+ "name": "Brújula Rúnica",
+ "tags": [
+  "SpellDamage",
+  "ManaRegen",
+  "Vision",
+  "GoldPer",
+  "Lane"
+ ],
+ "entries": [
+  {
+   "patch": "26.19",
+   "publishedAt": "2026-09-22T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Objetos",
+     "sectionId": "patch-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "3866",
+      "name": "Brújula Rúnica"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "tag": null,
+     "kind": "stat",
+     "attribute": "Vida",
+     "before": "30 / 100 / 200",
+     "after": "0 / 60 / 200",
+     "text": "Vida: 30 / 100 / 200 ⇒ 0 / 60 / 200",
+     "id": "4515fc5156f2",
+     "section": "items",
+     "tags": [
+      "SpellDamage",
+      "ManaRegen",
+      "Vision",
+      "GoldPer",
+      "Lane"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Objetos",
+     "sectionId": "patch-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "3866",
+      "name": "Brújula Rúnica"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "tag": null,
+     "kind": "stat",
+     "attribute": "Regeneración de Vida",
+     "before": "25 / 50 / 75%",
+     "after": "50 / 75 / 75%",
+     "text": "Regeneración de Vida: 25 / 50 / 75% ⇒ 50 / 75 / 75%",
+     "id": "9a42db2d5cfc",
+     "section": "items",
+     "tags": [
+      "SpellDamage",
+      "ManaRegen",
+      "Vision",
+      "GoldPer",
+      "Lane"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  }
+ ]
+}

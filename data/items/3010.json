@@ -38,6 +38,99 @@
      "addedLater": false
     }
    ]
+  },
+  {
+   "patch": "25.9",
+   "publishedAt": "2025-04-29T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Objetos",
+     "sectionId": "patch-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "3010",
+      "name": "Botas Simbióticas"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "tag": null,
+     "kind": "new",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "NUEVO: Ahora obtienes 10 de Velocidad de Movimiento al estar fuera de combate",
+     "id": "f2914b28739c",
+     "section": "items",
+     "tags": [
+      "Boots"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Objetos",
+     "sectionId": "patch-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "3010",
+      "name": "Botas Simbióticas"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "tag": null,
+     "kind": "removed",
+     "attribute": null,
+     "before": null,
+     "after": null,
+     "text": "ELIMINADO: Ya no otorga Retirada potenciada",
+     "id": "a376e78a01c4",
+     "section": "items",
+     "tags": [
+      "Boots"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
+   "patch": "25.4",
+   "publishedAt": "2025-02-19T19:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Objetos",
+     "sectionId": "patch-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "3010",
+      "name": "Botas Simbióticas"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "tag": null,
+     "kind": "stat",
+     "attribute": "Velocidad de movimiento fija",
+     "before": "35",
+     "after": "40 (Nota: la velocidad de movimiento evolucionada no tiene cambios después de 45)",
+     "text": "Velocidad de movimiento fija: 35 ⇒ 40 (Nota: la velocidad de movimiento evolucionada no tiene cambios después de 45)",
+     "id": "c6f87f79d249",
+     "section": "items",
+     "tags": [
+      "Boots"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
   }
  ]
 }

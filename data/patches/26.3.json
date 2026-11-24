@@ -6038,9 +6038,9 @@
    "sectionId": "patch-items",
    "midPatch": false,
    "entity": {
-    "kind": "none",
-    "id": null,
-    "name": "Trituradoras de Malla"
+    "kind": "item",
+    "id": "3173",
+    "name": "Trituradoras Aceradas"
    },
    "part": null,
    "partTitle": null,
@@ -6051,9 +6051,14 @@
    "before": "De 10 a 120 (según el nivel, del 1 al 18) (+ 7% de la Vida Máxima)",
    "after": "De 100 a 200 (según el nivel, el aumento comienza en el nivel 9) (+ 8% de la Vida adicional)",
    "text": "Valor del escudo de Resistencia Noxiana: De 10 a 120 (según el nivel, del 1 al 18) (+ 7% de la Vida Máxima) ⇒ De 100 a 200 (según el nivel, el aumento comienza en el nivel 9) (+ 8% de la Vida adicional)",
-   "id": "810a161213a9",
+   "id": "833a3e1206c7",
    "section": "items",
-   "tags": [],
+   "tags": [
+    "SpellBlock",
+    "Boots",
+    "Tenacity",
+    "MagicResist"
+   ],
    "verification": "unchecked",
    "gameData": null,
    "addedLater": false

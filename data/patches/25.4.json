@@ -1940,9 +1940,9 @@
    "sectionId": "patch-items",
    "midPatch": false,
    "entity": {
-    "kind": "none",
-    "id": null,
-    "name": "Suelas Simbióticas"
+    "kind": "item",
+    "id": "3010",
+    "name": "Botas Simbióticas"
    },
    "part": null,
    "partTitle": null,
@@ -1953,9 +1953,11 @@
    "before": "35",
    "after": "40 (Nota: la velocidad de movimiento evolucionada no tiene cambios después de 45)",
    "text": "Velocidad de movimiento fija: 35 ⇒ 40 (Nota: la velocidad de movimiento evolucionada no tiene cambios después de 45)",
-   "id": "9258345d9835",
+   "id": "c6f87f79d249",
    "section": "items",
-   "tags": [],
+   "tags": [
+    "Boots"
+   ],
    "verification": "unchecked",
    "gameData": null,
    "addedLater": false

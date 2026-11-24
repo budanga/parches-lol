@@ -4037,34 +4037,9 @@
    "sectionId": "patch-classic",
    "midPatch": false,
    "entity": {
-    "kind": "none",
-    "id": null,
-    "name": "Linterna de Wriggle y Llamarada Salvaje"
-   },
-   "part": null,
-   "partTitle": null,
-   "spellKey": null,
-   "tag": null,
-   "kind": "text",
-   "attribute": null,
-   "before": null,
-   "after": null,
-   "text": "Linterna de Wriggle y Llamarada Salvaje",
-   "id": "01f2b8ea5c0d",
-   "section": "modes",
-   "tags": [],
-   "verification": "unchecked",
-   "gameData": null,
-   "addedLater": false
-  },
-  {
-   "sectionTitle": "Classic",
-   "sectionId": "patch-classic",
-   "midPatch": false,
-   "entity": {
-    "kind": "none",
-    "id": null,
-    "name": "Linterna de Wriggle y Llamarada Salvaje"
+    "kind": "item",
+    "id": "773154",
+    "name": "Linterna de Wriggle"
    },
    "part": null,
    "partTitle": null,
@@ -4075,9 +4050,17 @@
    "before": "Navajas de Madred + Cetro Vampírico",
    "after": "Navajas de Madred + Arco Recurvado. Costo total: (2000 de oro) (sin cambios)",
    "text": "Ruta de armado: Navajas de Madred + Cetro Vampírico ⇒ Navajas de Madred + Arco Recurvado. Costo total: (2000 de oro) (sin cambios)",
-   "id": "380e328b38c3",
+   "id": "d1edfc96813f",
    "section": "modes",
-   "tags": [],
+   "tags": [
+    "Armor",
+    "Damage",
+    "LifeSteal",
+    "Vision",
+    "Active",
+    "OnHit",
+    "Jungle"
+   ],
    "verification": "unchecked",
    "gameData": null,
    "addedLater": false
@@ -4087,9 +4070,40 @@
    "sectionId": "patch-classic",
    "midPatch": false,
    "entity": {
-    "kind": "none",
-    "id": null,
-    "name": "Linterna de Wriggle y Llamarada Salvaje"
+    "kind": "item",
+    "id": "773160",
+    "name": "Llamarada Salvaje"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "tag": null,
+   "kind": "stat",
+   "attribute": "Ruta de armado",
+   "before": "Navajas de Madred + Cetro Vampírico",
+   "after": "Navajas de Madred + Arco Recurvado. Costo total: (2000 de oro) (sin cambios)",
+   "text": "Ruta de armado: Navajas de Madred + Cetro Vampírico ⇒ Navajas de Madred + Arco Recurvado. Costo total: (2000 de oro) (sin cambios)",
+   "id": "a9bcb4a6d001",
+   "section": "modes",
+   "tags": [
+    "Armor",
+    "Damage",
+    "LifeSteal",
+    "Vision",
+    "OnHit"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Classic",
+   "sectionId": "patch-classic",
+   "midPatch": false,
+   "entity": {
+    "kind": "item",
+    "id": "773154",
+    "name": "Linterna de Wriggle"
    },
    "part": null,
    "partTitle": null,
@@ -4100,9 +4114,17 @@
    "before": "25",
    "after": "0",
    "text": "Daño de Ataque: 25 ⇒ 0",
-   "id": "9d3706323d8a",
+   "id": "3b750f404322",
    "section": "modes",
-   "tags": [],
+   "tags": [
+    "Armor",
+    "Damage",
+    "LifeSteal",
+    "Vision",
+    "Active",
+    "OnHit",
+    "Jungle"
+   ],
    "verification": "unchecked",
    "gameData": null,
    "addedLater": false
@@ -4112,9 +4134,40 @@
    "sectionId": "patch-classic",
    "midPatch": false,
    "entity": {
-    "kind": "none",
-    "id": null,
-    "name": "Linterna de Wriggle y Llamarada Salvaje"
+    "kind": "item",
+    "id": "773160",
+    "name": "Llamarada Salvaje"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "tag": null,
+   "kind": "stat",
+   "attribute": "Daño de Ataque",
+   "before": "25",
+   "after": "0",
+   "text": "Daño de Ataque: 25 ⇒ 0",
+   "id": "e6b8abfb6bfa",
+   "section": "modes",
+   "tags": [
+    "Armor",
+    "Damage",
+    "LifeSteal",
+    "Vision",
+    "OnHit"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Classic",
+   "sectionId": "patch-classic",
+   "midPatch": false,
+   "entity": {
+    "kind": "item",
+    "id": "773154",
+    "name": "Linterna de Wriggle"
    },
    "part": null,
    "partTitle": null,
@@ -4125,9 +4178,48 @@
    "before": "0%",
    "after": "30%",
    "text": "Velocidad de Ataque: 0% ⇒ 30%",
-   "id": "8c22e3d53df0",
+   "id": "da1a3b357247",
    "section": "modes",
-   "tags": [],
+   "tags": [
+    "Armor",
+    "Damage",
+    "LifeSteal",
+    "Vision",
+    "Active",
+    "OnHit",
+    "Jungle"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Classic",
+   "sectionId": "patch-classic",
+   "midPatch": false,
+   "entity": {
+    "kind": "item",
+    "id": "773160",
+    "name": "Llamarada Salvaje"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "tag": null,
+   "kind": "stat",
+   "attribute": "Velocidad de Ataque",
+   "before": "0%",
+   "after": "30%",
+   "text": "Velocidad de Ataque: 0% ⇒ 30%",
+   "id": "27b40ecf87da",
+   "section": "modes",
+   "tags": [
+    "Armor",
+    "Damage",
+    "LifeSteal",
+    "Vision",
+    "OnHit"
+   ],
    "verification": "unchecked",
    "gameData": null,
    "addedLater": false

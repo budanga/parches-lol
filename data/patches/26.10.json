@@ -1125,9 +1125,9 @@
    "sectionId": "patch-items",
    "midPatch": false,
    "entity": {
-    "kind": "none",
-    "id": null,
-    "name": "Grebas Glotonas / Camino Inmortal"
+    "kind": "item",
+    "id": "3008",
+    "name": "Grebas Glotonas"
    },
    "part": null,
    "partTitle": null,
@@ -1138,10 +1138,14 @@
    "before": "950 de oro",
    "after": "1000 de oro",
    "text": "Costo total: 950 de oro ⇒ 1000 de oro",
-   "id": "20405e1b7bc3",
+   "id": "0f2cedca93ae",
    "section": "items",
-   "tags": [],
-   "verification": "unchecked",
+   "tags": [
+    "LifeSteal",
+    "SpellVamp",
+    "Boots"
+   ],
+   "verification": "verified",
    "gameData": null,
    "addedLater": false
   },
@@ -1150,9 +1154,38 @@
    "sectionId": "patch-items",
    "midPatch": false,
    "entity": {
-    "kind": "none",
-    "id": null,
-    "name": "Grebas Glotonas / Camino Inmortal"
+    "kind": "item",
+    "id": "3168",
+    "name": "Camino Inmortal"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "tag": null,
+   "kind": "stat",
+   "attribute": "Costo total",
+   "before": "950 de oro",
+   "after": "1000 de oro",
+   "text": "Costo total: 950 de oro ⇒ 1000 de oro",
+   "id": "06cb4eaf71e5",
+   "section": "items",
+   "tags": [
+    "LifeSteal",
+    "SpellVamp",
+    "Boots"
+   ],
+   "verification": "verified",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Objetos",
+   "sectionId": "patch-items",
+   "midPatch": false,
+   "entity": {
+    "kind": "item",
+    "id": "3008",
+    "name": "Grebas Glotonas"
    },
    "part": null,
    "partTitle": null,
@@ -1163,9 +1196,42 @@
    "before": "1% por derribo, hasta un máx. de 6 acumulaciones",
    "after": "0.6% por derribo, hasta un máx. de 10 acumulaciones",
    "text": "Exterminar: Omnivampirismo por acumulación: 1% por derribo, hasta un máx. de 6 acumulaciones ⇒ 0.6% por derribo, hasta un máx. de 10 acumulaciones",
-   "id": "c94131547dfb",
+   "id": "8d5d90c64c9a",
    "section": "items",
-   "tags": [],
+   "tags": [
+    "LifeSteal",
+    "SpellVamp",
+    "Boots"
+   ],
+   "verification": "unchecked",
+   "gameData": null,
+   "addedLater": false
+  },
+  {
+   "sectionTitle": "Objetos",
+   "sectionId": "patch-items",
+   "midPatch": false,
+   "entity": {
+    "kind": "item",
+    "id": "3168",
+    "name": "Camino Inmortal"
+   },
+   "part": null,
+   "partTitle": null,
+   "spellKey": null,
+   "tag": null,
+   "kind": "stat",
+   "attribute": "Exterminar: Omnivampirismo por acumulación",
+   "before": "1% por derribo, hasta un máx. de 6 acumulaciones",
+   "after": "0.6% por derribo, hasta un máx. de 10 acumulaciones",
+   "text": "Exterminar: Omnivampirismo por acumulación: 1% por derribo, hasta un máx. de 6 acumulaciones ⇒ 0.6% por derribo, hasta un máx. de 10 acumulaciones",
+   "id": "0bafd02edce2",
+   "section": "items",
+   "tags": [
+    "LifeSteal",
+    "SpellVamp",
+    "Boots"
+   ],
    "verification": "unchecked",
    "gameData": null,
    "addedLater": false

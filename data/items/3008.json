@@ -44,6 +44,70 @@
    ]
   },
   {
+   "patch": "26.10",
+   "publishedAt": "2026-05-12T18:00:00.000Z",
+   "changes": [
+    {
+     "sectionTitle": "Objetos",
+     "sectionId": "patch-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "3008",
+      "name": "Grebas Glotonas"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "tag": null,
+     "kind": "stat",
+     "attribute": "Costo total",
+     "before": "950 de oro",
+     "after": "1000 de oro",
+     "text": "Costo total: 950 de oro ⇒ 1000 de oro",
+     "id": "0f2cedca93ae",
+     "section": "items",
+     "tags": [
+      "LifeSteal",
+      "SpellVamp",
+      "Boots"
+     ],
+     "verification": "verified",
+     "gameData": null,
+     "addedLater": false
+    },
+    {
+     "sectionTitle": "Objetos",
+     "sectionId": "patch-items",
+     "midPatch": false,
+     "entity": {
+      "kind": "item",
+      "id": "3008",
+      "name": "Grebas Glotonas"
+     },
+     "part": null,
+     "partTitle": null,
+     "spellKey": null,
+     "tag": null,
+     "kind": "stat",
+     "attribute": "Exterminar: Omnivampirismo por acumulación",
+     "before": "1% por derribo, hasta un máx. de 6 acumulaciones",
+     "after": "0.6% por derribo, hasta un máx. de 10 acumulaciones",
+     "text": "Exterminar: Omnivampirismo por acumulación: 1% por derribo, hasta un máx. de 6 acumulaciones ⇒ 0.6% por derribo, hasta un máx. de 10 acumulaciones",
+     "id": "8d5d90c64c9a",
+     "section": "items",
+     "tags": [
+      "LifeSteal",
+      "SpellVamp",
+      "Boots"
+     ],
+     "verification": "unchecked",
+     "gameData": null,
+     "addedLater": false
+    }
+   ]
+  },
+  {
    "patch": "26.9",
    "publishedAt": "2026-04-28T18:00:00.000Z",
    "changes": [

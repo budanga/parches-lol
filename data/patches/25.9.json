@@ -3418,9 +3418,9 @@
    "sectionId": "patch-items",
    "midPatch": false,
    "entity": {
-    "kind": "none",
-    "id": null,
-    "name": "Suelas Simbióticas"
+    "kind": "item",
+    "id": "3010",
+    "name": "Botas Simbióticas"
    },
    "part": null,
    "partTitle": null,
@@ -3431,9 +3431,11 @@
    "before": null,
    "after": null,
    "text": "NUEVO: Ahora obtienes 10 de Velocidad de Movimiento al estar fuera de combate",
-   "id": "7468e922fa01",
+   "id": "f2914b28739c",
    "section": "items",
-   "tags": [],
+   "tags": [
+    "Boots"
+   ],
    "verification": "unchecked",
    "gameData": null,
    "addedLater": false
@@ -3443,9 +3445,9 @@
    "sectionId": "patch-items",
    "midPatch": false,
    "entity": {
-    "kind": "none",
-    "id": null,
-    "name": "Suelas Simbióticas"
+    "kind": "item",
+    "id": "3010",
+    "name": "Botas Simbióticas"
    },
    "part": null,
    "partTitle": null,
@@ -3456,9 +3458,11 @@
    "before": null,
    "after": null,
    "text": "ELIMINADO: Ya no otorga Retirada potenciada",
-   "id": "1dc3641072b1",
+   "id": "a376e78a01c4",
    "section": "items",
-   "tags": [],
+   "tags": [
+    "Boots"
+   ],
    "verification": "unchecked",
    "gameData": null,
    "addedLater": false
@@ -3620,12 +3624,12 @@
    "sectionId": "patch-tier-3-boot-upgrades",
    "midPatch": false,
    "entity": {
-    "kind": "none",
-    "id": null,
-    "name": ""
+    "kind": "item",
+    "id": "3173",
+    "name": "Trituradoras Aceradas"
    },
-   "part": "Trituradoras de Malla",
-   "partTitle": "Trituradoras de Malla",
+   "part": null,
+   "partTitle": null,
    "spellKey": null,
    "tag": null,
    "kind": "stat",
@@ -3633,10 +3637,15 @@
    "before": "750 de oro",
    "after": "500 de oro",
    "text": "Costo: 750 de oro ⇒ 500 de oro",
-   "id": "88e5bf4b9adf",
-   "section": "systems",
-   "tags": [],
-   "verification": "unchecked",
+   "id": "a0cb23524d8d",
+   "section": "items",
+   "tags": [
+    "SpellBlock",
+    "Boots",
+    "Tenacity",
+    "MagicResist"
+   ],
+   "verification": "verified",
    "gameData": null,
    "addedLater": false
   },

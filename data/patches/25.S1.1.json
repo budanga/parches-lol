@@ -142,34 +142,9 @@
    "sectionId": "patch-fearless-draft",
    "midPatch": true,
    "entity": {
-    "kind": "none",
-    "id": null,
-    "name": "Trituradoras de Malla"
-   },
-   "part": null,
-   "partTitle": null,
-   "spellKey": null,
-   "tag": null,
-   "kind": "text",
-   "attribute": null,
-   "before": null,
-   "after": null,
-   "text": "Trituradoras de Malla",
-   "id": "96ddd4367ed2",
-   "section": "systems",
-   "tags": [],
-   "verification": "unchecked",
-   "gameData": null,
-   "addedLater": false
-  },
-  {
-   "sectionTitle": "Actualizaciones dentro de la versión",
-   "sectionId": "patch-fearless-draft",
-   "midPatch": true,
-   "entity": {
-    "kind": "none",
-    "id": null,
-    "name": "Trituradoras de Malla"
+    "kind": "item",
+    "id": "3173",
+    "name": "Trituradoras Aceradas"
    },
    "part": null,
    "partTitle": null,
@@ -180,9 +155,14 @@
    "before": "10-140 (según el nivel) + 4% de Vida Máxima",
    "after": "10- 120 (según el nivel) + 4% de Vida Máxima",
    "text": "Monto de escudo: 10-140 (según el nivel) + 4% de Vida Máxima ⇒ 10- 120 (según el nivel) + 4% de Vida Máxima",
-   "id": "8fb20856419e",
-   "section": "systems",
-   "tags": [],
+   "id": "91d4171b6f23",
+   "section": "items",
+   "tags": [
+    "SpellBlock",
+    "Boots",
+    "Tenacity",
+    "MagicResist"
+   ],
    "verification": "unchecked",
    "gameData": null,
    "addedLater": false
@@ -192,9 +172,9 @@
    "sectionId": "patch-fearless-draft",
    "midPatch": true,
    "entity": {
-    "kind": "none",
-    "id": null,
-    "name": "Trituradoras de Malla"
+    "kind": "item",
+    "id": "3173",
+    "name": "Trituradoras Aceradas"
    },
    "part": null,
    "partTitle": null,
@@ -205,9 +185,14 @@
    "before": "12",
    "after": "15 seg",
    "text": "Enfriamiento del escudo: 12 ⇒ 15 seg",
-   "id": "be093309b536",
-   "section": "systems",
-   "tags": [],
+   "id": "4c6a7a1b0ab2",
+   "section": "items",
+   "tags": [
+    "SpellBlock",
+    "Boots",
+    "Tenacity",
+    "MagicResist"
+   ],
    "verification": "unchecked",
    "gameData": null,
    "addedLater": false

@@ -1060,9 +1060,9 @@
    "sectionId": "patch-items",
    "midPatch": false,
    "entity": {
-    "kind": "none",
-    "id": null,
-    "name": "Trituradoras de Malla"
+    "kind": "item",
+    "id": "3173",
+    "name": "Trituradoras Aceradas"
    },
    "part": null,
    "partTitle": null,
@@ -1073,10 +1073,15 @@
    "before": "30",
    "after": "25",
    "text": "Resistencia Mágica: 30 ⇒ 25",
-   "id": "e142632c131a",
+   "id": "555cc1d2f2fd",
    "section": "items",
-   "tags": [],
-   "verification": "unchecked",
+   "tags": [
+    "SpellBlock",
+    "Boots",
+    "Tenacity",
+    "MagicResist"
+   ],
+   "verification": "verified",
    "gameData": null,
    "addedLater": false
   },

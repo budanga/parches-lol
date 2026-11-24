@@ -1,6 +1,6 @@
 {
  "schemaVersion": 1,
- "updatedAt": "2026-11-23T22:20:22.123Z",
+ "updatedAt": "2026-11-24T00:53:20.243Z",
  "patches": [
   {
    "patch": "26.23",
@@ -747,9 +747,9 @@
    "url": "https://www.leagueoflegends.com/es-mx/news/game-updates/league-of-legends-patch-26-19-notes/",
    "publishedAt": "2026-09-22T18:00:00.000Z",
    "counts": {
-    "total": 329,
+    "total": 331,
     "verified": 13,
-    "unchecked": 316,
+    "unchecked": 318,
     "mismatch": 0
    },
    "changed": [
@@ -900,6 +900,30 @@
       "Fighter",
       "Tank"
      ]
+    },
+    {
+     "kind": "item",
+     "id": "3865",
+     "name": "Mapamundi",
+     "tags": [
+      "Health",
+      "ManaRegen",
+      "Vision",
+      "GoldPer",
+      "Lane"
+     ]
+    },
+    {
+     "kind": "item",
+     "id": "3866",
+     "name": "Brújula Rúnica",
+     "tags": [
+      "SpellDamage",
+      "ManaRegen",
+      "Vision",
+      "GoldPer",
+      "Lane"
+     ]
     }
    ]
   },
@@ -1029,9 +1053,9 @@
    "url": "https://www.leagueoflegends.com/es-mx/news/game-updates/league-of-legends-patch-26-17-notes/",
    "publishedAt": "2026-08-25T18:00:00.000Z",
    "counts": {
-    "total": 286,
+    "total": 288,
     "verified": 14,
-    "unchecked": 272,
+    "unchecked": 274,
     "mismatch": 0
    },
    "changed": [
@@ -1189,8 +1213,8 @@
    "publishedAt": "2026-08-11T18:00:00.000Z",
    "counts": {
     "total": 385,
-    "verified": 14,
-    "unchecked": 371,
+    "verified": 15,
+    "unchecked": 370,
     "mismatch": 0
    },
    "changed": [
@@ -1326,6 +1350,17 @@
      "tags": [
       "Health",
       "Armor"
+     ]
+    },
+    {
+     "kind": "item",
+     "id": "3173",
+     "name": "Trituradoras Aceradas",
+     "tags": [
+      "SpellBlock",
+      "Boots",
+      "Tenacity",
+      "MagicResist"
      ]
     },
     {
@@ -2163,8 +2198,8 @@
    "url": "https://www.leagueoflegends.com/es-mx/news/game-updates/league-of-legends-patch-26-10-notes/",
    "publishedAt": "2026-05-12T18:00:00.000Z",
    "counts": {
-    "total": 225,
-    "verified": 23,
+    "total": 227,
+    "verified": 25,
     "unchecked": 202,
     "mismatch": 0
    },
@@ -2294,6 +2329,26 @@
       "SpellBlock",
       "Armor",
       "Lane"
+     ]
+    },
+    {
+     "kind": "item",
+     "id": "3008",
+     "name": "Grebas Glotonas",
+     "tags": [
+      "LifeSteal",
+      "SpellVamp",
+      "Boots"
+     ]
+    },
+    {
+     "kind": "item",
+     "id": "3168",
+     "name": "Camino Inmortal",
+     "tags": [
+      "LifeSteal",
+      "SpellVamp",
+      "Boots"
      ]
     },
     {
@@ -3685,6 +3740,17 @@
       "Armor",
       "Boots"
      ]
+    },
+    {
+     "kind": "item",
+     "id": "3173",
+     "name": "Trituradoras Aceradas",
+     "tags": [
+      "SpellBlock",
+      "Boots",
+      "Tenacity",
+      "MagicResist"
+     ]
     }
    ]
   },
@@ -3976,6 +4042,17 @@
       "AttackSpeed",
       "LifeSteal",
       "NonbootsMovement"
+     ]
+    },
+    {
+     "kind": "item",
+     "id": "3173",
+     "name": "Trituradoras Aceradas",
+     "tags": [
+      "SpellBlock",
+      "Boots",
+      "Tenacity",
+      "MagicResist"
      ]
     },
     {
@@ -7429,8 +7506,8 @@
    "publishedAt": "2025-04-29T18:00:00.000Z",
    "counts": {
     "total": 247,
-    "verified": 21,
-    "unchecked": 226,
+    "verified": 22,
+    "unchecked": 225,
     "mismatch": 0
    },
    "changed": [
@@ -7549,6 +7626,14 @@
     },
     {
      "kind": "item",
+     "id": "3010",
+     "name": "Botas Simbióticas",
+     "tags": [
+      "Boots"
+     ]
+    },
+    {
+     "kind": "item",
      "id": "6657",
      "name": "Vara de las Edades",
      "tags": [
@@ -7566,6 +7651,17 @@
      "tags": [
       "Armor",
       "Boots"
+     ]
+    },
+    {
+     "kind": "item",
+     "id": "3173",
+     "name": "Trituradoras Aceradas",
+     "tags": [
+      "SpellBlock",
+      "Boots",
+      "Tenacity",
+      "MagicResist"
      ]
     },
     {
@@ -8648,6 +8744,14 @@
     },
     {
      "kind": "item",
+     "id": "3010",
+     "name": "Botas Simbióticas",
+     "tags": [
+      "Boots"
+     ]
+    },
+    {
+     "kind": "item",
      "id": "2502",
      "name": "Desesperación Eterna",
      "tags": [
@@ -9263,9 +9367,9 @@
    "url": "https://www.leagueoflegends.com/es-mx/news/game-updates/patch-25-s1-1-notes/",
    "publishedAt": "2025-01-07T19:00:00.000Z",
    "counts": {
-    "total": 188,
+    "total": 187,
     "verified": 9,
-    "unchecked": 179,
+    "unchecked": 178,
     "mismatch": 0
    },
    "changed": [
@@ -9276,6 +9380,17 @@
      "tags": [
       "Armor",
       "Boots"
+     ]
+    },
+    {
+     "kind": "item",
+     "id": "3173",
+     "name": "Trituradoras Aceradas",
+     "tags": [
+      "SpellBlock",
+      "Boots",
+      "Tenacity",
+      "MagicResist"
      ]
     },
     {

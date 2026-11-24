@@ -5,6 +5,15 @@ export interface NameIndex {
   rune(name: string): Named | null;
 }
 
+/**
+ * Items the patch notes call by another name than Data Dragon (es_MX). Checked against the English
+ * names: Symbiotic Soles is 3010 "Botas Simbióticas", Chainlaced Crushers is 3173 "Trituradoras Aceradas".
+ */
+const ITEM_ALIASES: Record<string, string> = {
+  suelassimbioticas: "Botas Simbióticas",
+  trituradorasdemalla: "Trituradoras Aceradas",
+};
+
 export function normalizeName(s: string): string {
   return s.normalize("NFD").replace(/[̀-ͯ]/g, "").toLowerCase().replace(/[\s'’.\-&]/g, "");
 }
@@ -38,7 +47,10 @@ export function buildNameIndex(championJson: any, itemJson: any, runesJson: any)
     },
     item(s) {
       const img = /\/img\/item\/(\d+)\.png/.exec(s);
-      if (!img) return items.get(normalizeName(s)) ?? null;
+      if (!img) {
+        const key = normalizeName(s);
+        return items.get(key) ?? (ITEM_ALIASES[key] ? items.get(normalizeName(ITEM_ALIASES[key])) ?? null : null);
+      }
       const n = itemById.get(img[1]);
       return n && !riftIds.has(n.id) ? items.get(normalizeName(n.name)) ?? n : n ?? null;
     },
