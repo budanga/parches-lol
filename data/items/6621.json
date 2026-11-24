@@ -23,6 +23,7 @@
      "part": null,
      "partTitle": null,
      "spellKey": null,
+     "tag": null,
      "kind": "stat",
      "attribute": "Poder de Habilidad por cada 100% de Regeneración de Maná básica",
      "before": "10",

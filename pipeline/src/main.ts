@@ -14,7 +14,7 @@ import type { Change, FetchText, IndexFile, NewsItem, PatchFile, State } from ".
 import { cdragonChampionUrl, verifyAbility } from "./verify-abilities.ts";
 import { verifyStat } from "./verify-stats.ts";
 
-export const PARSER_VERSION = 5;
+export const PARSER_VERSION = 6;
 const RIOT = "https://www.leagueoflegends.com/es-mx";
 const DD = "https://ddragon.leagueoflegends.com";
 const is404 = (err: unknown) => err instanceof Error && /HTTP 404/.test(err.message);

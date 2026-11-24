@@ -22,6 +22,8 @@ data class Change(
     val part: String? = null,
     val partTitle: String? = null,
     val spellKey: String? = null,
+    /** Official heading tag ("NUEVO", "ELIMINADO", "REDISEÑADO"…), if the block had one. */
+    val tag: String? = null,
     val kind: String,
     val attribute: String? = null,
     val before: String? = null,

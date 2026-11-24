@@ -108,3 +108,10 @@ test("I3: <strong>Q: …</strong> suelto marca la habilidad", () => {
   const c = parsePatchNotes(fixture("patch-25-18.html"), names).find(c => c.text.startsWith("Enfriamiento: 10 / 9 / 8 / 7 / 6 seg"))!;
   assert.deepEqual([c.part, c.partTitle], ["Q", "Q: Onda Sónica"]);
 });
+
+test("etiquetas de los títulos ([NUEVO], [REDISEÑADO]) se conservan en cada línea", () => {
+  const c269 = parsePatchNotes(fixture("patch-26-9.html"), names);
+  assert.equal(c269.find(c => c.text === "Letalidad: 18 ⇒ 10")!.tag, "REDISEÑADO");
+  assert.equal(c269.find(c => c.text === "Resistencia Mágica: 10")!.tag, "NUEVO");
+  assert.equal(c2623.find(c => c.entity.id === "Azir" && c.part === "base")!.tag, null);
+});

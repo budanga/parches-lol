@@ -23,6 +23,7 @@
      "part": null,
      "partTitle": null,
      "spellKey": null,
+     "tag": null,
      "kind": "stat",
      "attribute": "Enfriamiento de Salvavidas",
      "before": "90 seg",

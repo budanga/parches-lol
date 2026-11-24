@@ -27,6 +27,7 @@
      "part": null,
      "partTitle": null,
      "spellKey": null,
+     "tag": null,
      "kind": "stat",
      "attribute": "Tasa de Poder de Habilidad",
      "before": "20%",

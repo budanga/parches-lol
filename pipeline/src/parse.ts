@@ -9,6 +9,8 @@ const NO_ENTITY: Entity = { kind: "none", id: null, name: "" };
 const PART_RE = /^(Pasiva|Q|W|E|R)\s*:/i;
 /** "[REDISEÑADO] Daga de Statikk" → "Daga de Statikk" for name lookups. */
 const stripTag = (s: string): string => s.replace(/^\s*\[[^\]]*\]\s*/, "");
+/** "[REDISEÑADO] Daga de Statikk" → "REDISEÑADO" (the official tag, upper case), else null. */
+const tagOf = (s: string): string | null => /^\s*\[([^\]]+)\]/.exec(s)?.[1].trim().toUpperCase() ?? null;
 const MARKER_RE = /^(NUEVO|ELIMINADO)\s*:?\s*(.*)$/i;
 
 export const clean = (s: string): string => s.replace(/ /g, " ").replace(/\s+/g, " ").trim();
@@ -23,10 +25,13 @@ export function parsePatchNotes(html: string, names: NameIndex): RawChange[] {
   let entity: Entity = NO_ENTITY;
   let entityBlock: Element | null = null;
   let entityFromH3 = false;
+  let entityTag: string | null = null;
   let part: string | null = null, partTitle: string | null = null, spellKey: string | null = null;
 
   const resetPart = () => { part = null; partTitle = null; spellKey = null; };
-  const setEntity = (e: Entity, block: Element | null, fromH3: boolean) => {
+  /** [heading] is the visible title, kept only for its "[NUEVO]"-style tag. */
+  const setEntity = (e: Entity, block: Element | null, fromH3: boolean, heading?: string) => {
+    entityTag = heading ? tagOf(heading) : null;
     entity = e; entityBlock = block; entityFromH3 = fromH3; resetPart();
   };
   const setPart = (title: string, el: Element | null) => {
@@ -57,7 +62,7 @@ export function parsePatchNotes(html: string, names: NameIndex): RawChange[] {
   };
 
   const emit = (fields: Pick<RawChange, "kind" | "attribute" | "before" | "after" | "text">, ent: Entity = entity) => {
-    out.push({ sectionTitle, sectionId, midPatch, entity: ent, part, partTitle, spellKey, ...fields });
+    out.push({ sectionTitle, sectionId, midPatch, entity: ent, part, partTitle, spellKey, tag: entityTag, ...fields });
   };
 
   $("h2, h3, h4, li, p, strong").each((_, el) => {
@@ -88,11 +93,11 @@ export function parsePatchNotes(html: string, names: NameIndex): RawChange[] {
       const t = clean($el.text());
       if (!t) return;
       const e = resolve(t, ["champion", "item"]);
-      if (e) setEntity(e, block, false);
+      if (e) setEntity(e, block, false, t);
       else if (PART_RE.test(t)) setPart(t, null);
       else if (entityFromH3) { part = t; partTitle = t; spellKey = null; }
       // An unknown heading must not leave the previous champion/item in charge of the lines below.
-      else setEntity({ kind: "none", id: null, name: t }, block, false);
+      else setEntity({ kind: "none", id: null, name: stripTag(t) }, block, false, t);
       return;
     }
 
@@ -100,8 +105,8 @@ export function parsePatchNotes(html: string, names: NameIndex): RawChange[] {
     if (el.tagName === "h3" && $el.hasClass("change-title")) {
       const fromImg = block ? resolveHeading($(block).find("p").first().get(0) ?? el, false) : null;
       const e = fromImg ?? resolve(clean($el.text()), ["champion", "item", "rune"])
-        ?? { kind: "none" as const, id: null, name: clean($el.text()) };
-      setEntity(e, block, true);
+        ?? { kind: "none" as const, id: null, name: stripTag(clean($el.text())) };
+      setEntity(e, block, true, clean($el.text()));
       return;
     }
 
@@ -109,7 +114,7 @@ export function parsePatchNotes(html: string, names: NameIndex): RawChange[] {
     if (el.tagName === "h4" || el.tagName === "h3") {
       const title = clean($el.text());
       const asEntity = resolveHeading(el, !entityFromH3);
-      if (asEntity) { setEntity(asEntity, block, false); return; }
+      if (asEntity) { setEntity(asEntity, block, false, title); return; }
       if (/^Estad[ií]sticas b[aá]s(e|icas)$/i.test(title)) {
         part = "base"; partTitle = title; spellKey = null;
       } else if (PART_RE.test(title)) {
@@ -133,8 +138,8 @@ export function parsePatchNotes(html: string, names: NameIndex): RawChange[] {
     const kids = own.children();
     if (el.tagName === "p" && kids.length === 1 && kids.first().is("strong") && clean(kids.first().text()) === text) {
       const e = resolve(text, ["champion", "item"]);
-      if (e) { setEntity(e, block, false); return; }
-      if (!entityFromH3) setEntity({ kind: "none", id: null, name: text }, block, false);
+      if (e) { setEntity(e, block, false, text); return; }
+      if (!entityFromH3) setEntity({ kind: "none", id: null, name: stripTag(text) }, block, false, text);
     }
 
     const marker = MARKER_RE.exec(text);

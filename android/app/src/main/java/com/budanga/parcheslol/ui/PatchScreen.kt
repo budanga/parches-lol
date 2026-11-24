@@ -22,7 +22,6 @@ import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.collectAsState
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableIntStateOf
-import androidx.compose.runtime.mutableStateMapOf
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
 import androidx.compose.runtime.rememberCoroutineScope
@@ -40,7 +39,6 @@ import com.budanga.parcheslol.data.PatchFile
 import com.budanga.parcheslol.data.Prefs
 import com.budanga.parcheslol.data.Repository
 import com.budanga.parcheslol.data.valueOrNull
-import com.budanga.parcheslol.domain.DEFAULT_ADCS
 import com.budanga.parcheslol.domain.Group
 import com.budanga.parcheslol.domain.RowItem
 import com.budanga.parcheslol.domain.rowsFor
@@ -49,7 +47,12 @@ import com.budanga.parcheslol.domain.allGroups
 import com.budanga.parcheslol.domain.filterGroups
 import androidx.compose.material.icons.outlined.Search
 import com.budanga.parcheslol.domain.shortDate
+import com.budanga.parcheslol.data.Catalog
+import kotlinx.coroutines.flow.map
 import kotlinx.coroutines.launch
+
+/** A preference that has been read (its value may itself be null, meaning "default"). */
+private class Pref<T>(val value: T)
 
 /** Top bar shared by the detail screens: back arrow, serif title, optional mono date. */
 @Composable
@@ -91,23 +94,30 @@ fun PatchScreen(
         if (fresh != Loaded.Offline || state == null) state = fresh
         if (state?.valueOrNull != null) onLoaded()
     }
-    val myAdcs by prefs.myAdcs.collectAsState(initial = DEFAULT_ADCS)
-    val myItems by prefs.myItems.collectAsState(initial = null)
+    // null until read: the list waits for them, so a kept scroll position lands on the same rows.
+    val myAdcs by prefs.myAdcs.collectAsState(initial = null)
+    val itemsPref by remember { prefs.myItems.map { Pref(it) } }.collectAsState(initial = null)
+    var catalog by remember { mutableStateOf<Catalog?>(null) }
+    var catalogRead by remember { mutableStateOf(false) }
+    LaunchedEffect(Unit) {
+        catalog = repo.cachedCatalog()
+        catalogRead = true
+        if (catalog == null) catalog = repo.catalog().valueOrNull
+    }
+    val myItems = itemsPref?.value
     // Names of the checked items, so an item whose id changed between versions still matches.
-    var itemNames by remember { mutableStateOf<Set<String>>(emptySet()) }
-    LaunchedEffect(myItems) {
-        val ids = myItems
-        itemNames = if (ids == null) emptySet()
-        else repo.catalog().valueOrNull?.items.orEmpty().filter { it.id in ids }.map { it.name }.toSet()
+    val itemNames = remember(myItems, catalog) {
+        myItems?.let { ids -> catalog?.items.orEmpty().filter { it.id in ids }.map { it.name }.toSet() }.orEmpty()
     }
     var showAll by rememberSaveable { mutableStateOf(false) }
     var searching by rememberSaveable { mutableStateOf(false) }
     var query by rememberSaveable { mutableStateOf("") }
-    val expanded = remember { mutableStateMapOf<String, Boolean>() }
+    var expanded by rememberSaveable { mutableStateOf(emptySet<String>()) }
     val once = remember(patchId) { PlayOnce() }
-    // Each patch starts at the top: the scroll position belongs to this patch only.
-    val listState = remember(patchId) { LazyListState() }
+    // Kept while you look at a champion and come back; another patch starts at the top.
+    val listState = rememberSaveable(patchId, saver = LazyListState.Saver) { LazyListState() }
     val patch = state?.valueOrNull
+    val ready = patch != null && myAdcs != null && itemsPref != null && catalogRead
 
     Column(Modifier.fillMaxSize().padding(horizontal = 12.dp)) {
         DetailBar(patchId, patch?.let { shortDate(it.publishedAt) }, onBack, action = {
@@ -116,7 +126,7 @@ fun PatchScreen(
             }
         })
         if (searching) {
-            SearchField(query, { query = it }, stringResource(R.string.search_patch))
+            SearchField(query, { query = it }, stringResource(R.string.search_patch), autoFocus = true)
             Spacer(Modifier.height(8.dp))
         }
         Segmented(
@@ -126,8 +136,11 @@ fun PatchScreen(
         when {
             state == Loaded.Offline -> OfflineMessage { scope.launch { reload++ } }
             state == Loaded.Missing -> Text(stringResource(R.string.patch_missing), style = Type.BodyMuted, modifier = Modifier.padding(vertical = 16.dp))
-            patch != null -> {
-                val base = if (showAll) allGroups(patch) else adcGroups(patch, myAdcs, myItems, itemNames)
+            ready -> {
+                patch!!
+                val base = if (showAll) allGroups(patch) else adcGroups(patch, myAdcs!!, myItems, itemNames)
+                // Same picture version as the home screen, so portraits already loaded there are reused.
+                val portraits = catalog?.ddragonVersion ?: patch.ddragonVersion
                 val groups = filterGroups(base, query)
                 LazyColumn(Modifier.fillMaxSize(), state = listState) {
                     if (query.isNotBlank() && groups.isEmpty()) {
@@ -138,9 +151,10 @@ fun PatchScreen(
                     items(groups, key = { it.key }) { group ->
                         GroupBlock(
                             group = group,
-                            ddragonVersion = patch.ddragonVersion,
-                            open = !group.collapsed || expanded[group.key] == true,
-                            onToggle = { expanded[group.key] = expanded[group.key] != true },
+                            ddragonVersion = portraits,
+                            fallbackVersion = patch.ddragonVersion,
+                            open = !group.collapsed || group.key in expanded,
+                            onToggle = { expanded = if (group.key in expanded) expanded - group.key else expanded + group.key },
                             animateNumbers = animateNumbers,
                             once = once,
                             onOpenEntity = onOpenEntity,
@@ -162,6 +176,7 @@ fun GroupBlock(
     animateNumbers: Boolean,
     once: PlayOnce,
     onOpenEntity: (com.budanga.parcheslol.data.Entity) -> Unit = {},
+    fallbackVersion: String? = null,
 ) {
     Column {
         val title = if (group.key == "global") stringResource(R.string.global) else group.title
@@ -175,15 +190,16 @@ fun GroupBlock(
             val entity = group.entity
             // Champion and item names open their history.
             val tappable = entity?.id != null && (entity.kind == "champion" || entity.kind == "item")
+            val tag = group.changes.firstNotNullOfOrNull { it.tag }
             Column(if (tappable) Modifier.clickable { onOpenEntity(entity!!) } else Modifier) {
-                EntityHeader(entity, title, ddragonVersion)
+                EntityHeader(entity, title, ddragonVersion, trailing = tag?.let { { TagBadge(it) } }, fallbackVersion = fallbackVersion)
             }
         }
         if (open) {
             var previousWasLine = false
             rowsFor(group).forEach { row ->
                 when (row) {
-                    is RowItem.Header -> { SubHeader(row, ddragonVersion); previousWasLine = false }
+                    is RowItem.Header -> { SubHeader(row, ddragonVersion, fallbackVersion); previousWasLine = false }
                     is RowItem.Line -> {
                         if (previousWasLine) RowDivider()
                         val change = row.change
@@ -199,7 +215,7 @@ fun GroupBlock(
 
 /** Section, block and sub-part labels inside mixed groups (Global, Otros modos, Cosméticos). */
 @Composable
-fun SubHeader(row: RowItem.Header, ddragonVersion: String) {
+fun SubHeader(row: RowItem.Header, ddragonVersion: String, fallbackVersion: String? = null) {
     when (row.level) {
         1 -> Text(row.text, style = Type.serif(15), modifier = Modifier.padding(top = 12.dp, bottom = 2.dp))
         2 -> Row(
@@ -207,8 +223,9 @@ fun SubHeader(row: RowItem.Header, ddragonVersion: String) {
             verticalAlignment = Alignment.CenterVertically,
             horizontalArrangement = androidx.compose.foundation.layout.Arrangement.spacedBy(8.dp),
         ) {
-            if (row.entity != null) Avatar(row.entity, row.text, ddragonVersion, 20.dp)
+            if (row.entity != null) Avatar(row.entity, row.text, ddragonVersion, 20.dp, fallbackVersion)
             Text(row.text, style = Type.Attribute)
+            row.tag?.let { TagBadge(it) }
         }
         else -> Text(row.text, style = Type.Label, modifier = Modifier.padding(top = 6.dp))
     }

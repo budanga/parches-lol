@@ -35,3 +35,6 @@ fun mismatchText(change: Change): String? {
 
 /** What screen readers announce for the inline verification icon. */
 fun verificationAltText(verification: String): String = if (verification == "mismatch") "⚠" else "✓"
+
+/** Only a difference with the game gets an icon; verified lines stay clean. */
+fun showsVerificationIcon(verification: String): Boolean = verification == "mismatch"

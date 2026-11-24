@@ -25,6 +25,7 @@ class Prefs(private val ds: DataStore<Preferences>) {
         val revealed = stringSetPreferencesKey("revealed_patches")
         val notified = stringSetPreferencesKey("notified_patches")
         val lastNews = stringPreferencesKey("last_news_url")
+        val theme = stringPreferencesKey("theme")
         val animTitle = booleanPreferencesKey("anim_title")
         val animTransition = booleanPreferencesKey("anim_transition")
         val animNumbers = booleanPreferencesKey("anim_numbers")
@@ -38,6 +39,10 @@ class Prefs(private val ds: DataStore<Preferences>) {
     val revealedPatches: Flow<Set<String>> = ds.data.map { it[K.revealed] ?: emptySet() }
     val notifiedPatches: Flow<Set<String>> = ds.data.map { it[K.notified] ?: emptySet() }
     val lastNewsUrl: Flow<String?> = ds.data.map { it[K.lastNews] }
+
+    /** "system", "light" or "dark". */
+    val theme: Flow<String> = ds.data.map { it[K.theme] ?: "system" }
+    suspend fun setTheme(mode: String) { ds.edit { it[K.theme] = mode } }
 
     /** Animation switches (Ajustes → Animaciones), all on by default. */
     val animTitle: Flow<Boolean> = ds.data.map { it[K.animTitle] ?: true }

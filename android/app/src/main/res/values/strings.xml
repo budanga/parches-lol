@@ -23,9 +23,16 @@
     <string name="no_history">Sin cambios registrados desde 2025.</string>
     <string name="my_adcs">Favoritos</string>
     <string name="my_items">Objetos favoritos</string>
+    <string name="add_champion">Agregar campeón…</string>
+    <string name="add_item">Agregar objeto…</string>
+    <string name="no_favorites">Todavía no elegiste ninguno. Escribí arriba para agregar.</string>
     <string name="news_alerts">Avisos de noticias</string>
     <string name="reset">Restablecer</string>
     <string name="animations">Animaciones</string>
+    <string name="theme">Tema</string>
+    <string name="theme_system">Sistema</string>
+    <string name="theme_light">Claro</string>
+    <string name="theme_dark">Oscuro</string>
     <string name="anim_title">Título al abrir la app</string>
     <string name="anim_transition">Transición al entrar a un parche</string>
     <string name="anim_numbers">Descifrado de los valores que cambian</string>

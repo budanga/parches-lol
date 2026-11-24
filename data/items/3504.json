@@ -25,6 +25,7 @@
      "part": null,
      "partTitle": null,
      "spellKey": null,
+     "tag": null,
      "kind": "stat",
      "attribute": "Poder de curaciones y escudos",
      "before": "12%",

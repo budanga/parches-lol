@@ -77,7 +77,7 @@ fun splitModes(entry: com.budanga.parcheslol.data.HistoryEntry): HistoryView =
 
 /** A row of a group: a sub-header (1 = section, 2 = champion/item/named block, 3 = sub-part) or a change. */
 sealed interface RowItem {
-    data class Header(val text: String, val level: Int, val entity: Entity? = null) : RowItem
+    data class Header(val text: String, val level: Int, val entity: Entity? = null, val tag: String? = null) : RowItem
     data class Line(val change: Change) : RowItem
 }
 
@@ -106,7 +106,7 @@ fun rowsFor(group: Group): List<RowItem> {
         if (entityChanged && genericPart && p != part) { out += RowItem.Header(p!!, 3); part = p }
         if (entityChanged) {
             if (c.entity.name.isNotBlank() && c.entity.name != c.sectionTitle)
-                out += RowItem.Header(c.entity.name, 2, c.entity.takeIf { it.id != null })
+                out += RowItem.Header(c.entity.name, 2, c.entity.takeIf { it.id != null }, c.tag)
             entityKey = key
         }
         if (genericPart && p != part) out += RowItem.Header(p!!, 3)

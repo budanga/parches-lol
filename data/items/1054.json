@@ -24,6 +24,7 @@
      "part": null,
      "partTitle": null,
      "spellKey": null,
+     "tag": null,
      "kind": "stat",
      "attribute": "Curación máxima tras recibir daño",
      "before": "45 (cuerpo a cuerpo) / 30 (a distancia)",

@@ -25,6 +25,7 @@
      "part": null,
      "partTitle": null,
      "spellKey": null,
+     "tag": null,
      "kind": "stat",
      "attribute": "Duración de acumulaciones de Ataque Furioso",
      "before": "3 seg",

@@ -23,6 +23,7 @@
      "part": null,
      "partTitle": null,
      "spellKey": null,
+     "tag": null,
      "kind": "stat",
      "attribute": "Porcentaje de amplificación de daño contra monstruos",
      "before": "50%",

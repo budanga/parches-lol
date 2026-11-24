@@ -10,6 +10,7 @@ export interface RawChange {
   part: string | null;
   partTitle: string | null;
   spellKey: string | null;
+  tag: string | null;                // official heading tag: "NUEVO", "ELIMINADO", "REDISEÑADO"…
   kind: "stat" | "new" | "removed" | "text";
   attribute: string | null;
   before: string | null;

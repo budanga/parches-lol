@@ -27,6 +27,7 @@
      "part": null,
      "partTitle": null,
      "spellKey": null,
+     "tag": null,
      "kind": "stat",
      "attribute": "Tasa de Armadura adicional del Espada Encantada",
      "before": "0%",

@@ -30,6 +30,7 @@ import androidx.compose.runtime.saveable.rememberSaveable
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.focus.focusRequester
 import androidx.compose.ui.graphics.SolidColor
 import androidx.compose.ui.platform.LocalUriHandler
 import androidx.compose.ui.res.stringResource
@@ -57,8 +58,11 @@ import androidx.compose.runtime.mutableStateMapOf
 
 /** Search field: input fill, 1 dp border that turns terracotta on focus. */
 @Composable
-fun SearchField(value: String, onChange: (String) -> Unit, placeholder: String) {
+fun SearchField(value: String, onChange: (String) -> Unit, placeholder: String, autoFocus: Boolean = false) {
     val interaction = remember { MutableInteractionSource() }
+    val focus = remember { androidx.compose.ui.focus.FocusRequester() }
+    // Opened by the search button: the cursor is already in the field, keyboard up.
+    if (autoFocus) LaunchedEffect(Unit) { focus.requestFocus() }
     val focused by interaction.collectIsFocusedAsState()
     val shape = RoundedCornerShape(10.dp)
     BasicTextField(
@@ -68,7 +72,7 @@ fun SearchField(value: String, onChange: (String) -> Unit, placeholder: String) 
         textStyle = Type.Body,
         cursorBrush = SolidColor(Ink.Accent),
         interactionSource = interaction,
-        modifier = Modifier.fillMaxWidth().background(Ink.Input, shape)
+        modifier = Modifier.fillMaxWidth().focusRequester(focus).background(Ink.Input, shape)
             .border(1.dp, if (focused) Ink.Accent else Ink.Line, shape).padding(horizontal = 12.dp, vertical = 11.dp),
         decorationBox = { inner ->
             Box { if (value.isEmpty()) Text(placeholder, style = Type.Body.copy(color = Ink.Faint)); inner() }
@@ -81,7 +85,12 @@ fun SearchField(value: String, onChange: (String) -> Unit, placeholder: String) 
 fun ChampionsScreen(repo: Repository, prefs: Prefs, onOpen: (String) -> Unit, onOpenItem: (String) -> Unit = {}) {
     var catalog by remember { mutableStateOf<Loaded<Catalog>?>(null) }
     var reload by remember { mutableIntStateOf(0) }
-    LaunchedEffect(reload) { catalog = repo.catalog() }
+    LaunchedEffect(reload) {
+        // Saved catalog first, then refresh: the list shows at once.
+        if (catalog == null) repo.cachedCatalog()?.let { catalog = Loaded.Cached(it) }
+        val fresh = repo.catalog()
+        if (fresh != Loaded.Offline || catalog == null) catalog = fresh
+    }
     val myAdcs by prefs.myAdcs.collectAsState(initial = DEFAULT_ADCS)
     var query by rememberSaveable { mutableStateOf("") }
     var showItems by rememberSaveable { mutableStateOf(false) }
@@ -153,7 +162,13 @@ fun ChampionScreen(id: String, repo: Repository, onBack: () -> Unit, kind: Strin
             else -> LazyColumn(Modifier.fillMaxSize()) {
                 items(data.entries, key = { it.patch }) { entry ->
                     Column {
-                        EntityHeader(null, entry.patch, version ?: "") { Text(shortDate(entry.publishedAt), style = Type.Date) }
+                        val tag = entry.changes.firstNotNullOfOrNull { it.tag }
+                        EntityHeader(null, entry.patch, version ?: "") {
+                            Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(8.dp)) {
+                                tag?.let { TagBadge(it) }
+                                Text(shortDate(entry.publishedAt), style = Type.Date)
+                            }
+                        }
                         val view = splitModes(entry)
                         view.rift.forEachIndexed { i, change ->
                             if (i > 0) RowDivider()

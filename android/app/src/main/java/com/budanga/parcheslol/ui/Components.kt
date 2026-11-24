@@ -20,7 +20,6 @@ import androidx.compose.foundation.text.InlineTextContent
 import androidx.compose.foundation.text.appendInlineContent
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.outlined.BarChart
-import androidx.compose.material.icons.outlined.Check
 import androidx.compose.material.icons.outlined.WarningAmber
 import androidx.compose.material3.Button
 import androidx.compose.material3.ButtonDefaults
@@ -45,12 +44,19 @@ import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import coil.compose.AsyncImage
+import coil.request.ImageRequest
+import androidx.compose.runtime.getValue
+import androidx.compose.runtime.mutableStateOf
+import androidx.compose.runtime.remember
+import androidx.compose.runtime.setValue
+import androidx.compose.ui.platform.LocalContext
 import com.budanga.parcheslol.R
 import com.budanga.parcheslol.data.Change
 import com.budanga.parcheslol.data.Entity
 import com.budanga.parcheslol.domain.Segment
 import com.budanga.parcheslol.domain.highlightAfter
 import com.budanga.parcheslol.domain.mismatchText
+import com.budanga.parcheslol.domain.showsVerificationIcon
 import com.budanga.parcheslol.domain.verificationAltText
 
 private const val CHECK_ID = "check"
@@ -62,16 +68,13 @@ fun afterLine(segments: List<Segment>, verification: String): AnnotatedString = 
         if (s.changed) withStyle(SpanStyle(color = Ink.Accent, fontWeight = FontWeight.Medium)) { append(s.text) }
         else append(s.text)
     }
-    if (verification == "verified" || verification == "mismatch") { append(" "); appendInlineContent(CHECK_ID, verificationAltText(verification)) }
+    if (showsVerificationIcon(verification)) { append(" "); appendInlineContent(CHECK_ID, verificationAltText(verification)) }
 }
 
 @Composable
 private fun verificationInline(verification: String): Map<String, InlineTextContent> = mapOf(
     CHECK_ID to InlineTextContent(Placeholder(14.sp, 14.sp, PlaceholderVerticalAlign.TextCenter)) {
-        if (verification == "verified")
-            Icon(Icons.Outlined.Check, stringResource(R.string.verified), tint = Ink.Success, modifier = Modifier.fillMaxSize())
-        else
-            Icon(Icons.Outlined.WarningAmber, stringResource(R.string.mismatch), tint = Ink.Warning, modifier = Modifier.fillMaxSize())
+        Icon(Icons.Outlined.WarningAmber, stringResource(R.string.mismatch), tint = Ink.Warning, modifier = Modifier.fillMaxSize())
     },
 )
 
@@ -110,7 +113,18 @@ fun ChangeLine(
                 else Text(line, style = Type.Data, inlineContent = inline)
                 mismatchText(change)?.let { Text(it, style = Type.Body.copy(fontSize = 12.sp, color = Ink.Warning)) }
             } else {
-                Text(change.text, style = Type.BodyMuted)
+                // "NUEVO: …" / "ELIMINADO …": the official word keeps its colour.
+                val marker = com.budanga.parcheslol.domain.leadingMarker(change.text)
+                if (marker == null) Text(change.text, style = Type.BodyMuted)
+                else {
+                    val c = tagColor(marker)
+                    val start = change.text.indexOf(marker)
+                    Text(buildAnnotatedString {
+                        append(change.text.substring(0, start))
+                        withStyle(SpanStyle(color = c, fontWeight = FontWeight.Medium)) { append(marker) }
+                        append(change.text.substring(start + marker.length))
+                    }, style = Type.BodyMuted)
+                }
             }
         }
     }
@@ -125,26 +139,41 @@ fun portraitUrl(entity: Entity?, ddragonVersion: String): String? {
     }
 }
 
-/** Round portrait from Data Dragon; the serif initial shows underneath while loading or if it fails. */
+/**
+ * Round portrait from Data Dragon; the serif initial shows underneath while loading or if it fails.
+ * Every size decodes the same full image, so one copy in memory serves every screen.
+ * [fallbackVersion]: tried when [ddragonVersion] has no picture (an item removed since).
+ */
 @Composable
-fun Avatar(entity: Entity?, name: String, ddragonVersion: String, size: Dp = 24.dp) {
+fun Avatar(entity: Entity?, name: String, ddragonVersion: String, size: Dp = 24.dp, fallbackVersion: String? = null) {
     Box(
         Modifier.size(size).clip(CircleShape).background(Ink.Input).border(1.dp, Ink.Line, CircleShape),
         contentAlignment = Alignment.Center,
     ) {
         Text(name.take(1), style = Type.serif((size.value * 0.5f).toInt(), 600).copy(color = Ink.Text2))
-        portraitUrl(entity, ddragonVersion)?.let {
-            AsyncImage(model = it, contentDescription = name, contentScale = ContentScale.Crop, modifier = Modifier.fillMaxSize())
-        }
+        val primary = portraitUrl(entity, ddragonVersion) ?: return@Box
+        var url by remember(primary) { mutableStateOf(primary) }
+        val context = LocalContext.current
+        val request = remember(url) { ImageRequest.Builder(context).data(url).size(coil.size.Size.ORIGINAL).build() }
+        AsyncImage(
+            model = request, contentDescription = name, contentScale = ContentScale.Crop, modifier = Modifier.fillMaxSize(),
+            onError = { portraitUrl(entity, fallbackVersion ?: return@AsyncImage)?.takeIf { it != url }?.let { url = it } },
+        )
     }
 }
 
 /** Portrait + serif name with the ink rule underneath, as in the "Registro" design. */
 @Composable
-fun EntityHeader(entity: Entity?, title: String, ddragonVersion: String, trailing: (@Composable () -> Unit)? = null) {
+fun EntityHeader(
+    entity: Entity?,
+    title: String,
+    ddragonVersion: String,
+    fallbackVersion: String? = null,
+    trailing: (@Composable () -> Unit)? = null,
+) {
     Column(Modifier.fillMaxWidth().padding(top = 14.dp)) {
         Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(9.dp)) {
-            if (entity != null) Avatar(entity, title, ddragonVersion)
+            if (entity != null) Avatar(entity, title, ddragonVersion, fallbackVersion = fallbackVersion)
             Text(title, style = Type.serif(18), modifier = Modifier.weight(1f))
             trailing?.invoke()
         }
@@ -201,4 +230,22 @@ fun Segmented(options: List<String>, selected: Int, onSelect: (Int) -> Unit) {
             }
         }
     }
+}
+
+@Composable
+fun tagColor(tag: String): Color = when (com.budanga.parcheslol.domain.tagRole(tag)) {
+    com.budanga.parcheslol.domain.TagRole.NEW -> Ink.Success
+    com.budanga.parcheslol.domain.TagRole.REMOVED -> Ink.Error
+    com.budanga.parcheslol.domain.TagRole.CHANGED -> Ink.Warning
+}
+
+/** The official tag word in its colour: green new, red removed, yellow reworked/updated. */
+@Composable
+fun TagBadge(tag: String) {
+    val c = tagColor(tag)
+    Text(
+        tag,
+        style = Type.Date.copy(color = c, fontSize = 10.sp, fontWeight = FontWeight.Medium, letterSpacing = 0.5.sp),
+        modifier = Modifier.clip(RoundedCornerShape(6.dp)).background(c.copy(alpha = 0.14f)).padding(horizontal = 6.dp, vertical = 2.dp),
+    )
 }

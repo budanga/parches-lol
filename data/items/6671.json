@@ -26,6 +26,7 @@
      "part": null,
      "partTitle": null,
      "spellKey": null,
+     "tag": null,
      "kind": "stat",
      "attribute": "Alcance máximo de desplazamiento",
      "before": "600",

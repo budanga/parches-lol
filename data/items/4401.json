@@ -24,6 +24,7 @@
      "part": null,
      "partTitle": null,
      "spellKey": null,
+     "tag": null,
      "kind": "stat",
      "attribute": "Vida cada 5",
      "before": "20",

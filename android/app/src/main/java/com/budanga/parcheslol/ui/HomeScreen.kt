@@ -95,7 +95,7 @@ fun HomeScreen(
             data == null -> OfflineMessage { reload++ }
             else -> LazyColumn(Modifier.fillMaxSize()) {
                 val first = data.patches.firstOrNull() ?: return@LazyColumn
-                item { LatestPatch(first, data, latest, myAdcs, myItems, onOpenPatch, wrapRow) }
+                item { LatestPatch(first, data, latest, myAdcs, myItems, onOpenPatch, wrapRow, catalog?.ddragonVersion) }
                 items(data.patches.drop(1), key = { it.patch }) { p ->
                     val ids = myItems
                     val names = ids?.let { set -> catalog?.items?.filter { it.id in set }?.map { it.name }?.toSet() }.orEmpty()
@@ -124,6 +124,7 @@ private fun LatestPatch(
     myItems: Set<String>?,
     onOpenPatch: (String) -> Unit,
     wrapRow: RowWrapper,
+    portraitVersion: String? = null,
 ) {
     wrapRow(summary.patch) {
         Column(Modifier.fillMaxWidth().clickable { onOpenPatch(summary.patch) }.padding(top = 14.dp, bottom = 16.dp)) {
@@ -135,7 +136,7 @@ private fun LatestPatch(
             val champions = latest?.let { p -> adcGroups(p, myAdcs, myItems).filter { it.entity?.kind == "champion" } }.orEmpty()
             if (champions.isNotEmpty()) {
                 Row(horizontalArrangement = Arrangement.spacedBy(6.dp), modifier = Modifier.padding(vertical = 6.dp)) {
-                    champions.forEach { g -> Avatar(g.entity, g.title, latest!!.ddragonVersion) }
+                    champions.forEach { g -> Avatar(g.entity, g.title, portraitVersion ?: latest!!.ddragonVersion, fallbackVersion = latest!!.ddragonVersion) }
                 }
             }
             runCatching { updatedText(Instant.parse(index.updatedAt), Instant.now()) }.getOrNull()?.let {

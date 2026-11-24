@@ -64,6 +64,7 @@ import com.budanga.parcheslol.data.DATA_BASE_URL
 import com.budanga.parcheslol.data.Prefs
 import com.budanga.parcheslol.data.Repository
 import com.budanga.parcheslol.ui.ArchiveTheme
+import com.budanga.parcheslol.ui.isDarkTheme
 import com.budanga.parcheslol.ui.ChampionScreen
 import com.budanga.parcheslol.ui.ChampionsScreen
 import com.budanga.parcheslol.ui.HomeScreen
@@ -73,6 +74,7 @@ import com.budanga.parcheslol.ui.PatchScreen
 import com.budanga.parcheslol.ui.RowDivider
 import com.budanga.parcheslol.ui.SettingsScreen
 import com.budanga.parcheslol.ui.AnimationsScreen
+import com.budanga.parcheslol.ui.FavoritesScreen
 import java.io.File
 
 class MainActivity : ComponentActivity() {
@@ -101,7 +103,17 @@ class MainActivity : ComponentActivity() {
         if (Build.VERSION.SDK_INT >= 33 &&
             ContextCompat.checkSelfPermission(this, Manifest.permission.POST_NOTIFICATIONS) != PackageManager.PERMISSION_GRANTED
         ) registerForActivityResult(ActivityResultContracts.RequestPermission()) {}.launch(Manifest.permission.POST_NOTIFICATIONS)
-        setContent { ArchiveTheme { AppRoot(repo, prefs, pendingRoute) } }
+        setContent {
+            val mode by prefs.theme.collectAsState(initial = "system")
+            val dark = isDarkTheme(mode, androidx.compose.foundation.isSystemInDarkTheme())
+            // Status bar icons follow the theme: dark on paper, light on the dark archive.
+            LaunchedEffect(dark) {
+                val style = if (dark) SystemBarStyle.dark(android.graphics.Color.TRANSPARENT)
+                else SystemBarStyle.light(android.graphics.Color.TRANSPARENT, android.graphics.Color.TRANSPARENT)
+                enableEdgeToEdge(statusBarStyle = style, navigationBarStyle = style)
+            }
+            ArchiveTheme(dark) { AppRoot(repo, prefs, pendingRoute) }
+        }
     }
 }
 
@@ -173,10 +185,11 @@ fun AppRoot(repo: Repository, prefs: Prefs, pendingRoute: androidx.compose.runti
                 composable("patch/{id}") { back ->
                     val id = back.arguments?.getString("id")!!
                     // Animation 2: numbers decipher only the first time this patch is opened.
-                    var firstOpen by remember { mutableStateOf<Boolean?>(null) }
+                    // Saved with the screen: coming back from a champion draws the patch at once, scroll included.
+                    var firstOpen by androidx.compose.runtime.saveable.rememberSaveable { mutableStateOf<Boolean?>(null) }
                     LaunchedEffect(id) {
                         // Animation 2 only plays the first time, and only if its switch is on.
-                        firstOpen = id !in prefs.openedPatches.first() && prefs.animNumbers.first()
+                        if (firstOpen == null) firstOpen = id !in prefs.openedPatches.first() && prefs.animNumbers.first()
                     }
                     // Marked as opened only once it actually loads, so an offline attempt keeps the animation.
                     firstOpen?.let {
@@ -195,7 +208,13 @@ fun AppRoot(repo: Repository, prefs: Prefs, pendingRoute: androidx.compose.runti
                     ChampionScreen(back.arguments?.getString("id")!!, repo, onBack = { nav.popBackStack() })
                 }
                 composable("news") { NewsScreen(repo) }
-                composable("settings") { SettingsScreen(repo, prefs, onBack = { nav.popBackStack() }, onAnimations = { nav.navigate("animations") }) }
+                composable("settings") {
+                    SettingsScreen(repo, prefs, onBack = { nav.popBackStack() }, onAnimations = { nav.navigate("animations") },
+                        onFavorites = { kind -> nav.navigate("favorites/$kind") })
+                }
+                composable("favorites/{kind}") { back ->
+                    FavoritesScreen(back.arguments?.getString("kind")!!, repo, prefs, onBack = { nav.popBackStack() })
+                }
                 composable("animations") { AnimationsScreen(prefs, onBack = { nav.popBackStack() }) }
             }
         }

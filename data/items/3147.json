@@ -23,6 +23,7 @@
      "part": null,
      "partTitle": null,
      "spellKey": null,
+     "tag": null,
      "kind": "stat",
      "attribute": "Cantidad máxima de Antifaces Embrujados en el inventario",
      "before": "6",

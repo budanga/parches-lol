@@ -23,6 +23,7 @@
      "part": "W",
      "partTitle": "W: Furia Ebria",
      "spellKey": "GragasW",
+     "tag": null,
      "kind": "stat",
      "attribute": "Reducción de daño",
      "before": "10 / 12 / 14 / 16 / 18% (+4% por cada 100 de Poder de Habilidad)",
