@@ -8,19 +8,19 @@
   "category": "game-updates"
  },
  {
-  "title": "Actualización /dev: Temporada 1 de 2027",
-  "publishedAt": "2026-11-16T16:00:00.000Z",
-  "url": "https://www.youtube.com/watch?v=Gc2GREIr78Q",
-  "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/5e953669d4bd920a821caa10516f51b87205039a-1280x720.jpg?accountingTag=LoL",
-  "description": "Pabro y Meddler hablan de los cambios a la Grieta, Caos y Clasificatorias en enero de 2027.",
-  "category": "dev"
- },
- {
   "title": "RESUMEN: Actualización /dev de la Temporada 1 2027",
   "publishedAt": "2026-11-16T16:00:00.000Z",
   "url": "https://www.leagueoflegends.com/es-mx/news/dev/tldw-season-1-2027-dev-update---lol-website-article-lollol27-s1225r001",
   "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/84fbc0e4be52a8b62971ac58f3857eb79de03cba-1920x1080.png?accountingTag=LoL",
   "description": "Un breve resumen de los cambios que anunciamos en la actualización /dev de hoy.",
+  "category": "dev"
+ },
+ {
+  "title": "Actualización /dev: Temporada 1 de 2027",
+  "publishedAt": "2026-11-16T16:00:00.000Z",
+  "url": "https://www.youtube.com/watch?v=Gc2GREIr78Q",
+  "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/5e953669d4bd920a821caa10516f51b87205039a-1280x720.jpg?accountingTag=LoL",
+  "description": "Pabro y Meddler hablan de los cambios a la Grieta, Caos y Clasificatorias en enero de 2027.",
   "category": "dev"
  },
  {
